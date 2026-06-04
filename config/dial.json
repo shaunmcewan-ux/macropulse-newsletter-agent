@@ -1,0 +1,9 @@
+{
+  "phase": "BTC Accumulation",
+  "phase_summary": "BTC dominance holds at 57%; alts are sidelined ahead of Friday's NFP print.",
+  "active_zone": "BTC Accumulation",
+  "score": 58,
+  "_zones": ["Risk Off", "BTC Accumulation", "ALT Rotation", "Take Profit"],
+  "_score_note": "score (0-100) sets the pointer position on the gradient bar. Matches macropulse.uk dialStates pointer values: Risk Off~8, Hold~33, BTC Accumulation~58, ALT Rotation~82, Take Profit~95.",
+  "_note": "active_zone must match one of _zones exactly. The email renders a gradient bar (Sell→Hold→Buy BTC→Alt Season→Top) matching the website design."
+}

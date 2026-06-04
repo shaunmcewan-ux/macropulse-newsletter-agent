@@ -1,0 +1,21 @@
+{
+  "_note": "Manifest of published MacroPulse newsletter issues. Updated each time a campaign is sent. The website's archive page should read this file (or its hosted equivalent) and ingest each entry.",
+  "_schema_version": 1,
+  "issues": [
+    {
+      "issue_number": 48,
+      "date": "2026-06-03",
+      "type": "monday",
+      "title": "Week Ahead",
+      "subject": "MacroPulse | Week Ahead | 3 June 2026",
+      "headline": "BTC's intraday flush, and the dial that didn't move",
+      "dial_state": "BTC Accumulation",
+      "dial_weeks_held": 7,
+      "scorecard": "3 supportive · 4 neutral · 1 headwind",
+      "html_path": "archive/2026-06-03-monday.html",
+      "mailchimp_campaign_id": "5ac41c9081",
+      "sent_at": "2026-06-04T00:00:00Z",
+      "slug": "2026-06-03-week-ahead"
+    }
+  ]
+}

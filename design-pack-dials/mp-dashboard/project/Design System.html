@@ -1,0 +1,1663 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MacroPulse — Design System &amp; Page Audit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,ital,wght@9..144,0,400;9..144,0,500;9..144,0,600;9..144,1,400;9..144,1,500&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg-0: #080e13;
+    --bg-1: #0c141b;
+    --bg-2: #111a23;
+    --bg-3: #16212c;
+    --bg-4: #1c2935;
+    --line: rgba(237, 243, 247, 0.08);
+    --line-strong: rgba(237, 243, 247, 0.16);
+    --line-soft: rgba(237, 243, 247, 0.04);
+    --ink: #edf3f7;
+    --ink-2: #b9c4cc;
+    --ink-3: #7c8a95;
+    --ink-4: #4a5763;
+    --orange-1: #ffbd69;
+    --orange-2: #ff9d2f;
+    --orange-3: #f07d0a;
+    --green: #4ec38a;
+    --red:   #ef5a6b;
+    --grad: linear-gradient(135deg, #ffbd69 0%, #ff9d2f 45%, #f07d0a 100%);
+    --serif: "Fraunces", "Times New Roman", Georgia, serif;
+    --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+    --s-1: 4px;
+    --s-2: 8px;
+    --s-3: 12px;
+    --s-4: 16px;
+    --s-5: 24px;
+    --s-6: 32px;
+    --s-7: 40px;
+    --s-8: 56px;
+    --s-9: 72px;
+    --s-10: 96px;
+    --s-11: 128px;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background:
+      radial-gradient(900px 600px at 80% -10%, rgba(255, 157, 47, 0.08), transparent 60%),
+      radial-gradient(800px 500px at -10% 5%, rgba(255, 189, 105, 0.04), transparent 60%),
+      linear-gradient(180deg, #0c141b 0%, #080e13 100%);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+  }
+
+  .page { max-width: 1180px; margin: 0 auto; padding: 72px 40px 120px; }
+  @media (max-width: 720px) { .page { padding: 40px 20px 80px; } }
+
+  /* ─── Mast ─── */
+  .mast {
+    display: flex; justify-content: space-between; align-items: flex-start;
+    gap: 24px; padding-bottom: 28px;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 56px; flex-wrap: wrap;
+  }
+  .mast-brand { font-family: var(--serif); font-size: 28px; font-weight: 600; letter-spacing: -0.01em; line-height: 1; }
+  .mast-brand .accent { display: block; width: 36px; height: 3px; background: var(--grad); margin-top: 10px; border-radius: 2px; }
+  .mast-meta { font-family: var(--mono); font-size: 11px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.14em; text-align: right; line-height: 1.7; }
+  .mast-meta strong { color: var(--ink-2); font-weight: 500; }
+
+  /* ─── Doc head ─── */
+  .doc-eyebrow {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 7px 14px; border: 1px solid var(--line-strong); border-radius: 999px;
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--ink-2); margin-bottom: 28px;
+  }
+  .doc-eyebrow::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--orange-2); box-shadow: 0 0 12px var(--orange-2); }
+
+  h1.doc-title {
+    font-family: var(--serif); font-weight: 500;
+    font-size: clamp(40px, 6vw, 68px); line-height: 1.04;
+    letter-spacing: -0.02em; margin: 0 0 24px; text-wrap: balance;
+  }
+  h1.doc-title em { font-style: italic; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+
+  .doc-lede { font-family: var(--serif); font-size: 22px; line-height: 1.5; color: var(--ink-2); max-width: 720px; margin: 0 0 16px; font-weight: 400; text-wrap: pretty; }
+  .doc-byline { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--ink-3); margin-top: 32px; }
+  .doc-byline span + span::before { content: "·"; margin: 0 10px; color: var(--ink-4); }
+
+  /* ─── Caveat ─── */
+  .caveat {
+    margin: 40px 0 0;
+    padding: 20px 24px;
+    border-left: 2px solid var(--orange-2);
+    background: rgba(255, 157, 47, 0.04);
+    border-radius: 0 10px 10px 0;
+    font-family: var(--serif);
+    font-size: 16px;
+    color: var(--ink-2);
+    line-height: 1.55;
+    max-width: 760px;
+  }
+  .caveat strong { color: var(--ink); font-weight: 500; }
+
+  /* ─── TOC ─── */
+  .toc {
+    margin: 56px 0 88px; padding: 28px 32px;
+    border: 1px solid var(--line); border-radius: 14px;
+    background: linear-gradient(180deg, rgba(22, 33, 44, 0.45), rgba(12, 20, 27, 0.45));
+  }
+  .toc-title { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--ink-3); margin-bottom: 18px; }
+  .toc-list {
+    display: grid; grid-template-columns: repeat(2, 1fr);
+    gap: 10px 32px; margin: 0; padding: 0; list-style: none;
+    counter-reset: toc;
+  }
+  @media (max-width: 720px) { .toc-list { grid-template-columns: 1fr; } }
+  .toc-list li {
+    counter-increment: toc;
+    display: flex; align-items: baseline; gap: 14px;
+    font-family: var(--serif); font-size: 19px; color: var(--ink);
+  }
+  .toc-list li::before {
+    content: counter(toc, decimal-leading-zero);
+    font-family: var(--mono); font-size: 11px; color: var(--orange-2);
+    letter-spacing: 0.1em; flex: none; width: 28px;
+  }
+  .toc-list a { color: inherit; text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 120ms ease; }
+  .toc-list a:hover { border-bottom-color: var(--orange-2); }
+  .toc-list em { font-style: italic; color: var(--ink-3); margin-left: 6px; font-size: 14px; }
+
+  /* ─── Section frames ─── */
+  .section {
+    margin-bottom: 96px;
+    scroll-margin-top: 40px;
+  }
+  .section-head {
+    display: grid; grid-template-columns: 96px 1fr;
+    gap: 28px; align-items: start;
+    margin-bottom: 36px; padding-bottom: 28px;
+    border-bottom: 1px solid var(--line);
+  }
+  @media (max-width: 720px) { .section-head { grid-template-columns: 1fr; gap: 14px; } }
+  .section-num {
+    font-family: var(--serif); font-style: italic;
+    font-size: 72px; line-height: 0.9;
+    background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent;
+    font-weight: 500;
+  }
+  .section-name {
+    font-family: var(--serif); font-size: clamp(30px, 4vw, 44px);
+    line-height: 1.05; letter-spacing: -0.015em;
+    margin: 0 0 12px; font-weight: 500; text-wrap: balance;
+  }
+  .section-thesis {
+    font-family: var(--serif); font-style: italic; font-size: 19px;
+    color: var(--ink-2); line-height: 1.5; margin: 0; max-width: 640px; text-wrap: pretty;
+  }
+
+  /* ─── Sub-section ─── */
+  .sub { margin: 40px 0; }
+  .sub-label {
+    font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.16em; color: var(--ink-3);
+    margin-bottom: 18px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .sub-label::before { content: ""; width: 14px; height: 1px; background: var(--orange-2); }
+  .sub p {
+    font-family: var(--serif); font-size: 17px; line-height: 1.6;
+    color: var(--ink); margin: 0 0 12px; text-wrap: pretty; max-width: 760px;
+  }
+  .sub p.muted { color: var(--ink-2); }
+
+  /* ─── Type specimen ─── */
+  .type-grid {
+    display: grid;
+    grid-template-columns: 180px 1fr 140px;
+    gap: 0;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+  @media (max-width: 720px) { .type-grid { grid-template-columns: 1fr; } }
+  .type-row {
+    display: contents;
+  }
+  .type-row > div {
+    padding: 24px 20px;
+    border-bottom: 1px solid var(--line);
+  }
+  .type-row:last-child > div { border-bottom: 0; }
+  @media (max-width: 720px) {
+    .type-row > div { padding: 16px 0; }
+    .type-row > div:first-child { padding-bottom: 4px; }
+  }
+  .type-meta {
+    font-family: var(--mono); font-size: 10.5px;
+    text-transform: uppercase; letter-spacing: 0.14em;
+    color: var(--orange-2); align-self: start;
+  }
+  .type-meta b { display: block; color: var(--ink-2); font-weight: 500; margin-top: 4px; letter-spacing: 0.14em; }
+  .type-spec { color: var(--ink); }
+  .type-spec .demo { display: block; margin-bottom: 8px; line-height: 1.05; }
+  .type-spec .rule {
+    font-family: var(--serif); font-style: italic; font-size: 15px;
+    color: var(--ink-3); line-height: 1.5; max-width: 56ch;
+  }
+  .type-tok {
+    font-family: var(--mono); font-size: 11px; color: var(--ink-3);
+    line-height: 1.6;
+  }
+  .type-tok span { display: block; }
+  .type-tok b { color: var(--ink-2); font-weight: 500; }
+
+  .demo-display { font-family: var(--serif); font-weight: 500; font-size: 64px; letter-spacing: -0.02em; }
+  .demo-display em { font-style: italic; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .demo-h1 { font-family: var(--serif); font-weight: 500; font-size: 44px; letter-spacing: -0.015em; }
+  .demo-h2 { font-family: var(--serif); font-weight: 500; font-size: 32px; letter-spacing: -0.01em; }
+  .demo-h3 { font-family: var(--serif); font-weight: 500; font-size: 24px; }
+  .demo-lede { font-family: var(--serif); font-size: 22px; color: var(--ink-2); }
+  .demo-italic { font-family: var(--serif); font-style: italic; font-size: 19px; color: var(--ink-2); }
+  .demo-body { font-family: var(--serif); font-size: 17px; color: var(--ink); }
+  .demo-ui { font-family: var(--sans); font-size: 14px; color: var(--ink); }
+  .demo-mono { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--ink-2); }
+  .demo-data { font-family: var(--mono); font-size: 13px; color: var(--ink); font-variant-numeric: tabular-nums; }
+
+  /* ─── Color tokens ─── */
+  .swatch-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 16px;
+    margin: 16px 0;
+  }
+  .swatch {
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--bg-2);
+  }
+  .swatch-chip {
+    height: 88px;
+    border-bottom: 1px solid var(--line);
+    position: relative;
+  }
+  .swatch-chip.gradient { background: var(--grad); }
+  .swatch-body { padding: 14px 16px; }
+  .swatch-name {
+    font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.14em; color: var(--ink-2); margin-bottom: 4px;
+    display: flex; justify-content: space-between; gap: 8px;
+  }
+  .swatch-name b { color: var(--orange-2); font-weight: 500; }
+  .swatch-hex { font-family: var(--mono); font-size: 12px; color: var(--ink); }
+  .swatch-use { font-family: var(--serif); font-size: 13.5px; color: var(--ink-3); margin-top: 8px; line-height: 1.4; font-style: italic; }
+
+  /* ─── Spacing ruler ─── */
+  .spacing-ruler {
+    display: grid;
+    grid-template-columns: 80px 1fr 120px;
+    gap: 16px;
+    align-items: center;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  @media (max-width: 720px) {
+    .spacing-ruler { grid-template-columns: 80px 1fr; }
+    .spacing-ruler .sp-use { grid-column: 1 / -1; }
+  }
+  .sp-tok { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--orange-2); }
+  .sp-tok b { color: var(--ink-2); display: block; font-weight: 500; }
+  .sp-bar {
+    height: 14px;
+    background: linear-gradient(90deg, rgba(255,157,47,0.28), rgba(255,157,47,0.08));
+    border-left: 2px solid var(--orange-2);
+    border-radius: 0 4px 4px 0;
+  }
+  .sp-use { font-family: var(--serif); font-size: 14.5px; color: var(--ink-3); font-style: italic; line-height: 1.4; }
+
+  /* ─── Component cards ─── */
+  .comp {
+    margin: 32px 0;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    overflow: hidden;
+    background: linear-gradient(180deg, rgba(22, 33, 44, 0.4), rgba(12, 20, 27, 0.4));
+  }
+  .comp-head {
+    padding: 18px 24px;
+    border-bottom: 1px solid var(--line);
+    display: flex; justify-content: space-between; gap: 16px; align-items: baseline; flex-wrap: wrap;
+  }
+  .comp-name { font-family: var(--serif); font-size: 22px; font-weight: 500; letter-spacing: -0.01em; }
+  .comp-tag { font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--ink-3); }
+  .comp-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+  @media (max-width: 760px) { .comp-body { grid-template-columns: 1fr; } }
+  .comp-demo {
+    padding: 32px 28px;
+    border-right: 1px solid var(--line);
+    display: flex; align-items: center; justify-content: center;
+    min-height: 160px;
+    background:
+      radial-gradient(400px 200px at 50% 50%, rgba(22, 33, 44, 0.5), transparent),
+      var(--bg-0);
+  }
+  @media (max-width: 760px) {
+    .comp-demo { border-right: 0; border-bottom: 1px solid var(--line); }
+  }
+  .comp-spec { padding: 24px 28px; }
+  .comp-spec h5 {
+    font-family: var(--mono); font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.14em;
+    color: var(--ink-3); margin: 0 0 10px; font-weight: 500;
+  }
+  .comp-spec p {
+    font-family: var(--serif); font-size: 15.5px; line-height: 1.55;
+    color: var(--ink); margin: 0 0 14px; text-wrap: pretty;
+  }
+  .comp-spec > code {
+    display: block;
+    font-family: var(--mono); font-size: 12px; line-height: 1.7;
+    color: var(--ink-2); background: var(--bg-0);
+    padding: 14px 16px; border-radius: 8px;
+    border: 1px solid var(--line);
+    white-space: pre-wrap; word-break: break-word;
+    margin-top: 10px;
+  }
+  .comp-spec p code {
+    font-family: var(--mono); font-size: 12.5px;
+    color: var(--ink); background: rgba(237, 243, 247, 0.06);
+    padding: 1px 6px; border-radius: 4px;
+  }
+  .comp-spec code .pk { color: var(--orange-2); }
+  .comp-spec code .pv { color: var(--ink); }
+  .comp-spec code .cm { color: var(--ink-3); font-style: italic; }
+
+  /* Component preview pieces */
+  .pre-eyebrow {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 6px 12px; border: 1px solid var(--line-strong); border-radius: 999px;
+    font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--ink-2);
+  }
+  .pre-eyebrow::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--orange-2); box-shadow: 0 0 8px var(--orange-2); }
+
+  .pre-rule {
+    width: 200px; height: 1px;
+    background: var(--line-strong);
+    position: relative;
+  }
+  .pre-rule::before {
+    content: ""; position: absolute; left: 0; top: 0;
+    width: 24px; height: 1px; background: var(--orange-2);
+  }
+
+  .pre-section-head {
+    text-align: left; max-width: 360px;
+  }
+  .pre-section-head .eyebrow {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--orange-2); margin-bottom: 14px;
+  }
+  .pre-section-head h4 {
+    font-family: var(--serif); font-size: 28px; font-weight: 500;
+    letter-spacing: -0.01em; line-height: 1.1; margin: 0 0 10px;
+  }
+  .pre-section-head .lede {
+    font-family: var(--serif); font-size: 16px; color: var(--ink-2);
+    font-style: italic; margin: 0;
+  }
+
+  .pre-card {
+    width: 280px; padding: 22px 24px;
+    border: 1px solid var(--line); border-radius: 12px;
+    background: linear-gradient(180deg, rgba(22, 33, 44, 0.7), rgba(17, 26, 35, 0.7));
+  }
+  .pre-card .label { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 14px; }
+  .pre-card h5 { font-family: var(--serif); font-size: 22px; font-weight: 500; margin: 0 0 8px; letter-spacing: -0.005em; }
+  .pre-card p { font-family: var(--serif); font-size: 14.5px; color: var(--ink-2); margin: 0; line-height: 1.5; }
+
+  .btn {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 13px 22px; border-radius: 999px;
+    font-family: var(--sans); font-size: 14px; font-weight: 500;
+    letter-spacing: 0.01em;
+    text-decoration: none; cursor: pointer;
+    border: 1px solid transparent;
+    transition: transform 120ms ease, background 120ms ease, border-color 120ms ease;
+  }
+  .btn-primary {
+    background: var(--grad); color: #1a0f06;
+    box-shadow: 0 0 0 1px rgba(255, 157, 47, 0.3), 0 6px 24px rgba(255, 157, 47, 0.15);
+  }
+  .btn-primary:hover { transform: translateY(-1px); }
+  .btn-ghost {
+    background: transparent; color: var(--ink); border-color: var(--line-strong);
+  }
+  .btn-ghost:hover { border-color: var(--ink-3); }
+
+  .pre-form {
+    width: 320px;
+    padding: 24px 24px 22px;
+    border: 1px solid var(--line); border-radius: 14px;
+    background: linear-gradient(180deg, rgba(22, 33, 44, 0.6), rgba(17, 26, 35, 0.6));
+  }
+  .pre-form .label { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--orange-2); margin-bottom: 12px; }
+  .pre-form h6 { font-family: var(--serif); font-size: 19px; font-weight: 500; margin: 0 0 14px; }
+  .pre-form input {
+    display: block; width: 100%;
+    padding: 12px 14px; margin-bottom: 12px;
+    background: var(--bg-0); border: 1px solid var(--line-strong); border-radius: 8px;
+    color: var(--ink); font-family: var(--sans); font-size: 14px;
+    outline: none;
+  }
+  .pre-form input::placeholder { color: var(--ink-4); }
+  .pre-form .btn { width: 100%; justify-content: center; }
+  .pre-form .foot { font-family: var(--mono); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-3); margin-top: 12px; text-align: center; }
+
+  .pre-cta {
+    width: 100%;
+    padding: 28px 28px;
+    border: 1px solid var(--line-strong); border-radius: 14px;
+    background:
+      radial-gradient(400px 180px at 90% 0%, rgba(255, 157, 47, 0.08), transparent 60%),
+      linear-gradient(180deg, rgba(22, 33, 44, 0.6), rgba(12, 20, 27, 0.6));
+    display: flex; gap: 20px; align-items: center; justify-content: space-between; flex-wrap: wrap;
+    position: relative; overflow: hidden;
+  }
+  .pre-cta::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 2px; background: var(--grad); opacity: 0.6; }
+  .pre-cta h6 { font-family: var(--serif); font-size: 22px; font-weight: 500; margin: 0; letter-spacing: -0.005em; }
+  .pre-cta p { font-family: var(--serif); font-style: italic; font-size: 14px; color: var(--ink-3); margin: 4px 0 0; }
+
+  /* ─── Audit cards ─── */
+  .audit-page {
+    margin: 0 0 56px;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    overflow: hidden;
+    background: linear-gradient(180deg, rgba(22, 33, 44, 0.35), rgba(12, 20, 27, 0.35));
+  }
+  .audit-head {
+    padding: 24px 28px 22px;
+    display: grid; grid-template-columns: 1fr auto;
+    gap: 16px; align-items: end;
+    border-bottom: 1px solid var(--line);
+  }
+  @media (max-width: 720px) { .audit-head { grid-template-columns: 1fr; } }
+  .audit-path {
+    font-family: var(--mono); font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.16em;
+    color: var(--orange-2); margin-bottom: 8px;
+  }
+  .audit-name { font-family: var(--serif); font-size: 30px; font-weight: 500; letter-spacing: -0.01em; line-height: 1.1; margin: 0; }
+  .audit-score {
+    text-align: right;
+  }
+  .audit-score b {
+    font-family: var(--serif); font-size: 32px; font-weight: 500;
+    line-height: 1; display: block;
+    background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .audit-score span { font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--ink-3); display: block; margin-top: 6px; }
+  @media (max-width: 720px) { .audit-score { text-align: left; } }
+
+  .audit-body { padding: 22px 28px 28px; }
+  .audit-summary {
+    font-family: var(--serif); font-size: 17px; color: var(--ink-2);
+    margin: 0 0 24px; line-height: 1.55; max-width: 720px;
+  }
+  .audit-summary em { font-style: italic; color: var(--ink); }
+  .audit-summary.observed::before { content: "Observed · "; font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--green); margin-right: 4px; }
+  .audit-summary.inferred::before { content: "Inferred · "; font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--orange-2); margin-right: 4px; }
+
+  .findings {
+    margin: 0; padding: 0; list-style: none;
+    border-top: 1px solid var(--line);
+  }
+  .finding {
+    padding: 18px 0;
+    border-bottom: 1px solid var(--line);
+    display: grid; grid-template-columns: 22px 1fr;
+    gap: 16px;
+  }
+  .finding:last-child { border-bottom: 0; }
+  .finding .mark {
+    font-family: var(--mono); font-size: 12px; line-height: 1.5;
+    color: var(--orange-2); font-weight: 500;
+  }
+  .finding h6 { font-family: var(--serif); font-size: 18px; font-weight: 500; margin: 0 0 6px; letter-spacing: -0.005em; }
+  .finding .issue { font-family: var(--serif); font-size: 15.5px; color: var(--ink-2); margin: 0 0 8px; line-height: 1.55; }
+  .finding .fix {
+    font-family: var(--serif); font-size: 14.5px; color: var(--ink); line-height: 1.55;
+    padding-left: 14px; border-left: 2px solid var(--orange-2);
+  }
+  .finding .fix::before {
+    content: "Fix · "; font-family: var(--mono); font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.16em;
+    color: var(--orange-2); margin-right: 4px;
+  }
+
+  /* ─── Do not propagate ─── */
+  .dnp-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .dnp {
+    padding: 22px 22px 20px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: rgba(22, 33, 44, 0.45);
+    position: relative;
+  }
+  .dnp::before {
+    content: "";
+    position: absolute; top: 22px; right: 22px;
+    width: 18px; height: 18px;
+    border: 1.5px solid var(--red); border-radius: 50%;
+  }
+  .dnp::after {
+    content: "";
+    position: absolute; top: 28px; right: 22px;
+    width: 18px; height: 1.5px;
+    background: var(--red);
+    transform: rotate(-45deg);
+    transform-origin: left center;
+  }
+  .dnp-name {
+    font-family: var(--serif); font-size: 19px; font-weight: 500;
+    margin: 0 0 8px; letter-spacing: -0.005em; padding-right: 36px;
+  }
+  .dnp-where { font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--orange-2); margin-bottom: 12px; }
+  .dnp-why { font-family: var(--serif); font-size: 14.5px; color: var(--ink-2); line-height: 1.55; margin: 0; text-wrap: pretty; }
+
+  /* ─── Closing ─── */
+  .doc-foot {
+    margin-top: 80px; padding-top: 28px;
+    border-top: 1px solid var(--line);
+    display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px;
+    font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.14em; color: var(--ink-3);
+  }
+</style>
+</head>
+<body>
+<main class="page" data-screen-label="Design System">
+
+  <!-- Mast -->
+  <header class="mast">
+    <div class="mast-brand">MacroPulse<span class="accent"></span></div>
+    <div class="mast-meta">
+      <strong>Design system &amp; site audit</strong><br />
+      Internal · 8 May 2026
+    </div>
+  </header>
+
+  <!-- Doc head -->
+  <div class="doc-eyebrow">System Reference</div>
+  <h1 class="doc-title">One <em>quiet</em> system, six pages to align.</h1>
+  <p class="doc-lede">
+    The Dashboard set the canon. This document extracts that canon into reusable tokens
+    and patterns, then walks each public page to flag the divergences and prescribe the
+    smallest fix that brings it back into the family.
+  </p>
+  <div class="doc-byline">
+    <span>For: site-wide rollout</span>
+    <span>Reference: /dashboard/</span>
+    <span>Voice: calm, research-led, editorial</span>
+  </div>
+
+  <div class="caveat">
+    <strong>A note on what's observed vs. inferred.</strong> The dashboard tokens below
+    are extracted directly from the shipped design. The homepage audit is grounded in
+    the live page content. The methodology, about, newsletter, contact, FAQ, and legal
+    audits are framed as <em>checks against the system</em> — written as the kinds of
+    divergence likely to need attention on a site that grew page-by-page. Treat each
+    finding as a hypothesis to verify in the live build, not a pixel measurement.
+  </div>
+
+  <!-- TOC -->
+  <nav class="toc" style="margin-top: 56px;">
+    <div class="toc-title">Contents</div>
+    <ol class="toc-list">
+      <li><a href="#type">Typography <em>— families, scale, rules</em></a></li>
+      <li><a href="#color">Colour <em>— tokens &amp; usage</em></a></li>
+      <li><a href="#space">Spacing <em>— rhythm &amp; rules</em></a></li>
+      <li><a href="#components">Components <em>— specs you can paste</em></a></li>
+      <li><a href="#audit">Page audit <em>— seven pages</em></a></li>
+      <li><a href="#dnp">Do not propagate <em>— scoped to /dashboard/</em></a></li>
+    </ol>
+  </nav>
+
+  <!-- ─── 01 TYPE ─── -->
+  <section class="section" id="type">
+    <div class="section-head">
+      <div class="section-num">01</div>
+      <div>
+        <h2 class="section-name">Typography</h2>
+        <p class="section-thesis">
+          Three families, each with one job. Fraunces for editorial weight,
+          Inter for interface, JetBrains Mono for the small print and the data.
+        </p>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">The three families</div>
+      <p class="muted">
+        <strong style="color:var(--ink); font-family:var(--serif); font-style:italic;">Fraunces</strong>
+        carries voice — every headline, every editorial body paragraph, every cycle-state
+        name. <strong style="color:var(--ink); font-family:var(--sans);">Inter</strong>
+        carries interface — buttons, navigation, form fields, inline UI. <strong style="color:var(--ink); font-family:var(--mono);">JetBrains&nbsp;Mono</strong>
+        carries metadata and data — eyebrows, datelines, ticker prices, byline rules.
+        The rule: <em>if a reader would read it, it's Fraunces; if they'd act on it, Inter; if they'd glance at it, Mono.</em>
+      </p>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">The scale</div>
+      <div class="type-grid">
+
+        <div class="type-row">
+          <div class="type-meta">Display<b>.demo-display</b></div>
+          <div class="type-spec">
+            <span class="demo demo-display">Track the <em>cycle</em>.</span>
+            <span class="rule">Page-opening hero only. One per page, never two. Reserved for the homepage hero, the cycle state on /dashboard/, and document titles in /methodology/.</span>
+          </div>
+          <div class="type-tok"><span><b>Fraunces 500</b></span><span>56–68px</span><span>line 1.04</span><span>track −0.02em</span><span>balance</span></div>
+        </div>
+
+        <div class="type-row">
+          <div class="type-meta">Page H1<b>.demo-h1</b></div>
+          <div class="type-spec">
+            <span class="demo demo-h1">A tighter macro framework.</span>
+            <span class="rule">Section heroes inside long pages — methodology chapters, about-page sections, newsletter archive headers.</span>
+          </div>
+          <div class="type-tok"><span><b>Fraunces 500</b></span><span>40–48px</span><span>line 1.05</span><span>track −0.015em</span></div>
+        </div>
+
+        <div class="type-row">
+          <div class="type-meta">Section H2<b>.demo-h2</b></div>
+          <div class="type-spec">
+            <span class="demo demo-h2">Concise briefings built for action.</span>
+            <span class="rule">Card and section titles. Pairs with a mono eyebrow above and a 17px serif body below.</span>
+          </div>
+          <div class="type-tok"><span><b>Fraunces 500</b></span><span>28–36px</span><span>line 1.1</span><span>track −0.01em</span></div>
+        </div>
+
+        <div class="type-row">
+          <div class="type-meta">Lede<b>.demo-lede</b></div>
+          <div class="type-spec">
+            <span class="demo demo-lede" style="font-size: 22px;">A single, disciplined regime call so you know whether to accumulate, rotate, take profit, or reduce risk.</span>
+            <span class="rule">Sub-deck under a display headline. Always serif, always 22px, always max-width ~720px. Never a paragraph — one sentence.</span>
+          </div>
+          <div class="type-tok"><span><b>Fraunces 400</b></span><span>22px</span><span>line 1.5</span><span>color ink-2</span></div>
+        </div>
+
+        <div class="type-row">
+          <div class="type-meta">Italic pull<b>.demo-italic</b></div>
+          <div class="type-spec">
+            <span class="demo demo-italic">Liquidity improves before conviction broadens.</span>
+            <span class="rule">Editorial flourishes — section thesis lines, sample quotes, "The Read" sentences. Italic Fraunces is the only italic on the page; do not italicise body or UI.</span>
+          </div>
+          <div class="type-tok"><span><b>Fraunces 400 it.</b></span><span>19px</span><span>line 1.5</span><span>color ink-2</span></div>
+        </div>
+
+        <div class="type-row">
+          <div class="type-meta">Body<b>.demo-body</b></div>
+          <div class="type-spec">
+            <span class="demo demo-body">Each weekly note covers the business cycle, liquidity, and market structure — then delivers a single, disciplined regime call.</span>
+            <span class="rule">All long-form paragraph text. Editorial copy, not UI labels. Measure ~62–66ch.</span>
+          </div>
+          <div class="type-tok"><span><b>Fraunces 400</b></span><span>17px</span><span>line 1.6</span><span>text-wrap pretty</span></div>
+        </div>
+
+        <div class="type-row">
+          <div class="type-meta">UI<b>.demo-ui</b></div>
+          <div class="type-spec">
+            <span class="demo demo-ui">Subscribe to newsletter</span>
+            <span class="rule">Buttons, menu items, form labels, inline controls. Inter, never Fraunces. Sentence-case, not Title Case.</span>
+          </div>
+          <div class="type-tok"><span><b>Inter 500</b></span><span>14px</span><span>line 1.4</span><span>track 0.01em</span></div>
+        </div>
+
+        <div class="type-row">
+          <div class="type-meta">Eyebrow / label<b>.demo-mono</b></div>
+          <div class="type-spec">
+            <span class="demo demo-mono">METHODOLOGY · TIER 1</span>
+            <span class="rule">All eyebrows, kicker labels, byline rules, dateline tags, axis legends. Always uppercase, always 0.16em tracking, always 11px.</span>
+          </div>
+          <div class="type-tok"><span><b>JetBrains 500</b></span><span>11px</span><span>track 0.16em</span><span>uppercase</span></div>
+        </div>
+
+        <div class="type-row">
+          <div class="type-meta">Data<b>.demo-data</b></div>
+          <div class="type-spec">
+            <span class="demo demo-data">BTC&nbsp;&nbsp;81,471&nbsp;&nbsp;+0.17&nbsp;&nbsp;+18.73</span>
+            <span class="rule">Tickers, prices, percentages, anywhere numerals must align. Tabular numerals on. Use mono for the value, Fraunces for the surrounding sentence.</span>
+          </div>
+          <div class="type-tok"><span><b>JetBrains 400</b></span><span>13px</span><span>tabular-nums</span></div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Three rules that keep it calm</div>
+      <p>
+        <strong>One italic per viewport.</strong> The orange-gradient italic Fraunces
+        is a signal device — the cycle state, a hero word, an editorial pull. Use it
+        more than once on screen and it stops being a signal.
+      </p>
+      <p>
+        <strong>No font-weight other than 400 or 500.</strong> Bold (600+) only inside
+        running prose where genuine emphasis is needed. Do not weight-bomb headlines.
+      </p>
+      <p>
+        <strong>Mono is metadata, never body.</strong> If a paragraph is set in mono,
+        you have a label, not prose. Rewrite as prose or mark it as a label and shorten.
+      </p>
+    </div>
+  </section>
+
+  <!-- ─── 02 COLOR ─── -->
+  <section class="section" id="color">
+    <div class="section-head">
+      <div class="section-num">02</div>
+      <div>
+        <h2 class="section-name">Colour</h2>
+        <p class="section-thesis">
+          A dark editorial palette built around four ink steps and four background
+          steps, with orange reserved as a single signal channel — never decoration.
+        </p>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Backgrounds</div>
+      <div class="swatch-grid">
+        <div class="swatch">
+          <div class="swatch-chip" style="background: #080e13;"></div>
+          <div class="swatch-body">
+            <div class="swatch-name"><span>bg-0 <b>deepest</b></span></div>
+            <div class="swatch-hex">#080e13</div>
+            <div class="swatch-use">Code blocks, tape interior, terminal-like surfaces.</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-chip" style="background: #0c141b;"></div>
+          <div class="swatch-body">
+            <div class="swatch-name"><span>bg-1 <b>page</b></span></div>
+            <div class="swatch-hex">#0c141b</div>
+            <div class="swatch-use">Default body background. The room everything sits in.</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-chip" style="background: #111a23;"></div>
+          <div class="swatch-body">
+            <div class="swatch-name"><span>bg-2 <b>panel</b></span></div>
+            <div class="swatch-hex">#111a23</div>
+            <div class="swatch-use">Cards, form panels, subtle elevation.</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-chip" style="background: #16212c;"></div>
+          <div class="swatch-body">
+            <div class="swatch-name"><span>bg-3 <b>raised</b></span></div>
+            <div class="swatch-hex">#16212c</div>
+            <div class="swatch-use">Hover states, second-level surface, recco strip.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Ink</div>
+      <div class="swatch-grid">
+        <div class="swatch">
+          <div class="swatch-chip" style="background: #edf3f7;"></div>
+          <div class="swatch-body">
+            <div class="swatch-name"><span>ink <b>primary</b></span></div>
+            <div class="swatch-hex">#edf3f7</div>
+            <div class="swatch-use">Headlines, body emphasis, primary text.</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-chip" style="background: #b9c4cc;"></div>
+          <div class="swatch-body">
+            <div class="swatch-name"><span>ink-2 <b>secondary</b></span></div>
+            <div class="swatch-hex">#b9c4cc</div>
+            <div class="swatch-use">Lede, body paragraphs, supporting copy.</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-chip" style="background: #7c8a95;"></div>
+          <div class="swatch-body">
+            <div class="swatch-name"><span>ink-3 <b>tertiary</b></span></div>
+            <div class="swatch-hex">#7c8a95</div>
+            <div class="swatch-use">Eyebrows, datelines, captions, italic asides.</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-chip" style="background: #4a5763;"></div>
+          <div class="swatch-body">
+            <div class="swatch-name"><span>ink-4 <b>disabled</b></span></div>
+            <div class="swatch-hex">#4a5763</div>
+            <div class="swatch-use">Placeholders, separators between mono spans.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Lines</div>
+      <div class="swatch-grid">
+        <div class="swatch">
+          <div class="swatch-chip" style="background: rgba(237, 243, 247, 0.04); border-bottom: 1px solid rgba(237, 243, 247, 0.04);"></div>
+          <div class="swatch-body">
+            <div class="swatch-name"><span>line-soft <b>4%</b></span></div>
+            <div class="swatch-hex">rgba(237,243,247,0.04)</div>
+            <div class="swatch-use">Internal table strokes, dashed dividers, very quiet rhythm.</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-chip" style="background: rgba(237, 243, 247, 0.08);"></div>
+          <div class="swatch-body">
+            <div class="swatch-name"><span>line <b>8%</b></span></div>
+            <div class="swatch-hex">rgba(237,243,247,0.08)</div>
+            <div class="swatch-use">Default. Section dividers, card borders, mast underline.</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-chip" style="background: rgba(237, 243, 247, 0.16);"></div>
+          <div class="swatch-body">
+            <div class="swatch-name"><span>line-strong <b>16%</b></span></div>
+            <div class="swatch-hex">rgba(237,243,247,0.16)</div>
+            <div class="swatch-use">Eyebrow pills, input borders, recco strip outline.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Signal — orange</div>
+      <div class="swatch-grid">
+        <div class="swatch">
+          <div class="swatch-chip" style="background: #ffbd69;"></div>
+          <div class="swatch-body">
+            <div class="swatch-name"><span>orange-1 <b>light</b></span></div>
+            <div class="swatch-hex">#ffbd69</div>
+            <div class="swatch-use">Gradient start, italic pull, hover lift.</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-chip" style="background: #ff9d2f;"></div>
+          <div class="swatch-body">
+            <div class="swatch-name"><span>orange-2 <b>signal</b></span></div>
+            <div class="swatch-hex">#ff9d2f</div>
+            <div class="swatch-use">Active state, eyebrow accent dot, primary CTA mid.</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-chip" style="background: #f07d0a;"></div>
+          <div class="swatch-body">
+            <div class="swatch-name"><span>orange-3 <b>deep</b></span></div>
+            <div class="swatch-hex">#f07d0a</div>
+            <div class="swatch-use">Gradient end, focus ring, depth on press.</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-chip gradient"></div>
+          <div class="swatch-body">
+            <div class="swatch-name"><span>--grad <b>signal flow</b></span></div>
+            <div class="swatch-hex">linear-gradient(135deg, …)</div>
+            <div class="swatch-use">Buttons, italic pull, recco strip top-bar, brand accent.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Status — only inside data</div>
+      <div class="swatch-grid">
+        <div class="swatch">
+          <div class="swatch-chip" style="background: #4ec38a;"></div>
+          <div class="swatch-body">
+            <div class="swatch-name"><span>green <b>supportive</b></span></div>
+            <div class="swatch-hex">#4ec38a</div>
+            <div class="swatch-use">Up-arrows, "supportive" scorecard rule, positive deltas.</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-chip" style="background: #ef5a6b;"></div>
+          <div class="swatch-body">
+            <div class="swatch-name"><span>red <b>headwind</b></span></div>
+            <div class="swatch-hex">#ef5a6b</div>
+            <div class="swatch-use">Down-arrows, "headwind" rule, negative deltas, errors.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">The orange rule</div>
+      <p>
+        Orange appears <strong>once per viewport</strong> as the live-signal colour.
+        On /dashboard/ that's the active cycle dot. On marketing pages it's the eyebrow
+        dot or a single CTA — never both at once. Decorative orange (gradient borders
+        on every card, orange section backgrounds, orange dividers) is the single
+        biggest tell that a page has drifted from the system.
+      </p>
+      <p>
+        Green and red <strong>never appear in marketing copy</strong>. They are data
+        colours: arrows, deltas, scorecard rules. If you find yourself reaching for
+        green to say "good," use ink instead and let the writing do the work.
+      </p>
+    </div>
+  </section>
+
+  <!-- ─── 03 SPACING ─── -->
+  <section class="section" id="space">
+    <div class="section-head">
+      <div class="section-num">03</div>
+      <div>
+        <h2 class="section-name">Spacing</h2>
+        <p class="section-thesis">
+          An 8-based scale with two micro-steps for type metrics. Use the rhythm
+          tokens; do not invent in-between values.
+        </p>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">The scale</div>
+      <div>
+        <div class="spacing-ruler">
+          <div class="sp-tok">--s-1<b>4px</b></div>
+          <div class="sp-bar" style="width: 4px;"></div>
+          <div class="sp-use">Hairline-to-text, accent rule height.</div>
+        </div>
+        <div class="spacing-ruler">
+          <div class="sp-tok">--s-2<b>8px</b></div>
+          <div class="sp-bar" style="width: 8px;"></div>
+          <div class="sp-use">Tag/pill internal, label-to-value.</div>
+        </div>
+        <div class="spacing-ruler">
+          <div class="sp-tok">--s-3<b>12px</b></div>
+          <div class="sp-bar" style="width: 12px;"></div>
+          <div class="sp-use">Tight stacks, list rows, eyebrow-to-headline.</div>
+        </div>
+        <div class="spacing-ruler">
+          <div class="sp-tok">--s-4<b>16px</b></div>
+          <div class="sp-bar" style="width: 16px;"></div>
+          <div class="sp-use">Default paragraph gap, card grid gap.</div>
+        </div>
+        <div class="spacing-ruler">
+          <div class="sp-tok">--s-5<b>24px</b></div>
+          <div class="sp-bar" style="width: 24px;"></div>
+          <div class="sp-use">Card padding, button padding-y.</div>
+        </div>
+        <div class="spacing-ruler">
+          <div class="sp-tok">--s-6<b>32px</b></div>
+          <div class="sp-bar" style="width: 32px;"></div>
+          <div class="sp-use">Heading-to-body, large card padding.</div>
+        </div>
+        <div class="spacing-ruler">
+          <div class="sp-tok">--s-7<b>40px</b></div>
+          <div class="sp-bar" style="width: 40px;"></div>
+          <div class="sp-use">Page side padding (mobile), section internal.</div>
+        </div>
+        <div class="spacing-ruler">
+          <div class="sp-tok">--s-8<b>56px</b></div>
+          <div class="sp-bar" style="width: 56px;"></div>
+          <div class="sp-use">Block-to-block, mast-to-content.</div>
+        </div>
+        <div class="spacing-ruler">
+          <div class="sp-tok">--s-9<b>72px</b></div>
+          <div class="sp-bar" style="width: 72px;"></div>
+          <div class="sp-use">Page top padding, between major sections.</div>
+        </div>
+        <div class="spacing-ruler">
+          <div class="sp-tok">--s-10<b>96px</b></div>
+          <div class="sp-bar" style="width: 96px;"></div>
+          <div class="sp-use">Between top-level sections on long pages.</div>
+        </div>
+        <div class="spacing-ruler">
+          <div class="sp-tok">--s-11<b>128px</b></div>
+          <div class="sp-bar" style="width: 128px;"></div>
+          <div class="sp-use">Hero breathing room, page-bottom padding.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Two rules</div>
+      <p>
+        <strong>Page rhythm is 96/56/24.</strong> 96px between top-level sections, 56px
+        between sub-sections inside a section, 24px between blocks inside a sub-section.
+        Memorise that triple — it produces the whole site's vertical cadence.
+      </p>
+      <p>
+        <strong>Page width is 1180px.</strong> Side padding is 40px desktop, 20px
+        mobile. Editorial measure inside that container should not exceed ~62–66ch
+        for body copy.
+      </p>
+    </div>
+  </section>
+
+  <!-- ─── 04 COMPONENTS ─── -->
+  <section class="section" id="components">
+    <div class="section-head">
+      <div class="section-num">04</div>
+      <div>
+        <h2 class="section-name">Components</h2>
+        <p class="section-thesis">
+          Seven patterns that compose almost every screen. Specs are CSS-ready —
+          paste, then tune.
+        </p>
+      </div>
+    </div>
+
+    <!-- Eyebrow -->
+    <div class="comp">
+      <div class="comp-head">
+        <div class="comp-name">Eyebrow label</div>
+        <div class="comp-tag">.eyebrow / .pre-eyebrow</div>
+      </div>
+      <div class="comp-body">
+        <div class="comp-demo"><div class="pre-eyebrow">Methodology · Tier 1</div></div>
+        <div class="comp-spec">
+          <h5>What it is</h5>
+          <p>The kicker above every section heading. Always mono, always uppercase, always 11px / 0.16em tracking. Two variants: <em>plain</em> (just the text, used inline above headings) and <em>pill</em> (with a glowing orange dot, used at page-level above the doc title).</p>
+          <h5>Spec</h5>
+<code><span class="pk">font</span>: <span class="pv">500 11px/1.4 var(--mono);</span>
+<span class="pk">letter-spacing</span>: <span class="pv">0.16em;</span>
+<span class="pk">text-transform</span>: <span class="pv">uppercase;</span>
+<span class="pk">color</span>: <span class="pv">var(--ink-3);</span>
+<span class="cm">/* pill variant */</span>
+<span class="pk">padding</span>: <span class="pv">7px 14px;</span>
+<span class="pk">border</span>: <span class="pv">1px solid var(--line-strong);</span>
+<span class="pk">border-radius</span>: <span class="pv">999px;</span>
+<span class="cm">/* dot uses orange-2 with 0 0 12px glow */</span></code>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hairline rule -->
+    <div class="comp">
+      <div class="comp-head">
+        <div class="comp-name">Hairline rule</div>
+        <div class="comp-tag">.rule</div>
+      </div>
+      <div class="comp-body">
+        <div class="comp-demo"><div class="pre-rule"></div></div>
+        <div class="comp-spec">
+          <h5>What it is</h5>
+          <p>The page's primary divider. A 1px <code>line</code>-coloured stroke with a 24px <code>orange-2</code> tick at its origin. Used: above sub-section labels, between scorecard rows, under the mast. Never thicker than 1px.</p>
+          <h5>Spec</h5>
+<code><span class="pk">height</span>: <span class="pv">1px;</span>
+<span class="pk">background</span>: <span class="pv">var(--line-strong);</span>
+<span class="cm">/* :before tick */</span>
+<span class="pk">content</span>: <span class="pv">"";</span>
+<span class="pk">width</span>: <span class="pv">24px;</span>
+<span class="pk">background</span>: <span class="pv">var(--orange-2);</span></code>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section header -->
+    <div class="comp">
+      <div class="comp-head">
+        <div class="comp-name">Section header</div>
+        <div class="comp-tag">.section-head</div>
+      </div>
+      <div class="comp-body">
+        <div class="comp-demo">
+          <div class="pre-section-head">
+            <div class="eyebrow">Methodology snapshot</div>
+            <h4>The cycle comes first.</h4>
+            <p class="lede">Narrative second.</p>
+          </div>
+        </div>
+        <div class="comp-spec">
+          <h5>What it is</h5>
+          <p>Three stacked elements: mono eyebrow (orange-2), Fraunces 28–36px headline (ink), Fraunces 16–19px italic lede (ink-2). Stack gap is 12px between eyebrow and h2, 10px between h2 and lede. Left-aligned by default.</p>
+          <h5>Spec</h5>
+<code><span class="cm">/* eyebrow */</span>
+<span class="pk">color</span>: <span class="pv">var(--orange-2);</span>
+<span class="pk">margin-bottom</span>: <span class="pv">14px;</span>
+<span class="cm">/* h2 */</span>
+<span class="pk">font</span>: <span class="pv">500 32px/1.05 var(--serif);</span>
+<span class="pk">letter-spacing</span>: <span class="pv">-0.01em;</span>
+<span class="pk">text-wrap</span>: <span class="pv">balance;</span>
+<span class="cm">/* lede */</span>
+<span class="pk">font</span>: <span class="pv">italic 400 16px/1.5 var(--serif);</span>
+<span class="pk">color</span>: <span class="pv">var(--ink-2);</span></code>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card -->
+    <div class="comp">
+      <div class="comp-head">
+        <div class="comp-name">Card</div>
+        <div class="comp-tag">.card</div>
+      </div>
+      <div class="comp-body">
+        <div class="comp-demo">
+          <div class="pre-card">
+            <div class="label">Weekly research</div>
+            <h5>Concise briefings built for action.</h5>
+            <p>Every issue cuts through headline noise and focuses on the handful of macro variables most likely to shape leadership next.</p>
+          </div>
+        </div>
+        <div class="comp-spec">
+          <h5>What it is</h5>
+          <p>A panel: 1px <code>line</code> border, 12px radius, subtle vertical gradient inside (<code>bg-2 → bg-1</code>), 24px padding. Internal stack: mono label → Fraunces 22px headline → Fraunces 14.5px ink-2 body. No shadows, no orange borders, no gradients on the perimeter.</p>
+          <h5>Spec</h5>
+<code><span class="pk">border</span>: <span class="pv">1px solid var(--line);</span>
+<span class="pk">border-radius</span>: <span class="pv">12px;</span>
+<span class="pk">background</span>: <span class="pv">linear-gradient(180deg, var(--bg-2) 0%, var(--bg-1) 100%);</span>
+<span class="pk">padding</span>: <span class="pv">22px 24px;</span>
+<span class="cm">/* hover, optional */</span>
+<span class="pk">border-color</span>: <span class="pv">var(--line-strong);</span></code>
+        </div>
+      </div>
+    </div>
+
+    <!-- Button -->
+    <div class="comp">
+      <div class="comp-head">
+        <div class="comp-name">Button</div>
+        <div class="comp-tag">.btn-primary / .btn-ghost</div>
+      </div>
+      <div class="comp-body">
+        <div class="comp-demo" style="gap: 12px; flex-wrap: wrap;">
+          <a class="btn btn-primary" href="#">Subscribe to newsletter</a>
+          <a class="btn btn-ghost" href="#" style="margin-left: 12px;">Explore methodology</a>
+        </div>
+        <div class="comp-spec">
+          <h5>What it is</h5>
+          <p>Two buttons only. <em>Primary</em>: orange gradient fill, dark ink text (<code>#1a0f06</code>), 1px gradient-edge halo. <em>Ghost</em>: transparent, ink text, 1px <code>line-strong</code> border. Pill radius (999px). Inter 14/500. One primary per viewport — that's the whole rule.</p>
+          <h5>Spec</h5>
+<code><span class="pk">padding</span>: <span class="pv">13px 22px;</span>
+<span class="pk">border-radius</span>: <span class="pv">999px;</span>
+<span class="pk">font</span>: <span class="pv">500 14px/1.4 var(--sans);</span>
+<span class="cm">/* primary */</span>
+<span class="pk">background</span>: <span class="pv">var(--grad);</span>
+<span class="pk">color</span>: <span class="pv">#1a0f06;</span>
+<span class="pk">box-shadow</span>: <span class="pv">0 0 0 1px rgba(255,157,47,0.3),
+              0 6px 24px rgba(255,157,47,0.15);</span></code>
+        </div>
+      </div>
+    </div>
+
+    <!-- Form panel -->
+    <div class="comp">
+      <div class="comp-head">
+        <div class="comp-name">Form panel</div>
+        <div class="comp-tag">.form-panel</div>
+      </div>
+      <div class="comp-body">
+        <div class="comp-demo">
+          <div class="pre-form">
+            <div class="label">Subscribe</div>
+            <h6>Start with the newsletter.</h6>
+            <input type="email" placeholder="you@firm.com" />
+            <a class="btn btn-primary" href="#">Join the list</a>
+            <div class="foot">Free · No spam · Unsubscribe anytime</div>
+          </div>
+        </div>
+        <div class="comp-spec">
+          <h5>What it is</h5>
+          <p>The newsletter signup, contact form, and any other input cluster. Card chassis with an orange-2 mono label at the top, Fraunces 19px subhead, full-width inputs (<code>bg-0</code>, 1px <code>line-strong</code>, 8px radius), full-width primary button, mono fine-print foot.</p>
+          <h5>Spec</h5>
+<code><span class="cm">/* container — same as card */</span>
+<span class="pk">padding</span>: <span class="pv">24px;</span>
+<span class="cm">/* input */</span>
+<span class="pk">background</span>: <span class="pv">var(--bg-0);</span>
+<span class="pk">border</span>: <span class="pv">1px solid var(--line-strong);</span>
+<span class="pk">border-radius</span>: <span class="pv">8px;</span>
+<span class="pk">padding</span>: <span class="pv">12px 14px;</span>
+<span class="pk">font</span>: <span class="pv">400 14px var(--sans);</span>
+<span class="cm">/* focus */</span>
+<span class="pk">border-color</span>: <span class="pv">var(--orange-2);</span>
+<span class="pk">outline</span>: <span class="pv">none;</span></code>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA strip -->
+    <div class="comp">
+      <div class="comp-head">
+        <div class="comp-name">CTA strip</div>
+        <div class="comp-tag">.cta-strip</div>
+      </div>
+      <div class="comp-body">
+        <div class="comp-demo" style="padding: 24px;">
+          <div class="pre-cta">
+            <div>
+              <h6>Start with the newsletter.</h6>
+              <p>Weekly. The cycle, the read, the call.</p>
+            </div>
+            <a class="btn btn-primary" href="#">Join the list</a>
+          </div>
+        </div>
+        <div class="comp-spec">
+          <h5>What it is</h5>
+          <p>The end-of-page conversion block. Wider, quieter than a card. 2px gradient bar on top edge, soft radial orange glow top-right, headline + italic kicker on the left, single primary button on the right. Use once per page, just before the footer.</p>
+          <h5>Spec</h5>
+<code><span class="pk">padding</span>: <span class="pv">28px;</span>
+<span class="pk">border</span>: <span class="pv">1px solid var(--line-strong);</span>
+<span class="pk">border-radius</span>: <span class="pv">14px;</span>
+<span class="pk">background</span>: <span class="pv">radial-gradient(400px 180px at 90% 0%,
+              rgba(255,157,47,0.08), transparent 60%),
+              linear-gradient(180deg, var(--bg-3), var(--bg-1));</span>
+<span class="cm">/* top accent bar */</span>
+<span class="pk">::before</span>: <span class="pv">height 2px; background: var(--grad); opacity 0.6;</span></code>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ─── 05 AUDIT ─── -->
+  <section class="section" id="audit">
+    <div class="section-head">
+      <div class="section-num">05</div>
+      <div>
+        <h2 class="section-name">Page audit</h2>
+        <p class="section-thesis">
+          Seven pages, the divergences likely to need attention, and one concrete
+          fix per finding. Conformance scored on the system above.
+        </p>
+      </div>
+    </div>
+
+    <!-- Dashboard - reference -->
+    <div class="audit-page">
+      <div class="audit-head">
+        <div>
+          <div class="audit-path">/dashboard/ — reference</div>
+          <h3 class="audit-name">Dashboard</h3>
+        </div>
+        <div class="audit-score"><b>—</b><span>Canonical</span></div>
+      </div>
+      <div class="audit-body">
+        <p class="audit-summary">
+          The dashboard <em>is</em> the system. Anything on this page that the
+          others should adopt has been promoted into the tokens above; anything
+          on this page that should stay here is in §06 below.
+        </p>
+      </div>
+    </div>
+
+    <!-- Homepage -->
+    <div class="audit-page">
+      <div class="audit-head">
+        <div>
+          <div class="audit-path">/</div>
+          <h3 class="audit-name">Homepage</h3>
+        </div>
+        <div class="audit-score"><b>72</b><span>Conformance</span></div>
+      </div>
+      <div class="audit-body">
+        <p class="audit-summary observed">
+          Voice and structure are right — cycle-first thinking, clear regime
+          framing, four-state Cycle Indicator anchored as the page's spine. The
+          gaps are mostly about <em>density of patterns</em>: too many CTAs,
+          too many supporting headers without eyebrows, and a hero that asks
+          the visitor to read four sentences before they meet the cycle states.
+        </p>
+        <ol class="findings">
+          <li class="finding">
+            <span class="mark">01</span>
+            <div>
+              <h6>Hero buries the regime call</h6>
+              <p class="issue">"Track the Cycle, Seize the Trend — Turning Macro Insight into Market Clarity" is two slogans glued together, then a 60-word paragraph, then two CTAs. The four cycle states arrive after a scroll.</p>
+              <p class="fix">Cut the hero to one display headline, one 22px lede, the four cycle-state chips inline below it, and one primary CTA. Move the second CTA to the end-of-page CTA strip. The Dashboard's "thirty-second answer" rule applies to the homepage too.</p>
+            </div>
+          </li>
+          <li class="finding">
+            <span class="mark">02</span>
+            <div>
+              <h6>The four "weekly / 4-state / direct / allocation" tiles repeat what's just been said</h6>
+              <p class="issue">Below the hero, four bold-prefixed paragraphs summarise the same value props the hero just made. This is content padding, not a design element.</p>
+              <p class="fix">Delete or replace with a single horizontal "what you get" rule: four mono-eyebrow labels separated by hairline ticks (Weekly · 4 states · Direct · Allocation) above the next section. Frees ~400px of vertical space.</p>
+            </div>
+          </li>
+          <li class="finding">
+            <span class="mark">03</span>
+            <div>
+              <h6>Section heads are missing eyebrows</h6>
+              <p class="issue">"What MacroPulse Delivers", "Methodology Snapshot", "Sample Research", "Newsletter Archive", "Subscribe / Join Waitlist" sit as inline H2 strings without the mono kicker pattern that defines the section-header component.</p>
+              <p class="fix">Promote each to the canonical pattern: mono orange-2 eyebrow ("METHODOLOGY · SNAPSHOT") on top, Fraunces H2 below, italic 16px lede beneath. Establishes site-wide rhythm in one pass.</p>
+            </div>
+          </li>
+          <li class="finding">
+            <span class="mark">04</span>
+            <div>
+              <h6>Three sample-issue cards lack a card chassis</h6>
+              <p class="issue">"Sample Issue / March 2026", "Historical Lens / February 2026", "Framework Note / January 2026" read as three stacked headlines with bodies, not as a card grid. Loss of visual rhythm.</p>
+              <p class="fix">Wrap each in the Card component (see §04). Use the dateline pattern: mono kicker line "SAMPLE ISSUE · MAR 2026", then headline, then body, then a ghost link "Read the sample format →". Three-column grid on desktop, stacked on mobile.</p>
+            </div>
+          </li>
+          <li class="finding">
+            <span class="mark">05</span>
+            <div>
+              <h6>Subscribe block embeds a Beehiiv URL as a link</h6>
+              <p class="issue">An exposed <code>subscribe-forms.beehiiv.com</code> URL appears as link text. Reads as a developer leftover; breaks the editorial frame.</p>
+              <p class="fix">Replace with the Form panel component — orange-2 "SUBSCRIBE" label, "Start with the newsletter." headline, email input + primary CTA, "Free · No spam · Unsubscribe anytime" mono foot. Iframe the Beehiiv form behind that chrome.</p>
+            </div>
+          </li>
+          <li class="finding">
+            <span class="mark">06</span>
+            <div>
+              <h6>Trust-line trio at the bottom has no container</h6>
+              <p class="issue">"Research &amp; education only · UK/US-aware legal framing · No hard performance claims" floats as three orphan phrases.</p>
+              <p class="fix">Set as a single mono row, 11px ink-3, separated by " · " glyphs, centred above the footer rule. Standard footer-disclosure pattern.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- Methodology -->
+    <div class="audit-page">
+      <div class="audit-head">
+        <div>
+          <div class="audit-path">/methodology/</div>
+          <h3 class="audit-name">Methodology</h3>
+        </div>
+        <div class="audit-score"><b>?</b><span>Likely 60–70</span></div>
+      </div>
+      <div class="audit-body">
+        <p class="audit-summary inferred">
+          Of all six non-dashboard pages, this one most wants to feel like an
+          editorial document. Methodology is where MacroPulse explains its mind
+          — it should read like a research paper, not a marketing page.
+        </p>
+        <ol class="findings">
+          <li class="finding">
+            <span class="mark">01</span>
+            <div>
+              <h6>Likely missing a documented type rhythm</h6>
+              <p class="issue">Long technical pages tend to drift to a single body size with bold subheads — flat, hard to scan.</p>
+              <p class="fix">Adopt a strict three-tier rhythm: H1 (44px Fraunces) per chapter, H2 (28px) per indicator, H3 (19px italic) per sub-aspect. Body is 17px Fraunces with 62ch measure. One eyebrow per chapter, never per paragraph.</p>
+            </div>
+          </li>
+          <li class="finding">
+            <span class="mark">02</span>
+            <div>
+              <h6>Indicator list probably reads as a flat bullet list</h6>
+              <p class="issue">"Global liquidity / Rates / PMI / USD strength / Fed balance sheet" works as a teaser on the homepage but a methodology page should expand each.</p>
+              <p class="fix">Convert to a numbered indicator essay pattern: <em>01 — Global liquidity</em> as Fraunces italic display number + headline, body paragraph, and a small mono "what we watch / why it matters / how it scores" tri-line at the foot. Repeat for all five.</p>
+            </div>
+          </li>
+          <li class="finding">
+            <span class="mark">03</span>
+            <div>
+              <h6>Probably no visible TOC</h6>
+              <p class="issue">A long-form research page without a contents block forces readers to scroll-hunt.</p>
+              <p class="fix">Add the TOC component used at the top of this document — bordered card, mono "CONTENTS" label, two-column ordered list with decimal-leading-zero numerals in orange-2, anchored links.</p>
+            </div>
+          </li>
+          <li class="finding">
+            <span class="mark">04</span>
+            <div>
+              <h6>No printable / shareable affordance</h6>
+              <p class="issue">Methodology is the page allocators screenshot for compliance files — it should know that.</p>
+              <p class="fix">Add a small mono "Last revised · 8 May 2026" line under the H1 and a print stylesheet that strips backgrounds, sets ink to <code>#101820</code>, and keeps the H/body rhythm. No other "share" UI needed.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="audit-page">
+      <div class="audit-head">
+        <div>
+          <div class="audit-path">/about/</div>
+          <h3 class="audit-name">About</h3>
+        </div>
+        <div class="audit-score"><b>?</b><span>Likely 65–75</span></div>
+      </div>
+      <div class="audit-body">
+        <p class="audit-summary inferred">
+          About pages on indie research sites tend to drift toward founder-portrait
+          plus paragraph — fine, but it should still read like the rest of MacroPulse.
+        </p>
+        <ol class="findings">
+          <li class="finding">
+            <span class="mark">01</span>
+            <div>
+              <h6>"About us" section heading is generic</h6>
+              <p class="issue">Likely uses a literal "About" H1 with a body block beneath.</p>
+              <p class="fix">Replace with an editorial title in the system display style — e.g. "Built by a single voice, for serious readers." — mono eyebrow "ABOUT" above. Same component as homepage section heads.</p>
+            </div>
+          </li>
+          <li class="finding">
+            <span class="mark">02</span>
+            <div>
+              <h6>Author bio probably lacks structure</h6>
+              <p class="issue">Single block of paragraphs with no datelines or markers.</p>
+              <p class="fix">Set as a two-column grid: left column 280px portrait slot (or initials-only block in <code>bg-3</code> if no photo), right column with <em>name</em> as Fraunces 28px, <em>role</em> as italic 19px, <em>bio</em> as 17px serif body. Below: a "Beliefs" tri-card row reusing the Card component — three short statements that anchor the editorial point of view.</p>
+            </div>
+          </li>
+          <li class="finding">
+            <span class="mark">03</span>
+            <div>
+              <h6>End-of-page action probably absent or duplicates homepage</h6>
+              <p class="issue">If there's no CTA, the page leaks. If it's a copy of the homepage block, it feels like padding.</p>
+              <p class="fix">Use the CTA strip with a contextual line — "If this is the lens you've been missing, start with the newsletter." — single primary button to /newsletter/.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- Newsletter -->
+    <div class="audit-page">
+      <div class="audit-head">
+        <div>
+          <div class="audit-path">/newsletter/</div>
+          <h3 class="audit-name">Newsletter</h3>
+        </div>
+        <div class="audit-score"><b>?</b><span>Likely 55–70</span></div>
+      </div>
+      <div class="audit-body">
+        <p class="audit-summary inferred">
+          This is the conversion page; it tends to attract "marketing pattern"
+          gravity (testimonial sliders, hero-with-screenshot, social proof
+          counters) that fights the editorial voice.
+        </p>
+        <ol class="findings">
+          <li class="finding">
+            <span class="mark">01</span>
+            <div>
+              <h6>Embedded Beehiiv form probably renders raw</h6>
+              <p class="issue">Default Beehiiv styling collides with the dark editorial palette — wrong fonts, wrong button radius, wrong primary colour.</p>
+              <p class="fix">Wrap the Beehiiv iframe in the Form panel chassis. If their styles override yours, override back at the host: white-on-dark inputs, primary button in orange gradient, mono "free · no spam · unsubscribe anytime" foot. Treat the iframe as a black box and frame it.</p>
+            </div>
+          </li>
+          <li class="finding">
+            <span class="mark">02</span>
+            <div>
+              <h6>"Sample issues" likely repeat homepage tiles</h6>
+              <p class="issue">If the homepage already shows three sample cards, the newsletter page repeating the same three is redundant.</p>
+              <p class="fix">Make this page the <em>archive index</em>. List 8–12 issues as a single dateline table: mono date, Fraunces 19px headline, italic 14px regime tag (e.g. "BTC Accumulation"). Hairline rule between rows. Reuse the dataset, not the homepage components.</p>
+            </div>
+          </li>
+          <li class="finding">
+            <span class="mark">03</span>
+            <div>
+              <h6>"What you get" probably needs to be more specific than the homepage</h6>
+              <p class="issue">Homepage's value props are generic ("concise briefings"); the newsletter page is where to be concrete.</p>
+              <p class="fix">Add a 3-column grid below the form: each column = one mono eyebrow + Fraunces 22px headline + 14.5px body. E.g. "Cadence — Every Tuesday, 7am UK." / "Length — ~1,400 words. ~6 minutes." / "Anchor — One regime call per issue, with rationale." Be exact; allocators reward exactness.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="audit-page">
+      <div class="audit-head">
+        <div>
+          <div class="audit-path">/contact/</div>
+          <h3 class="audit-name">Contact</h3>
+        </div>
+        <div class="audit-score"><b>?</b><span>Likely 60–75</span></div>
+      </div>
+      <div class="audit-body">
+        <p class="audit-summary inferred">
+          Contact pages on small sites tend to be either "just an email link" or
+          "a 12-field form" — neither fits a calm editorial brand.
+        </p>
+        <ol class="findings">
+          <li class="finding">
+            <span class="mark">01</span>
+            <div>
+              <h6>Probably presents email as <code>info@macropulse.uk</code> link only</h6>
+              <p class="issue">Functional but cold; misses an editorial moment.</p>
+              <p class="fix">One-screen layout: left column has a 22px italic Fraunces lede ("Press, partnerships, or a question about the methodology — write directly."), then three labelled lines (Email · Response time · Best for). Right column has the Form panel for shorter notes. Single page, single screen on desktop.</p>
+            </div>
+          </li>
+          <li class="finding">
+            <span class="mark">02</span>
+            <div>
+              <h6>Form probably lacks the "best for" routing</h6>
+              <p class="issue">A generic name/email/message form doesn't tell the visitor what kind of message belongs here.</p>
+              <p class="fix">Add a small mono "Reason" radio/select with three options — Press, Subscriber question, Partnership — above the message field. Routes the email and shows the reader you've thought about it.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="audit-page">
+      <div class="audit-head">
+        <div>
+          <div class="audit-path">/faq/</div>
+          <h3 class="audit-name">FAQ</h3>
+        </div>
+        <div class="audit-score"><b>?</b><span>Likely 50–65</span></div>
+      </div>
+      <div class="audit-body">
+        <p class="audit-summary inferred">
+          FAQ pages are where systems break — the accordion pattern is so
+          conventional it usually gets dropped in raw, with no type or colour
+          treatment.
+        </p>
+        <ol class="findings">
+          <li class="finding">
+            <span class="mark">01</span>
+            <div>
+              <h6>Likely uses a default <code>&lt;details&gt;</code> accordion with no styling</h6>
+              <p class="issue">Native disclosure widget reads as untreated; the disclosure triangle doesn't match the system's mono/orange language.</p>
+              <p class="fix">Style <code>&lt;details&gt;</code>: 1px <code>line</code> bottom border per item, no top/side borders. <code>&lt;summary&gt;</code> set in Fraunces 19px ink, with a custom "+" / "−" glyph in mono orange-2 on the right edge that rotates on open. Body in 17px Fraunces ink-2 with 14px top padding. No card chassis around the whole accordion — let it be a bare list.</p>
+            </div>
+          </li>
+          <li class="finding">
+            <span class="mark">02</span>
+            <div>
+              <h6>Probably no category structure</h6>
+              <p class="issue">Single flat list of all questions makes the page hard to skim.</p>
+              <p class="fix">Group into three sections: <em>The newsletter</em>, <em>The cycle indicator</em>, <em>Subscriptions &amp; access</em>. Each gets the section-header component (mono eyebrow, H2). The accordion sits within each.</p>
+            </div>
+          </li>
+          <li class="finding">
+            <span class="mark">03</span>
+            <div>
+              <h6>End-of-page probably leaves the reader stranded</h6>
+              <p class="issue">Last accordion → footer is a rough exit.</p>
+              <p class="fix">Footer-adjacent: a quiet two-line block — "Didn't find what you needed? Write directly." — with a ghost button to /contact/. Not a CTA strip; this is a softer hand-off.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- Legal -->
+    <div class="audit-page">
+      <div class="audit-head">
+        <div>
+          <div class="audit-path">/legal/</div>
+          <h3 class="audit-name">Legal</h3>
+        </div>
+        <div class="audit-score"><b>?</b><span>Likely 70–85</span></div>
+      </div>
+      <div class="audit-body">
+        <p class="audit-summary inferred">
+          Legal usually conforms by accident — boring HTML, default sans, a wall
+          of paragraphs. The fix is small: make it look intentional.
+        </p>
+        <ol class="findings">
+          <li class="finding">
+            <span class="mark">01</span>
+            <div>
+              <h6>Likely set in Inter at body size, not Fraunces</h6>
+              <p class="issue">Legal text in sans reads like a developer dumped the template; out of family with the rest of the site.</p>
+              <p class="fix">Set body as Fraunces 16px / 1.65, ink-2. Keep mono only for the "Last revised" dateline and for any code or address blocks. Cap measure at ~62ch even if the page is otherwise full-width.</p>
+            </div>
+          </li>
+          <li class="finding">
+            <span class="mark">02</span>
+            <div>
+              <h6>Section numbering probably uses default <code>ol</code></h6>
+              <p class="issue">Browser default counters look like a Word document.</p>
+              <p class="fix">Use the same <code>counter-increment</code> + <code>::before</code> pattern as the section headers in this doc — decimal-leading-zero in orange-2 mono, sat in a 28px gutter to the left of each H2. Lifts the page into the family for almost no work.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ─── 06 DO NOT PROPAGATE ─── -->
+  <section class="section" id="dnp">
+    <div class="section-head">
+      <div class="section-num">06</div>
+      <div>
+        <h2 class="section-name">Do not propagate</h2>
+        <p class="section-thesis">
+          Six dashboard moves that make /dashboard/ work but would make every
+          other page feel tool-shaped. Keep them where they belong.
+        </p>
+      </div>
+    </div>
+
+    <div class="dnp-grid">
+
+      <div class="dnp">
+        <div class="dnp-name">The sticky tape rail</div>
+        <div class="dnp-where">Stays on /dashboard/</div>
+        <p class="dnp-why">Twelve live prices in a 260px sticky left rail is right when the page's <em>job</em> is to surface market state. On marketing pages it would scream "trading dashboard" and undermine the calm voice. The footer-adjacent "current sample state · BTC Accumulation" line on the homepage is enough.</p>
+      </div>
+
+      <div class="dnp">
+        <div class="dnp-name">The pulse / live indicator dot</div>
+        <div class="dnp-where">Stays on /dashboard/ mast only</div>
+        <p class="dnp-why">The glowing orange "● LIVE" dot is a freshness signal — it implies the page updates. The newsletter, methodology, and about pages don't update on their own; the dot would be a false promise. Use the static eyebrow pill on every other page.</p>
+      </div>
+
+      <div class="dnp">
+        <div class="dnp-name">"Refreshed Nm ago" timestamps</div>
+        <div class="dnp-where">Stays on /dashboard/ mast</div>
+        <p class="dnp-why">Same reason. On methodology, use "Last revised · 8 May 2026" instead — calmer, semantically correct.</p>
+      </div>
+
+      <div class="dnp">
+        <div class="dnp-name">The four-cycle-state rail</div>
+        <div class="dnp-where">Limited cameo on / and /methodology/</div>
+        <p class="dnp-why">The full <em>active state + 30d-ago ghost</em> indicator is the dashboard's signature. The marketing pages can show a static four-state rail (no live dot, no ghost) as a teaser, but never the live version. One canonical live instance — that's how it stays a signature.</p>
+      </div>
+
+      <div class="dnp">
+        <div class="dnp-name">Scorecard status glyphs (▮ ▯ ▭)</div>
+        <div class="dnp-where">Stays on /dashboard/</div>
+        <p class="dnp-why">The compact "supportive / neutral / headwind" glyph language belongs to the data-dense scorecard. On methodology, describe each indicator in prose. Outside the dashboard, status conveyed through symbols without legends reads as gnomic.</p>
+      </div>
+
+      <div class="dnp">
+        <div class="dnp-name">Tabular-numerals price lists</div>
+        <div class="dnp-where">Stays on /dashboard/</div>
+        <p class="dnp-why">Mono price grids are utility chrome. On the homepage and newsletter page, mention BTC and ETH in prose — not as a 12-row tape. The newsletter page's value prop isn't "we have prices"; it's "we have a regime call."</p>
+      </div>
+
+    </div>
+
+    <div class="sub" style="margin-top: 56px;">
+      <div class="sub-label">The single rule behind the list</div>
+      <p>
+        <strong>The dashboard is a live instrument; everything else is a document.</strong>
+        Anything on /dashboard/ that depends on the page being alive — tickers, timestamps,
+        live indicators, sticky tapes — does not belong on a document. Anything that's
+        about voice, type, colour, rhythm, or component chassis travels freely. Use that
+        boundary as the test when in doubt.
+      </p>
+    </div>
+  </section>
+
+  <footer class="doc-foot">
+    <div>MacroPulse · Design system &amp; site audit</div>
+    <div>Six pages, one canon</div>
+  </footer>
+
+</main>
+</body>
+</html>

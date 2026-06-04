@@ -1,0 +1,38 @@
+{
+  "monday": {
+    "price_dashboard": ["BTC", "ETH", "SUI", "DOGE", "OIL", "GOLD", "SP500"],
+    "feature_charts": ["BTC", "BTC.D"],
+    "chart_comment": "Price/technical analysis focus — key levels, MAs, structure"
+  },
+  "friday": {
+    "price_dashboard": ["BTC", "ETH", "SUI", "DOGE", "OIL", "GOLD", "SP500"],
+    "indicator_dashboard": ["BTC_D", "ETH_BTC", "TOTAL", "TOTAL2", "TOTAL3"],
+    "feature_charts": ["BTC_D", "TOTAL3"],
+    "chart_comment": "Indicator/macro focus — dominance, total market structure, M2"
+  },
+  "coingecko_ids": {
+    "BTC": "bitcoin",
+    "ETH": "ethereum",
+    "SUI": "sui",
+    "DOGE": "dogecoin"
+  },
+  "yahoo_tickers": {
+    "SP500": "^GSPC",
+    "GOLD": "GC=F",
+    "OIL": "CL=F"
+  },
+  "asset_colors": {
+    "BTC": "#f7931a",
+    "ETH": "#627eea",
+    "SUI": "#4da2ff",
+    "DOGE": "#c3a634",
+    "OIL": "#8b4513",
+    "GOLD": "#ffd700",
+    "SP500": "#00b4d8",
+    "BTC_D": "#f7931a",
+    "ETH_BTC": "#627eea",
+    "TOTAL": "#4ade80",
+    "TOTAL2": "#00b4d8",
+    "TOTAL3": "#a78bfa"
+  }
+}

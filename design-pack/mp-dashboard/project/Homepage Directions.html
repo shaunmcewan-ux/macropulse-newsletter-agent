@@ -1,0 +1,746 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MacroPulse — Homepage Redesign Directions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,ital,wght@9..144,0,400;9..144,0,500;9..144,0,600;9..144,1,400;9..144,1,500&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg-0: #080e13;
+    --bg-1: #0c141b;
+    --bg-2: #111a23;
+    --bg-3: #16212c;
+    --line: rgba(237, 243, 247, 0.08);
+    --line-strong: rgba(237, 243, 247, 0.16);
+    --ink: #edf3f7;
+    --ink-2: #b9c4cc;
+    --ink-3: #7c8a95;
+    --ink-4: #4a5763;
+    --orange-1: #ffbd69;
+    --orange-2: #ff9d2f;
+    --orange-3: #f07d0a;
+    --green: #4ec38a;
+    --red: #ef5a6b;
+    --grad: linear-gradient(135deg, #ffbd69 0%, #ff9d2f 45%, #f07d0a 100%);
+    --serif: "Fraunces", Georgia, serif;
+    --sans: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background:
+      radial-gradient(900px 600px at 80% -10%, rgba(255, 157, 47, 0.10), transparent 60%),
+      radial-gradient(800px 500px at -10% 10%, rgba(255, 189, 105, 0.05), transparent 60%),
+      linear-gradient(180deg, #0c141b 0%, #080e13 100%);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+  }
+  .page { max-width: 1180px; margin: 0 auto; padding: 72px 40px 120px; }
+  @media (max-width: 720px) { .page { padding: 40px 20px 80px; } }
+
+  /* mast */
+  .mast {
+    display: flex; justify-content: space-between; align-items: flex-start;
+    gap: 24px; padding-bottom: 28px;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 56px; flex-wrap: wrap;
+  }
+  .mast-brand { font-family: var(--serif); font-size: 28px; font-weight: 600; letter-spacing: -0.01em; line-height: 1; }
+  .mast-brand .accent { display: block; width: 36px; height: 3px; background: var(--grad); margin-top: 10px; border-radius: 2px; }
+  .mast-meta { font-family: var(--mono); font-size: 11px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.14em; text-align: right; line-height: 1.7; }
+  .mast-meta strong { color: var(--ink-2); font-weight: 500; }
+
+  /* doc head */
+  .doc-eyebrow {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 7px 14px; border: 1px solid var(--line-strong); border-radius: 999px;
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--ink-2); margin-bottom: 28px;
+  }
+  .doc-eyebrow::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--orange-2); box-shadow: 0 0 12px var(--orange-2); }
+  h1.doc-title {
+    font-family: var(--serif); font-weight: 500;
+    font-size: clamp(40px, 6vw, 68px); line-height: 1.04;
+    letter-spacing: -0.02em; margin: 0 0 24px; text-wrap: balance;
+  }
+  h1.doc-title em { font-style: italic; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .doc-lede { font-family: var(--serif); font-size: 22px; line-height: 1.5; color: var(--ink-2); max-width: 720px; margin: 0 0 16px; font-weight: 400; text-wrap: pretty; }
+  .doc-byline { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--ink-3); margin-top: 32px; }
+  .doc-byline span + span::before { content: "·"; margin: 0 10px; color: var(--ink-4); }
+
+  /* premise */
+  .premise {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 48px;
+    margin: 64px 0 88px;
+  }
+  @media (max-width: 720px) { .premise { grid-template-columns: 1fr; gap: 28px; } }
+  .premise h3 {
+    font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.16em; color: var(--orange-2); margin: 0 0 14px; font-weight: 500;
+  }
+  .premise p { font-family: var(--serif); font-size: 17px; line-height: 1.55; color: var(--ink-2); margin: 0 0 14px; text-wrap: pretty; }
+  .premise p strong { color: var(--ink); font-weight: 500; }
+
+  /* TOC */
+  .toc {
+    margin: 0 0 88px; padding: 28px 32px;
+    border: 1px solid var(--line); border-radius: 14px;
+    background: linear-gradient(180deg, rgba(22, 33, 44, 0.45), rgba(12, 20, 27, 0.45));
+  }
+  .toc-title { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--ink-3); margin-bottom: 18px; }
+  .toc-list {
+    display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px 32px;
+    margin: 0; padding: 0; list-style: none; counter-reset: toc;
+  }
+  @media (max-width: 720px) { .toc-list { grid-template-columns: 1fr; } }
+  .toc-list li {
+    counter-increment: toc;
+    display: flex; align-items: baseline; gap: 14px;
+    font-family: var(--serif); font-size: 19px; color: var(--ink);
+  }
+  .toc-list li::before {
+    content: counter(toc, decimal-leading-zero);
+    font-family: var(--mono); font-size: 11px; color: var(--orange-2);
+    letter-spacing: 0.1em; flex: none; width: 28px;
+  }
+  .toc-list a { color: inherit; text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 120ms ease; }
+  .toc-list a:hover { border-bottom-color: var(--orange-2); }
+  .toc-list em { font-style: italic; color: var(--ink-3); margin-left: 6px; font-size: 14px; }
+
+  /* direction */
+  .direction { margin-bottom: 96px; scroll-margin-top: 40px; }
+  .direction-head {
+    display: grid; grid-template-columns: 96px 1fr;
+    gap: 28px; align-items: start;
+    margin-bottom: 36px; padding-bottom: 28px;
+    border-bottom: 1px solid var(--line);
+  }
+  @media (max-width: 720px) { .direction-head { grid-template-columns: 1fr; gap: 14px; } }
+  .direction-num {
+    font-family: var(--serif); font-style: italic;
+    font-size: 72px; line-height: 0.9;
+    background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent;
+    font-weight: 500;
+  }
+  .direction-name {
+    font-family: var(--serif); font-size: clamp(30px, 4vw, 44px);
+    line-height: 1.05; letter-spacing: -0.015em;
+    margin: 0 0 12px; font-weight: 500; text-wrap: balance;
+  }
+  .direction-thesis {
+    font-family: var(--serif); font-style: italic; font-size: 19px;
+    color: var(--ink-2); line-height: 1.5; margin: 0; max-width: 640px; text-wrap: pretty;
+  }
+  .direction-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+  .tag {
+    font-family: var(--mono); font-size: 10.5px;
+    text-transform: uppercase; letter-spacing: 0.14em;
+    padding: 5px 11px; border: 1px solid var(--line-strong);
+    border-radius: 999px; color: var(--ink-2);
+  }
+  .tag.effort-low    { color: var(--green);    border-color: rgba(78, 195, 138, 0.35); }
+  .tag.effort-medium { color: var(--orange-1); border-color: rgba(255, 189, 105, 0.35); }
+  .tag.effort-high   { color: var(--red);      border-color: rgba(239, 90, 107, 0.35); }
+
+  .sub { margin: 36px 0; }
+  .sub-label {
+    font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.16em; color: var(--ink-3); margin-bottom: 14px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .sub-label::before { content: ""; width: 14px; height: 1px; background: var(--orange-2); }
+  .sub p { font-family: var(--serif); font-size: 17px; line-height: 1.6; color: var(--ink); margin: 0 0 12px; text-wrap: pretty; max-width: 760px; }
+  .sub p.muted { color: var(--ink-2); }
+  .sub p code { font-family: var(--mono); font-size: 13px; color: var(--ink); background: rgba(237, 243, 247, 0.06); padding: 1px 6px; border-radius: 4px; }
+
+  pre.wire {
+    font-family: var(--mono); font-size: 12.5px; line-height: 1.55;
+    color: var(--ink-2); background: var(--bg-0);
+    border: 1px solid var(--line); border-radius: 12px;
+    padding: 22px 24px; overflow-x: auto;
+    margin: 18px 0 8px; white-space: pre;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.02);
+  }
+  .wire-caption { font-family: var(--mono); font-size: 10.5px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.14em; margin-bottom: 4px; }
+
+  .changelist {
+    display: grid; grid-template-columns: 160px 1fr;
+    gap: 0; margin: 16px 0 8px;
+    border-top: 1px solid var(--line);
+  }
+  @media (max-width: 720px) { .changelist { grid-template-columns: 1fr; } }
+  .changelist > div { padding: 16px 0; border-bottom: 1px solid var(--line); }
+  .changelist .k { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--orange-2); padding-right: 24px; }
+  .changelist .v { font-family: var(--serif); font-size: 16.5px; line-height: 1.55; color: var(--ink); text-wrap: pretty; }
+  @media (max-width: 720px) { .changelist .k { padding-bottom: 4px; border-bottom: none; } .changelist .v { padding-top: 0; } }
+
+  /* copy block */
+  .copy-block {
+    margin: 18px 0; padding: 22px 26px;
+    border: 1px solid var(--line); border-radius: 12px;
+    background: linear-gradient(180deg, rgba(22, 33, 44, 0.5), rgba(12, 20, 27, 0.5));
+  }
+  .copy-row { padding: 12px 0; border-bottom: 1px dashed var(--line); }
+  .copy-row:last-child { border-bottom: none; }
+  .copy-row .k { font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--orange-2); margin-bottom: 6px; }
+  .copy-row .headline { font-family: var(--serif); font-size: 28px; font-weight: 500; line-height: 1.1; letter-spacing: -0.01em; margin: 0; text-wrap: balance; }
+  .copy-row .headline em { font-style: italic; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .copy-row .lede { font-family: var(--serif); font-size: 19px; color: var(--ink-2); line-height: 1.5; margin: 0; font-style: italic; }
+  .copy-row .cta { font-family: var(--sans); font-size: 14px; font-weight: 500; color: var(--ink); display: inline-flex; align-items: center; gap: 8px; padding: 10px 18px; background: var(--grad); color: #1a0f06; border-radius: 999px; }
+
+  /* tradeoffs */
+  .tradeoffs { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 18px; }
+  @media (max-width: 720px) { .tradeoffs { grid-template-columns: 1fr; } }
+  .tradeoff { padding: 20px 22px; border: 1px solid var(--line); border-radius: 12px; background: rgba(22, 33, 44, 0.35); }
+  .tradeoff h4 {
+    margin: 0 0 12px; font-family: var(--mono); font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.16em; color: var(--ink-3);
+    font-weight: 500; display: flex; align-items: center; gap: 10px;
+  }
+  .tradeoff.plus h4  { color: var(--green); }
+  .tradeoff.minus h4 { color: var(--red); }
+  .tradeoff h4::before { font-family: var(--mono); font-size: 14px; line-height: 1; }
+  .tradeoff.plus h4::before  { content: "+"; }
+  .tradeoff.minus h4::before { content: "−"; }
+  .tradeoff ul { margin: 0; padding: 0; list-style: none; }
+  .tradeoff li {
+    font-family: var(--serif); font-size: 16px; line-height: 1.5;
+    color: var(--ink); padding: 8px 0; border-top: 1px dashed var(--line); text-wrap: pretty;
+  }
+  .tradeoff li:first-child { border-top: none; padding-top: 0; }
+
+  /* recommendation */
+  .recco {
+    margin-top: 48px; padding: 56px;
+    border: 1px solid var(--line-strong); border-radius: 18px;
+    background:
+      radial-gradient(600px 300px at 100% 0%, rgba(255, 157, 47, 0.08), transparent 60%),
+      linear-gradient(180deg, rgba(22, 33, 44, 0.6), rgba(12, 20, 27, 0.6));
+    position: relative; overflow: hidden;
+  }
+  .recco::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 2px; background: var(--grad); opacity: 0.6; }
+  @media (max-width: 720px) { .recco { padding: 32px 24px; } }
+  .recco-eyebrow { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; color: var(--orange-2); margin-bottom: 16px; }
+  .recco h2 {
+    font-family: var(--serif); font-size: clamp(32px, 4.4vw, 48px);
+    line-height: 1.05; margin: 0 0 20px; font-weight: 500;
+    letter-spacing: -0.015em; text-wrap: balance;
+  }
+  .recco h2 em { font-style: italic; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .recco p { font-family: var(--serif); font-size: 18px; line-height: 1.6; color: var(--ink-2); max-width: 760px; margin: 0 0 14px; text-wrap: pretty; }
+  .recco-foot {
+    margin-top: 32px; display: flex; flex-wrap: wrap; gap: 24px;
+    padding-top: 24px; border-top: 1px solid var(--line);
+    font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.14em; color: var(--ink-3);
+  }
+  .recco-foot strong { color: var(--ink); font-weight: 500; }
+
+  .doc-foot {
+    margin-top: 80px; padding-top: 28px;
+    border-top: 1px solid var(--line);
+    display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px;
+    font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.14em; color: var(--ink-3);
+  }
+</style>
+</head>
+<body>
+<main class="page" data-screen-label="Homepage Directions">
+
+  <header class="mast">
+    <div class="mast-brand">MacroPulse<span class="accent"></span></div>
+    <div class="mast-meta">
+      <strong>Homepage redesign · 3 directions</strong><br />
+      Internal · 9 May 2026
+    </div>
+  </header>
+
+  <div class="doc-eyebrow">Design Review</div>
+  <h1 class="doc-title">Three ways to open the <em>front door</em>.</h1>
+  <p class="doc-lede">
+    The homepage isn't a dashboard, an archive, or a sales page — it's a
+    fifteen-second answer to "what is this, and why should I read it?" Three
+    directions, each making a different bet about how that answer is best told.
+  </p>
+  <div class="doc-byline">
+    <span>For: macropulse.uk</span>
+    <span>System: see /Design System.html</span>
+    <span>Effort: low / med / high</span>
+  </div>
+
+  <section class="premise">
+    <div>
+      <h3>The fifteen-second contract</h3>
+      <p>
+        A first-time visitor must leave the first viewport knowing four things:
+        <strong>what MacroPulse is</strong> (a weekly research note),
+        <strong>what they get</strong> (one regime call per week),
+        <strong>what the cycle indicator means</strong> (four states, one of them currently lit),
+        and <strong>why this isn't generic crypto Twitter</strong> (the methodology, written down).
+      </p>
+    </div>
+    <div>
+      <h3>What every direction must keep</h3>
+      <p>
+        The cycle state — <em>BTC Accumulation</em> as of this writing — must appear
+        as the page's loudest <em>word</em>, not just an icon. The four-state rail
+        appears in some form on every direction. Orange used once per viewport.
+        Static HTML, mobile-first. The homepage never embeds the live tape.
+      </p>
+    </div>
+  </section>
+
+  <nav class="toc">
+    <div class="toc-title">Contents</div>
+    <ol class="toc-list">
+      <li><a href="#d1">The Editorial Front Door <em>— calm, document-shaped</em></a></li>
+      <li><a href="#d2">The Cycle Window <em>— state-led, dashboard-adjacent</em></a></li>
+      <li><a href="#d3">The Letter <em>— first-person, signed</em></a></li>
+      <li><a href="#recco">Recommendation</a></li>
+    </ol>
+  </nav>
+
+  <!-- ─── D1 ─── -->
+  <section class="direction" id="d1">
+    <div class="direction-head">
+      <div class="direction-num">01</div>
+      <div>
+        <h2 class="direction-name">The Editorial Front Door</h2>
+        <p class="direction-thesis">
+          Treat the homepage like the cover of a research weekly: one display
+          headline, one italic lede, the four cycle states as a static rail
+          beneath, and a single primary CTA. Below the fold, three sample
+          issues and the methodology in one paragraph.
+        </p>
+        <div class="direction-tags">
+          <span class="tag">Editorial</span>
+          <span class="tag">Static rail</span>
+          <span class="tag effort-low">Effort: low</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Above the fold</div>
+      <div class="wire-caption">Mobile-first · 390px shown; desktop scales the same blocks</div>
+<pre class="wire">┌──────────────────────────────────────────┐
+│  MacroPulse                  Newsletter  │
+│                              Methodology │
+├──────────────────────────────────────────┤
+│  RESEARCH NOTE · WEEKLY                  │
+│                                          │
+│  One regime call.                        │
+│  No noise. Every                         │
+│  Tuesday.                                │
+│                                          │
+│  A weekly read on the macro cycle for    │
+│  allocators who already know the news.   │
+│                                          │
+│  THIS WEEK'S READ                        │
+│  ●─────○─────○─────○                     │
+│  BTC    Alt    Take   Risk               │
+│  Accum. Rotn.  Profit Off                │
+│                                          │
+│  ┌────────────────────────────────────┐  │
+│  │  Start with the newsletter   →     │  │
+│  └────────────────────────────────────┘  │
+│                                          │
+│  Free · Tue 7am UK · 1,400 words         │
+└──────────────────────────────────────────┘</pre>
+      <p class="muted">
+        The four states appear on first paint, not after a scroll. The active
+        state is rendered in italic Fraunces, not just a pill — so "BTC
+        Accumulation" reads as a <em>word</em>, the page's thesis. The lede
+        declares both the audience ("allocators who already know the news") and
+        the cadence in one sentence.
+      </p>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Section-by-section</div>
+      <div class="changelist">
+        <div class="k">01 · Hero</div>
+        <div class="v">Mono eyebrow, display headline, italic lede, four-state rail, single primary CTA, mono fine-print. No screenshots, no second CTA, no testimonials. ~640px tall on desktop.</div>
+        <div class="k">02 · This week</div>
+        <div class="v">A horizontal "issue card" for the most recent newsletter — date, regime tag, headline, opening paragraph (~50 words), "Read the full issue →" ghost link. One card, full-width, 1px line border. Establishes <em>what the product actually looks like</em>.</div>
+        <div class="k">03 · The methodology, in one breath</div>
+        <div class="v">Two-column block. Left: section-header ("THE METHOD" + "Five indicators. One regime. Written down."). Right: 17px Fraunces paragraph naming the five indicators and the four states, ending with a ghost link to /methodology/.</div>
+        <div class="k">04 · Sample issues</div>
+        <div class="v">Three Card components in a 3-column grid (1-col mobile). Each card: dateline · regime tag · headline · 30-word excerpt · "Read sample →". Different regimes across the three cards, so the reader sees the framework adapting.</div>
+        <div class="k">05 · For whom</div>
+        <div class="v">A short editorial paragraph addressed directly: "Written for allocators, family offices, and anyone who treats crypto as one asset class among several." No icons. No "perfect for…" lists.</div>
+        <div class="k">06 · CTA strip</div>
+        <div class="v">The system's CTA-strip component. "Start with the newsletter." italic kicker, primary button. Once.</div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Copy</div>
+      <div class="copy-block">
+        <div class="copy-row">
+          <div class="k">Headline</div>
+          <p class="headline">One <em>regime call</em>. No noise. Every Tuesday.</p>
+        </div>
+        <div class="copy-row">
+          <div class="k">Sub-deck</div>
+          <p class="lede">A weekly read on the macro cycle for allocators who already know the news.</p>
+        </div>
+        <div class="copy-row">
+          <div class="k">Primary CTA</div>
+          <a class="cta" href="#">Start with the newsletter →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">How the cycle state pulls in</div>
+      <p>
+        <strong>Reference, not embed.</strong> The four-state rail is rendered
+        statically in HTML; the active state ("BTC Accumulation") is inlined at
+        publish time. Each state label is a link to <code>/dashboard/#state-{slug}</code>,
+        and the whole rail's caption is "Live on the dashboard →". No JS, no
+        live data on the homepage — the dashboard owns liveness.
+      </p>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Trade-offs vs. current</div>
+      <div class="tradeoffs">
+        <div class="tradeoff plus">
+          <h4>Better</h4>
+          <ul>
+            <li>The fifteen-second contract is met on first paint, on a phone.</li>
+            <li>The cycle state is the loudest word — its job — without a live widget.</li>
+            <li>Cheapest direction to build. Pure HTML/CSS. No JS.</li>
+            <li>Reads like the newsletter, which is the voice you've been investing in.</li>
+          </ul>
+        </div>
+        <div class="tradeoff minus">
+          <h4>Worse</h4>
+          <ul>
+            <li>Quietest of the three — relies on copy quality to land.</li>
+            <li>Static rail can feel "just text" if the visitor doesn't know to look at the dashboard.</li>
+            <li>Less differentiated visually from other indie research sites.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── D2 ─── -->
+  <section class="direction" id="d2">
+    <div class="direction-head">
+      <div class="direction-num">02</div>
+      <div>
+        <h2 class="direction-name">The Cycle Window</h2>
+        <p class="direction-thesis">
+          Open the homepage with a small, silent <em>window</em> onto the
+          dashboard — current cycle state set in display Fraunces, the four-state
+          rail, and a single live timestamp — and let the editorial framing
+          orbit it. The page becomes a frame around the thesis, not a separate
+          marketing artefact.
+        </p>
+        <div class="direction-tags">
+          <span class="tag">State-led</span>
+          <span class="tag">Dashboard-adjacent</span>
+          <span class="tag effort-medium">Effort: medium</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Above the fold</div>
+      <div class="wire-caption">Mobile · 390px</div>
+<pre class="wire">┌──────────────────────────────────────────┐
+│  MacroPulse                  Newsletter  │
+│                              Methodology │
+├──────────────────────────────────────────┤
+│  THIS WEEK · MAY 7 2026                  │
+│                                          │
+│  ╔════════════════════════════════════╗  │
+│  ║  THE READ                          ║  │
+│  ║                                    ║  │
+│  ║  BTC                               ║  │
+│  ║  Accumulation.                     ║  │
+│  ║                                    ║  │
+│  ║  ●─────○─────○─────○               ║  │
+│  ║  acc   alt   tp    off             ║  │
+│  ║                                    ║  │
+│  ║  Live on the dashboard →           ║  │
+│  ╚════════════════════════════════════╝  │
+│                                          │
+│  Weekly research on the macro cycle      │
+│  for allocators who already know the     │
+│  news. One regime call per issue.        │
+│                                          │
+│  ┌────────────────────────────────────┐  │
+│  │  Get the next issue          →     │  │
+│  └────────────────────────────────────┘  │
+└──────────────────────────────────────────┘</pre>
+      <p class="muted">
+        The hero <em>is</em> a window. "BTC Accumulation" is the largest piece
+        of type on the page (display Fraunces, italic, gradient). Below the
+        window: a 3-line italic editorial framing and a single CTA. The
+        dashboard link is a quiet mono caption inside the window — invitation,
+        not demand.
+      </p>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Section-by-section</div>
+      <div class="changelist">
+        <div class="k">01 · Cycle window</div>
+        <div class="v">Card chassis from the system. <code>THE READ</code> mono eyebrow, "BTC Accumulation." in display Fraunces (italic state name in gradient), four-state rail, "Live on the dashboard →" caption. <em>No live tape, no live timestamp inside the card</em> — only the state.</div>
+        <div class="k">02 · Editorial framing</div>
+        <div class="v">A 3-sentence italic Fraunces paragraph immediately under the window. Names the audience, the cadence, the deliverable. ~40 words.</div>
+        <div class="k">03 · One primary CTA</div>
+        <div class="v">"Get the next issue →" — the verb is "get," not "subscribe," because the next thing is concrete (Tuesday's email).</div>
+        <div class="k">04 · The four states, explained</div>
+        <div class="v">Below the fold: a 4-row block with one row per cycle state. Each row: mono eyebrow ("01 · BTC ACCUMULATION"), Fraunces 22px headline (the state in plain English), 17px serif body (one sentence: when this is true, what it means for positioning). Rows separated by hairline rules. This is the page's <em>didactic</em> moment.</div>
+        <div class="k">05 · Sample issue</div>
+        <div class="v">A single Card component for the latest issue. Full-width, with the issue's regime tag, headline, opening 80 words, and "Read sample →". One card, not three — keeps the page from competing with /newsletter/.</div>
+        <div class="k">06 · CTA strip</div>
+        <div class="v">Same CTA strip pattern as D1, just before the footer.</div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Copy</div>
+      <div class="copy-block">
+        <div class="copy-row">
+          <div class="k">Headline (the state)</div>
+          <p class="headline">BTC <em>Accumulation</em>.</p>
+        </div>
+        <div class="copy-row">
+          <div class="k">Sub-deck (italic, under window)</div>
+          <p class="lede">Weekly macro for allocators who already know the news. One regime call. Every Tuesday.</p>
+        </div>
+        <div class="copy-row">
+          <div class="k">Primary CTA</div>
+          <a class="cta" href="#">Get the next issue →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">How the cycle state pulls in</div>
+      <p>
+        <strong>Embed at publish time, not at runtime.</strong> The current
+        state and a single ISO date are written into the HTML by your weekly
+        publish step (the same step that publishes the newsletter). No iframe,
+        no JS, no CORS — just an editor field that the static page reads.
+        Treats the cycle state as <em>editorial content</em>, the same as a
+        masthead date. The link "Live on the dashboard →" routes anyone who
+        wants real-time data to the right place.
+      </p>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Trade-offs vs. current</div>
+      <div class="tradeoffs">
+        <div class="tradeoff plus">
+          <h4>Better</h4>
+          <ul>
+            <li>The thesis word is the largest object on the page — strongest fifteen-second answer.</li>
+            <li>The four-state explainer below the fold solves "what does the cycle indicator mean?" without a separate page.</li>
+            <li>Visually distinctive — no other research site opens with a cycle window.</li>
+            <li>Reinforces the dashboard's existence without duplicating it.</li>
+          </ul>
+        </div>
+        <div class="tradeoff minus">
+          <h4>Worse</h4>
+          <ul>
+            <li>Requires the publish workflow to write state into the homepage weekly.</li>
+            <li>Risk of looking like a dashboard-lite if the window isn't restrained.</li>
+            <li>If the cycle state doesn't change for months, the homepage looks frozen.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── D3 ─── -->
+  <section class="direction" id="d3">
+    <div class="direction-head">
+      <div class="direction-num">03</div>
+      <div>
+        <h2 class="direction-name">The Letter</h2>
+        <p class="direction-thesis">
+          Open the homepage as a short, signed letter from the author, dated
+          this week, set in editorial Fraunces. The cycle state appears as a
+          single sentence inside the letter; the CTA is a sign-off. Highest
+          differentiation, lowest convention.
+        </p>
+        <div class="direction-tags">
+          <span class="tag">First-person</span>
+          <span class="tag">Signed</span>
+          <span class="tag effort-low">Effort: low</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Above the fold</div>
+      <div class="wire-caption">Mobile · 390px</div>
+<pre class="wire">┌──────────────────────────────────────────┐
+│  MacroPulse                  Newsletter  │
+│                              Methodology │
+├──────────────────────────────────────────┤
+│  TUE 7 MAY 2026 · ISSUE 47               │
+│                                          │
+│  Dear reader,                            │
+│                                          │
+│  This is a weekly research note about    │
+│  the macro cycle, written for people     │
+│  who allocate capital and don't want     │
+│  to read another forty-tweet thread.     │
+│                                          │
+│  As of this morning the read is          │
+│  BTC Accumulation — DXY sub-98, curve    │
+│  steepening, funding negative. The       │
+│  full case is on the dashboard.          │
+│                                          │
+│  Each Tuesday I send one regime call     │
+│  and the reasoning behind it. Five       │
+│  indicators, four states, no noise.      │
+│                                          │
+│  — A. Carter                             │
+│                                          │
+│  ┌────────────────────────────────────┐  │
+│  │  Subscribe to the next issue  →    │  │
+│  └────────────────────────────────────┘  │
+└──────────────────────────────────────────┘</pre>
+      <p class="muted">
+        The whole hero is one editorial column at 62ch — a four-paragraph
+        letter set in 19px Fraunces. The cycle state appears in italic
+        gradient inside paragraph two, where the eye naturally lands. Sign-off
+        line in italic; CTA below as the only button. No four-state rail above
+        the fold — it appears further down as a section-explainer.
+      </p>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Section-by-section</div>
+      <div class="changelist">
+        <div class="k">01 · The letter</div>
+        <div class="v">Mono dateline, four-paragraph letter in 19px Fraunces, italic sign-off, single CTA. Indented like a letter — left margin ~40px on desktop. ~140 words total.</div>
+        <div class="k">02 · The framework, drawn</div>
+        <div class="v">Below the letter, a single horizontal block: the four-state rail at full width, with each state's name in Fraunces 22px and a one-sentence definition in 14.5px ink-2 underneath. The page's didactic core. No card chassis — just rules above and below.</div>
+        <div class="k">03 · From the archive</div>
+        <div class="v">Three Card components, but treated as a "from the archive" section — older issues across different regimes, framed as "what the framework looked like in March / February / January". Demonstrates consistency over time.</div>
+        <div class="k">04 · A note on what this is not</div>
+        <div class="v">Italic Fraunces paragraph (no eyebrow), 17px, set centred at 62ch: "MacroPulse is research and education. Not investment advice. Not a signals service. Not a community. One letter, every Tuesday." Acts as the disclaimer + differentiation in one breath.</div>
+        <div class="k">05 · Sign-off CTA</div>
+        <div class="v">Quiet CTA strip — a single italic kicker ("If this is the lens you've been missing, start with Tuesday's letter.") and a primary button. No headline.</div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Copy</div>
+      <div class="copy-block">
+        <div class="copy-row">
+          <div class="k">Opening (no headline — the letter is the headline)</div>
+          <p class="lede">Dear reader,</p>
+        </div>
+        <div class="copy-row">
+          <div class="k">The thesis sentence (inside ¶2)</div>
+          <p class="headline">As of this morning the read is <em>BTC Accumulation</em>.</p>
+        </div>
+        <div class="copy-row">
+          <div class="k">Primary CTA</div>
+          <a class="cta" href="#">Subscribe to the next issue →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">How the cycle state pulls in</div>
+      <p>
+        <strong>Inlined in prose.</strong> The state lives inside paragraph two
+        of the letter, italicised in the gradient. The dashboard is referenced
+        with "The full case is on the dashboard" as a sentence ending — a link,
+        but worded as continuation, not as navigation. No rail above the fold,
+        no widgets. The letter <em>is</em> the cycle communication.
+      </p>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Trade-offs vs. current</div>
+      <div class="tradeoffs">
+        <div class="tradeoff plus">
+          <h4>Better</h4>
+          <ul>
+            <li>Highest brand differentiation. No competitor opens this way.</li>
+            <li>The voice is the product — and visitors meet the voice immediately.</li>
+            <li>"Why this isn't generic crypto Twitter" answers itself; the form is the answer.</li>
+            <li>Cheap to ship. ~80 lines of HTML.</li>
+          </ul>
+        </div>
+        <div class="tradeoff minus">
+          <h4>Worse</h4>
+          <ul>
+            <li>Demands the letter be excellent every week — a writing burden, not just a design choice.</li>
+            <li>Visitors who came expecting "what does the cycle indicator mean?" have to scroll past the letter to learn.</li>
+            <li>Less scannable. A reader who doesn't read the letter sees nothing.</li>
+            <li>Risks looking like a Substack landing page if the type isn't pulled hard.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Recommendation ─── -->
+  <section class="direction recco" id="recco">
+    <div class="recco-eyebrow">Recommendation</div>
+    <h2>Ship <em>The Cycle Window</em>, with a sentence borrowed from <em>The Letter</em>.</h2>
+    <p>
+      The fifteen-second contract is the brief. Direction 02 honours it most
+      literally: the cycle state is the largest object on the page, the
+      four-state rail is right there, the editorial framing is one paragraph,
+      and there's exactly one thing to do next. It also reinforces the
+      dashboard without duplicating it — the homepage and dashboard become
+      complementary surfaces of the same idea, which is the right architecture.
+    </p>
+    <p>
+      Borrow one move from Direction 03: replace the generic editorial paragraph
+      under the cycle window with a two-sentence italic note in the author's
+      voice — the kind of sentence that opens The Letter. That single change
+      answers "why this isn't generic crypto commentary" without a separate
+      "for whom" section, and gives the page a person behind it.
+    </p>
+    <p>
+      Hold Direction 01 (Editorial Front Door) as the no-build fallback if
+      Direction 02's publish-time embedding turns out to be a bigger lift than
+      expected. The static rail and three sample cards still meet the contract
+      — quieter, but solid.
+    </p>
+    <p>
+      Direction 03 (The Letter) is the right answer if you decide MacroPulse
+      should compete on voice rather than on framework. It isn't, yet — the
+      cycle indicator is the visible IP and the homepage should foreground it.
+      Revisit if the brand evolves toward author-as-product.
+    </p>
+    <div class="recco-foot">
+      <div><strong>Ship:</strong> Direction 02 + D3's voice paragraph</div>
+      <div><strong>Build effort:</strong> Medium · ~1.5 days</div>
+      <div><strong>Risk:</strong> Weekly publish-time state field</div>
+    </div>
+  </section>
+
+  <footer class="doc-foot">
+    <div>MacroPulse · Homepage redesign</div>
+    <div>Three directions · One recommendation</div>
+  </footer>
+
+</main>
+</body>
+</html>

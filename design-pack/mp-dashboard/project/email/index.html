@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MacroPulse Email Pack — Preview</title>
+<style>
+  :root {
+    --bg-0: #060606;
+    --bg-1: #0e0e0e;
+    --bg-2: #161616;
+    --ink: #ffffff;
+    --ink-2: rgba(255,255,255,0.68);
+    --ink-3: rgba(255,255,255,0.45);
+    --line: rgba(255,255,255,0.10);
+    --orange: #f97316;
+    --grad: linear-gradient(90deg,#dc2626 0%,#f97316 24%,#eab308 48%,#22c55e 76%,#a855f7 100%);
+    --sans: -apple-system, "SF Pro Text", Inter, Arial, sans-serif;
+    --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg-0);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 14px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+  }
+
+  .top {
+    border-bottom: 1px solid var(--line);
+    background: rgba(8,8,8,0.86);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    position: sticky; top: 0; z-index: 50;
+  }
+  .top-inner {
+    max-width: 1440px; margin: 0 auto;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 14px 28px;
+    gap: 24px;
+  }
+  .brand {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 15px; font-weight: 700; letter-spacing: -0.01em;
+  }
+  .brand .ring {
+    width: 22px; height: 22px; border-radius: 50%;
+    background: conic-gradient(from 0deg, #dc2626, #f97316, #eab308, #22c55e, #a855f7, #dc2626);
+    -webkit-mask: radial-gradient(circle, transparent 7px, #000 8px);
+            mask: radial-gradient(circle, transparent 7px, #000 8px);
+  }
+  .brand .accent { color: var(--orange); }
+  .crumbs {
+    font-family: var(--mono); font-size: 11px;
+    letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--ink-3);
+  }
+  .crumbs strong { color: var(--ink-2); font-weight: 500; }
+
+  .seg {
+    display: inline-flex; padding: 4px;
+    background: var(--bg-2); border: 1px solid var(--line);
+    border-radius: 999px;
+    font-family: var(--mono); font-size: 11px;
+    letter-spacing: 0.14em; text-transform: uppercase;
+  }
+  .seg button {
+    background: transparent; border: 0; color: var(--ink-3);
+    padding: 7px 14px; border-radius: 999px;
+    cursor: pointer; font: inherit; letter-spacing: inherit;
+  }
+  .seg button.on {
+    background: var(--orange); color: #0a0a0a; font-weight: 600;
+  }
+  .seg button:hover:not(.on) { color: var(--ink); }
+
+  .toolbar {
+    max-width: 1440px; margin: 0 auto;
+    padding: 28px 28px 0;
+    display: flex; align-items: flex-end; justify-content: space-between;
+    gap: 24px; flex-wrap: wrap;
+  }
+  .eyebrow {
+    font-family: var(--mono); font-size: 11px;
+    letter-spacing: 0.28em; text-transform: uppercase;
+    color: var(--ink-3); margin-bottom: 10px;
+  }
+  .eyebrow.live::before {
+    content: ""; display: inline-block;
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--orange); box-shadow: 0 0 12px var(--orange);
+    margin-right: 8px; vertical-align: 1px;
+  }
+  h1 {
+    font-size: 28px; line-height: 1.15; letter-spacing: -0.02em;
+    margin: 0; font-weight: 700; max-width: 720px;
+  }
+  h1 em { color: var(--orange); font-style: normal; }
+  .lede {
+    color: var(--ink-2); margin: 12px 0 0; font-size: 15px;
+    line-height: 1.55; max-width: 640px;
+  }
+
+  .controls { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+  .pill {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 7px 14px;
+    border: 1px solid var(--line); border-radius: 999px;
+    font-family: var(--mono); font-size: 11px;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--ink-2);
+    background: var(--bg-1);
+    cursor: pointer;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .pill:hover { color: var(--ink); border-color: rgba(255,255,255,0.22); }
+  .pill svg { width: 12px; height: 12px; }
+
+  /* Mode-strip: visual signal of the chosen variant */
+  .strip {
+    max-width: 1440px; margin: 22px auto 0;
+    padding: 0 28px;
+  }
+  .strip-bar {
+    height: 1px;
+    background: var(--grad);
+    opacity: 0.85;
+  }
+
+  /* Stage */
+  .stage {
+    max-width: 1440px; margin: 0 auto;
+    padding: 36px 28px 80px;
+  }
+
+  .stage-grid {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 32px;
+    align-items: start;
+  }
+  @media (max-width: 980px) {
+    .stage-grid { grid-template-columns: 1fr; }
+  }
+
+  /* Sidebar — issue meta */
+  .meta {
+    position: sticky; top: 94px;
+    background: var(--bg-1);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 22px 22px 18px;
+  }
+  .meta h3 {
+    font-family: var(--mono); font-size: 11px;
+    letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--ink-3); margin: 0 0 14px; font-weight: 500;
+  }
+  .meta-row {
+    display: flex; justify-content: space-between; gap: 12px;
+    padding: 11px 0;
+    border-top: 1px solid var(--line);
+    font-size: 13px;
+  }
+  .meta-row:first-of-type { border-top: 0; padding-top: 0; }
+  .meta-row .k { color: var(--ink-3); font-family: var(--mono); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; }
+  .meta-row .v { color: var(--ink); text-align: right; font-weight: 500; }
+  .meta-row .v.pos { color: #4ade80; }
+  .meta-row .v.tag { font-family: var(--mono); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; }
+
+  .legend {
+    margin-top: 20px;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
+    font-size: 12px;
+    color: var(--ink-2);
+    line-height: 1.7;
+  }
+  .legend .row { display: flex; align-items: center; gap: 8px; }
+  .swatch { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+
+  /* Right side — device-frame iframe */
+  .device-wrap {
+    background: linear-gradient(180deg, #101010 0%, #080808 100%);
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    padding: 24px 24px 28px;
+  }
+  .device-head {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 18px;
+    gap: 16px; flex-wrap: wrap;
+  }
+  .device-head-l { display: flex; align-items: center; gap: 12px; }
+  .dots { display: flex; gap: 6px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; }
+  .dot.r { background: #ff5f57; }
+  .dot.y { background: #febc2e; }
+  .dot.g { background: #28c840; }
+  .url {
+    font-family: var(--mono); font-size: 11px;
+    color: var(--ink-3); letter-spacing: 0.04em;
+    padding: 5px 11px; background: var(--bg-2);
+    border: 1px solid var(--line); border-radius: 6px;
+    min-width: 280px; text-align: left;
+  }
+  .url strong { color: var(--ink-2); font-weight: 500; }
+
+  .device-tabs {
+    display: inline-flex; padding: 3px;
+    background: rgba(0,0,0,0.4);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    font-family: var(--mono); font-size: 10px;
+    letter-spacing: 0.14em; text-transform: uppercase;
+  }
+  .device-tabs button {
+    background: transparent; border: 0; color: var(--ink-3);
+    padding: 6px 12px; border-radius: 999px;
+    cursor: pointer; font: inherit; letter-spacing: inherit;
+  }
+  .device-tabs button.on {
+    background: rgba(255,255,255,0.08); color: var(--ink);
+  }
+  .device-tabs button:hover:not(.on) { color: var(--ink-2); }
+
+  .frame-stage {
+    position: relative;
+    display: flex; justify-content: center;
+    padding: 0;
+  }
+  .frame-stage::before {
+    content: "";
+    position: absolute; inset: 12px 32px auto 32px; height: 70%;
+    background: radial-gradient(60% 60% at 50% 0%, rgba(249,115,22,0.08), transparent 70%);
+    pointer-events: none; z-index: 0;
+  }
+  .frame {
+    position: relative; z-index: 1;
+    width: 640px;
+    height: 720px;
+    background: #0a0a0a;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    overflow: hidden;
+    transition: width 0.25s ease, height 0.25s ease;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.5);
+  }
+  .frame.mobile { width: 390px; }
+  .frame iframe {
+    width: 100%; height: 100%;
+    border: 0; display: block;
+  }
+
+  .device-foot {
+    margin-top: 16px;
+    display: flex; justify-content: space-between; align-items: center;
+    font-family: var(--mono); font-size: 10px;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--ink-3);
+    gap: 12px; flex-wrap: wrap;
+  }
+  .device-foot a { color: var(--ink-2); text-decoration: none; border-bottom: 1px solid var(--line); padding-bottom: 1px; }
+  .device-foot a:hover { color: var(--ink); border-color: var(--ink-2); }
+
+  /* Manifest below */
+  .manifest {
+    max-width: 1440px; margin: 0 auto;
+    padding: 0 28px 80px;
+  }
+  .manifest h2 {
+    font-size: 13px; font-family: var(--mono);
+    letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--ink-3); font-weight: 500;
+    margin: 0 0 18px;
+  }
+  .files {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 14px;
+  }
+  .file {
+    display: flex; gap: 14px; padding: 16px 18px;
+    background: var(--bg-1); border: 1px solid var(--line);
+    border-radius: 14px;
+    text-decoration: none; color: inherit;
+    transition: border-color 0.15s, transform 0.15s;
+  }
+  .file:hover { border-color: rgba(255,255,255,0.22); transform: translateY(-1px); }
+  .file-ico {
+    flex: 0 0 36px; height: 36px; border-radius: 8px;
+    background: var(--bg-2); display: flex; align-items: center; justify-content: center;
+    font-family: var(--mono); font-size: 10px; color: var(--ink-3);
+    letter-spacing: 0.06em; font-weight: 600;
+  }
+  .file-ico.html { background: rgba(249,115,22,0.12); color: #f9b27a; }
+  .file-ico.json { background: rgba(59,130,246,0.12); color: #93b8f7; }
+  .file-ico.md   { background: rgba(34,197,94,0.12); color: #7bd4a0; }
+  .file-name { font-size: 13px; font-weight: 600; color: var(--ink); }
+  .file-desc { font-size: 12px; color: var(--ink-3); margin-top: 3px; line-height: 1.45; }
+</style>
+</head>
+<body>
+
+  <div class="top">
+    <div class="top-inner">
+      <div class="brand">
+        <span class="ring"></span>
+        Macro<span class="accent">Pulse</span>
+        <span style="color: var(--ink-3); margin: 0 6px; font-weight: 400;">/</span>
+        <span style="color: var(--ink-2); font-weight: 500;">Email Pack</span>
+      </div>
+      <div class="crumbs">v1.0 &nbsp;&middot;&nbsp; <strong>4 deliverables</strong> &nbsp;&middot;&nbsp; 600&thinsp;px &nbsp;&middot;&nbsp; dark default</div>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div>
+      <div class="eyebrow live">Preview &middot; sample data</div>
+      <h1>Two issues, one system. <em>Side-by-side preview.</em></h1>
+      <p class="lede">Toggle between Monday&rsquo;s <strong style="color:var(--ink);">Week Ahead</strong> and Friday&rsquo;s <strong style="color:var(--ink);">Week in Review</strong>. Both render at 600&thinsp;px in a table-based, inline-styled, no-JS layout &mdash; tested for Gmail (light + dark), Apple Mail, and Outlook 365.</p>
+    </div>
+    <div class="controls">
+      <div class="seg" role="tablist" aria-label="Issue">
+        <button class="on" data-issue="monday">Monday &middot; Week Ahead</button>
+        <button data-issue="friday">Friday &middot; Week in Review</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="strip"><div class="strip-bar"></div></div>
+
+  <div class="stage">
+    <div class="stage-grid">
+
+      <aside class="meta" id="meta">
+        <h3>Issue meta</h3>
+        <div class="meta-row"><span class="k">Type</span><span class="v tag" id="m-type">Week Ahead</span></div>
+        <div class="meta-row"><span class="k">Date</span><span class="v" id="m-date">Mon 18 May 2026</span></div>
+        <div class="meta-row"><span class="k">Issue</span><span class="v" id="m-issue">No. 79</span></div>
+        <div class="meta-row"><span class="k">Phase</span><span class="v" id="m-phase">Early Expansion</span></div>
+        <div class="meta-row"><span class="k">Score</span><span class="v pos" id="m-score">+3.0</span></div>
+        <div class="meta-row"><span class="k">Conf.</span><span class="v" id="m-conf">68/100</span></div>
+        <div class="meta-row"><span class="k">Sections</span><span class="v" id="m-sections">7</span></div>
+        <div class="meta-row"><span class="k">Width</span><span class="v">600&thinsp;px</span></div>
+        <div class="meta-row"><span class="k">Weight</span><span class="v" id="m-weight">~38&thinsp;kb</span></div>
+
+        <div class="legend">
+          <div style="font-family:var(--mono);font-size:10px;letter-spacing:0.18em;text-transform:uppercase;color:var(--ink-3);margin-bottom:10px;">Pulse zones</div>
+          <div class="row"><span class="swatch" style="background:#dc2626;"></span>Sell</div>
+          <div class="row"><span class="swatch" style="background:#f97316;"></span>Hold</div>
+          <div class="row"><span class="swatch" style="background:#eab308;"></span>Buy BTC</div>
+          <div class="row"><span class="swatch" style="background:#22c55e;"></span>Alt Season</div>
+          <div class="row"><span class="swatch" style="background:#a855f7;"></span>Top</div>
+        </div>
+      </aside>
+
+      <div class="device-wrap">
+        <div class="device-head">
+          <div class="device-head-l">
+            <div class="dots"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span></div>
+            <div class="url"><strong id="u-from">team@macropulse.uk</strong> &nbsp;&rarr;&nbsp; you &nbsp;&middot;&nbsp; <span id="u-subj">Week Ahead &middot; the Fed shows its hand</span></div>
+          </div>
+          <div class="device-tabs" role="tablist" aria-label="Width">
+            <button class="on" data-width="desktop">Desktop preview</button>
+            <button data-width="mobile">Mobile 390</button>
+          </div>
+        </div>
+
+        <div class="frame-stage">
+          <div class="frame" id="frame">
+            <iframe id="if" src="monday-template.html" title="Email preview" loading="lazy"></iframe>
+          </div>
+        </div>
+
+        <div class="device-foot">
+          <div>Source &middot; <a id="src-link" href="monday-template.html" target="_blank">monday-template.html</a></div>
+          <div>Scroll inside the frame to read full issue</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="manifest">
+    <h2>Pack contents</h2>
+    <div class="files">
+      <a class="file" href="monday-template.html" target="_blank">
+        <div class="file-ico html">HTML</div>
+        <div>
+          <div class="file-name">monday-template.html</div>
+          <div class="file-desc">Week Ahead &mdash; Header, Pulse, Snapshot, Calendar, Spotlight &times; 2, Feature, Footer.</div>
+        </div>
+      </a>
+      <a class="file" href="friday-template.html" target="_blank">
+        <div class="file-ico html">HTML</div>
+        <div>
+          <div class="file-name">friday-template.html</div>
+          <div class="file-desc">Week in Review &mdash; Header, Pulse, Snapshot, Indicator Pulse, Spotlight &times; 2, Portfolio, Feature, Footer.</div>
+        </div>
+      </a>
+      <a class="file" href="components.md" target="_blank">
+        <div class="file-ico md">MD</div>
+        <div>
+          <div class="file-name">components.md</div>
+          <div class="file-desc">Per-component HTML blocks, variables, and where each appears in each issue.</div>
+        </div>
+      </a>
+      <a class="file" href="tokens.json" target="_blank">
+        <div class="file-ico json">JSON</div>
+        <div>
+          <div class="file-name">tokens.json</div>
+          <div class="file-desc">Colour, type, spacing, radius, and component tokens &mdash; machine-readable.</div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+<script>
+  const ISSUES = {
+    monday: {
+      file: 'monday-template.html',
+      type: 'Week Ahead',
+      date: 'Mon 18 May 2026',
+      issue: 'No. 79',
+      phase: 'Early Expansion',
+      score: '+3.0',
+      conf:  '68/100',
+      sections: '7',
+      weight: '~38 kb',
+      subj:  'Week Ahead · the Fed shows its hand',
+    },
+    friday: {
+      file: 'friday-template.html',
+      type: 'Week in Review',
+      date: 'Fri 22 May 2026',
+      issue: 'No. 80',
+      phase: 'Early Expansion',
+      score: '+3.4',
+      conf:  '71/100',
+      sections: '8',
+      weight: '~42 kb',
+      subj:  'Week in Review · the rotation is here',
+    },
+  };
+
+  const segIssue   = document.querySelectorAll('.seg button[data-issue]');
+  const segWidth   = document.querySelectorAll('.device-tabs button[data-width]');
+  const frame      = document.getElementById('frame');
+  const iframe     = document.getElementById('if');
+  const link       = document.getElementById('src-link');
+
+  function setIssue(key) {
+    const I = ISSUES[key];
+    iframe.src = I.file;
+    link.href = I.file;
+    link.textContent = I.file;
+    document.getElementById('m-type').textContent = I.type;
+    document.getElementById('m-date').textContent = I.date;
+    document.getElementById('m-issue').textContent = I.issue;
+    document.getElementById('m-phase').textContent = I.phase;
+    document.getElementById('m-score').textContent = I.score;
+    document.getElementById('m-conf').textContent  = I.conf;
+    document.getElementById('m-sections').textContent = I.sections;
+    document.getElementById('m-weight').textContent = I.weight;
+    document.getElementById('u-subj').textContent  = I.subj;
+    segIssue.forEach(b => b.classList.toggle('on', b.dataset.issue === key));
+  }
+  segIssue.forEach(b => b.addEventListener('click', () => setIssue(b.dataset.issue)));
+
+  function setWidth(w) {
+    frame.classList.toggle('mobile', w === 'mobile');
+    segWidth.forEach(b => b.classList.toggle('on', b.dataset.width === w));
+  }
+  segWidth.forEach(b => b.addEventListener('click', () => setWidth(b.dataset.width)));
+</script>
+
+</body>
+</html>

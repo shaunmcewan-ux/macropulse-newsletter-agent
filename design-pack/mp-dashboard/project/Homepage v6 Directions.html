@@ -1,0 +1,1401 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MacroPulse — Homepage v6: Direction D variations</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,ital,wght@9..144,0,400;9..144,0,500;9..144,0,600;9..144,1,400;9..144,1,500&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg-0: #080e13; --bg-1: #0c141b; --bg-2: #111a23; --bg-3: #16212c;
+    --line: rgba(237, 243, 247, 0.08);
+    --line-strong: rgba(237, 243, 247, 0.16);
+    --ink: #edf3f7; --ink-2: #b9c4cc; --ink-3: #7c8a95; --ink-4: #4a5763;
+    --orange-1: #ffbd69; --orange-2: #ff9d2f; --orange-3: #f07d0a;
+    --green: #4ec38a; --red: #ef5a6b;
+    --grad: linear-gradient(135deg, #ffbd69 0%, #ff9d2f 45%, #f07d0a 100%);
+    --serif: "Fraunces", Georgia, serif;
+    --sans: "Inter", -apple-system, sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background:
+      radial-gradient(900px 600px at 80% -10%, rgba(255, 157, 47, 0.10), transparent 60%),
+      radial-gradient(800px 500px at -10% 10%, rgba(255, 189, 105, 0.05), transparent 60%),
+      linear-gradient(180deg, #0c141b 0%, #080e13 100%);
+    color: var(--ink); font-family: var(--sans);
+    font-size: 16px; line-height: 1.6;
+    -webkit-font-smoothing: antialiased; min-height: 100vh;
+  }
+  .page { max-width: 1180px; margin: 0 auto; padding: 72px 40px 120px; }
+  @media (max-width: 720px) { .page { padding: 40px 20px 80px; } }
+
+  /* mast */
+  .mast {
+    display: flex; justify-content: space-between; align-items: flex-start;
+    gap: 24px; padding-bottom: 28px;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 56px; flex-wrap: wrap;
+  }
+  .mast-brand { font-family: var(--serif); font-size: 28px; font-weight: 600; letter-spacing: -0.01em; line-height: 1; }
+  .mast-brand .accent { display: block; width: 36px; height: 3px; background: var(--grad); margin-top: 10px; border-radius: 2px; }
+  .mast-meta { font-family: var(--mono); font-size: 11px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.14em; text-align: right; line-height: 1.7; }
+  .mast-meta strong { color: var(--ink-2); font-weight: 500; }
+
+  /* doc head */
+  .doc-eyebrow {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 7px 14px; border: 1px solid var(--line-strong); border-radius: 999px;
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--ink-2); margin-bottom: 28px;
+  }
+  .doc-eyebrow::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--orange-2); box-shadow: 0 0 12px var(--orange-2); }
+  h1.doc-title {
+    font-family: var(--serif); font-weight: 500;
+    font-size: clamp(40px, 6vw, 64px); line-height: 1.04;
+    letter-spacing: -0.02em; margin: 0 0 24px; text-wrap: balance;
+  }
+  h1.doc-title em { font-style: italic; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .doc-lede { font-family: var(--serif); font-size: 22px; line-height: 1.5; color: var(--ink-2); max-width: 760px; margin: 0 0 16px; font-weight: 400; text-wrap: pretty; }
+  .doc-lede em { font-style: italic; color: var(--ink); }
+  .doc-byline { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--ink-3); margin-top: 32px; }
+  .doc-byline span + span::before { content: "·"; margin: 0 10px; color: var(--ink-4); }
+
+  /* premise */
+  .premise {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 48px;
+    margin: 64px 0 88px;
+  }
+  @media (max-width: 720px) { .premise { grid-template-columns: 1fr; gap: 28px; } }
+  .premise h3 {
+    font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.16em; color: var(--orange-2); margin: 0 0 14px; font-weight: 500;
+  }
+  .premise p { font-family: var(--serif); font-size: 17px; line-height: 1.55; color: var(--ink-2); margin: 0 0 14px; text-wrap: pretty; }
+  .premise p strong { color: var(--ink); font-weight: 500; }
+  .premise p em { font-style: italic; color: var(--ink); }
+
+  /* the test box */
+  .testbox {
+    margin: 0 0 88px;
+    padding: 28px 32px;
+    border: 1px solid var(--line-strong);
+    border-left: 3px solid var(--orange-2);
+    border-radius: 0 12px 12px 0;
+    background: rgba(255, 157, 47, 0.04);
+  }
+  .testbox h3 {
+    font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.16em; color: var(--orange-2); margin: 0 0 12px; font-weight: 500;
+  }
+  .testbox p { font-family: var(--serif); font-size: 18px; line-height: 1.55; color: var(--ink); margin: 0; max-width: 820px; text-wrap: pretty; }
+  .testbox p em { font-style: italic; color: var(--ink-2); }
+
+  /* parts rule */
+  .parts-rule {
+    display: grid; grid-template-columns: 80px 1fr;
+    gap: 32px; margin: 88px 0 32px;
+    padding-bottom: 16px; border-bottom: 1px solid var(--line);
+    align-items: end;
+  }
+  @media (max-width: 720px) { .parts-rule { grid-template-columns: 1fr; gap: 12px; } }
+  .parts-num {
+    font-family: var(--serif); font-style: italic; font-weight: 500;
+    font-size: 64px; line-height: 0.9;
+    background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .parts-rule h2 {
+    font-family: var(--serif); font-size: clamp(28px, 4vw, 40px);
+    line-height: 1.05; letter-spacing: -0.015em;
+    margin: 0; font-weight: 500; text-wrap: balance;
+  }
+  .parts-rule h2 em { font-style: italic; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .parts-sub {
+    font-family: var(--serif); font-size: 17px; line-height: 1.55;
+    color: var(--ink-2); margin: 8px 0 0; max-width: 720px;
+  }
+
+  /* direction */
+  .direction { margin-bottom: 96px; scroll-margin-top: 40px; }
+  .direction-head {
+    display: grid; grid-template-columns: 120px 1fr;
+    gap: 28px; align-items: start;
+    margin: 36px 0; padding-bottom: 28px;
+    border-bottom: 1px solid var(--line);
+  }
+  @media (max-width: 720px) { .direction-head { grid-template-columns: 1fr; gap: 14px; } }
+  .direction-letter {
+    font-family: var(--serif); font-style: italic;
+    font-size: 88px; line-height: 0.9;
+    background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent;
+    font-weight: 500;
+  }
+  .direction-letter small {
+    display: block; font-family: var(--mono); font-style: normal;
+    font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase;
+    -webkit-text-fill-color: var(--ink-3); color: var(--ink-3);
+    background: none; margin-top: 6px;
+  }
+  .direction-name {
+    font-family: var(--serif); font-size: clamp(30px, 4vw, 44px);
+    line-height: 1.05; letter-spacing: -0.015em;
+    margin: 0 0 12px; font-weight: 500; text-wrap: balance;
+  }
+  .direction-name em { font-style: italic; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .direction-thesis {
+    font-family: var(--serif); font-style: italic; font-size: 19px;
+    color: var(--ink-2); line-height: 1.5; margin: 0; max-width: 680px; text-wrap: pretty;
+  }
+  .direction-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+  .tag {
+    font-family: var(--mono); font-size: 10.5px;
+    text-transform: uppercase; letter-spacing: 0.14em;
+    padding: 5px 11px; border: 1px solid var(--line-strong);
+    border-radius: 999px; color: var(--ink-2);
+  }
+  .tag.effort-low    { color: var(--green);    border-color: rgba(78, 195, 138, 0.35); }
+  .tag.effort-medium { color: var(--orange-1); border-color: rgba(255, 189, 105, 0.35); }
+  .tag.effort-high   { color: var(--red);      border-color: rgba(239, 90, 107, 0.35); }
+  .tag.risk-low      { color: var(--green);    border-color: rgba(78, 195, 138, 0.35); }
+  .tag.risk-med      { color: var(--orange-1); border-color: rgba(255, 189, 105, 0.35); }
+  .tag.risk-high     { color: var(--red);      border-color: rgba(239, 90, 107, 0.35); }
+  .tag.surprise      { color: var(--orange-2); border-color: rgba(255, 157, 47, 0.5); }
+
+  .sub { margin: 36px 0; }
+  .sub-label {
+    font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.16em; color: var(--ink-3); margin-bottom: 14px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .sub-label::before { content: ""; width: 14px; height: 1px; background: var(--orange-2); }
+  .sub > p {
+    font-family: var(--serif); font-size: 17px; line-height: 1.6;
+    color: var(--ink); margin: 0 0 12px; text-wrap: pretty; max-width: 820px;
+  }
+  .sub > p.muted { color: var(--ink-2); }
+  .sub > p em { font-style: italic; color: var(--ink); }
+  .sub > p em.q { color: var(--ink-2); }
+  .sub > p code { font-family: var(--mono); font-size: 13px; color: var(--ink); background: rgba(237, 243, 247, 0.06); padding: 1px 6px; border-radius: 4px; }
+
+  /* wires */
+  .wire-grid {
+    display: grid; grid-template-columns: 1fr 1.7fr;
+    gap: 18px; margin: 18px 0 4px;
+  }
+  @media (max-width: 980px) { .wire-grid { grid-template-columns: 1fr; } }
+  .wire-cell { display: flex; flex-direction: column; min-width: 0; }
+  pre.wire {
+    font-family: var(--mono); font-size: 11.5px; line-height: 1.55;
+    color: var(--ink-2); background: var(--bg-0);
+    border: 1px solid var(--line); border-radius: 12px;
+    padding: 18px 18px; overflow-x: auto;
+    margin: 0; white-space: pre;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.02);
+    flex: 1;
+  }
+  pre.wire.desk { font-size: 10px; line-height: 1.5; }
+  .wire-caption { font-family: var(--mono); font-size: 10.5px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.14em; margin-bottom: 8px; display: flex; gap: 12px; }
+  .wire-caption strong { color: var(--orange-2); font-weight: 500; }
+
+  /* decisions matrix */
+  .decisions {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 0; margin: 18px 0 8px;
+    border: 1px solid var(--line); border-radius: 12px;
+    overflow: hidden;
+  }
+  @media (max-width: 720px) { .decisions { grid-template-columns: 1fr; } }
+  .decisions > div { padding: 18px 22px; border-top: 1px solid var(--line); }
+  .decisions > div:nth-child(-n+2) { border-top: none; }
+  .decisions > div + div:nth-child(even) { border-left: 1px solid var(--line); }
+  @media (max-width: 720px) {
+    .decisions > div { border-top: 1px solid var(--line); border-left: none !important; }
+    .decisions > div:first-child { border-top: none; }
+  }
+  .decisions .k { font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--orange-2); margin-bottom: 8px; }
+  .decisions .v { font-family: var(--serif); font-size: 15.5px; line-height: 1.5; color: var(--ink); text-wrap: pretty; }
+  .decisions .v em { font-style: italic; color: var(--ink-2); }
+  .decisions .v code { font-family: var(--mono); font-size: 12.5px; color: var(--ink); background: rgba(237, 243, 247, 0.06); padding: 1px 6px; border-radius: 4px; }
+
+  /* moves */
+  .moves { margin: 16px 0; }
+  .move {
+    display: grid; grid-template-columns: 220px 1fr;
+    gap: 24px; padding: 16px 0;
+    border-top: 1px solid var(--line);
+  }
+  .move:last-child { border-bottom: 1px solid var(--line); }
+  @media (max-width: 720px) { .move { grid-template-columns: 1fr; gap: 6px; } }
+  .move .name { font-family: var(--serif); font-size: 17px; font-style: italic; color: var(--orange-2); font-weight: 500; }
+  .move .desc { font-family: var(--serif); font-size: 15.5px; line-height: 1.55; color: var(--ink); text-wrap: pretty; }
+  .move .desc em { font-style: italic; color: var(--ink-2); }
+
+  /* tradeoffs */
+  .tradeoffs { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 18px; }
+  @media (max-width: 720px) { .tradeoffs { grid-template-columns: 1fr; } }
+  .tradeoff { padding: 20px 22px; border: 1px solid var(--line); border-radius: 12px; background: rgba(22, 33, 44, 0.35); }
+  .tradeoff h4 {
+    margin: 0 0 12px; font-family: var(--mono); font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.16em; color: var(--ink-3);
+    font-weight: 500; display: flex; align-items: center; gap: 10px;
+  }
+  .tradeoff.plus h4  { color: var(--green); }
+  .tradeoff.minus h4 { color: var(--red); }
+  .tradeoff h4::before { font-family: var(--mono); font-size: 14px; line-height: 1; }
+  .tradeoff.plus h4::before  { content: "+"; }
+  .tradeoff.minus h4::before { content: "−"; }
+  .tradeoff ul { margin: 0; padding: 0; list-style: none; }
+  .tradeoff li {
+    font-family: var(--serif); font-size: 15.5px; line-height: 1.5;
+    color: var(--ink); padding: 8px 0; border-top: 1px dashed var(--line); text-wrap: pretty;
+  }
+  .tradeoff li:first-child { border-top: none; padding-top: 0; }
+  .tradeoff li em { font-style: italic; color: var(--ink-2); }
+
+  /* risk row */
+  .risk-row {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 0; margin: 24px 0 8px;
+    border: 1px solid var(--line); border-radius: 12px;
+    overflow: hidden;
+  }
+  @media (max-width: 720px) { .risk-row { grid-template-columns: 1fr; } }
+  .risk-row > div { padding: 18px 22px; }
+  .risk-row > div + div { border-left: 1px solid var(--line); }
+  @media (max-width: 720px) { .risk-row > div + div { border-left: none; border-top: 1px solid var(--line); } }
+  .risk-row .k { font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--ink-3); margin-bottom: 8px; }
+  .risk-row .v { font-family: var(--serif); font-size: 15.5px; line-height: 1.5; color: var(--ink); text-wrap: pretty; }
+  .risk-row .v em { font-style: italic; color: var(--ink-2); }
+  .risk-row .v .score { font-family: var(--mono); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--orange-2); margin-right: 10px; }
+
+  /* test answer */
+  .testans {
+    margin: 24px 0 4px; padding: 18px 22px;
+    border: 1px dashed var(--line-strong); border-radius: 12px;
+    background: rgba(22, 33, 44, 0.35);
+  }
+  .testans .k { font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--orange-2); margin-bottom: 8px; }
+  .testans .v { font-family: var(--serif); font-style: italic; font-size: 16.5px; line-height: 1.55; color: var(--ink); text-wrap: pretty; max-width: 820px; }
+  .testans .v strong { font-style: normal; color: var(--ink); font-weight: 500; }
+
+  /* kicker copy block */
+  .kickset {
+    margin: 24px 0;
+    border: 1px solid var(--line); border-radius: 14px;
+    overflow: hidden;
+    background: linear-gradient(180deg, rgba(22, 33, 44, 0.45), rgba(12, 20, 27, 0.45));
+  }
+  .kickrow {
+    display: grid; grid-template-columns: 200px 1fr;
+    gap: 24px; padding: 22px 26px;
+    border-top: 1px solid var(--line);
+    align-items: center;
+  }
+  .kickrow:first-child { border-top: none; }
+  @media (max-width: 720px) { .kickrow { grid-template-columns: 1fr; gap: 8px; padding: 18px 20px; } }
+  .kickrow .label {
+    font-family: var(--mono); font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.16em;
+    color: var(--orange-2);
+  }
+  .kickrow .label small {
+    display: block; color: var(--ink-4); font-size: 10px; letter-spacing: 0.14em; margin-top: 4px;
+  }
+  .kickrow .demo {
+    font-family: var(--mono); font-size: 13.5px; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--ink); line-height: 1.5;
+  }
+  .kickrow .demo::before {
+    content: ""; display: inline-block; width: 7px; height: 7px;
+    border-radius: 50%; background: var(--orange-2); box-shadow: 0 0 10px var(--orange-2);
+    margin-right: 12px; vertical-align: middle;
+  }
+  .kickrow .demo.lit {
+    font-family: var(--serif); font-style: italic; font-size: 19px;
+    color: var(--ink); text-transform: none; letter-spacing: 0;
+  }
+  .kickrow .demo.short {
+    font-family: var(--mono); font-size: 16px; letter-spacing: 0.18em;
+    color: var(--ink);
+  }
+  .kickrow .note {
+    font-family: var(--serif); font-style: italic; font-size: 14.5px;
+    color: var(--ink-3); margin-top: 8px; line-height: 1.5;
+    text-wrap: pretty;
+  }
+
+  /* recco */
+  .recco {
+    margin-top: 48px; padding: 56px;
+    border: 1px solid var(--line-strong); border-radius: 18px;
+    background:
+      radial-gradient(600px 300px at 100% 0%, rgba(255, 157, 47, 0.08), transparent 60%),
+      linear-gradient(180deg, rgba(22, 33, 44, 0.6), rgba(12, 20, 27, 0.6));
+    position: relative; overflow: hidden;
+  }
+  .recco::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 2px; background: var(--grad); opacity: 0.6; }
+  @media (max-width: 720px) { .recco { padding: 32px 24px; } }
+  .recco-eyebrow { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; color: var(--orange-2); margin-bottom: 16px; }
+  .recco h2 {
+    font-family: var(--serif); font-size: clamp(32px, 4.4vw, 46px);
+    line-height: 1.05; margin: 0 0 20px; font-weight: 500;
+    letter-spacing: -0.015em; text-wrap: balance;
+  }
+  .recco h2 em { font-style: italic; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .recco p { font-family: var(--serif); font-size: 17px; line-height: 1.6; color: var(--ink-2); max-width: 820px; margin: 0 0 14px; text-wrap: pretty; }
+  .recco p em { font-style: italic; color: var(--ink); }
+  .recco p strong { color: var(--ink); font-weight: 500; }
+  .recco p code { font-family: var(--mono); font-size: 13px; color: var(--ink); background: rgba(237, 243, 247, 0.06); padding: 1px 6px; border-radius: 4px; }
+  .recco-foot {
+    margin-top: 32px; display: flex; flex-wrap: wrap; gap: 24px;
+    padding-top: 24px; border-top: 1px solid var(--line);
+    font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.14em; color: var(--ink-3);
+  }
+  .recco-foot strong { color: var(--ink); font-weight: 500; }
+
+  .doc-foot {
+    margin-top: 80px; padding-top: 28px;
+    border-top: 1px solid var(--line);
+    display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px;
+    font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.14em; color: var(--ink-3);
+  }
+</style>
+</head>
+<body>
+<main class="page" data-screen-label="Homepage v6 Directions">
+
+  <header class="mast">
+    <div class="mast-brand">MacroPulse<span class="accent"></span></div>
+    <div class="mast-meta">
+      <strong>Homepage v6 · Direction D, 4 layouts</strong><br />
+      Internal · 11 May 2026
+    </div>
+  </header>
+
+  <div class="doc-eyebrow">Design Review · Pass 6</div>
+  <h1 class="doc-title">A homepage that <em>refreshes weekly</em> even when the regime doesn't.</h1>
+  <p class="doc-lede">
+    v5's Ledger shipped well visually, but its proposition rests on volume of
+    entries. With cycle states holding for months at a time, the homepage
+    spends long stretches looking like a thin list. Direction D replaces the
+    Ledger's spine with three sources that update on their own clocks —
+    <em>this Tuesday's issue</em>, <em>the live macro tape</em>, <em>the
+    next fortnight's calendar</em> — and keeps the cycle state visible as a
+    kicker rather than the page's organising principle.
+  </p>
+  <div class="doc-byline">
+    <span>Inputs: v5 live · field observation</span>
+    <span>Brief: substance every Tuesday, regime-agnostic</span>
+    <span>System: locked</span>
+  </div>
+
+  <section class="premise">
+    <div>
+      <h3>The diagnosis</h3>
+      <p>
+        The Ledger says "look at the record" and the record is the page.
+        That works on the Tuesday a new state ships. It works less well in
+        the 16 Tuesdays between. <strong>State changes are rare; the page
+        is loaded daily.</strong> The arithmetic of substance per visit
+        breaks down.
+      </p>
+    </div>
+    <div>
+      <h3>The pivot</h3>
+      <p>
+        Build the homepage around the three things that <em>already</em>
+        change weekly: the latest issue's lede, the eight-indicator macro
+        evidence (daily bot), and the next fourteen days of macro events
+        (same bot). The cycle state stays a prominent kicker; <em>"0
+        revisions"</em> retreats to a credibility line, not the spine.
+      </p>
+    </div>
+  </section>
+
+  <section class="testbox">
+    <h3>The test that every layout must pass</h3>
+    <p>
+      <em>State has been "BTC Accumulation" for twelve months. The latest issue
+      shipped Tuesday. Three indicators ticked overnight. Four events sit in the
+      next fortnight.</em> Does the page feel <strong>full</strong> — not busy,
+      full — to a returning reader on the 51st Tuesday? If yes, ship. If no,
+      try again.
+    </p>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       PART I — Four layouts on Direction D
+       ═══════════════════════════════════════════ -->
+  <section class="parts-rule">
+    <div class="parts-num">I</div>
+    <div>
+      <h2>Four layouts on <em>Direction D</em>.</h2>
+      <p class="parts-sub">Same three substance sources in every layout. What changes is which one leads, how they nest, where the cycle state and the "0 revisions" track-record claim end up. Each has wires for 390px mobile and 1180px desktop, a one-paragraph theory, the trade-offs, and the result of the twelfth-month test.</p>
+    </div>
+  </section>
+
+  <!-- ─── Direction D1 ─── -->
+  <section class="direction" id="d1">
+    <div class="direction-head">
+      <div class="direction-letter">D1<small>The Front Page</small></div>
+      <div>
+        <h2 class="direction-name">Lede leads. Evidence rails. Calendar tails.</h2>
+        <p class="direction-thesis">
+          The newspaper move. Open with this week's issue — headline,
+          opening paragraphs, byline — in editorial type. A right rail
+          carries the 8-indicator evidence strip; below the fold, a
+          calendar of the next fortnight runs as a quiet dateline list.
+          The cycle state sits as a kicker above the headline.
+        </p>
+        <div class="direction-tags">
+          <span class="tag">Writing-led</span>
+          <span class="tag">Two-column, prose-major</span>
+          <span class="tag effort-low">Effort: low</span>
+          <span class="tag risk-med">Marketing-risk: medium</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Wireframes</div>
+      <div class="wire-grid">
+        <div class="wire-cell">
+          <div class="wire-caption"><strong>Mobile</strong> · 390px</div>
+<pre class="wire">┌────────────────────────────────┐
+│ MacroPulse              ☰      │
+├────────────────────────────────┤
+│ ● NOW · BTC ACCUMULATION       │
+│   WEEK 7 · HELD SINCE 25 MAR   │
+│ ─────────────────────────────  │
+│                                │
+│ The dollar                     │
+│ finally                        │
+│ blinked.                       │
+│                                │
+│ Issue 47 · by A. Carter        │
+│ Tue 7 May 2026 · 1,420 words   │
+│                                │
+│ DXY broke 98 this week for     │
+│ the first time since November. │
+│ The curve steepened twelve     │
+│ basis points. Funding turned   │
+│ negative on Wednesday and      │
+│ hasn't returned.               │
+│                                │
+│ That's a constellation, not a  │
+│ signal — but it's the same     │
+│ one we saw in March 2023.      │
+│                                │
+│ Continue reading           →   │
+│ ─────────────────────────────  │
+│                                │
+│ THE TAPE · TUE 09:41 GMT       │
+│ ─────────────────────────────  │
+│ M2 (global)    108.4T    ↑     │
+│ ISM PMI         48.7     ↓ 4w  │
+│ Real 10y       +1.92     ↓     │
+│ DXY             97.4     ↓     │
+│ BTC.D           54.1%    ↑     │
+│ HY OAS          312bp    ↑     │
+│ Gold           2,418     ↑     │
+│ ETH/BTC        0.052     →     │
+│ ─────────────────────────────  │
+│ Three ticked overnight. The    │
+│ dollar is still the story.     │
+│                                │
+│ THE FORTNIGHT                  │
+│ ─────────────────────────────  │
+│ Mon 12 May  · ECB minutes      │
+│ Wed 14 May  · US CPI (Apr)     │
+│ Thu 15 May  · BoE rate         │
+│ Fri 16 May  · UMich sentiment  │
+│ Tue 20 May  · FOMC minutes     │
+│                                │
+│ ┌──────────────────────────┐   │
+│ │ Get next week's issue →  │   │
+│ └──────────────────────────┘   │
+│ Ledger · 25 calls, 0 revised → │
+└────────────────────────────────┘</pre>
+        </div>
+        <div class="wire-cell">
+          <div class="wire-caption"><strong>Desktop</strong> · 1180px</div>
+<pre class="wire desk">┌────────────────────────────────────────────────────────────────────────────────────┐
+│ MacroPulse                                       Newsletter   Methodology   Dash   │
+├────────────────────────────────────────────────────────────────────────────────────┤
+│ ● NOW · BTC ACCUMULATION · WEEK 7 · HELD SINCE TUE 25 MAR 2026                     │
+│ ─────────────────────────────────────────────────────────────────────────────────  │
+│                                                                                    │
+│ ┌────────────────────────────────────────────┐  ┌─────────────────────────────┐    │
+│ │  The dollar finally                        │  │  THE TAPE · 09:41 GMT       │    │
+│ │  blinked.                                  │  │  ─────────────────────────  │    │
+│ │                                            │  │  M2 (global)  108.4T   ↑    │    │
+│ │  Issue 47 · by A. Carter · 1,420 words     │  │  ISM PMI       48.7    ↓ 4w │    │
+│ │  ─────────────────────────────────────     │  │  Real 10y     +1.92    ↓    │    │
+│ │                                            │  │  DXY           97.4    ↓    │    │
+│ │  DXY broke 98 this week for the first      │  │  BTC.D         54.1%   ↑    │    │
+│ │  time since November. The curve steepened  │  │  HY OAS        312bp   ↑    │    │
+│ │  twelve basis points. Funding turned       │  │  Gold         2,418    ↑    │    │
+│ │  negative on Wednesday and hasn't          │  │  ETH/BTC      0.052    →    │    │
+│ │  returned.                                 │  │  ─────────────────────────  │    │
+│ │                                            │  │  Three ticked overnight.    │    │
+│ │  That's a constellation, not a signal —    │  │  The dollar is still the    │    │
+│ │  but it's the same constellation we saw    │  │  story.                     │    │
+│ │  in March 2023 and October 2020, and on    │  │                             │    │
+│ │  both occasions Bitcoin moved before       │  │  Live on the dashboard →    │    │
+│ │  equities did.                             │  └─────────────────────────────┘    │
+│ │                                            │                                     │
+│ │  Continue reading the full issue →         │                                     │
+│ └────────────────────────────────────────────┘                                     │
+│ ─────────────────────────────────────────────────────────────────────────────────  │
+│ THE FORTNIGHT                                                                      │
+│                                                                                    │
+│ Mon 12 May    ECB minutes              Apr meeting          11:00 GMT              │
+│ Wed 14 May    US CPI                   April print          13:30 GMT              │
+│ Thu 15 May    BoE rate decision        + presser            12:00 GMT              │
+│ Fri 16 May    UMich sentiment prelim   May                  15:00 GMT              │
+│ Tue 20 May    FOMC minutes             April                19:00 GMT              │
+│ ─────────────────────────────────────────────────────────────────────────────────  │
+│ Get next week's issue in your inbox  →     Ledger · 25 calls, 0 revised since Nov  │
+└────────────────────────────────────────────────────────────────────────────────────┘</pre>
+        </div>
+      </div>
+      <p class="muted">
+        Above the fold reads as a Tuesday morning newspaper: a kicker
+        identifies the regime, a display headline carries the lede, a right
+        rail holds the macro tape. The calendar is the page's lower half —
+        forward-looking, dated, in mono. <em>"0 revisions"</em> ends up as a
+        single line in the page's CTA strip, hyperlinked to <code>/ledger/</code>.
+      </p>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Decisions</div>
+      <div class="decisions">
+        <div><div class="k">Above-fold lead</div><div class="v">Issue headline + opening 2–3 paragraphs. The week's writing carries the top.</div></div>
+        <div><div class="k">Composition</div><div class="v">Side-by-side desktop (60% prose / 40% tape). Stacked mobile, issue first.</div></div>
+        <div><div class="k">Cycle state</div><div class="v">Kicker line above the headline. Same mono dot pattern as v4's eyebrow.</div></div>
+        <div><div class="k">"0 revisions"</div><div class="v">Footer-adjacent line: <em>"Ledger · 25 calls, 0 revised since Nov 2024"</em>, linking to <code>/ledger/</code>.</div></div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Visual moves</div>
+      <div class="moves">
+        <div class="move">
+          <div class="name">Display headline owns the page</div>
+          <div class="desc">Fraunces clamp 40–64px on a sentence written for Tuesday. The single loudest object. Cycle state lives quietly above it; everything else lives quietly to its right or below.</div>
+        </div>
+        <div class="move">
+          <div class="name">Tape as a right rail</div>
+          <div class="desc">A 280-wide vertical strip — eight rows, mono, tabular, with a one-line prose summary at the foot. Reads as a wire-service tape pinned beside the article.</div>
+        </div>
+        <div class="move">
+          <div class="name">Calendar as a quiet table</div>
+          <div class="desc">Four columns of mono: date · event · sub-spec · time. No card, no glow, no icons. The week-ahead as a printed schedule.</div>
+        </div>
+        <div class="move">
+          <div class="name">Track-record demoted to a sign-off</div>
+          <div class="desc">"Ledger · 25 calls, 0 revised" sits in the CTA strip beside the subscribe link. Still a credibility signal; no longer trying to be the spine.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testans">
+      <div class="k">Twelfth-month test</div>
+      <div class="v">
+        <strong>Passes.</strong> The headline is new every Tuesday, so the page's
+        loudest object refreshes weekly regardless of state. Tape and calendar
+        tick on their own clocks. The risk lives only in <em>which week's lede
+        the page caught</em> — a thin issue produces a thin homepage.
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Trade-offs vs. v5 Ledger</div>
+      <div class="tradeoffs">
+        <div class="tradeoff plus">
+          <h4>Better</h4>
+          <ul>
+            <li>The page is substantive every Tuesday by construction.</li>
+            <li>Lowest build cost of the four — almost no new components.</li>
+            <li>SEO upside: real editorial content on the homepage, weekly.</li>
+            <li>Works equally well at month 3 of a state and month 13.</li>
+          </ul>
+        </div>
+        <div class="tradeoff minus">
+          <h4>Worse</h4>
+          <ul>
+            <li>If a week's lede is weak, the homepage is weak. No buffer.</li>
+            <li>Risk of duplicate-content with <code>/issue/47/</code>.</li>
+            <li>The cycle state — formerly the brand's load-bearing wall — is now a kicker. Some equity is lost.</li>
+            <li><em>"Showing the latest writing"</em> is itself a marketing pattern; can drift into theatre.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="risk-row">
+      <div>
+        <div class="k">Marketing-page risk</div>
+        <div class="v"><span class="score">Medium</span>The form looks editorial, but "always show the freshest content above the fold" is the move every marketing site makes. Mitigated by never tuning the lede for the homepage — whatever Tuesday says, that's what's shown.</div>
+      </div>
+      <div>
+        <div class="k">Effort</div>
+        <div class="v"><span class="score">Low · ~1 day</span>Pipe latest issue's first 200 words + headline + byline into the homepage at publish. Tape and calendar render from the bot's two JSON files.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Direction D2 ─── -->
+  <section class="direction" id="d2">
+    <div class="direction-head">
+      <div class="direction-letter">D2<small>The Tape</small></div>
+      <div>
+        <h2 class="direction-name">The tape runs first. Lede follows. Calendar holds the right margin.</h2>
+        <p class="direction-thesis">
+          The Bloomberg-terminal move, restrained. A full-width mono tape
+          spans the top of the page — eight indicators, deltas, a one-line
+          read. The issue lede sits beneath the tape at editorial scale;
+          the next fortnight runs as a right-margin dateline. The cycle
+          state lives <em>inside</em> the tape as the leftmost token.
+        </p>
+        <div class="direction-tags">
+          <span class="tag">Evidence-led</span>
+          <span class="tag">Tape-then-prose</span>
+          <span class="tag effort-medium">Effort: medium</span>
+          <span class="tag risk-low">Marketing-risk: low</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Wireframes</div>
+      <div class="wire-grid">
+        <div class="wire-cell">
+          <div class="wire-caption"><strong>Mobile</strong> · 390px</div>
+<pre class="wire">┌────────────────────────────────┐
+│ MacroPulse              ☰      │
+├────────────────────────────────┤
+│ ●BTC ACCUM · W7 · HELD 49D     │
+│ ─────────────────────────────  │
+│ M2     108.4T  ↑  +0.3%        │
+│ ISM     48.7   ↓  4w in contr. │
+│ Real10y +1.92  ↓  −7bp         │
+│ DXY     97.4   ↓  −0.8         │
+│ BTC.D   54.1%  ↑  +0.4         │
+│ HY OAS  312bp  ↑  +6           │
+│ Gold   2,418   ↑  +1.1%        │
+│ ETH/BTC 0.052  →  flat 11d     │
+│ ─────────────────────────────  │
+│ Tue 09:41 GMT · 3 ticked       │
+│ overnight. Dollar still the    │
+│ story.                         │
+│ ─────────────────────────────  │
+│                                │
+│ The dollar                     │
+│ finally blinked.               │
+│                                │
+│ Issue 47 · A. Carter           │
+│ 7 May · 1,420w                 │
+│                                │
+│ DXY broke 98 this week for     │
+│ the first time since November. │
+│ The curve steepened twelve     │
+│ basis points. Funding turned   │
+│ negative on Wednesday and      │
+│ hasn't returned…               │
+│                                │
+│ Continue reading           →   │
+│ ─────────────────────────────  │
+│                                │
+│ NEXT 14 DAYS                   │
+│ ─────────────────────────────  │
+│ MON 12  ECB minutes            │
+│ WED 14  US CPI (Apr)           │
+│ THU 15  BoE rate + presser     │
+│ FRI 16  UMich sentiment        │
+│ TUE 20  FOMC minutes           │
+│ ─────────────────────────────  │
+│                                │
+│ ┌──────────────────────────┐   │
+│ │ Get next week's issue →  │   │
+│ └──────────────────────────┘   │
+│ /ledger · 25 calls · 0 rev →   │
+└────────────────────────────────┘</pre>
+        </div>
+        <div class="wire-cell">
+          <div class="wire-caption"><strong>Desktop</strong> · 1180px</div>
+<pre class="wire desk">┌────────────────────────────────────────────────────────────────────────────────────┐
+│ MacroPulse                                       Newsletter   Methodology   Dash   │
+├────────────────────────────────────────────────────────────────────────────────────┤
+│ ● BTC ACCUM · W7 │ M2 108.4T ↑ │ ISM 48.7 ↓ 4w │ R10y +1.92 ↓ │ DXY 97.4 ↓ │ ...   │
+│ ─ TUE 09:41 GMT ──── BTC.D 54.1% ↑ ─── HY OAS 312bp ↑ ─── Gold 2,418 ↑ ─── ETH/BTC │
+│ ────────────────────────────────────────────────────────────────────────────────── │
+│ Three ticked overnight. The dollar is still the story.    Live on the dashboard →  │
+│ ────────────────────────────────────────────────────────────────────────────────── │
+│                                                                                    │
+│ ┌─────────────────────────────────────────────┐  ┌─────────────────────────────┐   │
+│ │                                             │  │  NEXT 14 DAYS               │   │
+│ │  The dollar finally                         │  │  ─────────────────────────  │   │
+│ │  blinked.                                   │  │                             │   │
+│ │                                             │  │  MON 12 MAY                 │   │
+│ │  Issue 47 · A. Carter · 1,420 words         │  │  ECB minutes · 11:00 GMT    │   │
+│ │  ──────────────────────────────────         │  │                             │   │
+│ │                                             │  │  WED 14 MAY                 │   │
+│ │  DXY broke 98 this week for the first       │  │  US CPI (Apr) · 13:30       │   │
+│ │  time since November. The curve steepened   │  │                             │   │
+│ │  twelve basis points. Funding turned        │  │  THU 15 MAY                 │   │
+│ │  negative on Wednesday and hasn't returned. │  │  BoE rate + presser · 12:00 │   │
+│ │                                             │  │                             │   │
+│ │  That's a constellation, not a signal —     │  │  FRI 16 MAY                 │   │
+│ │  but it's the same constellation we saw     │  │  UMich sentiment · 15:00    │   │
+│ │  in March 2023 and October 2020.            │  │                             │   │
+│ │                                             │  │  TUE 20 MAY                 │   │
+│ │  Continue reading the full issue →          │  │  FOMC minutes · 19:00       │   │
+│ └─────────────────────────────────────────────┘  └─────────────────────────────┘   │
+│                                                                                    │
+│ ────────────────────────────────────────────────────────────────────────────────── │
+│ Get the next issue in your inbox  →           /ledger · 25 calls · 0 revised  →    │
+└────────────────────────────────────────────────────────────────────────────────────┘</pre>
+        </div>
+      </div>
+      <p class="muted">
+        The page opens with a horizontal tape — a single mono row,
+        wrapped to two visual lines on desktop, containing the cycle
+        token, the eight indicators, and a one-line prose read.
+        <em>The macro state is part of the tape, not separate from it.</em>
+        Below: lede in editorial type at left, calendar dates in mono at right.
+      </p>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Decisions</div>
+      <div class="decisions">
+        <div><div class="k">Above-fold lead</div><div class="v">Eight-indicator tape, full width. The macro picture is the page's first impression.</div></div>
+        <div><div class="k">Composition</div><div class="v">Tape stacked above a two-column body (prose left, calendar right).</div></div>
+        <div><div class="k">Cycle state</div><div class="v">Inline as the tape's leftmost token: <em>"BTC ACCUM · W7"</em>. Reads as one indicator among many.</div></div>
+        <div><div class="k">"0 revisions"</div><div class="v">Footer line beside the subscribe CTA, linking to <code>/ledger/</code>. Same line as in D1.</div></div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Visual moves</div>
+      <div class="moves">
+        <div class="move">
+          <div class="name">Cycle state inside the tape</div>
+          <div class="desc">Demoting "BTC Accumulation" from page-headline to <em>token zero</em> of the tape is the radical move. It positions the regime as <em>derived</em> from the indicators — not asserted. Most defensible posture available.</div>
+        </div>
+        <div class="move">
+          <div class="name">Tape wraps to two lines</div>
+          <div class="desc">A single mono line, wrapped — not two separate strips. Gives the surface the rhythm of a wire-service printout. Hairline rule between wraps acts as the carriage-return mark.</div>
+        </div>
+        <div class="move">
+          <div class="name">Prose summary line under the tape</div>
+          <div class="desc">One italic Fraunces sentence — <em>"Three ticked overnight. Dollar still the story."</em> — translates the eight rows into a human read. Editorial gesture inside a data block.</div>
+        </div>
+        <div class="move">
+          <div class="name">Calendar in margin</div>
+          <div class="desc">Right-rail datelines, each a two-line block (date + event/time). Lighter typographic weight than the prose, but same vertical rhythm — reads as "what's on the radio next."</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testans">
+      <div class="k">Twelfth-month test</div>
+      <div class="v">
+        <strong>Passes — strongest of the four.</strong> The tape ticks daily,
+        the lede ships weekly, the calendar refreshes continuously.
+        <em>None of the three depends on the state changing.</em> Even on a
+        Tuesday when "Accumulation, Week 51" stares back from the top-left
+        token, seven other tokens around it carry the load.
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Trade-offs vs. v5 Ledger</div>
+      <div class="tradeoffs">
+        <div class="tradeoff plus">
+          <h4>Better</h4>
+          <ul>
+            <li>Substance arrives from the data, not from claim or copy.</li>
+            <li>The cycle state earns its place by being shown alongside its evidence.</li>
+            <li>Tape doubles as a brand asset — visually distinctive, hard to copy.</li>
+            <li>Robust against a slow news week.</li>
+          </ul>
+        </div>
+        <div class="tradeoff minus">
+          <h4>Worse</h4>
+          <ul>
+            <li>Densest above-the-fold of the four — closest to <em>dashboard-lite</em> if discipline slips.</li>
+            <li>The tape's typographic rhythm is fragile; one wrong width breaks the wire-service feel.</li>
+            <li>Risks demoting the cycle state too far — first-time visitors may not parse it.</li>
+            <li>Tape needs an empty-state when the bot is mid-update (rare but possible).</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="risk-row">
+      <div>
+        <div class="k">Marketing-page risk</div>
+        <div class="v"><span class="score">Low</span>A page that opens with eight tabular numbers cannot drift into marketing language. The page is shaped by its data discipline.</div>
+      </div>
+      <div>
+        <div class="k">Effort</div>
+        <div class="v"><span class="score">Medium · ~2 days</span>Tape composition + responsive wrap is the lift. Bot data already exists.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Direction D3 ─── -->
+  <section class="direction" id="d3">
+    <div class="direction-head">
+      <div class="direction-letter">D3<small>The Broadsheet</small></div>
+      <div>
+        <h2 class="direction-name">All three above the fold — read like a Tuesday paper.</h2>
+        <p class="direction-thesis">
+          The print-broadsheet move. Three columns above the fold: lede
+          on the left, evidence in the centre, calendar on the right.
+          Each column has its own typographic vocabulary (serif, mono
+          tabular, mono dateline) so they read as distinct registers, not
+          three of the same card. The cycle state sits as a standalone
+          kicker spanning all three columns.
+        </p>
+        <div class="direction-tags">
+          <span class="tag">Balanced</span>
+          <span class="tag">Three-column broadsheet</span>
+          <span class="tag effort-medium">Effort: medium</span>
+          <span class="tag risk-low">Marketing-risk: low</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Wireframes</div>
+      <div class="wire-grid">
+        <div class="wire-cell">
+          <div class="wire-caption"><strong>Mobile</strong> · 390px</div>
+<pre class="wire">┌────────────────────────────────┐
+│ MacroPulse              ☰      │
+├────────────────────────────────┤
+│ ● NOW · BTC ACCUMULATION       │
+│   WEEK 7 · SINCE 25 MAR 2026   │
+│ ════════════════════════════   │
+│                                │
+│ I · THIS WEEK'S ISSUE          │
+│ ─────────────────────────────  │
+│ The dollar                     │
+│ finally blinked.               │
+│                                │
+│ Issue 47 · A. Carter · 1,420w  │
+│                                │
+│ DXY broke 98 this week for     │
+│ the first time since November. │
+│ The curve steepened twelve     │
+│ basis points. Funding turned   │
+│ negative on Wednesday and      │
+│ hasn't returned.               │
+│                                │
+│ Continue reading           →   │
+│                                │
+│ II · THE EVIDENCE              │
+│ ─────────────────────────────  │
+│ M2 (global)    108.4T    ↑     │
+│ ISM PMI         48.7     ↓ 4w  │
+│ Real 10y       +1.92     ↓     │
+│ DXY             97.4     ↓     │
+│ BTC.D           54.1%    ↑     │
+│ HY OAS          312bp    ↑     │
+│ Gold           2,418     ↑     │
+│ ETH/BTC        0.052     →     │
+│ ─────────────────────────────  │
+│ Three ticked overnight. The    │
+│ dollar is still the story.     │
+│ Live on the dashboard      →   │
+│                                │
+│ III · THE FORTNIGHT            │
+│ ─────────────────────────────  │
+│ Mon 12 May  · ECB minutes      │
+│ Wed 14 May  · US CPI (Apr)     │
+│ Thu 15 May  · BoE rate         │
+│ Fri 16 May  · UMich sentiment  │
+│ Tue 20 May  · FOMC minutes     │
+│                                │
+│ ════════════════════════════   │
+│ ┌──────────────────────────┐   │
+│ │ Get next week's issue →  │   │
+│ └──────────────────────────┘   │
+│ MacroPulse · maintained        │
+│ since Nov 2024 · 0 revised →   │
+└────────────────────────────────┘</pre>
+        </div>
+        <div class="wire-cell">
+          <div class="wire-caption"><strong>Desktop</strong> · 1180px</div>
+<pre class="wire desk">┌────────────────────────────────────────────────────────────────────────────────────┐
+│ MacroPulse                                       Newsletter   Methodology   Dash   │
+├────────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                    │
+│ ● NOW · BTC ACCUMULATION · WEEK 7 · HELD SINCE TUE 25 MAR 2026                     │
+│ ════════════════════════════════════════════════════════════════════════════════   │
+│                                                                                    │
+│ ┌─────────────────────────────┐ ┌────────────────────────┐ ┌─────────────────────┐ │
+│ │ I · THIS WEEK'S ISSUE       │ │ II · THE EVIDENCE      │ │ III · THE FORTNIGHT │ │
+│ │ ─────────────────────────   │ │ ──────────────────     │ │ ────────────────    │ │
+│ │                             │ │                        │ │                     │ │
+│ │ The dollar                  │ │ M2 (g.)  108.4T   ↑    │ │ MON 12 MAY          │ │
+│ │ finally                     │ │ ISM PMI   48.7    ↓ 4w │ │ ECB minutes         │ │
+│ │ blinked.                    │ │ Real 10y +1.92    ↓    │ │ 11:00 GMT           │ │
+│ │                             │ │ DXY       97.4    ↓    │ │                     │ │
+│ │ Issue 47 · A. Carter        │ │ BTC.D     54.1%   ↑    │ │ WED 14 MAY          │ │
+│ │ 1,420 words                 │ │ HY OAS    312bp   ↑    │ │ US CPI · April      │ │
+│ │                             │ │ Gold     2,418    ↑    │ │ 13:30 GMT           │ │
+│ │ DXY broke 98 this week for  │ │ ETH/BTC  0.052    →    │ │                     │ │
+│ │ the first time since        │ │ ──────────────────     │ │ THU 15 MAY          │ │
+│ │ November. The curve         │ │                        │ │ BoE rate + presser  │ │
+│ │ steepened twelve basis      │ │ Three ticked           │ │ 12:00 GMT           │ │
+│ │ points. Funding turned      │ │ overnight. The dollar  │ │                     │ │
+│ │ negative on Wednesday and   │ │ is still the story.    │ │ FRI 16 MAY          │ │
+│ │ hasn't returned.            │ │                        │ │ UMich sentiment     │ │
+│ │                             │ │ Refreshed Tue 09:41    │ │ 15:00 GMT           │ │
+│ │ Continue reading        →   │ │ Dashboard           →  │ │                     │ │
+│ │                             │ │                        │ │ TUE 20 MAY          │ │
+│ │                             │ │                        │ │ FOMC minutes        │ │
+│ │                             │ │                        │ │ 19:00 GMT           │ │
+│ └─────────────────────────────┘ └────────────────────────┘ └─────────────────────┘ │
+│                                                                                    │
+│ ────────────────────────────────────────────────────────────────────────────────── │
+│ Get next week's issue in your inbox →    Maintained since Nov 2024 · 0 revised  →  │
+└────────────────────────────────────────────────────────────────────────────────────┘</pre>
+        </div>
+      </div>
+      <p class="muted">
+        Three columns, three registers: editorial Fraunces on the left for
+        the writing; mono tabular in the centre for the evidence; mono
+        dateline blocks on the right for the calendar. The columns share
+        only a kicker bar across the top. The "broadsheet" gesture is
+        that <em>each column is shaped by what it carries</em> — they
+        don't pretend to be the same shape, the way three identical cards
+        on a marketing page do.
+      </p>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Decisions</div>
+      <div class="decisions">
+        <div><div class="k">Above-fold lead</div><div class="v">All three, equally weighted. A broadsheet front page, not a hero.</div></div>
+        <div><div class="k">Composition</div><div class="v">Three columns desktop (roughly 40/30/30). Stacks I → II → III on mobile.</div></div>
+        <div><div class="k">Cycle state</div><div class="v">Standalone kicker spanning all three columns. A masthead bar, not a chip.</div></div>
+        <div><div class="k">"0 revisions"</div><div class="v">Footer-adjacent: <em>"Maintained since Nov 2024 · 0 revised"</em>, linked to <code>/ledger/</code>.</div></div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Visual moves</div>
+      <div class="moves">
+        <div class="move">
+          <div class="name">Roman-numeral column heads</div>
+          <div class="desc"><em>I · This week's issue</em>, <em>II · The evidence</em>, <em>III · The fortnight</em>. A small typographic gesture that recasts the homepage as a three-act publication, not a stack of sections. Costs four characters per column, adds register.</div>
+        </div>
+        <div class="move">
+          <div class="name">Three typographic registers</div>
+          <div class="desc">Serif body in column I; mono tabular in column II; mono dateline blocks in column III. Each column <em>looks</em> like the kind of substance it is. This is the page's main defence against feeling like marketing.</div>
+        </div>
+        <div class="move">
+          <div class="name">Kicker as masthead bar</div>
+          <div class="desc">A single line of mono spanning the full container, dot + cycle state + week + held-since. Double-rule beneath separates kicker from columns — the only place the design borrows a print-broadsheet device literally.</div>
+        </div>
+        <div class="move">
+          <div class="name">Same publish discipline as a newspaper</div>
+          <div class="desc">Three sources, each maintained on its own clock. If one is empty (a quiet calendar week), the column self-narrows; the others fill. <em>No empty hero.</em></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testans">
+      <div class="k">Twelfth-month test</div>
+      <div class="v">
+        <strong>Passes.</strong> Three things refresh independently of the cycle
+        state. Even if the kicker bar says <em>"BTC Accumulation · Week 51"</em>,
+        the three columns beneath carry the page. <em>The kicker becomes the
+        page's only static element — and the only one whose stability is
+        itself the argument.</em>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Trade-offs vs. v5 Ledger</div>
+      <div class="tradeoffs">
+        <div class="tradeoff plus">
+          <h4>Better</h4>
+          <ul>
+            <li>Most balanced — no single source carries the weight.</li>
+            <li>The "broadsheet" frame is brand-distinctive; nobody else does this.</li>
+            <li>Failure-graceful: any column can be thin without the page failing.</li>
+            <li>The cycle state regains <em>prominence</em> by being a masthead, not a body element.</li>
+          </ul>
+        </div>
+        <div class="tradeoff minus">
+          <h4>Worse</h4>
+          <ul>
+            <li>Highest mobile-collapse cost — three columns become a long stack.</li>
+            <li>The roman-numeral gesture risks reading as fussy if the columns are unbalanced.</li>
+            <li>Three columns at 1180px means each column is narrow (~350px); typography has to be tuned tight.</li>
+            <li>Needs the calendar to be non-empty most weeks; quiet weeks pull a column down.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="risk-row">
+      <div>
+        <div class="k">Marketing-page risk</div>
+        <div class="v"><span class="score">Low</span>Three columns of distinct registers can't easily be hijacked by a marketing voice. The form does the discipline.</div>
+      </div>
+      <div>
+        <div class="k">Effort</div>
+        <div class="v"><span class="score">Medium · ~2–3 days</span>Three-column desktop + clean mobile stack + the typographic register work per column. Bot data already exists for II and III.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Direction D4 ─── -->
+  <section class="direction" id="d4">
+    <div class="direction-head">
+      <div class="direction-letter">D4<small>The Interleaved Lede</small></div>
+      <div>
+        <h2 class="direction-name">One column. Editorial body, interrupted by mono pulls.</h2>
+        <p class="direction-thesis">
+          The single-column move with a typographic surprise. Issue lede
+          runs as one editorial column down the centre of the page; between
+          paragraphs, mono indicator pulls and forthcoming-date pulls
+          appear like marginal notes that have been folded inline. The
+          three substance sources read as <em>one continuous Tuesday
+          briefing</em> rather than three blocks.
+        </p>
+        <div class="direction-tags">
+          <span class="tag surprise">Typographic surprise</span>
+          <span class="tag">Single-column interleaved</span>
+          <span class="tag effort-medium">Effort: medium</span>
+          <span class="tag risk-med">Marketing-risk: medium</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Wireframes</div>
+      <div class="wire-grid">
+        <div class="wire-cell">
+          <div class="wire-caption"><strong>Mobile</strong> · 390px</div>
+<pre class="wire">┌────────────────────────────────┐
+│ MacroPulse              ☰      │
+├────────────────────────────────┤
+│ ● BTC ACCUMULATION · WEEK 7    │
+│ ─────────────────────────────  │
+│                                │
+│ The dollar                     │
+│ finally blinked.               │
+│                                │
+│ Issue 47 · A. Carter · 1,420w  │
+│                                │
+│ DXY broke 98 this week for     │
+│ the first time since November. │
+│ The curve steepened twelve     │
+│ basis points. Funding turned   │
+│ negative on Wednesday and      │
+│ hasn't returned.               │
+│                                │
+│ ┃ DXY  97.4   ↓ −0.8           │
+│ ┃ R10y +1.92  ↓ −7bp           │
+│                                │
+│ That's a constellation, not a  │
+│ signal — but it's the same     │
+│ constellation we saw in March  │
+│ 2023 and October 2020.         │
+│                                │
+│ ┃ Wed 14 May · US CPI · 13:30  │
+│                                │
+│ Bitcoin moved before equities  │
+│ both times. M2 is helping,     │
+│ ISM isn't. Manufacturing has   │
+│ been in contraction four       │
+│ straight weeks now.            │
+│                                │
+│ ┃ ISM  48.7   ↓ 4w in contr.   │
+│ ┃ M2   108.4T ↑ +0.3%          │
+│                                │
+│ Continue reading           →   │
+│                                │
+│ ─────────────────────────────  │
+│ THE REST OF THE TAPE           │
+│ M2 · BTC.D · HY OAS · Gold ·   │
+│ ETH/BTC · See all eight →      │
+│                                │
+│ THE REST OF THE FORTNIGHT      │
+│ Mon 12 · ECB minutes           │
+│ Thu 15 · BoE rate              │
+│ Fri 16 · UMich sentiment       │
+│ Tue 20 · FOMC minutes          │
+│                                │
+│ ┌──────────────────────────┐   │
+│ │ Get next week's issue →  │   │
+│ └──────────────────────────┘   │
+│ Since Nov 2024 · 0 revised →   │
+└────────────────────────────────┘</pre>
+        </div>
+        <div class="wire-cell">
+          <div class="wire-caption"><strong>Desktop</strong> · 1180px</div>
+<pre class="wire desk">┌────────────────────────────────────────────────────────────────────────────────────┐
+│ MacroPulse                                       Newsletter   Methodology   Dash   │
+├────────────────────────────────────────────────────────────────────────────────────┤
+│ ● BTC ACCUMULATION · WEEK 7 · HELD SINCE TUE 25 MAR 2026                           │
+│ ─────────────────────────────────────────────────────────────────────────────────  │
+│                                                                                    │
+│                       The dollar finally                                           │
+│                       blinked.                                                     │
+│                                                                                    │
+│                       Issue 47 · A. Carter · Tue 7 May · 1,420 words               │
+│                       ─────────────────────────────────────────                    │
+│                                                                                    │
+│                       DXY broke 98 this week for the first time since              │
+│                       November. The curve steepened twelve basis points.           │
+│                       Funding turned negative on Wednesday and hasn't              │
+│                       returned.                                                    │
+│                                                                                    │
+│             ┃ DXY      97.4    ↓ −0.8                                              │
+│             ┃ Real 10y +1.92   ↓ −7bp                                              │
+│                                                                                    │
+│                       That's a constellation, not a signal — but it's              │
+│                       the same constellation we saw in March 2023 and              │
+│                       October 2020, and on both occasions Bitcoin moved            │
+│                       before equities did.                                         │
+│                                                                                    │
+│             ┃ Wed 14 May · US CPI (Apr)            · 13:30 GMT                     │
+│             ┃ Thu 15 May · BoE rate decision       · 12:00 GMT                     │
+│                                                                                    │
+│                       M2 is helping, ISM isn't. Manufacturing has been             │
+│                       in contraction four straight weeks now — and the             │
+│                       last time those two diverged this far, the curve             │
+│                       wasn't there to do the work the dollar's now doing.          │
+│                                                                                    │
+│             ┃ ISM PMI     48.7    ↓ 4w in contr.                                   │
+│             ┃ M2 (global) 108.4T  ↑ +0.3%                                          │
+│                                                                                    │
+│                       Continue reading the full issue →                            │
+│                                                                                    │
+│ ─────────────────────────────────────────────────────────────────────────────────  │
+│ See the full tape (8 indicators)  →           See the fortnight (4 more dates)  →  │
+│ ─────────────────────────────────────────────────────────────────────────────────  │
+│ Get next week's issue  →             Maintained since Nov 2024 · 0 revised  →      │
+└────────────────────────────────────────────────────────────────────────────────────┘</pre>
+        </div>
+      </div>
+      <p class="muted">
+        One narrow editorial column (~560px) running down the middle of the
+        page. The lede paragraphs are <em>interrupted</em>, on a tighter
+        left margin, by mono pulls — two indicator rows here, one calendar
+        line there — each marked by a short orange rule (<em>┃</em> in the
+        wire). The pulls are chosen to <em>match the paragraph they sit
+        under</em>: the DXY/Real-10y pull appears after the paragraph that
+        names them. The remaining tape rows and calendar dates collapse to
+        a single "see the rest" line beneath the article.
+      </p>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Decisions</div>
+      <div class="decisions">
+        <div><div class="k">Above-fold lead</div><div class="v">Issue lede — same as D1, but interrupted, not flanked.</div></div>
+        <div><div class="k">Composition</div><div class="v">Single editorial column with mono pulls at a tighter indent between paragraphs.</div></div>
+        <div><div class="k">Cycle state</div><div class="v">Kicker line above headline — as D1.</div></div>
+        <div><div class="k">"0 revisions"</div><div class="v">Footer line beside subscribe CTA, linked to <code>/ledger/</code>.</div></div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Visual moves</div>
+      <div class="moves">
+        <div class="move">
+          <div class="name">Pulls chosen to match the paragraph</div>
+          <div class="desc"><em>This is the surprise.</em> Each mono pull is selected at publish time to be the data the paragraph above it is talking about. The page reads as if the indicators are footnotes inside the prose — evidence shown the moment it's claimed.</div>
+        </div>
+        <div class="move">
+          <div class="name">Orange tick rule on every pull</div>
+          <div class="desc">The 24px <code>orange-2</code> tick that's already the system's hairline-rule device repurposed as a pull marker. Re-uses an existing component instead of inventing.</div>
+        </div>
+        <div class="move">
+          <div class="name">"See the rest" hand-offs</div>
+          <div class="desc">Below the article, two single-line links: <em>"See the full tape (8 indicators)"</em> and <em>"See the fortnight (4 more dates)"</em>. The page commits to four pulls inline; the rest is one click away. Discipline against bloat.</div>
+        </div>
+        <div class="move">
+          <div class="name">Narrow editorial measure</div>
+          <div class="desc">~560px column on a 1180px page. The wide outer margins are what make the inline pulls feel like marginal notes, not table inserts.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testans">
+      <div class="k">Twelfth-month test</div>
+      <div class="v">
+        <strong>Passes — most editorially.</strong> Because each pull is chosen
+        per issue, the page <em>is</em> the issue. State doesn't enter the
+        question. The fragility is the inverse of D1's: it depends not on
+        the lede being strong, but on the writer (or a small editor tool)
+        picking three to four good pulls per Tuesday. <em>That is a real
+        weekly cost the bot can't cover.</em>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Trade-offs vs. v5 Ledger</div>
+      <div class="tradeoffs">
+        <div class="tradeoff plus">
+          <h4>Better</h4>
+          <ul>
+            <li>Most editorially original of the four. Strong "publication" identity.</li>
+            <li>Solves "feels basic" with a typographic gesture, not more components.</li>
+            <li>Reads as one continuous artefact, not three glued blocks.</li>
+            <li>Mobile collapse is graceful — interleaving still works at 390px.</li>
+          </ul>
+        </div>
+        <div class="tradeoff minus">
+          <h4>Worse</h4>
+          <ul>
+            <li><em>Requires a curator.</em> Pulls don't pick themselves; writer must mark them per issue.</li>
+            <li>If pulls are auto-picked badly, the device fails worse than not having it at all.</li>
+            <li>Demotes the calendar to a footer afterthought.</li>
+            <li>Hardest of the four to A/B against v5 — the gesture is the whole point.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="risk-row">
+      <div>
+        <div class="k">Marketing-page risk</div>
+        <div class="v"><span class="score">Medium</span>A page that reads as one editorial artefact is closer to "pitch deck" than D2 or D3. Mitigation: the pulls must be data, not blurbs — no testimonial, no "what readers say" allowed in a pull.</div>
+      </div>
+      <div>
+        <div class="k">Effort</div>
+        <div class="v"><span class="score">Medium · ~2 days build + weekly curation</span>Build is small. The ongoing cost is the writer's per-issue selection of 3–4 pulls — call it 10 minutes a Tuesday.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       PART II — Cycle-state kicker copy
+       ═══════════════════════════════════════════ -->
+  <section class="parts-rule">
+    <div class="parts-num">II</div>
+    <div>
+      <h2>Three alternates for the <em>cycle-state kicker</em>.</h2>
+      <p class="parts-sub">The current line — <em>"NOW · BTC Accumulation, 7 weeks held."</em> — is functional but flat. Three voices across the tonal range, each ~6–12 words, each layout-independent: drop any into any of the four directions above.</p>
+    </div>
+  </section>
+
+  <div class="kickset">
+    <div class="kickrow">
+      <div class="label">Current<small>baseline</small></div>
+      <div>
+        <div class="demo">NOW · BTC Accumulation, 7 weeks held.</div>
+        <div class="note">Functional. Reads as the field label it is: "current value, duration." Acceptable; uninteresting.</div>
+      </div>
+    </div>
+
+    <div class="kickrow">
+      <div class="label">01 · Quietly factual<small>wire-service register</small></div>
+      <div>
+        <div class="demo">CURRENT CALL · BTC ACCUMULATION · HELD SINCE TUE 25 MAR 2026</div>
+        <div class="note">Same posture as the dashboard's tape line. Drops the weeks-count in favour of the start date — readers can do the subtraction themselves, and the absolute date is a stronger claim than a counter that ticks every week.</div>
+      </div>
+    </div>
+
+    <div class="kickrow">
+      <div class="label">02 · Slightly literary<small>editorial register</small></div>
+      <div>
+        <div class="demo lit">The reading has been <em>accumulation</em> since the dollar last blinked.</div>
+        <div class="note">Italic Fraunces, not mono. The kicker becomes a sentence — quietly literary, slightly poetic. Works particularly well in D4, where the kicker already wants to feel editorial. Costs a small amount of legibility for a large amount of voice.</div>
+      </div>
+    </div>
+
+    <div class="kickrow">
+      <div class="label">03 · Brutally short<small>headline register</small></div>
+      <div>
+        <div class="demo short">ACCUMULATION. WEEK 7.</div>
+        <div class="note">Three words. Two periods. The line stops being a label and starts being a statement. Pairs best with D2 (where the surrounding tape carries the context) and D3 (where the kicker is already a masthead bar). Risky on D1 and D4, where the kicker carries more of the framing load.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       Recommendation
+       ═══════════════════════════════════════════ -->
+  <section class="recco" id="recco">
+    <div class="recco-eyebrow">Recommendation</div>
+    <h2>Ship <em>D3 (The Broadsheet)</em>, with the <em>quietly-factual</em> kicker.</h2>
+    <p>
+      D3 is the only one of the four where every substance source is
+      visible above the fold <em>and</em> none of them carries the page on
+      its own. On the 51st Tuesday of "BTC Accumulation," column I refreshes
+      with a new issue, column II refreshes with the day's tape, column
+      III refreshes with whatever Wednesday holds. The cycle state, sat as
+      a masthead bar above all three, is the only static element on the
+      page — and that stability becomes its argument: <em>the reading hasn't
+      changed because the evidence hasn't asked it to</em>.
+    </p>
+    <p>
+      The three-register typographic discipline (serif / mono tabular /
+      mono dateline) is what defends it against feeling like a marketing
+      page. Each column <em>looks</em> like what it is. None of them is
+      pretending to be a card. None of them is decoration. The
+      roman-numeral column heads — <em>I, II, III</em> — are the editorial
+      gesture that solves "feels basic" without adding components.
+    </p>
+    <p>
+      Pair with the <strong>quietly-factual kicker</strong>
+      (<code>CURRENT CALL · BTC ACCUMULATION · HELD SINCE TUE 25 MAR 2026</code>)
+      because a masthead bar wants a wire-service register, not a literary
+      one. The "held since" date is the move: it's a fact a reader can
+      verify, it ages well, and it lets a reader see how long a state has
+      held without the page having to perform the duration with a counter.
+    </p>
+    <p>
+      <strong>Fallback:</strong> if three columns at 1180px proves too tight
+      typographically, <strong>D2 (The Tape)</strong> is the right
+      retreat — it carries the same evidence-led posture in a more
+      forgiving two-column body, and its twelfth-month-test score is
+      arguably the strongest of the four. <strong>D1 (Front Page)</strong>
+      is the right answer only if you decide the writing should be the
+      product's calling card. <strong>D4 (Interleaved Lede)</strong> is the
+      most interesting, but it needs a curator's habit you don't yet have.
+      Ship D3 first; revisit D4 once the per-issue pull-selection workflow
+      proves cheap.
+    </p>
+    <p>
+      I'm not proposing a Direction E. D's underlying thesis — <em>build
+      the homepage out of things that refresh on their own clocks</em> — is
+      right, and the four layouts above cover the meaningful theory-space
+      on it. The choice between them is a choice between which source
+      leads, not which thesis to back.
+    </p>
+    <div class="recco-foot">
+      <div><strong>Ship:</strong> D3 · The Broadsheet + Kicker 01</div>
+      <div><strong>Effort:</strong> Medium · ~2–3 days</div>
+      <div><strong>Fallback:</strong> D2 · The Tape</div>
+      <div><strong>Marketing-risk:</strong> Low</div>
+    </div>
+  </section>
+
+  <footer class="doc-foot">
+    <div>MacroPulse · Homepage v6</div>
+    <div>4 layouts on Direction D · 3 kicker alternates · 1 recommendation</div>
+  </footer>
+
+</main>
+</body>
+</html>

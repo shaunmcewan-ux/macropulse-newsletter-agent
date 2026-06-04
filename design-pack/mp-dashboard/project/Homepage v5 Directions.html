@@ -1,0 +1,1189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MacroPulse — Homepage v5: directions + copy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,ital,wght@9..144,0,400;9..144,0,500;9..144,0,600;9..144,1,400;9..144,1,500&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg-0: #080e13; --bg-1: #0c141b; --bg-2: #111a23; --bg-3: #16212c;
+    --line: rgba(237, 243, 247, 0.08);
+    --line-strong: rgba(237, 243, 247, 0.16);
+    --ink: #edf3f7; --ink-2: #b9c4cc; --ink-3: #7c8a95; --ink-4: #4a5763;
+    --orange-1: #ffbd69; --orange-2: #ff9d2f; --orange-3: #f07d0a;
+    --green: #4ec38a; --red: #ef5a6b; --amber: #ffbd69;
+    --grad: linear-gradient(135deg, #ffbd69 0%, #ff9d2f 45%, #f07d0a 100%);
+    --serif: "Fraunces", Georgia, serif;
+    --sans: "Inter", -apple-system, sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background:
+      radial-gradient(900px 600px at 80% -10%, rgba(255, 157, 47, 0.10), transparent 60%),
+      radial-gradient(800px 500px at -10% 10%, rgba(255, 189, 105, 0.05), transparent 60%),
+      linear-gradient(180deg, #0c141b 0%, #080e13 100%);
+    color: var(--ink); font-family: var(--sans);
+    font-size: 16px; line-height: 1.6;
+    -webkit-font-smoothing: antialiased; min-height: 100vh;
+  }
+  .page { max-width: 1180px; margin: 0 auto; padding: 72px 40px 120px; }
+  @media (max-width: 720px) { .page { padding: 40px 20px 80px; } }
+
+  /* mast */
+  .mast {
+    display: flex; justify-content: space-between; align-items: flex-start;
+    gap: 24px; padding-bottom: 28px;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 56px; flex-wrap: wrap;
+  }
+  .mast-brand { font-family: var(--serif); font-size: 28px; font-weight: 600; letter-spacing: -0.01em; line-height: 1; }
+  .mast-brand .accent { display: block; width: 36px; height: 3px; background: var(--grad); margin-top: 10px; border-radius: 2px; }
+  .mast-meta { font-family: var(--mono); font-size: 11px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.14em; text-align: right; line-height: 1.7; }
+  .mast-meta strong { color: var(--ink-2); font-weight: 500; }
+
+  /* doc head */
+  .doc-eyebrow {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 7px 14px; border: 1px solid var(--line-strong); border-radius: 999px;
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--ink-2); margin-bottom: 28px;
+  }
+  .doc-eyebrow::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--orange-2); box-shadow: 0 0 12px var(--orange-2); }
+  h1.doc-title {
+    font-family: var(--serif); font-weight: 500;
+    font-size: clamp(40px, 6vw, 64px); line-height: 1.04;
+    letter-spacing: -0.02em; margin: 0 0 24px; text-wrap: balance;
+  }
+  h1.doc-title em { font-style: italic; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .doc-lede { font-family: var(--serif); font-size: 22px; line-height: 1.5; color: var(--ink-2); max-width: 720px; margin: 0 0 16px; font-weight: 400; text-wrap: pretty; }
+  .doc-byline { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--ink-3); margin-top: 32px; }
+  .doc-byline span + span::before { content: "·"; margin: 0 10px; color: var(--ink-4); }
+
+  /* premise */
+  .premise {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 48px;
+    margin: 64px 0 88px;
+  }
+  @media (max-width: 720px) { .premise { grid-template-columns: 1fr; gap: 28px; } }
+  .premise h3 {
+    font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.16em; color: var(--orange-2); margin: 0 0 14px; font-weight: 500;
+  }
+  .premise p { font-family: var(--serif); font-size: 17px; line-height: 1.55; color: var(--ink-2); margin: 0 0 14px; text-wrap: pretty; }
+  .premise p strong { color: var(--ink); font-weight: 500; }
+  .premise p em { font-style: italic; color: var(--ink); }
+
+  /* TOC / parts */
+  .parts-rule {
+    display: grid; grid-template-columns: 80px 1fr;
+    gap: 32px; margin: 88px 0 32px;
+    padding-bottom: 16px; border-bottom: 1px solid var(--line);
+    align-items: end;
+  }
+  @media (max-width: 720px) { .parts-rule { grid-template-columns: 1fr; gap: 12px; } }
+  .parts-num {
+    font-family: var(--serif); font-style: italic; font-weight: 500;
+    font-size: 64px; line-height: 0.9;
+    background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .parts-rule h2 {
+    font-family: var(--serif); font-size: clamp(28px, 4vw, 40px);
+    line-height: 1.05; letter-spacing: -0.015em;
+    margin: 0; font-weight: 500; text-wrap: balance;
+  }
+  .parts-rule h2 em { font-style: italic; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .parts-sub {
+    font-family: var(--serif); font-size: 17px; line-height: 1.55;
+    color: var(--ink-2); margin: 8px 0 0; max-width: 640px;
+  }
+
+  /* direction */
+  .direction { margin-bottom: 96px; scroll-margin-top: 40px; }
+  .direction-head {
+    display: grid; grid-template-columns: 96px 1fr;
+    gap: 28px; align-items: start;
+    margin: 36px 0; padding-bottom: 28px;
+    border-bottom: 1px solid var(--line);
+  }
+  @media (max-width: 720px) { .direction-head { grid-template-columns: 1fr; gap: 14px; } }
+  .direction-letter {
+    font-family: var(--serif); font-style: italic;
+    font-size: 80px; line-height: 0.9;
+    background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent;
+    font-weight: 500;
+  }
+  .direction-name {
+    font-family: var(--serif); font-size: clamp(30px, 4vw, 44px);
+    line-height: 1.05; letter-spacing: -0.015em;
+    margin: 0 0 12px; font-weight: 500; text-wrap: balance;
+  }
+  .direction-thesis {
+    font-family: var(--serif); font-style: italic; font-size: 19px;
+    color: var(--ink-2); line-height: 1.5; margin: 0; max-width: 640px; text-wrap: pretty;
+  }
+  .direction-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+  .tag {
+    font-family: var(--mono); font-size: 10.5px;
+    text-transform: uppercase; letter-spacing: 0.14em;
+    padding: 5px 11px; border: 1px solid var(--line-strong);
+    border-radius: 999px; color: var(--ink-2);
+  }
+  .tag.effort-low    { color: var(--green);    border-color: rgba(78, 195, 138, 0.35); }
+  .tag.effort-medium { color: var(--orange-1); border-color: rgba(255, 189, 105, 0.35); }
+  .tag.effort-high   { color: var(--red);      border-color: rgba(239, 90, 107, 0.35); }
+  .tag.risk-low      { color: var(--green);    border-color: rgba(78, 195, 138, 0.35); }
+  .tag.risk-med      { color: var(--orange-1); border-color: rgba(255, 189, 105, 0.35); }
+  .tag.risk-high     { color: var(--red);      border-color: rgba(239, 90, 107, 0.35); }
+  .tag.invention { color: var(--orange-2); border-color: rgba(255, 157, 47, 0.5); }
+
+  .sub { margin: 36px 0; }
+  .sub-label {
+    font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.16em; color: var(--ink-3); margin-bottom: 14px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .sub-label::before { content: ""; width: 14px; height: 1px; background: var(--orange-2); }
+  .sub > p { font-family: var(--serif); font-size: 17px; line-height: 1.6; color: var(--ink); margin: 0 0 12px; text-wrap: pretty; max-width: 760px; }
+  .sub > p.muted { color: var(--ink-2); }
+  .sub > p code, .sub > p em.code { font-family: var(--mono); font-size: 13px; color: var(--ink); background: rgba(237, 243, 247, 0.06); padding: 1px 6px; border-radius: 4px; font-style: normal; }
+
+  .wire-grid {
+    display: grid; grid-template-columns: 1fr 1.8fr;
+    gap: 18px; margin: 18px 0 4px;
+  }
+  @media (max-width: 900px) { .wire-grid { grid-template-columns: 1fr; } }
+  .wire-cell { display: flex; flex-direction: column; }
+
+  pre.wire {
+    font-family: var(--mono); font-size: 11.5px; line-height: 1.55;
+    color: var(--ink-2); background: var(--bg-0);
+    border: 1px solid var(--line); border-radius: 12px;
+    padding: 18px 18px; overflow-x: auto;
+    margin: 0; white-space: pre;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.02);
+    flex: 1;
+  }
+  pre.wire.desk { font-size: 10.5px; }
+  .wire-caption { font-family: var(--mono); font-size: 10.5px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.14em; margin-bottom: 8px; display: flex; gap: 12px; }
+  .wire-caption strong { color: var(--orange-2); font-weight: 500; }
+
+  .changelist {
+    display: grid; grid-template-columns: 180px 1fr;
+    gap: 0; margin: 16px 0 8px;
+    border-top: 1px solid var(--line);
+  }
+  @media (max-width: 720px) { .changelist { grid-template-columns: 1fr; } }
+  .changelist > div { padding: 16px 0; border-bottom: 1px solid var(--line); }
+  .changelist .k { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--orange-2); padding-right: 24px; }
+  .changelist .v { font-family: var(--serif); font-size: 16.5px; line-height: 1.55; color: var(--ink); text-wrap: pretty; }
+  .changelist .v em { font-style: italic; color: var(--ink-2); }
+  .changelist .v code { font-family: var(--mono); font-size: 13px; color: var(--ink); background: rgba(237, 243, 247, 0.06); padding: 1px 6px; border-radius: 4px; }
+  @media (max-width: 720px) { .changelist .k { padding-bottom: 4px; border-bottom: none; } .changelist .v { padding-top: 0; } }
+
+  /* moves block */
+  .moves { margin: 16px 0; }
+  .move {
+    display: grid; grid-template-columns: 220px 1fr;
+    gap: 24px; padding: 16px 0;
+    border-top: 1px solid var(--line);
+  }
+  .move:last-child { border-bottom: 1px solid var(--line); }
+  @media (max-width: 720px) { .move { grid-template-columns: 1fr; gap: 6px; } }
+  .move .name { font-family: var(--serif); font-size: 17px; font-style: italic; color: var(--orange-2); font-weight: 500; }
+  .move .desc { font-family: var(--serif); font-size: 15.5px; line-height: 1.55; color: var(--ink); text-wrap: pretty; }
+
+  /* tradeoffs */
+  .tradeoffs { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 18px; }
+  @media (max-width: 720px) { .tradeoffs { grid-template-columns: 1fr; } }
+  .tradeoff { padding: 20px 22px; border: 1px solid var(--line); border-radius: 12px; background: rgba(22, 33, 44, 0.35); }
+  .tradeoff h4 {
+    margin: 0 0 12px; font-family: var(--mono); font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.16em; color: var(--ink-3);
+    font-weight: 500; display: flex; align-items: center; gap: 10px;
+  }
+  .tradeoff.plus h4  { color: var(--green); }
+  .tradeoff.minus h4 { color: var(--red); }
+  .tradeoff h4::before { font-family: var(--mono); font-size: 14px; line-height: 1; }
+  .tradeoff.plus h4::before  { content: "+"; }
+  .tradeoff.minus h4::before { content: "−"; }
+  .tradeoff ul { margin: 0; padding: 0; list-style: none; }
+  .tradeoff li {
+    font-family: var(--serif); font-size: 16px; line-height: 1.5;
+    color: var(--ink); padding: 8px 0; border-top: 1px dashed var(--line); text-wrap: pretty;
+  }
+  .tradeoff li:first-child { border-top: none; padding-top: 0; }
+
+  /* risk assessment row */
+  .risk-row {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 0; margin: 24px 0 8px;
+    border: 1px solid var(--line); border-radius: 12px;
+    overflow: hidden;
+  }
+  @media (max-width: 720px) { .risk-row { grid-template-columns: 1fr; } }
+  .risk-row > div { padding: 18px 22px; }
+  .risk-row > div + div { border-left: 1px solid var(--line); }
+  @media (max-width: 720px) { .risk-row > div + div { border-left: none; border-top: 1px solid var(--line); } }
+  .risk-row .k { font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--ink-3); margin-bottom: 8px; }
+  .risk-row .v { font-family: var(--serif); font-size: 15.5px; line-height: 1.5; color: var(--ink); text-wrap: pretty; }
+  .risk-row .v em { font-style: italic; }
+  .risk-row .v .score { font-family: var(--mono); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--orange-2); margin-right: 10px; }
+
+  /* PART 2 copy sets */
+  .copyset {
+    margin: 32px 0;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    overflow: hidden;
+    background: linear-gradient(180deg, rgba(22, 33, 44, 0.45), rgba(12, 20, 27, 0.45));
+  }
+  .copyset-head {
+    display: grid; grid-template-columns: 56px 1fr auto;
+    gap: 18px; align-items: center;
+    padding: 22px 26px;
+    border-bottom: 1px solid var(--line);
+  }
+  @media (max-width: 720px) { .copyset-head { grid-template-columns: 48px 1fr; } .copyset-head .num-meta { grid-column: 1 / -1; } }
+  .copyset-num {
+    font-family: var(--serif); font-style: italic; font-weight: 500;
+    font-size: 44px; line-height: 1;
+    background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .copyset-tone { font-family: var(--serif); font-size: 22px; font-weight: 500; line-height: 1.2; margin: 0; letter-spacing: -0.005em; }
+  .copyset-tone em { font-style: italic; }
+  .copyset-rationale {
+    font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.14em; color: var(--ink-3); margin-top: 6px;
+    line-height: 1.6;
+  }
+  .copyset-rationale strong { color: var(--ink-2); font-weight: 500; }
+
+  .copyset-body {
+    padding: 8px 0 0;
+  }
+  .copyrow {
+    display: grid; grid-template-columns: 140px 1fr;
+    gap: 24px; padding: 18px 26px;
+    border-top: 1px solid var(--line);
+  }
+  @media (max-width: 720px) { .copyrow { grid-template-columns: 1fr; gap: 6px; padding: 14px 18px; } }
+  .copyrow .k {
+    font-family: var(--mono); font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.16em;
+    color: var(--orange-2);
+  }
+  .copyrow .k .chars {
+    display: block; color: var(--ink-4); font-size: 9.5px; margin-top: 3px;
+  }
+  .copyrow .v.eyebrow {
+    font-family: var(--mono); font-size: 12px; text-transform: uppercase;
+    letter-spacing: 0.16em; color: var(--ink); line-height: 1.4;
+  }
+  .copyrow .v.eyebrow::before {
+    content: ""; display: inline-block; width: 6px; height: 6px;
+    border-radius: 50%; background: var(--orange-2);
+    margin-right: 10px; vertical-align: middle;
+    box-shadow: 0 0 10px var(--orange-2);
+  }
+  .copyrow .v.headline {
+    font-family: var(--serif); font-size: clamp(24px, 3vw, 34px);
+    line-height: 1.08; letter-spacing: -0.01em; font-weight: 500;
+    color: var(--ink); margin: 0; text-wrap: balance;
+  }
+  .copyrow .v.headline em { font-style: italic; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .copyrow .v.lede {
+    font-family: var(--serif); font-style: italic; font-size: 19px;
+    line-height: 1.5; color: var(--ink-2); margin: 0; text-wrap: pretty;
+  }
+  .copyrow .v.voice {
+    font-family: var(--serif); font-style: italic; font-size: 17px;
+    line-height: 1.55; color: var(--ink-2); margin: 0; text-wrap: pretty;
+    max-width: 60ch;
+  }
+  .copyrow .v.cta {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 11px 20px; background: var(--grad); color: #1a0f06;
+    border-radius: 999px; font-family: var(--sans); font-size: 14px;
+    font-weight: 500; width: max-content;
+  }
+
+  /* recommendation */
+  .recco {
+    margin-top: 48px; padding: 56px;
+    border: 1px solid var(--line-strong); border-radius: 18px;
+    background:
+      radial-gradient(600px 300px at 100% 0%, rgba(255, 157, 47, 0.08), transparent 60%),
+      linear-gradient(180deg, rgba(22, 33, 44, 0.6), rgba(12, 20, 27, 0.6));
+    position: relative; overflow: hidden;
+  }
+  .recco::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 2px; background: var(--grad); opacity: 0.6; }
+  @media (max-width: 720px) { .recco { padding: 32px 24px; } }
+  .recco-eyebrow { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; color: var(--orange-2); margin-bottom: 16px; }
+  .recco h2 {
+    font-family: var(--serif); font-size: clamp(32px, 4.4vw, 46px);
+    line-height: 1.05; margin: 0 0 20px; font-weight: 500;
+    letter-spacing: -0.015em; text-wrap: balance;
+  }
+  .recco h2 em { font-style: italic; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .recco p { font-family: var(--serif); font-size: 17px; line-height: 1.6; color: var(--ink-2); max-width: 760px; margin: 0 0 14px; text-wrap: pretty; }
+  .recco p em { font-style: italic; color: var(--ink); }
+  .recco-foot {
+    margin-top: 32px; display: flex; flex-wrap: wrap; gap: 24px;
+    padding-top: 24px; border-top: 1px solid var(--line);
+    font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.14em; color: var(--ink-3);
+  }
+  .recco-foot strong { color: var(--ink); font-weight: 500; }
+
+  .doc-foot {
+    margin-top: 80px; padding-top: 28px;
+    border-top: 1px solid var(--line);
+    display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px;
+    font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.14em; color: var(--ink-3);
+  }
+</style>
+</head>
+<body>
+<main class="page" data-screen-label="Homepage v5 Directions">
+
+  <header class="mast">
+    <div class="mast-brand">MacroPulse<span class="accent"></span></div>
+    <div class="mast-meta">
+      <strong>Homepage v5 · 3 directions + 5 copy sets</strong><br />
+      Internal · 11 May 2026
+    </div>
+  </header>
+
+  <div class="doc-eyebrow">Design Review · Pass 5</div>
+  <h1 class="doc-title">Solving for <em>"feels basic"</em> without becoming a marketing page.</h1>
+  <p class="doc-lede">
+    The current homepage ships restraint correctly. What it doesn't yet ship
+    is <em>density</em> — the sense, on first scroll, that there's substance
+    here. Three structural directions, five voice sets, one recommendation.
+  </p>
+  <div class="doc-byline">
+    <span>Inputs: v4 live, field feedback</span>
+    <span>Brief: density without noise</span>
+    <span>System: locked</span>
+  </div>
+
+  <section class="premise">
+    <div>
+      <h3>The diagnosis</h3>
+      <p>
+        The cycle headline is doing its job — it lands. The page around it
+        isn't. A first-time reader sees one big phrase and one CTA and infers
+        that's the whole product. The dashboard earns its visit because every
+        scroll yields something to look at; <strong>the homepage doesn't
+        return on its scroll</strong>. That's "feels basic."
+      </p>
+    </div>
+    <div>
+      <h3>The constraint</h3>
+      <p>
+        Density is the enemy of restraint unless it's <em>evidence</em>.
+        Anything we add must be the same kind of thing the dashboard is — a
+        number, a name, a date, a sentence the reader can verify. No
+        testimonials, no carousel, no hero with gradient blobs. Calm signal-density.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       PART 1 — Three directions
+       ═══════════════════════════════════════════ -->
+  <section class="parts-rule">
+    <div class="parts-num">I</div>
+    <div>
+      <h2>Three <em>structural</em> directions</h2>
+      <p class="parts-sub">Each takes a different theory of what "less basic" means. Mobile-first wires for 390px, then desktop wires for 1180px. Section change-list, named visual moves, trade-offs, effort, marketing-page risk.</p>
+    </div>
+  </section>
+
+  <!-- ─── Direction A ─── -->
+  <section class="direction" id="dA">
+    <div class="direction-head">
+      <div class="direction-letter">A</div>
+      <div>
+        <h2 class="direction-name">The Evidence Margin</h2>
+        <p class="direction-thesis">
+          Keep the cycle headline. Surround it with the kind of quiet evidence
+          that lives on the dashboard — five indicator readings, a single
+          inline chart, a "weeks in state" counter. Density via numbers, not
+          via more components.
+        </p>
+        <div class="direction-tags">
+          <span class="tag">Evidence-led</span>
+          <span class="tag">Two-column desktop</span>
+          <span class="tag effort-medium">Effort: medium</span>
+          <span class="tag risk-low">Marketing-risk: low</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Above the fold</div>
+      <div class="wire-grid">
+        <div class="wire-cell">
+          <div class="wire-caption"><strong>Mobile</strong> · 390px</div>
+<pre class="wire">┌────────────────────────────────┐
+│ MacroPulse              ☰      │
+├────────────────────────────────┤
+│ ● LIVE · TUE 7 MAY · WEEK 7    │
+│                                │
+│ BTC                            │
+│ Accumulation.                  │
+│                                │
+│ ●─────○─────○─────○            │
+│ acc   alt   tp    off          │
+│                                │
+│ ── EVIDENCE ─────────────────  │
+│ M2 (global)    108.4T    ↑     │
+│ ISM PMI         48.7     ↓ 4w  │
+│ Real 10y       +1.92     ↓     │
+│ DXY             97.4     ↓     │
+│ BTC.D           54.1%    ↑     │
+│ ──────────────────────────     │
+│                                │
+│ ┌──────────────────────────┐   │
+│ │  ╱╲                      │   │
+│ │ ╱  ╲      DXY vs BTC.D   │   │
+│ │     ╲ ╱╲    18m, inverse │   │
+│ │      ╳                   │   │
+│ │     ╱ ╲                  │   │
+│ └──────────────────────────┘   │
+│                                │
+│ ┌──────────────────────────┐   │
+│ │ Get the next issue   →   │   │
+│ └──────────────────────────┘   │
+│ Live on the dashboard →        │
+└────────────────────────────────┘</pre>
+        </div>
+        <div class="wire-cell">
+          <div class="wire-caption"><strong>Desktop</strong> · 1180px</div>
+<pre class="wire desk">┌─────────────────────────────────────────────────────────────────────────┐
+│ MacroPulse                              Newsletter   Methodology   Dash │
+├─────────────────────────────────────────────────────────────────────────┤
+│ ● LIVE · TUE 7 MAY 2026 · ISSUE 47 · BTC ACCUMULATION · WEEK 7          │
+│ ──────────────────────────────────────────────────────────────────────  │
+│                                                                         │
+│ ┌─────────────────────────────────┐  ┌──────────────────────────────┐   │
+│ │                                 │  │ EVIDENCE  THIS WEEK          │   │
+│ │  BTC                            │  │ ─────────────────────────    │   │
+│ │  Accumulation.                  │  │ M2 (global)   108.4T    ↑    │   │
+│ │                                 │  │ ISM PMI        48.7     ↓ 4w │   │
+│ │  Now in its 7th week.           │  │ Real 10y       +1.92    ↓    │   │
+│ │                                 │  │ DXY            97.4     ↓    │   │
+│ │  ●─────○─────○─────○            │  │ BTC.D          54.1%    ↑    │   │
+│ │  acc   alt   tp    off          │  │ ─────────────────────────    │   │
+│ │                                 │  │                              │   │
+│ │  I write MacroPulse for         │  │   ╱╲                         │   │
+│ │  allocators who already know    │  │  ╱  ╲___    DXY vs BTC.D     │   │
+│ │  the news. One regime call,     │  │       ╲ ╱╲   18m · inverse   │   │
+│ │  every Tuesday.                 │  │        ╳                     │   │
+│ │                                 │  │       ╱ ╲                    │   │
+│ │  Get the next issue   →         │  │                              │   │
+│ │  Live on the dashboard →        │  │ Refreshed Tue 09:41 GMT      │   │
+│ │                                 │  │                              │   │
+│ └─────────────────────────────────┘  └──────────────────────────────┘   │
+└─────────────────────────────────────────────────────────────────────────┘</pre>
+        </div>
+      </div>
+      <p class="muted">
+        The hero word stays the loudest object. Beside it, a single
+        <em>EVIDENCE</em> panel renders the five indicators in mono with
+        tabular numerics and trend arrows — identical typographic vocabulary
+        to the dashboard's tape. Below the panel, one ASCII-spec chart
+        (DXY vs BTC.D over 18 months) acts as the page's single image. The
+        ledger fact "Now in its 7th week" replaces the previous voice
+        paragraph as the lede sentence.
+      </p>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Section-by-section vs. current</div>
+      <div class="changelist">
+        <div class="k">01 · Topline strip</div>
+        <div class="v">Replace single-date kicker with a five-token mono strip: <em>LIVE · TUE 7 MAY 2026 · ISSUE 47 · BTC ACCUMULATION · WEEK 7</em>. Hairline rule below. Reads as a wire-service header, not marketing.</div>
+        <div class="k">02 · Hero (left col)</div>
+        <div class="v">Same cycle word, same rail. <em>Add</em>: a one-line subhead in italic Fraunces 22px — "Now in its 7th week." Demote voice paragraph to two short sentences. Keep one primary CTA, add the dashboard ghost link below it.</div>
+        <div class="k">03 · Evidence panel (right col)</div>
+        <div class="v"><em>New.</em> Five indicators, mono, tabular, with trend arrows and a "↓ 4w" duration token where relevant. Hairline rules above and below. Footer line: "Refreshed Tue 09:41 GMT" — the time the issue was published, not real-time.</div>
+        <div class="k">04 · Inline chart</div>
+        <div class="v"><em>New.</em> One small chart inside the evidence panel. SVG line chart, two series, 18-month window. No legend; caption underneath in mono 11px: "DXY vs BTC.D · 18m · inverse." Single image on the page.</div>
+        <div class="k">05 · Four-state explainer</div>
+        <div class="v">Keep current, but tighten: 4 rows × (mono eyebrow + 22px Fraunces state name + 14.5px serif one-sentence definition). Mid-page, full width.</div>
+        <div class="k">06 · Sample issue</div>
+        <div class="v">Keep. Single full-width card. Unchanged from v4.</div>
+        <div class="k">07 · CTA strip</div>
+        <div class="v">Keep. Unchanged from v4.</div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Visual moves that make it less sparse</div>
+      <div class="moves">
+        <div class="move">
+          <div class="name">Wire-service topline</div>
+          <div class="desc">A five-token mono strip at the very top — date, issue, regime, week. Reads as a newspaper masthead line, not a marketing eyebrow. Costs ~36px vertical, adds five facts.</div>
+        </div>
+        <div class="move">
+          <div class="name">Evidence panel</div>
+          <div class="desc">A second column on desktop, full-width row on mobile. Five readings in the dashboard's exact typographic style. Makes the homepage feel like a public face of the dashboard, not a separate marketing artefact.</div>
+        </div>
+        <div class="move">
+          <div class="name">Single inline chart</div>
+          <div class="desc">One chart, ~280px tall, two series. The discipline of "exactly one" is what keeps it editorial. A page with five charts is a dashboard; a page with one chart is a publication.</div>
+        </div>
+        <div class="move">
+          <div class="name">"Now in its 7th week."</div>
+          <div class="desc">A single-sentence subhead under the cycle word. Implies track record, implies stability of method, implies that this regime <em>has</em> a history — all without claiming anything.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Trade-offs vs. current (v4)</div>
+      <div class="tradeoffs">
+        <div class="tradeoff plus">
+          <h4>Better</h4>
+          <ul>
+            <li>Density problem solved with substance: five facts, one chart, one duration claim.</li>
+            <li>The homepage and dashboard share a typographic vocabulary — they read as the same product.</li>
+            <li>"7th week" gives the visitor a sense of time passing without a live ticker.</li>
+            <li>Mobile collapse is clean (two columns become two stacks).</li>
+          </ul>
+        </div>
+        <div class="tradeoff minus">
+          <h4>Worse</h4>
+          <ul>
+            <li>Weekly publish workflow must now write 6 numbers, not 1 (regime + 5 indicators).</li>
+            <li>The chart needs to be regenerated weekly — a small but real ops cost.</li>
+            <li>Risks looking like a dashboard-lite if the evidence panel grows past five rows.</li>
+            <li>"Refreshed Tue 09:41 GMT" implies more liveness than the homepage actually has.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="risk-row">
+      <div>
+        <div class="k">Marketing-page risk</div>
+        <div class="v"><span class="score">Low</span><em>Everything we add is a verifiable fact</em> — a number, a date, a count of weeks. None of it is a claim about the product; all of it is the product.</div>
+      </div>
+      <div>
+        <div class="k">Effort</div>
+        <div class="v"><span class="score">Medium · ~2 days</span>Build is straightforward (a second column, a small SVG chart). The real lift is the publish-time workflow that writes 6 values into the page each Tuesday.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Direction B ─── -->
+  <section class="direction" id="dB">
+    <div class="direction-head">
+      <div class="direction-letter">B</div>
+      <div>
+        <h2 class="direction-name">The Issue, Front Page</h2>
+        <p class="direction-thesis">
+          Open with this week's actual writing — title, byline, four paragraphs
+          — and demote the cycle state to a kicker above the headline. The
+          page becomes Tuesday's note, set in newspaper-front-page form. The
+          product proves itself by being itself.
+        </p>
+        <div class="direction-tags">
+          <span class="tag">Writing-led</span>
+          <span class="tag">Front-page form</span>
+          <span class="tag effort-low">Effort: low</span>
+          <span class="tag risk-med">Marketing-risk: medium</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Above the fold</div>
+      <div class="wire-grid">
+        <div class="wire-cell">
+          <div class="wire-caption"><strong>Mobile</strong> · 390px</div>
+<pre class="wire">┌────────────────────────────────┐
+│ MacroPulse              ☰      │
+├────────────────────────────────┤
+│ ISSUE 47 · TUE 7 MAY · 1,420w  │
+│ ────────────────────────────── │
+│ BTC ACCUMULATION · WEEK 7      │
+│                                │
+│ The dollar                     │
+│ finally                        │
+│ blinked.                       │
+│                                │
+│ by A. Carter                   │
+│ ─────────────                  │
+│                                │
+│ DXY broke 98 this week for     │
+│ the first time since November. │
+│ The curve steepened twelve     │
+│ basis points. Funding turned   │
+│ negative on Wednesday and      │
+│ hasn't returned.               │
+│                                │
+│ That's a constellation, not a  │
+│ signal. But it's the same      │
+│ constellation we saw in March  │
+│ 2023 and October 2020 …        │
+│                                │
+│ Continue reading       →       │
+│ ──────────────────────────     │
+│                                │
+│ ┌──────────────────────────┐   │
+│ │ Get next week's issue →  │   │
+│ └──────────────────────────┘   │
+└────────────────────────────────┘</pre>
+        </div>
+        <div class="wire-cell">
+          <div class="wire-caption"><strong>Desktop</strong> · 1180px</div>
+<pre class="wire desk">┌─────────────────────────────────────────────────────────────────────────┐
+│ MacroPulse                              Newsletter   Methodology   Dash │
+├─────────────────────────────────────────────────────────────────────────┤
+│ ISSUE 47 · TUE 7 MAY 2026 · 1,420 WORDS · BTC ACCUMULATION · WEEK 7     │
+│ ──────────────────────────────────────────────────────────────────────  │
+│                                                                         │
+│                The dollar finally                                       │
+│                blinked.                                                 │
+│                                                                         │
+│                by A. Carter      ·     A weekly read on the macro cycle │
+│                                        for allocators who already know  │
+│                                        the news.                        │
+│                                                                         │
+│  ──────────────────────────────────────────────────────────────────     │
+│                                                                         │
+│  DXY broke 98 this week for the           ┌──────────────┐              │
+│  first time since November. The           │  THE CALL    │              │
+│  curve steepened twelve basis             │              │              │
+│  points. Funding turned negative          │  BTC         │              │
+│  on Wednesday and hasn't returned.        │  Accumul.    │              │
+│                                           │              │              │
+│  That's a constellation, not a            │  ●───○───○───○              │
+│  signal. But it's the same                │  acc alt tp off              │
+│  constellation we saw in March            │              │              │
+│  2023 and October 2020, and on            │  Week 7      │              │
+│  both occasions Bitcoin moved             │              │              │
+│  before equities did.                     │  Live on the │              │
+│                                           │  dashboard → │              │
+│  Continue reading the full issue →        └──────────────┘              │
+│  ─────────────────────────────────────────────────────────              │
+│                                                                         │
+│  Get next week's issue in your inbox  →                                 │
+└─────────────────────────────────────────────────────────────────────────┘</pre>
+        </div>
+      </div>
+      <p class="muted">
+        The page <em>is</em> Tuesday's issue, with the cycle state running as
+        a kicker above the headline (mono, uppercase, brand-orange dot).
+        Desktop sets the article in a two-column rhythm: 60% reading column,
+        a 220-wide "THE CALL" marginal card holding the regime and rail. On
+        mobile the card drops below the paragraphs as a hairline-ruled block.
+      </p>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Section-by-section vs. current</div>
+      <div class="changelist">
+        <div class="k">01 · Wire-service strip</div>
+        <div class="v">Mono strip: <em>ISSUE 47 · TUE 7 MAY 2026 · 1,420 WORDS · BTC ACCUMULATION · WEEK 7</em>. Single hairline rule below. This is the new fold-line.</div>
+        <div class="k">02 · Issue headline</div>
+        <div class="v"><em>New.</em> The week's actual headline, set in display Fraunces (clamp 40–64px), with byline + lede underneath. Demotes "BTC Accumulation" from page-headline to kicker.</div>
+        <div class="k">03 · Opening paragraphs</div>
+        <div class="v"><em>New.</em> Three to four paragraphs of the actual newsletter, served as the homepage's first viewport. "Continue reading →" links to the full /issue/{n}/ page.</div>
+        <div class="k">04 · Margin call-out</div>
+        <div class="v"><em>New.</em> Desktop right margin holds a 220px-wide "THE CALL" card — regime, rail, week count, dashboard link. Marginal note in a literal sense. Drops below the prose on mobile.</div>
+        <div class="k">05 · Four-state explainer</div>
+        <div class="v">Keep, but moved further down — it's no longer above the fold. Acts as the page's didactic section for first-time visitors.</div>
+        <div class="k">06 · Sample-issue card</div>
+        <div class="v"><em>Cut.</em> The homepage <em>is</em> the sample. Replace with a 3-row "Recent issues" list (mono date · regime · italic headline). Three rows max.</div>
+        <div class="k">07 · CTA strip</div>
+        <div class="v">Keep, but kicker becomes: <em>"Get the next one before you have to come looking for it."</em></div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Visual moves that make it less sparse</div>
+      <div class="moves">
+        <div class="move">
+          <div class="name">Real writing above the fold</div>
+          <div class="desc">Three to four paragraphs of editorial type fill the first viewport with substance. There's no "feels basic" question when 200 words of actual research are sitting in front of the reader.</div>
+        </div>
+        <div class="move">
+          <div class="name">Margin call-out</div>
+          <div class="desc">A literal margin note holding the regime, set apart from the prose by a thin rule and a different typographic vocabulary (mono). Visual interest <em>and</em> the cycle state, in one move.</div>
+        </div>
+        <div class="move">
+          <div class="name">Word count in the topline</div>
+          <div class="desc">"1,420 WORDS" sets reader expectation immediately and signals that this is a long-form research letter, not a snack. Costs four characters, communicates the product's nature.</div>
+        </div>
+        <div class="move">
+          <div class="name">Demoted hero word</div>
+          <div class="desc">"BTC Accumulation" moves from the page's centre to a kicker. Counterintuitively this makes it <em>more</em> credible — it's positioned as editorial fact, not as headline marketing.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Trade-offs vs. current (v4)</div>
+      <div class="tradeoffs">
+        <div class="tradeoff plus">
+          <h4>Better</h4>
+          <ul>
+            <li>The strongest possible proof that the product is good: show the product.</li>
+            <li>Lowest build cost — almost no new components, just an article layout.</li>
+            <li>SEO upside: real content on the homepage, weekly refresh.</li>
+            <li>The "why this isn't generic crypto Twitter" question answers itself in three paragraphs.</li>
+          </ul>
+        </div>
+        <div class="tradeoff minus">
+          <h4>Worse</h4>
+          <ul>
+            <li>If a given week's lede is weak, the homepage is weak that week.</li>
+            <li>Writing burden: the first 200 words of every issue now have to be homepage-worthy.</li>
+            <li>Risks duplicating the /issue/47/ permalink — duplicate-content SEO friction.</li>
+            <li>Demoting the cycle state weakens the "what does the indicator mean?" answer.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="risk-row">
+      <div>
+        <div class="k">Marketing-page risk</div>
+        <div class="v"><span class="score">Medium</span>Lowest risk of marketing <em>language</em> but highest risk of marketing <em>theatre</em> — "showing the product" is itself a marketing move. Mitigation: never tweak the opening for the homepage. Whatever Tuesday's lede is, that's what readers see.</div>
+      </div>
+      <div>
+        <div class="k">Effort</div>
+        <div class="v"><span class="score">Low · ~1 day</span>Re-uses existing article styles. Mostly a templating change: pipe the latest issue's first 200 words into the homepage template at publish time.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Direction C ─── -->
+  <section class="direction" id="dC">
+    <div class="direction-head">
+      <div class="direction-letter">C</div>
+      <div>
+        <h2 class="direction-name">The Ledger</h2>
+        <p class="direction-thesis">
+          The homepage <em>is</em> a running ledger of every regime call ever
+          made, with the current one rendered as the topmost entry in
+          editorial type. Past calls listed beneath in mono — date, regime,
+          duration. The single move I haven't seen on a research site: making
+          the indicator's <strong>history</strong> visible as the page itself.
+        </p>
+        <div class="direction-tags">
+          <span class="tag invention">Single invention</span>
+          <span class="tag">Track-record-as-form</span>
+          <span class="tag effort-medium">Effort: medium</span>
+          <span class="tag risk-low">Marketing-risk: low</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Above the fold</div>
+      <div class="wire-grid">
+        <div class="wire-cell">
+          <div class="wire-caption"><strong>Mobile</strong> · 390px</div>
+<pre class="wire">┌────────────────────────────────┐
+│ MacroPulse              ☰      │
+├────────────────────────────────┤
+│ THE LEDGER                     │
+│ ──────────────────────────     │
+│ Maintained since Nov 2024.     │
+│                                │
+│ ┃ NOW · WEEK 7                 │
+│ ┃                              │
+│ ┃ BTC                          │
+│ ┃ Accumulation.                │
+│ ┃                              │
+│ ┃ ●────○────○────○             │
+│ ┃ acc  alt  tp   off           │
+│ ┃                              │
+│ ┃ Began Tue 25 Mar 2026.       │
+│ ┃ Next read: Tue 13 May.       │
+│                                │
+│ ─ PRIOR STATES ──────────────  │
+│                                │
+│ W24  18 Mar  RISK OFF      3w  │
+│ W23  24 Feb  TAKE PROFIT   3w  │
+│ W22   3 Feb  ALT ROTATION  3w  │
+│ W21  13 Jan  BTC ACCUM.    3w  │
+│ W20  23 Dec  RISK OFF      3w  │
+│ W19   2 Dec  ALT ROTATION  3w  │
+│  …                             │
+│ Read the full ledger →         │
+│                                │
+│ ┌──────────────────────────┐   │
+│ │ Get next week's issue →  │   │
+│ └──────────────────────────┘   │
+└────────────────────────────────┘</pre>
+        </div>
+        <div class="wire-cell">
+          <div class="wire-caption"><strong>Desktop</strong> · 1180px</div>
+<pre class="wire desk">┌─────────────────────────────────────────────────────────────────────────┐
+│ MacroPulse                              Newsletter   Methodology   Dash │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                         │
+│ THE LEDGER · MAINTAINED SINCE TUE 5 NOV 2024 · 25 CALLS · 0 REVISIONS   │
+│ ──────────────────────────────────────────────────────────────────────  │
+│                                                                         │
+│ ┌──────────────────────────────┬─────────────────────────────────────┐  │
+│ │                              │                                     │  │
+│ │   NOW · WEEK 7               │   THE READING                       │  │
+│ │   ─────────────              │   ─────────────                     │  │
+│ │                              │                                     │  │
+│ │   BTC                        │   Five indicators. Four states.     │  │
+│ │   Accumulation.              │   One call, every Tuesday.          │  │
+│ │                              │                                     │  │
+│ │   ●─────○─────○─────○        │   This week's call has held since   │  │
+│ │   acc   alt   tp    off      │   Tuesday 25 March, when DXY broke  │  │
+│ │                              │   100 and the curve began           │  │
+│ │   Began Tue 25 Mar 2026.     │   steepening.                       │  │
+│ │   Next read: Tue 13 May.     │                                     │  │
+│ │                              │   Get the next issue   →            │  │
+│ │                              │   Live on the dashboard →           │  │
+│ └──────────────────────────────┴─────────────────────────────────────┘  │
+│                                                                         │
+│ ─ PRIOR STATES ───────────────────────────────────────────────────────  │
+│                                                                         │
+│ WEEK 24    18 Mar 2026    RISK OFF             held 3 weeks      ──►    │
+│ WEEK 23    24 Feb 2026    TAKE PROFIT          held 3 weeks      ──►    │
+│ WEEK 22     3 Feb 2026    ALT ROTATION         held 3 weeks      ──►    │
+│ WEEK 21    13 Jan 2026    BTC ACCUMULATION     held 3 weeks      ──►    │
+│ WEEK 20    23 Dec 2025    RISK OFF             held 3 weeks      ──►    │
+│ WEEK 19     2 Dec 2025    ALT ROTATION         held 3 weeks      ──►    │
+│  …                                                                      │
+│ Read the full ledger →                                                  │
+└─────────────────────────────────────────────────────────────────────────┘</pre>
+        </div>
+      </div>
+      <p class="muted">
+        Above the fold: a two-column block where the current call lives in
+        editorial Fraunces on the left and the methodology framing lives in
+        editorial Fraunces on the right. Below: a mono-set table of every
+        prior state, dated, with hold-duration. Each row links to that issue.
+        The page makes one claim — <em>here's the public record</em> — and
+        spends its whole real estate proving it.
+      </p>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Section-by-section vs. current</div>
+      <div class="changelist">
+        <div class="k">01 · Ledger topline</div>
+        <div class="v"><em>The single invention.</em> A mono strip stating the ledger's bona fides: <em>"MAINTAINED SINCE TUE 5 NOV 2024 · 25 CALLS · 0 REVISIONS"</em>. "0 REVISIONS" is the strongest factual claim on the site — that calls don't get edited after publication.</div>
+        <div class="k">02 · "NOW" block</div>
+        <div class="v">Left column. Hairline left-border treatment (the <em>┃</em> in the wire). The cycle word in display Fraunces. Below: start date and next-read date as two mono lines. The block reads as "the current entry in the ledger," not "the hero."</div>
+        <div class="k">03 · "THE READING" block</div>
+        <div class="v">Right column. Italic Fraunces voice paragraph naming the methodology in two sentences. Single primary CTA + dashboard ghost link below. Replaces v4's standalone voice paragraph.</div>
+        <div class="k">04 · Prior states table</div>
+        <div class="v"><em>New.</em> Below the fold. 6–8 rows visible, dateline + state + duration + a row-end ►. Each row links to <code>/issue/{n}/</code>. Hairline rules between rows. Mono throughout. The page's largest single block.</div>
+        <div class="k">05 · "Read the full ledger →"</div>
+        <div class="v"><em>New page.</em> Routes to <code>/ledger/</code> — the full history table, every call since Nov 2024, charting state changes against price. Site addition; this homepage just teases it.</div>
+        <div class="k">06 · Four-state explainer</div>
+        <div class="v">Keep, but reposition <em>after</em> the ledger table. By the time a reader reaches it they've already seen the framework demonstrated 24 times.</div>
+        <div class="k">07 · Sample issue / CTA</div>
+        <div class="v">Cut sample-issue card (the ledger does its job). Keep CTA strip with new kicker: <em>"The next entry in the ledger arrives Tuesday."</em></div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Visual moves that make it less sparse</div>
+      <div class="moves">
+        <div class="move">
+          <div class="name">The ledger itself</div>
+          <div class="desc">Twenty-four mono rows on the homepage is a lot of substance — and every row is a verifiable fact (a state, a date, a duration). This is the densest possible homepage that's still calm, because the typography is consistent and the structure is a list.</div>
+        </div>
+        <div class="move">
+          <div class="name">"0 REVISIONS" in the topline</div>
+          <div class="desc">A single token in the masthead strip that no competitor can claim, that proves itself ("if we revised, that token would say something else"), and that says everything about the brand's posture. The whole positioning argument compressed into eight characters.</div>
+        </div>
+        <div class="move">
+          <div class="name">"Week 7" + "Began Tue 25 Mar."</div>
+          <div class="desc">Two mono lines that give the current call a temporal anchor. The page never says "act now" — it says "this has been true since March." Time becomes the argument.</div>
+        </div>
+        <div class="move">
+          <div class="name">Hairline-rule left border on the "NOW" block</div>
+          <div class="desc">A 2px orange-gradient rule running the full height of the current entry. Marks it as "the live row" without using a glow, badge, or pulse. Borrows from print typography (the "drop bar" used to mark editorial pull-quotes).</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Trade-offs vs. current (v4)</div>
+      <div class="tradeoffs">
+        <div class="tradeoff plus">
+          <h4>Better</h4>
+          <ul>
+            <li>Highest brand differentiation of the three. Nobody else does this.</li>
+            <li>Solves "feels basic" by replacing whitespace with public record.</li>
+            <li>Implicit credibility — the ledger proves track record without making any claim.</li>
+            <li>Routes naturally to a new <code>/ledger/</code> page that becomes a long-term SEO and PR asset.</li>
+            <li>Reframes the entire product: not "a newsletter" but "a public discipline."</li>
+          </ul>
+        </div>
+        <div class="tradeoff minus">
+          <h4>Worse</h4>
+          <ul>
+            <li>Requires you to actually maintain the ledger. The first revised call destroys the value of the token.</li>
+            <li>Demands a "what happens at issue 0" answer — if the site is &lt;6 months old, the ledger is too short to impress.</li>
+            <li>If the current state has held a long time (12+ weeks), the homepage starts to feel static.</li>
+            <li>Newcomers may not understand the ledger until they read the methodology — small first-touch friction.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="risk-row">
+      <div>
+        <div class="k">Marketing-page risk</div>
+        <div class="v"><span class="score">Low</span>The page is a list of dates. Marketing language can't survive in a list of dates.</div>
+      </div>
+      <div>
+        <div class="k">Effort</div>
+        <div class="v"><span class="score">Medium · ~2 days</span>Two-column hero is easy. The lift is (a) building the source-of-truth ledger data file, (b) the new <code>/ledger/</code> page, (c) the per-issue routing so every row clicks through to its issue.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       PART 2 — Five copy sets
+       ═══════════════════════════════════════════ -->
+  <section class="parts-rule">
+    <div class="parts-num">II</div>
+    <div>
+      <h2>Five copy sets — <em>a coastline</em>.</h2>
+      <p class="parts-sub">Five complete hero blocks, plotted across the voice space. Each set is layout-independent — drop any of them into any of the three directions above. The current v4 voice sits roughly at Set 01; the rest map the territory around it.</p>
+    </div>
+  </section>
+
+  <!-- Set 01 -->
+  <article class="copyset" id="c1">
+    <header class="copyset-head">
+      <div class="copyset-num">01</div>
+      <div class="num-meta">
+        <h3 class="copyset-tone">Quietly confident</h3>
+        <p class="copyset-rationale"><strong>For:</strong> the reader who is already in the door · the v4 voice, refined</p>
+      </div>
+    </header>
+    <div class="copyset-body">
+      <div class="copyrow">
+        <div class="k">Eyebrow<span class="chars">mono · 32 chars</span></div>
+        <div class="v eyebrow">RESEARCH NOTE · WEEKLY · ISSUE 47</div>
+      </div>
+      <div class="copyrow">
+        <div class="k">Headline<span class="chars">Fraunces · 8 words</span></div>
+        <p class="v headline">Five indicators. <em>Four states.</em> One read per week.</p>
+      </div>
+      <div class="copyrow">
+        <div class="k">Lede<span class="chars">italic · 22 words</span></div>
+        <p class="v lede">A weekly macro letter for people who allocate capital — not for people who count likes.</p>
+      </div>
+      <div class="copyrow">
+        <div class="k">Voice ¶<span class="chars">italic · 48 words</span></div>
+        <p class="v voice">I write MacroPulse on Sunday and send it on Tuesday. One regime call, the reasoning behind it, and the five indicators it rests on. The same five every week, so you can argue with me when you disagree.</p>
+      </div>
+      <div class="copyrow">
+        <div class="k">Primary CTA<span class="chars">3 words</span></div>
+        <a class="v cta" href="#">Start with the newsletter →</a>
+      </div>
+    </div>
+  </article>
+
+  <!-- Set 02 -->
+  <article class="copyset" id="c2">
+    <header class="copyset-head">
+      <div class="copyset-num">02</div>
+      <div class="num-meta">
+        <h3 class="copyset-tone">Cycle-first, declarative</h3>
+        <p class="copyset-rationale"><strong>For:</strong> the visitor who arrived via a search for "BTC cycle" · the call is the pitch</p>
+      </div>
+    </header>
+    <div class="copyset-body">
+      <div class="copyrow">
+        <div class="k">Eyebrow<span class="chars">mono · 28 chars</span></div>
+        <div class="v eyebrow">TUE 7 MAY 2026 · WEEK 7 · LIVE</div>
+      </div>
+      <div class="copyrow">
+        <div class="k">Headline<span class="chars">Fraunces · 6 words</span></div>
+        <p class="v headline">The read is <em>BTC Accumulation</em>.</p>
+      </div>
+      <div class="copyrow">
+        <div class="k">Lede<span class="chars">italic · 22 words</span></div>
+        <p class="v lede">It has been for forty-seven days. The lens is public; the back-tape is on this site.</p>
+      </div>
+      <div class="copyrow">
+        <div class="k">Voice ¶<span class="chars">italic · 46 words</span></div>
+        <p class="v voice">I publish one call per week and date it. When the cycle shifts I say so on the dashboard the same morning. The methodology is written down, and every prior call is on the ledger — including the wrong ones.</p>
+      </div>
+      <div class="copyrow">
+        <div class="k">Primary CTA<span class="chars">3 words</span></div>
+        <a class="v cta" href="#">See this week's case →</a>
+      </div>
+    </div>
+  </article>
+
+  <!-- Set 03 -->
+  <article class="copyset" id="c3">
+    <header class="copyset-head">
+      <div class="copyset-num">03</div>
+      <div class="num-meta">
+        <h3 class="copyset-tone">Honest about uncertainty</h3>
+        <p class="copyset-rationale"><strong>For:</strong> the sceptic · disarms the "another crypto guy" frame in the first sentence</p>
+      </div>
+    </header>
+    <div class="copyset-body">
+      <div class="copyrow">
+        <div class="k">Eyebrow<span class="chars">mono · 23 chars</span></div>
+        <div class="v eyebrow">A WEEKLY MACRO LETTER</div>
+      </div>
+      <div class="copyrow">
+        <div class="k">Headline<span class="chars">Fraunces · 6 words</span></div>
+        <p class="v headline">A regime call, <em>dated</em> and signed.</p>
+      </div>
+      <div class="copyrow">
+        <div class="k">Lede<span class="chars">italic · 25 words</span></div>
+        <p class="v lede">I will be wrong sometimes. The point is that you'll know when, and how, and against which indicator.</p>
+      </div>
+      <div class="copyrow">
+        <div class="k">Voice ¶<span class="chars">italic · 47 words</span></div>
+        <p class="v voice">MacroPulse is one person's read on the macro cycle, written down every Tuesday. I keep a public ledger of past calls so you can audit me. Most of what's wrong with crypto commentary is that nobody does.</p>
+      </div>
+      <div class="copyrow">
+        <div class="k">Primary CTA<span class="chars">4 words</span></div>
+        <a class="v cta" href="#">Read this week's call →</a>
+      </div>
+    </div>
+  </article>
+
+  <!-- Set 04 -->
+  <article class="copyset" id="c4">
+    <header class="copyset-head">
+      <div class="copyset-num">04</div>
+      <div class="num-meta">
+        <h3 class="copyset-tone">Allocator-direct, operator</h3>
+        <p class="copyset-rationale"><strong>For:</strong> PMs, FOs, treasurers — brisk, no atmospherics, all spec</p>
+      </div>
+    </header>
+    <div class="copyset-body">
+      <div class="copyrow">
+        <div class="k">Eyebrow<span class="chars">mono · 23 chars</span></div>
+        <div class="v eyebrow">FOR ALLOCATORS · UK/US</div>
+      </div>
+      <div class="copyrow">
+        <div class="k">Headline<span class="chars">Fraunces · 6 words</span></div>
+        <p class="v headline">One page. <em>One regime.</em> Every Tuesday.</p>
+      </div>
+      <div class="copyrow">
+        <div class="k">Lede<span class="chars">italic · 21 words</span></div>
+        <p class="v lede">For PMs, family-office principals, and treasurers who already read enough. We do the synthesis; you do the allocation.</p>
+      </div>
+      <div class="copyrow">
+        <div class="k">Voice ¶<span class="chars">italic · 45 words</span></div>
+        <p class="v voice">MacroPulse compresses five macro indicators into a single weekly regime — accumulation, rotation, profit-take, or risk off. The full case fits on one page; the dashboard backs it with live readings. Position sizing is yours.</p>
+      </div>
+      <div class="copyrow">
+        <div class="k">Primary CTA<span class="chars">1 word</span></div>
+        <a class="v cta" href="#">Subscribe →</a>
+      </div>
+    </div>
+  </article>
+
+  <!-- Set 05 -->
+  <article class="copyset" id="c5">
+    <header class="copyset-head">
+      <div class="copyset-num">05</div>
+      <div class="num-meta">
+        <h3 class="copyset-tone">Editorial, literary</h3>
+        <p class="copyset-rationale"><strong>For:</strong> the reader who came from the FT, not from Crypto Twitter · the longest reach from the current voice</p>
+      </div>
+    </header>
+    <div class="copyset-body">
+      <div class="copyrow">
+        <div class="k">Eyebrow<span class="chars">mono · 27 chars</span></div>
+        <div class="v eyebrow">A WEEKLY LETTER ON THE CYCLE</div>
+      </div>
+      <div class="copyrow">
+        <div class="k">Headline<span class="chars">Fraunces · 10 words</span></div>
+        <p class="v headline">The dollar gives a <em>tell</em>, sometimes. We listen for it.</p>
+      </div>
+      <div class="copyrow">
+        <div class="k">Lede<span class="chars">italic · 21 words</span></div>
+        <p class="v lede">MacroPulse is a small research letter about a large quiet thing: the rhythm of risk across a cycle.</p>
+      </div>
+      <div class="copyrow">
+        <div class="k">Voice ¶<span class="chars">italic · 47 words</span></div>
+        <p class="v voice">Most weeks I write about a single number and the company it keeps. Some weeks the number is the dollar, some weeks it's manufacturing, some weeks it's the price of staying in cash. Every Tuesday, dated, signed.</p>
+      </div>
+      <div class="copyrow">
+        <div class="k">Primary CTA<span class="chars">3 words</span></div>
+        <a class="v cta" href="#">Read on Tuesday →</a>
+      </div>
+    </div>
+  </article>
+
+  <!-- ═══════════════════════════════════════════
+       Recommendation
+       ═══════════════════════════════════════════ -->
+  <section class="recco" id="recco">
+    <div class="recco-eyebrow">Recommendation</div>
+    <h2>Ship <em>Direction C (The Ledger)</em>, paired with <em>Copy Set 03 (Honest about uncertainty)</em>.</h2>
+    <p>
+      The "feels basic" problem in v4 isn't a layout problem; it's a
+      <em>claim</em> problem. The page makes one assertion (here is the
+      current regime) and asks you to trust it. The Ledger replaces that
+      assertion with a record — every regime call ever made, dated, with
+      hold-durations, in mono. The page becomes evidence of itself. That
+      reframes the entire site from "a newsletter with a dashboard" to "a
+      public discipline that publishes weekly" — which is the right
+      positioning, and the one no competitor can copy without doing the work.
+    </p>
+    <p>
+      Pair it with <em>Set 03</em> because the ledger and the
+      "honest-about-uncertainty" voice reinforce each other: the page invites
+      you to audit the writer, and the voice paragraph names that fact
+      directly. "I will be wrong sometimes. You'll know when, and how, and
+      against which indicator." A reader who hears that and then sees 24
+      dated past calls below is being handed the strongest possible case
+      for trust — built entirely from disclosure, not from claims.
+    </p>
+    <p>
+      <strong>Direction A (The Evidence Margin)</strong> is the right fallback
+      if the ledger isn't yet long enough to impress — wait until it has
+      18+ entries. A and C share architecture: same masthead strip pattern,
+      same two-column hero. Building A first costs nothing toward C later.
+    </p>
+    <p>
+      <strong>Direction B (The Issue, Front Page)</strong> is the right answer
+      if you decide MacroPulse should compete on writing quality rather than
+      on framework. Revisit once you have either (a) a writer you'd rather
+      showcase than the indicator, or (b) evidence that issue ledes
+      out-convert the cycle word. Until then, the framework is the visible IP.
+    </p>
+    <div class="recco-foot">
+      <div><strong>Ship:</strong> Direction C + Set 03</div>
+      <div><strong>Effort:</strong> Medium · ~2 days build, plus <code>/ledger/</code> page</div>
+      <div><strong>Pre-req:</strong> 18+ past entries OR ship A first</div>
+      <div><strong>Marketing-risk:</strong> Low</div>
+    </div>
+  </section>
+
+  <footer class="doc-foot">
+    <div>MacroPulse · Homepage v5</div>
+    <div>3 directions · 5 copy sets · 1 recommendation</div>
+  </footer>
+
+</main>
+</body>
+</html>

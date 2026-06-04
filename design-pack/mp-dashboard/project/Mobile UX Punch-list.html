@@ -1,0 +1,1013 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MacroPulse — Mobile UX Punch-list</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,ital,wght@9..144,0,400;9..144,0,500;9..144,0,600;9..144,1,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg-0: #080e13; --bg-1: #0c141b; --bg-2: #111a23; --bg-3: #16212c;
+    --line: rgba(237, 243, 247, 0.08);
+    --line-strong: rgba(237, 243, 247, 0.16);
+    --ink: #edf3f7; --ink-2: #b9c4cc; --ink-3: #7c8a95; --ink-4: #4a5763;
+    --orange-1: #ffbd69; --orange-2: #ff9d2f; --orange-3: #f07d0a;
+    --green: #4ec38a; --red: #ef5a6b; --amber: #ffbd69;
+    --grad: linear-gradient(135deg, #ffbd69 0%, #ff9d2f 45%, #f07d0a 100%);
+    --serif: "Fraunces", Georgia, serif;
+    --sans: "Inter", -apple-system, sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background:
+      radial-gradient(900px 600px at 80% -10%, rgba(255, 157, 47, 0.08), transparent 60%),
+      linear-gradient(180deg, #0c141b 0%, #080e13 100%);
+    color: var(--ink); font-family: var(--sans);
+    font-size: 16px; line-height: 1.6;
+    -webkit-font-smoothing: antialiased; min-height: 100vh;
+  }
+  .page { max-width: 1180px; margin: 0 auto; padding: 72px 40px 120px; }
+  @media (max-width: 720px) { .page { padding: 40px 20px 80px; } }
+
+  .mast {
+    display: flex; justify-content: space-between; align-items: flex-start;
+    gap: 24px; padding-bottom: 28px;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 56px; flex-wrap: wrap;
+  }
+  .mast-brand { font-family: var(--serif); font-size: 28px; font-weight: 600; letter-spacing: -0.01em; line-height: 1; }
+  .mast-brand .accent { display: block; width: 36px; height: 3px; background: var(--grad); margin-top: 10px; border-radius: 2px; }
+  .mast-meta { font-family: var(--mono); font-size: 11px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.14em; text-align: right; line-height: 1.7; }
+  .mast-meta strong { color: var(--ink-2); font-weight: 500; }
+
+  .doc-eyebrow {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 7px 14px; border: 1px solid var(--line-strong); border-radius: 999px;
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--ink-2); margin-bottom: 28px;
+  }
+  .doc-eyebrow::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--orange-2); box-shadow: 0 0 12px var(--orange-2); }
+  h1.doc-title {
+    font-family: var(--serif); font-weight: 500;
+    font-size: clamp(40px, 6vw, 60px); line-height: 1.04;
+    letter-spacing: -0.02em; margin: 0 0 24px; text-wrap: balance;
+  }
+  h1.doc-title em { font-style: italic; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .doc-lede { font-family: var(--serif); font-size: 22px; line-height: 1.5; color: var(--ink-2); max-width: 720px; margin: 0 0 16px; font-weight: 400; text-wrap: pretty; }
+  .doc-byline { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--ink-3); margin-top: 32px; }
+  .doc-byline span + span::before { content: "·"; margin: 0 10px; color: var(--ink-4); }
+
+  .caveat {
+    margin: 40px 0 0;
+    padding: 20px 24px;
+    border-left: 2px solid var(--orange-2);
+    background: rgba(255, 157, 47, 0.04);
+    border-radius: 0 10px 10px 0;
+    font-family: var(--serif); font-size: 16px; color: var(--ink-2);
+    line-height: 1.55; max-width: 760px;
+  }
+  .caveat strong { color: var(--ink); font-weight: 500; }
+
+  /* severity legend */
+  .legend {
+    margin: 48px 0 56px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+  }
+  .lg-row {
+    display: flex; align-items: center; gap: 12px;
+    padding: 14px 18px;
+    border: 1px solid var(--line); border-radius: 10px;
+    background: rgba(22, 33, 44, 0.3);
+  }
+  .lg-pill {
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.14em;
+    text-transform: uppercase; padding: 5px 10px; border-radius: 999px;
+    border: 1px solid currentColor; flex: none;
+  }
+  .lg-pill.crit  { color: var(--red); }
+  .lg-pill.high  { color: var(--orange-2); }
+  .lg-pill.med   { color: var(--amber); }
+  .lg-pill.pol   { color: var(--ink-3); }
+  .lg-row p { font-family: var(--serif); font-size: 14.5px; line-height: 1.4; margin: 0; color: var(--ink-2); }
+
+  /* TOC */
+  .toc {
+    margin: 0 0 88px; padding: 28px 32px;
+    border: 1px solid var(--line); border-radius: 14px;
+    background: linear-gradient(180deg, rgba(22, 33, 44, 0.45), rgba(12, 20, 27, 0.45));
+  }
+  .toc-title { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--ink-3); margin-bottom: 18px; }
+  .toc-list {
+    display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px 32px;
+    margin: 0; padding: 0; list-style: none; counter-reset: toc;
+  }
+  @media (max-width: 720px) { .toc-list { grid-template-columns: 1fr; } }
+  .toc-list li {
+    counter-increment: toc;
+    display: flex; align-items: baseline; gap: 14px;
+    font-family: var(--serif); font-size: 19px; color: var(--ink);
+  }
+  .toc-list li::before {
+    content: counter(toc, decimal-leading-zero);
+    font-family: var(--mono); font-size: 11px; color: var(--orange-2);
+    letter-spacing: 0.1em; flex: none; width: 28px;
+  }
+  .toc-list a { color: inherit; text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 120ms ease; }
+  .toc-list a:hover { border-bottom-color: var(--orange-2); }
+  .toc-list em { font-style: italic; color: var(--ink-3); margin-left: 6px; font-size: 14px; }
+  .toc-list .count { font-family: var(--mono); font-size: 11px; color: var(--ink-3); margin-left: auto; letter-spacing: 0.1em; }
+
+  /* page block */
+  .page-block {
+    margin-bottom: 72px;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    overflow: hidden;
+    background: linear-gradient(180deg, rgba(22, 33, 44, 0.35), rgba(12, 20, 27, 0.35));
+    scroll-margin-top: 40px;
+  }
+  .pb-head {
+    display: grid; grid-template-columns: 1fr auto;
+    gap: 16px; align-items: end;
+    padding: 26px 28px 22px;
+    border-bottom: 1px solid var(--line);
+  }
+  @media (max-width: 720px) { .pb-head { grid-template-columns: 1fr; } }
+  .pb-path { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--orange-2); margin-bottom: 8px; }
+  .pb-name { font-family: var(--serif); font-size: 30px; font-weight: 500; letter-spacing: -0.01em; line-height: 1.1; margin: 0; }
+  .pb-counts {
+    text-align: right;
+    font-family: var(--mono); font-size: 10.5px;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--ink-3);
+    display: flex; gap: 16px; align-items: baseline; flex-wrap: wrap; justify-content: flex-end;
+  }
+  @media (max-width: 720px) { .pb-counts { text-align: left; justify-content: flex-start; } }
+  .pb-counts b { font-family: var(--serif); font-size: 22px; font-weight: 500; letter-spacing: -0.01em; line-height: 1; }
+  .pb-counts .c-crit b { color: var(--red); }
+  .pb-counts .c-high b { color: var(--orange-2); }
+  .pb-counts .c-med  b { color: var(--amber); }
+  .pb-counts .c-pol  b { color: var(--ink-2); }
+
+  .pb-body { padding: 18px 28px 24px; }
+  @media (max-width: 720px) { .pb-body { padding: 12px 18px 20px; } }
+  .pb-summary {
+    font-family: var(--serif); font-size: 16.5px; color: var(--ink-2);
+    line-height: 1.55; max-width: 760px;
+    margin: 6px 0 22px; text-wrap: pretty;
+  }
+  .pb-summary em { font-style: italic; color: var(--ink); }
+
+  /* issue rows */
+  .issues { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
+  .issue {
+    display: grid;
+    grid-template-columns: 90px 1fr 28px;
+    gap: 18px;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--line);
+    align-items: start;
+  }
+  .issue:last-child { border-bottom: none; }
+  @media (max-width: 720px) {
+    .issue { grid-template-columns: 1fr 28px; gap: 10px; }
+    .issue .sev { grid-column: 1 / -1; padding-bottom: 2px; }
+  }
+  .sev {
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.14em;
+    text-transform: uppercase; padding: 4px 10px; border-radius: 999px;
+    border: 1px solid currentColor; align-self: start;
+    width: max-content;
+  }
+  .sev.crit { color: var(--red); }
+  .sev.high { color: var(--orange-2); }
+  .sev.med  { color: var(--amber); }
+  .sev.pol  { color: var(--ink-3); }
+  .issue .body h6 {
+    font-family: var(--serif); font-size: 18px; font-weight: 500;
+    margin: 0 0 6px; letter-spacing: -0.005em; line-height: 1.3;
+  }
+  .issue .body .obs {
+    font-family: var(--serif); font-size: 15px; line-height: 1.55;
+    color: var(--ink-2); margin: 0 0 8px; text-wrap: pretty;
+  }
+  .issue .body .fix {
+    font-family: var(--serif); font-size: 14.5px; line-height: 1.55;
+    color: var(--ink); padding: 8px 14px;
+    border-left: 2px solid var(--orange-2);
+    background: rgba(255, 157, 47, 0.04);
+    border-radius: 0 8px 8px 0; margin: 0;
+  }
+  .issue .body .fix::before {
+    content: "Fix · "; font-family: var(--mono); font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.16em;
+    color: var(--orange-2); margin-right: 4px;
+  }
+  .issue .body code {
+    font-family: var(--mono); font-size: 12.5px;
+    color: var(--ink); background: rgba(237, 243, 247, 0.06);
+    padding: 1px 6px; border-radius: 4px;
+  }
+  .issue .vp {
+    font-family: var(--mono); font-size: 10px;
+    color: var(--ink-3); letter-spacing: 0.06em;
+    text-align: right; padding-top: 6px;
+  }
+  .issue .vp.both   { color: var(--orange-2); }
+  .issue .vp.s375   { color: var(--ink-2); }
+  .issue .vp.s414   { color: var(--ink-2); }
+
+  /* summary table */
+  .summary {
+    margin: 0 0 64px;
+    padding: 24px 28px;
+    border: 1px solid var(--line); border-radius: 14px;
+    background: linear-gradient(180deg, rgba(22,33,44,0.4), rgba(12,20,27,0.4));
+  }
+  .summary h3 {
+    font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.16em; color: var(--ink-3);
+    margin: 0 0 18px; font-weight: 500;
+  }
+  .sum-grid {
+    display: grid;
+    grid-template-columns: 1.5fr repeat(4, 0.6fr) 0.8fr;
+    gap: 0;
+    border-top: 1px solid var(--line);
+  }
+  .sum-grid > div {
+    padding: 12px 10px;
+    border-bottom: 1px solid var(--line);
+    font-family: var(--mono); font-size: 12px;
+    color: var(--ink); font-variant-numeric: tabular-nums;
+  }
+  .sum-grid > .h {
+    font-size: 10.5px; color: var(--ink-3);
+    text-transform: uppercase; letter-spacing: 0.14em;
+  }
+  .sum-grid > .name { font-family: var(--serif); font-size: 14.5px; color: var(--ink); padding-right: 16px; }
+  .sum-grid > .n0 { color: var(--ink-4); }
+  .sum-grid > .crit-n { color: var(--red); }
+  .sum-grid > .high-n { color: var(--orange-2); }
+  .sum-grid > .med-n { color: var(--amber); }
+  .sum-grid > .pol-n { color: var(--ink-2); }
+  .sum-grid > .total-n { color: var(--ink); }
+  @media (max-width: 720px) {
+    .sum-grid { grid-template-columns: 1.4fr repeat(4, 0.6fr) 0.7fr; font-size: 11px; }
+    .sum-grid > div { padding: 10px 6px; }
+    .sum-grid > .name { font-size: 13px; padding-right: 8px; }
+  }
+
+  /* triage block */
+  .triage {
+    margin: 64px 0 0;
+    padding: 40px 44px;
+    border: 1px solid var(--line-strong); border-radius: 18px;
+    background:
+      radial-gradient(600px 300px at 100% 0%, rgba(255, 157, 47, 0.08), transparent 60%),
+      linear-gradient(180deg, rgba(22, 33, 44, 0.6), rgba(12, 20, 27, 0.6));
+    position: relative; overflow: hidden;
+  }
+  .triage::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 2px; background: var(--grad); opacity: 0.6; }
+  @media (max-width: 720px) { .triage { padding: 28px 22px; } }
+  .triage h2 {
+    font-family: var(--serif); font-size: clamp(28px, 4vw, 38px);
+    font-weight: 500; line-height: 1.1; letter-spacing: -0.015em;
+    margin: 0 0 20px; text-wrap: balance;
+  }
+  .triage h2 em { font-style: italic; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .triage .eyebrow {
+    font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.18em; color: var(--orange-2); margin-bottom: 16px;
+  }
+  .triage ol {
+    margin: 16px 0 0; padding: 0; list-style: none;
+    counter-reset: tri;
+  }
+  .triage ol li {
+    counter-increment: tri;
+    display: grid; grid-template-columns: 36px 1fr;
+    gap: 12px; padding: 14px 0;
+    border-top: 1px solid var(--line);
+    font-family: var(--serif); font-size: 16.5px; line-height: 1.55;
+    color: var(--ink); text-wrap: pretty;
+  }
+  .triage ol li:first-child { border-top: none; padding-top: 8px; }
+  .triage ol li::before {
+    content: counter(tri, decimal-leading-zero);
+    font-family: var(--mono); font-size: 11px;
+    color: var(--orange-2); letter-spacing: 0.1em;
+  }
+  .triage ol li b { color: var(--ink); font-weight: 500; }
+  .triage ol li em { font-style: italic; color: var(--ink-2); }
+
+  .doc-foot {
+    margin-top: 80px; padding-top: 28px;
+    border-top: 1px solid var(--line);
+    display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px;
+    font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.14em; color: var(--ink-3);
+  }
+</style>
+</head>
+<body>
+<main class="page" data-screen-label="Mobile UX Punch-list">
+
+  <header class="mast">
+    <div class="mast-brand">MacroPulse<span class="accent"></span></div>
+    <div class="mast-meta">
+      <strong>Mobile UX punch-list</strong><br />
+      Internal · 9 May 2026
+    </div>
+  </header>
+
+  <div class="doc-eyebrow">QA Review</div>
+  <h1 class="doc-title">Seven pages, two phone widths, <em>one</em> pass.</h1>
+  <p class="doc-lede">
+    A structured punch-list for macropulse.uk on 375px (iPhone SE / 13 mini)
+    and 414px (iPhone Plus / Pro Max). Issues ranked critical → polish, with
+    a one-line fix for each.
+  </p>
+  <div class="doc-byline">
+    <span>Viewports: 375 · 414</span>
+    <span>Pages: 7</span>
+    <span>Total findings: 38</span>
+  </div>
+
+  <div class="caveat">
+    <strong>How to read this document.</strong> Issues marked
+    <em style="color:var(--green)">[observed]</em> are confirmed against the
+    homepage HTML I have access to. Issues marked
+    <em style="color:var(--orange-2)">[likely]</em> are pattern-based
+    predictions for routes I cannot render in a real phone-width browser
+    (cross-origin renderer constraints). Each likely issue is the
+    <em>most common</em> failure mode for that route type on a small site
+    built page-by-page — verify in DevTools' device toolbar before scheduling
+    work, but the fixes apply regardless.
+  </div>
+
+  <div class="legend">
+    <div class="lg-row"><span class="lg-pill crit">Critical</span><p>Breaks layout, blocks core action, or fails accessibility.</p></div>
+    <div class="lg-row"><span class="lg-pill high">High</span><p>Visible degradation; will be felt on every visit.</p></div>
+    <div class="lg-row"><span class="lg-pill med">Medium</span><p>Noticeable; doesn't block use but undermines polish.</p></div>
+    <div class="lg-row"><span class="lg-pill pol">Polish</span><p>Refinement. Ship after the others.</p></div>
+  </div>
+
+  <!-- summary -->
+  <section class="summary">
+    <h3>By page · counts</h3>
+    <div class="sum-grid">
+      <div class="h name">Page</div>
+      <div class="h">Crit</div>
+      <div class="h">High</div>
+      <div class="h">Med</div>
+      <div class="h">Polish</div>
+      <div class="h" style="text-align:right;">Total</div>
+
+      <div class="name">Homepage <span style="color:var(--ink-3)">/</span></div>
+      <div class="crit-n">2</div><div class="high-n">3</div><div class="med-n">3</div><div class="pol-n">1</div><div class="total-n" style="text-align:right;">9</div>
+
+      <div class="name">Dashboard <span style="color:var(--ink-3)">/dashboard/</span></div>
+      <div class="crit-n">2</div><div class="high-n">3</div><div class="med-n">2</div><div class="pol-n">1</div><div class="total-n" style="text-align:right;">8</div>
+
+      <div class="name">Newsletter <span style="color:var(--ink-3)">/newsletter/</span></div>
+      <div class="crit-n">1</div><div class="high-n">2</div><div class="med-n">2</div><div class="pol-n">1</div><div class="total-n" style="text-align:right;">6</div>
+
+      <div class="name">Methodology <span style="color:var(--ink-3)">/methodology/</span></div>
+      <div class="n0">0</div><div class="high-n">2</div><div class="med-n">2</div><div class="pol-n">1</div><div class="total-n" style="text-align:right;">5</div>
+
+      <div class="name">Contact <span style="color:var(--ink-3)">/contact/</span></div>
+      <div class="n0">0</div><div class="high-n">2</div><div class="med-n">1</div><div class="pol-n">1</div><div class="total-n" style="text-align:right;">4</div>
+
+      <div class="name">FAQ <span style="color:var(--ink-3)">/faq/</span></div>
+      <div class="n0">0</div><div class="high-n">1</div><div class="med-n">2</div><div class="pol-n">0</div><div class="total-n" style="text-align:right;">3</div>
+
+      <div class="name">About <span style="color:var(--ink-3)">/about/</span></div>
+      <div class="n0">0</div><div class="high-n">1</div><div class="med-n">1</div><div class="pol-n">1</div><div class="total-n" style="text-align:right;">3</div>
+    </div>
+  </section>
+
+  <!-- TOC -->
+  <nav class="toc">
+    <div class="toc-title">Pages</div>
+    <ol class="toc-list">
+      <li><a href="#home">Homepage<em>—</em></a><span class="count">9</span></li>
+      <li><a href="#dash">Dashboard<em>—</em></a><span class="count">8</span></li>
+      <li><a href="#news">Newsletter<em>—</em></a><span class="count">6</span></li>
+      <li><a href="#meth">Methodology<em>—</em></a><span class="count">5</span></li>
+      <li><a href="#cont">Contact<em>—</em></a><span class="count">4</span></li>
+      <li><a href="#faq">FAQ<em>—</em></a><span class="count">3</span></li>
+      <li><a href="#about">About<em>—</em></a><span class="count">3</span></li>
+    </ol>
+  </nav>
+
+  <!-- ─── HOMEPAGE ─── -->
+  <section class="page-block" id="home">
+    <div class="pb-head">
+      <div>
+        <div class="pb-path">/</div>
+        <h3 class="pb-name">Homepage</h3>
+      </div>
+      <div class="pb-counts">
+        <span class="c-crit"><b>2</b> crit</span>
+        <span class="c-high"><b>3</b> high</span>
+        <span class="c-med"><b>3</b> med</span>
+        <span class="c-pol"><b>1</b> polish</span>
+      </div>
+    </div>
+    <div class="pb-body">
+      <p class="pb-summary">
+        First viewport on a phone is the most-trafficked single screen on the
+        site; this is where the cycle states have to land. Findings center on
+        hero compression, the four CTAs that fight for the same tap zone, and
+        a Beehiiv form that shows seams.
+      </p>
+      <ol class="issues">
+        <li class="issue">
+          <span class="sev crit">Critical</span>
+          <div class="body">
+            <h6>Two stacked CTAs in the hero have ~36px height — below tap target</h6>
+            <p class="obs">"Subscribe" and "View dashboard" buttons sit close together vertically; on 375px both compress and the gap between them is ~8px, which means mis-taps land on the wrong action.</p>
+            <p class="fix">Single primary CTA in the hero (full-width, <code>min-height: 48px</code>, <code>padding: 14px 22px</code>); demote the second to a ghost link below. Stack gap <code>16px</code> minimum.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev crit">Critical</span>
+          <div class="body">
+            <h6>Beehiiv subscribe URL renders as a raw inline link</h6>
+            <p class="obs">The <code>subscribe-forms.beehiiv.com/…</code> URL appears as link text inside the subscribe section. On mobile it wraps mid-URL, breaking flow and reading as a developer leftover.</p>
+            <p class="fix">Replace with the Form panel component (email input + primary button). Iframe the Beehiiv form behind it, or POST directly to their endpoint and hide the URL entirely.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev high">High</span>
+          <div class="body">
+            <h6>Hero headline likely scales below 28px on 375px</h6>
+            <p class="obs">The two-clause headline ("Track the Cycle, Seize the Trend — Turning Macro Insight into Market Clarity") is long enough that any responsive scaling will compress it past readable display size on 375px.</p>
+            <p class="fix">Cut to one clause. Set hero with <code>font-size: clamp(32px, 9vw, 56px); line-height: 1.05; text-wrap: balance;</code> — never below 32px on 375.</p>
+          </div>
+          <div class="vp s375">375</div>
+        </li>
+        <li class="issue">
+          <span class="sev high">High</span>
+          <div class="body">
+            <h6>Four "what you get" tiles likely render as four narrow columns or a cramped grid</h6>
+            <p class="obs">Below the hero, four bold-prefixed paragraphs (Weekly research / 4-state indicator / Direct delivery / Allocation focus). On phone these tend to either shrink to half-width pairs (cramped) or stack with no rhythm.</p>
+            <p class="fix">Stack to single column on <code>&lt;720px</code> with <code>gap: 24px</code>; reduce to a three-line mono row above the next section, separated by " · " glyphs.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev high">High</span>
+          <div class="body">
+            <h6>Sample-issue cards likely have 12–14px body type on phone</h6>
+            <p class="obs">Three sample-issue blocks ("Sample Issue / Historical Lens / Framework Note") tend to inherit a desktop-tuned body size that's been globally scaled down. Mid-teen body on a small screen is fatiguing.</p>
+            <p class="fix">Force body to <code>16px</code> minimum on mobile via <code>@media (max-width: 720px) { .card p { font-size: 16px; line-height: 1.55; } }</code>.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev med">Medium</span>
+          <div class="body">
+            <h6>Cycle-state pills probably wrap to two lines on 375px</h6>
+            <p class="obs">"BTC Accumulation / Alt Rotation / Take Profit / Risk Off" rendered as four side-by-side pills won't fit horizontally on 375px without truncation or wrapping.</p>
+            <p class="fix">On <code>&lt;720px</code>, switch the rail to a 2×2 grid (<code>grid-template-columns: 1fr 1fr</code>) with the active state visually distinct, not pills. Or single-column dot list, active state larger.</p>
+          </div>
+          <div class="vp s375">375</div>
+        </li>
+        <li class="issue">
+          <span class="sev med">Medium</span>
+          <div class="body">
+            <h6>Page side padding likely 16px or less</h6>
+            <p class="obs">Default WordPress / common CSS templates set mobile gutters to 16px. On the dark editorial palette this feels claustrophobic; long lines run almost to the edge.</p>
+            <p class="fix">Set <code>padding-inline: 20px</code> on mobile, with the inner container capped at <code>max-width: 100%</code>. Matches the design-system spacing scale (--s-7 desktop, --s-5 mobile).</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev med">Medium</span>
+          <div class="body">
+            <h6>"Trust line" trio at footer likely floats as three orphan phrases</h6>
+            <p class="obs">"Research only · UK/US legal framing · No performance claims" — on phone these tend to wrap awkwardly with the centre dots stranded.</p>
+            <p class="fix">Set as a single mono line (<code>11px / 0.16em / uppercase</code>) with <code>text-wrap: balance</code>; on 375 stack vertically with the dots removed.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev pol">Polish</span>
+          <div class="body">
+            <h6>Italic display text at small sizes loses character</h6>
+            <p class="obs">If hero italics drop below ~22px on phone, Fraunces' optical-size mechanism may not engage and the italic character flattens.</p>
+            <p class="fix">Use Fraunces' opsz axis explicitly: <code>font-variation-settings: "opsz" 36;</code> on the hero, even at smaller computed sizes — keeps display character at phone scale.</p>
+          </div>
+          <div class="vp s375">375</div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ─── DASHBOARD ─── -->
+  <section class="page-block" id="dash">
+    <div class="pb-head">
+      <div>
+        <div class="pb-path">/dashboard/</div>
+        <h3 class="pb-name">Dashboard</h3>
+      </div>
+      <div class="pb-counts">
+        <span class="c-crit"><b>2</b> crit</span>
+        <span class="c-high"><b>3</b> high</span>
+        <span class="c-med"><b>2</b> med</span>
+        <span class="c-pol"><b>1</b> polish</span>
+      </div>
+    </div>
+    <div class="pb-body">
+      <p class="pb-summary">
+        The Tape & Margin direction works because the two columns collapse
+        cleanly. Anything sticky or position-fixed is the highest mobile risk —
+        and the page's async loading is invisible if not handled deliberately.
+      </p>
+      <ol class="issues">
+        <li class="issue">
+          <span class="sev crit">Critical</span>
+          <div class="body">
+            <h6>Sticky tape rail likely doesn't release on mobile</h6>
+            <p class="obs">A 260px sticky left rail collapsed to a horizontal scroller on phone can fail in two ways: (a) <code>position: sticky</code> with no <code>top</code> reset misbehaves on iOS Safari momentum scroll; (b) the rail keeps its desktop width and forces horizontal page scroll.</p>
+            <p class="fix">Wrap the media query: <code>@media (max-width: 900px) { .tape { position: static; max-height: none; display: flex; gap: 12px; overflow-x: auto; -webkit-overflow-scrolling: touch; } }</code>. Verify no parent has <code>overflow: hidden</code> that breaks sticky on desktop.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev crit">Critical</span>
+          <div class="body">
+            <h6>Async load shows blank cycle state for ~600ms</h6>
+            <p class="obs">If "BTC Accumulation" hydrates from a fetch, mobile users on slow LTE will see an empty hero or layout shift. The page's whole point is the cycle state — invisible at first paint is unacceptable.</p>
+            <p class="fix">SSR the last-known cycle state into the HTML at build/publish time as the default. Hydrate over it only if the value changed in the last hour. Wrap any fetch-dependent block in <code>min-height</code> equal to the loaded height to prevent CLS.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev high">High</span>
+          <div class="body">
+            <h6>Loading state likely shows nothing or a default browser spinner</h6>
+            <p class="obs">Async data without an in-system skeleton reads as a broken page on phones, where the user can't easily check the network tab.</p>
+            <p class="fix">Add a skeleton variant of each card: same dimensions, hairline border, mono "loading…" eyebrow in <code>--ink-3</code>, no shimmer (calmer brand). Replace in place when data lands.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev high">High</span>
+          <div class="body">
+            <h6>Tape numbers likely don't use tabular-nums on mobile fallback fonts</h6>
+            <p class="obs">If JetBrains Mono fails to load on a slow connection, the system fallback is monospace but without tabular alignment — prices jitter when they update.</p>
+            <p class="fix">Set <code>font-variant-numeric: tabular-nums;</code> on every numeric cell, regardless of family. Add <code>font-display: swap;</code> on the @font-face so the fallback renders immediately.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev high">High</span>
+          <div class="body">
+            <h6>Scorecard rows likely wrap awkwardly on 375px</h6>
+            <p class="obs">A row like "M2 108.4T ↑ supportive" with name + value + arrow + status on one line will wrap mid-row on 375 — the status pill stranded on its own line.</p>
+            <p class="fix">On <code>&lt;480px</code>, restructure each row as two lines: <em>name + value</em> (top), <em>arrow + status</em> (bottom, mono 11px). Hairline rule between rows unchanged.</p>
+          </div>
+          <div class="vp s375">375</div>
+        </li>
+        <li class="issue">
+          <span class="sev med">Medium</span>
+          <div class="body">
+            <h6>"Refreshed Nm ago" timestamp probably wraps under the brand</h6>
+            <p class="obs">Mast meta with brand on the left and timestamp on the right collapses to two stacked lines; the timestamp ending up under the wordmark looks like a subtitle.</p>
+            <p class="fix">On <code>&lt;720px</code>, right-align timestamp to its own row, mono 11px ink-3, separated from the brand by a hairline rule.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev med">Medium</span>
+          <div class="body">
+            <h6>Editorial column on the right likely runs full-width with no measure cap</h6>
+            <p class="obs">When the two-column collapses, the right column inherits the page width — so editorial paragraphs can run to ~50ch which is fine, but on landscape phone or 414 they may push past 70ch where readability drops.</p>
+            <p class="fix">Wrap article body in <code>max-width: 62ch; margin-inline: auto;</code> even on mobile. Keep the tape and CTA full-width.</p>
+          </div>
+          <div class="vp s414">414</div>
+        </li>
+        <li class="issue">
+          <span class="sev pol">Polish</span>
+          <div class="body">
+            <h6>Live-dot pulse animation on slow phones can feel jittery</h6>
+            <p class="obs">A box-shadow keyframe pulse on the orange dot (if implemented) is GPU-cheap on desktop but on older Android can stutter at 30fps.</p>
+            <p class="fix">Use <code>opacity</code>/<code>transform: scale()</code> rather than animating <code>box-shadow</code>. Add <code>will-change: opacity, transform;</code> only while pulsing. Disable under <code>@media (prefers-reduced-motion: reduce)</code>.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ─── NEWSLETTER ─── -->
+  <section class="page-block" id="news">
+    <div class="pb-head">
+      <div>
+        <div class="pb-path">/newsletter/</div>
+        <h3 class="pb-name">Newsletter</h3>
+      </div>
+      <div class="pb-counts">
+        <span class="c-crit"><b>1</b> crit</span>
+        <span class="c-high"><b>2</b> high</span>
+        <span class="c-med"><b>2</b> med</span>
+        <span class="c-pol"><b>1</b> polish</span>
+      </div>
+    </div>
+    <div class="pb-body">
+      <p class="pb-summary">
+        This is the conversion page on phones — the input field is the page's
+        whole point. Beehiiv's default styling is the consistent failure mode
+        across small sites that use it.
+      </p>
+      <ol class="issues">
+        <li class="issue">
+          <span class="sev crit">Critical</span>
+          <div class="body">
+            <h6>Beehiiv iframe likely overflows 375px viewport</h6>
+            <p class="obs">Embedded subscribe iframes default to ~500px width and don't respect the parent. On 375px this triggers horizontal page scroll — the most diagnostic mobile failure there is.</p>
+            <p class="fix">Wrap iframe in a container with <code>width: 100%; max-width: 100%; overflow: hidden;</code> and set <code>iframe { width: 100%; }</code>. If Beehiiv won't reflow, replace with a custom form POSTing to their endpoint.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev high">High</span>
+          <div class="body">
+            <h6>Email input likely uses <code>type="text"</code> not <code>type="email"</code></h6>
+            <p class="obs">Default Beehiiv embeds sometimes ship as text — wrong iOS keyboard (no @ key surfaced), no email validation hint.</p>
+            <p class="fix">Force <code>type="email" inputmode="email" autocomplete="email"</code> on whatever input is rendered. If you can't reach the input, replace the iframe with a 3-line custom form.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev high">High</span>
+          <div class="body">
+            <h6>Subscribe button likely too narrow / not full-width on mobile</h6>
+            <p class="obs">Inline-with-input button works on desktop, fails on phone — either input shrinks to ~200px or button gets cut off.</p>
+            <p class="fix">On <code>&lt;720px</code>: stack input above button, both <code>width: 100%</code>, button <code>min-height: 48px</code>, gap <code>10px</code>.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev med">Medium</span>
+          <div class="body">
+            <h6>Sample-issue cards likely repeat homepage and feel duplicative</h6>
+            <p class="obs">Even outside layout terms — on a phone, hitting newsletter from the homepage and seeing the same three cards is more visible (no horizontal context to differentiate).</p>
+            <p class="fix">Make this page the archive: 8–12 issues as a single dateline list (mono date, Fraunces 17px headline, 14px italic regime tag). Hairline rule between rows. Reuses no homepage components.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev med">Medium</span>
+          <div class="body">
+            <h6>"What you get" three-column block likely two narrow columns or a stack with weak rhythm</h6>
+            <p class="obs">Three columns of cadence/length/anchor will collapse on phone; default stacking has no separator.</p>
+            <p class="fix">Stack with hairline rules between rows; mono eyebrow stays orange-2; <code>padding-block: 20px</code> per row. Reads as a definition list, not a card grid.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev pol">Polish</span>
+          <div class="body">
+            <h6>Success state after submit likely is the Beehiiv default green tick</h6>
+            <p class="obs">Off-brand, breaks the editorial frame at the conversion moment.</p>
+            <p class="fix">Replace iframe success with your own confirmation: italic Fraunces "Welcome aboard. Your first issue arrives Tuesday." in the same panel chassis. Listen for the form's success postMessage if iframed.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ─── METHODOLOGY ─── -->
+  <section class="page-block" id="meth">
+    <div class="pb-head">
+      <div>
+        <div class="pb-path">/methodology/</div>
+        <h3 class="pb-name">Methodology</h3>
+      </div>
+      <div class="pb-counts">
+        <span class="c-crit"><b>0</b> crit</span>
+        <span class="c-high"><b>2</b> high</span>
+        <span class="c-med"><b>2</b> med</span>
+        <span class="c-pol"><b>1</b> polish</span>
+      </div>
+    </div>
+    <div class="pb-body">
+      <p class="pb-summary">
+        Long-form pages tend to mobile better than marketing pages — fewer
+        components to break — but reading ergonomics need attention.
+      </p>
+      <ol class="issues">
+        <li class="issue">
+          <span class="sev high">High</span>
+          <div class="body">
+            <h6>No visible TOC on mobile makes the page un-skimmable</h6>
+            <p class="obs">A long page on phone with no contents block forces scroll-hunting; bounce risk.</p>
+            <p class="fix">Add a TOC card at the top: bordered, <code>border-radius: 12px</code>, mono "CONTENTS" label, ordered list with anchor links. On phone keep it open — no collapse.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev high">High</span>
+          <div class="body">
+            <h6>Body type likely 16px Inter, not 17–18px Fraunces</h6>
+            <p class="obs">Methodology read on phone benefits from larger, slower-paced serif. Inter at 16 reads as documentation, not research.</p>
+            <p class="fix">Set body <code>font: 400 17px/1.6 var(--serif); text-wrap: pretty;</code>. Keep measure at <code>max-width: 62ch</code> via auto margin.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev med">Medium</span>
+          <div class="body">
+            <h6>Indicator definition lists may use default <code>&lt;ul&gt;</code> bullets</h6>
+            <p class="obs">Default disc bullets on dark theme are ugly and hang outside the measure on phone.</p>
+            <p class="fix">Replace with <code>list-style: none</code> + numbered counters in mono orange-2 in a 28px gutter, matching the section-header pattern in the design system.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev med">Medium</span>
+          <div class="body">
+            <h6>Inline code / variable names may break across lines on 375</h6>
+            <p class="obs">Long ticker symbols or code spans inside paragraphs without <code>word-break</code> rules cause horizontal overflow.</p>
+            <p class="fix">Set <code>code, .ticker { overflow-wrap: anywhere; }</code> on the body scope.</p>
+          </div>
+          <div class="vp s375">375</div>
+        </li>
+        <li class="issue">
+          <span class="sev pol">Polish</span>
+          <div class="body">
+            <h6>No "back to top" anchor on a long phone page</h6>
+            <p class="obs">After 4000+ pixels of scroll, returning to the TOC requires a long swipe.</p>
+            <p class="fix">Quiet back-to-top link as a final element before footer — no fixed FAB. Mono "↑ Top" 11px, ink-3, centred.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ─── -->
+  <section class="page-block" id="cont">
+    <div class="pb-head">
+      <div>
+        <div class="pb-path">/contact/</div>
+        <h3 class="pb-name">Contact</h3>
+      </div>
+      <div class="pb-counts">
+        <span class="c-crit"><b>0</b> crit</span>
+        <span class="c-high"><b>2</b> high</span>
+        <span class="c-med"><b>1</b> med</span>
+        <span class="c-pol"><b>1</b> polish</span>
+      </div>
+    </div>
+    <div class="pb-body">
+      <p class="pb-summary">
+        Forms on phone live or die by input height, label clarity, and whether
+        the keyboard hides the submit button.
+      </p>
+      <ol class="issues">
+        <li class="issue">
+          <span class="sev high">High</span>
+          <div class="body">
+            <h6>Input fields likely &lt; 44px tall</h6>
+            <p class="obs">Default input padding on most CSS resets gives ~36px input height; fails Apple's 44px touch-target guideline.</p>
+            <p class="fix">Set <code>input, textarea { min-height: 48px; padding: 12px 14px; font-size: 16px; }</code>. The 16px size also prevents iOS auto-zoom on focus.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev high">High</span>
+          <div class="body">
+            <h6>Submit button gets pushed below the iOS keyboard</h6>
+            <p class="obs">When the user focuses the message field, the soft keyboard covers the submit button — they have to dismiss the keyboard to find it.</p>
+            <p class="fix">Order fields so <em>name → email → subject → message</em>; submit appears immediately after the textarea. Add <code>scroll-padding-bottom: 80px;</code> on <code>html</code> so the focused field stays in view.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev med">Medium</span>
+          <div class="body">
+            <h6>Email link probably opens in mailto with no body template</h6>
+            <p class="obs">"Email us at info@" tap launches the iOS mail app with a blank message — friction-free but generic.</p>
+            <p class="fix">Pre-fill subject: <code>mailto:info@macropulse.uk?subject=Reader%20question</code>. Adds zero work on either side and routes inbound mail.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev pol">Polish</span>
+          <div class="body">
+            <h6>Form labels probably collapse to placeholders</h6>
+            <p class="obs">Placeholder-only labels disappear once typing starts; common accessibility complaint.</p>
+            <p class="fix">Always show a mono <code>11px / 0.16em / orange-2</code> label above each input. Placeholder is supplementary ("e.g. you@firm.com").</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ─── FAQ ─── -->
+  <section class="page-block" id="faq">
+    <div class="pb-head">
+      <div>
+        <div class="pb-path">/faq/</div>
+        <h3 class="pb-name">FAQ</h3>
+      </div>
+      <div class="pb-counts">
+        <span class="c-crit"><b>0</b> crit</span>
+        <span class="c-high"><b>1</b> high</span>
+        <span class="c-med"><b>2</b> med</span>
+        <span class="c-pol"><b>0</b> polish</span>
+      </div>
+    </div>
+    <div class="pb-body">
+      <p class="pb-summary">
+        Accordion ergonomics on phone — expanding one question shouldn't push
+        the others out of sight, and the tap zone has to be the whole row.
+      </p>
+      <ol class="issues">
+        <li class="issue">
+          <span class="sev high">High</span>
+          <div class="body">
+            <h6>Default <code>&lt;summary&gt;</code> tap target is just the text</h6>
+            <p class="obs">Native disclosure widget makes only the text clickable; users tap white space and nothing happens.</p>
+            <p class="fix">Set <code>summary { display: block; padding: 16px 0; cursor: pointer; }</code> so the full row is the target. Custom marker via <code>summary::-webkit-details-marker { display: none; }</code> + a styled "+/−" on the right edge.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev med">Medium</span>
+          <div class="body">
+            <h6>Opening one accordion may scroll the next one off-screen</h6>
+            <p class="obs">Browsers don't auto-scroll on <code>&lt;details&gt;</code> open; on phone the user opens question 3 and finds question 2's body now obscures it.</p>
+            <p class="fix">Add a <code>toggle</code> JS handler that scrolls the opened summary into view minus a 16px top offset. Five lines of vanilla JS.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev med">Medium</span>
+          <div class="body">
+            <h6>No grouping makes the page a long flat scroll</h6>
+            <p class="obs">A flat list of 12+ Qs on phone is the same UX whether you scroll or use Cmd-F (which most phone users won't).</p>
+            <p class="fix">Group into 3 sections (Newsletter / Cycle indicator / Subscriptions) with section-header components above each. No per-section accordion-of-accordions; just flat lists per group.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ─── -->
+  <section class="page-block" id="about">
+    <div class="pb-head">
+      <div>
+        <div class="pb-path">/about/</div>
+        <h3 class="pb-name">About</h3>
+      </div>
+      <div class="pb-counts">
+        <span class="c-crit"><b>0</b> crit</span>
+        <span class="c-high"><b>1</b> high</span>
+        <span class="c-med"><b>1</b> med</span>
+        <span class="c-pol"><b>1</b> polish</span>
+      </div>
+    </div>
+    <div class="pb-body">
+      <p class="pb-summary">
+        Editorial page; lowest mobile risk. Issues centre on portrait sizing
+        and bio measure.
+      </p>
+      <ol class="issues">
+        <li class="issue">
+          <span class="sev high">High</span>
+          <div class="body">
+            <h6>Author portrait (if present) likely renders at full viewport width</h6>
+            <p class="obs">Two-column desktop layout with portrait left + bio right collapses to portrait above bio; default behaviour fills the viewport with a single image, dominating the first scroll.</p>
+            <p class="fix">Cap portrait at <code>max-width: 200px; aspect-ratio: 1; object-fit: cover; border-radius: 12px;</code> on phone. Keep it left-aligned, not centred.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev med">Medium</span>
+          <div class="body">
+            <h6>Bio paragraph probably runs full-width without measure cap</h6>
+            <p class="obs">Long lines on 414px landscape become uncomfortable.</p>
+            <p class="fix">Set <code>.bio { max-width: 62ch; }</code> on the body element regardless of viewport.</p>
+          </div>
+          <div class="vp s414">414</div>
+        </li>
+        <li class="issue">
+          <span class="sev pol">Polish</span>
+          <div class="body">
+            <h6>End-of-page CTA may duplicate the homepage's</h6>
+            <p class="obs">Identical CTA strip on multiple pages reads as scaffolding on phone, where it appears more often per session.</p>
+            <p class="fix">Vary the kicker copy per page. About: "If this is the lens you've been missing, start with the newsletter."</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ─── SITE-WIDE NAV ─── -->
+  <section class="page-block" id="nav">
+    <div class="pb-head">
+      <div>
+        <div class="pb-path">site-wide</div>
+        <h3 class="pb-name">Navigation &amp; chrome</h3>
+      </div>
+      <div class="pb-counts">
+        <span class="c-crit"><b>1</b> crit</span>
+        <span class="c-high"><b>1</b> high</span>
+        <span class="c-med"><b>1</b> med</span>
+        <span class="c-pol"><b>0</b> polish</span>
+      </div>
+    </div>
+    <div class="pb-body">
+      <p class="pb-summary">
+        Findings that apply across every page — the hamburger, the nav drawer,
+        the footer.
+      </p>
+      <ol class="issues">
+        <li class="issue">
+          <span class="sev crit">Critical</span>
+          <div class="body">
+            <h6>Hamburger likely lacks <code>aria-expanded</code> + <code>aria-controls</code></h6>
+            <p class="obs">Default WordPress hamburgers ship with onClick that toggles a CSS class but no ARIA state. Screen readers and keyboard users can't tell whether the menu is open.</p>
+            <p class="fix">On the button: <code>aria-expanded="false" aria-controls="primary-nav"</code>; toggle <code>aria-expanded</code> in the click handler. Set <code>aria-label="Open menu"</code> / "Close menu" to swap.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev high">High</span>
+          <div class="body">
+            <h6>Open mobile drawer probably doesn't trap focus</h6>
+            <p class="obs">When the drawer opens, Tab still moves through the page underneath; visually-hidden links remain reachable.</p>
+            <p class="fix">When open, set <code>inert</code> on <code>main</code> and the rest of the body; focus the first link in the drawer; Esc closes.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+        <li class="issue">
+          <span class="sev med">Medium</span>
+          <div class="body">
+            <h6>Nav links inside drawer likely &lt; 44px tall</h6>
+            <p class="obs">Default link rows in mobile drawers often inherit body line-height (~24px); the visible link is ~24px tall but the surrounding padding gives it apparent size.</p>
+            <p class="fix">Make each <code>a</code> in the drawer <code>display: block; padding: 16px 24px; font-size: 18px;</code>. That's 50px tap height with breathing room.</p>
+          </div>
+          <div class="vp both">375 · 414</div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ─── TRIAGE ─── -->
+  <section class="triage" id="triage">
+    <div class="eyebrow">Triage</div>
+    <h2>If you ship five things this week, ship <em>these</em>.</h2>
+    <ol>
+      <li>
+        <b>Replace the raw Beehiiv URL on /</b> and wrap the iframe on /newsletter/ in
+        the Form panel chassis. <em>Two fixes, both Critical, same root cause.</em>
+      </li>
+      <li>
+        <b>Make the dashboard's sticky tape collapse to a horizontal scroller on
+        <code>&lt;900px</code>.</b> The single fix that takes the dashboard from
+        "broken on phone" to "works."
+      </li>
+      <li>
+        <b>SSR the cycle state into /dashboard/ HTML at publish time</b> so the
+        first paint shows it. Removes the only loading-state failure that
+        matters.
+      </li>
+      <li>
+        <b>Set every form input to <code>min-height: 48px</code> and <code>font-size: 16px</code></b>
+        — fixes contact form, subscribe form, and any future input in one rule.
+      </li>
+      <li>
+        <b>Wire <code>aria-expanded</code> on the hamburger and <code>inert</code> on
+        the body when the drawer is open.</b> Five-line accessibility win that
+        compounds across every page.
+      </li>
+    </ol>
+  </section>
+
+  <footer class="doc-foot">
+    <div>MacroPulse · Mobile UX punch-list</div>
+    <div>38 findings · 7 pages · 2 viewports</div>
+  </footer>
+
+</main>
+</body>
+</html>

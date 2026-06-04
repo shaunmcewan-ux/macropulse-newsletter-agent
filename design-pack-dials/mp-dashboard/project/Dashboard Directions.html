@@ -1,0 +1,1103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MacroPulse — Dashboard Redesign Directions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg-0: #080e13;
+    --bg-1: #0c141b;
+    --bg-2: #111a23;
+    --bg-3: #16212c;
+    --line: rgba(237, 243, 247, 0.08);
+    --line-strong: rgba(237, 243, 247, 0.16);
+    --ink: #edf3f7;
+    --ink-2: #b9c4cc;
+    --ink-3: #7c8a95;
+    --ink-4: #4a5763;
+    --orange-1: #ffbd69;
+    --orange-2: #ff9d2f;
+    --orange-3: #f07d0a;
+    --green: #4ec38a;
+    --red:   #ef5a6b;
+    --grad: linear-gradient(135deg, #ffbd69 0%, #ff9d2f 45%, #f07d0a 100%);
+    --serif: "Fraunces", "Times New Roman", Georgia, serif;
+    --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background:
+      radial-gradient(900px 600px at 80% -10%, rgba(255, 157, 47, 0.10), transparent 60%),
+      radial-gradient(800px 500px at -10% 10%, rgba(255, 189, 105, 0.05), transparent 60%),
+      linear-gradient(180deg, #0c141b 0%, #080e13 100%);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+  }
+
+  /* ─── Layout ─── */
+  .page {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 72px 40px 120px;
+  }
+  @media (max-width: 720px) {
+    .page { padding: 40px 20px 80px; }
+  }
+
+  /* ─── Top mast ─── */
+  .mast {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 56px;
+    flex-wrap: wrap;
+  }
+  .mast-brand {
+    font-family: var(--serif);
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 1;
+  }
+  .mast-brand .accent {
+    display: block;
+    width: 36px;
+    height: 3px;
+    background: var(--grad);
+    margin-top: 10px;
+    border-radius: 2px;
+  }
+  .mast-meta {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--ink-3);
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    text-align: right;
+    line-height: 1.7;
+  }
+  .mast-meta strong {
+    color: var(--ink-2);
+    font-weight: 500;
+  }
+
+  /* ─── Document header ─── */
+  .doc-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 7px 14px;
+    border: 1px solid var(--line-strong);
+    border-radius: 999px;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ink-2);
+    margin-bottom: 28px;
+  }
+  .doc-eyebrow::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--orange-2);
+    box-shadow: 0 0 12px var(--orange-2);
+  }
+
+  h1.doc-title {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: clamp(40px, 6vw, 68px);
+    line-height: 1.04;
+    letter-spacing: -0.02em;
+    margin: 0 0 24px;
+    text-wrap: balance;
+  }
+  h1.doc-title em {
+    font-style: italic;
+    background: var(--grad);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .doc-lede {
+    font-family: var(--serif);
+    font-size: 22px;
+    line-height: 1.5;
+    color: var(--ink-2);
+    max-width: 720px;
+    margin: 0 0 16px;
+    font-weight: 400;
+    text-wrap: pretty;
+  }
+  .doc-byline {
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: var(--ink-3);
+    margin-top: 32px;
+  }
+  .doc-byline span + span::before {
+    content: "·";
+    margin: 0 10px;
+    color: var(--ink-4);
+  }
+
+  /* ─── TOC ─── */
+  .toc {
+    margin: 56px 0 72px;
+    padding: 28px 32px;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    background: linear-gradient(180deg, rgba(22, 33, 44, 0.45), rgba(12, 20, 27, 0.45));
+  }
+  .toc-title {
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: var(--ink-3);
+    margin-bottom: 18px;
+  }
+  .toc-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 32px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: toc;
+  }
+  @media (max-width: 720px) {
+    .toc-list { grid-template-columns: 1fr; }
+  }
+  .toc-list li {
+    counter-increment: toc;
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    font-family: var(--serif);
+    font-size: 19px;
+    color: var(--ink);
+  }
+  .toc-list li::before {
+    content: counter(toc, decimal-leading-zero);
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--orange-2);
+    letter-spacing: 0.1em;
+    flex: none;
+    width: 28px;
+  }
+  .toc-list a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 120ms ease;
+  }
+  .toc-list a:hover { border-bottom-color: var(--orange-2); }
+  .toc-list em {
+    font-style: italic;
+    color: var(--ink-3);
+    margin-left: 6px;
+    font-size: 14px;
+  }
+
+  /* ─── Premise ─── */
+  .premise {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    margin-bottom: 88px;
+  }
+  @media (max-width: 720px) { .premise { grid-template-columns: 1fr; gap: 28px; } }
+  .premise h3 {
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: var(--orange-2);
+    margin: 0 0 14px;
+    font-weight: 500;
+  }
+  .premise p {
+    font-family: var(--serif);
+    font-size: 17px;
+    line-height: 1.55;
+    color: var(--ink-2);
+    margin: 0 0 14px;
+    text-wrap: pretty;
+  }
+  .premise p strong { color: var(--ink); font-weight: 500; }
+
+  /* ─── Direction sections ─── */
+  .direction {
+    margin-bottom: 96px;
+    scroll-margin-top: 40px;
+  }
+  .direction-head {
+    display: grid;
+    grid-template-columns: 96px 1fr;
+    gap: 28px;
+    align-items: start;
+    margin-bottom: 36px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid var(--line);
+  }
+  @media (max-width: 720px) {
+    .direction-head { grid-template-columns: 1fr; gap: 14px; }
+  }
+  .direction-num {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 72px;
+    line-height: 0.9;
+    background: var(--grad);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 500;
+  }
+  .direction-name {
+    font-family: var(--serif);
+    font-size: clamp(30px, 4vw, 44px);
+    line-height: 1.05;
+    letter-spacing: -0.015em;
+    margin: 0 0 12px;
+    font-weight: 500;
+    text-wrap: balance;
+  }
+  .direction-thesis {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 19px;
+    color: var(--ink-2);
+    line-height: 1.5;
+    margin: 0;
+    max-width: 640px;
+    text-wrap: pretty;
+  }
+  .direction-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 16px;
+  }
+  .tag {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    padding: 5px 11px;
+    border: 1px solid var(--line-strong);
+    border-radius: 999px;
+    color: var(--ink-2);
+  }
+  .tag.effort-low    { color: var(--green);   border-color: rgba(78, 195, 138, 0.35); }
+  .tag.effort-medium { color: var(--orange-1); border-color: rgba(255, 189, 105, 0.35); }
+  .tag.effort-high   { color: var(--red);     border-color: rgba(239, 90, 107, 0.35); }
+
+  /* sub-section */
+  .sub {
+    margin: 36px 0;
+  }
+  .sub-label {
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: var(--ink-3);
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .sub-label::before {
+    content: "";
+    width: 14px;
+    height: 1px;
+    background: var(--orange-2);
+  }
+  .sub p {
+    font-family: var(--serif);
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--ink);
+    margin: 0 0 12px;
+    text-wrap: pretty;
+    max-width: 760px;
+  }
+  .sub p.muted { color: var(--ink-2); }
+
+  /* ASCII wireframe */
+  pre.wire {
+    font-family: var(--mono);
+    font-size: 12.5px;
+    line-height: 1.55;
+    color: var(--ink-2);
+    background: var(--bg-0);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 22px 24px;
+    overflow-x: auto;
+    margin: 18px 0 8px;
+    white-space: pre;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.02);
+  }
+  .wire-caption {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    color: var(--ink-3);
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    margin-bottom: 4px;
+  }
+
+  /* changelist */
+  .changelist {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 0;
+    margin: 16px 0 8px;
+    border-top: 1px solid var(--line);
+  }
+  @media (max-width: 720px) {
+    .changelist { grid-template-columns: 1fr; }
+  }
+  .changelist > div {
+    padding: 16px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .changelist .k {
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--orange-2);
+    padding-right: 24px;
+  }
+  .changelist .v {
+    font-family: var(--serif);
+    font-size: 16.5px;
+    line-height: 1.55;
+    color: var(--ink);
+    text-wrap: pretty;
+  }
+  @media (max-width: 720px) {
+    .changelist .k { padding-bottom: 4px; border-bottom: none; }
+    .changelist .v { padding-top: 0; }
+  }
+
+  /* trade-offs split */
+  .tradeoffs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-top: 18px;
+  }
+  @media (max-width: 720px) { .tradeoffs { grid-template-columns: 1fr; } }
+  .tradeoff {
+    padding: 20px 22px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: rgba(22, 33, 44, 0.35);
+  }
+  .tradeoff h4 {
+    margin: 0 0 12px;
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: var(--ink-3);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .tradeoff.plus h4  { color: var(--green); }
+  .tradeoff.minus h4 { color: var(--red); }
+  .tradeoff h4::before {
+    font-family: var(--mono);
+    font-size: 14px;
+    line-height: 1;
+  }
+  .tradeoff.plus h4::before  { content: "+"; }
+  .tradeoff.minus h4::before { content: "−"; }
+  .tradeoff ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .tradeoff li {
+    font-family: var(--serif);
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--ink);
+    padding: 8px 0;
+    border-top: 1px dashed var(--line);
+    text-wrap: pretty;
+  }
+  .tradeoff li:first-child { border-top: none; padding-top: 0; }
+
+  /* code hints */
+  .css-hint {
+    margin: 18px 0 8px;
+    padding: 16px 18px;
+    border-left: 2px solid var(--orange-2);
+    background: rgba(255, 157, 47, 0.04);
+    border-radius: 0 8px 8px 0;
+  }
+  .css-hint .k {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: var(--orange-2);
+    display: block;
+    margin-bottom: 8px;
+  }
+  .css-hint code {
+    font-family: var(--mono);
+    font-size: 12.5px;
+    color: var(--ink);
+    line-height: 1.7;
+    display: block;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+
+  /* ─── Recommendation ─── */
+  .recco {
+    margin-top: 48px;
+    padding: 56px 56px;
+    border: 1px solid var(--line-strong);
+    border-radius: 18px;
+    background:
+      radial-gradient(600px 300px at 100% 0%, rgba(255, 157, 47, 0.08), transparent 60%),
+      linear-gradient(180deg, rgba(22, 33, 44, 0.6), rgba(12, 20, 27, 0.6));
+    position: relative;
+    overflow: hidden;
+  }
+  .recco::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 2px;
+    background: var(--grad);
+    opacity: 0.6;
+  }
+  @media (max-width: 720px) { .recco { padding: 32px 24px; } }
+  .recco-eyebrow {
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--orange-2);
+    margin-bottom: 16px;
+  }
+  .recco h2 {
+    font-family: var(--serif);
+    font-size: clamp(32px, 4.4vw, 48px);
+    line-height: 1.05;
+    margin: 0 0 20px;
+    font-weight: 500;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
+  }
+  .recco h2 em {
+    font-style: italic;
+    background: var(--grad);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .recco p {
+    font-family: var(--serif);
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--ink-2);
+    max-width: 760px;
+    margin: 0 0 14px;
+    text-wrap: pretty;
+  }
+  .recco-foot {
+    margin-top: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--ink-3);
+  }
+  .recco-foot strong { color: var(--ink); font-weight: 500; }
+
+  /* ─── Closing footer ─── */
+  .doc-foot {
+    margin-top: 80px;
+    padding-top: 28px;
+    border-top: 1px solid var(--line);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--ink-3);
+  }
+
+  /* small accent inline glyph */
+  .glyph-dot {
+    color: var(--orange-2);
+  }
+</style>
+</head>
+<body>
+<main class="page" data-screen-label="Dashboard Directions">
+
+  <!-- Top mast -->
+  <header class="mast">
+    <div class="mast-brand">
+      MacroPulse
+      <span class="accent"></span>
+    </div>
+    <div class="mast-meta">
+      <strong>Internal design note</strong><br />
+      Dashboard · 7 May 2026
+    </div>
+  </header>
+
+  <!-- Doc header -->
+  <div class="doc-eyebrow">Design Review</div>
+  <h1 class="doc-title">Four ways to read the <em>cycle</em> in thirty seconds.</h1>
+  <p class="doc-lede">
+    A written exploration of four directions for the public Dashboard. Each takes the same
+    five sections — prices, cycle dial, scorecard, events — and re-ranks them around a
+    different reading of who the page is for and how fast they want the answer.
+  </p>
+  <div class="doc-byline">
+    <span>For: Editor</span><span>Format: Wireframes &amp; notes</span><span>Effort scale: low / med / high</span>
+  </div>
+
+  <!-- Premise -->
+  <section class="premise">
+    <div>
+      <h3>The brief, restated</h3>
+      <p>
+        The Dashboard is the only public utility on MacroPulse — a thirty-second answer to
+        <strong>"where is the cycle right now?"</strong> for an audience of allocators, not
+        traders. The cycle indicator is the page's <em>thesis</em>; everything else is evidence.
+      </p>
+      <p>
+        The current layout is competent but evidence-led: prices first, thesis second.
+        Three of the four directions below invert that order; one keeps it but earns it back
+        with a different visual rhythm.
+      </p>
+    </div>
+    <div>
+      <h3>What every direction must keep</h3>
+      <p>
+        <strong>Calm</strong>, not noisy. Editorial type, not ticker font.
+        <strong>Mobile-first</strong> — first viewport on a phone is non-negotiable.
+        Orange used <strong>once</strong> per viewport as signal, not as decoration.
+        Static HTML, vanilla CSS, lightweight.
+      </p>
+      <p>
+        We treat the four cycle states (<span class="glyph-dot">●</span> BTC Accumulation,
+        Alt Rotation, Take Profit, Risk Off) as the page's coordinate system.
+      </p>
+    </div>
+  </section>
+
+  <!-- TOC -->
+  <nav class="toc">
+    <div class="toc-title">Contents</div>
+    <ol class="toc-list">
+      <li><a href="#d1">The Front Page <em>— editorial, thesis-led</em></a></li>
+      <li><a href="#d2">The Compass <em>— cycle dial as the page</em></a></li>
+      <li><a href="#d3">The Briefing Card <em>— print-tight, single-screen</em></a></li>
+      <li><a href="#d4">The Tape &amp; Margin <em>— prices left, story right</em></a></li>
+      <li><a href="#recco">Recommendation</a></li>
+    </ol>
+  </nav>
+
+  <!-- ─── Direction 01 ─── -->
+  <section class="direction" id="d1">
+    <div class="direction-head">
+      <div class="direction-num">01</div>
+      <div>
+        <h2 class="direction-name">The Front Page</h2>
+        <p class="direction-thesis">
+          Treat the dashboard like the front page of a research weekly: a single
+          headline (the cycle state), a sub-deck (the one-line case), and the
+          evidence laid out as columns of a broadsheet beneath it.
+        </p>
+        <div class="direction-tags">
+          <span class="tag">Editorial</span>
+          <span class="tag">Thesis-led</span>
+          <span class="tag effort-medium">Effort: medium</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Above the fold — first 800px</div>
+      <div class="wire-caption">Desktop ≥ 960px</div>
+<pre class="wire">┌──────────────────────────────────────────────────────────────────────────┐
+│  MacroPulse · Dashboard            Tue 7 May · 08:56 · refreshed 4m ago  │
+├──────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│   THE READ — WEEK OF 7 MAY                                               │
+│                                                                          │
+│   ╔══════════════════════════════════════════════════════════════════╗   │
+│   ║   BTC                                                            ║   │
+│   ║   Accumulation.                       ●─────○─────○─────○        ║   │
+│   ║                                       acc   alt   tp   risk-off  ║   │
+│   ║                                                                  ║   │
+│   ║   DXY breaks 98, curve steepens, funding flips negative —        ║   │
+│   ║   clean positioning into a softer dollar regime.                 ║   │
+│   ╚══════════════════════════════════════════════════════════════════╝   │
+│                                                                          │
+│   ── tape ───────────────────────────────────────────────────────────    │
+│   BTC  81,471  +0.17 │ ETH  2,342  -1.21 │ ETH/BTC 0.02874 -1.38 │ ...   │
+│   ── tape ───────────────────────────────────────────────────────────    │
+│                                                                          │
+└──────────────────────────────────────────────────────────────────────────┘</pre>
+      <p class="muted">
+        The visitor sees the cycle answer before any number. The 12 prices collapse
+        into a single horizontal "tape" rule below the headline — the same data,
+        a quarter of the height. The full price grid lives one scroll down.
+      </p>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">How each section changes</div>
+      <div class="changelist">
+        <div class="k">Cycle indicator</div>
+        <div class="v">Promoted to hero. State name set in display Fraunces at ~120px, italic. Four-step indicator becomes a horizontal "stations of the cycle" rail under the title — <em>where we are, where we just were, where we're heading.</em></div>
+        <div class="k">Prices</div>
+        <div class="v">Demoted to a single-line tape above the fold. The full 12-tile grid moves below the dial as a 6×2 table — labels left-aligned, prices right-aligned, monospace columns so 24h/30d numbers line up vertically.</div>
+        <div class="k">Scorecard</div>
+        <div class="v">Two-column broadsheet beneath. Each indicator is a short essay block (name → value → one editorial sentence). Status conveyed by a thin coloured rule on the left edge, not a pill.</div>
+        <div class="k">Events</div>
+        <div class="v">Right rail "What's next" — five items max, treated as datelines: "Tue 12 May · CPI · inflation."</div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Visual moves</div>
+      <p>
+        Lean into Fraunces hard. Headline sizes follow a 1.5 modular scale (16 → 24 → 36 → 54 → 81).
+        Orange used exactly twice on the first screen: the cycle-rail active dot, and the live indicator.
+        Everything else is off-white on dark with hairline rules at 8% opacity.
+      </p>
+      <div class="css-hint">
+        <span class="k">CSS hint</span>
+        <code>.tape { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.tape > div { padding: 10px 14px; border-right: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+.tape > div:last-child { border-right: 0; }</code>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Trade-offs vs. current</div>
+      <div class="tradeoffs">
+        <div class="tradeoff plus">
+          <h4>Better</h4>
+          <ul>
+            <li>The 30-second promise is met on first paint — the answer is the headline.</li>
+            <li>Reads like a research note. Reinforces the brand voice over Bloomberg-style density.</li>
+            <li>Scorecard becomes scannable prose instead of a dense table.</li>
+          </ul>
+        </div>
+        <div class="tradeoff minus">
+          <h4>Worse</h4>
+          <ul>
+            <li>Power users who came for prices have to glance at the tape, not a grid.</li>
+            <li>The thesis sentence has to be excellent every week — the design demands it.</li>
+            <li>Vertical length increases; mobile scroll-depth grows.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Direction 02 ─── -->
+  <section class="direction" id="d2">
+    <div class="direction-head">
+      <div class="direction-num">02</div>
+      <div>
+        <h2 class="direction-name">The Compass</h2>
+        <p class="direction-thesis">
+          Make the cycle dial the actual centre of the page — a real radial compass,
+          not a row of four chips — and let the rest of the data be evidence orbiting it.
+        </p>
+        <div class="direction-tags">
+          <span class="tag">Visual-led</span>
+          <span class="tag">Distinctive</span>
+          <span class="tag effort-high">Effort: high</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Above the fold — first 800px</div>
+      <div class="wire-caption">Desktop ≥ 1024px</div>
+<pre class="wire">┌──────────────────────────────────────────────────────────────────────────┐
+│  ● LIVE     MacroPulse Cycle Compass                  refreshed 4m ago   │
+├────────────────────────┬─────────────────────────────────────────────────┤
+│                        │                                                 │
+│     Risk Off           │   BTC ACCUMULATION                              │
+│        ╲               │                                                 │
+│         ╲              │   DXY sub-98, curve steepening, funding         │
+│   Alt    ╲   ┌──┐      │   negative. Clean — not crowded — positioning.  │
+│  Rota'n ──┼──┤●●├── BTC│                                                 │
+│           │  └──┘  Acc │   ── supporting tape ─────────────              │
+│         ╱              │   BTC  81,471   +0.17  +18.73                   │
+│        ╱               │   ETH   2,342   -1.21  +11.27                   │
+│   Take Profit          │   DXY    97.90  -0.12   ——                      │
+│                        │   GOLD   4,740  +1.05   ——                      │
+│   ◀────────── 30d ────▶│   ── 8 more on tap ─────────────                │
+│                        │                                                 │
+└────────────────────────┴─────────────────────────────────────────────────┘</pre>
+      <p class="muted">
+        Left half is a circular compass, half-the-viewport tall, with the four cycle
+        states arranged as cardinal points. A thin orange needle points at the active
+        state; a fainter ghost-needle shows where it pointed 30 days ago — so the dial
+        encodes <em>direction of travel</em>, not just current state.
+      </p>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">How each section changes</div>
+      <div class="changelist">
+        <div class="k">Cycle indicator</div>
+        <div class="v">Becomes a real radial diagram — built with conic-gradient + four absolutely-positioned labels + an SVG needle. Two needles: live (orange gradient) and 30d-ago (10% white). The narration sits to its right.</div>
+        <div class="k">Prices</div>
+        <div class="v">Right column shows a <strong>top-4 tape</strong> (BTC, ETH, DXY, Gold) — the four prices that actually drive the cycle read. The rest live in an expandable "+8 more" panel that opens below — `&lt;details&gt;` with no JS.</div>
+        <div class="k">Scorecard</div>
+        <div class="v">Re-ordered to mirror the compass: Tier-1 indicators (M2, ISM, DXY) → Tier-2 (yields, curve, Fed) → Crypto-specific (funding, stablecoin dom). Each tier gets its own row, separated by hairline rules.</div>
+        <div class="k">Events</div>
+        <div class="v">Below the fold; treated as a horizontal timeline ribbon (Mon→Sun) rather than a card list. Active day pulses orange.</div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Visual moves</div>
+      <p>
+        The compass is the only thing on the page that uses the orange gradient as fill —
+        elsewhere it's reserved for hairline accents. This makes the dial unambiguously
+        the page's signature object. On mobile it stacks above the narration and shrinks
+        to ~280px — still legible because there are only four labels.
+      </p>
+      <div class="css-hint">
+        <span class="k">CSS hint</span>
+        <code>.compass { aspect-ratio: 1; background: conic-gradient(from -45deg, #16212c 0 25%, #111a23 0 50%, #16212c 0 75%, #111a23 0); border-radius: 50%; position: relative; }
+.compass .needle { position: absolute; left: 50%; top: 50%; width: 2px; height: 42%; background: linear-gradient(180deg, transparent, var(--orange-2)); transform-origin: top center; transform: rotate(45deg); }</code>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Trade-offs vs. current</div>
+      <div class="tradeoffs">
+        <div class="tradeoff plus">
+          <h4>Better</h4>
+          <ul>
+            <li>Memorable. The compass is the kind of object people screenshot and share.</li>
+            <li>Encodes direction-of-travel, which a row of chips fundamentally can't.</li>
+            <li>Reuses the orange accent as a single, expressive object.</li>
+          </ul>
+        </div>
+        <div class="tradeoff minus">
+          <h4>Worse</h4>
+          <ul>
+            <li>Highest build cost. SVG needles, conic-gradient sectors, mobile reflow.</li>
+            <li>Risk of looking gimmicky if the brand voice is "calm research."</li>
+            <li>Compass takes vertical real estate that prices used to own.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Direction 03 ─── -->
+  <section class="direction" id="d3">
+    <div class="direction-head">
+      <div class="direction-num">03</div>
+      <div>
+        <h2 class="direction-name">The Briefing Card</h2>
+        <p class="direction-thesis">
+          Engineer the entire dashboard to fit one viewport on a laptop, with no scroll —
+          a single, dense, screenshottable card you'd paste into an allocator's morning
+          email.
+        </p>
+        <div class="direction-tags">
+          <span class="tag">Single-screen</span>
+          <span class="tag">Print-friendly</span>
+          <span class="tag effort-medium">Effort: medium</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Above the fold — and there is no below</div>
+      <div class="wire-caption">Desktop · designed for 1440 × 900</div>
+<pre class="wire">┌──────────────────────────────────────────────────────────────────────────┐
+│ ● LIVE  MacroPulse Briefing  ·  Tue 7 May 2026 · 08:56                   │
+├──────────────────────────────────────────┬───────────────────────────────┤
+│ THE READ                                 │ NEXT                          │
+│                                          │                               │
+│ BTC Accumulation                         │ Tue 12 · CPI                  │
+│ DXY sub-98, curve steepens, funding      │ Wed 13 · PPI                  │
+│ negative. Clean positioning.             │ Thu 14 · Retail Sales         │
+│                                          │ Fri 15 · UMich                │
+│ ●─○─○─○                                  │                               │
+├──────────────────────────────────────────┴───────────────────────────────┤
+│ TAPE                                                                     │
+│ BTC 81,471 +0.17 │ ETH 2,342 -1.21 │ E/B .02874 -1.38 │ BTC.D 58.58  ── │
+│ TOTAL 2.79T  +.27│ TOTAL2 1.15T —   │ TOTAL3 871B —    │ DXY 97.90 -.12  │
+│ S&amp;P 7,365 +1.46  │ FTSE 10,378 -.58 │ WTI 109.76 +4.16 │ GOLD 4,740 +1.05│
+├──────────────────────────────────────────────────────────────────────────┤
+│ SCORECARD                                                                │
+│   M2 108.4T ↑ ▮ supportive   Real Y 1.87 ↑ ▯ neutral                     │
+│   ISM 52.7  → ▮ supportive   2s10s +.50 ↑ ▯ neutral                      │
+│   DXY 97.63 ↓ ▮ supportive   Fed   6.7T ↓ ▯ neutral                      │
+│                              Funding -.002 ↓ ▯ neutral                   │
+│                              Stables 11.48 ↓ ▮ supportive                │
+└──────────────────────────────────────────────────────────────────────────┘</pre>
+      <p class="muted">
+        Three horizontal bands. Top: read + next-up. Middle: every price as a 3×4
+        monospace tape. Bottom: scorecard as a 2-column compact list, status reduced to
+        a coloured square glyph (▮ supportive, ▯ neutral, ▭ headwind). Whole thing fits
+        in 880–900px on a 13" laptop.
+      </p>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">How each section changes</div>
+      <div class="changelist">
+        <div class="k">Cycle indicator</div>
+        <div class="v">Compact: title + one-sentence rationale + the four-dot rail. Sits in the upper-left band as the loudest single block on the screen, but never larger than ~25% of viewport height.</div>
+        <div class="k">Prices</div>
+        <div class="v">A 3-row × 4-column "tape" — same 12 instruments, but each is a single line: ticker, price, 24h. 30d % moves to a tooltip on hover. Tabular numerals so columns align.</div>
+        <div class="k">Scorecard</div>
+        <div class="v">Two columns of 4 + 4 indicators. Each row is one line — name, value, trend arrow, status glyph. The long editorial sentences move to a `&lt;details&gt;` expanded inline, or to the methodology page.</div>
+        <div class="k">Events</div>
+        <div class="v">Top-right "Next" stack, four items max, datelines only. Full calendar lives behind a "See all 7 days →" link.</div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Visual moves</div>
+      <p>
+        Type scale collapses — Fraunces only on the cycle state and the page title; everything
+        else is Inter at 13–15px. Use CSS Grid <code>grid-template-rows: auto auto 1fr</code>
+        with <code>min-height: 100dvh</code> on the wrapper to lock the briefing to one
+        viewport on desktop. On mobile it gracefully stacks; the "single-screen" promise is
+        a desktop one.
+      </p>
+      <div class="css-hint">
+        <span class="k">CSS hint</span>
+        <code>.briefing { display: grid; grid-template-rows: auto auto 1fr; min-height: 100dvh; gap: 0; }
+.briefing &gt; * { padding: 24px 32px; border-bottom: 1px solid var(--line); }
+.tape { display: grid; grid-template-columns: repeat(4, 1fr); font-variant-numeric: tabular-nums; }
+@media (max-width: 720px) { .briefing { min-height: 0; } }</code>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Trade-offs vs. current</div>
+      <div class="tradeoffs">
+        <div class="tradeoff plus">
+          <h4>Better</h4>
+          <ul>
+            <li>Best information density. Allocators can take it in at a glance.</li>
+            <li>Genuinely screenshottable — a useful artefact, not just a webpage.</li>
+            <li>Print stylesheet is essentially free.</li>
+          </ul>
+        </div>
+        <div class="tradeoff minus">
+          <h4>Worse</h4>
+          <ul>
+            <li>Visual character drops. Risks looking like a terminal — exactly what the brief warns against.</li>
+            <li>The editorial scorecard sentences (a strength of the current page) get hidden behind hover/details.</li>
+            <li>Mobile experience is a stack of compressed bands, not a designed phone screen.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Direction 04 ─── -->
+  <section class="direction" id="d4">
+    <div class="direction-head">
+      <div class="direction-num">04</div>
+      <div>
+        <h2 class="direction-name">The Tape &amp; Margin</h2>
+        <p class="direction-thesis">
+          Two columns, always. A narrow live tape pinned on the left; a wide editorial
+          margin on the right where the cycle thesis, scorecard, and events read like a
+          long-form note. The numbers stay; the writing leads.
+        </p>
+        <div class="direction-tags">
+          <span class="tag">Two-column</span>
+          <span class="tag">Sticky tape</span>
+          <span class="tag effort-medium">Effort: medium</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Above the fold — first 800px</div>
+      <div class="wire-caption">Desktop ≥ 1100px</div>
+<pre class="wire">┌──────────────────────────────────────────────────────────────────────────┐
+│  MacroPulse · Dashboard                                refreshed 4m ago  │
+├──────────────────────────┬───────────────────────────────────────────────┤
+│  TAPE          (sticky)  │   THE CYCLE — 7 MAY 2026                      │
+│                          │                                               │
+│  BTC      81,471         │   BTC Accumulation.                           │
+│  +0.17    +18.73         │                                               │
+│  ─────────               │   ●───○───○───○                               │
+│  ETH       2,342         │   acc  alt  tp  off                           │
+│  -1.21    +11.27         │                                               │
+│  ─────────               │   DXY's retreat below 98 and a steepening     │
+│  ETH/BTC  .02874         │   2s10s curve reinforce the macro case for    │
+│  -1.38     ——            │   risk assets, while negative funding rates   │
+│  ─────────               │   confirm clean — not crowded — positioning.  │
+│  BTC.D    58.58%         │                                               │
+│   ——       ——            │   ── scorecard, in prose ────                 │
+│  ─────────               │                                               │
+│  TOTAL    2.79T          │   M2 expanding, DXY weakening, ISM holding    │
+│  +0.27     ——            │   above 50 — the Tier-1 dashboard is green.   │
+│  ─────────               │   Yields elevated but not punishing; curve    │
+│  TOTAL2   1.15T          │   normalising. Crypto micro: funding flipped  │
+│  ▮ +6 more, scroll       │   negative; stables draining. (continued ↓)   │
+│                          │                                               │
+└──────────────────────────┴───────────────────────────────────────────────┘</pre>
+      <p class="muted">
+        Left rail is a fixed-width (260px) tape, <code>position: sticky</code>, top of the
+        viewport, scrolls internally. Right column is a long editorial document — the cycle
+        block at the top, then the scorecard rendered as <em>prose paragraphs</em> grouped
+        by tier, then the events as a dateline list. Reads like a research note that
+        happens to have live numbers in the margin.
+      </p>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">How each section changes</div>
+      <div class="changelist">
+        <div class="k">Cycle indicator</div>
+        <div class="v">Headline of the right column. Same four-dot rail as today, but the orange is reduced to the active dot only — no pill outlines around the inactive states.</div>
+        <div class="k">Prices</div>
+        <div class="v">All 12 in a vertical sticky rail on the left. Each is two lines (price / 24h % / 30d %) separated by hairline rules. Always visible while you read. On mobile the rail collapses into a horizontal scroller above the article.</div>
+        <div class="k">Scorecard</div>
+        <div class="v">Stops being a table. Becomes three short prose paragraphs — Tier 1 (macro), Tier 2 (rates &amp; liquidity), Tier 3 (crypto-internal) — each ending with the indicator names in a small monospace footnote line: <em>"M2 ↑ ISM → DXY ↓"</em>.</div>
+        <div class="k">Events</div>
+        <div class="v">Below the scorecard prose, as a dateline list: bold day, indented event, one-line context. Looks like the calendar at the back of a magazine.</div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Visual moves</div>
+      <p>
+        This is the most "newsletter feels like a website" direction. Right column is set at
+        a comfortable reading measure (~62ch). Left rail uses <code>font-variant-numeric:
+        tabular-nums</code> and small caps for tickers. Orange appears once: the active
+        cycle dot.
+      </p>
+      <div class="css-hint">
+        <span class="k">CSS hint</span>
+        <code>.shell { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 56px; }
+.tape { position: sticky; top: 24px; align-self: start; max-height: calc(100dvh - 48px); overflow-y: auto; }
+@media (max-width: 900px) { .shell { grid-template-columns: 1fr; }
+  .tape { position: static; max-height: none; display: flex; gap: 12px; overflow-x: auto; } }</code>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Trade-offs vs. current</div>
+      <div class="tradeoffs">
+        <div class="tradeoff plus">
+          <h4>Better</h4>
+          <ul>
+            <li>Strongest brand fit. Reads like the newsletter, not like a tool.</li>
+            <li>Live prices stay on screen the entire time — solves "must be visible in first viewport" without making them the headline.</li>
+            <li>Scorecard prose plays to MacroPulse's actual edge (the writing).</li>
+          </ul>
+        </div>
+        <div class="tradeoff minus">
+          <h4>Worse</h4>
+          <ul>
+            <li>The mobile experience needs care — sticky rail must collapse cleanly.</li>
+            <li>Scorecard-as-prose is harder to keep accurate weekly than a table is.</li>
+            <li>Less scannable for someone who wants a number, not a story.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Recommendation ─── -->
+  <section class="direction recco" id="recco">
+    <div class="recco-eyebrow">Recommendation</div>
+    <h2>Ship <em>The Tape &amp; Margin</em>, with one move borrowed from <em>The Front Page</em>.</h2>
+    <p>
+      The audience you describe — allocators wanting calm signal-density — does not
+      need a louder dial or a denser terminal. They need the page to feel like the
+      newsletter does on its best week: numbers present but not shouting, and a
+      written read that lets them outsource thirty seconds of judgement to you.
+      Direction 04 does that natively, and the sticky tape solves the
+      "prices visible above the fold" constraint without making prices the headline.
+    </p>
+    <p>
+      Borrow one move from Direction 01: lead the right column with the cycle state
+      set in <em>display</em> Fraunces — the headline-sized treatment, not the
+      pill-sized one currently on the page. That single change is responsible for
+      most of the "thirty-second" promise.
+    </p>
+    <p>
+      Hold Direction 02 (the Compass) in reserve as a possible <em>weekly hero</em>
+      illustration that lives at the top of the newsletter — same idea, but as an
+      editorial object, not a live widget. That keeps the dashboard calm and gives
+      the gradient somewhere genuinely expressive to live.
+    </p>
+    <p>
+      Direction 03 (the Briefing) is the right answer if the dashboard's job is
+      <em>data utility</em>. It isn't. The dashboard's job is to be the cheapest,
+      most legible expression of the newsletter's thesis. 04 wins on that brief.
+    </p>
+    <div class="recco-foot">
+      <div><strong>Ship:</strong> Direction 04 + 01 headline treatment</div>
+      <div><strong>Build effort:</strong> Medium · ~2 days</div>
+      <div><strong>Risk:</strong> Mobile sticky rail behaviour</div>
+    </div>
+  </section>
+
+  <footer class="doc-foot">
+    <div>MacroPulse · Internal design note</div>
+    <div>Four directions · One recommendation</div>
+  </footer>
+
+</main>
+</body>
+</html>

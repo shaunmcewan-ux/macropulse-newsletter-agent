@@ -1,0 +1,48 @@
+{
+  "fomc_meetings": [
+    {"date": "2026-01-29", "label": "FOMC Decision", "type": "rate_decision"},
+    {"date": "2026-03-19", "label": "FOMC Decision", "type": "rate_decision"},
+    {"date": "2026-05-07", "label": "FOMC Decision", "type": "rate_decision"},
+    {"date": "2026-06-18", "label": "FOMC Decision", "type": "rate_decision"},
+    {"date": "2026-07-30", "label": "FOMC Decision", "type": "rate_decision"},
+    {"date": "2026-09-17", "label": "FOMC Decision", "type": "rate_decision"},
+    {"date": "2026-10-29", "label": "FOMC Decision", "type": "rate_decision"},
+    {"date": "2026-12-10", "label": "FOMC Decision", "type": "rate_decision"}
+  ],
+  "us_economic_data": [
+    {"date": "2026-05-12", "label": "US CPI (Apr)", "type": "inflation"},
+    {"date": "2026-05-13", "label": "US PPI (Apr)", "type": "inflation"},
+    {"date": "2026-06-10", "label": "US CPI (May)", "type": "inflation"},
+    {"date": "2026-06-11", "label": "US PPI (May)", "type": "inflation"},
+    {"date": "2026-07-14", "label": "US CPI (Jun)", "type": "inflation"},
+    {"date": "2026-08-12", "label": "US CPI (Jul)", "type": "inflation"},
+    {"date": "2026-09-10", "label": "US CPI (Aug)", "type": "inflation"},
+    {"date": "2026-10-13", "label": "US CPI (Sep)", "type": "inflation"},
+    {"date": "2026-11-12", "label": "US CPI (Oct)", "type": "inflation"},
+    {"date": "2026-12-10", "label": "US CPI (Nov)", "type": "inflation"},
+    {"date": "2026-05-01", "label": "US NFP (Apr)", "type": "employment"},
+    {"date": "2026-06-05", "label": "US NFP (May)", "type": "employment"},
+    {"date": "2026-07-02", "label": "US NFP (Jun)", "type": "employment"},
+    {"date": "2026-08-07", "label": "US NFP (Jul)", "type": "employment"},
+    {"date": "2026-09-04", "label": "US NFP (Aug)", "type": "employment"},
+    {"date": "2026-10-02", "label": "US NFP (Sep)", "type": "employment"},
+    {"date": "2026-11-06", "label": "US NFP (Oct)", "type": "employment"},
+    {"date": "2026-12-04", "label": "US NFP (Nov)", "type": "employment"},
+    {"date": "2026-05-29", "label": "US GDP Q1 Final", "type": "gdp"},
+    {"date": "2026-06-25", "label": "US GDP Q1 Third", "type": "gdp"},
+    {"date": "2026-07-30", "label": "US GDP Q2 Advance", "type": "gdp"},
+    {"date": "2026-05-22", "label": "US PCE (Apr)", "type": "inflation"},
+    {"date": "2026-06-26", "label": "US PCE (May)", "type": "inflation"},
+    {"date": "2026-07-31", "label": "US PCE (Jun)", "type": "inflation"}
+  ],
+  "uk_events": [
+    {"date": "2026-05-07", "label": "Bank of England Rate Decision", "type": "rate_decision"},
+    {"date": "2026-06-18", "label": "Bank of England Rate Decision", "type": "rate_decision"},
+    {"date": "2026-08-06", "label": "Bank of England Rate Decision", "type": "rate_decision"},
+    {"date": "2026-09-17", "label": "Bank of England Rate Decision", "type": "rate_decision"}
+  ],
+  "crypto_events": [
+    {"date": "2026-05-11", "label": "Ethereum Pectra Upgrade Anniversary", "type": "crypto"},
+    {"date": "2026-06-15", "label": "Bitcoin halving +13 months", "type": "crypto"}
+  ]
+}

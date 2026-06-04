@@ -1,0 +1,31 @@
+{
+  "start_date": "2026-04-01",
+  "start_value_gbp": 9000,
+  "currency": "GBP",
+  "holdings": [
+    {
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "coingecko_id": "bitcoin",
+      "entry_price_usd": 68089,
+      "allocation_pct": 50,
+      "start_value_gbp": 5000
+    },
+    {
+      "symbol": "SUI",
+      "name": "Sui",
+      "coingecko_id": "sui",
+      "entry_price_usd": 0.8825,
+      "allocation_pct": 20,
+      "start_value_gbp": 2000
+    },
+    {
+      "symbol": "DOGE",
+      "name": "Dogecoin",
+      "coingecko_id": "dogecoin",
+      "entry_price_usd": 0.0923,
+      "allocation_pct": 20,
+      "start_value_gbp": 2000
+    }
+  ]
+}

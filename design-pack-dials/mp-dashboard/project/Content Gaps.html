@@ -1,0 +1,804 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MacroPulse — Content &amp; Structural Gap Audit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,ital,wght@9..144,0,400;9..144,0,500;9..144,0,600;9..144,1,400;9..144,1,500&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg-0: #080e13;
+    --bg-1: #0c141b;
+    --bg-2: #111a23;
+    --bg-3: #16212c;
+    --line: rgba(237, 243, 247, 0.08);
+    --line-strong: rgba(237, 243, 247, 0.16);
+    --ink: #edf3f7;
+    --ink-2: #b9c4cc;
+    --ink-3: #7c8a95;
+    --ink-4: #4a5763;
+    --orange-1: #ffbd69;
+    --orange-2: #ff9d2f;
+    --orange-3: #f07d0a;
+    --green: #4ec38a;
+    --red:   #ef5a6b;
+    --grad: linear-gradient(135deg, #ffbd69 0%, #ff9d2f 45%, #f07d0a 100%);
+    --serif: "Fraunces", "Times New Roman", Georgia, serif;
+    --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background:
+      radial-gradient(900px 600px at 80% -10%, rgba(255, 157, 47, 0.08), transparent 60%),
+      radial-gradient(800px 500px at -10% 5%, rgba(255, 189, 105, 0.04), transparent 60%),
+      linear-gradient(180deg, #0c141b 0%, #080e13 100%);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+  }
+  .page { max-width: 1180px; margin: 0 auto; padding: 72px 40px 120px; }
+  @media (max-width: 720px) { .page { padding: 40px 20px 80px; } }
+
+  /* mast */
+  .mast {
+    display: flex; justify-content: space-between; align-items: flex-start;
+    gap: 24px; padding-bottom: 28px;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 56px; flex-wrap: wrap;
+  }
+  .mast-brand { font-family: var(--serif); font-size: 28px; font-weight: 600; letter-spacing: -0.01em; line-height: 1; }
+  .mast-brand .accent { display: block; width: 36px; height: 3px; background: var(--grad); margin-top: 10px; border-radius: 2px; }
+  .mast-meta { font-family: var(--mono); font-size: 11px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.14em; text-align: right; line-height: 1.7; }
+  .mast-meta strong { color: var(--ink-2); font-weight: 500; }
+
+  /* doc head */
+  .doc-eyebrow {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 7px 14px; border: 1px solid var(--line-strong); border-radius: 999px;
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--ink-2); margin-bottom: 28px;
+  }
+  .doc-eyebrow::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--orange-2); box-shadow: 0 0 12px var(--orange-2); }
+  h1.doc-title { font-family: var(--serif); font-weight: 500; font-size: clamp(40px, 6vw, 68px); line-height: 1.04; letter-spacing: -0.02em; margin: 0 0 24px; text-wrap: balance; }
+  h1.doc-title em { font-style: italic; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .doc-lede { font-family: var(--serif); font-size: 22px; line-height: 1.5; color: var(--ink-2); max-width: 720px; margin: 0 0 16px; font-weight: 400; text-wrap: pretty; }
+  .doc-byline { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.16em; color: var(--ink-3); margin-top: 32px; }
+  .doc-byline span + span::before { content: "·"; margin: 0 10px; color: var(--ink-4); }
+
+  /* caveat */
+  .caveat {
+    margin: 40px 0 0; padding: 20px 24px;
+    border-left: 2px solid var(--orange-2);
+    background: rgba(255, 157, 47, 0.04);
+    border-radius: 0 10px 10px 0;
+    font-family: var(--serif); font-size: 16px; color: var(--ink-2);
+    line-height: 1.55; max-width: 760px;
+  }
+  .caveat strong { color: var(--ink); font-weight: 500; }
+
+  /* summary table */
+  .summary {
+    margin: 64px 0 88px;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+  .summary-head {
+    padding: 18px 24px;
+    border-bottom: 1px solid var(--line);
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    background: rgba(22, 33, 44, 0.5);
+    display: grid;
+    grid-template-columns: 2.4fr 1fr 1.5fr;
+    gap: 16px;
+  }
+  .summary-row {
+    padding: 18px 24px;
+    border-bottom: 1px solid var(--line);
+    display: grid;
+    grid-template-columns: 2.4fr 1fr 1.5fr;
+    gap: 16px;
+    align-items: baseline;
+  }
+  .summary-row:last-child { border-bottom: 0; }
+  @media (max-width: 720px) {
+    .summary-head { display: none; }
+    .summary-row { grid-template-columns: 1fr; gap: 6px; padding: 16px 18px; }
+  }
+  .summary-name { font-family: var(--serif); font-size: 18px; color: var(--ink); font-weight: 500; }
+  .summary-name small { display: block; font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-3); margin-top: 4px; }
+  .verdict {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.14em;
+    text-transform: uppercase; font-weight: 500;
+    display: inline-flex; align-items: center; gap: 8px;
+  }
+  .verdict::before { content: ""; width: 8px; height: 8px; border-radius: 50%; }
+  .verdict.now { color: var(--green); }
+  .verdict.now::before { background: var(--green); box-shadow: 0 0 10px var(--green); }
+  .verdict.wait { color: var(--orange-1); }
+  .verdict.wait::before { background: var(--orange-1); }
+  .verdict.skip { color: var(--ink-3); }
+  .verdict.skip::before { background: var(--ink-3); }
+  .summary-where { font-family: var(--serif); font-style: italic; font-size: 14.5px; color: var(--ink-2); line-height: 1.5; }
+
+  /* gap section */
+  .gap {
+    margin-bottom: 80px;
+    scroll-margin-top: 40px;
+  }
+  .gap-head {
+    display: grid; grid-template-columns: 96px 1fr; gap: 28px;
+    align-items: start; margin-bottom: 32px;
+    padding-bottom: 24px; border-bottom: 1px solid var(--line);
+  }
+  @media (max-width: 720px) { .gap-head { grid-template-columns: 1fr; gap: 12px; } }
+  .gap-num {
+    font-family: var(--serif); font-style: italic;
+    font-size: 64px; line-height: 0.9; font-weight: 500;
+    background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .gap-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 14px; }
+  .tag {
+    font-family: var(--mono); font-size: 10.5px;
+    text-transform: uppercase; letter-spacing: 0.14em;
+    padding: 5px 11px; border: 1px solid var(--line-strong); border-radius: 999px;
+    color: var(--ink-2);
+  }
+  .tag.v-now  { color: var(--green); border-color: rgba(78, 195, 138, 0.35); }
+  .tag.v-wait { color: var(--orange-1); border-color: rgba(255, 189, 105, 0.35); }
+  .tag.v-skip { color: var(--ink-3); border-color: var(--line-strong); }
+  .gap-name { font-family: var(--serif); font-size: clamp(28px, 4vw, 40px); line-height: 1.06; letter-spacing: -0.015em; margin: 0 0 12px; font-weight: 500; text-wrap: balance; }
+  .gap-thesis { font-family: var(--serif); font-style: italic; font-size: 18px; color: var(--ink-2); line-height: 1.5; margin: 0; max-width: 640px; text-wrap: pretty; }
+
+  .sub { margin: 32px 0; }
+  .sub-label {
+    font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.16em; color: var(--ink-3);
+    margin-bottom: 14px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .sub-label::before { content: ""; width: 14px; height: 1px; background: var(--orange-2); }
+  .sub p {
+    font-family: var(--serif); font-size: 16.5px; line-height: 1.6;
+    color: var(--ink); margin: 0 0 12px; text-wrap: pretty; max-width: 760px;
+  }
+  .sub p.muted { color: var(--ink-2); }
+  .sub p strong { color: var(--ink); font-weight: 500; }
+
+  /* sketch — what it contains */
+  .sketch {
+    margin: 16px 0;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: linear-gradient(180deg, rgba(22, 33, 44, 0.45), rgba(12, 20, 27, 0.45));
+    overflow: hidden;
+  }
+  .sketch-head {
+    padding: 14px 22px;
+    border-bottom: 1px solid var(--line);
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: var(--orange-2);
+  }
+  .sketch-body { padding: 22px 24px; }
+  .sketch-body ul { margin: 0; padding: 0; list-style: none; }
+  .sketch-body li {
+    padding: 10px 0;
+    border-top: 1px dashed var(--line);
+    font-family: var(--serif); font-size: 15.5px; color: var(--ink);
+    line-height: 1.5;
+  }
+  .sketch-body li:first-child { border-top: 0; padding-top: 0; }
+  .sketch-body li b {
+    font-family: var(--mono); font-size: 10.5px;
+    text-transform: uppercase; letter-spacing: 0.14em;
+    color: var(--ink-3); display: block; font-weight: 500;
+    margin-bottom: 4px;
+  }
+
+  /* placement strip */
+  .placement {
+    margin: 18px 0 8px;
+    padding: 18px 22px;
+    border-radius: 10px;
+    background: rgba(78, 195, 138, 0.05);
+    border-left: 2px solid var(--green);
+  }
+  .placement.wait { background: rgba(255, 189, 105, 0.05); border-left-color: var(--orange-1); }
+  .placement.skip { background: rgba(124, 138, 149, 0.05); border-left-color: var(--ink-3); }
+  .placement-k {
+    font-family: var(--mono); font-size: 10.5px;
+    text-transform: uppercase; letter-spacing: 0.16em;
+    color: var(--green); display: block; margin-bottom: 6px;
+  }
+  .placement.wait .placement-k { color: var(--orange-1); }
+  .placement.skip .placement-k { color: var(--ink-3); }
+  .placement-v { font-family: var(--serif); font-size: 15.5px; color: var(--ink); line-height: 1.55; margin: 0; }
+
+  /* nav-map at end */
+  .navmap {
+    margin: 64px 0 0;
+    border: 1px solid var(--line-strong);
+    border-radius: 16px;
+    padding: 40px 40px;
+    background:
+      radial-gradient(600px 300px at 100% 0%, rgba(255, 157, 47, 0.06), transparent 60%),
+      linear-gradient(180deg, rgba(22, 33, 44, 0.55), rgba(12, 20, 27, 0.55));
+    position: relative; overflow: hidden;
+  }
+  .navmap::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 2px; background: var(--grad); opacity: 0.6; }
+  @media (max-width: 720px) { .navmap { padding: 28px 22px; } }
+  .navmap h2 { font-family: var(--serif); font-size: clamp(28px, 4vw, 40px); font-weight: 500; letter-spacing: -0.015em; margin: 0 0 14px; }
+  .navmap h2 em { font-style: italic; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .navmap > p { font-family: var(--serif); font-size: 17px; color: var(--ink-2); line-height: 1.55; max-width: 720px; margin: 0 0 24px; }
+  pre.tree {
+    font-family: var(--mono); font-size: 13px; line-height: 1.7;
+    color: var(--ink-2); background: var(--bg-0);
+    border: 1px solid var(--line); border-radius: 10px;
+    padding: 22px 24px; margin: 0;
+    overflow-x: auto; white-space: pre;
+  }
+  pre.tree .add { color: var(--green); }
+  pre.tree .ext { color: var(--orange-2); }
+  pre.tree .ex  { color: var(--ink-3); }
+
+  .doc-foot { margin-top: 80px; padding-top: 28px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px; font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--ink-3); }
+</style>
+</head>
+<body>
+<main class="page" data-screen-label="Content Gaps">
+
+  <header class="mast">
+    <div class="mast-brand">MacroPulse<span class="accent"></span></div>
+    <div class="mast-meta">
+      <strong>Content &amp; structural gap audit</strong><br />
+      Internal · 11 May 2026
+    </div>
+  </header>
+
+  <div class="doc-eyebrow">Site Strategy</div>
+  <h1 class="doc-title">What's <em>missing</em>, and what to ship first.</h1>
+  <p class="doc-lede">
+    Eight gaps a research newsletter at this stage typically needs. For each:
+    a verdict (ship now / wait / skip), a sketch of what it contains, and where
+    it sits in the navigation. A consolidated nav map closes the document.
+  </p>
+  <div class="doc-byline">
+    <span>Audience: founder + part-time editor</span>
+    <span>Stage: pre-paid-tier</span>
+    <span>Voice: research, not marketing</span>
+  </div>
+
+  <div class="caveat">
+    <strong>Disclaimer on the regulatory point.</strong> Section 07 outlines the
+    likely shape of UK disclosure for paid research content, framed as <em>advisory caveat</em>
+    rather than legal advice. Before you charge for content, get a UK solicitor with FCA
+    experience to confirm. The shape below is conservative on purpose.
+  </div>
+
+  <!-- Summary table -->
+  <div class="summary">
+    <div class="summary-head">
+      <div>Gap</div>
+      <div>Verdict</div>
+      <div>Where in nav</div>
+    </div>
+    <div class="summary-row">
+      <div class="summary-name">Indicator glossary<small>01 · M2, PMI, BTC.D, real yields…</small></div>
+      <div><span class="verdict now">Ship now</span></div>
+      <div class="summary-where">Footer + /methodology/glossary/ + inline tooltips</div>
+    </div>
+    <div class="summary-row">
+      <div class="summary-name">Sample-issues archive<small>02 · public, before paid tier</small></div>
+      <div><span class="verdict now">Ship now</span></div>
+      <div class="summary-where">Primary nav: /newsletter/ becomes the archive</div>
+    </div>
+    <div class="summary-row">
+      <div class="summary-name">Pricing page<small>03 · Free / £19 / £79</small></div>
+      <div><span class="verdict wait">Wait — paid tier launch</span></div>
+      <div class="summary-where">Primary nav: /pricing/ on launch day</div>
+    </div>
+    <div class="summary-row">
+      <div class="summary-name">Testimonials &amp; social proof<small>04 · quotes, logos, counts</small></div>
+      <div><span class="verdict wait">Wait — 100 paid subs</span></div>
+      <div class="summary-where">Inline on / and /newsletter/, not a page</div>
+    </div>
+    <div class="summary-row">
+      <div class="summary-name">"How we differ" comparison<small>05 · vs. Glassnode, Bankless, Twitter</small></div>
+      <div><span class="verdict now">Ship now</span></div>
+      <div class="summary-where">Section on /about/ — not its own page</div>
+    </div>
+    <div class="summary-row">
+      <div class="summary-name">Press / media kit<small>06 · logos, bio, screenshots</small></div>
+      <div><span class="verdict skip">Skip for now</span></div>
+      <div class="summary-where">Future: footer link to /press/</div>
+    </div>
+    <div class="summary-row">
+      <div class="summary-name">UK regulatory disclosure<small>07 · FCA-aware research caveat</small></div>
+      <div><span class="verdict now">Ship now</span></div>
+      <div class="summary-where">/legal/disclaimer/ + footer + paid-tier checkout</div>
+    </div>
+    <div class="summary-row">
+      <div class="summary-name">RSS / follow without subscribing<small>08 · low cost, high signal</small></div>
+      <div><span class="verdict now">Ship now</span></div>
+      <div class="summary-where">Footer "Follow" cluster — no nav real estate</div>
+    </div>
+  </div>
+
+  <!-- ─── 01 GLOSSARY ─── -->
+  <section class="gap" id="g1">
+    <div class="gap-head">
+      <div class="gap-num">01</div>
+      <div>
+        <div class="gap-meta"><span class="tag v-now">Ship now</span><span class="tag">Trust-building</span><span class="tag">SEO upside</span></div>
+        <h2 class="gap-name">Indicator glossary</h2>
+        <p class="gap-thesis">
+          You reference M2, PMI, real yields, BTC.D and TOTAL like the reader knows
+          them. A glossary turns that confidence into onboarding.
+        </p>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Why it matters now</div>
+      <p>
+        Your audience is split: half are macro-fluent allocators who don't need
+        definitions; half are crypto-native traders who recognise BTC.D but not real
+        yields, or vice versa. A glossary lets the prose stay tight (no parenthetical
+        definitions interrupting flow) while still being legible to both. Bonus: each
+        indicator page is a clean long-tail SEO target — "what is BTC dominance" gets
+        searched.
+      </p>
+    </div>
+
+    <div class="sketch">
+      <div class="sketch-head">What it contains</div>
+      <div class="sketch-body">
+        <ul>
+          <li><b>Header</b>One-line definition in Fraunces 22px italic. The kind of sentence you'd want a colleague to memorise.</li>
+          <li><b>Why we watch it</b>Two paragraphs of editorial body. <em>How it moves the cycle.</em> Not a textbook.</li>
+          <li><b>How we score it</b>Tier (1/2/3), threshold for supportive/neutral/headwind, source. Mono mini-table.</li>
+          <li><b>Recent reading</b>Latest value pulled from the dashboard, with the 30-day direction arrow. Live, but quiet.</li>
+          <li><b>Further reading</b>Three external links — FRED, BIS, a textbook chapter. No affiliate stuff.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Initial set</div>
+      <p>
+        Twelve indicators total, matching the dashboard scorecard:
+        <strong>M2, ISM, DXY, Real Yields, 2s10s, Fed Balance Sheet</strong> (Tier 1 &amp; 2);
+        <strong>BTC, ETH, ETH/BTC, BTC.D, TOTAL, Funding, Stablecoin Dominance</strong> (Tier 3).
+      </p>
+    </div>
+
+    <div class="placement">
+      <span class="placement-k">Placement</span>
+      <p class="placement-v">
+        Index page at <code style="font-family:var(--mono); color:var(--ink);">/methodology/glossary/</code>, linked from the methodology TOC and from the footer's "Reference" column.
+        Each indicator has its own URL — <code style="font-family:var(--mono); color:var(--ink);">/methodology/glossary/m2/</code> — and the scorecard rows on /dashboard/ link to them via a small mono "↗ define" affordance.
+      </p>
+    </div>
+  </section>
+
+  <!-- ─── 02 ARCHIVE ─── -->
+  <section class="gap" id="g2">
+    <div class="gap-head">
+      <div class="gap-num">02</div>
+      <div>
+        <div class="gap-meta"><span class="tag v-now">Ship now</span><span class="tag">Conversion-critical</span></div>
+        <h2 class="gap-name">Sample-issues archive</h2>
+        <p class="gap-thesis">
+          The newsletter page should be an archive, not a pitch. Allocators
+          want to read three issues before they pay for the fourth.
+        </p>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Why it matters now</div>
+      <p>
+        Right now /newsletter/ is a conversion surface. That's the wrong job:
+        before someone pays £19/month they want to see how you actually write,
+        not how you describe how you write. The homepage shows three sample
+        tiles — three is too few. An archive of <strong>every issue, free</strong>
+        through the launch of the paid tier is the cheapest, highest-trust thing
+        you can build.
+      </p>
+    </div>
+
+    <div class="sketch">
+      <div class="sketch-head">What it contains</div>
+      <div class="sketch-body">
+        <ul>
+          <li><b>Header</b>Mono eyebrow "ARCHIVE", Fraunces H1 "Every weekly note, since launch.", italic 19px lede about cadence and length.</li>
+          <li><b>Row per issue</b>Mono date · Fraunces 19px headline · italic 14px regime tag (e.g. "BTC Accumulation"). Hairline rule between. Click opens the issue.</li>
+          <li><b>Issue page</b>Date + regime tag + headline + body, set in your editorial body type. Linked to the dashboard state on that date when possible.</li>
+          <li><b>Search / filter</b>Optional later — for now, chronological is enough. Group by month at most.</li>
+          <li><b>Footer CTA</b>One CTA strip at the bottom: "Read it as it lands — subscribe." Not above the archive; archives are not pitches.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="placement">
+      <span class="placement-k">Placement</span>
+      <p class="placement-v">
+        Repurpose <code style="font-family:var(--mono); color:var(--ink);">/newsletter/</code> as the archive index. The current marketing copy moves to a smaller "About the newsletter" block above the archive — or
+        merges into /about/. New issues live at <code style="font-family:var(--mono); color:var(--ink);">/newsletter/2026-05-12-cpi-week/</code> — date-slug URLs.
+      </p>
+    </div>
+  </section>
+
+  <!-- ─── 03 PRICING ─── -->
+  <section class="gap" id="g3">
+    <div class="gap-head">
+      <div class="gap-num">03</div>
+      <div>
+        <div class="gap-meta"><span class="tag v-wait">Wait</span><span class="tag">Tied to paid launch</span></div>
+        <h2 class="gap-name">Pricing page</h2>
+        <p class="gap-thesis">
+          A pricing page before you have something to charge for is a promise
+          you can't keep. Ship it the day the paid tier opens, not before.
+        </p>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Why <em>wait</em>, specifically</div>
+      <p>
+        Two costs to shipping pricing early. First, an empty paid tier is
+        worse than no paid tier — visitors form the impression "they're trying
+        to charge but no one's buying." Second, you'll iterate the tier
+        definitions twice before launch; pages live in your sitemap accrue
+        SEO weight you don't want pointing at draft pricing.
+      </p>
+      <p>
+        That said, you should <strong>design</strong> the page now (so launch
+        day is a flip-the-switch moment) and you should expose a tiny "paid
+        tier coming" line on the homepage as soft validation marketing.
+      </p>
+    </div>
+
+    <div class="sketch">
+      <div class="sketch-head">What it contains (when it ships)</div>
+      <div class="sketch-body">
+        <ul>
+          <li><b>Hero</b>Mono eyebrow "PRICING", Fraunces H1 "Three tiers. The same lens." Italic lede: <em>"Pick the cadence that fits how you read."</em></li>
+          <li><b>Three columns</b>Free · Weekly £19/mo · Pro £79/mo. Each column: name, single-line promise, price, "What you get" 5-item list, single CTA.</li>
+          <li><b>Pro column</b>Subtle orange-2 hairline along its top edge — the system's signal accent. No "MOST POPULAR" badge; that's marketing-page language. Use the design system's restraint.</li>
+          <li><b>Annual toggle</b>Mono "Monthly / Annual" switch above the columns. Annual at 10× monthly (i.e. two months free).</li>
+          <li><b>Below the columns</b>FAQ-style — "Can I expense this?", "Do you offer team pricing?", "Will free tier still exist?" — five questions max. Reuses the FAQ accordion pattern.</li>
+          <li><b>Compliance line</b>Mono fine-print at the bottom: "Research &amp; education only. Not investment advice." Links to /legal/disclaimer/.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="placement">
+      <span class="placement-k placement-k">Placement</span>
+      <p class="placement-v">
+        New primary nav item at launch: <code style="font-family:var(--mono); color:var(--ink);">/pricing/</code>. Until then, keep it out of nav entirely — pre-launch hint lives as a
+        single italic line above the footer: <em>"Free now. A paid tier is in beta — join the waitlist."</em>
+      </p>
+    </div>
+  </section>
+
+  <!-- ─── 04 TESTIMONIALS ─── -->
+  <section class="gap" id="g4">
+    <div class="gap-head">
+      <div class="gap-num">04</div>
+      <div>
+        <div class="gap-meta"><span class="tag v-wait">Wait — ~100 paid subs</span><span class="tag">Quality-gated</span></div>
+        <h2 class="gap-name">Testimonials &amp; social proof</h2>
+        <p class="gap-thesis">
+          Bad testimonials are worse than none. Wait until you have three
+          you'd put on a billboard — then place them, don't pile them.
+        </p>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Why <em>wait</em>, specifically</div>
+      <p>
+        The wrong testimonial signals "we needed to prove we had readers."
+        The right one signals "this person reads us and you'd respect them."
+        At your stage, MacroPulse's brand is more credible than any quote you
+        could harvest. Premature social proof is dilutive.
+      </p>
+      <p>
+        Set a trigger: once <strong>three subscribers</strong> who are
+        attributable (CIO/PM/strategist at a recognisable firm, or a
+        well-followed analyst) say something usable in an email,
+        ship the strip. Until then, don't.
+      </p>
+    </div>
+
+    <div class="sketch">
+      <div class="sketch-head">What it contains (when it ships)</div>
+      <div class="sketch-body">
+        <ul>
+          <li><b>Format</b>Three Fraunces 19px italic pull-quotes in a row, each ~30 words. Below each: mono "NAME · ROLE · FIRM" in ink-3. No photos.</li>
+          <li><b>Placement</b>One band on the homepage, between "Methodology Snapshot" and the sample-issues archive. <em>One band on the newsletter page</em>, just above the form. Never both visible together.</li>
+          <li><b>No subscriber counts</b>Don't post "joined by 1,200 allocators." Counts age badly; a strong quote ages forever.</li>
+          <li><b>No firm logos</b>Logos read as enterprise software, not editorial. Stick to text attribution.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="placement">
+      <span class="placement-k">Placement</span>
+      <p class="placement-v">
+        Inline only — never a /testimonials/ page. Hidden in code now, behind a
+        feature flag, so you can drop the three quotes in without a new section.
+      </p>
+    </div>
+  </section>
+
+  <!-- ─── 05 COMPARISON ─── -->
+  <section class="gap" id="g5">
+    <div class="gap-head">
+      <div class="gap-num">05</div>
+      <div>
+        <div class="gap-meta"><span class="tag v-now">Ship now</span><span class="tag">Positioning-critical</span></div>
+        <h2 class="gap-name">"How we differ" comparison</h2>
+        <p class="gap-thesis">
+          Visitors arrive holding a mental map: Glassnode = on-chain data,
+          Bankless = crypto-native journalism, CT = noise. Tell them where
+          you sit on that map before they have to guess.
+        </p>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Why it matters now</div>
+      <p>
+        At your stage every visitor is doing comparison shopping. If you
+        don't position, they position for you — and they'll guess wrong
+        roughly half the time. The cost of writing this section is ninety
+        minutes; the cost of not writing it is every visitor who decides
+        "this is just another crypto newsletter."
+      </p>
+    </div>
+
+    <div class="sketch">
+      <div class="sketch-head">What it contains</div>
+      <div class="sketch-body">
+        <ul>
+          <li><b>Not a feature table</b>Resist the urge to draw a Glassnode-vs-MacroPulse comparison grid. Feature tables read as combative and date badly. Use prose.</li>
+          <li><b>Three short paragraphs</b>One each for the three reference points: on-chain platforms, crypto-native media, retail commentary. Each ends with the contrast sentence.</li>
+          <li><b>Example contrast lines</b><em>On-chain platforms give you the data. We give you the read.</em> · <em>Crypto-native media tells you what happened. We tell you which regime you're in.</em> · <em>Twitter is opinion at retail tempo. MacroPulse is one disciplined call per week.</em></li>
+          <li><b>A closing positioning sentence</b>"MacroPulse is the macro-first lens for people who already have data tools and want a thesis."</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="placement">
+      <span class="placement-k">Placement</span>
+      <p class="placement-v">
+        On <code style="font-family:var(--mono); color:var(--ink);">/about/</code>, as the second section after the founder bio. Titled "How this is different" with a mono eyebrow "POSITIONING".
+        Not its own page — that frames it as defensive. As a section it reads as confident.
+      </p>
+    </div>
+  </section>
+
+  <!-- ─── 06 PRESS KIT ─── -->
+  <section class="gap" id="g6">
+    <div class="gap-head">
+      <div class="gap-num">06</div>
+      <div>
+        <div class="gap-meta"><span class="tag v-skip">Skip for now</span><span class="tag">Demand-driven</span></div>
+        <h2 class="gap-name">Press / media kit</h2>
+        <p class="gap-thesis">
+          A press kit is a response to inbound press, not a substitute for it.
+          Build it when the third journalist asks.
+        </p>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Why <em>skip</em>, specifically</div>
+      <p>
+        Two reasons. First, the things in a press kit (logo SVG, two-line bio,
+        founder photo, one screenshot) are five minutes of work when asked —
+        not a page to be designed. Second, having a /press/ page when no press
+        has called signals self-importance. The first journalist sending a DM
+        gets a Notion link with the assets. The third gets a /press/ page.
+      </p>
+      <p>
+        When the time comes, the page is short: bio at three lengths (50 / 150 /
+        400 words), founder portrait at two crops, logo SVG light/dark, three
+        dashboard screenshots, contact email. Five minutes of layout once you
+        have the assets ready.
+      </p>
+    </div>
+
+    <div class="placement skip">
+      <span class="placement-k">Placement</span>
+      <p class="placement-v">
+        When it ships: footer-only link to <code style="font-family:var(--mono); color:var(--ink);">/press/</code>. Never in primary nav.
+        For now: keep the assets in a Notion page; share that link when asked.
+      </p>
+    </div>
+  </section>
+
+  <!-- ─── 07 REGULATORY ─── -->
+  <section class="gap" id="g7">
+    <div class="gap-head">
+      <div class="gap-num">07</div>
+      <div>
+        <div class="gap-meta"><span class="tag v-now">Ship now</span><span class="tag">Pre-paid-tier essential</span><span class="tag">Advisory caveat — not legal advice</span></div>
+        <h2 class="gap-name">UK regulatory disclosure</h2>
+        <p class="gap-thesis">
+          The paid tier is a tripwire. Make sure the disclosure footing is in
+          place <em>before</em> you charge, not after the first complaint.
+        </p>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">The shape of the issue</div>
+      <p>
+        The UK regulator's concern is the line between <em>journalism /
+        commentary</em> (largely unregulated when generic) and <em>investment
+        advice</em> (regulated). Paid newsletters in the UK typically sit
+        on the journalism side <em>provided</em> they:
+      </p>
+      <p>
+        — make no <strong>personal recommendations</strong> (i.e. content is
+        for a general audience, not tailored to one reader's circumstances);
+        — make no <strong>performance claims</strong> framed as predictions
+        of future return;
+        — clearly disclose that content is <strong>research and education,
+        not investment advice</strong>;
+        — clearly disclose any <strong>positions held</strong> by the author
+        in assets discussed, or commit to none.
+      </p>
+      <p class="muted">
+        Crypto-specific marketing rules (the FCA's October 2023 financial
+        promotions regime) layer additional constraints on anything that
+        looks like promotion of a crypto asset. A research newsletter that
+        comments on BTC/ETH should be careful never to phrase content as
+        "you should buy" — the constraint is real and the wording matters.
+      </p>
+    </div>
+
+    <div class="sketch">
+      <div class="sketch-head">What ships — three placements</div>
+      <div class="sketch-body">
+        <ul>
+          <li><b>Dedicated page</b><code style="font-family:var(--mono); color:var(--ink);">/legal/disclaimer/</code> — a long-form research disclaimer. Sections: <em>nature of content, no personal advice, no performance guarantees, conflicts policy (positions held), distribution, jurisdictional notes (UK / US-aware), how to contact for corrections.</em></li>
+          <li><b>Footer line</b>Mono 11px on every page: "Research &amp; education only · Not investment advice · <a style="color:var(--ink-2); text-decoration: underline; text-decoration-color: var(--line-strong);">Full disclaimer ↗</a>"</li>
+          <li><b>Issue boilerplate</b>Each newsletter issue ends with a 2-line italic footer: <em>"MacroPulse is research and education, not investment advice. The author may hold positions in assets mentioned."</em></li>
+          <li><b>Checkout copy</b>When the paid tier ships, the Stripe checkout includes a mandatory checkbox: <em>"I understand MacroPulse is research, not investment advice."</em></li>
+          <li><b>About-page line</b>One italic sentence in the bio: <em>"MacroPulse is published by [Co. Name] Ltd, registered in England (#XXXXXXXX). It is research and education, not investment advice."</em></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">One thing to verify with a solicitor</div>
+      <p>
+        Specifically ask about <strong>the FCA's October 2023 financial
+        promotions regime as it applies to paid crypto-related content
+        distributed by a UK Ltd.</strong> — whether commentary that names
+        specific crypto assets (BTC, ETH) needs an FCA-authorised approver
+        for the marketing copy, even if the editorial content does not.
+        The answer drives whether your homepage and pricing-page copy
+        need an approver pathway, separate from your editorial disclaimer.
+      </p>
+    </div>
+
+    <div class="placement">
+      <span class="placement-k">Placement</span>
+      <p class="placement-v">
+        Three places: <code style="font-family:var(--mono); color:var(--ink);">/legal/disclaimer/</code> as the canonical page;
+        footer mono line site-wide; and a 2-line italic boilerplate in every issue's footer.
+        Get the solicitor sign-off <em>before</em> the paid tier opens.
+      </p>
+    </div>
+  </section>
+
+  <!-- ─── 08 RSS ─── -->
+  <section class="gap" id="g8">
+    <div class="gap-head">
+      <div class="gap-num">08</div>
+      <div>
+        <div class="gap-meta"><span class="tag v-now">Ship now</span><span class="tag">Low cost</span><span class="tag">Signals seriousness</span></div>
+        <h2 class="gap-name">RSS + follow without subscribing</h2>
+        <p class="gap-thesis">
+          Macro readers live in Feedbin. Ship RSS and you'll be read by
+          people who never gave you an email — which is fine, because some
+          of them will email later.
+        </p>
+      </div>
+    </div>
+
+    <div class="sub">
+      <div class="sub-label">Why it matters now</div>
+      <p>
+        The audience you want — buy-side macro types, ex-rates traders,
+        family-office allocators — disproportionately uses RSS. Beehiiv
+        emits RSS by default; the only work is exposing it in the footer.
+        A second affordance: a "view in browser" archive (which you'll
+        already have via gap §02). Together they say <em>"you can follow us
+        without giving us your email yet"</em> — a quietly confident move at
+        this stage.
+      </p>
+    </div>
+
+    <div class="sketch">
+      <div class="sketch-head">What it contains</div>
+      <div class="sketch-body">
+        <ul>
+          <li><b>Footer "Follow" cluster</b>Three mono labels in a row: <em>Email · RSS · X (optional)</em>. RSS link goes to the Beehiiv-generated <code style="font-family:var(--mono); color:var(--ink);">/feed.xml</code>, surfaced through your domain via a redirect.</li>
+          <li><b>Dashboard RSS (optional)</b>Separate feed for dashboard state changes — one entry per cycle-state transition. Niche but appreciated by the audience.</li>
+          <li><b>JSON Feed alongside</b>Modern readers prefer JSON Feed. Beehiiv doesn't emit it; trivially convertible via a single static endpoint. Skip if it's friction.</li>
+          <li><b>OPML</b>Skip. No one will use it.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="placement">
+      <span class="placement-k">Placement</span>
+      <p class="placement-v">
+        Footer "Follow" cluster only — no primary nav real estate. Surface the URL pattern as
+        <code style="font-family:var(--mono); color:var(--ink);">/feed.xml</code> on your own
+        domain (not the Beehiiv URL) so you can move providers later without breaking subscribers.
+      </p>
+    </div>
+  </section>
+
+  <!-- ─── NAV MAP ─── -->
+  <section class="navmap" id="map">
+    <h2>The resulting <em>navigation</em>.</h2>
+    <p>
+      If you ship every "now" item from this audit, the site grows by four URLs
+      and the primary nav stays the same length. Below: green is new, orange is
+      a meaningful structural change to an existing page, grey is unchanged.
+    </p>
+<pre class="tree">macropulse.uk/
+├── /                              <span class="ex">unchanged in nav</span>
+├── /dashboard/                    <span class="ex">unchanged</span>
+├── /newsletter/                   <span class="ext">→ becomes the archive index</span>
+│   └── /newsletter/&lt;date-slug&gt;/   <span class="add">+ per-issue pages</span>
+├── /methodology/                  <span class="ex">unchanged</span>
+│   └── /methodology/glossary/     <span class="add">+ index of 12 indicators</span>
+│       └── &lt;indicator&gt;/           <span class="add">+ one page per indicator</span>
+├── /about/                        <span class="ext">+ "How we differ" section</span>
+├── /faq/                          <span class="ex">unchanged</span>
+├── /contact/                      <span class="ex">unchanged</span>
+└── /legal/
+    ├── /legal/terms/              <span class="ex">unchanged</span>
+    ├── /legal/privacy/            <span class="ex">unchanged</span>
+    └── /legal/disclaimer/         <span class="add">+ canonical research disclaimer</span>
+
+WAITING — paid-tier launch:
+├── /pricing/                      <span class="ex">deferred</span>
+└── /press/                        <span class="ex">deferred, demand-driven</span>
+
+FOOTER additions (no nav):
+├── Follow · Email · RSS · X       <span class="add">+ feed.xml on your domain</span>
+└── Mono disclaimer line           <span class="add">+ site-wide</span></pre>
+  </section>
+
+  <footer class="doc-foot">
+    <div>MacroPulse · Content &amp; structural gaps</div>
+    <div>Eight gaps · Five ship now · Two wait · One skip</div>
+  </footer>
+
+</main>
+</body>
+</html>
