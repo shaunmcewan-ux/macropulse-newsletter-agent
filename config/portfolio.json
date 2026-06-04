@@ -1,4 +1,6 @@
 {
+  "_name": "Sample portfolio",
+  "_purpose": "Illustrative allocation showing how an investor might position assets in the current cycle phase. Inception 1 April 2026. Tracking ongoing.",
   "start_date": "2026-04-01",
   "start_value_gbp": 9000,
   "currency": "GBP",
@@ -8,8 +10,8 @@
       "name": "Bitcoin",
       "coingecko_id": "bitcoin",
       "entry_price_usd": 68089,
-      "allocation_pct": 50,
-      "start_value_gbp": 5000
+      "allocation_pct": 60,
+      "start_value_gbp": 5400
     },
     {
       "symbol": "SUI",
@@ -17,7 +19,7 @@
       "coingecko_id": "sui",
       "entry_price_usd": 0.8825,
       "allocation_pct": 20,
-      "start_value_gbp": 2000
+      "start_value_gbp": 1800
     },
     {
       "symbol": "DOGE",
@@ -25,7 +27,7 @@
       "coingecko_id": "dogecoin",
       "entry_price_usd": 0.0923,
       "allocation_pct": 20,
-      "start_value_gbp": 2000
+      "start_value_gbp": 1800
     }
   ]
 }

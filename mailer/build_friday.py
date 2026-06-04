@@ -14,8 +14,29 @@ from mailer.render import (
     indicator_tiles,
     portfolio_rows,
     render,
-    snapshot_rows,
+    scorecard_rows,
 )
+
+
+def _fetch_indicators_json() -> dict | None:
+    import json as _json, urllib.request as _u
+    try:
+        with _u.urlopen("https://www.macropulse.uk/data/indicators.json",
+                        timeout=15) as r:
+            return _json.load(r)
+    except Exception as e:
+        print(f"[build_friday] !! indicators.json fetch failed: {e}")
+        return None
+
+
+def _scorecard_tally(indicators_json: dict | None) -> str:
+    if not indicators_json:
+        return "Scorecard unavailable &mdash; indicators.json fetch failed."
+    inds = indicators_json.get("indicators", []) or []
+    sup = sum(1 for i in inds if (i.get("status") or "").lower() == "supportive")
+    neu = sum(1 for i in inds if (i.get("status") or "").lower() == "neutral")
+    hw  = sum(1 for i in inds if (i.get("status") or "").lower() == "headwind")
+    return f"{sup} supportive &middot; {neu} neutral &middot; {hw} headwind"
 
 ROOT = os.path.dirname(os.path.dirname(__file__))
 DIAL_FILE = os.path.join(ROOT, "config", "dial.json")
@@ -94,10 +115,15 @@ def build_friday_email(
     issue_date: str,
     issue_number: str = "&mdash;",
     preview_text: str | None = None,
+    indicators_data: dict | None = None,
 ) -> str:
     dial = _load_dial()
     sections = _parse_article_sections(article)
     headline, body_html = feature_body(sections["main"])
+
+    # Scorecard data — fetch indicators.json if not supplied
+    if indicators_data is None:
+        indicators_data = _fetch_indicators_json()
 
     holdings = portfolio_config.get("holdings", [])
     start_total = portfolio_config.get("start_value_gbp", 0.0)
@@ -133,7 +159,8 @@ def build_friday_email(
                                    size=400,
                                ),
 
-        "SNAPSHOT_ROWS":       snapshot_rows(prices),
+        "SCORECARD_TALLY":     _scorecard_tally(indicators_data),
+        "SCORECARD_ROWS":      scorecard_rows(indicators_data) if indicators_data else "",
         "INDICATOR_TILES":     indicator_tiles(indicators),
 
         "SPOT1_TITLE":         spot1_title,

@@ -69,22 +69,23 @@
           </table>
         </td></tr>
 
-        <!-- MARKET SNAPSHOT -->
+        <!-- SCORECARD (indicators.json) — Friday week-in-review view -->
         <tr><td class="gutter" style="padding:12px 32px;">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#111a23" style="background:#111a23;border:1px solid #1c2935;border-radius:32px;">
             <tr><td class="card-pad" style="padding:32px;">
-              <div style="display:none;max-height:0;overflow:hidden;mso-hide:all;font-size:0;line-height:0;color:#111a23;" aria-hidden="true">mp-card-snapshot</div>
-              <div style="font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:600;letter-spacing:0.28em;text-transform:uppercase;color:#7c8a95;">Market Snapshot</div>
-              <div style="font-family:Arial,Helvetica,sans-serif;font-size:20px;font-weight:600;letter-spacing:-0.01em;color:#edf3f7;margin-top:8px;line-height:1.3;">Where we are &mdash; week&rsquo;s close</div>
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:20px;font-family:Arial,Helvetica,sans-serif;">
+              <div style="display:none;max-height:0;overflow:hidden;mso-hide:all;font-size:0;line-height:0;color:#111a23;" aria-hidden="true">mp-card-scorecard</div>
+              <div style="font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:600;letter-spacing:0.28em;text-transform:uppercase;color:#7c8a95;">The eight indicators &middot; Scorecard</div>
+              <div style="font-family:Arial,Helvetica,sans-serif;font-size:20px;font-weight:600;letter-spacing:-0.01em;color:#edf3f7;margin-top:8px;line-height:1.3;">{{SCORECARD_TALLY}}</div>
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:18px;border-collapse:collapse;">
                 <tr>
-                  <td align="left" style="padding:0 0 10px;font-size:10px;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:#7c8a95;border-bottom:1px solid rgba(255,255,255,0.1);">Asset</td>
-                  <td align="right" style="padding:0 0 10px;font-size:10px;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:#7c8a95;border-bottom:1px solid rgba(255,255,255,0.1);">Price</td>
-                  <td align="right" style="padding:0 0 10px;font-size:10px;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:#7c8a95;border-bottom:1px solid rgba(255,255,255,0.1);">24h</td>
-                  <td align="right" style="padding:0 0 10px;font-size:10px;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:#7c8a95;border-bottom:1px solid rgba(255,255,255,0.1);">7d</td>
+                  <th align="left"   style="padding:0 12px 10px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;color:#7c8a95;border-bottom:1px solid rgba(237,243,247,0.10);">Indicator</th>
+                  <th align="left"   style="padding:0 12px 10px;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;color:#7c8a95;border-bottom:1px solid rgba(237,243,247,0.10);">Status</th>
+                  <th align="center" style="padding:0 12px 10px;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;color:#7c8a95;border-bottom:1px solid rgba(237,243,247,0.10);">Trend</th>
+                  <th align="left"   style="padding:0 0 10px 12px;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;color:#7c8a95;border-bottom:1px solid rgba(237,243,247,0.10);">Latest</th>
                 </tr>
-{{SNAPSHOT_ROWS}}
-</table>
+                {{SCORECARD_ROWS}}
+              </table>
+              <p style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#7c8a95;margin:18px 0 0;letter-spacing:0.04em;">Tap any indicator for its full definition; the arrow opens the chart.</p>
             </td></tr>
           </table>
         </td></tr>
@@ -148,8 +149,8 @@
         <tr><td class="gutter" style="padding:12px 32px;">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#111a23" style="background:#111a23;border:1px solid #1c2935;border-radius:32px;">
             <tr><td class="card-pad" style="padding:32px;">
-              <div style="font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:600;letter-spacing:0.28em;text-transform:uppercase;color:#7c8a95;">Portfolio Performance</div>
-              <div style="font-family:Arial,Helvetica,sans-serif;font-size:20px;font-weight:600;letter-spacing:-0.01em;color:#edf3f7;margin-top:8px;line-height:1.3;">Live book &mdash; held positions</div>
+              <div style="font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:600;letter-spacing:0.28em;text-transform:uppercase;color:#7c8a95;">Sample portfolio &middot; Week PnL</div>
+              <div style="font-family:Arial,Helvetica,sans-serif;font-size:20px;font-weight:600;letter-spacing:-0.01em;color:#edf3f7;margin-top:8px;line-height:1.3;">Illustrative book &mdash; since 1 April 2026</div>
 
               <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:20px;font-family:Arial,Helvetica,sans-serif;">
                 <tr>

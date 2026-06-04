@@ -599,6 +599,93 @@ def indicator_tiles(indicators: Mapping[str, object]) -> str:
     )
 
 
+# ── Monday "Opening position" sample portfolio (forward-looking variant) ─────
+def portfolio_opening_rows(holdings: Iterable[dict],
+                           prices: Mapping[str, dict]) -> str:
+    """
+    Render the Monday "Opening position" sample portfolio as a 3-row table.
+
+    Columns: Asset · Allocation % · Entry $ · Current $ · Position £
+    No green/red pills, no week-change column — this is a calm positional
+    view of how the sample book is allocated heading INTO the week.
+    """
+    rows = []
+    items = list(holdings)
+    last_idx = len(items) - 1
+
+    def _fmt_usd(v):
+        if v is None: return "&mdash;"
+        if abs(v) >= 1000: return f"${v:,.0f}"
+        if abs(v) >= 1:    return f"${v:,.2f}"
+        return f"${v:,.4f}"
+
+    def _fmt_gbp(v):
+        if v is None: return "&mdash;"
+        if abs(v) >= 1000: return f"&pound;{v:,.0f}"
+        return f"&pound;{v:,.2f}"
+
+    for idx, h in enumerate(items):
+        is_last = (idx == last_idx)
+        border  = "" if is_last else f"border-bottom:1px solid {ROW_DIVIDER};"
+        pad     = "14px 0 0" if is_last else "14px 0"
+
+        sym       = h["symbol"]
+        alloc_pct = h.get("allocation_pct", 0)
+        entry_usd = h.get("entry_price_usd", 0.0)
+        start_gbp = h.get("start_value_gbp", 0.0)
+        cur_usd   = (prices.get(sym, {}) or {}).get("price")
+
+        if cur_usd and entry_usd:
+            cur_gbp = start_gbp * (cur_usd / entry_usd)
+        else:
+            cur_gbp = start_gbp
+
+        rows.append(
+            f'                <tr>\n'
+            f'                  <td align="left"  style="padding:{pad};font-size:15px;font-weight:600;color:#edf3f7;{border}">{sym}</td>\n'
+            f'                  <td align="right" style="padding:{pad};font-size:14px;color:{TXT_SECONDARY};{border}">{alloc_pct}%</td>\n'
+            f'                  <td align="right" style="padding:{pad};font-size:14px;color:{TXT_SECONDARY};{border}">{_fmt_usd(entry_usd)}</td>\n'
+            f'                  <td align="right" style="padding:{pad};font-size:14px;font-weight:500;color:#edf3f7;{border}">{_fmt_usd(cur_usd)}</td>\n'
+            f'                  <td align="right" style="padding:{pad};font-size:14px;font-weight:600;color:#edf3f7;{border}">{_fmt_gbp(cur_gbp)}</td>\n'
+            f'                </tr>'
+        )
+    return "\n".join(rows)
+
+
+def portfolio_opening_totals(holdings: Iterable[dict],
+                             prices: Mapping[str, dict],
+                             start_total_gbp: float) -> tuple[str, str]:
+    """
+    Compute the book's current £ value and a short summary line for the
+    'opening position' card footer.
+
+    Returns (book_value_str, summary_line) — both pre-formatted HTML-safe.
+    """
+    current = 0.0
+    start   = 0.0
+    for h in holdings:
+        sym = h["symbol"]
+        entry_usd = h.get("entry_price_usd", 0.0)
+        start_gbp = h.get("start_value_gbp", 0.0)
+        cur_usd   = (prices.get(sym, {}) or {}).get("price")
+        start += start_gbp
+        if cur_usd and entry_usd:
+            current += start_gbp * (cur_usd / entry_usd)
+        else:
+            current += start_gbp
+
+    if start <= 0:
+        start = start_total_gbp or 9000.0
+    delta_pct = ((current / start) - 1) * 100
+    sign = "+" if delta_pct >= 0 else "&#8722;"
+    book_value = f"&pound;{current:,.0f}"
+    summary = (
+        f"Baseline &pound;{start:,.0f} since 1 April 2026 &middot; "
+        f"book value {book_value} ({sign}{abs(delta_pct):.1f}%)"
+    )
+    return book_value, summary
+
+
 # ── portfolio (Friday) ───────────────────────────────────────────────────────
 def portfolio_rows(holdings: Iterable[dict], prices: Mapping[str, dict],
                    start_value_gbp_total: float) -> tuple[str, float]:

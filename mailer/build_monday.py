@@ -12,8 +12,9 @@ from mailer.render import (
     coming_up_rows,
     dial_svg,
     feature_body,
+    portfolio_opening_rows,
+    portfolio_opening_totals,
     render,
-    scorecard_rows,
     snapshot_rows,
 )
 
@@ -196,6 +197,7 @@ def build_monday_email(
     preview_text: str | None = None,
     calendar_data: dict | None = None,
     indicators_data: dict | None = None,
+    portfolio_config: dict | None = None,
 ) -> str:
     dial = _load_dial()
     sections = _parse_article_sections(article)
@@ -204,9 +206,21 @@ def build_monday_email(
     # but the body and headline are no longer rendered as their own section.
     headline, body_html = feature_body(sections["main"])
 
-    # Scorecard data — fetched here if not supplied by the caller
-    if indicators_data is None:
-        indicators_data = _fetch_indicators_json()
+    # Sample-portfolio data — load from config/portfolio.json if not supplied
+    if portfolio_config is None:
+        try:
+            import json as _json
+            with open(os.path.join(ROOT, "config", "portfolio.json"),
+                      encoding="utf-8") as _f:
+                portfolio_config = _json.load(_f)
+        except Exception as _e:
+            print(f"[build_monday] !! portfolio.json load failed: {_e}")
+            portfolio_config = {"holdings": [], "start_value_gbp": 9000}
+    _holdings    = portfolio_config.get("holdings", []) or []
+    _start_total = portfolio_config.get("start_value_gbp", 9000.0)
+    _book_value, _portfolio_summary = portfolio_opening_totals(
+        _holdings, prices, _start_total,
+    )
 
     # ── Coming Up section (calendar.json) ────────────────────────────────────
     cal_events = (calendar_data or {}).get("events", []) or []
@@ -256,8 +270,8 @@ def build_monday_email(
                                  size=400,
                              ),
 
-        "SCORECARD_TALLY":   _scorecard_tally(indicators_data),
-        "SCORECARD_ROWS":    scorecard_rows(indicators_data) if indicators_data else "",
+        "PORTFOLIO_OPENING_ROWS":    portfolio_opening_rows(_holdings, prices),
+        "PORTFOLIO_OPENING_SUMMARY": _portfolio_summary,
 
         "SNAPSHOT_LABEL":    _snapshot_label(),
         "SNAPSHOT_ROWS":     snapshot_rows(prices),
