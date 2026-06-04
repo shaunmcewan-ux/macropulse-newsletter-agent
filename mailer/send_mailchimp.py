@@ -123,6 +123,123 @@ def send_campaign(campaign_id: str) -> None:
     )
     resp.raise_for_status()
     print(f"[mailchimp] Campaign {campaign_id} sent to list.")
+    # Auto-archive: commit + push archive/ so the website picks up the new issue.
+    try:
+        archive_after_send(campaign_id)
+    except Exception as e:
+        print(f"[archive] !! auto-archive failed: {e}")
+        print("[archive] Run manually: git add archive/ && git commit && git push")
+
+
+def archive_after_send(campaign_id: str) -> None:
+    """
+    After a successful Mailchimp send, copy the rendered HTML draft into
+    archive/, update archive/index.json, and commit+push to origin/main.
+
+    Reads drafts/pending_campaign.json to find the draft file and subject.
+    Safe to call multiple times — git will say 'nothing to commit' if there
+    are no changes.
+    """
+    import os, json, subprocess, shutil, datetime as _dt
+    from pathlib import Path
+
+    repo_root = Path(__file__).resolve().parent.parent
+    pending   = repo_root / "drafts" / "pending_campaign.json"
+    archive   = repo_root / "archive"
+    archive.mkdir(exist_ok=True)
+    manifest_path = archive / "index.json"
+
+    if not pending.exists():
+        print("[archive] no drafts/pending_campaign.json — skipping")
+        return
+
+    with open(pending, encoding="utf-8") as f:
+        meta = json.load(f)
+    if meta.get("campaign_id") != campaign_id:
+        print(f"[archive] pending_campaign.json doesn't match {campaign_id} — skipping")
+        return
+
+    src_html = Path(meta["html_path"])
+    if not src_html.exists():
+        print(f"[archive] !! html missing: {src_html}")
+        return
+
+    archived = archive / src_html.name
+    shutil.copy2(src_html, archived)
+    print(f"[archive] copied -> {archived.relative_to(repo_root)}")
+
+    # Update index.json — load existing, prepend/replace this issue entry
+    if manifest_path.exists():
+        with open(manifest_path, encoding="utf-8") as f:
+            manifest = json.load(f)
+    else:
+        manifest = {"_schema_version": 1, "issues": []}
+
+    # Derive a slug + issue metadata from the filename: YYYY-MM-DD-{monday|friday}.html
+    stem = src_html.stem  # "2026-06-03-monday"
+    parts = stem.rsplit("-", 1)
+    date_str, kind = parts[0], parts[1].lower() if len(parts) == 2 else (stem, "monday")
+    kind = "monday" if "monday" in kind else "friday"
+    title = "Week Ahead" if kind == "monday" else "Week in Review"
+    slug  = f"{date_str}-{title.lower().replace(' ', '-')}"
+
+    # Try to pull editorial metadata from config/dial.json (best-effort)
+    dial_state = ""
+    try:
+        with open(repo_root / "config" / "dial.json", encoding="utf-8") as f:
+            dial_state = json.load(f).get("phase", "")
+    except Exception:
+        pass
+
+    entry = {
+        "date":                  date_str,
+        "type":                  kind,
+        "title":                 title,
+        "subject":               meta.get("subject", ""),
+        "dial_state":            dial_state,
+        "html_path":             f"archive/{src_html.name}",
+        "mailchimp_campaign_id": campaign_id,
+        "sent_at":               _dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "slug":                  slug,
+    }
+    # Replace any existing entry with the same campaign_id or slug; then append.
+    manifest["issues"] = [
+        i for i in manifest.get("issues", [])
+        if i.get("mailchimp_campaign_id") != campaign_id and i.get("slug") != slug
+    ]
+    manifest["issues"].append(entry)
+    # Sort ascending by date, newest last (matches existing convention).
+    manifest["issues"].sort(key=lambda i: i.get("date", ""))
+
+    with open(manifest_path, "w", encoding="utf-8") as f:
+        json.dump(manifest, f, indent=2, ensure_ascii=False)
+        f.write("\n")
+    print(f"[archive] updated -> {manifest_path.relative_to(repo_root)}")
+
+    # Commit + push
+    def _git(*args):
+        return subprocess.run(
+            ["git", *args], cwd=repo_root, check=False,
+            capture_output=True, text=True,
+        )
+    _git("add", "archive/")
+    status = _git("status", "--porcelain", "archive/").stdout.strip()
+    if not status:
+        print("[archive] nothing new to commit")
+        return
+    commit = _git(
+        "commit",
+        "-m", f"Archive {kind} issue {date_str} (campaign {campaign_id})",
+    )
+    if commit.returncode != 0:
+        print(f"[archive] !! commit failed: {commit.stderr.strip()}")
+        return
+    push = _git("push", "origin", "HEAD:main")
+    if push.returncode != 0:
+        print(f"[archive] !! push failed: {push.stderr.strip()}")
+        print("[archive] Run manually: git push origin main")
+        return
+    print("[archive] pushed to origin/main — website will pick up within 5 min")
 
 
 def upload_image(png_bytes: bytes, filename: str) -> str:
