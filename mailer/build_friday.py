@@ -11,8 +11,8 @@ from typing import Mapping
 from mailer.render import (
     dial_svg,
     feature_body,
-    indicator_tiles,
     portfolio_rows,
+    portfolio_totals_row,
     render,
     scorecard_rows,
 )
@@ -129,11 +129,18 @@ def build_friday_email(
     start_total = portfolio_config.get("start_value_gbp", 0.0)
     port_rows, book_pnl_pct = portfolio_rows(holdings, prices, start_total)
 
-    sym1 = chart_symbols[0] if len(chart_symbols) > 0 else "BTC_D"
-    sym2 = chart_symbols[1] if len(chart_symbols) > 1 else "TOTAL3"
+    sym1 = chart_symbols[0] if len(chart_symbols) > 0 else "ISM"
+    sym2 = chart_symbols[1] if len(chart_symbols) > 1 else "10Y2Y"
 
-    spot1_title    = f"{sym1} &mdash; the cycle tell"
-    spot2_title    = f"{sym2} &mdash; alt market structure"
+    # Friendly per-symbol title; falls back to "{sym} - this week's setup".
+    _spotlight_titles = {
+        "ISM":   "ISM PMI &mdash; macro tape extends its run",
+        "10Y2Y": "10Y&minus;2Y curve &mdash; testing the lower trendline",
+        "BTC_D": "BTC.D &mdash; the cycle tell",
+        "TOTAL3": "TOTAL3 &mdash; alt market structure",
+    }
+    spot1_title = _spotlight_titles.get(sym1, f"{sym1} &mdash; this week")
+    spot2_title = _spotlight_titles.get(sym2, f"{sym2} &mdash; this week")
     spot1_analysis = _format_paragraphs(sections["spot1"]) or _default_analysis(sym1)
     spot2_analysis = _format_paragraphs(sections["spot2"]) or _default_analysis(sym2)
 
@@ -161,7 +168,6 @@ def build_friday_email(
 
         "SCORECARD_TALLY":     _scorecard_tally(indicators_data),
         "SCORECARD_ROWS":      scorecard_rows(indicators_data) if indicators_data else "",
-        "INDICATOR_TILES":     indicator_tiles(indicators),
 
         "SPOT1_TITLE":         spot1_title,
         "SPOT1_CHART_SVG":     _spotlight_svg_or_fallback(charts, sym1),
@@ -170,16 +176,8 @@ def build_friday_email(
         "SPOT2_CHART_SVG":     _spotlight_svg_or_fallback(charts, sym2),
         "SPOT2_ANALYSIS":      spot2_analysis,
 
-        "PORTFOLIO_ROWS":      port_rows,
-        "BOOK_PNL":            book_pnl_str,
-        "ALLOCATION_HEADLINE": "Stay weighted to held positions",
-        "ALLOCATION_BODY":     "The book is positioned for the regime that&rsquo;s playing out &mdash; no changes this issue.",
-
-        "FEATURE_EYEBROW":     "Last Week",
-        "FEATURE_HEADLINE":    headline,
-        "FEATURE_BODY":        body_html,
-        "FEATURE_CTA_URL":     "https://www.macropulse.uk/newsletter/",
-        "FEATURE_CTA_LABEL":   "Read the full review &rarr;",
+        "PORTFOLIO_ROWS":         port_rows,
+        "PORTFOLIO_TOTALS_ROW":   portfolio_totals_row(holdings, prices, start_total),
     }
 
     return render("friday", tokens)

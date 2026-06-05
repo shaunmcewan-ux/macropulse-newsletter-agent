@@ -687,6 +687,46 @@ def portfolio_opening_totals(holdings: Iterable[dict],
 
 
 # ── portfolio (Friday) ───────────────────────────────────────────────────────
+def portfolio_totals_row(holdings: Iterable[dict],
+                         prices: Mapping[str, dict],
+                         start_total_gbp: float) -> str:
+    """
+    Render a TOTALS row to append below the per-asset rows. Shows total
+    Entry £, total Now £, blank 7d cell, and since-inception % coloured
+    green/red. Lives inside the same <table> as portfolio_rows().
+    """
+    start_sum = 0.0
+    current   = 0.0
+    for h in holdings:
+        sym = h["symbol"]
+        entry_usd = h.get("entry_price_usd", 0.0)
+        start_gbp = h.get("start_value_gbp", 0.0)
+        cur_usd   = (prices.get(sym, {}) or {}).get("price")
+        start_sum += start_gbp
+        if cur_usd and entry_usd:
+            current += start_gbp * (cur_usd / entry_usd)
+        else:
+            current += start_gbp
+
+    base = start_total_gbp or start_sum or 9000.0
+    since = ((current / base) - 1) * 100 if base else 0.0
+    sign  = "&#8722;" if since < 0 else "+"
+    since_color = PILL_POS_TEXT if since >= 0 else PILL_NEG_TEXT
+
+    def _fmt_gbp(v):
+        return f"&pound;{v:,.0f}" if abs(v) >= 1000 else f"&pound;{v:,.2f}"
+
+    return (
+        f'                <tr>\n'
+        f'                  <td align="left"  style="padding:14px 0 0;font-size:15px;font-weight:700;color:{TXT_PRIMARY};border-top:1px solid {ROW_DIVIDER_TOP};letter-spacing:0.04em;text-transform:uppercase;">Total</td>\n'
+        f'                  <td align="right" style="padding:14px 0 0;font-size:14px;color:{TXT_SECONDARY};border-top:1px solid {ROW_DIVIDER_TOP};">{_fmt_gbp(start_sum)}</td>\n'
+        f'                  <td align="right" style="padding:14px 0 0;font-size:14px;font-weight:700;color:{TXT_PRIMARY};border-top:1px solid {ROW_DIVIDER_TOP};">{_fmt_gbp(current)}</td>\n'
+        f'                  <td align="right" style="padding:14px 0 0;border-top:1px solid {ROW_DIVIDER_TOP};">&mdash;</td>\n'
+        f'                  <td align="right" style="padding:14px 0 0;font-size:14px;font-weight:700;color:{since_color};border-top:1px solid {ROW_DIVIDER_TOP};">{sign}{abs(since):.1f}%</td>\n'
+        f'                </tr>'
+    )
+
+
 def portfolio_rows(holdings: Iterable[dict], prices: Mapping[str, dict],
                    start_value_gbp_total: float) -> tuple[str, float]:
     """

@@ -47,19 +47,41 @@ def run(article: str, dry_run: bool = False):
 
     # ── Generate feature charts (indicators) ──────────────────────────────────
     print(f"[run_friday] Generating charts for: {chart_symbols}")
+    # Chart loading mirrors run_monday: provided TradingView export first
+    # (drafts/charts/<sym.lower()>.{png,jpg,jpeg}), auto-gen fallback only for
+    # symbols our price feeds support; everything else is skipped (the email
+    # builder will render a "Chart unavailable" placeholder for that slot).
+    charts_dir = os.path.join(DRAFTS_DIR, "charts")
     charts = {}
     for sym in chart_symbols:
         print(f"  -> {sym}...")
-        if sym in ("BTC", "ETH", "SUI", "DOGE", "SP500", "GOLD", "OIL"):
-            history = fetch_price_history(sym, days=30)
-        else:
-            history = fetch_price_history("BTC", days=30)
 
-        if not history:
-            continue
-        color = asset_colors.get(sym, "#ff9d2f")
-        is_mc = sym in ("TOTAL", "TOTAL2", "TOTAL3")
-        png_bytes = render_chart_png(history, symbol=sym, color=color, is_mcap=is_mc)
+        # 1. Provided image takes priority
+        png_bytes = None
+        for ext in (".png", ".jpg", ".jpeg"):
+            candidate = os.path.join(charts_dir, f"{sym.lower()}{ext}")
+            if os.path.exists(candidate):
+                with open(candidate, "rb") as f:
+                    png_bytes = f.read()
+                print(f"     using provided chart: {os.path.basename(candidate)}")
+                break
+
+        # 2. Fallback: auto-generate from our price feed (only for known symbols)
+        if png_bytes is None:
+            if sym in ("BTC", "ETH", "SUI", "DOGE", "SP500", "GOLD", "OIL"):
+                history = fetch_price_history(sym, days=30)
+            else:
+                # Indicator symbols (ISM, 10Y2Y, BTC_D, TOTAL3, etc.) have no
+                # auto-gen path — they need a hand-exported chart in drafts/charts/.
+                print(f"     no provided image and no auto-gen path for {sym} - skipping")
+                continue
+            if not history:
+                print(f"     no price history for {sym} - skipping")
+                continue
+            color = asset_colors.get(sym, "#ff9d2f")
+            is_mc = sym in ("TOTAL", "TOTAL2", "TOTAL3")
+            png_bytes = render_chart_png(history, symbol=sym, color=color, is_mcap=is_mc)
+            print(f"     no provided image - auto-generated 30-day chart")
         if not dry_run:
             try:
                 url = upload_image(png_bytes, f"chart-{sym.lower()}-{today.isoformat()}.png")
