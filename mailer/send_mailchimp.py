@@ -114,8 +114,33 @@ def send_test_email(campaign_id: str, test_email: str = None) -> None:
 
 
 def send_campaign(campaign_id: str) -> None:
-    """Send the campaign to the full list. IRREVERSIBLE."""
+    """Send the campaign to the full list. IRREVERSIBLE.
+
+    Belt-and-braces: re-PATCHes the campaign's subject_line from the saved
+    pending_campaign.json right before firing, so Mailchimp can never leak a
+    '[TEST]' or other test-flow modification into the live send.
+    """
     base, auth, _ = get_client()
+
+    # Defensive subject restore from pending_campaign.json (best-effort).
+    try:
+        pending_path = os.path.join(
+            os.path.dirname(os.path.dirname(__file__)), "drafts", "pending_campaign.json"
+        )
+        with open(pending_path, encoding="utf-8") as f:
+            meta = json.load(f)
+        clean_subject = meta.get("subject")
+        if clean_subject and meta.get("campaign_id") == campaign_id:
+            requests.patch(
+                f"{base}/campaigns/{campaign_id}",
+                auth=auth,
+                json={"settings": {"subject_line": clean_subject}},
+                timeout=20,
+            )
+            print(f"[mailchimp] Reasserted clean subject: \"{clean_subject}\"")
+    except Exception as e:
+        print(f"[mailchimp] !! subject restore skipped: {e}")
+
     resp = requests.post(
         f"{base}/campaigns/{campaign_id}/actions/send",
         auth=auth,
@@ -264,17 +289,31 @@ def upload_image(png_bytes: bytes, filename: str) -> str:
 
 
 def draft_and_test(html_path: str, subject: str, preview_text: str = "",
-                   test_email: str = None) -> str:
+                   test_email: str = None, send_test: bool = False) -> str:
     """
-    Full flow: create campaign, upload HTML, send test.
-    Returns the campaign_id so it can be saved for later sending.
+    Build a campaign draft on Mailchimp. Returns the campaign_id.
+
+    By default this does NOT send a test email — that's a Mailchimp action that
+    prepends "[TEST]" to the subject, which the user kept seeing in their inbox
+    alongside the live send. Pass send_test=True (or use the --test CLI flag)
+    if you actually want a test fired.
+
+    Recommended review flow:
+      1. Run the orchestrator (scheduled task or manual). It creates the draft
+         and prints the campaign_id.
+      2. Eyeball the local HTML: open drafts/<date>-<type>.html in a browser.
+      3. Optionally send a test:
+            python mailer/send_mailchimp.py --campaign-id <id> --test
+      4. Publish to the list:
+            python mailer/send_mailchimp.py --campaign-id <id> --send
     """
     with open(html_path, encoding="utf-8") as f:
         html = f.read()
 
     campaign_id = create_campaign(subject, preview_text)
     set_campaign_content(campaign_id, html)
-    send_test_email(campaign_id, test_email)
+    if send_test:
+        send_test_email(campaign_id, test_email)
 
     # Save campaign ID to a pending file so approve.py can use it
     pending_path = os.path.join(
@@ -305,7 +344,11 @@ if __name__ == "__main__":
             send_campaign(args.campaign_id)
         else:
             print("Cancelled.")
+    elif args.test and args.campaign_id:
+        # Send a test email for an existing campaign (the orchestrator's draft).
+        send_test_email(args.campaign_id)
     elif args.test and args.html:
-        draft_and_test(args.html, args.subject, args.preview)
+        # Build a fresh draft AND send a test in one shot.
+        draft_and_test(args.html, args.subject, args.preview, send_test=True)
     else:
         parser.print_help()

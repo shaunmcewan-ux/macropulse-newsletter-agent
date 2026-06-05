@@ -178,16 +178,22 @@ def run(article: str, chart_analysis: str = "", dry_run: bool = False):
         print("[run_monday] Dry run — skipping Mailchimp upload.")
         return draft_path
 
-    # ── Upload to Mailchimp + send test ───────────────────────────────────────
-    print("[run_monday] Uploading to Mailchimp and sending test email...")
+    # ── Upload to Mailchimp (draft only; no test email auto-sent) ─────────────
+    print("[run_monday] Uploading HTML to Mailchimp as a draft campaign...")
     subject      = f"MacroPulse | Week Ahead | {issue_date}"
     preview_text = f"Key events and market setup for the week of {events_data.get('week_start', today.isoformat())}"
 
     try:
+        # send_test defaults to False — keeps the user's inbox free of [TEST]
+        # subject lines. The orchestrator's job is to build the draft; testing
+        # and sending are explicit follow-up steps.
         campaign_id = draft_and_test(draft_path, subject, preview_text)
-        print(f"\n[run_monday] OK Done. Campaign ID: {campaign_id}")
-        print(f"[run_monday] Test email sent to owner. Review and approve via:")
-        print(f"  python email/send_mailchimp.py --campaign-id {campaign_id} --send")
+        print(f"\n[run_monday] OK Draft saved. Campaign ID: {campaign_id}")
+        print(f"[run_monday] Review the HTML at: {draft_path}")
+        print(f"[run_monday] Optional test email to owner:")
+        print(f"  python mailer/send_mailchimp.py --campaign-id {campaign_id} --test")
+        print(f"[run_monday] Publish to the list:")
+        print(f"  python mailer/send_mailchimp.py --campaign-id {campaign_id} --send")
     except Exception as e:
         print(f"[run_monday] Mailchimp error: {e}")
         print(f"[run_monday] Draft is saved locally at: {draft_path}")
