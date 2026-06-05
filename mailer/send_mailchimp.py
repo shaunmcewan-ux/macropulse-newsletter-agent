@@ -289,23 +289,23 @@ def upload_image(png_bytes: bytes, filename: str) -> str:
 
 
 def draft_and_test(html_path: str, subject: str, preview_text: str = "",
-                   test_email: str = None, send_test: bool = False) -> str:
+                   test_email: str = None, send_test: bool = True) -> str:
     """
-    Build a campaign draft on Mailchimp. Returns the campaign_id.
+    Build a campaign draft on Mailchimp and send a test email by default.
+    Returns the campaign_id.
 
-    By default this does NOT send a test email — that's a Mailchimp action that
-    prepends "[TEST]" to the subject, which the user kept seeing in their inbox
-    alongside the live send. Pass send_test=True (or use the --test CLI flag)
-    if you actually want a test fired.
-
-    Recommended review flow:
-      1. Run the orchestrator (scheduled task or manual). It creates the draft
-         and prints the campaign_id.
-      2. Eyeball the local HTML: open drafts/<date>-<type>.html in a browser.
-      3. Optionally send a test:
+    Workflow:
+      1. Orchestrator runs (Monday/Friday) → creates draft + sends test to owner.
+         The test arrives with Mailchimp's "[TEST]" subject prefix — that is
+         Mailchimp's behaviour, not stored on the campaign.
+      2. Owner reviews, edits article/charts, may run another test:
             python mailer/send_mailchimp.py --campaign-id <id> --test
-      4. Publish to the list:
+      3. Owner approves and publishes:
             python mailer/send_mailchimp.py --campaign-id <id> --send
+         send_campaign() re-PATCHes the campaign's subject_line right before
+         firing, so the live send is guaranteed [TEST]-free.
+
+    Pass send_test=False to skip the auto-test (rarely needed).
     """
     with open(html_path, encoding="utf-8") as f:
         html = f.read()

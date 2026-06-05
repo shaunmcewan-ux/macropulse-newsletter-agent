@@ -132,19 +132,20 @@ def run(article: str, dry_run: bool = False):
         print("[run_friday] Dry run — skipping Mailchimp upload.")
         return draft_path
 
-    # ── Upload to Mailchimp (draft only; no test email auto-sent) ─────────────
-    print("[run_friday] Uploading HTML to Mailchimp as a draft campaign...")
+    # ── Upload to Mailchimp + send test for review ────────────────────────────
+    print("[run_friday] Uploading to Mailchimp and sending test email for review...")
     subject      = f"MacroPulse | Week in Review | {issue_date}"
     preview_text = "This week's market recap, indicator pulse, and portfolio performance."
 
     try:
-        # send_test defaults to False — see run_monday.py for the rationale.
+        # send_test=True (default): owner gets a test email; live send re-PATCHes
+        # the clean subject so subscribers never see [TEST]. See run_monday.py.
         campaign_id = draft_and_test(draft_path, subject, preview_text)
-        print(f"\n[run_friday] OK Draft saved. Campaign ID: {campaign_id}")
-        print(f"[run_friday] Review the HTML at: {draft_path}")
-        print(f"[run_friday] Optional test email to owner:")
+        print(f"\n[run_friday] OK Test sent. Campaign ID: {campaign_id}")
+        print(f"[run_friday] Review the test email in your inbox.")
+        print(f"[run_friday] After edits, re-send a test:")
         print(f"  python mailer/send_mailchimp.py --campaign-id {campaign_id} --test")
-        print(f"[run_friday] Publish to the list:")
+        print(f"[run_friday] When approved, publish to the list:")
         print(f"  python mailer/send_mailchimp.py --campaign-id {campaign_id} --send")
     except Exception as e:
         print(f"[run_friday] Mailchimp error: {e}")
