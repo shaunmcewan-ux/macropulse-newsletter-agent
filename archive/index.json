@@ -27,6 +27,17 @@
       "mailchimp_campaign_id": "2ab9addea3",
       "sent_at": "2026-06-05T20:55:43Z",
       "slug": "2026-06-05-week-in-review"
+    },
+    {
+      "date": "2026-06-08",
+      "type": "monday",
+      "title": "Week Ahead",
+      "subject": "MacroPulse | Week Ahead | 8 June 2026",
+      "dial_state": "BTC Accumulation",
+      "html_path": "archive/2026-06-08-monday.html",
+      "mailchimp_campaign_id": "cd390511c1",
+      "sent_at": "2026-06-08T20:21:03Z",
+      "slug": "2026-06-08-week-ahead"
     }
   ]
 }
