@@ -123,6 +123,32 @@ Required fields:
 - One paragraph may start with `>` — it renders as a pull-quote with an orange left border
 - Plain text only (no markdown). Use en/em dashes as `-` or `—` — the renderer keeps them as-is.
 
+## Issue headlines — REQUIRED, every issue
+
+Every issue MUST have a distinctive, issue-specific headline. It appears on the
+website archive (macropulse.uk/newsletter/) and the homepage "Latest issue"
+strip, so it has to tell a reader what THIS issue is about at a glance.
+
+Rules:
+- Never blank, never generic. "Week Ahead", "Week in Review", or the date alone
+  are NOT headlines — those are the issue *type*, rendered separately.
+- Reference the issue's specific story: the move, the print, the catalyst.
+  Good: "The −14% washout that didn't move the dial" · "CPI week: one print,
+  both headwinds in play". Bad: "Weekly update" · "Market review".
+- 5–12 words, sentence case, no exclamation marks, no clickbait.
+- The headline is the first line of the article txt file AND must be written
+  into `archive/index.json` as the `headline` field when the issue is archived.
+
+## Archive manifest — every entry must be complete
+
+After each send, the entry appended to `archive/index.json` MUST include ALL of:
+`issue_number` (increment from the previous entry — never null), `date`, `type`
+("monday"|"friday"), `title` ("Week Ahead"|"Week in Review"), `subject`,
+`headline` (per the rules above), `dial_state`, `dial_weeks_held`, `scorecard`,
+`html_path`, `mailchimp_campaign_id`, `sent_at`, `slug`. The website renders
+directly from this file — a missing headline or issue_number shows up as a
+broken-looking row on macropulse.uk within 5 minutes of the push.
+
 ## Files you can modify
 - `config/dial.json` — update each issue
 - `config/feedback/monday-feedback.md` — append feedback notes after user review
