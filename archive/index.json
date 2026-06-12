@@ -26,7 +26,9 @@
       "html_path": "archive/2026-06-05-friday.html",
       "mailchimp_campaign_id": "2ab9addea3",
       "sent_at": "2026-06-05T20:55:43Z",
-      "slug": "2026-06-05-week-in-review"
+      "slug": "2026-06-05-week-in-review",
+      "issue_number": 49,
+      "headline": "The −14% washout that didn't move the dial"
     },
     {
       "date": "2026-06-08",
@@ -37,7 +39,9 @@
       "html_path": "archive/2026-06-08-monday.html",
       "mailchimp_campaign_id": "cd390511c1",
       "sent_at": "2026-06-08T20:21:03Z",
-      "slug": "2026-06-08-week-ahead"
+      "slug": "2026-06-08-week-ahead",
+      "issue_number": 50,
+      "headline": "CPI week: one print, both headwinds in play"
     }
   ]
 }
