@@ -42,6 +42,17 @@
       "slug": "2026-06-08-week-ahead",
       "issue_number": 50,
       "headline": "CPI week: one print, both headwinds in play"
+    },
+    {
+      "date": "2026-06-12",
+      "type": "friday",
+      "title": "Week in Review",
+      "subject": "MacroPulse | Week in Review | 12 June 2026",
+      "dial_state": "BTC Accumulation",
+      "html_path": "archive/2026-06-12-friday.html",
+      "mailchimp_campaign_id": "0aad407562",
+      "sent_at": "2026-06-13T09:07:03Z",
+      "slug": "2026-06-12-week-in-review"
     }
   ]
 }
