@@ -44,11 +44,15 @@
       "headline": "CPI week: one print, both headwinds in play"
     },
     {
+      "issue_number": 51,
       "date": "2026-06-12",
       "type": "friday",
       "title": "Week in Review",
       "subject": "MacroPulse | Week in Review | 12 June 2026",
+      "headline": "Inflation hits a three-year high, the dollar falls anyway",
       "dial_state": "BTC Accumulation",
+      "dial_weeks_held": 7,
+      "scorecard": "4 supportive · 3 neutral · 1 headwind",
       "html_path": "archive/2026-06-12-friday.html",
       "mailchimp_campaign_id": "0aad407562",
       "sent_at": "2026-06-13T09:07:03Z",
