@@ -122,7 +122,11 @@ def send_campaign(campaign_id: str) -> None:
     """
     base, auth, _ = get_client()
 
-    # Defensive subject restore from pending_campaign.json (best-effort).
+    # Defensive subject restore from pending_campaign.json.
+    # Mailchimp stores "[TEST] ..." on the campaign when a test is sent;
+    # we PATCH it back and then verify with a GET before the live send.
+    # A failed PATCH or a mismatch on verify raises here — better to abort
+    # than to send "[TEST] MacroPulse ..." to the full subscriber list.
     try:
         pending_path = os.path.join(
             os.path.dirname(os.path.dirname(__file__)), "drafts", "pending_campaign.json"
@@ -131,15 +135,43 @@ def send_campaign(campaign_id: str) -> None:
             meta = json.load(f)
         clean_subject = meta.get("subject")
         if clean_subject and meta.get("campaign_id") == campaign_id:
-            requests.patch(
+            # 1. PATCH the subject back to the clean value.
+            patch_resp = requests.patch(
                 f"{base}/campaigns/{campaign_id}",
                 auth=auth,
                 json={"settings": {"subject_line": clean_subject}},
                 timeout=20,
             )
-            print(f"[mailchimp] Reasserted clean subject: \"{clean_subject}\"")
+            if not patch_resp.ok:
+                raise RuntimeError(
+                    f"Subject PATCH failed ({patch_resp.status_code}): "
+                    f"{patch_resp.text[:300]}"
+                )
+            print(f"[mailchimp] Subject PATCH accepted: \"{clean_subject}\"")
+
+            # 2. Verify the live campaign subject matches before sending.
+            get_resp = requests.get(
+                f"{base}/campaigns/{campaign_id}",
+                auth=auth,
+                timeout=20,
+            )
+            get_resp.raise_for_status()
+            live_subject = get_resp.json().get("settings", {}).get("subject_line", "")
+            if live_subject != clean_subject:
+                raise RuntimeError(
+                    f"Subject mismatch after PATCH — live='{live_subject}', "
+                    f"expected='{clean_subject}'. Aborting send."
+                )
+            print(f"[mailchimp] Subject verified clean: \"{live_subject}\"")
+        else:
+            print("[mailchimp] !! pending_campaign.json missing or campaign_id mismatch "
+                  "— cannot verify subject. Aborting send.")
+            raise RuntimeError("Cannot verify subject — aborting to protect subscriber list.")
+    except RuntimeError:
+        raise  # propagate to caller — do not proceed to send
     except Exception as e:
-        print(f"[mailchimp] !! subject restore skipped: {e}")
+        print(f"[mailchimp] !! subject restore failed unexpectedly: {e}")
+        raise RuntimeError(f"Subject restore error — aborting send: {e}") from e
 
     resp = requests.post(
         f"{base}/campaigns/{campaign_id}/actions/send",
@@ -208,28 +240,77 @@ def archive_after_send(campaign_id: str) -> None:
     title = "Week Ahead" if kind == "monday" else "Week in Review"
     slug  = f"{date_str}-{title.lower().replace(' ', '-')}"
 
-    # Try to pull editorial metadata from config/dial.json (best-effort)
-    dial_state = ""
+    existing = manifest.get("issues", [])
+
+    # issue_number: reuse this issue's number if we're re-archiving the same
+    # campaign/slug; otherwise increment from the highest number on file.
+    prior = next(
+        (i for i in existing
+         if i.get("mailchimp_campaign_id") == campaign_id or i.get("slug") == slug),
+        None,
+    )
+    if prior and isinstance(prior.get("issue_number"), int):
+        issue_number = prior["issue_number"]
+    else:
+        nums = [i["issue_number"] for i in existing
+                if isinstance(i.get("issue_number"), int)]
+        issue_number = (max(nums) + 1) if nums else 1
+
+    # headline: first non-blank line of the matching article draft.
+    headline = ""
+    article_file = repo_root / "drafts" / f"article-{kind}.txt"
     try:
-        with open(repo_root / "config" / "dial.json", encoding="utf-8") as f:
-            dial_state = json.load(f).get("phase", "")
+        with open(article_file, encoding="utf-8") as f:
+            for line in f:
+                if line.strip():
+                    headline = line.strip()
+                    break
     except Exception:
         pass
 
+    # dial_state + scorecard from the bot's indicators.json (the source of
+    # truth), falling back to config/dial.json for the state only.
+    dial_state, scorecard = "", ""
+    try:
+        with open(repo_root / "data" / "indicators.json", encoding="utf-8") as f:
+            ind = json.load(f)
+        dial_state = (ind.get("dial") or {}).get("state", "")
+        inds = ind.get("indicators", []) or []
+        sup = sum(1 for i in inds if (i.get("status") or "").lower() == "supportive")
+        neu = sum(1 for i in inds if (i.get("status") or "").lower() == "neutral")
+        hw  = sum(1 for i in inds if (i.get("status") or "").lower() == "headwind")
+        scorecard = f"{sup} supportive · {neu} neutral · {hw} headwind"
+    except Exception:
+        pass
+    if not dial_state:
+        try:
+            with open(repo_root / "config" / "dial.json", encoding="utf-8") as f:
+                dial_state = json.load(f).get("phase", "")
+        except Exception:
+            pass
+
+    if not headline:
+        print(f"[archive] !! headline empty — check {article_file.name}")
+    if not scorecard:
+        print("[archive] !! scorecard empty — check data/indicators.json")
+
     entry = {
+        "issue_number":          issue_number,
         "date":                  date_str,
         "type":                  kind,
         "title":                 title,
         "subject":               meta.get("subject", ""),
+        "headline":              headline,
         "dial_state":            dial_state,
+        "scorecard":             scorecard,
         "html_path":             f"archive/{src_html.name}",
         "mailchimp_campaign_id": campaign_id,
-        "sent_at":               _dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "sent_at":               _dt.datetime.now(_dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "slug":                  slug,
     }
     # Replace any existing entry with the same campaign_id or slug; then append.
     manifest["issues"] = [
-        i for i in manifest.get("issues", [])
+        i for i in existing
         if i.get("mailchimp_campaign_id") != campaign_id and i.get("slug") != slug
     ]
     manifest["issues"].append(entry)
