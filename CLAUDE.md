@@ -144,10 +144,13 @@ Rules:
 After each send, the entry appended to `archive/index.json` MUST include ALL of:
 `issue_number` (increment from the previous entry — never null), `date`, `type`
 ("monday"|"friday"), `title` ("Week Ahead"|"Week in Review"), `subject`,
-`headline` (per the rules above), `dial_state`, `dial_weeks_held`, `scorecard`,
+`headline` (per the rules above), `dial_state`, `scorecard`,
 `html_path`, `mailchimp_campaign_id`, `sent_at`, `slug`. The website renders
 directly from this file — a missing headline or issue_number shows up as a
 broken-looking row on macropulse.uk within 5 minutes of the push.
+
+Do NOT include `dial_weeks_held` — the field was retired on 2026-06-15 because
+the live `ledger.json` no longer serves a reliable `weeksHeld` value.
 
 ## Files you can modify
 - `config/dial.json` — update each issue
