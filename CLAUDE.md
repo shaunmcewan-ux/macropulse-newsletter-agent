@@ -75,14 +75,28 @@ Lead with what actually moved markets. Structure:
 
 ## Chart selection guidance
 
-Monday charts (price/technical focus):
-- Default: BTC + SP500
-- Override when: BTC is at a major technical level, Gold is breaking out, Oil is spiking
-- If a specific asset had a major move (>10%), feature that instead
+**Decide the spotlights fresh every issue — never reuse the previous issue's charts or
+analysis.** The orchestrator archives any chart image older than today out of `drafts/charts/`
+at the start of each run, so a new issue starts from a clean slate. Choose the charts that are
+most decision-relevant to the current week's news and the indicators moving the dial, then set
+the chosen symbols in `config/assets.json` (`monday.feature_charts` / `friday.feature_charts`).
 
-Friday charts (indicator/macro focus):
-- Default: BTC_D (dominance) + TOTAL3 (alt market structure)
-- Override when: ETH/BTC has had a significant move, TOTAL is testing a key level
+Monday charts (3 spotlights):
+- Spot 1 & 2 — price/technical focus, chosen from this week's news. Default to BTC for spot 1
+  if nothing stands out; override when an asset is at a major technical level, broke out, or
+  had a >10% move (DXY into an FOMC, real yields, Gold, Oil, etc.).
+- Spot 3 — a THEMATIC, current-news section, different in kind from the price spotlights:
+  rotate it each issue (Bitcoin Rainbow band, a SpaceX / notable IPO, corporate BTC-treasury
+  accumulation, ETF flows, a regulatory story). Write the analysis; tie it back to the dial.
+
+Friday charts (2 spotlights, indicator/macro focus):
+- Default: BTC_D (dominance) for spot 1 if nothing stands out; pick the second from what moved
+  this week (TOTAL3, ETH/BTC, 2s10s, DXY, real yields).
+
+Two-pass screenshot workflow: the first run produces a test draft with the analysis written and
+placeholder/auto-generated charts. Report the exact TradingView screenshots to capture and the
+filename to save each as (`drafts/charts/<symbol-in-lowercase>.png`). After the user saves this
+week's screenshots, re-run to embed them in the final.
 
 ## Portfolio baseline (hardcoded — do not change without instruction)
 - BTC: entry $68,089, 50% allocation, start value £5,000

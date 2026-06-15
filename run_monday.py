@@ -28,6 +28,7 @@ from data.fetch_prices     import fetch_all_prices, fetch_price_history
 from data.fetch_events     import fetch_week_events
 from data.fetch_calendar   import fetch_calendar, save_week_snapshot
 from charts.render_png     import render_chart_png
+from charts.freshness      import archive_stale_charts
 from mailer.build_monday    import build_monday_email
 from mailer.send_mailchimp  import draft_and_test, upload_image
 
@@ -96,6 +97,13 @@ def run(article: str, chart_analysis: str = "", dry_run: bool = False):
     # Either way the PNG is uploaded to Mailchimp's file manager and embedded as
     # a hosted image (Mailchimp strips data:image base64 URIs from campaign HTML).
     charts_dir = os.path.join(DRAFTS_DIR, "charts")
+    # A new issue must not reuse last issue's screenshots. Archive any image
+    # older than today; this issue's freshly-saved screenshots (mtime == today)
+    # are kept so re-runs still embed them.
+    stale = archive_stale_charts(charts_dir, today)
+    if stale:
+        print(f"[run_monday] Archived {len(stale)} stale chart image(s) from a previous issue: {stale}")
+        print(f"[run_monday] Save THIS week's TradingView screenshots into {charts_dir} and re-run for the final.")
     print(f"[run_monday] Building charts for: {chart_symbols} (provided images dir: {charts_dir})")
     charts = {}
     for sym in chart_symbols:

@@ -12,8 +12,8 @@ from mailer.render import (
     coming_up_rows,
     dial_svg,
     feature_body,
-    portfolio_opening_rows,
-    portfolio_opening_totals,
+    portfolio_rows,
+    portfolio_totals_row,
     render,
     snapshot_rows,
 )
@@ -35,7 +35,7 @@ def _snapshot_label() -> str:
     short   = d.strftime("%a")        # Mon, Tue, Wed...
     daynum  = d.strftime("%d").lstrip("0")
     mon     = d.strftime("%b")        # Jun
-    if weekday in ("Monday", "Friday"):
+    if weekday == "Friday":
         return f"{short} {daynum} {mon} close"
     return f"{short} {daynum} {mon}"
 
@@ -123,7 +123,7 @@ def _parse_article_sections(article: str) -> dict:
     import re
 
     text = article or ""
-    out = {"main": text, "spot1": None, "spot2": None,
+    out = {"main": text, "spot1": None, "spot2": None, "spot3": None,
            "comingup_intro": None, "event_notes": {}}
 
     # Split on lines starting with ## (preserving the marker line itself).
@@ -139,6 +139,8 @@ def _parse_article_sections(article: str) -> dict:
             out["spot1"] = body
         elif marker == "spot2":
             out["spot2"] = body
+        elif marker == "spot3":
+            out["spot3"] = body
         elif marker == "comingup_intro":
             out["comingup_intro"] = body
         elif marker.startswith("note:"):
@@ -218,9 +220,7 @@ def build_monday_email(
             portfolio_config = {"holdings": [], "start_value_gbp": 9000}
     _holdings    = portfolio_config.get("holdings", []) or []
     _start_total = portfolio_config.get("start_value_gbp", 9000.0)
-    _book_value, _portfolio_summary = portfolio_opening_totals(
-        _holdings, prices, _start_total,
-    )
+    _port_rows, _book_pnl_pct = portfolio_rows(_holdings, prices, _start_total)
 
     # ── Coming Up section (calendar.json) ────────────────────────────────────
     cal_events = (calendar_data or {}).get("events", []) or []
@@ -243,11 +243,49 @@ def build_monday_email(
 
     sym1 = chart_symbols[0] if len(chart_symbols) > 0 else "BTC"
     sym2 = chart_symbols[1] if len(chart_symbols) > 1 else "SP500"
+    sym3 = chart_symbols[2] if len(chart_symbols) > 2 else None
 
-    spot1_title    = f"{sym1} &mdash; this week&rsquo;s setup"
-    spot2_title    = f"{sym2} &mdash; cross-asset context"
+    _spotlight_titles = {
+        "BTC":    "BTC",
+        "BTC2":   "BTC",
+        "ETHBTC": "ETHBTC",
+        "ETH":    "ETH",
+        "SP500":  "S&amp;P 500",
+        "BTC.D":  "BTC.D",
+        "GOLD":   "Gold",
+        "DXY":    "US Dollar Index",
+        "RAINBOW": "Bitcoin Rainbow Chart",
+    }
+    spot1_title    = _spotlight_titles.get(sym1, f"{sym1} &mdash; this week&rsquo;s setup")
+    spot2_title    = _spotlight_titles.get(sym2, f"{sym2} &mdash; cross-asset context")
     spot1_analysis = _format_paragraphs(sections["spot1"]) or _default_analysis(sym1, prices)
     spot2_analysis = _format_paragraphs(sections["spot2"]) or _default_analysis(sym2, prices)
+
+    # Optional third spotlight — a thematic, current-news section (e.g. the
+    # Bitcoin Rainbow band, a SpaceX IPO read, corporate BTC treasuries).
+    # Rendered whenever a third feature chart is configured AND there is either
+    # an image OR written ##spot3 analysis. On a test draft with no screenshot
+    # yet, it shows a "Chart unavailable" placeholder beside the analysis so the
+    # user can see the section and capture the chart for the final.
+    spot3_section = ""
+    if sym3 and (charts.get(sym3) or sections["spot3"]):
+        spot3_title    = _spotlight_titles.get(sym3, f"{sym3} &mdash; long-term context")
+        spot3_analysis = (_format_paragraphs(sections["spot3"])
+                          or _default_analysis(sym3, prices))
+        spot3_chart    = _spotlight_svg_or_fallback(charts, sym3)
+        spot3_section = (
+            '<tr><td class="gutter" style="padding:12px 32px;">\n'
+            '  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#111a23" style="background:#111a23;border:1px solid #1c2935;border-radius:32px;">\n'
+            '    <tr><td class="card-pad" style="padding:32px;">\n'
+            '      <div style="display:none;max-height:0;overflow:hidden;mso-hide:all;font-size:0;line-height:0;color:#111a23;" aria-hidden="true">mp-card-spot3</div>\n'
+            '      <div style="font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:600;letter-spacing:0.28em;text-transform:uppercase;color:#7c8a95;">Chart Spotlight &middot; 03</div>\n'
+            f'      <div style="font-family:Arial,Helvetica,sans-serif;font-size:22px;font-weight:600;letter-spacing:-0.015em;color:#edf3f7;margin-top:8px;line-height:1.25;">{spot3_title}</div>\n'
+            f'      <div style="margin-top:18px;line-height:0;">{spot3_chart}</div>\n'
+            f'      <p style="font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.7;color:#b9c4cc;margin:18px 0 0;">{spot3_analysis}</p>\n'
+            '    </td></tr>\n'
+            '  </table>\n'
+            '</td></tr>'
+        )
 
     if not preview_text:
         preview_text = f"{dial.get('phase','')} &middot; {dial.get('phase_summary','')[:80]}"
@@ -270,8 +308,8 @@ def build_monday_email(
                                  size=400,
                              ),
 
-        "PORTFOLIO_OPENING_ROWS":    portfolio_opening_rows(_holdings, prices),
-        "PORTFOLIO_OPENING_SUMMARY": _portfolio_summary,
+        "PORTFOLIO_ROWS":          _port_rows,
+        "PORTFOLIO_TOTALS_ROW":    portfolio_totals_row(_holdings, prices, _start_total),
 
         "SNAPSHOT_LABEL":    _snapshot_label(),
         "SNAPSHOT_ROWS":     snapshot_rows(prices),
@@ -285,6 +323,7 @@ def build_monday_email(
         "SPOT2_TITLE":       spot2_title,
         "SPOT2_CHART_SVG":   _spotlight_svg_or_fallback(charts, sym2),
         "SPOT2_ANALYSIS":    spot2_analysis,
+        "SPOT3_SECTION":     spot3_section,
     }
 
     return render("monday", tokens)

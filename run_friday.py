@@ -16,6 +16,7 @@ sys.path.insert(0, ROOT)
 from data.fetch_prices      import fetch_all_prices, fetch_price_history
 from data.fetch_indicators  import fetch_global_indicators
 from charts.render_png      import render_chart_png
+from charts.freshness       import archive_stale_charts
 from mailer.build_friday     import build_friday_email
 from mailer.send_mailchimp   import draft_and_test, upload_image
 
@@ -52,6 +53,12 @@ def run(article: str, dry_run: bool = False):
     # symbols our price feeds support; everything else is skipped (the email
     # builder will render a "Chart unavailable" placeholder for that slot).
     charts_dir = os.path.join(DRAFTS_DIR, "charts")
+    # A new issue must not reuse last issue's screenshots. Archive any image
+    # older than today; this issue's freshly-saved screenshots are kept.
+    stale = archive_stale_charts(charts_dir, today)
+    if stale:
+        print(f"[run_friday] Archived {len(stale)} stale chart image(s) from a previous issue: {stale}")
+        print(f"[run_friday] Save THIS week's TradingView screenshots into {charts_dir} and re-run for the final.")
     charts = {}
     for sym in chart_symbols:
         print(f"  -> {sym}...")
