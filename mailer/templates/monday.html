@@ -69,25 +69,25 @@
           </table>
         </td></tr>
 
-        <!-- SAMPLE PORTFOLIO — Opening position (Monday forward-looking variant) -->
+        <!-- SAMPLE PORTFOLIO — Week PnL (matches Friday format) -->
         <tr><td class="gutter" style="padding:12px 32px;">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#111a23" style="background:#111a23;border:1px solid #1c2935;border-radius:32px;">
             <tr><td class="card-pad" style="padding:32px;">
-              <div style="display:none;max-height:0;overflow:hidden;mso-hide:all;font-size:0;line-height:0;color:#111a23;" aria-hidden="true">mp-card-portfolio-opening</div>
-              <div style="font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:600;letter-spacing:0.28em;text-transform:uppercase;color:#7c8a95;">Sample portfolio &middot; Opening position</div>
-              <div style="font-family:Arial,Helvetica,sans-serif;font-size:20px;font-weight:600;letter-spacing:-0.01em;color:#edf3f7;margin-top:8px;line-height:1.3;">How an investor might allocate this phase</div>
-              <p style="font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:1.6;color:#b9c4cc;margin:10px 0 0;">An illustrative book showing how to position assets for the current cycle phase. Not investment advice.</p>
+              <div style="display:none;max-height:0;overflow:hidden;mso-hide:all;font-size:0;line-height:0;color:#111a23;" aria-hidden="true">mp-card-portfolio</div>
+              <div style="font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:600;letter-spacing:0.28em;text-transform:uppercase;color:#7c8a95;">Sample portfolio &middot; Week PnL</div>
+              <div style="font-family:Arial,Helvetica,sans-serif;font-size:20px;font-weight:600;letter-spacing:-0.01em;color:#edf3f7;margin-top:8px;line-height:1.3;">Illustrative book &mdash; since 1 April 2026</div>
+
               <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:20px;font-family:Arial,Helvetica,sans-serif;">
                 <tr>
                   <td align="left"  style="padding:0 0 10px;font-size:10px;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:#7c8a95;border-bottom:1px solid rgba(237,243,247,0.10);">Asset</td>
-                  <td align="right" style="padding:0 0 10px;font-size:10px;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:#7c8a95;border-bottom:1px solid rgba(237,243,247,0.10);">Alloc</td>
                   <td align="right" style="padding:0 0 10px;font-size:10px;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:#7c8a95;border-bottom:1px solid rgba(237,243,247,0.10);">Entry</td>
                   <td align="right" style="padding:0 0 10px;font-size:10px;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:#7c8a95;border-bottom:1px solid rgba(237,243,247,0.10);">Now</td>
-                  <td align="right" style="padding:0 0 10px;font-size:10px;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:#7c8a95;border-bottom:1px solid rgba(237,243,247,0.10);">Position</td>
+                  <td align="right" style="padding:0 0 10px;font-size:10px;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:#7c8a95;border-bottom:1px solid rgba(237,243,247,0.10);">7d</td>
+                  <td align="right" style="padding:0 0 10px;font-size:10px;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:#7c8a95;border-bottom:1px solid rgba(237,243,247,0.10);">Since</td>
                 </tr>
-                {{PORTFOLIO_OPENING_ROWS}}
+{{PORTFOLIO_ROWS}}
+                {{PORTFOLIO_TOTALS_ROW}}
               </table>
-              <p style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#7c8a95;margin:18px 0 0;letter-spacing:0.04em;">{{PORTFOLIO_OPENING_SUMMARY}}</p>
             </td></tr>
           </table>
         </td></tr>
@@ -161,6 +161,9 @@
             </td></tr>
           </table>
         </td></tr>
+
+        <!-- CHART SPOTLIGHT 3 (optional) -->
+        {{SPOT3_SECTION}}
 
         <!-- FOOTER -->
         <tr><td class="gutter" style="padding:24px 32px 40px;">

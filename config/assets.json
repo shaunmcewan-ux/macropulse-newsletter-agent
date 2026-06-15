@@ -1,14 +1,14 @@
 {
   "monday": {
     "price_dashboard": ["BTC", "ETH", "SUI", "DOGE", "OIL", "GOLD", "SP500"],
-    "feature_charts": ["BTC", "BTC.D"],
-    "chart_comment": "Price/technical analysis focus — key levels, MAs, structure"
+    "feature_charts": ["BTC2", "DXY", "RAINBOW"],
+    "chart_comment": "2026-06-15 override: BTC technical (BTC2) + US Dollar Index (DXY) + Bitcoin Rainbow long-term band (RAINBOW) into the FOMC week"
   },
   "friday": {
     "price_dashboard": ["BTC", "ETH", "SUI", "DOGE", "OIL", "GOLD", "SP500"],
     "indicator_dashboard": ["BTC_D", "ETH_BTC", "TOTAL", "TOTAL2", "TOTAL3"],
-    "feature_charts": ["ISM", "10Y2Y"],
-    "chart_comment": "Indicator/macro focus — dominance, total market structure, M2"
+    "feature_charts": ["SP500", "BTCTREASURY"],
+    "chart_comment": "2026-06-12 override: S&P rebound/SpaceX (SP500) + corporate BTC treasury accumulation (BTCTREASURY)"
   },
   "coingecko_ids": {
     "BTC": "bitcoin",
