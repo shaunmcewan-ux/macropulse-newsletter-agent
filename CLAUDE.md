@@ -137,6 +137,32 @@ Required fields:
 - One paragraph may start with `>` — it renders as a pull-quote with an orange left border
 - Plain text only (no markdown). Use en/em dashes as `-` or `—` — the renderer keeps them as-is.
 
+## Dial state is derived from the scorecard — NEVER from a price narrative
+
+The dial state (`dial_state` / `current.state`) MUST follow the eight-indicator
+scorecard. That is the entire point of the framework. Score each indicator
+against its codified rule, tally supportive / neutral / headwind, and let the
+state follow the evidence.
+
+**Do not override the headline state on price-action grounds.** A sharp drawdown,
+an ETF-outflow streak, or "TOTAL is breaking down" is NOT a reason to stamp the
+dial "Risk Off" when the scored indicators don't support it. (This exact mistake
+shipped on 2026-06-18: the bot wrote `state: "Risk Off"` over a scorecard of 4
+supportive / 4 neutral / 0 headwind, net +4 — a clear BTC Accumulation read. The
+website's homepage and dashboard then disagreed publicly.)
+
+If a market move genuinely *should* move the dial, it has to do so **through an
+indicator's status under that indicator's rule** — e.g. liquidity rolling over,
+PMI breaking below 48, or stablecoin dominance triggering its headwind condition.
+If the rules don't capture a risk you think matters, flag it for a rule change;
+do not hand-edit the state.
+
+Sanity check before publishing: a state of "Risk Off" requires a clearly negative
+net; a bullish state (BTC Accumulation / Alt Rotation / Take Profit) requires a
+non-negative net. If your headline state contradicts the sign of the net score,
+the state is wrong — fix the scoring or the state, not the prose. The website
+carries a guard that logs this contradiction, so it will be visible.
+
 ## Issue headlines — REQUIRED, every issue
 
 Every issue MUST have a distinctive, issue-specific headline. It appears on the
