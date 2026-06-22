@@ -69,6 +69,20 @@
       "mailchimp_campaign_id": "8186abf955",
       "sent_at": "2026-06-15T10:22:45Z",
       "slug": "2026-06-15-week-ahead"
+    },
+    {
+      "issue_number": 53,
+      "date": "2026-06-22",
+      "type": "monday",
+      "title": "Week Ahead",
+      "subject": "MacroPulse | Week Ahead | 22 June 2026",
+      "headline": "Twelve weeks of BTC Accumulation, and Thursday decides if it's thirteen",
+      "dial_state": "BTC Accumulation",
+      "scorecard": "4 supportive · 3 neutral · 1 headwind",
+      "html_path": "archive/2026-06-22-monday.html",
+      "mailchimp_campaign_id": "50ba67463f",
+      "sent_at": "2026-06-22T13:55:41Z",
+      "slug": "2026-06-22-week-ahead"
     }
   ]
 }
