@@ -1,6 +1,17 @@
 {
-  "lastRunISO": "2026-07-02T08:53:54Z",
-  "priceAlerts": {},
-  "releases": {},
-  "news": {}
+  "lastRunISO": "2026-07-02T13:00:00Z",
+  "priceAlerts": {
+    "gold": {
+      "pct": 2.59,
+      "dir": "up",
+      "ISO": "2026-07-02T13:00:00Z",
+      "value": 4135.60
+    }
+  },
+  "releases": {
+    "nfp_june_2026": "2026-07-02T13:00:00Z"
+  },
+  "news": {
+    "btc_etf_outflows_june_2026": "2026-07-02T13:00:00Z"
+  }
 }
