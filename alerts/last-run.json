@@ -1,16 +1,20 @@
 {
-  "ranAtISO": "2026-07-02T15:05:38Z",
-  "windowSinceISO": "2026-07-02T09:02:03Z",
+  "ranAtISO": "2026-07-02T20:10:41Z",
+  "windowSinceISO": "2026-07-02T15:05:38Z",
   "queued": [
-    "NFP June: 57K vs 110K est — major jobs miss",
-    "Apr+May revisions: −74K combined; labor mkt softening",
-    "2yr yield 4.108% (−5bp); dollar falling post-print",
-    "July Fed hike off table; Sept cut back in play",
-    "BTC +~2.8% (24h) holding ground after June's −20.5% rout"
+    "Metaplanet +2,823 BTC ($170M) → treasury 43,000 BTC, now world's 3rd-largest corporate holder. First buy since April."
   ],
-  "suppressed": [],
+  "suppressed": [
+    "btc: +2.7% 24h (below 3.0% threshold)",
+    "dxy: -0.68% 24h (below 0.7% threshold)",
+    "oil: ~-2% 24h (below 3.0% threshold)",
+    "gold: ~+1.5% 24h (at threshold but could not confirm precise figure)",
+    "eth: data inconsistent across sources (-0.96% to +5.88%), not alerted",
+    "nfp-june-2026: already alerted at 2026-07-02T15:05:38Z",
+    "warsh-ecb-speech: preceded previous run window"
+  ],
   "ntfyCode": "000",
-  "ntfyResp": "Connection failed — ntfy.sh blocked by egress proxy (attempted twice)",
+  "ntfyResp": "ntfy.sh blocked by proxy (403 policy denial, same as prior run)",
   "pushCalled": true,
-  "notes": "macropulse.uk/api/dashboard blocked by egress proxy (403). ntfy.sh also blocked (000). Dashboard data sourced from WebSearch. Primary alert: NFP June 57K vs 110K expected, released 08:30 ET (13:30 UTC), within run window. BTC ~+2.8% (24h) below 3.0% threshold — included as context not a price alert. ISM Mfg PMI 53.3 (July 1) outside run window, not queued."
+  "notes": "macropulse.uk/api/dashboard blocked by proxy (403). ntfy.sh blocked (000). All data from WebSearch. BTC +2.7% (below 3% threshold — was +2.8% at prior run). Main NFP/Warsh story already captured at 15:05Z. One new news item: Metaplanet 2,823 BTC ($170M) purchase July 2, first buy since April, not in prior state."
 }
