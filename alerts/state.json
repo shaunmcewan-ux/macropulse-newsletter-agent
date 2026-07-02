@@ -1,14 +1,6 @@
 {
-  "lastRunISO": "2026-07-02T14:37:41Z",
-  "priceAlerts": {
-    "btc": {"pct": 3.63, "dir": "up", "ISO": "2026-07-02T14:37:41Z", "value": 61619},
-    "eth": {"pct": 6.24, "dir": "up", "ISO": "2026-07-02T14:37:41Z", "value": 1699.72}
-  },
-  "releases": {
-    "nfp_june_2026": "2026-07-02T14:37:41Z"
-  },
-  "news": {
-    "nfp_june_2026_miss": "2026-07-02T14:37:41Z",
-    "gold_jump_post_nfp": "2026-07-02T14:37:41Z"
-  }
+  "lastRunISO": "2026-07-02T08:53:54Z",
+  "priceAlerts": {},
+  "releases": {},
+  "news": {}
 }
