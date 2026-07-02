@@ -1,6 +1,8 @@
 {
-  "lastRunISO": "2026-07-02T09:02:03Z",
+  "lastRunISO": "2026-07-02T15:05:38Z",
   "priceAlerts": {},
-  "releases": {},
+  "releases": {
+    "nfp-june-2026": "2026-07-02T15:05:38Z"
+  },
   "news": {}
 }

@@ -1,0 +1,16 @@
+{
+  "ranAtISO": "2026-07-02T15:05:38Z",
+  "windowSinceISO": "2026-07-02T09:02:03Z",
+  "queued": [
+    "NFP June: 57K vs 110K est — major jobs miss",
+    "Apr+May revisions: −74K combined; labor mkt softening",
+    "2yr yield 4.108% (−5bp); dollar falling post-print",
+    "July Fed hike off table; Sept cut back in play",
+    "BTC +~2.8% (24h) holding ground after June's −20.5% rout"
+  ],
+  "suppressed": [],
+  "ntfyCode": "000",
+  "ntfyResp": "Connection failed — ntfy.sh blocked by egress proxy (attempted twice)",
+  "pushCalled": true,
+  "notes": "macropulse.uk/api/dashboard blocked by egress proxy (403). ntfy.sh also blocked (000). Dashboard data sourced from WebSearch. Primary alert: NFP June 57K vs 110K expected, released 08:30 ET (13:30 UTC), within run window. BTC ~+2.8% (24h) below 3.0% threshold — included as context not a price alert. ISM Mfg PMI 53.3 (July 1) outside run window, not queued."
+}
