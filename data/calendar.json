@@ -1,0 +1,75 @@
+{
+  "lastUpdated": "2026-06-15",
+  "events": [
+    {
+      "date": "2026-06-15",
+      "title": "BOJ Monetary Policy Meeting Day 1 (June 15-16, 2026)",
+      "category": "Central Bank",
+      "importance": "medium",
+      "note": "Bank of Japan's two-day policy meeting begins Monday June 15; Governor Ueda remains hospitalized (liver cyst, expected ~2-week stay) and will not vote, marking the first time a sitting BOJ governor has missed a meeting since 1998, with Deputy Governor Ryozo Himino presiding over the rate review and Deputy Governor Shinichi Uchida hosting the post-meeting press conference. Markets still widely expect a 25bp hike to 1.00% from 0.75%, with the Statement on Monetary Policy due June 16 (~3pm JST)."
+    },
+    {
+      "date": "2026-06-16",
+      "title": "BOJ Rate Decision (June 2026)",
+      "category": "Central Bank",
+      "importance": "high",
+      "note": "Bank of Japan Statement on Monetary Policy released on the final day of the June 15-16 meeting (~3pm JST / ~2am ET), chaired by Deputy Governors Himino and Uchida with Governor Ueda hospitalized; a 25bp hike to 1.00% from 0.75% is widely expected, which would mark the first time the policy rate has reached 1% since 1995. A hike would strengthen JPY, adding to dollar headwinds (ICE DXY currently ~99.56, neutral) and easing yen carry-trade unwind risk for global risk assets."
+    },
+    {
+      "date": "2026-06-16",
+      "title": "Housing Starts (May 2026)",
+      "category": "Growth",
+      "importance": "medium",
+      "note": "US Census Bureau New Residential Construction data for May 2026 at 8:30 a.m. ET; April starts came in at 1,465K. Released on the same day as FOMC Day 1 and the BOJ decision — a soft print would add to the case for eventual Fed easing, while a beat consistent with the strong ISM Manufacturing print (54.0%) would reinforce a hawkish hold bias."
+    },
+    {
+      "date": "2026-06-16",
+      "title": "FOMC Meeting Day 1 (June 16-17, 2026)",
+      "category": "Fed",
+      "importance": "high",
+      "note": "The FOMC's two-day meeting begins Tuesday June 16; the rate decision, Summary of Economic Projections, and press conference follow on June 17 at 2:00 p.m. ET. With real yields at 2.17% (still a headwind), ICE DXY near 99.56, ISM at 54.0%, and the 2s10s curve flattening to +0.40%, the Committee faces a mixed-to-hawkish data backdrop heading into the dot-plot update."
+    },
+    {
+      "date": "2026-06-17",
+      "title": "FOMC Decision + SEP + Press Conference (June 2026)",
+      "category": "Fed",
+      "importance": "high",
+      "note": "FOMC rate decision at 2:00 p.m. ET, followed by the Summary of Economic Projections (dot-plot) and Chair press conference at 2:30 p.m. ET; a hold is widely expected. With real yields still above 2% and the curve flattening, the dot-plot's 2026 cut count is the key swing factor — removal of remaining cuts would push DXY and real yields further into headwind territory, while retention would support the current BTC Accumulation backdrop."
+    },
+    {
+      "date": "2026-06-17",
+      "title": "Retail Sales (May 2026)",
+      "category": "Growth",
+      "importance": "medium",
+      "note": "US Census Bureau Advance Monthly Retail Sales for May 2026 at 8:30 a.m. ET — released the same morning as the FOMC decision. A beat consistent with the ISM Manufacturing expansion (54.0%) would reinforce a hawkish Fed bias; a miss would add weight to any dovish dot-plot signal."
+    },
+    {
+      "date": "2026-06-18",
+      "title": "BOE Rate Decision (June 2026)",
+      "category": "Central Bank",
+      "importance": "high",
+      "note": "Bank of England MPC decision published at noon UK time alongside meeting minutes; Bank Rate currently 3.75% and expected to be held. The decision arrives the day after the FOMC and BOJ moves, allowing the MPC to calibrate against both, and follows the ECB's surprise 25bp hike (to 2.25% deposit rate) on June 11 driven by Middle East-linked inflation pressure."
+    },
+    {
+      "date": "2026-06-24",
+      "title": "New Home Sales (May 2026)",
+      "category": "Growth",
+      "importance": "low",
+      "note": "US Census Bureau New Residential Sales report for May 2026 at 10:00 a.m. ET, a week after the FOMC, BOJ and BOE decisions and following the May Housing Starts print (June 16); the first housing-demand read incorporating any post-meeting rate moves."
+    },
+    {
+      "date": "2026-06-25",
+      "title": "GDP (Q1 2026, Third Estimate)",
+      "category": "Growth",
+      "importance": "medium",
+      "note": "BEA's third estimate of Q1 2026 GDP at 8:30 a.m. ET; the advance estimate showed real GDP growth of 2.0% annualized with the PCE price index up 4.5% (core +4.4%) for Q1. As a backward-looking final revision, market impact is typically limited but it provides the last full read on Q1 growth and inflation composition before Q2 data begins to dominate."
+    },
+    {
+      "date": "2026-06-25",
+      "title": "PCE (May 2026)",
+      "category": "Inflation",
+      "importance": "high",
+      "note": "BEA Personal Income and Outlays report for May 2026 at 8:30 a.m. ET, including the Fed's preferred PCE price index; arrives a week after the June 17 FOMC decision and will be the first major inflation read post-meeting, testing whether the inflation pressure cited by the ECB's June 11 hike and May's hot PPI print is corroborated in the PCE measure."
+    }
+  ]
+}

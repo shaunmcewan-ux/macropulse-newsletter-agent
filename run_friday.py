@@ -18,6 +18,7 @@ from data.fetch_indicators  import fetch_global_indicators
 from charts.render_png      import render_chart_png
 from charts.freshness       import archive_stale_charts
 from mailer.build_friday     import build_friday_email
+from data.spotlight_history   import record as record_spotlights
 from mailer.send_mailchimp   import draft_and_test, upload_image
 
 CONFIG_DIR    = os.path.join(ROOT, "config")
@@ -134,6 +135,13 @@ def run(article: str, dry_run: bool = False):
     with open(draft_path, "w", encoding="utf-8") as f:
         f.write(html)
     print(f"[run_friday] Draft saved: {draft_path} ({len(html):,} chars)")
+
+    # Record this issue's spotlights for next week's rotation (upsert by date).
+    try:
+        hp = record_spotlights(ROOT, today, "friday", chart_symbols, article)
+        print(f"[run_friday] Spotlight rotation recorded: {chart_symbols} -> {os.path.basename(hp)}")
+    except Exception as e:
+        print(f"[run_friday] !! spotlight history record failed: {e}")
 
     if dry_run:
         print("[run_friday] Dry run — skipping Mailchimp upload.")

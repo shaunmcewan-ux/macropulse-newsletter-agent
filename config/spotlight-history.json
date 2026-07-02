@@ -1,0 +1,14 @@
+{
+  "_note": "Rotation memory for newsletter spotlights. The orchestrator upserts one entry per issue after each build (keyed by date + type). The agent reads this before choosing spotlights so it does not repeat recent charts unless a significant development warrants a follow-up. Newest issue last. Seeded with the last confirmed shipped issue; it accumulates automatically from here.",
+  "issues": [
+    {
+      "date": "2026-06-22",
+      "type": "monday",
+      "spotlights": [
+        {"slot": 1, "symbol": "DXY", "theme": "Dollar reclaims 100, headwind flip; PCE is the pivot"},
+        {"slot": 2, "symbol": "BTC", "theme": "Range consolidation on the diagonal trendline support"},
+        {"slot": 3, "symbol": "ETFFLOWS", "theme": "ETF inflow bid thinning through Q2; not panic, thinner"}
+      ]
+    }
+  ]
+}

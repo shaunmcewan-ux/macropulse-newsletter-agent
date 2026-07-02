@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Page not found | MacroPulse</title>
+    <meta
+      name="description"
+      content="The page you requested could not be found. Return to MacroPulse for crypto macro research, methodology, and newsletter access."
+    />
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/logo-pack/favicon-32.png" />
+    <link rel="apple-touch-icon" href="/assets/images/logo-pack/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="/assets/css/site.css" />
+  </head>
+  <body>
+    <main class="page-hero">
+      <div class="container">
+        <div class="cta-panel reveal is-visible">
+          <span class="eyebrow">404</span>
+          <h1>The signal moved. The page did not.</h1>
+          <p>
+            The address you used is no longer active. Return to the MacroPulse home page or head straight
+            to the methodology and newsletter pages.
+          </p>
+          <div class="button-row">
+            <a class="button button-primary" href="/">Return home</a>
+            <a class="button button-secondary" href="/newsletter/">View newsletter</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+
+
+

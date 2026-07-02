@@ -58,12 +58,16 @@ def _spotlight_svg_or_fallback(charts: Mapping[str, str], symbol: str) -> str:
     svg = charts.get(symbol)
     if svg:
         return svg
+    # No fresh image for this symbol. Render an explicit "pending" placeholder
+    # rather than reusing a previous week's chart — stale charts must never ship.
     return (
         '<svg width="100%" height="210" viewBox="0 0 560 210" '
         'preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">'
-        '<rect width="560" height="210" fill="#111a23"/>'
-        f'<text x="280" y="105" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" '
-        f'font-size="13" fill="#7c8a95">Chart unavailable &mdash; {symbol}</text>'
+        '<rect width="560" height="210" fill="#111a23" stroke="#1c2935"/>'
+        f'<text x="280" y="98" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" '
+        f'font-size="14" font-weight="600" fill="#b9c4cc">{symbol} chart &mdash; capture pending</text>'
+        f'<text x="280" y="120" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" '
+        f'font-size="11" fill="#7c8a95">This week&#39;s chart is being prepared</text>'
         '</svg>'
     )
 
