@@ -1,17 +1,6 @@
 {
-  "lastRunISO": "2026-07-03T07:00:33Z",
-  "priceAlerts": {
-    "btc": {
-      "pct": 4.18,
-      "dir": "up",
-      "ISO": "2026-07-03T07:00:33Z",
-      "value": 61611
-    }
-  },
-  "releases": {
-    "NFP-2026-06": "2026-07-03T07:00:33Z"
-  },
-  "news": {
-    "nfp-miss-dxy-2026-07-03": "2026-07-03T07:00:33Z"
-  }
+  "lastRunISO": "2026-07-03T01:06:46Z",
+  "priceAlerts": {},
+  "releases": {},
+  "news": {}
 }
