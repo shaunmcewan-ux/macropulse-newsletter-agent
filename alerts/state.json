@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-03T15:08:38Z",
+  "lastRunISO": "2026-07-03T20:08:21Z",
   "priceAlerts": {
     "btc": {
       "pct": 4.18,
@@ -13,6 +13,7 @@
   },
   "news": {
     "nfp-miss-dxy-2026-07-03": "2026-07-03T07:00:33Z",
-    "clarity-act-delay-2026-07-03": "2026-07-03T07:08:53Z"
+    "clarity-act-delay-2026-07-03": "2026-07-03T07:08:53Z",
+    "btc-etf-inflow-reversal-2026-07-03": "2026-07-03T20:08:21Z"
   }
 }
