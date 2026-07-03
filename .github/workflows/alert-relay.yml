@@ -1,0 +1,44 @@
+name: MacroPulse alert relay
+
+# The MacroPulse alert bot runs in a network-locked environment that can only
+# reach GitHub — it cannot POST to push services directly. So it commits the
+# alert to alerts/outbox.json, and this Action (whose runners have full
+# internet) relays it to ntfy, which delivers the push to the phone.
+
+on:
+  push:
+    branches: [main]
+    paths: ['alerts/outbox.json']
+  workflow_dispatch:
+
+jobs:
+  relay:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Relay outbox to ntfy
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          set -euo pipefail
+          if [ -z "${NTFY_TOPIC:-}" ]; then
+            echo "NTFY_TOPIC secret not set — nothing to do"; exit 0
+          fi
+          if [ ! -f alerts/outbox.json ]; then
+            echo "no outbox.json"; exit 0
+          fi
+          TITLE=$(jq -r '.title // "MacroPulse Alert"' alerts/outbox.json)
+          PRIO=$(jq -r '.priority // "default"' alerts/outbox.json)
+          MSG=$(jq -r '.message // ""' alerts/outbox.json)
+          if [ -z "$MSG" ]; then
+            echo "empty message — skipping"; exit 0
+          fi
+          code=$(printf '%s' "$MSG" | curl -s -o /dev/null -w '%{http_code}' \
+            -H "Title: ${TITLE}" \
+            -H "Priority: ${PRIO}" \
+            -H "Tags: chart_with_upwards_trend" \
+            --data-binary @- \
+            "https://ntfy.sh/${NTFY_TOPIC}")
+          echo "ntfy HTTP ${code}"
+          test "$code" = "200"
