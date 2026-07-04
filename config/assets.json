@@ -34,10 +34,10 @@
       "TOTAL3"
     ],
     "feature_charts": [
-      "SP500",
-      "BTCTREASURY"
+      "BTC_D",
+      "10Y2Y"
     ],
-    "chart_comment": "2026-06-12 override: S&P rebound/SpaceX (SP500) + corporate BTC treasury accumulation (BTCTREASURY)"
+    "chart_comment": "2026-07-03: BTC.D (55.5%, the cycle tell keeping the dial in Accumulation, not Alt Rotation) + 10Y-2Y curve (flattened to +0.31% as the long end held through a soft labour week, keeping real yields a headwind)"
   },
   "coingecko_ids": {
     "BTC": "bitcoin",

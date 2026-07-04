@@ -5,9 +5,37 @@
       "date": "2026-06-22",
       "type": "monday",
       "spotlights": [
-        {"slot": 1, "symbol": "DXY", "theme": "Dollar reclaims 100, headwind flip; PCE is the pivot"},
-        {"slot": 2, "symbol": "BTC", "theme": "Range consolidation on the diagonal trendline support"},
-        {"slot": 3, "symbol": "ETFFLOWS", "theme": "ETF inflow bid thinning through Q2; not panic, thinner"}
+        {
+          "slot": 1,
+          "symbol": "DXY",
+          "theme": "Dollar reclaims 100, headwind flip; PCE is the pivot"
+        },
+        {
+          "slot": 2,
+          "symbol": "BTC",
+          "theme": "Range consolidation on the diagonal trendline support"
+        },
+        {
+          "slot": 3,
+          "symbol": "ETFFLOWS",
+          "theme": "ETF inflow bid thinning through Q2; not panic, thinner"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "friday",
+      "spotlights": [
+        {
+          "slot": 1,
+          "symbol": "BTC_D",
+          "theme": "BTC dominance is the cleanest tell in the framework right now, and this week it did…"
+        },
+        {
+          "slot": 2,
+          "symbol": "10Y2Y",
+          "theme": "The 10Y–2Y curve is the chart that explains why the dial's real-yield headwind survived a dovish…"
+        }
       ]
     }
   ]
