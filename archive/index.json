@@ -111,6 +111,20 @@
       "mailchimp_campaign_id": "8508484e40",
       "sent_at": "2026-07-04T07:08:24Z",
       "slug": "2026-07-03-week-in-review"
+    },
+    {
+      "issue_number": 56,
+      "date": "2026-07-06",
+      "type": "monday",
+      "title": "Week Ahead",
+      "subject": "MacroPulse | Week Ahead | 6 July 2026",
+      "headline": "Both headwinds held, and June CPI is the release valve",
+      "dial_state": "BTC Accumulation",
+      "scorecard": "4 supportive · 3 neutral · 1 headwind",
+      "html_path": "archive/2026-07-06-monday.html",
+      "mailchimp_campaign_id": "0f04c161e6",
+      "sent_at": "2026-07-06T11:15:23Z",
+      "slug": "2026-07-06-week-ahead"
     }
   ]
 }
