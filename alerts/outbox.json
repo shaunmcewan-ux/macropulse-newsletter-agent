@@ -1,1 +1,6 @@
-{"ts":"2026-07-06T07:12:30Z","title":"MacroPulse Alert","priority":"default","message":""}
+{
+  "ts": "2026-07-06T15:09:05Z",
+  "title": "MacroPulse Alert",
+  "priority": "default",
+  "message": "ISM Services PMI (June) 54.0 vs 54.5 prior — expanding for 24th straight month but cooling. Dashboard API unavailable (403) — price moves unverifiable this run. FOMC minutes Wed Jul 8; CPI Jul 14."
+}
