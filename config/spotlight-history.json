@@ -37,6 +37,27 @@
           "theme": "The 10Y–2Y curve is the chart that explains why the dial's real-yield headwind survived a dovish…"
         }
       ]
+    },
+    {
+      "date": "2026-07-06",
+      "type": "monday",
+      "spotlights": [
+        {
+          "slot": 1,
+          "symbol": "REAL10Y",
+          "theme": "The US 10-year real yield — the TIPS-implied rate, DFII10 — sits at 2.25%, and it…"
+        },
+        {
+          "slot": 2,
+          "symbol": "BTC",
+          "theme": "BTC trades near $63,100 into the week, holding the lower half of the multi-week range that…"
+        },
+        {
+          "slot": 3,
+          "symbol": "MICA",
+          "theme": "The thematic read this week is regulatory, and it shows up directly in the dial's stablecoin…"
+        }
+      ]
     }
   ]
 }

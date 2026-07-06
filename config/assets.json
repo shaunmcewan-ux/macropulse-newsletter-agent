@@ -10,11 +10,11 @@
       "SP500"
     ],
     "feature_charts": [
-      "DXY",
+      "REAL10Y",
       "BTC",
-      "ETFFLOWS"
+      "MICA"
     ],
-    "chart_comment": "2026-06-29 (backfill): US Dollar Index (DXY, the lead headwind) + BTC daily at the dominance inflection + spot BTC ETF flows (ETFFLOWS) as the thematic read, into the ISM/jobs data week"
+    "chart_comment": "2026-07-06: US 10Y real yield (REAL10Y/DFII10, 2.25%, the headwind with a dated release valve in June CPI) + BTC daily (~$63K, retesting the 22 June range floor into CPI) + MiCA/EU stablecoin reshuffle (MICA, thematic — the structural driver behind stablecoin dominance falling to 13.63%)"
   },
   "friday": {
     "price_dashboard": [
