@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-07T15:08:56Z",
+  "lastRunISO": "2026-07-07T20:09:04Z",
   "priceAlerts": {
     "btc": {
       "pct": 4.18,
@@ -20,6 +20,8 @@
     "strategy-btc-sell-jul6": "2026-07-07T07:09:31Z",
     "inflation-breakeven-below-2pct": "2026-07-07T07:09:31Z",
     "btc-64k-run-jul7": "2026-07-07T15:08:56Z",
-    "tether-usdt-rgb-btc-jul7": "2026-07-07T15:08:56Z"
+    "tether-usdt-rgb-btc-jul7": "2026-07-07T15:08:56Z",
+    "btc-etf-266m-inflow-jul7": "2026-07-07T20:09:04Z",
+    "fomc-minutes-jul8-preview": "2026-07-07T20:09:04Z"
   }
 }
