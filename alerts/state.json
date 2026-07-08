@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-08T15:07:28Z",
+  "lastRunISO": "2026-07-08T20:07:08Z",
   "priceAlerts": {
     "btc": {
       "pct": -3.1,
@@ -37,6 +37,7 @@
     "fomc-minutes-jul8-preview": "2026-07-07T20:09:04Z",
     "btcd-one-month-low-jul8": "2026-07-08T07:08:46Z",
     "fomc-minutes-due-today-jul8": "2026-07-08T07:08:46Z",
-    "us-iran-strikes-oil-jul8": "2026-07-08T15:07:28Z"
+    "us-iran-strikes-oil-jul8": "2026-07-08T15:07:28Z",
+    "fomc-minutes-released-jul8": "2026-07-08T20:07:08Z"
   }
 }
