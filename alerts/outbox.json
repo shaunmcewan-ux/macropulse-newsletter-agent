@@ -1,6 +1,6 @@
 {
-  "ts": "2026-07-07T20:09:04Z",
+  "ts": "2026-07-08T07:08:46Z",
   "title": "MacroPulse Alert",
-  "priority": "default",
-  "message": "BTC spot ETFs: $266M inflow today (largest daily since May) — IBIT +$209M — reversal from 8-week outflow streak.\nFOMC June minutes due Wed 8 July 2pm ET — 9/18 policymakers projected ≥1 hike by year-end; hawkish details in focus."
+  "priority": "high",
+  "message": "BTC.D one-month low ~54% (from 58.12%, -7%): capital rotating into altcoins — \"Others\" bucket up from 19.4% to 24.7%.\nFOMC June minutes due 2pm ET today: 9/18 officials project ≥1 hike; Warsh withheld his dot — Sep hike odds ~50-55%.\nBTC $63,673 (+0.7% 24h). ETH $1,754 (-0.7% 24h). DXY ~101, steady. Gold ~$4,140, easing from 2-week highs."
 }
