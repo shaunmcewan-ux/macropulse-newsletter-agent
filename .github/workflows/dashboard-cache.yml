@@ -1,0 +1,49 @@
+name: Dashboard cache
+
+# The alert bot's environment can only reach GitHub — www.macropulse.uk is
+# blocked by its network policy, so it cannot call /api/dashboard directly.
+# This Action (whose runners have full internet) fetches the dashboard JSON
+# shortly before each bot run and commits it to alerts/dashboard-cache.json.
+# The bot reads that file from the repo instead of hitting the API.
+
+on:
+  schedule:
+    # Bot runs ~07:05, ~15:05, ~20:05 UTC — fetch 20 min before each.
+    - cron: '45 6,14,19 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch dashboard JSON
+        run: |
+          set -euo pipefail
+          curl -sS --connect-timeout 10 --max-time 30 \
+            --retry 2 --retry-delay 5 --retry-all-errors \
+            -o /tmp/dashboard.json \
+            https://www.macropulse.uk/api/dashboard
+          # Refuse to cache an error page or partial response
+          jq -e '.live and .indicators and .upcoming' /tmp/dashboard.json > /dev/null
+          jq --arg ts "$(date -u +%FT%TZ)" '. + {cachedAtISO: $ts}' \
+            /tmp/dashboard.json > alerts/dashboard-cache.json
+
+      - name: Commit if changed
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add alerts/dashboard-cache.json
+          if git diff --cached --quiet; then
+            echo "no change — skipping commit"
+            exit 0
+          fi
+          git commit -m "dashboard cache $(date -u +%FT%TZ)"
+          # Bot pushes to main too — rebase once if we race it
+          git push || { git pull --rebase && git push; }

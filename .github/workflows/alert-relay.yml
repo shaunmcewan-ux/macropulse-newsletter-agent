@@ -14,6 +14,7 @@ on:
 jobs:
   relay:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
 
@@ -35,6 +36,8 @@ jobs:
             echo "empty message — skipping"; exit 0
           fi
           code=$(printf '%s' "$MSG" | curl -s -o /dev/null -w '%{http_code}' \
+            --connect-timeout 10 --max-time 30 \
+            --retry 2 --retry-delay 5 --retry-all-errors \
             -H "Title: ${TITLE}" \
             -H "Priority: ${PRIO}" \
             -H "Tags: chart_with_upwards_trend" \
