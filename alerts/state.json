@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-08T20:07:08Z",
+  "lastRunISO": "2026-07-09T07:09:40Z",
   "priceAlerts": {
     "btc": {
       "pct": -3.1,
@@ -18,6 +18,12 @@
       "dir": "up",
       "ISO": "2026-07-08T15:07:28Z",
       "value": 76.04
+    },
+    "gold": {
+      "pct": -2.57,
+      "dir": "down",
+      "ISO": "2026-07-09T07:09:40Z",
+      "value": 4030
     }
   },
   "releases": {
