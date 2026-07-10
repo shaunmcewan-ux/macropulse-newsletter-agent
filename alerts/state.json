@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-10T07:06:52Z",
+  "lastRunISO": "2026-07-10T15:09:19Z",
   "priceAlerts": {
     "btc": {
       "pct": -3.1,
@@ -46,6 +46,7 @@
     "fomc-minutes-due-today-jul8": "2026-07-08T07:08:46Z",
     "us-iran-strikes-oil-jul8": "2026-07-08T15:07:28Z",
     "fomc-minutes-released-jul8": "2026-07-08T20:07:08Z",
-    "us-iran-ceasefire-collapse-jul9": "2026-07-09T15:10:35Z"
+    "us-iran-ceasefire-collapse-jul9": "2026-07-09T15:10:35Z",
+    "btc-etf-221m-streak-end-jul9": "2026-07-10T15:09:19Z"
   }
 }
