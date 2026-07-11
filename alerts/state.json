@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-10T20:08:15Z",
+  "lastRunISO": "2026-07-11T07:08:27Z",
   "priceAlerts": {
     "btc": {
       "pct": -3.1,
@@ -27,14 +27,10 @@
     }
   },
   "releases": {
-    "NFP-2026-06": "2026-07-03T07:00:33Z",
     "ISM-Services-2026-06": "2026-07-06T15:09:05Z",
     "Jobless-Claims-2026-07-09": "2026-07-09T15:10:35Z"
   },
   "news": {
-    "nfp-miss-dxy-2026-07-03": "2026-07-03T07:00:33Z",
-    "clarity-act-delay-2026-07-03": "2026-07-03T07:00:33Z",
-    "btc-etf-inflow-reversal-2026-07-03": "2026-07-03T20:08:21Z",
     "btc-retakes-63k-jul4": "2026-07-04T20:09:56Z",
     "strategy-btc-sell-jul6": "2026-07-07T07:09:31Z",
     "inflation-breakeven-below-2pct": "2026-07-07T07:09:31Z",
