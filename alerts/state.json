@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-12T11:01:58Z",
+  "lastRunISO": "2026-07-12T15:09:58Z",
   "priceAlerts": {
     "btc": {
       "pct": -3.1,
@@ -44,6 +44,7 @@
     "us-iran-ceasefire-collapse-jul9": "2026-07-09T15:10:35Z",
     "btc-etf-221m-streak-end-jul9": "2026-07-10T15:09:19Z",
     "clarity-act-odds-drop-48pct-jul10": "2026-07-10T20:08:15Z",
-    "eth-etf-5day-inflow-streak-jul10": "2026-07-10T20:08:15Z"
+    "eth-etf-5day-inflow-streak-jul10": "2026-07-10T20:08:15Z",
+    "warsh-testimony-jul15": "2026-07-12T15:09:58Z"
   }
 }
