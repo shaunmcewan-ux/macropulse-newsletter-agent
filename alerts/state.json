@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-12T20:09:20Z",
+  "lastRunISO": "2026-07-13T07:10:11Z",
   "priceAlerts": {
     "btc": {
       "pct": -3.1,
@@ -45,6 +45,7 @@
     "btc-etf-221m-streak-end-jul9": "2026-07-10T15:09:19Z",
     "clarity-act-odds-drop-48pct-jul10": "2026-07-10T20:08:15Z",
     "eth-etf-5day-inflow-streak-jul10": "2026-07-10T20:08:15Z",
-    "warsh-testimony-jul15": "2026-07-12T15:09:58Z"
+    "warsh-testimony-jul15": "2026-07-12T15:09:58Z",
+    "clarity-act-senate-july20-vote": "2026-07-13T07:10:11Z"
   }
 }
