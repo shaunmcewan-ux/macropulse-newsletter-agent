@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-13T07:10:11Z",
+  "lastRunISO": "2026-07-13T15:09:31Z",
   "priceAlerts": {
     "btc": {
       "pct": -3.1,
@@ -14,10 +14,10 @@
       "value": 54.0
     },
     "oil": {
-      "pct": 4.4,
+      "pct": 4.0,
       "dir": "up",
-      "ISO": "2026-07-09T20:09:44Z",
-      "value": 73.52
+      "ISO": "2026-07-13T15:09:31Z",
+      "value": 74.0
     },
     "gold": {
       "pct": -2.57,
@@ -46,6 +46,8 @@
     "clarity-act-odds-drop-48pct-jul10": "2026-07-10T20:08:15Z",
     "eth-etf-5day-inflow-streak-jul10": "2026-07-10T20:08:15Z",
     "warsh-testimony-jul15": "2026-07-12T15:09:58Z",
-    "clarity-act-senate-july20-vote": "2026-07-13T07:10:11Z"
+    "clarity-act-senate-july20-vote": "2026-07-13T07:10:11Z",
+    "us-iran-strait-missile-jul13": "2026-07-13T15:09:31Z",
+    "june-cpi-bank-earnings-jul14": "2026-07-13T15:09:31Z"
   }
 }
