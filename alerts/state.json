@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-14T07:06:47Z",
+  "lastRunISO": "2026-07-14T15:11:02Z",
   "priceAlerts": {
     "btc": {
       "pct": -3.46,
@@ -28,7 +28,8 @@
   },
   "releases": {
     "ISM-Services-2026-06": "2026-07-06T15:09:05Z",
-    "Jobless-Claims-2026-07-09": "2026-07-09T15:10:35Z"
+    "Jobless-Claims-2026-07-09": "2026-07-09T15:10:35Z",
+    "CPI-2026-06": "2026-07-14T15:11:02Z"
   },
   "news": {
     "strategy-btc-sell-jul6": "2026-07-07T07:09:31Z",
@@ -49,6 +50,9 @@
     "clarity-act-senate-july20-vote": "2026-07-13T07:10:11Z",
     "us-iran-strait-missile-jul13": "2026-07-13T15:09:31Z",
     "june-cpi-bank-earnings-jul14": "2026-07-13T15:09:31Z",
-    "warsh-house-testimony-jul14": "2026-07-14T07:06:47Z"
+    "warsh-house-testimony-jul14": "2026-07-14T07:06:47Z",
+    "warsh-remarks-hawkish-jul14": "2026-07-14T15:11:02Z",
+    "bank-earnings-q2-all5-jul14": "2026-07-14T15:11:02Z",
+    "trump-strait-hormuz-fee-jul14": "2026-07-14T15:11:02Z"
   }
 }
