@@ -1,11 +1,11 @@
 {
-  "lastRunISO": "2026-07-13T20:08:31Z",
+  "lastRunISO": "2026-07-14T07:06:47Z",
   "priceAlerts": {
     "btc": {
-      "pct": -3.1,
+      "pct": -3.46,
       "dir": "down",
-      "ISO": "2026-07-08T15:07:28Z",
-      "value": 62044
+      "ISO": "2026-07-14T07:06:47Z",
+      "value": 61893
     },
     "btcd": {
       "pct": 7.1,
@@ -14,10 +14,10 @@
       "value": 54.0
     },
     "oil": {
-      "pct": 4.0,
+      "pct": 3.54,
       "dir": "up",
-      "ISO": "2026-07-13T15:09:31Z",
-      "value": 74.0
+      "ISO": "2026-07-14T07:06:47Z",
+      "value": 78.73
     },
     "gold": {
       "pct": -3.08,
@@ -48,6 +48,7 @@
     "warsh-testimony-jul15": "2026-07-12T15:09:58Z",
     "clarity-act-senate-july20-vote": "2026-07-13T07:10:11Z",
     "us-iran-strait-missile-jul13": "2026-07-13T15:09:31Z",
-    "june-cpi-bank-earnings-jul14": "2026-07-13T15:09:31Z"
+    "june-cpi-bank-earnings-jul14": "2026-07-13T15:09:31Z",
+    "warsh-house-testimony-jul14": "2026-07-14T07:06:47Z"
   }
 }
