@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-13T20:42:30.741Z",
+  "generatedAt": "2026-07-14T08:55:03.352Z",
   "dial": {
     "state": "BTC Accumulation",
-    "summary": "Net score holds at +1 (3 supportive: Fed balance sheet ticked up to $6.74T, BTC funding rates flat at +0.01%, stablecoin dominance 13.59% on 30-day downtrend; 3 neutral: Global M2 ~$101.7T flat, ISM 53.3% expanding but falling, 2s10s +0.35% flat; 2 headwinds: DXY eased to 100.50 but remains above the 100 neutral threshold, real yields 2.28% elevated) with BTC consolidating in the $62.7K–$64.2K range and BTC.D steady at 56.3% on $2.28T total market cap—the June CPI print tomorrow (July 14, 8:30 AM ET) is the pivotal catalyst, with a soft reading capable of pushing DXY below 100 and compressing real yields, potentially flipping both headwinds to neutral and confirming the accumulation thesis.",
+    "summary": "Net score improved to +2 (4 supportive: Global M2 rose to $102.7T on a clear 4-week uptrend of ~$1.0T, Fed balance sheet $6.74T holding flat with no aggressive QT, BTC funding rates near zero at +0.01%, stablecoin dominance 13.73% on intact 30-day downtrend from ~14.5% in early June; 2 neutral: ISM Manufacturing 53.3% above 50 but trending down with next release August 3, 2s10s +0.35% positive but flat; 2 headwinds: DXY 100.93 above the 100 neutral-band ceiling on a 4-week uptrend, real yields 2.33% elevated and rising 4-week), with BTC gaining 1.76% to $63,298 on June CPI day (released July 14 at 8:30 AM ET with headline consensus ~3.8–3.9% YoY) and BTC.D holding firm at 56.3% on ~$2.24T total market cap—a confirmed soft CPI print today would be the catalyst to push DXY below 100 and compress real yields, potentially flipping both headwinds to neutral and turning the dashboard score decisively positive for accumulation.",
     "states": [
       "BTC Accumulation",
       "Alt Rotation",
@@ -14,82 +14,82 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 62189,
+      "value": 62630,
       "format": "usd",
-      "change24h": -3.090362703127639,
-      "change30d": -3.249371951082478
+      "change24h": -0.8217434062001745,
+      "change30d": -2.526953383015549
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 1767.61,
+      "value": 1783.74,
       "format": "usd",
-      "change24h": -2.9948326360956705,
-      "change30d": 5.331789396190363
+      "change24h": -0.3523367005503915,
+      "change30d": 6.477508223007334
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02842282,
+      "value": 0.02848475,
       "format": "ratio",
-      "change24h": 0.09395312914453227,
-      "change30d": 8.995307012524018
+      "change24h": 0.5142007457196701,
+      "change30d": 8.537022422456285
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 55.962712996607046,
+      "value": 56.07557661756021,
       "format": "percent",
-      "change24h": -0.4497680771392343,
-      "change30d": -0.6709054411071692
+      "change24h": -0.08499851568477546,
+      "change30d": -0.7843112100624046
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2227651190560.041,
+      "value": 2239529477541.4785,
       "format": "usd-compact",
-      "change24h": -2.640467904582685,
-      "change30d": -1.3073537810411597
+      "change24h": -0.7694054675422246,
+      "change30d": -1.932814877656802
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 980997148221.4254,
+      "value": 983700409489.861,
       "format": "usd-compact",
-      "change24h": -2.0776282687310537,
-      "change30d": -0.3497508226485734
+      "change24h": -0.6614957884255146,
+      "change30d": -0.8156390384308354
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 767677604787.3918,
+      "value": 768514997831.3744,
       "format": "usd-compact",
-      "change24h": -1.8259769334099274,
-      "change30d": -2.297679664214411
+      "change24h": -0.7362891703271259,
+      "change30d": -2.873238092832163
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 101.312,
+      "value": 101.092,
       "format": "index",
-      "change24h": 0.34368345466250105,
-      "change30d": 1.6474365405839229
+      "change24h": -0.18168174098502854,
+      "change30d": 1.4267081368516072
     },
     {
       "id": "us500",
       "label": "S&P 500",
-      "value": 7575.39,
+      "value": 7515.34,
       "format": "index",
-      "change24h": 0.4208843476093769,
-      "change30d": 4.243847865484892
+      "change24h": -0.7926984617293655,
+      "change30d": 1.1287149496868731
     },
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10498.3,
+      "value": 10432.77,
       "format": "index",
-      "change24h": 0.009526259133300945,
-      "change30d": 1.898729262677274
+      "change24h": -0.6241962984483092,
+      "change30d": 1.2626811664537785
     },
     {
       "id": "oil",
@@ -102,20 +102,20 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 3999.085,
+      "value": 4019.58,
       "format": "usd",
-      "change24h": -2.942957446524507,
-      "change30d": -4.987966348541106
+      "change24h": 0.438025511925132,
+      "change30d": -4.501037056043788
     }
   ],
   "indicators": [
     {
       "tier": 1,
       "name": "Global Liquidity (Global M2)",
-      "value": "$101.7T",
-      "trend": "flat",
-      "status": "neutral",
-      "note": "4-bank aggregate (US/ECB/BOJ/PBOC) at $100.86T through March 2026 (MacroMicro); US M2 at $23.05T in May 2026 (H.6 release), with smaller central banks and cross-currency effects bringing the broader global estimate to ~$101.7T; DXY easing to ~100.50 marginally increases the USD-denominated value of foreign M2 relative to last week; 4-week trend flat—global M2 changes slowly with data lagging 6–8 weeks and the 4-week change is well within the flat threshold; status neutral (4-week trend not clearly and consistently up to qualify as supportive; YoY growth is positive, not contracting)."
+      "value": "$102.7T",
+      "trend": "up",
+      "status": "supportive",
+      "note": "MacroMicro 4-bank aggregate (Fed/ECB/BOJ/PBOC) at $102,653B (~$102.7T) through May 2026—the latest available data point given the 6–8 week reporting lag; 4-week trend up: rose ~$1.0T from ~$101.7T (~30 days ago) to $102.7T, a +~1.0% gain well above the flat threshold; DXY easing modestly from 100.50 to 100.93 over the same period has a marginal net-neutral effect on the USD-denominated value of foreign M2; status supportive (4-week trend is clearly up, meeting the supportive threshold; YoY growth positive, not contracting)."
     },
     {
       "tier": 1,
@@ -123,23 +123,23 @@
       "value": "53.3",
       "trend": "down",
       "status": "neutral",
-      "note": "June 2026 ISM Manufacturing PMI confirmed at 53.3%, released July 1—sixth consecutive month of expansion but 0.7pp below May's 54.0%; new orders 56.0% (-0.8pp), production 52.2% (-2.1pp), employment 49.7% (+1.1pp, still contracting), prices 73.0% (-9.1pp, largest single-month drop since July 2022, signaling meaningful pipeline disinflation); no July 2026 data yet—next ISM Manufacturing PMI for July releases August 3, 2026; 4-week trend down (May 54.0% → June 53.3%); status neutral (above 50 but falling—supportive requires both above 50 AND rising)."
+      "note": "June 2026 ISM Manufacturing PMI confirmed at 53.3%, released July 1—sixth consecutive month of expansion but 0.7pp below May's 54.0%; new orders 56.0% (-0.8pp), production 52.2% (-2.1pp), employment 49.7% (+1.1pp, still contracting), prices 73.0% (-9.1pp, largest single-month drop since July 2022, signaling material pipeline disinflation ahead of June CPI); no July 2026 data yet—next ISM Manufacturing PMI for July releases August 3, 2026; 4-week trend down (May 54.0% → June 53.3%); status neutral (above 50 but falling—supportive requires both above 50 AND rising)."
     },
     {
       "tier": 1,
       "name": "DXY (US Dollar Index)",
-      "value": "100.50",
-      "trend": "flat",
+      "value": "100.93",
+      "trend": "up",
       "status": "headwind",
-      "note": "ICE DXY closed at ~100.50 on July 11, 2026 (Friday), down ~0.47 points from ~100.97 on Thursday and extending losses for a third straight session as reports of ongoing US–Iran peace negotiations dampened safe-haven dollar demand; 4-week trend flat—DXY was near ~100.0 on June 11–12 (pre-FOMC) and is now at ~100.50, a +0.5% change right at the flat threshold, with the 3-session declining streak suggesting momentum is turning; status headwind (ICE DXY at 100.50 remains above the 100 neutral-band ceiling, but is approaching the threshold); June CPI on July 14 is the pivotal catalyst—a soft print combined with continued DXY weakness could push it below 100 and flip status to neutral."
+      "note": "ICE DXY closed at ~100.93 on July 13, 2026 (Monday); July 14 pre-CPI trading ranged 100.80–101.25 as markets awaited the June CPI release (8:30 AM ET, consensus headline ~3.8–3.9% YoY); 4-week trend up—DXY was near ~100.0 on June 11–12 (pre-FOMC) and is now ~100.93, a +0.93% gain over 4 weeks, above the 0.5% flat threshold; status headwind (ICE DXY at 100.93 remains above the 100 neutral-band ceiling); a confirmed soft June CPI print today is the key near-term catalyst to push DXY below 100 and flip status to neutral."
     },
     {
       "tier": 1,
       "name": "Real Yields (US10Y - CPI)",
-      "value": "2.28%",
+      "value": "2.33%",
       "trend": "up",
       "status": "headwind",
-      "note": "10-year TIPS real yield (DFII10) at 2.28% as of July 10, 2026 (last FRED observation); 4-week trend up—yield was approximately 2.14% around June 12 and has risen ~0.14pp over the past month as the June FOMC hold and Warsh higher-for-longer messaging anchored nominal 10-year yields above 4.5%; status headwind (above 2% and rising on 4-week basis; supportive requires falling or below 1%); June CPI on July 14 is the pivotal catalyst—a soft print would compress breakevens and reduce real yields toward the neutral zone."
+      "note": "10-year TIPS real yield (DFII10) at 2.33% as of July 13, 2026 (up from 2.28–2.29% on July 10 and ~2.14% on June 12); 4-week trend up—yield has risen ~0.19pp over the past month as the June FOMC hold and Warsh higher-for-longer messaging anchored nominal 10-year yields above 4.5%; status headwind (above 2% and rising on 4-week basis; supportive requires falling or below 1%); June CPI released today at 8:30 AM ET—a soft print would compress breakevens and reduce real yields toward the neutral zone."
     },
     {
       "tier": 1,
@@ -147,7 +147,7 @@
       "value": "+0.35%",
       "trend": "flat",
       "status": "neutral",
-      "note": "10-year Treasury at 4.56% and 2-year at 4.21% as of July 10, 2026 (Treasury yields snapshot)—spread +0.35% (35bps); 4-week trend flat: spread was approximately +0.38–0.40% in early June (pre-FOMC range), now +0.35%, a change of approximately -3 to -5bps within the flat threshold (<5bps); status neutral (positive spread well clear of the -50bps deep-inversion headwind threshold, but not steepening—supportive requires positive AND steepening); FOMC decision July 28–29 (no Summary of Economic Projections)."
+      "note": "10-year Treasury at 4.56% and 2-year at 4.21% as of July 10, 2026 (last confirmed close)—spread +0.35% (35bps); 4-week trend flat: spread was approximately +0.38–0.40% in early June (pre-FOMC range), now +0.35%, a change of approximately -3 to -5bps well within the flat threshold (<5bps); status neutral (positive spread well clear of the -50bps deep-inversion headwind threshold, but not steepening—supportive requires positive AND steepening); next significant catalyst is the July 29 FOMC decision and June CPI released today."
     },
     {
       "tier": 1,
@@ -155,7 +155,7 @@
       "value": "$6.74T",
       "trend": "flat",
       "status": "supportive",
-      "note": "H.4.1 balance sheet for week ended July 8, 2026 (released July 9 at 4:30 PM ET): total assets $6,736B ($6.74T), up $12B from $6,724B ($6.72T) for week ended July 2 as passive QT continues at a minimal pace; 4-week trend flat (cumulative ~$0.02T change / ~0.3% over 4 weeks is within the flat threshold); next H.4.1 release July 16 at 4:30 PM ET covering week ended July 9; status supportive (no acceleration of QT, no aggressive reserve drain)."
+      "note": "H.4.1 balance sheet for week ended July 8, 2026 (released July 9): total assets $6,736B ($6.74T)—no new H.4.1 data yet (next release July 16 at 4:30 PM ET for week ended July 9, 2026); 4-week comparison: week ended ~June 10 estimated ~$6.71T (derived from June 24 reading of ~$6,735.6B minus ~$24B passive QT); 4-week change ~+$25B / +0.37%, within the flat threshold; status supportive (balance sheet flat with no acceleration of QT, no aggressive reserve drain; Fed up 0.9% YoY per tracker data)."
     },
     {
       "tier": 3,
@@ -163,45 +163,38 @@
       "value": "+0.01%",
       "trend": "flat",
       "status": "supportive",
-      "note": "BTC perpetual funding rate at +0.0087–0.01% per 8-hour interval (Binance/Bybit/OKX aggregate, early July 2026; Convex/CoinGlass data); BTC consolidating in the $62.7K–$64.2K range on July 13 with BTC.D holding at 56.3% and TOTAL at ~$2.28T—subdued near-zero funding during BTC's consolidation suggests organic spot dynamics rather than leveraged longs, consistent with accumulation ahead of the July 14 CPI catalyst; 30-day trend flat (funding has held near zero since transitioning from negative territory in late June); status supportive (well below the 0.04% overheating threshold)."
+      "note": "BTC perpetual funding rate near +0.01% per 8-hour interval (Binance/Bybit/OKX aggregate; CoinGlass data); BTC gaining 1.76% to $63,298 on June CPI day (July 14) with BTC.D holding at 56.3%—subdued near-zero funding during BTC's rally confirms spot-driven dynamics rather than overleveraged longs, consistent with healthy accumulation; 30-day trend flat (funding has held near zero since mid-June); status supportive (well below the 0.04% overheating threshold)."
     },
     {
       "tier": 3,
       "name": "Stablecoin Dominance",
-      "value": "13.59%",
+      "value": "13.73%",
       "trend": "down",
       "status": "supportive",
-      "note": "Stablecoin market cap ~$309B against total crypto market cap ~$2.27–2.28T as of July 13, 2026 (CoinGecko: ~13.59%)—marginally higher than July 12 (~13.5%) due to intraday noise but the 30-day trend remains down from approximately 14.3–14.5% in early June to ~13.6% now, indicating net capital rotation into the crypto ecosystem; BTC.D firm at 56.3% while stablecoin dominance trends lower on a 30-day basis is consistent with broad crypto accumulation; status supportive (30-day downtrend intact despite day-to-day fluctuation)."
+      "note": "Stablecoin market cap ~$309B against total crypto market cap ~$2.25T as of July 2026 (CoinGecko: ~13.73%); minor uptick from July 13's ~13.59% on intraday noise but the 30-day trend remains clearly down from approximately 14.3–14.5% in early June to ~13.73% now, indicating net capital rotation into the broader crypto ecosystem; BTC.D firm at 56.3% while stablecoin dominance trends lower 30-day is consistent with BTC accumulation phase rather than broad altcoin rotation; status supportive (30-day downtrend intact; headwind condition requires rising while TOTAL also rising, which does not apply on a 30-day basis)."
     }
   ],
   "upcoming": [
-    {
-      "date": "2026-07-14",
-      "title": "CPI Inflation Report (June 2026)",
-      "category": "Inflation",
-      "importance": "high",
-      "note": "BLS Consumer Price Index for June 2026 at 8:30 AM ET—highest-impact event of the 14-day window and the last major inflation print before the July 28–29 FOMC (no dot plot); ISM Manufacturing prices collapsed 9.1pp in June to 73.0%—the largest single-month drop since July 2022—pointing to meaningful pipeline disinflation; a soft CPI print could push DXY (currently 100.50) below the 100 neutral threshold and compress real yields (2.28%), potentially flipping both headwinds to neutral and turning the dashboard score decisively positive for BTC; also on July 14 at 10:00 AM ET: Fed Chair Kevin Warsh appears before the House Financial Services Committee—the combination of CPI data and Chair Warsh testimony makes this the most market-moving day of the current window."
-    },
     {
       "date": "2026-07-15",
       "title": "PPI (Producer Price Index, June 2026)",
       "category": "Inflation",
       "importance": "medium",
-      "note": "BLS Producer Price Index for June 2026 at 8:30 AM ET—upstream inflation gauge released one day after CPI; the 9.1pp collapse in ISM Manufacturing prices points to material final-goods PPI relief on domestic supply chains; soft back-to-back CPI and PPI prints would confirm the disinflationary pipeline is intact and reinforce FOMC confidence for a July 28–29 hold; Empire State Manufacturing Survey (July 2026) also at 8:30 AM ET—first regional factory read of Q3 and an early signal ahead of the August 3 national ISM Manufacturing release."
+      "note": "BLS Producer Price Index for June 2026 at 8:30 AM ET—upstream inflation gauge released one day after CPI; the 9.1pp collapse in ISM Manufacturing prices points to material final-goods PPI relief on domestic supply chains; soft back-to-back CPI and PPI prints would confirm the disinflationary pipeline is intact and reinforce FOMC confidence for a July 28–29 hold; Empire State Manufacturing Survey (July 2026) also at 8:30 AM ET—first regional factory read of Q3 and an early signal ahead of the August 3 national ISM Manufacturing release; Fed Chair Warsh also testifies before the Senate Banking Committee on July 15."
     },
     {
       "date": "2026-07-15",
       "title": "Fed Beige Book (July 2026)",
       "category": "Fed",
       "importance": "medium",
-      "note": "Federal Reserve Beige Book released at 4:15 PM ET—anecdotal economic conditions from all 12 Fed districts, published two weeks before the July 28–29 FOMC meeting (no dot plot); will capture early-Q3 business sentiment on labor costs, consumer spending, tariff pass-through, and post-ISM-prices disinflation; a tone of softening demand and easing price pressures supports a hold at 5.25–5.50%, while persistent services inflation or energy re-acceleration language would reinforce the Warsh hawkish tilt."
+      "note": "Federal Reserve Beige Book released at 4:15 PM ET—anecdotal economic conditions from all 12 Fed districts, published two weeks before the July 28–29 FOMC meeting (no dot plot); will capture early-Q3 business sentiment on labor costs, consumer spending, tariff pass-through, and post-ISM-prices disinflation; a tone of softening demand and easing price pressures supports a hold at 5.25–5.50%, while persistent services inflation or energy re-acceleration language would reinforce the Warsh hawkish tilt; real yields at 2.33% and the 10-year at ~4.56% remain a focal point in business investment commentary."
     },
     {
       "date": "2026-07-16",
       "title": "Retail Sales (June 2026)",
       "category": "Growth",
       "importance": "high",
-      "note": "Census Bureau Advance Monthly Retail Trade for June 2026 at 8:30 AM ET—key test of consumer spending health; real yields at 2.28% and the 10-year at ~4.56% continue to weigh on big-ticket discretionary spending; a solid print reinforces the soft-landing narrative ahead of the July 28–29 FOMC; Philadelphia Fed Manufacturing Survey (July 2026) also at 8:30 AM ET—second early-Q3 regional factory read; H.4.1 Fed balance sheet (week ended July 9) releases at 4:30 PM ET and will provide the next balance sheet update after the July 8 reading of $6.74T."
+      "note": "Census Bureau Advance Monthly Retail Trade for June 2026 at 8:30 AM ET—key test of consumer spending health; real yields at 2.33% and the 10-year at ~4.56% continue to weigh on big-ticket discretionary spending; a solid print reinforces the soft-landing narrative ahead of the July 28–29 FOMC; Philadelphia Fed Manufacturing Survey (July 2026) also at 8:30 AM ET—second early-Q3 regional factory read; H.4.1 Fed balance sheet (week ended July 9) releases at 4:30 PM ET and will provide the next balance sheet update after the July 8 reading of $6.74T."
     },
     {
       "date": "2026-07-16",
@@ -215,22 +208,22 @@
       "title": "Housing Starts & Building Permits / Industrial Production / UMich Sentiment (June–July 2026)",
       "category": "Growth",
       "importance": "medium",
-      "note": "Census Bureau new residential construction for June at 8:30 AM ET—housing demand signal in the still-elevated real-yield environment (2.28%); Federal Reserve Industrial Production & Capacity Utilization (June) at 9:15 AM ET cross-checks the ISM Manufacturing expansion (53.3%, sixth consecutive month above 50); University of Michigan Consumer Sentiment preliminary (July) at 10:00 AM ET—watch the 1-year and 5-year inflation expectations components, which carry outsized weight for the Warsh Fed's reaction function; these are the last significant releases before the FOMC blackout begins July 18."
+      "note": "Census Bureau new residential construction for June at 8:30 AM ET—housing demand signal in the still-elevated real-yield environment (2.33%); Federal Reserve Industrial Production & Capacity Utilization (June) at 9:15 AM ET cross-checks the ISM Manufacturing expansion (53.3%, sixth consecutive month above 50); University of Michigan Consumer Sentiment preliminary (July) at 10:00 AM ET—watch the 1-year and 5-year inflation expectations components, which carry outsized weight for the Warsh Fed's reaction function; these are the last significant releases before the FOMC blackout begins July 18."
     },
     {
       "date": "2026-07-20",
       "title": "NAHB Housing Market Index (July 2026)",
       "category": "Growth",
       "importance": "low",
-      "note": "National Association of Home Builders / Wells Fargo Housing Market Index for July 2026 at 10:00 AM ET (3rd Monday)—builder sentiment leading indicator; FOMC blackout runs July 18–30, so no Fed commentary accompanies this week's releases; the major events capping the month are the July 23 ECB rate decision, the July 28–29 FOMC decision (no dot plot), and the July 30 trio of Q2 GDP advance estimate, PCE, and BOE rate decision."
+      "note": "National Association of Home Builders / Wells Fargo Housing Market Index for July 2026 at 10:00 AM ET (3rd Monday)—builder sentiment leading indicator; FOMC blackout runs July 18–30, so no Fed commentary accompanies this week's releases; the major events capping the window are the July 23 ECB rate decision, the July 28–29 FOMC decision (no dot plot), and the July 30 trio of Q2 GDP advance estimate, PCE, and BOE rate decision."
     }
   ],
   "sources": {
     "crypto": "CoinGecko",
     "tradfi": "FRED + Stooq",
     "marketsEndpoint": "markets",
-    "indicators": "2026-07-13",
-    "calendar": "2026-07-13"
+    "indicators": "2026-07-14",
+    "calendar": "2026-07-14"
   },
   "degraded": {
     "markets": false,
@@ -240,5 +233,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-07-13T20:42:30Z"
+  "cachedAtISO": "2026-07-14T08:55:03Z"
 }
