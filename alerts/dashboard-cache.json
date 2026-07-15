@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T09:00:51.828Z",
+  "generatedAt": "2026-07-15T16:09:02.934Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "Net score holds at +2 (4 supportive: Global M2 ~$102.7T on an intact 4-week uptrend of ~$1.0T, Fed balance sheet $6.74T flat with no aggressive QT, BTC funding rates near zero at +0.01%, stablecoin dominance 13.58% on a confirmed 30-day downtrend from ~14.3–14.5% in mid-June; 2 neutral: ISM Manufacturing 53.3% above 50 but falling 4-week with next release August 3, 2s10s +0.40% positive but flat over 30 days; 2 headwinds: DXY 100.92 still above the 100 neutral-band ceiling despite easing on soft CPI, real yields 2.33% elevated and rising 4-week); June 2026 CPI came in materially below consensus—headline 3.5% YoY (vs 3.8–3.9% expected) and core 2.6% YoY (vs 2.9% expected)—validating the disinflationary pipeline flagged by ISM's 9.1pp price collapse in June and reinforcing the BTC Accumulation thesis, with DXY needing to sustain a close below 100 and real yields to compress below 2% before the two remaining headwinds flip.",
@@ -14,66 +14,66 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 64717,
+      "value": 65139,
       "format": "usd",
-      "change24h": 3.3437350431782926,
-      "change30d": -1.6305509393797262
+      "change24h": 0.5682037436872355,
+      "change30d": -3.0717397821980352
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 1877.37,
+      "value": 1920.62,
       "format": "usd",
-      "change24h": 5.236470004166772,
-      "change30d": 9.418481109141322
+      "change24h": 2.5144455199120284,
+      "change30d": 4.186011672474263
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02900476,
+      "value": 0.0294652,
       "format": "ratio",
-      "change24h": 1.8305331485667888,
-      "change30d": 7.1760662577549565
+      "change24h": 1.8278224393734062,
+      "change30d": 8.913856573174083
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 56.35407528944422,
+      "value": 56.32768385915112,
       "format": "percent",
-      "change24h": 0.48105081410858563,
-      "change30d": -0.6279141318467311
+      "change24h": -0.2841478175110601,
+      "change30d": -0.6544865480429948
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2303155098459.564,
+      "value": 2322606062143.2935,
       "format": "usd-compact",
-      "change24h": 2.8256961515501398,
-      "change30d": -0.8454207932509861
+      "change24h": 0.8586476460574539,
+      "change30d": -0.18372186689143338
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1005233340240.9882,
+      "value": 1014335862165.74,
       "format": "usd-compact",
-      "change24h": 2.193912281903807,
-      "change30d": 0.06352104514888465
+      "change24h": 1.229546165305818,
+      "change30d": 0.7700075057402628
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 778778191821.2802,
+      "value": 782050877043.5018,
       "format": "usd-compact",
-      "change24h": 1.358749671233166,
-      "change30d": -2.568928146066095
+      "change24h": 0.8560360169207477,
+      "change30d": -2.386639283371879
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 100.914,
+      "value": 100.735,
       "format": "index",
-      "change24h": -0.02575787596591663,
-      "change30d": 1.3844237260890533
+      "change24h": -0.20309094511590875,
+      "change30d": 1.204589294325669
     },
     {
       "id": "us500",
@@ -86,10 +86,10 @@
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10507.45,
+      "value": 10515.93,
       "format": "index",
-      "change24h": -0.20846392007140868,
-      "change30d": 0.3445585439154564
+      "change24h": -0.1279275172374432,
+      "change30d": 0.42554126155411837
     },
     {
       "id": "oil",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 4030.997,
+      "value": 4044.025,
       "format": "usd",
-      "change24h": -0.5337524194177288,
-      "change30d": -4.4554239541878795
+      "change24h": -0.21228200565164296,
+      "change30d": -4.1466282054624735
     }
   ],
   "indicators": [
@@ -226,5 +226,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-07-15T09:00:51Z"
+  "cachedAtISO": "2026-07-15T16:09:02Z"
 }
