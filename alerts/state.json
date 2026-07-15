@@ -1,17 +1,11 @@
 {
-  "lastRunISO": "2026-07-14T20:10:59Z",
+  "lastRunISO": "2026-07-15T07:08:49Z",
   "priceAlerts": {
     "btc": {
-      "pct": -3.46,
-      "dir": "down",
-      "ISO": "2026-07-14T07:06:47Z",
-      "value": 61893
-    },
-    "btcd": {
-      "pct": 7.1,
-      "dir": "down",
-      "ISO": "2026-07-08T07:08:46Z",
-      "value": 54.0
+      "pct": 4.0,
+      "dir": "up",
+      "ISO": "2026-07-15T07:08:49Z",
+      "value": 64759
     },
     "oil": {
       "pct": 3.54,
@@ -31,10 +25,6 @@
     "CPI-2026-06": "2026-07-14T15:11:02Z"
   },
   "news": {
-    "btcd-one-month-low-jul8": "2026-07-08T07:08:46Z",
-    "fomc-minutes-due-today-jul8": "2026-07-08T07:08:46Z",
-    "us-iran-strikes-oil-jul8": "2026-07-08T15:07:28Z",
-    "fomc-minutes-released-jul8": "2026-07-08T20:07:08Z",
     "us-iran-ceasefire-collapse-jul9": "2026-07-09T15:10:35Z",
     "btc-etf-221m-streak-end-jul9": "2026-07-10T15:09:19Z",
     "clarity-act-odds-drop-48pct-jul10": "2026-07-10T20:08:15Z",
@@ -46,6 +36,7 @@
     "warsh-house-testimony-jul14": "2026-07-14T07:06:47Z",
     "warsh-remarks-hawkish-jul14": "2026-07-14T15:11:02Z",
     "bank-earnings-q2-all5-jul14": "2026-07-14T15:11:02Z",
-    "trump-strait-hormuz-fee-jul14": "2026-07-14T15:11:02Z"
+    "trump-strait-hormuz-fee-jul14": "2026-07-14T15:11:02Z",
+    "warsh-senate-testimony-jul15": "2026-07-15T07:08:49Z"
   }
 }
