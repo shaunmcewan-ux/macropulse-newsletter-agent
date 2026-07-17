@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-17T07:10:30Z",
+  "lastRunISO": "2026-07-17T15:09:09Z",
   "priceAlerts": {
     "btc": {
       "pct": 4.0,
@@ -14,10 +14,10 @@
       "value": 1877
     },
     "oil": {
-      "pct": 3.54,
+      "pct": 9.32,
       "dir": "up",
-      "ISO": "2026-07-14T07:06:47Z",
-      "value": 78.73
+      "ISO": "2026-07-17T15:09:09Z",
+      "value": 79.20
     },
     "gold": {
       "pct": -3.08,
@@ -51,6 +51,10 @@
     "clarity-act-house-hearing-jul17": "2026-07-16T15:07:02Z",
     "fomc-hike-odds-40pct-jul16": "2026-07-16T15:07:02Z",
     "bok-hike-25bp-jul16": "2026-07-16T20:08:18Z",
-    "ms-etrade-crypto-launch-jul16": "2026-07-16T20:08:18Z"
+    "ms-etrade-crypto-launch-jul16": "2026-07-16T20:08:18Z",
+    "us-iran-oiltanker-strike-jul17": "2026-07-17T15:09:09Z",
+    "jefferson-hike-signal-jul16": "2026-07-17T15:09:09Z",
+    "citadel-cryptodom-400m-jul16": "2026-07-17T15:09:09Z",
+    "visa-vsp-stablecoin-jul17": "2026-07-17T15:09:09Z"
   }
 }
