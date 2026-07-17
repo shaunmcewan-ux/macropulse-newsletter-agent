@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T16:02:53.410Z",
+  "generatedAt": "2026-07-17T20:33:18.983Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "Net macro score holds at +2 (4 supportive: Global M2 ~$102.7T on intact 4-week uptrend through May 2026 data, Fed balance sheet $6.74T confirmed flat per H.4.1 week ended July 15, BTC funding +0.01% near-zero, stablecoin dominance 13.32% in confirmed 30-day downtrend from ~14.4% in mid-June; 2 neutral: ISM Manufacturing 53.3% above 50 but falling ahead of August 3 July release, 2s10s +0.41% positive but flat 4-week; 2 headwinds: DXY 100.78 rebounded intraday July 17 after the post-CPI/PPI selloff and remains above the 100 headwind threshold, real yields 2.33% elevated and still rising on a 4-week basis); BTC.D 56.3% firm, TOTAL ~$2.28T stable; the July 28–29 FOMC is the next macro catalyst with a hold expected at 3.5–3.75% and focus on Chair Warsh's language on the disinflation pipeline, which if dovish could compress real yields toward neutral and flip DXY below 100—both remaining headwinds.",
@@ -14,66 +14,66 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 63373,
+      "value": 63980,
       "format": "usd",
-      "change24h": -2.0095068224208648,
-      "change30d": -3.501471716268007
+      "change24h": -0.2591914381066613,
+      "change30d": -0.31343543747313196
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 1829.69,
+      "value": 1839.16,
       "format": "usd",
-      "change24h": -2.7106237394565955,
-      "change30d": 3.313151519939351
+      "change24h": -1.8005405951351627,
+      "change30d": 6.144975752127
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02886857,
+      "value": 0.02873302,
       "format": "ratio",
-      "change24h": -0.7207688677539873,
-      "change30d": 6.3796294097362445
+      "change24h": -1.5869290340187767,
+      "change30d": 5.892105931096872
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 56.274757292438906,
+      "value": 56.45983166802362,
       "format": "percent",
-      "change24h": 0.0956121881522165,
-      "change30d": -0.04409712325040651
+      "change24h": 0.2023413026623233,
+      "change30d": 0.2505113190880254
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2257123948356.2437,
+      "value": 2274301635989.602,
       "format": "usd-compact",
-      "change24h": -1.9394078778429988,
-      "change30d": -3.334735455467535
+      "change24h": -0.44250593039840347,
+      "change30d": -2.743625637054615
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 986932924629.2535,
+      "value": 990234760686.7655,
       "format": "usd-compact",
-      "change24h": -2.060000480146225,
-      "change30d": -3.2735384301332093
+      "change24h": -0.7022554719177877,
+      "change30d": -3.093405690167831
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 766316384110.9574,
+      "value": 768257652520.0596,
       "format": "usd-compact",
-      "change24h": -1.8994200262851357,
-      "change30d": -4.935397151143452
+      "change24h": -0.38391225767670617,
+      "change30d": -4.852168349732518
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 100.786,
+      "value": 100.759,
       "format": "index",
-      "change24h": 0.07844539108503652,
-      "change30d": 1.2721061093247643
+      "change24h": 0.051634940967367426,
+      "change30d": 1.2449758842443774
     },
     {
       "id": "us500",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 4014.59,
+      "value": 4008.61,
       "format": "usd",
-      "change24h": 0.9619906557239337,
-      "change30d": -7.313300341348134
+      "change24h": 0.8116010258685237,
+      "change30d": -7.45136337243194
     }
   ],
   "indicators": [
@@ -226,5 +226,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-07-17T16:02:53Z"
+  "cachedAtISO": "2026-07-17T20:33:19Z"
 }
