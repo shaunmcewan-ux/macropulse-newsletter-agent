@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-16T20:08:18Z",
+  "lastRunISO": "2026-07-17T07:10:30Z",
   "priceAlerts": {
     "btc": {
       "pct": 4.0,
@@ -27,14 +27,12 @@
     }
   },
   "releases": {
-    "Jobless-Claims-2026-07-09": "2026-07-09T15:10:35Z",
     "CPI-2026-06": "2026-07-14T15:11:02Z",
     "PPI-2026-06": "2026-07-15T15:07:52Z",
     "Retail-Sales-2026-06": "2026-07-16T15:07:02Z",
     "Jobless-Claims-2026-07-16": "2026-07-16T20:08:18Z"
   },
   "news": {
-    "us-iran-ceasefire-collapse-jul9": "2026-07-09T15:10:35Z",
     "btc-etf-221m-streak-end-jul9": "2026-07-10T15:09:19Z",
     "clarity-act-odds-drop-48pct-jul10": "2026-07-10T20:08:15Z",
     "eth-etf-5day-inflow-streak-jul10": "2026-07-10T20:08:15Z",
