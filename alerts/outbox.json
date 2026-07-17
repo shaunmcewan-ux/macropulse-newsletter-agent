@@ -1,6 +1,6 @@
 {
-  "ts": "2026-07-17T15:09:09Z",
+  "ts": "2026-07-17T20:10:14Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "Oil +9.32% (24h) → $79.20: US struck Iran oil tanker near export terminal; Iran retaliated at US bases in Kuwait/Jordan. WTI up ~11% this week.\nFed's Jefferson (Jul 16): may need to hike if inflation stays sticky — FOMC Jul 28-29 now live.\nCitadel Securities invests $400M in Crypto.com at $20B valuation.\nVisa launches VSP stablecoin platform — USDC/USDG settlement for ~15,000 banks.\nBTC -1.87%, ETH -2.82% (24h) — below alert thresholds."
+  "priority": "default",
+  "message": "UMich Sentiment (Jul prelim): 54.4 vs 51.0 est — 5-month high, second straight monthly gain.\nCLARITY Act: House hearing concluded; Polymarket passage odds at record low — Senate ethics impasse unresolved.\nNetflix -9% on weak Q3 guidance; Coinbase -3%, BTC miners -6 to -8%, S&P 500 -0.5%.\nBTC ~$63,800 (-1.4%) · ETH ~$1,865 (-2.8%) — below alert thresholds."
 }

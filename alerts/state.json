@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-17T15:09:09Z",
+  "lastRunISO": "2026-07-17T20:10:14Z",
   "priceAlerts": {
     "btc": {
       "pct": 4.0,
@@ -30,12 +30,10 @@
     "CPI-2026-06": "2026-07-14T15:11:02Z",
     "PPI-2026-06": "2026-07-15T15:07:52Z",
     "Retail-Sales-2026-06": "2026-07-16T15:07:02Z",
-    "Jobless-Claims-2026-07-16": "2026-07-16T20:08:18Z"
+    "Jobless-Claims-2026-07-16": "2026-07-16T20:08:18Z",
+    "UMich-Sentiment-2026-07-prelim": "2026-07-17T20:10:14Z"
   },
   "news": {
-    "btc-etf-221m-streak-end-jul9": "2026-07-10T15:09:19Z",
-    "clarity-act-odds-drop-48pct-jul10": "2026-07-10T20:08:15Z",
-    "eth-etf-5day-inflow-streak-jul10": "2026-07-10T20:08:15Z",
     "warsh-testimony-jul15": "2026-07-12T15:09:58Z",
     "clarity-act-senate-july20-vote": "2026-07-13T07:10:11Z",
     "us-iran-strait-missile-jul13": "2026-07-13T15:09:31Z",
@@ -55,6 +53,8 @@
     "us-iran-oiltanker-strike-jul17": "2026-07-17T15:09:09Z",
     "jefferson-hike-signal-jul16": "2026-07-17T15:09:09Z",
     "citadel-cryptodom-400m-jul16": "2026-07-17T15:09:09Z",
-    "visa-vsp-stablecoin-jul17": "2026-07-17T15:09:09Z"
+    "visa-vsp-stablecoin-jul17": "2026-07-17T15:09:09Z",
+    "clarity-act-hearing-outcome-record-low-jul17": "2026-07-17T20:10:14Z",
+    "netflix-earnings-drop-jul17": "2026-07-17T20:10:14Z"
   }
 }
