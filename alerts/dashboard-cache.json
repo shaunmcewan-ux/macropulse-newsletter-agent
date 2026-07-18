@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T08:27:07.030Z",
+  "generatedAt": "2026-07-18T15:38:20.487Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "Net macro score holds at +2 (4 supportive: Global M2 ~$102.7T on intact 4-week uptrend through May 2026 data, Fed balance sheet $6.74T confirmed flat per H.4.1 week ended July 15, BTC funding +0.01% near-zero, stablecoin dominance 13.49% in continued 30-day downtrend from ~14.4% in mid-June despite a small Friday-session uptick; 2 neutral: ISM Manufacturing 53.3% above 50 but falling ahead of August 3 July release, 2s10s +0.41% positive but flat 4-week; 2 headwinds: DXY 100.78 at Friday July 17 close, above the 100 headwind threshold; real yields 2.31% on July 17, elevated and rising +0.13pp on a 4-week basis from ~2.18% on June 17); BTC.D 56.3% firm, TOTAL ~$2.26T; the July 28–29 FOMC is the next key catalyst with a hold at 3.5–3.75% expected and focus on Warsh's tone on the disinflationary pipeline, while July 30 delivers a macro triple—Q2 GDP advance, June PCE monthly, and personal income/outlays—that could shift the real yield and DXY headwinds if data continues to soften.",
@@ -14,58 +14,58 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 63939,
+      "value": 64033,
       "format": "usd",
-      "change24h": 1.8545566338859902,
-      "change30d": -0.7566962789839805
+      "change24h": 1.285560041504282,
+      "change30d": 0.2791998042714742
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 1844.08,
+      "value": 1843.3,
       "format": "usd",
-      "change24h": 1.0442274991820493,
-      "change30d": 5.524664413077675
+      "change24h": 1.062361149993299,
+      "change30d": 6.376033561689126
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02883595,
+      "value": 0.02878594,
       "format": "ratio",
-      "change24h": -0.7968011231059403,
-      "change30d": 6.111169247538578
+      "change24h": -0.2328653232282393,
+      "change30d": 5.917087615867049
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 56.4118290101551,
+      "value": 56.45278685980685,
       "format": "percent",
-      "change24h": 0.7103070017364432,
-      "change30d": 0.39466316503440757
+      "change24h": 0.5084192247882369,
+      "change30d": 0.5042349627394974
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2273208665839.588,
+      "value": 2275470888714.376,
       "format": "usd-compact",
-      "change24h": 1.1393699735656455,
-      "change30d": -1.1168269170291258
+      "change24h": 0.7778162080763854,
+      "change30d": -1.0780340289038555
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 990850080222.1315,
+      "value": 990904157851.4967,
       "format": "usd-compact",
-      "change24h": 0.22421111279384934,
-      "change30d": -1.6747237974628861
+      "change24h": 0.1214077598183563,
+      "change30d": -1.7740035904806182
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 768359097444.6367,
+      "value": 768491706916.4186,
       "format": "usd-compact",
-      "change24h": -0.00399216986331188,
-      "change30d": -3.84276313011611
+      "change24h": -0.15146698823273258,
+      "change30d": -3.952427234158765
     },
     {
       "id": "dxy",
@@ -226,5 +226,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-07-18T08:27:07Z"
+  "cachedAtISO": "2026-07-18T15:38:20Z"
 }
