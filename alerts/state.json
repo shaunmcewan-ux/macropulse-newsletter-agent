@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-18T07:08:55Z",
+  "lastRunISO": "2026-07-18T15:06:49Z",
   "priceAlerts": {
     "btc": {
       "pct": 4.0,
@@ -31,7 +31,9 @@
     "PPI-2026-06": "2026-07-15T15:07:52Z",
     "Retail-Sales-2026-06": "2026-07-16T15:07:02Z",
     "Jobless-Claims-2026-07-16": "2026-07-16T20:08:18Z",
-    "UMich-Sentiment-2026-07-prelim": "2026-07-17T20:10:14Z"
+    "UMich-Sentiment-2026-07-prelim": "2026-07-17T20:10:14Z",
+    "Housing-Starts-2026-06": "2026-07-18T15:06:49Z",
+    "Industrial-Production-2026-06": "2026-07-18T15:06:49Z"
   },
   "news": {
     "warsh-testimony-jul15": "2026-07-12T15:09:58Z",
