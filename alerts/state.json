@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-19T07:08:37Z",
+  "lastRunISO": "2026-07-19T15:07:01Z",
   "priceAlerts": {
     "btc": {
       "pct": 4.0,
@@ -14,10 +14,10 @@
       "value": 1877
     },
     "oil": {
-      "pct": 9.32,
+      "pct": 4.47,
       "dir": "up",
-      "ISO": "2026-07-17T15:09:09Z",
-      "value": 79.20
+      "ISO": "2026-07-19T15:07:01Z",
+      "value": 81.78
     },
     "gold": {
       "pct": -3.08,
@@ -58,6 +58,7 @@
     "visa-vsp-stablecoin-jul17": "2026-07-17T15:09:09Z",
     "clarity-act-hearing-outcome-record-low-jul17": "2026-07-17T20:10:14Z",
     "netflix-earnings-drop-jul17": "2026-07-17T20:10:14Z",
-    "genius-act-stablecoin-deadline-jul18": "2026-07-18T07:08:55Z"
+    "genius-act-stablecoin-deadline-jul18": "2026-07-18T07:08:55Z",
+    "us-iran-kuwait-retaliation-jul18": "2026-07-19T15:07:01Z"
   }
 }
