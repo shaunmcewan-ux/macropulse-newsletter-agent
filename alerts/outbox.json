@@ -1,1 +1,6 @@
-{"ts":"2026-07-20T15:09:59Z","title":"MacroPulse Alert","priority":"default","message":""}
+{
+  "ts": "2026-07-20T20:09:33Z",
+  "title": "MacroPulse Alert",
+  "priority": "default",
+  "message": "BTC BVIV 30d implied vol at 34–38% historical floor — zone that preceded 3 prior sharp selloffs; covered-call ETF supply keeping vol 'cheap' (CoinDesk, Jul 20).\nThis week: Alphabet + Tesla earnings Wed after close; ECB rate decision Thu (hold at 2.25% 84% priced — press conf tone key for EUR/risk)."
+}
