@@ -1,29 +1,23 @@
 {
-  "lastRunISO": "2026-07-20T20:09:33Z",
+  "lastRunISO": "2026-07-21T07:10:22Z",
   "priceAlerts": {
     "btc": {
-      "pct": 4.0,
+      "pct": 3.09,
       "dir": "up",
-      "ISO": "2026-07-15T07:08:49Z",
-      "value": 64759
+      "ISO": "2026-07-21T07:10:22Z",
+      "value": 65837
     },
     "eth": {
-      "pct": 5.24,
+      "pct": 4.59,
       "dir": "up",
-      "ISO": "2026-07-15T15:07:52Z",
-      "value": 1877
+      "ISO": "2026-07-21T07:10:22Z",
+      "value": 1933
     },
     "oil": {
       "pct": 3.0,
       "dir": "up",
       "ISO": "2026-07-20T07:08:32Z",
       "value": 90.26
-    },
-    "gold": {
-      "pct": -3.08,
-      "dir": "down",
-      "ISO": "2026-07-13T20:08:31Z",
-      "value": 3993
     }
   },
   "releases": {
@@ -36,7 +30,6 @@
     "Industrial-Production-2026-06": "2026-07-18T15:06:49Z"
   },
   "news": {
-    "warsh-house-testimony-jul14": "2026-07-14T07:06:47Z",
     "warsh-remarks-hawkish-jul14": "2026-07-14T15:11:02Z",
     "bank-earnings-q2-all5-jul14": "2026-07-14T15:11:02Z",
     "trump-strait-hormuz-fee-jul14": "2026-07-14T15:11:02Z",
@@ -60,6 +53,9 @@
     "strait-hormuz-shipping-curtailed-jul20": "2026-07-20T07:08:32Z",
     "btc-bviv-volmageddon-warning-jul20": "2026-07-20T20:09:33Z",
     "alphabet-tesla-earnings-wed-jul22": "2026-07-20T20:09:33Z",
-    "ecb-rate-decision-jul24": "2026-07-20T20:09:33Z"
+    "ecb-rate-decision-jul24": "2026-07-20T20:09:33Z",
+    "btc-twowk-high-chip-tailwind-jul21": "2026-07-21T07:10:22Z",
+    "btc-etf-5day-inflows-600m-jul21": "2026-07-21T07:10:22Z",
+    "fomc-hike-odds-15pct-jul21": "2026-07-21T07:10:22Z"
   }
 }
