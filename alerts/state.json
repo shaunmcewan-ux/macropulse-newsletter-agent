@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-21T15:12:37Z",
+  "lastRunISO": "2026-07-21T20:10:21Z",
   "priceAlerts": {
     "btc": {
       "pct": 3.09,
@@ -21,7 +21,6 @@
     }
   },
   "releases": {
-    "CPI-2026-06": "2026-07-14T15:11:02Z",
     "PPI-2026-06": "2026-07-15T15:07:52Z",
     "Retail-Sales-2026-06": "2026-07-16T15:07:02Z",
     "Jobless-Claims-2026-07-16": "2026-07-16T20:08:18Z",
@@ -32,9 +31,6 @@
     "FlashPMI-Svc-2026-07": "2026-07-21T15:12:37Z"
   },
   "news": {
-    "warsh-remarks-hawkish-jul14": "2026-07-14T15:11:02Z",
-    "bank-earnings-q2-all5-jul14": "2026-07-14T15:11:02Z",
-    "trump-strait-hormuz-fee-jul14": "2026-07-14T15:11:02Z",
     "warsh-senate-testimony-jul15": "2026-07-15T07:08:49Z",
     "warsh-senate-no-bailout-jul15": "2026-07-15T20:08:24Z",
     "eth-etf-blackrock-etha-inflows-jul16": "2026-07-16T15:07:02Z",
