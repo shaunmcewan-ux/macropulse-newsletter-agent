@@ -1,6 +1,6 @@
 {
-  "ts": "2026-07-22T15:09:32Z",
+  "ts": "2026-07-22T20:09:33Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "Oil +9.3% (24h) → WTI $79 — US completes 11th consecutive night of strikes on Iran; geopolitical risk premium surging\nGold +1.0% (24h) → $4,118 — safe-haven bid; below alert threshold but extending gains"
+  "priority": "default",
+  "message": "Alphabet & Tesla Q2 earnings released after close — results now public, calls start 5:30 PM ET\nGold +1.5% (24h) → ~$4,135/oz — safe-haven bid extends as US-Iran strikes enter Day 11\nOil at $87–88/bbl (6-week high) — WTI up further on threat of broader US military action vs Iran"
 }

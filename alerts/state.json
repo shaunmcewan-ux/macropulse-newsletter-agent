@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-22T15:09:32Z",
+  "lastRunISO": "2026-07-22T20:09:33Z",
   "priceAlerts": {
     "btc": {
       "pct": 3.09,
@@ -18,10 +18,15 @@
       "dir": "up",
       "ISO": "2026-07-22T15:09:32Z",
       "value": 79.2
+    },
+    "gold": {
+      "pct": 1.5,
+      "dir": "up",
+      "ISO": "2026-07-22T20:09:33Z",
+      "value": 4135
     }
   },
   "releases": {
-    "PPI-2026-06": "2026-07-15T15:07:52Z",
     "Retail-Sales-2026-06": "2026-07-16T15:07:02Z",
     "Jobless-Claims-2026-07-16": "2026-07-16T20:08:18Z",
     "UMich-Sentiment-2026-07-prelim": "2026-07-17T20:10:14Z",
@@ -31,8 +36,6 @@
     "FlashPMI-Svc-2026-07": "2026-07-21T15:12:37Z"
   },
   "news": {
-    "warsh-senate-testimony-jul15": "2026-07-15T07:08:49Z",
-    "warsh-senate-no-bailout-jul15": "2026-07-15T20:08:24Z",
     "eth-etf-blackrock-etha-inflows-jul16": "2026-07-16T15:07:02Z",
     "japan-crypto-financial-assets-jul15": "2026-07-16T15:07:02Z",
     "clarity-act-house-hearing-jul17": "2026-07-16T15:07:02Z",
@@ -56,6 +59,9 @@
     "btc-etf-5day-inflows-600m-jul21": "2026-07-21T07:10:22Z",
     "fomc-hike-odds-15pct-jul21": "2026-07-21T07:10:22Z",
     "clarity-act-ethics-deal-jul20": "2026-07-21T15:12:37Z",
-    "us-iran-11th-night-strikes-jul22": "2026-07-22T15:09:32Z"
+    "us-iran-11th-night-strikes-jul22": "2026-07-22T15:09:32Z",
+    "oil-87-6wk-high-iran-jul22": "2026-07-22T20:09:33Z",
+    "alphabet-q2-2026-earnings-release": "2026-07-22T20:09:33Z",
+    "tesla-q2-2026-earnings-release": "2026-07-22T20:09:33Z"
   }
 }
