@@ -1,6 +1,6 @@
 {
-  "ts": "2026-07-22T20:09:33Z",
+  "ts": "2026-07-23T07:12:03Z",
   "title": "MacroPulse Alert",
-  "priority": "default",
-  "message": "Alphabet & Tesla Q2 earnings released after close — results now public, calls start 5:30 PM ET\nGold +1.5% (24h) → ~$4,135/oz — safe-haven bid extends as US-Iran strikes enter Day 11\nOil at $87–88/bbl (6-week high) — WTI up further on threat of broader US military action vs Iran"
+  "priority": "high",
+  "message": "ECB holds at 2.25% (Jul 23); press conf hawkish — Sep hike nearly fully priced\nUS-Iran: 12th consecutive night of strikes; oil tanker fire in Strait of Hormuz; Houthis hit Saudi tankers\nWTI $88.17 (6-wk high) — Hormuz disruption risk elevated"
 }
