@@ -1,6 +1,6 @@
 {
-  "ts": "2026-07-23T20:09:11Z",
+  "ts": "2026-07-24T07:09:09Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "FOMC Jul 29: hike odds ~50%, up from ~15% Mon — Warsh dismisses transitory excuse; oil above $100\nTrump tells Axios he's 'close' to massive Iran attack — new escalation beyond tanker strikes\nBTC ETF: 7-day inflow streak, $981M cumulative since Jul 14 (up from 5-day/$600M)"
+  "priority": "default",
+  "message": "Gold -1.98% → $4,048: rising yields & firmer USD overwhelm safe-haven bid despite Iran conflict\nUS completes 13th night of strikes on Iran; Trump threatens to bomb bridges & power plants\nBTC -1.4% ($64,962), S&P 500 -1.2% — both below alert thresholds"
 }

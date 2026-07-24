@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-23T20:09:11Z",
+  "lastRunISO": "2026-07-24T07:09:09Z",
   "priceAlerts": {
     "btc": {
       "pct": 3.09,
@@ -20,10 +20,10 @@
       "value": 100.08
     },
     "gold": {
-      "pct": 1.5,
-      "dir": "up",
-      "ISO": "2026-07-22T20:09:33Z",
-      "value": 4135
+      "pct": 1.98,
+      "dir": "down",
+      "ISO": "2026-07-24T07:09:09Z",
+      "value": 4047.80
     },
     "us500": {
       "pct": 1.97,
@@ -33,8 +33,6 @@
     }
   },
   "releases": {
-    "Retail-Sales-2026-06": "2026-07-16T15:07:02Z",
-    "Jobless-Claims-2026-07-16": "2026-07-16T20:08:18Z",
     "UMich-Sentiment-2026-07-prelim": "2026-07-17T20:10:14Z",
     "Housing-Starts-2026-06": "2026-07-18T15:06:49Z",
     "Industrial-Production-2026-06": "2026-07-18T15:06:49Z",
@@ -42,8 +40,6 @@
     "FlashPMI-Svc-2026-07": "2026-07-21T15:12:37Z"
   },
   "news": {
-    "bok-hike-25bp-jul16": "2026-07-16T20:08:18Z",
-    "ms-etrade-crypto-launch-jul16": "2026-07-16T20:08:18Z",
     "us-iran-oiltanker-strike-jul17": "2026-07-17T15:09:09Z",
     "jefferson-hike-signal-jul16": "2026-07-17T15:09:09Z",
     "citadel-cryptodom-400m-jul16": "2026-07-17T15:09:09Z",
@@ -70,6 +66,8 @@
     "houthi-saudi-tanker-brent100-jul23": "2026-07-23T15:11:11Z",
     "fomc-hike-odds-50pct-jul23": "2026-07-23T20:09:11Z",
     "trump-massive-attack-iran-axios-jul23": "2026-07-23T20:09:11Z",
-    "btc-etf-7day-981m-jul23": "2026-07-23T20:09:11Z"
+    "btc-etf-7day-981m-jul23": "2026-07-23T20:09:11Z",
+    "us-iran-13th-strikes-jul24": "2026-07-24T07:09:09Z",
+    "trump-iran-infrastructure-threat-jul24": "2026-07-24T07:09:09Z"
   }
 }
