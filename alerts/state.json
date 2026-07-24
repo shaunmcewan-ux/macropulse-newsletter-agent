@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-24T15:15:21Z",
+  "lastRunISO": "2026-07-24T20:07:31Z",
   "priceAlerts": {
     "btc": {
       "pct": 3.09,
@@ -14,10 +14,10 @@
       "value": 1933
     },
     "oil": {
-      "pct": 6.4,
-      "dir": "up",
-      "ISO": "2026-07-23T15:11:11Z",
-      "value": 100.08
+      "pct": 3.1,
+      "dir": "down",
+      "ISO": "2026-07-24T20:07:31Z",
+      "value": 97.04
     },
     "gold": {
       "pct": 1.98,
@@ -40,10 +40,6 @@
     "FlashPMI-Svc-2026-07": "2026-07-21T15:12:37Z"
   },
   "news": {
-    "us-iran-oiltanker-strike-jul17": "2026-07-17T15:09:09Z",
-    "jefferson-hike-signal-jul16": "2026-07-17T15:09:09Z",
-    "citadel-cryptodom-400m-jul16": "2026-07-17T15:09:09Z",
-    "visa-vsp-stablecoin-jul17": "2026-07-17T15:09:09Z",
     "clarity-act-hearing-outcome-record-low-jul17": "2026-07-17T20:10:14Z",
     "netflix-earnings-drop-jul17": "2026-07-17T20:10:14Z",
     "genius-act-stablecoin-deadline-jul18": "2026-07-18T07:08:55Z",
@@ -72,6 +68,9 @@
     "iran-jordan-amman-strike-jul24": "2026-07-24T15:15:21Z",
     "tesla-q2-crash-14pct-jul23": "2026-07-24T15:15:21Z",
     "alphabet-q2-capex-selloff-jul23": "2026-07-24T15:15:21Z",
-    "btc-etf-outflows-225m-jul24": "2026-07-24T15:15:21Z"
+    "btc-etf-outflows-225m-jul24": "2026-07-24T15:15:21Z",
+    "eu-21st-sanctions-crypto-htx-jul24": "2026-07-24T20:07:31Z",
+    "mag7-797b-wipeout-btc-uncorrelated-jul24": "2026-07-24T20:07:31Z",
+    "fomc-hike-odds-35pct-jul24": "2026-07-24T20:07:31Z"
   }
 }
