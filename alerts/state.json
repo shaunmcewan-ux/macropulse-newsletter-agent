@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-24T20:07:31Z",
+  "lastRunISO": "2026-07-25T07:11:09Z",
   "priceAlerts": {
     "btc": {
       "pct": 3.09,
@@ -14,10 +14,10 @@
       "value": 1933
     },
     "oil": {
-      "pct": 3.1,
+      "pct": 4.67,
       "dir": "down",
-      "ISO": "2026-07-24T20:07:31Z",
-      "value": 97.04
+      "ISO": "2026-07-25T07:11:09Z",
+      "value": 87.88
     },
     "gold": {
       "pct": 1.98,
@@ -33,15 +33,12 @@
     }
   },
   "releases": {
-    "UMich-Sentiment-2026-07-prelim": "2026-07-17T20:10:14Z",
     "Housing-Starts-2026-06": "2026-07-18T15:06:49Z",
     "Industrial-Production-2026-06": "2026-07-18T15:06:49Z",
     "FlashPMI-Mfg-2026-07": "2026-07-21T15:12:37Z",
     "FlashPMI-Svc-2026-07": "2026-07-21T15:12:37Z"
   },
   "news": {
-    "clarity-act-hearing-outcome-record-low-jul17": "2026-07-17T20:10:14Z",
-    "netflix-earnings-drop-jul17": "2026-07-17T20:10:14Z",
     "genius-act-stablecoin-deadline-jul18": "2026-07-18T07:08:55Z",
     "us-iran-kuwait-retaliation-jul18": "2026-07-19T15:07:01Z",
     "genius-act-deadline-missed-jul19": "2026-07-19T20:08:48Z",
@@ -71,6 +68,7 @@
     "btc-etf-outflows-225m-jul24": "2026-07-24T15:15:21Z",
     "eu-21st-sanctions-crypto-htx-jul24": "2026-07-24T20:07:31Z",
     "mag7-797b-wipeout-btc-uncorrelated-jul24": "2026-07-24T20:07:31Z",
-    "fomc-hike-odds-35pct-jul24": "2026-07-24T20:07:31Z"
+    "fomc-hike-odds-35pct-jul24": "2026-07-24T20:07:31Z",
+    "iran-ceasefire-diplo-oil-drop-jul25": "2026-07-25T07:11:09Z"
   }
 }
