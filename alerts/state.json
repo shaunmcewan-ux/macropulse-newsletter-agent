@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-25T07:11:09Z",
+  "lastRunISO": "2026-07-25T15:09:01Z",
   "priceAlerts": {
     "btc": {
       "pct": 3.09,
@@ -69,6 +69,8 @@
     "eu-21st-sanctions-crypto-htx-jul24": "2026-07-24T20:07:31Z",
     "mag7-797b-wipeout-btc-uncorrelated-jul24": "2026-07-24T20:07:31Z",
     "fomc-hike-odds-35pct-jul24": "2026-07-24T20:07:31Z",
-    "iran-ceasefire-diplo-oil-drop-jul25": "2026-07-25T07:11:09Z"
+    "iran-ceasefire-diplo-oil-drop-jul25": "2026-07-25T07:11:09Z",
+    "fomc-warsh-bigtech-earnings-wed-jul29": "2026-07-25T15:09:01Z",
+    "defense-stocks-selloff-iran-deescalation-jul25": "2026-07-25T15:09:01Z"
   }
 }
