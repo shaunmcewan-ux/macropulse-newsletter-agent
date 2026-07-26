@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-26T07:10:10Z",
+  "lastRunISO": "2026-07-26T15:12:25Z",
   "priceAlerts": {
     "btc": {
       "pct": 3.09,
@@ -70,6 +70,7 @@
     "fomc-warsh-bigtech-earnings-wed-jul29": "2026-07-25T15:09:01Z",
     "defense-stocks-selloff-iran-deescalation-jul25": "2026-07-25T15:09:01Z",
     "trump-cabinet-iran-escalation-consider-jul25": "2026-07-25T20:06:58Z",
-    "btc-below-64k-312m-liquidations-jul25": "2026-07-26T07:10:10Z"
+    "btc-below-64k-312m-liquidations-jul25": "2026-07-26T07:10:10Z",
+    "iran-mutual-standdown-jul26": "2026-07-26T15:12:25Z"
   }
 }

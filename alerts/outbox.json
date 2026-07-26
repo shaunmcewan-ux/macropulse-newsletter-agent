@@ -1,6 +1,6 @@
 {
-  "ts": "2026-07-26T07:10:10Z",
+  "ts": "2026-07-26T15:12:25Z",
   "title": "MacroPulse Alert",
   "priority": "default",
-  "message": "BTC fell to $64,034 on Jul 25 → $87M BTC / $312M total crypto liquidations; stabilised ~$64,320.\nAll 12 assets within alert thresholds (dashboard 20:32 UTC Jul 25): BTC +0.2%, Oil +1.1%, Gold +0.07% 24h.\nFOMC week: rate decision Jul 29 2pm ET (hold 3.5–3.75% expected); GDP advance + PCE + BOE on Jul 30."
+  "message": "Iran: mutual standdown — US & Iran both halted strikes (Sun); Omani delegation in Tehran on Hormuz shipping talks\nBTC +0.9% ($64,503) · ETH +1.4% ($1,882) — no price thresholds breached\nNo macro data today (Sun); FOMC decision Wed 29 Jul, rate hold expected at 3.5–3.75%"
 }
