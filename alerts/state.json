@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-26T15:12:25Z",
+  "lastRunISO": "2026-07-26T20:09:01Z",
   "priceAlerts": {
     "btc": {
       "pct": 3.09,
@@ -37,8 +37,6 @@
     "FlashPMI-Svc-2026-07": "2026-07-21T15:12:37Z"
   },
   "news": {
-    "us-iran-kuwait-retaliation-jul18": "2026-07-19T15:07:01Z",
-    "genius-act-deadline-missed-jul19": "2026-07-19T20:08:48Z",
     "strait-hormuz-shipping-curtailed-jul20": "2026-07-20T07:08:32Z",
     "btc-bviv-volmageddon-warning-jul20": "2026-07-20T20:09:33Z",
     "alphabet-tesla-earnings-wed-jul22": "2026-07-20T20:09:33Z",
@@ -71,6 +69,7 @@
     "defense-stocks-selloff-iran-deescalation-jul25": "2026-07-25T15:09:01Z",
     "trump-cabinet-iran-escalation-consider-jul25": "2026-07-25T20:06:58Z",
     "btc-below-64k-312m-liquidations-jul25": "2026-07-26T07:10:10Z",
-    "iran-mutual-standdown-jul26": "2026-07-26T15:12:25Z"
+    "iran-mutual-standdown-jul26": "2026-07-26T15:12:25Z",
+    "netanyahu-trump-iran-joint-strikes-jul28": "2026-07-26T20:09:01Z"
   }
 }
