@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-26T20:09:01Z",
+  "lastRunISO": "2026-07-27T07:15:11Z",
   "priceAlerts": {
     "btc": {
       "pct": 3.09,
@@ -14,10 +14,10 @@
       "value": 1933
     },
     "oil": {
-      "pct": 4.67,
+      "pct": 5.50,
       "dir": "down",
-      "ISO": "2026-07-25T07:11:09Z",
-      "value": 87.88
+      "ISO": "2026-07-27T07:15:11Z",
+      "value": 84.40
     },
     "gold": {
       "pct": 1.98,
@@ -37,7 +37,6 @@
     "FlashPMI-Svc-2026-07": "2026-07-21T15:12:37Z"
   },
   "news": {
-    "strait-hormuz-shipping-curtailed-jul20": "2026-07-20T07:08:32Z",
     "btc-bviv-volmageddon-warning-jul20": "2026-07-20T20:09:33Z",
     "alphabet-tesla-earnings-wed-jul22": "2026-07-20T20:09:33Z",
     "ecb-rate-decision-jul24": "2026-07-20T20:09:33Z",
@@ -70,6 +69,8 @@
     "trump-cabinet-iran-escalation-consider-jul25": "2026-07-25T20:06:58Z",
     "btc-below-64k-312m-liquidations-jul25": "2026-07-26T07:10:10Z",
     "iran-mutual-standdown-jul26": "2026-07-26T15:12:25Z",
-    "netanyahu-trump-iran-joint-strikes-jul28": "2026-07-26T20:09:01Z"
+    "netanyahu-trump-iran-joint-strikes-jul28": "2026-07-26T20:09:01Z",
+    "iran-us-pause-strikes-jul27": "2026-07-27T07:15:11Z",
+    "btc-etf-inflow-streak-ends-jul27": "2026-07-27T07:15:11Z"
   }
 }
