@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-28T07:18:55Z",
+  "lastRunISO": "2026-07-28T15:17:27Z",
   "priceAlerts": {
     "eth": {
       "pct": 4.4,
@@ -8,10 +8,10 @@
       "value": 1963.76
     },
     "oil": {
-      "pct": 7.7,
+      "pct": 8.29,
       "dir": "down",
-      "ISO": "2026-07-27T20:10:58Z",
-      "value": 82.43
+      "ISO": "2026-07-28T15:17:27Z",
+      "value": 81.91
     },
     "gold": {
       "pct": 1.98,
@@ -29,7 +29,8 @@
   "releases": {
     "FlashPMI-Mfg-2026-07": "2026-07-21T15:12:37Z",
     "FlashPMI-Svc-2026-07": "2026-07-21T15:12:37Z",
-    "DurableGoods-Jun-2026": "2026-07-27T20:10:58Z"
+    "DurableGoods-Jun-2026": "2026-07-27T20:10:58Z",
+    "ConsumerConfidence-Jul-2026": "2026-07-28T15:17:27Z"
   },
   "news": {
     "clarity-act-ethics-deal-jul20": "2026-07-21T15:12:37Z",
@@ -61,6 +62,7 @@
     "netanyahu-trump-iran-joint-strikes-jul28": "2026-07-26T20:09:01Z",
     "iran-us-pause-strikes-jul27": "2026-07-27T07:15:11Z",
     "btc-etf-inflow-streak-ends-jul27": "2026-07-27T07:15:11Z",
-    "oil-brent-ceasefire-hold-8pct-jul27": "2026-07-27T20:10:58Z"
+    "oil-brent-ceasefire-hold-8pct-jul27": "2026-07-27T20:10:58Z",
+    "fomc-sep-hike-82pct-jul28": "2026-07-28T15:17:27Z"
   }
 }
