@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T09:25:47.794Z",
+  "generatedAt": "2026-07-28T16:24:02.142Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "The July 23 10-year TIPS auction cleared at 2.438% real yield—highest since October 2008—and CME FedWatch puts a 36% probability on a Fed hike at tomorrow's July 29 FOMC decision, making real yields and DXY (101.52) the dominant headwinds; yet TOTAL holds near $2.28T, BTC.D remains firm at 56.3%, perp funding is a supportive +0.004%/8h, and stablecoin dominance is declining at 13.2%, keeping the BTC Accumulation thesis intact pending Chair Warsh's guidance tomorrow.",
@@ -14,66 +14,66 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 63402,
+      "value": 63847,
       "format": "usd",
-      "change24h": -2.8,
-      "change30d": 5.4
+      "change24h": -1.2,
+      "change30d": 6.4
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 1882.09,
+      "value": 1919.64,
       "format": "usd",
-      "change24h": -4.2,
-      "change30d": 19.5
+      "change24h": -0.7,
+      "change30d": 21.2
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02968271,
+      "value": 0.03008187,
       "format": "ratio",
-      "change24h": -1.2305549976471633,
-      "change30d": 10.389663390556581
+      "change24h": 0.7118613888391597,
+      "change30d": 12.52390045176767
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 56.381062483455594,
+      "value": 56.342343897808576,
       "format": "percent",
-      "change24h": -0.20327847900146745,
-      "change30d": 0.6808319197093403
+      "change24h": -0.38322173647039603,
+      "change30d": 0.5440335792707239
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2254873031099.473,
+      "value": 2270140269805.648,
       "format": "usd-compact",
-      "change24h": -2.7293998034047613,
-      "change30d": 5.137900776948805
+      "change24h": -1.3720362044974745,
+      "change30d": 5.817910814697518
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 983551658512.6902,
+      "value": 991090032029.1102,
       "format": "usd-compact",
-      "change24h": -2.4722078433752994,
-      "change30d": 4.11666757528779
+      "change24h": -0.8783077956260311,
+      "change30d": 4.999438108479633
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 756626544059.2517,
+      "value": 760105898229.9076,
       "format": "usd-compact",
-      "change24h": -1.9135129427473085,
-      "change30d": -0.39057141281965885
+      "change24h": -0.7772324816804088,
+      "change30d": 0.12071780499976613
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 101.533,
+      "value": 101.274,
       "format": "index",
-      "change24h": 0.01970191010018029,
-      "change30d": 0.029555776676552552
+      "change24h": -0.2354378256972056,
+      "change30d": -0.22560909529767514
     },
     {
       "id": "us500",
@@ -86,10 +86,10 @@
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10844.04,
+      "value": 10871.01,
       "format": "index",
-      "change24h": 0.5776422402279465,
-      "change30d": 2.9805758306125876
+      "change24h": 0.8277869290357047,
+      "change30d": 3.2366968086015615
     },
     {
       "id": "oil",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 4042.72,
+      "value": 4044.125,
       "format": "usd",
-      "change24h": -0.8361930038436951,
-      "change30d": 0.7744942853937833
+      "change24h": -0.8017297838260783,
+      "change30d": 0.8095172809193202
     }
   ],
   "indicators": [
@@ -226,5 +226,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-07-28T09:25:47Z"
+  "cachedAtISO": "2026-07-28T16:24:02Z"
 }
