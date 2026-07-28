@@ -1,6 +1,6 @@
 {
-  "ts": "2026-07-28T15:17:27Z",
+  "ts": "2026-07-28T20:10:18Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "Oil -8.29% (24h) → $81.91 — Iran ceasefire move extends, now 2.8× threshold\nConsumer Confidence (July) 90.8 vs 92.2 prior — miss vs 92.4 forecast\nFOMC Jul 29: hold expected; Sep hike now priced at 82% — Warsh press conf 7:30pm UK"
+  "priority": "default",
+  "message": "~$700M crypto liquidations: BTC -2.8% ($63,173), ETH below $1,900, $80B wiped as FOMC meeting begins.\nCLARITY Act passage now in doubt — fresh crypto regulatory headwind.\nOil -4.8% (Brent $84.09) as US-Iran ceasefire talks hold.\nFOMC day 1: Fed seen holding 3.75%, Sep hike odds 82% — decision 14:00 ET tomorrow (Jul 29)."
 }
