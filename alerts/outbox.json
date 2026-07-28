@@ -1,6 +1,6 @@
 {
-  "ts": "2026-07-27T20:10:58Z",
+  "ts": "2026-07-28T07:18:55Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "Oil -7.7% (24h) -> WTI ~$82 | Brent -8.6% as Iran-US ceasefire firms up\nETH +4.4% (24h) -> $1,964 [threshold 4.0%]\nDurable Goods (June) +0.3% vs +2.5% exp — headline miss; core capex +0.6% (AI-driven)\nFOMC tomorrow (Jul 29): hold expected but ~25% hike probability under Warsh; durable miss softens hawkish case"
+  "priority": "default",
+  "message": ""
 }

@@ -1,12 +1,6 @@
 {
-  "lastRunISO": "2026-07-27T20:10:58Z",
+  "lastRunISO": "2026-07-28T07:18:55Z",
   "priceAlerts": {
-    "btc": {
-      "pct": 3.09,
-      "dir": "up",
-      "ISO": "2026-07-21T07:10:22Z",
-      "value": 65837
-    },
     "eth": {
       "pct": 4.4,
       "dir": "up",
@@ -38,9 +32,6 @@
     "DurableGoods-Jun-2026": "2026-07-27T20:10:58Z"
   },
   "news": {
-    "btc-twowk-high-chip-tailwind-jul21": "2026-07-21T07:10:22Z",
-    "btc-etf-5day-inflows-600m-jul21": "2026-07-21T07:10:22Z",
-    "fomc-hike-odds-15pct-jul21": "2026-07-21T07:10:22Z",
     "clarity-act-ethics-deal-jul20": "2026-07-21T15:12:37Z",
     "us-iran-11th-night-strikes-jul22": "2026-07-22T15:09:32Z",
     "oil-87-6wk-high-iran-jul22": "2026-07-22T20:09:33Z",
