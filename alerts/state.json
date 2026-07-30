@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-30T07:13:59Z",
+  "lastRunISO": "2026-07-30T15:12:42Z",
   "priceAlerts": {
     "eth": {
       "pct": 4.4,
@@ -24,11 +24,20 @@
       "dir": "down",
       "ISO": "2026-07-29T20:07:34Z",
       "value": 7316.15
+    },
+    "dxy": {
+      "pct": 0.9,
+      "dir": "down",
+      "ISO": "2026-07-30T15:12:42Z",
+      "value": 99.7
     }
   },
   "releases": {
     "DurableGoods-Jun-2026": "2026-07-27T20:10:58Z",
-    "ConsumerConfidence-Jul-2026": "2026-07-28T15:17:27Z"
+    "ConsumerConfidence-Jul-2026": "2026-07-28T15:17:27Z",
+    "GDP-Q2-2026-advance": "2026-07-30T15:12:42Z",
+    "CorePCE-Q2-2026": "2026-07-30T15:12:42Z",
+    "JoblessClaims-Jul30-2026": "2026-07-30T15:12:42Z"
   },
   "news": {
     "houthi-saudi-tanker-brent100-jul23": "2026-07-23T15:11:11Z",
@@ -61,6 +70,10 @@
     "mideast-renewed-strikes-oil-spike-jul29": "2026-07-29T15:14:32Z",
     "fomc-actual-hold-3dissent-hawkish-jul29": "2026-07-29T20:07:34Z",
     "meta-q2-eps-miss-jul29": "2026-07-29T20:07:34Z",
-    "msft-q4-fy26-beat-azure43-jul29": "2026-07-30T07:13:59Z"
+    "msft-q4-fy26-beat-azure43-jul29": "2026-07-30T07:13:59Z",
+    "gdp-stagflation-print-jul30": "2026-07-30T15:12:42Z",
+    "treasury-30y-523pct-jul30": "2026-07-30T15:12:42Z",
+    "msft-15pct-sp-recovery-jul30": "2026-07-30T15:12:42Z",
+    "iran-strikes-oil-92-jul30": "2026-07-30T15:12:42Z"
   }
 }
