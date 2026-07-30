@@ -1,6 +1,6 @@
 {
-  "ts": "2026-07-29T20:07:34Z",
+  "ts": "2026-07-30T07:13:59Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "FOMC outcome: held 3.50–3.75%, 3 dissenters (Hammack/Kashkari/Logan) voted to hike. 10-yr yield +6bp to 4.66%. Dow -1,100pts, S&P 500 -1.5%.\nMeta Q2: revenue $60.8B (beat $60.3B est), EPS $6.18 vs $7.22 expected — big miss. Shares -4% AH.\nMicrosoft Q4 FY26: results expected imminently after close; FY27 capex guided $255–260B (vs $190B prior)."
+  "priority": "default",
+  "message": "MSFT Q4 FY26 beat: revenue $90.0B (+18% YoY), Azure +43%; EPS $4.74 vs $4.24 est. MSFT +8.1% AH → $422.\nToday 13:30 UTC: GDP Q2 advance est. + Core PCE (June); after close: AMZN, COIN, AAPL earnings."
 }
