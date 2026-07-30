@@ -1,6 +1,6 @@
 {
-  "ts": "2026-07-30T15:12:42Z",
+  "ts": "2026-07-30T20:08:20Z",
   "title": "MacroPulse Alert",
-  "priority": "default",
-  "message": "GDP Q2 advance 1.5% vs 2.1% est; GDP Price Index 6.3% vs 3.6% est — stagflation shock\n30y Treasury 5.23% — 19-year high as bond market reprices rate path\nCore PCE Q2 3.4% vs 3.5% est; Jobless Claims 197K vs 200K est\nDXY -0.9% (24h) → sub-100 as dollar falls on GDP miss\nS&P 500 +1.2% (mid-morning), led by MSFT +15% Azure beat\nUS launches fresh Iran air strikes; Brent crude near $92"
+  "priority": "high",
+  "message": "Oil -8.2% (24h) → $84.25 — US-Iran pause in fighting sparks ceasefire hopes; crude's biggest 1-day drop since May 25.\nCoinbase Q2: $1.29B revenue (in line); spot volumes down 3rd consecutive quarter.\nStrategy Q2: $8.32B unrealized BTC loss; BTC holdings $49.7B vs $63.9B cost basis."
 }

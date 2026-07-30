@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-30T15:12:42Z",
+  "lastRunISO": "2026-07-30T20:08:20Z",
   "priceAlerts": {
     "eth": {
       "pct": 4.4,
@@ -8,10 +8,10 @@
       "value": 1963.76
     },
     "oil": {
-      "pct": 4.8,
-      "dir": "up",
-      "ISO": "2026-07-29T15:14:32Z",
-      "value": 83.08
+      "pct": 8.16,
+      "dir": "down",
+      "ISO": "2026-07-30T20:08:20Z",
+      "value": 84.25
     },
     "gold": {
       "pct": 1.98,
@@ -74,6 +74,9 @@
     "gdp-stagflation-print-jul30": "2026-07-30T15:12:42Z",
     "treasury-30y-523pct-jul30": "2026-07-30T15:12:42Z",
     "msft-15pct-sp-recovery-jul30": "2026-07-30T15:12:42Z",
-    "iran-strikes-oil-92-jul30": "2026-07-30T15:12:42Z"
+    "iran-strikes-oil-92-jul30": "2026-07-30T15:12:42Z",
+    "oil-ceasefire-drop-8pct-jul30": "2026-07-30T20:08:20Z",
+    "coinbase-q2-earnings-jul30": "2026-07-30T20:08:20Z",
+    "strategy-q2-btcloss-jul30": "2026-07-30T20:08:20Z"
   }
 }
