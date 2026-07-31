@@ -1,6 +1,6 @@
 {
-  "ts": "2026-07-30T20:08:20Z",
+  "ts": "2026-07-31T07:14:01Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "Oil -8.2% (24h) → $84.25 — US-Iran pause in fighting sparks ceasefire hopes; crude's biggest 1-day drop since May 25.\nCoinbase Q2: $1.29B revenue (in line); spot volumes down 3rd consecutive quarter.\nStrategy Q2: $8.32B unrealized BTC loss; BTC holdings $49.7B vs $63.9B cost basis."
+  "priority": "default",
+  "message": "US500 +1.7% (24h) → 7,437.63 — MSFT +16% AI earnings, best S&P session in 14 months\nBTC ETF July inflows $205M — weakest month on record; ETH ETFs lead at $342M (rotation signal)\nWhite House PWG crypto policy report pending — strategic BTC reserve language in scope"
 }
