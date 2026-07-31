@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-07-31T07:14:01Z",
+  "lastRunISO": "2026-07-31T15:15:04Z",
   "priceAlerts": {
     "eth": {
       "pct": 4.4,
@@ -12,12 +12,6 @@
       "dir": "down",
       "ISO": "2026-07-30T20:08:20Z",
       "value": 84.25
-    },
-    "gold": {
-      "pct": 1.98,
-      "dir": "down",
-      "ISO": "2026-07-24T07:09:09Z",
-      "value": 4047.80
     },
     "us500": {
       "pct": 1.7,
@@ -40,8 +34,6 @@
     "JoblessClaims-Jul30-2026": "2026-07-30T15:12:42Z"
   },
   "news": {
-    "us-iran-13th-strikes-jul24": "2026-07-24T07:09:09Z",
-    "trump-iran-infrastructure-threat-jul24": "2026-07-24T07:09:09Z",
     "iran-jordan-amman-strike-jul24": "2026-07-24T15:15:21Z",
     "tesla-q2-crash-14pct-jul23": "2026-07-24T15:15:21Z",
     "alphabet-q2-capex-selloff-jul23": "2026-07-24T15:15:21Z",
@@ -77,6 +69,7 @@
     "sp500-close-17pct-msft-ai-jul30": "2026-07-31T07:14:01Z",
     "btc-etf-jul-weakest-205m-jul31": "2026-07-31T07:14:01Z",
     "eth-etf-342m-rotation-jul31": "2026-07-31T07:14:01Z",
-    "white-house-pwg-crypto-pending-jul31": "2026-07-31T07:14:01Z"
+    "white-house-pwg-crypto-pending-jul31": "2026-07-31T07:14:01Z",
+    "sec-atkins-project-crypto-jul31": "2026-07-31T15:15:04Z"
   }
 }
