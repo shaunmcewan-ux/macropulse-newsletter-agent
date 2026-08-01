@@ -1,6 +1,12 @@
 {
-  "lastRunISO": "2026-07-31T20:10:17Z",
+  "lastRunISO": "2026-08-01T07:09:25Z",
   "priceAlerts": {
+    "btc": {
+      "pct": 3.25,
+      "dir": "down",
+      "ISO": "2026-08-01T07:09:25Z",
+      "value": 62869
+    },
     "eth": {
       "pct": 4.4,
       "dir": "up",
@@ -66,6 +72,7 @@
     "sec-atkins-project-crypto-jul31": "2026-07-31T15:15:04Z",
     "kospi-record-18pct-chips-jul31": "2026-07-31T20:10:17Z",
     "sp500-nasdaq-record-close-jul31": "2026-07-31T20:10:17Z",
-    "ousd-stablecoin-visa-blackrock-eth-jul30": "2026-07-31T20:10:17Z"
+    "ousd-stablecoin-visa-blackrock-eth-jul30": "2026-07-31T20:10:17Z",
+    "btc-crypto-broad-selloff-aug1": "2026-08-01T07:09:25Z"
   }
 }

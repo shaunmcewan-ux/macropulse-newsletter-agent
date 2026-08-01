@@ -1,6 +1,6 @@
 {
-  "ts": "2026-07-31T20:10:17Z",
+  "ts": "2026-08-01T07:09:25Z",
   "title": "MacroPulse Alert",
   "priority": "default",
-  "message": "Kospi +18% all-time record close (Samsung +28%, SK Hynix +30%) — AI chip reversal; largest single-day Kospi gain in history.\nS&P 500 7,490 (+0.70%) and Nasdaq 25,374 (+1.00%) both hit record closes end of month.\nOpen USD (OUSD) institutional stablecoin — Visa, Mastercard, BlackRock, 140+ firms — confirmed launching on Ethereum."
+  "message": "BTC -3.25% (24h) → $62,869 — threshold crossed\nETH -3.18% (24h) → $1,865; crypto market cap -2.4% to $2.25T\nOil +1.85% (24h) → $85.14 — partial bounce, below alert threshold\nISM Manufacturing (Jul): due Mon Aug 3 — prior 53.3"
 }
