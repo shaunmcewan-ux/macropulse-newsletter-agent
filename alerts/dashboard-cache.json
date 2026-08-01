@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T08:56:23.754Z",
+  "generatedAt": "2026-08-01T15:43:29.720Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "DXY recovered from its July 31 intraday low of 99.87 to close at 100.19—crossing back above the headwind threshold—while real yields eased modestly to 2.37% from 2.41% peak; BTC Accumulation thesis holds: BTC.D firm at ~56.6%, BTC at $64,846, TOTAL at $2.26T, global M2 expanding at $102.7T—ISM PMI July print (August 3) and NFP (August 7) are the next key tests for the macro pivot thesis.",
@@ -14,58 +14,58 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 63073,
+      "value": 63002,
       "format": "usd",
-      "change24h": -1.8,
-      "change30d": 4.6
+      "change24h": -0.2,
+      "change30d": 1.9
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 1866.91,
+      "value": 1869.93,
       "format": "usd",
-      "change24h": -1.7,
-      "change30d": 15.4
+      "change24h": 0.4,
+      "change30d": 9.5
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02961266,
+      "value": 0.02968326,
       "format": "ratio",
-      "change24h": 0.007093860445207772,
-      "change30d": 9.396817717013567
+      "change24h": -0.17517305257492025,
+      "change30d": 9.573661261178342
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 56.27116269977242,
+      "value": 56.267981457624074,
       "format": "percent",
-      "change24h": -0.050524028860099435,
-      "change30d": 0.8583395711952714
+      "change24h": 0.01803466277299215,
+      "change30d": 0.8489647821657555
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2249030354954.367,
+      "value": 2246446120068.266,
       "format": "usd-compact",
-      "change24h": -0.8794202897008678,
-      "change30d": 4.424003608450944
+      "change24h": 0.3541914599916258,
+      "change30d": 4.286737015011545
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 983474824750.7262,
+      "value": 982416233772.7388,
       "format": "usd-compact",
-      "change24h": -0.8149089530660778,
-      "change30d": 3.1615963230607504
+      "change24h": 0.3309122306340973,
+      "change30d": 3.040533877195786
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 758176037542.6819,
+      "value": 756772876937.9833,
       "format": "usd-compact",
-      "change24h": -0.8115979846313829,
-      "change30d": -0.6678109774470607
+      "change24h": 0.2781319011951845,
+      "change30d": -0.8687809898084867
     },
     {
       "id": "dxy",
@@ -226,5 +226,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-08-01T08:56:23Z"
+  "cachedAtISO": "2026-08-01T15:43:29Z"
 }
