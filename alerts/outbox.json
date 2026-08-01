@@ -1,6 +1,1 @@
-{
-  "ts": "2026-08-01T07:09:25Z",
-  "title": "MacroPulse Alert",
-  "priority": "default",
-  "message": "BTC -3.25% (24h) → $62,869 — threshold crossed\nETH -3.18% (24h) → $1,865; crypto market cap -2.4% to $2.25T\nOil +1.85% (24h) → $85.14 — partial bounce, below alert threshold\nISM Manufacturing (Jul): due Mon Aug 3 — prior 53.3"
-}
+{"ts":"2026-08-01T15:10:09Z","title":"MacroPulse Alert","priority":"default","message":""}
