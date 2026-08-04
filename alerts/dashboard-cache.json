@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T16:31:28.476Z",
+  "generatedAt": "2026-08-04T20:56:01.623Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "Six of eight macro indicators are now supportive after July ISM Manufacturing PMI surged to 55.6% (four-year high, upgraded from neutral to supportive), with BTC.D firm at 56.42%, TOTAL crypto rising to $2.23T, and near-zero funding rates confirming the BTC Accumulation thesis; only real yields (2.41%, above the 2% headwind threshold) and DXY (neutral at 99.97, hugging the 100 line) remain non-supportive ahead of July NFP (Aug 7) and CPI (Aug 12) as the next regime-change catalysts.",
@@ -14,66 +14,66 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 64006,
+      "value": 64292,
       "format": "usd",
-      "change24h": 0.4,
-      "change30d": 2.2
+      "change24h": 0.7,
+      "change30d": 2.4
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 1869.22,
+      "value": 1875.25,
       "format": "usd",
-      "change24h": 0.2,
-      "change30d": 5.8
+      "change24h": 0.5,
+      "change30d": 5.5
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02921473,
+      "value": 0.02915057,
       "format": "ratio",
-      "change24h": -0.13980455681719636,
-      "change30d": 5.73931448297379
+      "change24h": -0.48449883672865834,
+      "change30d": 6.031682161338313
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 56.52541948373979,
+      "value": 56.587753913312056,
       "format": "percent",
-      "change24h": 0.09615363142010391,
-      "change30d": 1.1736474082751527
+      "change24h": 0.5918421927870066,
+      "change30d": 1.2952441347828303
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2272552441853.452,
+      "value": 2279550417701.833,
       "format": "usd-compact",
-      "change24h": 0.3103879193239876,
-      "change30d": 0.26154709809338955
+      "change24h": 0.5563152985512575,
+      "change30d": 0.6365948827069405
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 987982641107.8165,
+      "value": 989604037002.8427,
       "format": "usd-compact",
-      "change24h": 0.18528990345425678,
-      "change30d": -1.397552161458604
+      "change24h": -0.209168242991527,
+      "change30d": -1.2012459302862297
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 762299915060.4191,
+      "value": 763253340597.737,
       "format": "usd-compact",
-      "change24h": 0.18434012875602654,
-      "change30d": -3.399176711314519
+      "change24h": -0.4590972372633447,
+      "change30d": -3.2590650032446744
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 99.928,
+      "value": 99.865,
       "format": "index",
-      "change24h": -0.06300567051034832,
-      "change30d": -0.9760883136959554
+      "change24h": -0.12601134102069664,
+      "change30d": -1.0385183276683894
     },
     {
       "id": "us500",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 4087.88,
+      "value": 4076.93,
       "format": "usd",
-      "change24h": 0.8121435835922002,
-      "change30d": -2.0857684864046586
+      "change24h": 0.5421031293126316,
+      "change30d": -2.3480464483492107
     }
   ],
   "indicators": [
@@ -212,5 +212,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-08-04T16:31:28Z"
+  "cachedAtISO": "2026-08-04T20:56:01Z"
 }
