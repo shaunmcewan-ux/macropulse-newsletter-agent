@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-03T20:46:46.929Z",
+  "generatedAt": "2026-08-04T09:29:01.646Z",
   "dial": {
     "state": "BTC Accumulation",
-    "summary": "The 2s10s yield curve steepened to +0.47% on a confirmed 30-day basis (upgraded to supportive for the first time this cycle), DXY edged down to 99.72 (neutral band), and stablecoin dominance compressed to ~13.1%—five of eight indicators now supportive with only real yields (2.37%) remaining a headwind; BTC.D firm at ~55.8–56%, near-zero funding rates, and OI rising to $47.6B sustain the BTC Accumulation thesis with July NFP (Aug 7) and CPI (Aug 12) as the next regime-change catalysts.",
+    "summary": "Six of eight macro indicators are now supportive after July ISM Manufacturing PMI surged to 55.6% (four-year high, upgraded from neutral to supportive), with BTC.D firm at 56.42%, TOTAL crypto rising to $2.23T, and near-zero funding rates confirming the BTC Accumulation thesis; only real yields (2.41%, above the 2% headwind threshold) and DXY (neutral at 99.97, hugging the 100 line) remain non-supportive ahead of July NFP (Aug 7) and CPI (Aug 12) as the next regime-change catalysts.",
     "states": [
       "BTC Accumulation",
       "Alt Rotation",
@@ -14,82 +14,82 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 63861,
+      "value": 63527,
       "format": "usd",
-      "change24h": 0.9,
-      "change30d": 1.2
+      "change24h": 1.6,
+      "change30d": 0.9
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 1870.67,
+      "value": 1854.57,
       "format": "usd",
-      "change24h": -0.2,
-      "change30d": 4.3
+      "change24h": 0.8,
+      "change30d": 5
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02928429,
+      "value": 0.02919381,
       "format": "ratio",
-      "change24h": -1.2761690270871464,
-      "change30d": 5.3009894073636925
+      "change24h": -0.7281638143197792,
+      "change30d": 4.9122299098383815
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 56.44808510726619,
+      "value": 56.38448055838684,
       "format": "percent",
-      "change24h": -0.11553958853505186,
-      "change30d": 1.3101400168620012
+      "change24h": 0.46027745902803563,
+      "change30d": 1.0044359449368134
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2270595204907.4893,
+      "value": 2258451980598.4434,
       "format": "usd-compact",
-      "change24h": 0.3954164510756284,
-      "change30d": 0.8568847563221943
+      "change24h": 0.8400260902286846,
+      "change30d": -0.24084941220811074
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 988887691199.8046,
+      "value": 985035562677.4115,
       "format": "usd-compact",
-      "change24h": 0.5460715221983935,
-      "change30d": -0.9972787941084049
+      "change24h": 0.24485528022430975,
+      "change30d": -1.6536319306243683
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 763129398892.7527,
+      "value": 761506959072.5309,
       "format": "usd-compact",
-      "change24h": 1.0983491512705483,
-      "change30d": -3.2868805452732244
+      "change24h": 0.21482732501158988,
+      "change30d": -3.513182010845611
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 99.961,
+      "value": 99.997,
       "format": "index",
-      "change24h": 0.1593154445802607,
-      "change30d": -0.9433868778056328
+      "change24h": 0.006000540048604602,
+      "change30d": -0.907712584107099
     },
     {
       "id": "us500",
       "label": "S&P 500",
-      "value": 7489.72,
+      "value": 7600.5,
       "format": "index",
-      "change24h": 0.7003575063561934,
-      "change30d": 0.0867272554765882
+      "change24h": 1.479094011525127,
+      "change30d": 1.5669683185358243
     },
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10857.71,
+      "value": 10882.67,
       "format": "index",
-      "change24h": -0.09504933732302923,
-      "change30d": 1.923436163791522
+      "change24h": 0.2298827284943229,
+      "change30d": 2.1607444420767883
     },
     {
       "id": "oil",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 4056.297,
+      "value": 4050.92,
       "format": "usd",
-      "change24h": 0.3451461960817354,
-      "change30d": -2.8422547760936636
+      "change24h": -0.09933542920895146,
+      "change30d": -2.9710464291873446
     }
   ],
   "indicators": [
@@ -115,39 +115,39 @@
       "value": "$102.7T",
       "trend": "up",
       "status": "supportive",
-      "note": "4-bank aggregate (Fed/ECB/BOJ/PBOC) June 2026 confirmed at $102.7T (MacroMicro); July 2026 aggregate not yet published; US M2 (monthly, SA) rose to $23.16T in June 2026—+5.6% YoY, +$1.23T, 28th consecutive monthly increase and a record high, per H.6 released July 28; 4-week trend up (expansion streak intact, YoY growth rate stable at ~5-6%); status supportive (4-week uptrend confirmed; YoY contracting headwind condition not met)."
+      "note": "MacroMicro 4-bank aggregate (Fed/ECB/BOJ/PBOC) confirmed at $102,663.81B (~$102.7T) for June 2026; July aggregate not yet published (central banks report M2 with ~30-day lag); US M2 weekly rose to $23.3T for the week of July 6, 2026 (vs $23.16T in June 2026, per H.6 released July 28), up +6.1% YoY—28th consecutive monthly increase and a record high; 4-week trend up (US M2 continued rising through July; global aggregate uptrend intact; YoY growth rate stable at ~5-6%); status supportive (4-week uptrend confirmed; YoY contracting headwind condition not met)."
     },
     {
       "tier": 1,
       "name": "ISM Manufacturing PMI",
-      "value": "53.3",
-      "trend": "down",
-      "status": "neutral",
-      "note": "July 2026 ISM Manufacturing PMI released August 3 at 10:00 AM ET but exact figure was inaccessible from indexed sources at run time (all direct fetches returned 403); TipRanks headline indicates 'rises but misses estimates' vs. the 54.0 consensus, implying a print above 53.3 but below 54.0; S&P Global US Manufacturing PMI (separate index) for July final: 53.8 (vs 53.9 June, missed 54.3 forecast); value held at June 2026 53.3% pending confirmed July read; trend and status carried forward (above 50 but falling from May's 54.0%; status neutral—supportive requires above 50 AND rising)."
+      "value": "55.6",
+      "trend": "up",
+      "status": "supportive",
+      "note": "July 2026 ISM Manufacturing PMI released August 3, 2026 at 55.6%—2.3pp above June's 53.3%, beat 54.0% estimate, highest since May 2022 and seventh consecutive expansion month; all five sub-indexes in expansion: Production surged +6.3pts (best in nearly five years), Employment broke into expansion for the first time in 33 months, New Orders accelerated; 4-week trend up: 53.3% (June) → 55.6% (July) = +2.3pp, well above the 0.5% relative flat threshold; status upgraded to supportive (above 50 AND rising; headwind threshold of 62 not met; a read above 55.6 corresponds to ~2.8% annualised real GDP growth per ISM)."
     },
     {
       "tier": 1,
       "name": "DXY (US Dollar Index)",
-      "value": "99.72",
+      "value": "99.97",
       "trend": "down",
       "status": "neutral",
-      "note": "ICE DXY at 99.7210 on August 3, 2026 (Trading Economics)—down -0.19% from August 2, -1.13% over the past month; 30-day trend: ~101.34 (July 1) → 99.72 (August 3) = -1.62%, well above the 0.5% flat threshold, trend down; status NEUTRAL per ICE DXY spot threshold (below 100, above 97.5); sustained break below 97.5 required to upgrade to supportive; continued USD softness reflects market pricing for September FOMC cut ahead of July NFP (August 7) and CPI (August 12)."
+      "note": "ICE DXY at 99.97 on August 4, 2026—up +0.25% from Aug 3's 99.72 as the strong July ISM print (55.6% vs 54.0% est) provided modest USD support; 30-day trend: ~101.34 (July 1) → 99.97 (Aug 4) = -1.37%, well above the 0.5% flat threshold, trend remains down; status NEUTRAL per ICE DXY spot threshold (at 99.97, just below the 100 headwind boundary and above the 97.5 supportive boundary); a confirmed break above 100 would restore the headwind classification, while a break below 97.5 would upgrade to supportive; July NFP (Aug 7) and CPI (Aug 12) are the next directional catalysts."
     },
     {
       "tier": 1,
       "name": "Real Yields (US10Y - CPI)",
-      "value": "2.37%",
+      "value": "2.41%",
       "trend": "up",
       "status": "headwind",
-      "note": "DFII10 (10-year TIPS real yield) at 2.37% as of July 31, 2026—peaked at 2.41% on July 29 before easing on soft Q2 GDP (1.5% vs 2.1% est) and core PCE (0.1% MoM vs 0.2% est); July 23 TIPS auction cleared at 2.438%, highest since October 2008; August 3 close not yet confirmed; 4-week trend up: ~2.18% (June 30) → 2.37% (July 31) = +19bps, above the 5bps flat threshold; status headwind (above 2% and rising on 4-week basis; September FOMC cut and August 12 CPI are primary real-yield compression catalysts)."
+      "note": "DFII10 (10-year TIPS real yield) at 2.41% as of July 29, 2026 (Macrotrends); Q2 GDP soft print (+1.5% vs 2.1% est) and core PCE miss (0.1% MoM vs 0.2% est) compressed yields to ~2.37% on July 31, but the ISM Manufacturing beat at 55.6% on Aug 3 likely pushed Aug 4 real yields back toward the July 29 level; 4-week trend up: ~2.18% (July 2) → ~2.41% (July 29) = +23bps, well above the 5bps flat threshold; status headwind (above the 2% absolute threshold AND rising on 4-week basis; September FOMC cut expectations moderated after ISM beat; Aug 12 CPI remains the primary real-yield compression catalyst)."
     },
     {
       "tier": 1,
       "name": "2s10s Yield Curve",
-      "value": "+0.47%",
+      "value": "+0.45%",
       "trend": "up",
       "status": "supportive",
-      "note": "July 31, 2026: DGS10 4.75%, DGS2 4.28%, spread = +0.47% (Advisor Perspectives / ETF Trends confirmed); 4-week comparison: July 2 spread = 4.49% - 4.14% = +0.35%; 4-week steepening = +12bps, well above the 5bps flat threshold—trend upgraded to 'up'; status upgraded to supportive (positive AND steepening confirmed on 30-day basis for the first time this cycle); long-end yields rose faster than short-end (+26bps vs +14bps), consistent with improving growth expectations and easing inversion risk; headwind threshold (< -50bps) not applicable."
+      "note": "July 31, 2026: DGS10 4.70%, DGS2 4.25%, spread = +0.45% (Forbes Advisor); 4-week comparison: July 2 spread ~+0.35% → July 31 +0.45% = steepening of +10bps, above the 5bps flat threshold, trend up; status supportive (positive AND steepening on 30-day basis confirmed; ISM beat at 55.6% may extend curve steepening as growth expectations lift the long end faster than the short end; headwind threshold of < -50bps not applicable at current +45bps spread)."
     },
     {
       "tier": 1,
@@ -155,7 +155,7 @@
       "value": "$6.74T",
       "trend": "flat",
       "status": "supportive",
-      "note": "WALCL: $6,735,609M ($6.747T) for week ending July 22, 2026 (Convex Trade, confirmed); July 30 H.4.1 release (July 31) indicates ~$6.74T; next H.4.1 release August 6, 2026; 4-week trend flat: estimated ~$6.72T (early July) → $6.747T (July 22) = +$0.027T (+0.40%), within the <0.5% flat threshold; status supportive (flat to marginally growing; QT effectively paused; no aggressive runoff with rising overnight rates)."
+      "note": "WALCL from H.4.1 released July 30, 2026: $6,738,190M ($6.738T) for week ending July 29, 2026; prior week (July 22): ~$6.747T (Convex Trade); next H.4.1 release August 6, 2026; 4-week trend flat: ~$6.72T (early July) → $6.738T (July 29) = +$0.018T (+0.27%), within the <0.5% flat threshold; status supportive (flat to marginally growing; QT effectively paused since mid-2025; no aggressive runoff with rising overnight rates; balance sheet holding at post-2022 plateau)."
     },
     {
       "tier": 3,
@@ -163,53 +163,46 @@
       "value": "+0.004%",
       "trend": "down",
       "status": "supportive",
-      "note": "Live funding rate inaccessible—CoinGlass, The Block, Bybit, Glassnode all returned HTTP 403; value carried forward at +0.004%/8h; contextual signals: BTC perpetual OI rose to ~$47.6B (from ~$44B a month prior), longs dominate (paying shorts), consistent with modestly positive but not overheated funding; June 8 anchor was ~+0.005%/8h; funding has remained positive since late June 2026; 30-day trend down (from ~+0.006%/8h in late June); status supportive (well below the 0.04%/8h overheating threshold)."
+      "note": "Live funding rate data inaccessible—CoinGlass and The Block returned HTTP 403; value carried forward at +0.004%/8h; contextual signals: BTC dominance rose to 56.42% (BTC market cap $1.26T, TOTAL crypto $2.23T as of Aug 4, 2026), consistent with accumulation phase rather than leveraged speculation; funding remains well below the 0.04%/8h overheating threshold; 30-day trend down (from ~+0.006%/8h in late June); status supportive (near-zero positive rate signals healthy long bias without overheating; macro improving with ISM at 55.6% supports continued spot accumulation over leveraged longs)."
     },
     {
       "tier": 3,
       "name": "Stablecoin Dominance",
-      "value": "13.1%",
+      "value": "13.5%",
       "trend": "down",
       "status": "supportive",
-      "note": "Stablecoin market cap ~$286.9B as of August 2, 2026 (StableCoin.com: USDT $183.3B, USDC $72.0B, combined 89%); total crypto market cap ~$2.2T (range $2.15T–$2.26T across sources, BTC.D ~55.8%); dominance: $286.9B / $2.2T ≈ 13.1%; 30-day trend down: June 30 stablecoin MC $305.1B / TOTAL $2.1T = 14.5% → August 3 ~13.1%, a compression of ~1.4pp as capital rotated into risk assets; status supportive (falling on 30-day basis; headwind threshold requires rising dominance WHILE TOTAL is also rising—not met since TOTAL rose while dominance fell)."
+      "note": "Stablecoin market cap ~$301B (USDT $186.4B, USDC $74.9B, combined 86.7%) as of August 4, 2026; total crypto market cap $2.23T (BTC $1.26T, BTC.D 56.42%); stablecoin dominance $301B / $2.23T ≈ 13.5%; 30-day trend down: June 30 ~$305B / $2.10T = ~14.5% → Aug 4 ~13.5%, compression of ~1.0pp as capital rotated from stablecoins into risk assets; status supportive (falling on 30-day basis; headwind threshold requires rising dominance WHILE TOTAL crypto is also rising—not met since dominance fell while TOTAL rose on 30-day basis)."
     }
   ],
   "upcoming": [
-    {
-      "date": "2026-08-04",
-      "title": "JOLTS Job Openings (June 2026)",
-      "category": "Labor",
-      "importance": "medium",
-      "note": "BLS Job Openings and Labor Turnover Survey for June 2026 at 10:00 AM ET—key labor demand gauge the day after July ISM Manufacturing; macro context: DXY at 99.72 (neutral), real yields at 2.37% (headwind), 2s10s steepening to +0.47% (supportive); a reading below 7.5M openings would reinforce the soft-landing thesis and strengthen the September rate cut case, adding downward pressure on real yields."
-    },
     {
       "date": "2026-08-05",
       "title": "ISM Services PMI (July 2026)",
       "category": "PMI",
       "importance": "medium",
-      "note": "ISM Services PMI for July 2026 at 10:00 AM ET—companion to the August 3 Manufacturing print; prior June 2026 reading: 54.0% (24th consecutive expansion month); a reading above 54 with price moderation would support DXY sustaining its sub-100 break and add to the case for real yield compression from 2.37%; a miss below 52 combined with a weak August 7 NFP would accelerate September FOMC cut pricing."
+      "note": "ISM Services PMI for July 2026 at 10:00 AM ET—companion to the August 3 Manufacturing beat (55.6%, 4-year high); prior June 2026 reading: 54.0% (24th consecutive expansion month); consensus estimate clusters around 53–55; a reading above 54 with price moderation would compound the ISM Manufacturing beat and further test September FOMC cut pricing while reinforcing the BTC Accumulation macro environment; a miss below 52 alongside a weak August 7 NFP would revive September cut expectations and potentially compress real yields from 2.41%."
     },
     {
       "date": "2026-08-06",
       "title": "Initial Jobless Claims (week ended August 1, 2026)",
       "category": "Labor",
       "importance": "low",
-      "note": "Weekly initial jobless claims at 8:30 AM ET—labor market pulse one day ahead of July NFP (August 7); prior week ended July 26 came in at 226k; DXY at 99.72 (neutral), 2s10s at +0.47% (steepening); a print above 250k would add to September rate cut pricing and could compress real yields from current 2.37%."
+      "note": "Weekly initial jobless claims at 8:30 AM ET—labor market pulse one day ahead of July NFP (August 7); prior week ended July 26: 226k; also the date of the Fed's H.4.1 balance sheet release (week ending July 30 data); a print above 250k would add September rate cut pricing and could compress real yields from 2.41%; a sub-220k print would reinforce the strong ISM Manufacturing signal (55.6%) and add upward pressure to yields and DXY, which is already testing the 100 headwind threshold at 99.97."
     },
     {
       "date": "2026-08-07",
       "title": "Employment Situation / NFP (July 2026)",
       "category": "Labor",
       "importance": "high",
-      "note": "BLS Employment Situation for July 2026 at 8:30 AM ET—nonfarm payrolls, unemployment rate, and average hourly earnings; primary labor market read ahead of the September FOMC (Sep 15-16); macro backdrop: DXY at 99.72 (neutral, -1.62% over 4 weeks), 2s10s steepening to +0.47% (supportive), real yields at 2.37% (headwind), global M2 expanding +5.6% YoY; a weak NFP opens the September cut discussion and could compress real yields and push DXY toward the 97.5 supportive threshold; a strong print complicates September cut pricing."
+      "note": "BLS Employment Situation for July 2026 at 8:30 AM ET—nonfarm payrolls, unemployment rate, and average hourly earnings; primary labor market read ahead of the September FOMC (Sep 15–16); macro backdrop: DXY at 99.97 (neutral, -1.37% over 4 weeks), 2s10s at +0.45% (supportive), real yields at 2.41% (headwind), ISM Manufacturing upgraded to supportive at 55.6%; a weak NFP (<100k) would push September cut odds above 80% and could compress real yields toward 2% and DXY below 97.5 (flipping to supportive); a strong NFP (>200k) reinforces the ISM Manufacturing signal and may keep DXY above 100 (restoring headwind status); consensus estimates cluster around 150–175k."
     }
   ],
   "sources": {
     "crypto": "CoinGecko",
     "tradfi": "FRED + Stooq",
     "marketsEndpoint": "markets",
-    "indicators": "2026-08-03",
-    "calendar": "2026-08-03"
+    "indicators": "2026-08-04",
+    "calendar": "2026-08-04"
   },
   "degraded": {
     "markets": false,
@@ -219,5 +212,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-08-03T20:46:46Z"
+  "cachedAtISO": "2026-08-04T09:29:01Z"
 }
