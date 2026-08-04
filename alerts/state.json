@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-03T20:10:03Z",
+  "lastRunISO": "2026-08-04T07:10:35Z",
   "priceAlerts": {
     "btc": {
       "pct": 3.25,
@@ -14,10 +14,10 @@
       "value": 79.62
     },
     "us500": {
-      "pct": 1.7,
+      "pct": 1.57,
       "dir": "up",
-      "ISO": "2026-07-31T07:14:01Z",
-      "value": 7437.63
+      "ISO": "2026-08-04T07:10:35Z",
+      "value": 7607
     },
     "dxy": {
       "pct": 0.9,
@@ -27,14 +27,13 @@
     }
   },
   "releases": {
-    "DurableGoods-Jun-2026": "2026-07-27T20:10:58Z",
     "ConsumerConfidence-Jul-2026": "2026-07-28T15:17:27Z",
     "GDP-Q2-2026-advance": "2026-07-30T15:12:42Z",
     "CorePCE-Q2-2026": "2026-07-30T15:12:42Z",
-    "JoblessClaims-Jul30-2026": "2026-07-30T15:12:42Z"
+    "JoblessClaims-Jul30-2026": "2026-07-30T15:12:42Z",
+    "ISM-Mfg-PMI-Jul-2026": "2026-08-04T07:10:35Z"
   },
   "news": {
-    "oil-brent-ceasefire-hold-8pct-jul27": "2026-07-27T20:10:58Z",
     "fomc-sep-hike-82pct-jul28": "2026-07-28T15:17:27Z",
     "crypto-700m-liquidations-fomc-jul28": "2026-07-28T20:10:18Z",
     "clarity-act-in-doubt-jul28": "2026-07-28T20:10:18Z",
@@ -63,6 +62,7 @@
     "yen-usjapan-intervention-aug3": "2026-08-03T07:20:13Z",
     "kospi-nikkei-drop-aug3": "2026-08-03T07:20:13Z",
     "coldcard-btc-hack-88m-aug3": "2026-08-03T15:11:05Z",
-    "clarity-act-recess-deadline-week-aug3": "2026-08-03T15:11:05Z"
+    "clarity-act-recess-deadline-week-aug3": "2026-08-03T15:11:05Z",
+    "amazon-3t-market-cap-aug3": "2026-08-04T07:10:35Z"
   }
 }
