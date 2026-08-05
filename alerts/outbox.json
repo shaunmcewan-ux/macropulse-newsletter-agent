@@ -1,1 +1,6 @@
-{"ts":"2026-08-04T20:09:07Z","title":"MacroPulse Alert","priority":"default","message":""}
+{
+  "ts": "2026-08-05T07:10:37Z",
+  "title": "MacroPulse Alert",
+  "priority": "default",
+  "message": "ISM Services PMI (Jul): 54.0 actual vs 54.2 est, 54.0 prior — services expansion holds\nHashdex DEFI ETF closing Aug 17 — first U.S. spot BTC ETF closure; 225 BTC to liquidate Aug 28\nPalantir +~30% post-earnings — S&P futures +0.3% pre-mkt after Monday record close\nBTC ~$63,700 +0.7% (24h), dominance 56.5% — no threshold breach"
+}

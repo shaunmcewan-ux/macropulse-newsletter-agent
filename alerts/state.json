@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-04T20:09:07Z",
+  "lastRunISO": "2026-08-05T07:10:37Z",
   "priceAlerts": {
     "btc": {
       "pct": 3.25,
@@ -27,15 +27,13 @@
     }
   },
   "releases": {
-    "ConsumerConfidence-Jul-2026": "2026-07-28T15:17:27Z",
     "GDP-Q2-2026-advance": "2026-07-30T15:12:42Z",
     "CorePCE-Q2-2026": "2026-07-30T15:12:42Z",
     "JoblessClaims-Jul30-2026": "2026-07-30T15:12:42Z",
-    "ISM-Mfg-PMI-Jul-2026": "2026-08-04T07:10:35Z"
+    "ISM-Mfg-PMI-Jul-2026": "2026-08-04T07:10:35Z",
+    "ISM-Services-PMI-Jul-2026": "2026-08-05T07:10:37Z"
   },
   "news": {
-    "crypto-700m-liquidations-fomc-jul28": "2026-07-28T20:10:18Z",
-    "clarity-act-in-doubt-jul28": "2026-07-28T20:10:18Z",
     "fomc-hold-hawkish-sep77pct-jul29": "2026-07-29T15:14:32Z",
     "mideast-renewed-strikes-oil-spike-jul29": "2026-07-29T15:14:32Z",
     "fomc-actual-hold-3dissent-hawkish-jul29": "2026-07-29T20:07:34Z",
@@ -64,6 +62,9 @@
     "clarity-act-recess-deadline-week-aug3": "2026-08-03T15:11:05Z",
     "amazon-3t-market-cap-aug3": "2026-08-04T07:10:35Z",
     "hood-token-445pct-aug4": "2026-08-04T15:12:37Z",
-    "clarity-act-aug10-votes-missing-aug4": "2026-08-04T15:12:37Z"
+    "clarity-act-aug10-votes-missing-aug4": "2026-08-04T15:12:37Z",
+    "hashdex-defi-etf-closure-aug2026": "2026-08-05T07:10:37Z",
+    "palantir-30pct-earnings-aug5": "2026-08-05T07:10:37Z",
+    "ism-services-pmi-jul-2026": "2026-08-05T07:10:37Z"
   }
 }
