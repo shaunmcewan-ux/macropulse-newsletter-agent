@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T09:25:21.078Z",
+  "generatedAt": "2026-08-05T16:21:49.705Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "Six of eight macro indicators are supportive as the BTC Accumulation thesis firms: ISM Manufacturing holds at a four-year high of 55.6%, the 2s10s yield curve steepened to +0.42% on a 30-day basis, stablecoin dominance compressed further to 12.6% as capital rotates into risk assets, and DXY holds neutral at 99.97 just below the 100 headwind boundary; BTC.D firm at 56.5% with TOTAL crypto rising to $2.27T and BTC at $63,943, while the key risks are elevated real yields (2.47%, headwind) and July NFP Friday (consensus ~85k vs June's 57k) and CPI Aug 12 as the next regime-change catalysts ahead of the September 15–16 FOMC.",
@@ -14,66 +14,66 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 64131,
+      "value": 64570,
       "format": "usd",
-      "change24h": 0.6,
-      "change30d": 1.6
+      "change24h": 0.4,
+      "change30d": 3.8
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 1872.49,
+      "value": 1880.47,
       "format": "usd",
-      "change24h": 0.3,
-      "change30d": 5.5
+      "change24h": 0,
+      "change30d": 7
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02921716,
+      "value": 0.0291413,
       "format": "ratio",
-      "change24h": 0.08262154098750535,
-      "change30d": 2.966910797846069
+      "change24h": -0.24849973181541787,
+      "change30d": 3.4059933658690533
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 56.531127598536834,
+      "value": 56.64444442742622,
       "format": "percent",
-      "change24h": 0.35183655902055744,
-      "change30d": 1.074721841750713
+      "change24h": 0.20992152019927435,
+      "change30d": 1.3099964433474292
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2276128643488.107,
+      "value": 2283681994033.024,
       "format": "usd-compact",
-      "change24h": 0.7502338440379754,
-      "change30d": -0.2054813040086337
+      "change24h": 0.6444656077996778,
+      "change30d": 0.3189444997668538
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 989407455730.9996,
+      "value": 990103016023.8486,
       "format": "usd-compact",
-      "change24h": 0.2928357402005526,
-      "change30d": -1.723306908153965
+      "change24h": 0.36887603621986403,
+      "change30d": -1.540880932378808
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 763495070311.4719,
+      "value": 763538636739.0536,
       "format": "usd-compact",
-      "change24h": 0.10977770745659325,
-      "change30d": -3.797824821661689
+      "change24h": 0.34672440437645347,
+      "change30d": -3.751649396493033
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 99.829,
+      "value": 99.717,
       "format": "index",
-      "change24h": -0.05006057329369674,
-      "change30d": -1.0192648998086458
+      "change24h": -0.1621962574715467,
+      "change30d": -1.1303132157410993
     },
     {
       "id": "us500",
@@ -86,10 +86,10 @@
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10896.17,
+      "value": 10888.31,
       "format": "index",
-      "change24h": 0.1544207063460409,
-      "change30d": 2.0299867595309924
+      "change24h": 0.08217387587699186,
+      "change30d": 1.9563869812667056
     },
     {
       "id": "oil",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 4157.458,
+      "value": 4235.13,
       "format": "usd",
-      "change24h": 1.9722853329873213,
-      "change30d": -0.41921359725603136
+      "change24h": 3.8773896891549224,
+      "change30d": 1.4412114128039568
     }
   ],
   "indicators": [
@@ -212,5 +212,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-08-05T09:25:21Z"
+  "cachedAtISO": "2026-08-05T16:21:49Z"
 }
