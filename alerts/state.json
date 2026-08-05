@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-05T15:14:27Z",
+  "lastRunISO": "2026-08-05T20:13:36Z",
   "priceAlerts": {
     "btc": {
       "pct": 3.25,
@@ -40,10 +40,6 @@
     "ISM-Services-PMI-Jul-2026": "2026-08-05T07:10:37Z"
   },
   "news": {
-    "fomc-hold-hawkish-sep77pct-jul29": "2026-07-29T15:14:32Z",
-    "mideast-renewed-strikes-oil-spike-jul29": "2026-07-29T15:14:32Z",
-    "fomc-actual-hold-3dissent-hawkish-jul29": "2026-07-29T20:07:34Z",
-    "meta-q2-eps-miss-jul29": "2026-07-29T20:07:34Z",
     "msft-q4-fy26-beat-azure43-jul29": "2026-07-30T07:13:59Z",
     "gdp-stagflation-print-jul30": "2026-07-30T15:12:42Z",
     "treasury-30y-523pct-jul30": "2026-07-30T15:12:42Z",
