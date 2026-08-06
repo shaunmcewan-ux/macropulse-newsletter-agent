@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-05T20:13:36Z",
+  "lastRunISO": "2026-08-06T07:20:11Z",
   "priceAlerts": {
     "btc": {
       "pct": 3.25,
@@ -8,16 +8,16 @@
       "value": 62869
     },
     "oil": {
-      "pct": 4.58,
+      "pct": 4.87,
       "dir": "down",
-      "ISO": "2026-08-04T15:12:37Z",
-      "value": 76.66
+      "ISO": "2026-08-06T07:20:11Z",
+      "value": 81.96
     },
     "us500": {
-      "pct": 1.57,
+      "pct": 1.79,
       "dir": "up",
-      "ISO": "2026-08-04T07:10:35Z",
-      "value": 7607
+      "ISO": "2026-08-06T07:20:11Z",
+      "value": 7736.52
     },
     "dxy": {
       "pct": 0.9,
@@ -26,10 +26,10 @@
       "value": 99.7
     },
     "gold": {
-      "pct": 3.5,
+      "pct": 4.13,
       "dir": "up",
-      "ISO": "2026-08-05T15:14:27Z",
-      "value": 4297
+      "ISO": "2026-08-06T07:20:11Z",
+      "value": 4245.37
     }
   },
   "releases": {
@@ -70,6 +70,8 @@
     "ism-services-pmi-jul-2026": "2026-08-05T07:10:37Z",
     "iran-hormuz-deal-imminent-aug5": "2026-08-05T15:14:27Z",
     "shopify-q2-beat-aug5": "2026-08-05T15:14:27Z",
-    "disney-q3-beat-aug5": "2026-08-05T15:14:27Z"
+    "disney-q3-beat-aug5": "2026-08-05T15:14:27Z",
+    "defi-crash-extremefear-aug6": "2026-08-06T07:20:11Z",
+    "nfp-jul-preview-aug6": "2026-08-06T07:20:11Z"
   }
 }
