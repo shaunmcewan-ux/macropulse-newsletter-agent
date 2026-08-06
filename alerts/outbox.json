@@ -1,6 +1,6 @@
 {
-  "ts": "2026-08-06T15:14:33Z",
+  "ts": "2026-08-06T20:12:11Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "FOMC Jul 29: held 3.50–3.75%, 9-3 vote — 3 hawkish dissents (Hammack/Kashkari/Logan, each +25bp), most divided since 2016\nOil −12% (24h) → ~$76 — Hormuz interim deal imminent; 2nd alert this session (prior: −4.87%)\nADP Jul: 44K vs 75K est — weakest private payrolls since Jan; NFP due tomorrow (Aug 7, 13:30 UTC)\nKashkari (Aug 5): \"Now is the time to start slowly moving rates up\" — Gov. Cook echoes"
+  "priority": "default",
+  "message": "Iran publishes restrictive Hormuz draft — no deal yet; Brent crude +3.8% to $82.49\nBTC ETFs: $626M net inflow over 3 days (Aug 4–6), $244M on Aug 5 — July reversal confirmed"
 }

@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-06T15:14:33Z",
+  "lastRunISO": "2026-08-06T20:12:11Z",
   "priceAlerts": {
     "btc": {
       "pct": 3.25,
@@ -19,12 +19,6 @@
       "ISO": "2026-08-06T07:20:11Z",
       "value": 7736.52
     },
-    "dxy": {
-      "pct": 0.9,
-      "dir": "down",
-      "ISO": "2026-07-30T15:12:42Z",
-      "value": 99.7
-    },
     "gold": {
       "pct": 4.13,
       "dir": "up",
@@ -33,22 +27,11 @@
     }
   },
   "releases": {
-    "GDP-Q2-2026-advance": "2026-07-30T15:12:42Z",
-    "CorePCE-Q2-2026": "2026-07-30T15:12:42Z",
-    "JoblessClaims-Jul30-2026": "2026-07-30T15:12:42Z",
     "ISM-Mfg-PMI-Jul-2026": "2026-08-04T07:10:35Z",
     "ISM-Services-PMI-Jul-2026": "2026-08-05T07:10:37Z",
     "ADP-Jul-2026": "2026-08-06T15:14:33Z"
   },
   "news": {
-    "msft-q4-fy26-beat-azure43-jul29": "2026-07-30T07:13:59Z",
-    "gdp-stagflation-print-jul30": "2026-07-30T15:12:42Z",
-    "treasury-30y-523pct-jul30": "2026-07-30T15:12:42Z",
-    "msft-15pct-sp-recovery-jul30": "2026-07-30T15:12:42Z",
-    "iran-strikes-oil-92-jul30": "2026-07-30T15:12:42Z",
-    "oil-ceasefire-drop-8pct-jul30": "2026-07-30T20:08:20Z",
-    "coinbase-q2-earnings-jul30": "2026-07-30T20:08:20Z",
-    "strategy-q2-btcloss-jul30": "2026-07-30T20:08:20Z",
     "sp500-close-17pct-msft-ai-jul30": "2026-07-31T07:14:01Z",
     "btc-etf-jul-weakest-205m-jul31": "2026-07-31T07:14:01Z",
     "eth-etf-342m-rotation-jul31": "2026-07-31T07:14:01Z",
@@ -75,6 +58,8 @@
     "defi-crash-extremefear-aug6": "2026-08-06T07:20:11Z",
     "nfp-jul-preview-aug6": "2026-08-06T07:20:11Z",
     "fomc-jul29-hold-3dissents-9-3": "2026-08-06T15:14:33Z",
-    "kashkari-cook-hike-ready-aug5": "2026-08-06T15:14:33Z"
+    "kashkari-cook-hike-ready-aug5": "2026-08-06T15:14:33Z",
+    "iran-hormuz-restrictive-draft-aug6": "2026-08-06T20:12:11Z",
+    "btc-etf-626m-3day-aug6": "2026-08-06T20:12:11Z"
   }
 }
