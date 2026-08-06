@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-06T07:20:11Z",
+  "lastRunISO": "2026-08-06T15:14:33Z",
   "priceAlerts": {
     "btc": {
       "pct": 3.25,
@@ -8,10 +8,10 @@
       "value": 62869
     },
     "oil": {
-      "pct": 4.87,
+      "pct": 12.0,
       "dir": "down",
-      "ISO": "2026-08-06T07:20:11Z",
-      "value": 81.96
+      "ISO": "2026-08-06T15:14:33Z",
+      "value": 75.79
     },
     "us500": {
       "pct": 1.79,
@@ -37,7 +37,8 @@
     "CorePCE-Q2-2026": "2026-07-30T15:12:42Z",
     "JoblessClaims-Jul30-2026": "2026-07-30T15:12:42Z",
     "ISM-Mfg-PMI-Jul-2026": "2026-08-04T07:10:35Z",
-    "ISM-Services-PMI-Jul-2026": "2026-08-05T07:10:37Z"
+    "ISM-Services-PMI-Jul-2026": "2026-08-05T07:10:37Z",
+    "ADP-Jul-2026": "2026-08-06T15:14:33Z"
   },
   "news": {
     "msft-q4-fy26-beat-azure43-jul29": "2026-07-30T07:13:59Z",
@@ -72,6 +73,8 @@
     "shopify-q2-beat-aug5": "2026-08-05T15:14:27Z",
     "disney-q3-beat-aug5": "2026-08-05T15:14:27Z",
     "defi-crash-extremefear-aug6": "2026-08-06T07:20:11Z",
-    "nfp-jul-preview-aug6": "2026-08-06T07:20:11Z"
+    "nfp-jul-preview-aug6": "2026-08-06T07:20:11Z",
+    "fomc-jul29-hold-3dissents-9-3": "2026-08-06T15:14:33Z",
+    "kashkari-cook-hike-ready-aug5": "2026-08-06T15:14:33Z"
   }
 }

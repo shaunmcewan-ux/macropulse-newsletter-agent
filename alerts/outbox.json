@@ -1,6 +1,6 @@
 {
-  "ts": "2026-08-06T07:20:11Z",
+  "ts": "2026-08-06T15:14:33Z",
   "title": "MacroPulse Alert",
-  "priority": "default",
-  "message": "S&P 500 +1.79% (24h) → 7,737 — Aug 5 record close driven by Hormuz optimism and tech earnings.\nOil -4.87% (24h) → $81.96 — continued decline as Strait of Hormuz deal progress weighs on crude.\nGold +4.13% (24h) → $4,245 — safe-haven demand sustained; second consecutive session above threshold.\nDeFi sector -38.7% (24h), Fear & Greed 25 (Extreme Fear) — sharp altcoin risk-off; BTC holds $64,926 (+0.9%) with dominance at 56.6%.\nNFP due Fri 7 Aug 08:30 ET: consensus 80–88k (prior 57k) — pivotal for Fed rate path; no cuts in 2026, rate at 3.50–3.75%."
+  "priority": "high",
+  "message": "FOMC Jul 29: held 3.50–3.75%, 9-3 vote — 3 hawkish dissents (Hammack/Kashkari/Logan, each +25bp), most divided since 2016\nOil −12% (24h) → ~$76 — Hormuz interim deal imminent; 2nd alert this session (prior: −4.87%)\nADP Jul: 44K vs 75K est — weakest private payrolls since Jan; NFP due tomorrow (Aug 7, 13:30 UTC)\nKashkari (Aug 5): \"Now is the time to start slowly moving rates up\" — Gov. Cook echoes"
 }
