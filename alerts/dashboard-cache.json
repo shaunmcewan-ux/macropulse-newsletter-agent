@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T09:29:44.429Z",
+  "generatedAt": "2026-08-07T00:48:48.380Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "Five of eight macro indicators are supportive as the BTC Accumulation thesis holds: Global M2 continues its uptrend with US M2 at record $23.3T (+6.1% YoY), ISM Manufacturing holds at a 4-year high of 55.6% and ISM Services confirmed 54.1% (25th expansion month), the Fed balance sheet is stable at $6.74T, and BTC funding rates remain healthy near zero; DXY slipped to 99.66 on Iran diplomatic news that drove oil prices sharply lower, remaining in the neutral band; the 2s10s spread (now +0.39%) downgraded to neutral as the 30-day steepening compressed to +4bps (below threshold), with real yields the lone structural headwind at 2.47% though nominal yield declines on Aug 5–6 imply modest easing ahead; BTC at $64,580 with dominance at 56.64% and TOTAL crypto at $2.29T keep the BTC Accumulation thesis intact, with July NFP (Aug 7) and CPI (Aug 12) as the next regime-change catalysts.",
@@ -14,82 +14,82 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 64720,
+      "value": 64271,
       "format": "usd",
-      "change24h": 1.2,
-      "change30d": 2.9
+      "change24h": -0.4,
+      "change30d": 1.2
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 1906.36,
+      "value": 1901.63,
       "format": "usd",
-      "change24h": 2.3,
-      "change30d": 8.2
+      "change24h": -0.1,
+      "change30d": 7.2
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.0294565,
+      "value": 0.02959827,
       "format": "ratio",
-      "change24h": 0.9903590855418668,
-      "change30d": 3.7068294366789587
+      "change24h": 0.22797464984835106,
+      "change30d": 6.91862750570022
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 56.73543065070661,
+      "value": 56.59116552307438,
       "format": "percent",
-      "change24h": 0.24135777982594586,
-      "change30d": 1.1682071836825194
+      "change24h": 0.053941925469591645,
+      "change30d": 0.9608123040790985
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2289819916959.0273,
+      "value": 2278931730701.5645,
       "format": "usd-compact",
-      "change24h": 0.6509411231312816,
-      "change30d": -0.03426315413759541
+      "change24h": -0.5165233028545355,
+      "change30d": 0.5463666218014034
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 990680725946.6708,
+      "value": 989257702822.3784,
       "format": "usd-compact",
-      "change24h": 0.334346246321395,
-      "change30d": -1.6953545620458361
+      "change24h": -0.5864011504676302,
+      "change30d": -0.8304248255277699
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 760454599237.8011,
+      "value": 759755563644.019,
       "format": "usd-compact",
-      "change24h": -0.12225225523564466,
-      "change30d": -4.146652586229774
+      "change24h": -0.6842998186625305,
+      "change30d": -3.423900537790473
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 99.761,
+      "value": 99.978,
       "format": "index",
-      "change24h": 0.07222461856373595,
-      "change30d": -1.0719739790960146
+      "change24h": 0.014005041815049211,
+      "change30d": -1.1664920223808368
     },
     {
       "id": "us500",
       "label": "S&P 500",
-      "value": 7723.55,
+      "value": 7709.96,
       "format": "index",
-      "change24h": -0.167646435348196,
-      "change30d": 2.46927666326586
+      "change24h": -0.1759553573162619,
+      "change30d": 2.7467233486810056
     },
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10921.94,
+      "value": 10867.88,
       "format": "index",
-      "change24h": 0.30886335896021533,
-      "change30d": 2.540910499187904
+      "change24h": -0.18763242413193867,
+      "change30d": 2.0333668190737275
     },
     {
       "id": "oil",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 4281.595,
+      "value": 4234.045,
       "format": "usd",
-      "change24h": 0.8020904404116753,
-      "change30d": 2.783112399955839
+      "change24h": -0.13863459312821722,
+      "change30d": 3.3179748916075646
     }
   ],
   "indicators": [
@@ -176,13 +176,6 @@
   ],
   "upcoming": [
     {
-      "date": "2026-08-07",
-      "title": "Employment Situation / NFP (July 2026)",
-      "category": "Labor",
-      "importance": "high",
-      "note": "BLS Employment Situation for July 2026 at 8:30 AM ET—nonfarm payrolls, unemployment rate, and average hourly earnings; consensus: ~80–90k payrolls (vs June's soft 57k); conflicting signals: ISM Manufacturing Employment 52.8% (first factory expansion in 33 months, bullish) vs ISM Services Employment 47.4% (first contraction since June 2024, bearish); macro backdrop: DXY 99.66 (neutral, falling), real yields 2.47% (headwind), 2s10s +0.39% (neutral/flat), ISM Manufacturing 55.6%; a weak NFP (<70k) would push September cut odds above 80%, potentially compressing real yields below 2% and DXY toward 97.5 (flipping to supportive); a strong beat (>120k) would reinforce the ISM Manufacturing surge and likely push DXY back above 100 (headwind); AHE (average hourly earnings) growth rate is secondary focal point for wage-driven inflation signals ahead of CPI on Aug 12."
-    },
-    {
       "date": "2026-08-12",
       "title": "CPI (July 2026)",
       "category": "Inflation",
@@ -195,6 +188,20 @@
       "category": "Inflation",
       "importance": "medium",
       "note": "BLS Producer Price Index for July 2026 at 8:30 AM ET—released one day after July CPI (August 12); PPI feeds directly into core PCE components (healthcare and financial services); ISM Manufacturing Prices at 71.1% in July signals upstream pipeline pressure, but the sharp oil price decline this week (Iran news) could provide a significant deflationary offset to goods PPI; a soft PPI following a soft CPI would reinforce disinflation and support real yield compression from 2.47% heading into the September 15–16 FOMC; a hot PPI—especially in trade services or healthcare—would signal pipeline inflation risks not yet captured in headline CPI, complicating September cut pricing and potentially pushing DXY back above 100."
+    },
+    {
+      "date": "2026-08-14",
+      "title": "Retail Sales (July 2026)",
+      "category": "Growth",
+      "importance": "medium",
+      "note": "US Census Bureau Advance Monthly Retail Sales for July 2026 at 8:30 AM ET—key consumption gauge released alongside University of Michigan Consumer Sentiment (10:00 AM ET); arrives one week after July NFP and two days after CPI, framing the growth-vs-inflation balance ahead of the September 15–16 FOMC; ISM Manufacturing at 55.6% (4-year high) with Production +6.3pts and Employment expanding for first time in 33 months suggests factory output is accelerating, which historically supports retail spending via the wage channel; ISM Services Business Activity also surged to 59.1%; a strong retail print (>0.4% MoM) would confirm demand-side support and reinforce the soft-landing narrative underlying the BTC Accumulation thesis."
+    },
+    {
+      "date": "2026-08-14",
+      "title": "University of Michigan Consumer Sentiment (August 2026 preliminary)",
+      "category": "Growth",
+      "importance": "medium",
+      "note": "University of Michigan Consumer Sentiment preliminary reading for August 2026 at 10:00 AM ET—released alongside July Retail Sales; July 2026 sentiment: 54.4 (beat estimate of 51.0, highest since February 2026); August preliminary is the first consumer confidence read post-ISM Manufacturing surge (55.6%), post-Iran diplomatic news and oil price drop, post-July NFP (Aug 7), and post-July CPI (Aug 12)—capturing near-term inflation expectations that directly influence September FOMC deliberations; the UMich 5-year inflation expectation component is particularly important given Prices Paid elevated in both ISM Manufacturing (71.1%) and Services (above 70); oil price decline this week may improve consumer confidence and reduce 1-year inflation expectations."
     }
   ],
   "sources": {
@@ -212,5 +219,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-08-06T09:29:44Z"
+  "cachedAtISO": "2026-08-07T00:48:48Z"
 }
