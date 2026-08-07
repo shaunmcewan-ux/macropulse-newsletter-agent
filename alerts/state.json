@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-06T20:12:11Z",
+  "lastRunISO": "2026-08-07T07:15:55Z",
   "priceAlerts": {
     "btc": {
       "pct": 3.25,
@@ -8,10 +8,10 @@
       "value": 62869
     },
     "oil": {
-      "pct": 12.0,
+      "pct": 4.87,
       "dir": "down",
-      "ISO": "2026-08-06T15:14:33Z",
-      "value": 75.79
+      "ISO": "2026-08-07T07:15:55Z",
+      "value": 81.96
     },
     "us500": {
       "pct": 1.79,
@@ -60,6 +60,8 @@
     "fomc-jul29-hold-3dissents-9-3": "2026-08-06T15:14:33Z",
     "kashkari-cook-hike-ready-aug5": "2026-08-06T15:14:33Z",
     "iran-hormuz-restrictive-draft-aug6": "2026-08-06T20:12:11Z",
-    "btc-etf-626m-3day-aug6": "2026-08-06T20:12:11Z"
+    "btc-etf-626m-3day-aug6": "2026-08-06T20:12:11Z",
+    "clarity-act-shelved-aug-recess": "2026-08-07T07:15:55Z",
+    "tether-hadron-saudi-arabia-aug6": "2026-08-07T07:15:55Z"
   }
 }
