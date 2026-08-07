@@ -1,11 +1,11 @@
 {
-  "lastRunISO": "2026-08-07T07:15:55Z",
+  "lastRunISO": "2026-08-07T15:13:48Z",
   "priceAlerts": {
     "btc": {
-      "pct": 3.25,
-      "dir": "down",
-      "ISO": "2026-08-01T07:09:25Z",
-      "value": 62869
+      "pct": 4.18,
+      "dir": "up",
+      "ISO": "2026-08-07T15:13:48Z",
+      "value": 65143
     },
     "oil": {
       "pct": 4.87,
@@ -20,16 +20,17 @@
       "value": 7736.52
     },
     "gold": {
-      "pct": 4.13,
+      "pct": 2.6,
       "dir": "up",
-      "ISO": "2026-08-06T07:20:11Z",
-      "value": 4245.37
+      "ISO": "2026-08-07T15:13:48Z",
+      "value": 4356
     }
   },
   "releases": {
     "ISM-Mfg-PMI-Jul-2026": "2026-08-04T07:10:35Z",
     "ISM-Services-PMI-Jul-2026": "2026-08-05T07:10:37Z",
-    "ADP-Jul-2026": "2026-08-06T15:14:33Z"
+    "ADP-Jul-2026": "2026-08-06T15:14:33Z",
+    "NFP-Jul-2026": "2026-08-07T15:13:48Z"
   },
   "news": {
     "sp500-close-17pct-msft-ai-jul30": "2026-07-31T07:14:01Z",
@@ -62,6 +63,8 @@
     "iran-hormuz-restrictive-draft-aug6": "2026-08-06T20:12:11Z",
     "btc-etf-626m-3day-aug6": "2026-08-06T20:12:11Z",
     "clarity-act-shelved-aug-recess": "2026-08-07T07:15:55Z",
-    "tether-hadron-saudi-arabia-aug6": "2026-08-07T07:15:55Z"
+    "tether-hadron-saudi-arabia-aug6": "2026-08-07T07:15:55Z",
+    "nfp-jul-2026-minus23k-shock-miss": "2026-08-07T15:13:48Z",
+    "fed-sept-hike-odds-fall-44pct-nfp-aug7": "2026-08-07T15:13:48Z"
   }
 }
