@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-08T15:09:07Z",
+  "lastRunISO": "2026-08-08T20:06:42Z",
   "priceAlerts": {
     "btc": {
       "pct": 4.18,
@@ -20,10 +20,10 @@
       "value": 7736.52
     },
     "gold": {
-      "pct": 2.6,
+      "pct": 2.41,
       "dir": "up",
-      "ISO": "2026-08-07T15:13:48Z",
-      "value": 4356
+      "ISO": "2026-08-08T20:06:42Z",
+      "value": 4342
     }
   },
   "releases": {
@@ -33,7 +33,6 @@
     "NFP-Jul-2026": "2026-08-07T15:13:48Z"
   },
   "news": {
-    "btc-crypto-broad-selloff-aug1": "2026-08-01T07:09:25Z",
     "oil-trump-iran-pullback-aug3": "2026-08-03T07:20:13Z",
     "yen-usjapan-intervention-aug3": "2026-08-03T07:20:13Z",
     "kospi-nikkei-drop-aug3": "2026-08-03T07:20:13Z",
@@ -59,6 +58,7 @@
     "nfp-jul-2026-minus23k-shock-miss": "2026-08-07T15:13:48Z",
     "fed-sept-hike-odds-fall-44pct-nfp-aug7": "2026-08-07T15:13:48Z",
     "btc-etf-6day-streak-aug8": "2026-08-08T07:09:59Z",
-    "cpi-aug12-sept-catalyst-aug8": "2026-08-08T07:09:59Z"
+    "cpi-aug12-sept-catalyst-aug8": "2026-08-08T07:09:59Z",
+    "gold-7wk-high-nfp-miss-aug8": "2026-08-08T20:06:42Z"
   }
 }
