@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-07T20:14:22Z",
+  "lastRunISO": "2026-08-08T07:09:59Z",
   "priceAlerts": {
     "btc": {
       "pct": 4.18,
@@ -33,14 +33,6 @@
     "NFP-Jul-2026": "2026-08-07T15:13:48Z"
   },
   "news": {
-    "sp500-close-17pct-msft-ai-jul30": "2026-07-31T07:14:01Z",
-    "btc-etf-jul-weakest-205m-jul31": "2026-07-31T07:14:01Z",
-    "eth-etf-342m-rotation-jul31": "2026-07-31T07:14:01Z",
-    "white-house-pwg-crypto-pending-jul31": "2026-07-31T07:14:01Z",
-    "sec-atkins-project-crypto-jul31": "2026-07-31T15:15:04Z",
-    "kospi-record-18pct-chips-jul31": "2026-07-31T20:10:17Z",
-    "sp500-nasdaq-record-close-jul31": "2026-07-31T20:10:17Z",
-    "ousd-stablecoin-visa-blackrock-eth-jul30": "2026-07-31T20:10:17Z",
     "btc-crypto-broad-selloff-aug1": "2026-08-01T07:09:25Z",
     "oil-trump-iran-pullback-aug3": "2026-08-03T07:20:13Z",
     "yen-usjapan-intervention-aug3": "2026-08-03T07:20:13Z",
@@ -65,6 +57,8 @@
     "clarity-act-shelved-aug-recess": "2026-08-07T07:15:55Z",
     "tether-hadron-saudi-arabia-aug6": "2026-08-07T07:15:55Z",
     "nfp-jul-2026-minus23k-shock-miss": "2026-08-07T15:13:48Z",
-    "fed-sept-hike-odds-fall-44pct-nfp-aug7": "2026-08-07T15:13:48Z"
+    "fed-sept-hike-odds-fall-44pct-nfp-aug7": "2026-08-07T15:13:48Z",
+    "btc-etf-6day-streak-aug8": "2026-08-08T07:09:59Z",
+    "cpi-aug12-sept-catalyst-aug8": "2026-08-08T07:09:59Z"
   }
 }
