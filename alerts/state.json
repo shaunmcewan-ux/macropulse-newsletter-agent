@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-10T07:17:42Z",
+  "lastRunISO": "2026-08-10T15:16:14Z",
   "priceAlerts": {
     "btc": {
       "pct": 4.18,
@@ -64,6 +64,8 @@
     "ada-cme-6month-etf-milestone-aug9": "2026-08-09T15:12:37Z",
     "clarity-act-cloture-motion-aug8": "2026-08-09T15:12:37Z",
     "jackson-hole-aug27-warsh-first-keynote": "2026-08-09T15:12:37Z",
-    "iran-fm-denies-direct-talks-aug10": "2026-08-10T07:17:42Z"
+    "iran-fm-denies-direct-talks-aug10": "2026-08-10T07:17:42Z",
+    "strategy-sold-1690btc-4thsale-aug2026": "2026-08-10T15:16:14Z",
+    "bip110-fork-defeated-aug2026": "2026-08-10T15:16:14Z"
   }
 }
