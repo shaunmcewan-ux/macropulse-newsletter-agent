@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-11T15:11:42Z",
+  "lastRunISO": "2026-08-11T20:09:43Z",
   "priceAlerts": {
     "btc": {
       "pct": 4.18,
@@ -27,15 +27,11 @@
     }
   },
   "releases": {
-    "ISM-Mfg-PMI-Jul-2026": "2026-08-04T07:10:35Z",
     "ISM-Services-PMI-Jul-2026": "2026-08-05T07:10:37Z",
     "ADP-Jul-2026": "2026-08-06T15:14:33Z",
     "NFP-Jul-2026": "2026-08-07T15:13:48Z"
   },
   "news": {
-    "amazon-3t-market-cap-aug3": "2026-08-04T07:10:35Z",
-    "hood-token-445pct-aug4": "2026-08-04T15:12:37Z",
-    "clarity-act-aug10-votes-missing-aug4": "2026-08-04T15:12:37Z",
     "hashdex-defi-etf-closure-aug2026": "2026-08-05T07:10:37Z",
     "palantir-30pct-earnings-aug5": "2026-08-05T07:10:37Z",
     "ism-services-pmi-jul-2026": "2026-08-05T07:10:37Z",
@@ -63,6 +59,10 @@
     "strategy-sold-1690btc-4thsale-aug2026": "2026-08-10T15:16:14Z",
     "bip110-fork-defeated-aug2026": "2026-08-10T15:16:14Z",
     "iran-pakistan-peace-signal-aug11": "2026-08-11T15:11:42Z",
-    "trump-media-14139btc-q2-aug11": "2026-08-11T15:11:42Z"
+    "trump-media-14139btc-q2-aug11": "2026-08-11T15:11:42Z",
+    "cpi-jul-2026-preview-consensus-aug11": "2026-08-11T20:09:43Z",
+    "qatar-oman-iran-talks-advanced-aug11": "2026-08-11T20:09:43Z",
+    "trump-iran-compensation-semi-negotiate-aug11": "2026-08-11T20:09:43Z",
+    "oil-eia-87bbl-forecast-aug11": "2026-08-11T20:09:43Z"
   }
 }
