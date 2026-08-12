@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-12T07:17:57Z",
+  "lastRunISO": "2026-08-12T15:13:55Z",
   "priceAlerts": {
     "btc": {
       "pct": 4.18,
@@ -29,7 +29,8 @@
   "releases": {
     "ISM-Services-PMI-Jul-2026": "2026-08-05T07:10:37Z",
     "ADP-Jul-2026": "2026-08-06T15:14:33Z",
-    "NFP-Jul-2026": "2026-08-07T15:13:48Z"
+    "NFP-Jul-2026": "2026-08-07T15:13:48Z",
+    "CPI-Jul-2026": "2026-08-12T15:13:55Z"
   },
   "news": {
     "hashdex-defi-etf-closure-aug2026": "2026-08-05T07:10:37Z",
@@ -65,6 +66,7 @@
     "trump-iran-compensation-semi-negotiate-aug11": "2026-08-11T20:09:43Z",
     "oil-eia-87bbl-forecast-aug11": "2026-08-11T20:09:43Z",
     "btc-etf-144m-outflow-streak-broke-aug11": "2026-08-12T07:17:57Z",
-    "iran-fm-rejects-deal-talks-stalled-aug12": "2026-08-12T07:17:57Z"
+    "iran-fm-rejects-deal-talks-stalled-aug12": "2026-08-12T07:17:57Z",
+    "cpi-jul-2026-actual-print-muted-reaction": "2026-08-12T15:13:55Z"
   }
 }
