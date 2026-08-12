@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-12T15:13:55Z",
+  "lastRunISO": "2026-08-12T20:10:21Z",
   "priceAlerts": {
     "btc": {
       "pct": 4.18,
@@ -27,18 +27,11 @@
     }
   },
   "releases": {
-    "ISM-Services-PMI-Jul-2026": "2026-08-05T07:10:37Z",
     "ADP-Jul-2026": "2026-08-06T15:14:33Z",
     "NFP-Jul-2026": "2026-08-07T15:13:48Z",
     "CPI-Jul-2026": "2026-08-12T15:13:55Z"
   },
   "news": {
-    "hashdex-defi-etf-closure-aug2026": "2026-08-05T07:10:37Z",
-    "palantir-30pct-earnings-aug5": "2026-08-05T07:10:37Z",
-    "ism-services-pmi-jul-2026": "2026-08-05T07:10:37Z",
-    "iran-hormuz-deal-imminent-aug5": "2026-08-05T15:14:27Z",
-    "shopify-q2-beat-aug5": "2026-08-05T15:14:27Z",
-    "disney-q3-beat-aug5": "2026-08-05T15:14:27Z",
     "defi-crash-extremefear-aug6": "2026-08-06T07:20:11Z",
     "nfp-jul-preview-aug6": "2026-08-06T07:20:11Z",
     "fomc-jul29-hold-3dissents-9-3": "2026-08-06T15:14:33Z",
@@ -67,6 +60,7 @@
     "oil-eia-87bbl-forecast-aug11": "2026-08-11T20:09:43Z",
     "btc-etf-144m-outflow-streak-broke-aug11": "2026-08-12T07:17:57Z",
     "iran-fm-rejects-deal-talks-stalled-aug12": "2026-08-12T07:17:57Z",
-    "cpi-jul-2026-actual-print-muted-reaction": "2026-08-12T15:13:55Z"
+    "cpi-jul-2026-actual-print-muted-reaction": "2026-08-12T15:13:55Z",
+    "russia-retail-crypto-btcethusdt-sept2026": "2026-08-12T20:10:21Z"
   }
 }
