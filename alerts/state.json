@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-13T07:16:02Z",
+  "lastRunISO": "2026-08-13T15:18:07Z",
   "priceAlerts": {
     "btc": {
       "pct": 4.18,
@@ -13,12 +13,6 @@
       "ISO": "2026-08-07T07:15:55Z",
       "value": 81.96
     },
-    "us500": {
-      "pct": 1.79,
-      "dir": "up",
-      "ISO": "2026-08-06T07:20:11Z",
-      "value": 7736.52
-    },
     "gold": {
       "pct": 2.41,
       "dir": "up",
@@ -27,13 +21,13 @@
     }
   },
   "releases": {
-    "ADP-Jul-2026": "2026-08-06T15:14:33Z",
     "NFP-Jul-2026": "2026-08-07T15:13:48Z",
-    "CPI-Jul-2026": "2026-08-12T15:13:55Z"
+    "CPI-Jul-2026": "2026-08-12T15:13:55Z",
+    "ADP-Jul-2026": "2026-08-06T15:14:33Z",
+    "PPI-Jul-2026": "2026-08-13T15:18:07Z",
+    "Claims-Aug8-2026": "2026-08-13T15:18:07Z"
   },
   "news": {
-    "defi-crash-extremefear-aug6": "2026-08-06T07:20:11Z",
-    "nfp-jul-preview-aug6": "2026-08-06T07:20:11Z",
     "fomc-jul29-hold-3dissents-9-3": "2026-08-06T15:14:33Z",
     "kashkari-cook-hike-ready-aug5": "2026-08-06T15:14:33Z",
     "iran-hormuz-restrictive-draft-aug6": "2026-08-06T20:12:11Z",
@@ -64,6 +58,7 @@
     "russia-retail-crypto-btcethusdt-sept2026": "2026-08-12T20:10:21Z",
     "goldman-sachs-neos-btc-etf-aug12": "2026-08-13T07:16:02Z",
     "fidelity-feth-staking-sec-filing-aug12": "2026-08-13T07:16:02Z",
-    "sept-hike-odds-65pct-post-cpi-aug12": "2026-08-13T07:16:02Z"
+    "sept-hike-odds-65pct-post-cpi-aug12": "2026-08-13T07:16:02Z",
+    "sec-reg-crypto-aug14-vote": "2026-08-13T15:18:07Z"
   }
 }
