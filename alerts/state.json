@@ -1,18 +1,6 @@
 {
-  "lastRunISO": "2026-08-14T07:28:16Z",
+  "lastRunISO": "2026-08-14T15:18:35Z",
   "priceAlerts": {
-    "btc": {
-      "pct": 4.18,
-      "dir": "up",
-      "ISO": "2026-08-07T15:13:48Z",
-      "value": 65143
-    },
-    "oil": {
-      "pct": 4.87,
-      "dir": "down",
-      "ISO": "2026-08-07T07:15:55Z",
-      "value": 81.96
-    },
     "gold": {
       "pct": 2.41,
       "dir": "up",
@@ -21,14 +9,12 @@
     }
   },
   "releases": {
-    "NFP-Jul-2026": "2026-08-07T15:13:48Z",
     "CPI-Jul-2026": "2026-08-12T15:13:55Z",
     "PPI-Jul-2026": "2026-08-13T15:18:07Z",
-    "Claims-Aug8-2026": "2026-08-13T15:18:07Z"
+    "Claims-Aug8-2026": "2026-08-13T15:18:07Z",
+    "Retail-Sales-Jul-2026": "2026-08-14T15:18:35Z"
   },
   "news": {
-    "nfp-jul-2026-minus23k-shock-miss": "2026-08-07T15:13:48Z",
-    "fed-sept-hike-odds-fall-44pct-nfp-aug7": "2026-08-07T15:13:48Z",
     "btc-etf-6day-streak-aug8": "2026-08-08T07:09:59Z",
     "cpi-aug12-sept-catalyst-aug8": "2026-08-08T07:09:59Z",
     "gold-7wk-high-nfp-miss-aug8": "2026-08-08T20:06:42Z",
@@ -52,6 +38,7 @@
     "goldman-sachs-neos-btc-etf-aug12": "2026-08-13T07:16:02Z",
     "fidelity-feth-staking-sec-filing-aug12": "2026-08-13T07:16:02Z",
     "sept-hike-odds-65pct-post-cpi-aug12": "2026-08-13T07:16:02Z",
-    "sec-reg-crypto-aug14-vote": "2026-08-13T15:18:07Z"
+    "sec-reg-crypto-aug14-vote": "2026-08-13T15:18:07Z",
+    "sept-hike-odds-10pct-retail-miss-aug14": "2026-08-14T15:18:35Z"
   }
 }
