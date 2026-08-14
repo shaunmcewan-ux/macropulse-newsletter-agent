@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-14T15:18:35Z",
+  "lastRunISO": "2026-08-14T20:13:00Z",
   "priceAlerts": {
     "gold": {
       "pct": 2.41,
@@ -39,6 +39,10 @@
     "fidelity-feth-staking-sec-filing-aug12": "2026-08-13T07:16:02Z",
     "sept-hike-odds-65pct-post-cpi-aug12": "2026-08-13T07:16:02Z",
     "sec-reg-crypto-aug14-vote": "2026-08-13T15:18:07Z",
-    "sept-hike-odds-10pct-retail-miss-aug14": "2026-08-14T15:18:35Z"
+    "sept-hike-odds-10pct-retail-miss-aug14": "2026-08-14T15:18:35Z",
+    "sec-reg-crypto-cftc-shift-aug14": "2026-08-14T20:13:00Z",
+    "boj-sep-hike-signal-aug14": "2026-08-14T20:13:00Z",
+    "btc-etf-131m-outflow-aug13": "2026-08-14T20:13:00Z",
+    "hormuz-uae-tanker-drones-aug14": "2026-08-14T20:13:00Z"
   }
 }
