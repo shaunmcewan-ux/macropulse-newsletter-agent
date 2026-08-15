@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-15T07:12:05Z",
+  "lastRunISO": "2026-08-15T15:11:29Z",
   "priceAlerts": {
     "gold": {
       "pct": 2.41,
@@ -15,8 +15,6 @@
     "Retail-Sales-Jul-2026": "2026-08-14T15:18:35Z"
   },
   "news": {
-    "btc-etf-6day-streak-aug8": "2026-08-08T07:09:59Z",
-    "cpi-aug12-sept-catalyst-aug8": "2026-08-08T07:09:59Z",
     "gold-7wk-high-nfp-miss-aug8": "2026-08-08T20:06:42Z",
     "iran-hormuz-six-demands-aug8": "2026-08-09T07:11:47Z",
     "ada-cme-6month-etf-milestone-aug9": "2026-08-09T15:12:37Z",
@@ -43,6 +41,7 @@
     "sec-reg-crypto-cftc-shift-aug14": "2026-08-14T20:13:00Z",
     "boj-sep-hike-signal-aug14": "2026-08-14T20:13:00Z",
     "btc-etf-131m-outflow-aug13": "2026-08-14T20:13:00Z",
-    "hormuz-uae-tanker-drones-aug14": "2026-08-14T20:13:00Z"
+    "hormuz-uae-tanker-drones-aug14": "2026-08-14T20:13:00Z",
+    "binance-htx-11-exchanges-aug23": "2026-08-15T15:11:29Z"
   }
 }
