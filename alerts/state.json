@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-15T15:11:29Z",
+  "lastRunISO": "2026-08-15T20:09:14Z",
   "priceAlerts": {
     "gold": {
       "pct": 2.41,
@@ -42,6 +42,7 @@
     "boj-sep-hike-signal-aug14": "2026-08-14T20:13:00Z",
     "btc-etf-131m-outflow-aug13": "2026-08-14T20:13:00Z",
     "hormuz-uae-tanker-drones-aug14": "2026-08-14T20:13:00Z",
-    "binance-htx-11-exchanges-aug23": "2026-08-15T15:11:29Z"
+    "binance-htx-11-exchanges-aug23": "2026-08-15T15:11:29Z",
+    "msci-strategy-metaplanet-index-review-aug14": "2026-08-15T20:09:14Z"
   }
 }
