@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-16T07:14:19Z",
+  "lastRunISO": "2026-08-16T15:08:34Z",
   "priceAlerts": {},
   "releases": {
     "CPI-Jul-2026": "2026-08-12T15:13:55Z",
@@ -35,6 +35,8 @@
     "hormuz-uae-tanker-drones-aug14": "2026-08-14T20:13:00Z",
     "binance-htx-11-exchanges-aug23": "2026-08-15T15:11:29Z",
     "msci-strategy-metaplanet-index-review-aug14": "2026-08-15T20:09:14Z",
-    "cboe-3x-leveraged-btceth-etf-sec-aug14": "2026-08-15T20:09:14Z"
+    "cboe-3x-leveraged-btceth-etf-sec-aug14": "2026-08-15T20:09:14Z",
+    "ukraine-600drone-moscow-aug16": "2026-08-16T15:08:34Z",
+    "ms-jpmorgan-q2-crypto-etf-buying-aug16": "2026-08-16T15:08:34Z"
   }
 }
