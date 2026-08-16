@@ -1,13 +1,6 @@
 {
-  "lastRunISO": "2026-08-15T20:09:14Z",
-  "priceAlerts": {
-    "gold": {
-      "pct": 2.41,
-      "dir": "up",
-      "ISO": "2026-08-08T20:06:42Z",
-      "value": 4342
-    }
-  },
+  "lastRunISO": "2026-08-16T07:14:19Z",
+  "priceAlerts": {},
   "releases": {
     "CPI-Jul-2026": "2026-08-12T15:13:55Z",
     "PPI-Jul-2026": "2026-08-13T15:18:07Z",
@@ -15,8 +8,6 @@
     "Retail-Sales-Jul-2026": "2026-08-14T15:18:35Z"
   },
   "news": {
-    "gold-7wk-high-nfp-miss-aug8": "2026-08-08T20:06:42Z",
-    "iran-hormuz-six-demands-aug8": "2026-08-09T07:11:47Z",
     "ada-cme-6month-etf-milestone-aug9": "2026-08-09T15:12:37Z",
     "clarity-act-cloture-motion-aug8": "2026-08-09T15:12:37Z",
     "jackson-hole-aug27-warsh-first-keynote": "2026-08-09T15:12:37Z",
@@ -43,6 +34,7 @@
     "btc-etf-131m-outflow-aug13": "2026-08-14T20:13:00Z",
     "hormuz-uae-tanker-drones-aug14": "2026-08-14T20:13:00Z",
     "binance-htx-11-exchanges-aug23": "2026-08-15T15:11:29Z",
-    "msci-strategy-metaplanet-index-review-aug14": "2026-08-15T20:09:14Z"
+    "msci-strategy-metaplanet-index-review-aug14": "2026-08-15T20:09:14Z",
+    "cboe-3x-leveraged-btceth-etf-sec-aug14": "2026-08-15T20:09:14Z"
   }
 }
