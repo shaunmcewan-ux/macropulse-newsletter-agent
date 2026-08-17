@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T07:38:39.291Z",
+  "generatedAt": "2026-08-17T15:01:49.939Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "Six of eight macro indicators remain constructive on August 17 — FOMC Minutes (August 19), Flash PMI (August 21), and the decisive PCE/GDP Q2 second estimate/Jackson Hole cluster (August 26–28) are the catalyst window ahead; BTC dominance eased slightly to 56.65% but remains firmly above the 55% Alt Rotation trigger; stablecoin dominance ticked down to 13.53% confirming dry powder remains deployed into risk assets; real yields ticked up to 2.40% and remain the lone structural headwind; the 2s10s curve steepened further to +54bps as the 10Y fell to 4.69% on August 17 and DXY holds near 99.64 in the neutral band — dial holds at BTC Accumulation pending Warsh's inaugural Jackson Hole keynote August 28.",
@@ -14,66 +14,66 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 63509,
+      "value": 63812,
       "format": "usd",
-      "change24h": 0.9,
+      "change24h": 1.2,
       "change30d": -0.5
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 1901.77,
+      "value": 1907.61,
       "format": "usd",
       "change24h": 1.4,
-      "change30d": 3.3
+      "change30d": 3.6
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02994332,
+      "value": 0.02994886,
       "format": "ratio",
-      "change24h": 0.35998250209911314,
-      "change30d": 5.312273813294445
+      "change24h": 0.32374302367813634,
+      "change30d": 5.655135129839635
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 56.214377970322694,
+      "value": 56.28938897974327,
       "format": "percent",
-      "change24h": 0.037732838476811636,
-      "change30d": -0.18324782737712236
+      "change24h": 0.3379376797441047,
+      "change30d": 0.08468063284102278
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2267434638650.93,
+      "value": 2271013550706.047,
       "format": "usd-compact",
-      "change24h": 0.7106989946194796,
-      "change30d": -0.38201181338077494
+      "change24h": 0.7910789663520684,
+      "change30d": -0.10557589899822976
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 992810360649.6758,
+      "value": 992673899366.4409,
       "format": "usd-compact",
-      "change24h": 0.6619809216842714,
-      "change30d": -0.11893100069781262
+      "change24h": 0.3540620038912598,
+      "change30d": -0.22748550176863674
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 763301585532.028,
+      "value": 762803743306.8762,
       "format": "usd-compact",
-      "change24h": 0.5146303309466258,
-      "change30d": -1.257860460136348
+      "change24h": 0.06703287452715781,
+      "change30d": -1.4885080904234078
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 99.336,
+      "value": 99.501,
       "format": "index",
-      "change24h": -0.30109598940141835,
-      "change30d": -1.3623545299281088
+      "change24h": -0.13549319523063041,
+      "change30d": -1.1985145172180895
     },
     {
       "id": "us500",
@@ -86,10 +86,10 @@
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10777.88,
+      "value": 10731.22,
       "format": "index",
-      "change24h": 0.2582296755756996,
-      "change30d": 1.9312567924565809
+      "change24h": -0.17581199093592864,
+      "change30d": 1.502309317004007
     },
     {
       "id": "oil",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 4409.21,
+      "value": 4416.04,
       "format": "usd",
-      "change24h": 0.7512453919754372,
-      "change30d": 10.886727146388408
+      "change24h": 0.9073121263852714,
+      "change30d": 11.058494049395936
     }
   ],
   "indicators": [
@@ -226,5 +226,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-08-17T07:38:39Z"
+  "cachedAtISO": "2026-08-17T15:01:49Z"
 }
