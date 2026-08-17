@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-16T20:11:31Z",
+  "lastRunISO": "2026-08-17T07:18:56Z",
   "priceAlerts": {},
   "releases": {
     "CPI-Jul-2026": "2026-08-12T15:13:55Z",
@@ -37,6 +37,8 @@
     "msci-strategy-metaplanet-index-review-aug14": "2026-08-15T20:09:14Z",
     "cboe-3x-leveraged-btceth-etf-sec-aug14": "2026-08-15T20:09:14Z",
     "ukraine-600drone-moscow-aug16": "2026-08-16T15:08:34Z",
-    "ms-jpmorgan-q2-crypto-etf-buying-aug16": "2026-08-16T15:08:34Z"
+    "ms-jpmorgan-q2-crypto-etf-buying-aug16": "2026-08-16T15:08:34Z",
+    "hashdex-defi-btc-etf-closure-aug17": "2026-08-17T07:18:56Z",
+    "btc-etf-389m-weekly-outflow-aug10-wk": "2026-08-17T07:18:56Z"
   }
 }
