@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-17T07:18:56Z",
+  "lastRunISO": "2026-08-17T15:07:37Z",
   "priceAlerts": {},
   "releases": {
     "CPI-Jul-2026": "2026-08-12T15:13:55Z",
@@ -39,6 +39,9 @@
     "ukraine-600drone-moscow-aug16": "2026-08-16T15:08:34Z",
     "ms-jpmorgan-q2-crypto-etf-buying-aug16": "2026-08-16T15:08:34Z",
     "hashdex-defi-btc-etf-closure-aug17": "2026-08-17T07:18:56Z",
-    "btc-etf-389m-weekly-outflow-aug10-wk": "2026-08-17T07:18:56Z"
+    "btc-etf-389m-weekly-outflow-aug10-wk": "2026-08-17T07:18:56Z",
+    "tether-kpmg-full-audit-68b-surplus-aug13": "2026-08-17T15:07:37Z",
+    "whitehouse-crypto-summit-trump-coinbase-ripple-aug19": "2026-08-17T15:07:37Z",
+    "fomc-minutes-jul2829-due-aug19-2pm-et": "2026-08-17T15:07:37Z"
   }
 }
