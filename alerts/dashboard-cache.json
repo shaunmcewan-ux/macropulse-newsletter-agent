@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T07:24:28.902Z",
+  "generatedAt": "2026-08-18T15:12:11.286Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "Seven of eight macro indicators remain constructive on August 18 — DXY fell to a 2-month low of 99.40 (neutral band, lowest since June), the 2s10s yield curve steepened further to +58bps as the 10Y rose to 4.73%, and real yields hold at 2.40% as the lone structural headwind; BTC surged 1.8% to $64,269 lifting total crypto to $2.28T with BTC dominance at 56.5%, well above the 55% Alt Rotation trigger; FOMC Minutes (August 19), Philly Fed + Jobless Claims (August 20), Flash PMI (August 21), and the decisive PCE/GDP/Jackson Hole cluster (August 26–28) are the catalyst window ahead — dial holds at BTC Accumulation.",
@@ -14,66 +14,66 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 64254,
+      "value": 64639,
       "format": "usd",
-      "change24h": 1.2,
-      "change30d": -0.7
+      "change24h": 1.7,
+      "change30d": 0.4
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 1899.36,
+      "value": 1908.68,
       "format": "usd",
-      "change24h": 0.2,
-      "change30d": 1.7
+      "change24h": 0.6,
+      "change30d": 2.1
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02954166,
+      "value": 0.02953239,
       "format": "ratio",
-      "change24h": -1.4889275347437387,
-      "change30d": 1.7770467646659067
+      "change24h": -1.1252439554661018,
+      "change30d": 2.297980219874938
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 56.554620767297,
+      "value": 56.64517864544095,
       "format": "percent",
-      "change24h": 0.7720265737483079,
-      "change30d": -0.008546910858814458
+      "change24h": 0.4280638775619128,
+      "change30d": 0.2737541540032652
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2281198184077.1724,
+      "value": 2293055265902.5254,
       "format": "usd-compact",
-      "change24h": 0.6471572006884341,
-      "change30d": -0.7500304057574294
+      "change24h": 0.5396361350735676,
+      "change30d": -0.35755119663406837
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 991075202121.8617,
+      "value": 994150014093.3489,
       "format": "usd-compact",
-      "change24h": -0.34625078027673156,
-      "change30d": -0.7352168443231976
+      "change24h": -0.01581663902328429,
+      "change30d": -0.7545334528849748
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 761724993525.8489,
+      "value": 763247905006.4631,
       "format": "usd-compact",
-      "change24h": -0.5806168828825086,
-      "change30d": -1.6796251739743007
+      "change24h": -0.05413947711138196,
+      "change30d": -1.8694326569149633
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 99.651,
+      "value": 99.62,
       "format": "index",
-      "change24h": 0.07129945772243217,
-      "change30d": -1.0495690511180862
+      "change24h": 0.040168708576025565,
+      "change30d": -1.0803511141120803
     },
     {
       "id": "us500",
@@ -86,10 +86,10 @@
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10729.87,
+      "value": 10739.82,
       "format": "index",
-      "change24h": 0.08917652567884055,
-      "change30d": 1.489540208032445
+      "change24h": 0.18199100585710878,
+      "change30d": 1.5836532704525685
     },
     {
       "id": "oil",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 4401.11,
+      "value": 4365.34,
       "format": "usd",
-      "change24h": -0.33515175807478376,
-      "change30d": 10.683021155998794
+      "change24h": -1.1451773247190207,
+      "change30d": 9.783445442883234
     }
   ],
   "indicators": [
@@ -226,5 +226,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-08-18T07:24:28Z"
+  "cachedAtISO": "2026-08-18T15:12:11Z"
 }
