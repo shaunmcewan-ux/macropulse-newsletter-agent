@@ -1,6 +1,6 @@
 {
-  "ts": "2026-08-19T15:15:37Z",
+  "ts": "2026-08-19T20:10:17Z",
   "title": "MacroPulse Alert",
-  "priority": "default",
-  "message": "FOMC mins (Jul 28-29) released 19:00 BST: 9-3 hold confirmed; broader hawkish sympathy beyond 3 dissenters noted, Warsh non-committal. Sept hold odds ~65%.\nWhite House crypto summit convened: Trump, SEC/CFTC chairs, Coinbase, Ripple on CLARITY Act — CFTC Innovation Committee formally launched.\nNo price threshold breaches — BTC $64,170 (-0.5% 24h), ETH $1,917 (+0.3%), DXY 98.97 (-0.69%)."
+  "priority": "high",
+  "message": "FOMC mins (Jul 28-29): 9-3 vote to hold — most hawkish split in years. Many participants flagged hikes if inflation doesn't cool. S&P 500 -0.6% post-release. Sept hike odds ~31%.\nUK CPI (Jul): 2.9% YoY vs 2.6% prior, core 2.6% (est 2.5%) — four-month high. BOE cut path narrows.\nBTC $64.4K (+1.3% 24h), ETH $1,920 (+0.4%) — both below alert thresholds, holding range."
 }

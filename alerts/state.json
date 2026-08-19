@@ -1,11 +1,12 @@
 {
-  "lastRunISO": "2026-08-19T15:15:37Z",
+  "lastRunISO": "2026-08-19T20:10:17Z",
   "priceAlerts": {},
   "releases": {
     "CPI-Jul-2026": "2026-08-12T15:13:55Z",
     "PPI-Jul-2026": "2026-08-13T15:18:07Z",
     "Claims-Aug8-2026": "2026-08-13T15:18:07Z",
-    "Retail-Sales-Jul-2026": "2026-08-14T15:18:35Z"
+    "Retail-Sales-Jul-2026": "2026-08-14T15:18:35Z",
+    "UK-CPI-Jul-2026": "2026-08-19T20:10:17Z"
   },
   "news": {
     "btc-etf-144m-outflow-streak-broke-aug11": "2026-08-12T07:17:57Z",
@@ -41,6 +42,8 @@
     "dxy-below-100-2month-low-weak-us-data-aug18": "2026-08-18T20:08:58Z",
     "brent-91-july-high-iran-kushner-no-deal-aug18": "2026-08-18T20:08:58Z",
     "fomc-minutes-jul2829-actual-released-aug19": "2026-08-19T15:15:37Z",
-    "whitehouse-crypto-summit-cftc-innovation-committee-aug19": "2026-08-19T15:15:37Z"
+    "whitehouse-crypto-summit-cftc-innovation-committee-aug19": "2026-08-19T15:15:37Z",
+    "fomc-minutes-jul2829-9to3-vote-hawkish-content-aug19": "2026-08-19T20:10:17Z",
+    "uk-cpi-jul26-2pt9pct-4month-high-aug19": "2026-08-19T20:10:17Z"
   }
 }
