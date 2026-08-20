@@ -1,6 +1,6 @@
 {
-  "ts": "2026-08-20T07:15:03Z",
+  "ts": "2026-08-20T15:10:42Z",
   "title": "MacroPulse Alert",
   "priority": "high",
-  "message": "BTC +5.7% → $68,419 · ETH +9.3% → $2,103 · TOTAL +5.2% — broad risk-on rally (Aug 19 data)\nGold +4.1% → $4,511 · DXY -0.86% → 98.79 | US Treasury doubled long-end bond buybacks; 10Y eased\nETH/BTC +3.9% → 0.0307; TOTAL2 +4.3% — altcoin rotation signal emerging alongside BTC\nToday 13:30 UTC: Philly Fed Mfg (Aug) + Jobless Claims | Aug 21: Flash PMI (first August composite)\nJackson Hole Aug 27-29: Warsh keynote Aug 28 — PCE (Aug 26) the key print ahead"
+  "message": "ETH +18.5% (24h) → $2,267 — $1.9B short-liquidation cascade broke $1,950 range; spot ETF inflows $189M (Aug 19).\nUS Jobless Claims (Aug 15 wk) 206K vs 210K expected — labor tight, mild hawkish lean.\nBTC +6.46% (24h) → ~$69K suppressed (already alerted 07:15Z, <1.5x prior move)."
 }

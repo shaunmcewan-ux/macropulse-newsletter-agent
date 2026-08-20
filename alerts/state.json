@@ -1,8 +1,8 @@
 {
-  "lastRunISO": "2026-08-20T07:15:03Z",
+  "lastRunISO": "2026-08-20T15:10:42Z",
   "priceAlerts": {
     "btc": { "pct": 5.7, "dir": "up", "ISO": "2026-08-20T07:15:03Z", "value": 68419 },
-    "eth": { "pct": 9.3, "dir": "up", "ISO": "2026-08-20T07:15:03Z", "value": 2103.05 },
+    "eth": { "pct": 18.5, "dir": "up", "ISO": "2026-08-20T15:10:42Z", "value": 2266.79 },
     "ethbtc": { "pct": 3.91, "dir": "up", "ISO": "2026-08-20T07:15:03Z", "value": 0.03073 },
     "total": { "pct": 5.25, "dir": "up", "ISO": "2026-08-20T07:15:03Z", "value": 2411049551660 },
     "total2": { "pct": 4.31, "dir": "up", "ISO": "2026-08-20T07:15:03Z", "value": 1037660064386 },
@@ -13,7 +13,8 @@
     "PPI-Jul-2026": "2026-08-13T15:18:07Z",
     "Claims-Aug8-2026": "2026-08-13T15:18:07Z",
     "Retail-Sales-Jul-2026": "2026-08-14T15:18:35Z",
-    "UK-CPI-Jul-2026": "2026-08-19T20:10:17Z"
+    "UK-CPI-Jul-2026": "2026-08-19T20:10:17Z",
+    "Claims-Aug15-2026": "2026-08-20T15:10:42Z"
   },
   "news": {
     "goldman-sachs-neos-btc-etf-aug12": "2026-08-13T07:16:02Z",
@@ -49,6 +50,8 @@
     "fomc-minutes-jul2829-9to3-vote-hawkish-content-aug19": "2026-08-19T20:10:17Z",
     "uk-cpi-jul26-2pt9pct-4month-high-aug19": "2026-08-19T20:10:17Z",
     "us-treasury-buyback-longend-aug19": "2026-08-20T07:15:03Z",
-    "jackson-hole-aug2729-warsh-aug28": "2026-08-20T07:15:03Z"
+    "jackson-hole-aug2729-warsh-aug28": "2026-08-20T07:15:03Z",
+    "eth-short-squeeze-1pt9b-aug20": "2026-08-20T15:10:42Z",
+    "eth-spot-etf-189m-inflow-aug19": "2026-08-20T15:10:42Z"
   }
 }
