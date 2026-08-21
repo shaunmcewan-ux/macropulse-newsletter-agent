@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-20T20:02:44.000Z",
+  "generatedAt": "2026-08-21T07:28:48.904Z",
   "dial": {
     "state": "BTC Accumulation",
-    "summary": "On August 20, BTC surged 8.1% to $69,581 (total crypto +7.5% to $2.45T, ETH +18%), pulling BTC dominance from 58.94% to 56.8% as altcoins led the breakout — Alt Rotation signals are intensifying but BTC.D has not yet breached the 55% threshold; six of eight indicators remain constructive: 2s10s at +45bps (4-week steepening), DXY at 99.46 (neutral band, 4-week downtrend), stablecoin dominance compressed to 12.6% as capital rotates into risk assets, ISM Manufacturing at 55.6%, Global M2 supportive, Fed Balance Sheet flat/stable; real yields at 2.44% remain the lone structural headwind; PCE (August 26) and Warsh's Jackson Hole keynote (August 28) are the decisive catalysts — dial holds at BTC Accumulation with Alt Rotation transition imminent if BTC.D sustains below 55%.",
+    "summary": "Six of eight indicators remain constructive on August 21: 2s10s steepened to +52bps (DGS10 4.71% minus DGS2 4.19%), DXY broke below 99 to 98.86 (lowest since late May after the US Treasury doubled its long-term buyback program), BTC funding rates compressed to +0.0025%/8h (near-zero, no overheating signal), ISM Manufacturing at 55.6% (highest since May 2022), Global M2 in sustained uptrend, Fed Balance Sheet flat at ~$6.76T; real yields eased to 2.35% from 2.44% but remain the lone structural headwind above the 2% threshold; BTC dominance at 56.2% — approaching the 55% Alt Rotation trigger but not yet sustained below it — with total crypto at ~$2.46T; dial holds BTC Accumulation with PCE (August 26) and Warsh's inaugural Jackson Hole keynote (August 28) as decisive catalysts.",
     "states": [
       "BTC Accumulation",
       "Alt Rotation",
@@ -14,82 +14,82 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 72643,
+      "value": 76301,
       "format": "usd",
-      "change24h": 6.3,
-      "change30d": 9.6
+      "change24h": 8.9,
+      "change30d": 14.6
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 2323.88,
+      "value": 2379.68,
       "format": "usd",
-      "change24h": 11.2,
-      "change30d": 21.2
+      "change24h": 5.6,
+      "change30d": 23.5
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.03199593,
+      "value": 0.03115676,
       "format": "ratio",
-      "change24h": 4.1138690920351735,
-      "change30d": 15.63561088533994
+      "change24h": -3.5841908233377775,
+      "change30d": 11.23658247113277
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 58.698281194002135,
+      "value": 59.34374141558351,
       "format": "percent",
-      "change24h": 1.9801455035312499,
-      "change30d": 0.8809034477972459
+      "change24h": 2.2213772563735246,
+      "change30d": 1.2035040271190462
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2479181166114.7246,
+      "value": 2572490463715.229,
       "format": "usd-compact",
-      "change24h": 3.110394166243798,
-      "change30d": 10.479406570821547
+      "change24h": 4.744245160641381,
+      "change30d": 13.350687438031846
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1023944433919.9624,
+      "value": 1045878374987.5184,
       "format": "usd-compact",
-      "change24h": 0.32875435063877306,
-      "change30d": 9.06591643949082
+      "change24h": 1.4994534746381314,
+      "change30d": 11.341732598914634
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 744025927488.3198,
+      "value": 759575845332.9822,
       "format": "usd-compact",
-      "change24h": -1.2031725587183995,
-      "change30d": 4.521171901747184
+      "change24h": 0.38403127601771386,
+      "change30d": 7.197329907967744
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 98.879,
+      "value": 98.74,
       "format": "index",
-      "change24h": 0.11339819980358722,
-      "change30d": -2.079640321254909
+      "change24h": -0.1001628911664462,
+      "change30d": -2.4250449631401145
     },
     {
       "id": "us500",
       "label": "S&P 500",
-      "value": 7707.98,
+      "value": 7641.16,
       "format": "index",
-      "change24h": 0.21087501430100972,
-      "change30d": 3.5562278995281624
+      "change24h": -0.8668937905910461,
+      "change30d": 1.7573110318009912
     },
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10748.17,
+      "value": 10768.05,
       "format": "index",
-      "change24h": 0.04477184046703722,
-      "change30d": 2.127657552794737
+      "change24h": 0.18496171906472636,
+      "change30d": 1.7209733352100343
     },
     {
       "id": "oil",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 4526.433,
+      "value": 4561.81,
       "format": "usd",
-      "change24h": 0.09708001449787912,
-      "change30d": 12.895238950369261
+      "change24h": 0.9514662583000367,
+      "change30d": 11.746074516816506
     }
   ],
   "indicators": [
@@ -115,7 +115,7 @@
       "value": "$102.7T",
       "trend": "up",
       "status": "supportive",
-      "note": "Global 4-bank M2 aggregate (Fed/ECB/BOJ/PBOC) carried at ~$102.7T — July aggregate not yet published (~6-week reporting lag); US M2 confirmed at $23.16T for June 2026, +5.6% YoY (28th consecutive monthly increase, record high per X/@GlobalMktObserv); no YoY contraction signal from any major central bank; 4-week trend up based on sustained US M2 expansion and continued global central bank balance sheet stability; status supportive (4-week uptrend confirmed; YoY contraction headwind condition not triggered)."
+      "note": "Global 4-bank M2 aggregate (Fed/ECB/BOJ/PBOC) carried at ~$102.7T — July aggregate not yet published (~6-week reporting lag); US M2 confirmed at $23.16T for June 2026, +5.6% YoY (28th consecutive monthly increase, record high); no YoY contraction signal from any major central bank; 4-week trend up based on sustained US M2 expansion and continued global central bank balance sheet stability; status supportive (4-week uptrend confirmed; YoY contraction headwind condition not triggered)."
     },
     {
       "tier": 1,
@@ -123,31 +123,31 @@
       "value": "55.6",
       "trend": "up",
       "status": "supportive",
-      "note": "July 2026 ISM Manufacturing PMI at 55.6% (released August 3) remains the most recent reading — August 2026 data releases September 1, 2026; sub-indexes: New Orders 56.7%, Production 58.5%, Employment 52.8% (first factory hiring expansion in 18 months), Prices Paid 71.1%; July reading is the highest since May 2022; Philadelphia Fed and Initial Jobless Claims released August 20 provide the first August regional read and labor update (specific values not yet confirmed at time of run); 4-week trend up: June 53.3% → July 55.6% = +2.3pp; status supportive (above 50 and rising; headwind thresholds of <48 falling or >62 not met)."
+      "note": "July 2026 ISM Manufacturing PMI at 55.6% (released August 3) remains the most recent reading — August 2026 data releases September 1, 2026; sub-indexes: New Orders 56.7%, Production 58.5%, Employment 52.8% (first factory hiring expansion in 18 months), Prices Paid 71.1%; July reading is the highest since May 2022; 4-week trend up: June 53.3% → July 55.6% = +2.3pp; status supportive (above 50 and rising; headwind thresholds of <48 falling or >62 not met)."
     },
     {
       "tier": 1,
       "name": "DXY (US Dollar Index)",
-      "value": "99.46",
+      "value": "98.86",
       "trend": "down",
       "status": "neutral",
-      "note": "ICE DXY fell to 99.46 on August 19, 2026 (down 0.20% from 99.64 on August 18; Aug 20 intraday likely similar or slightly lower given risk-on environment with BTC +8.1% and crypto surging); Barchart noted DXY at 99.60 testing rising channel support below declining 200-day MA; 4-week trend down: DXY was ~101.2 around July 19-20 → 99.46 on August 19-20 = approximately -1.7%, above the 0.5% flat threshold; Warsh Jackson Hole keynote August 28 and PCE August 26 are the key directional catalysts; status NEUTRAL (ICE DXY in the 97.5–100 neutral band; below 97.5 would flip to supportive)."
+      "note": "ICE DXY at 98.86 on August 21, 2026 (up 0.03% intraday; August 20 close ~98.76, the lowest since late May after the US Treasury doubled its long-term buyback program, breaking DXY below 99 for the first time since late May); 4-week trend down: DXY was ~101.2 around July 21 → 98.86 on August 21 = approximately -2.3%, well above the 0.5% flat threshold; status NEUTRAL (ICE DXY in the 97.5–100 neutral band; a sustained move below 97.5 would flip to supportive — PCE August 26 and Warsh Jackson Hole keynote August 28 are the key directional catalysts; Treasury buyback expansion adds structural downside pressure)."
     },
     {
       "tier": 1,
       "name": "Real Yields (US10Y - CPI)",
-      "value": "2.44%",
+      "value": "2.35%",
       "trend": "up",
       "status": "headwind",
-      "note": "FRED DFII10 at 2.44% as of August 17, 2026 (H.15 released August 18); nominal 10Y Treasury eased to 4.64% on August 20 (from 4.65% August 19, 4.72% August 17), suggesting real yields may have compressed slightly toward ~2.38-2.42% intraday but no official update confirmed yet; the July 23, 2026 10-year TIPS auction cleared at 2.438%, a 16-year high; 4-week trend up: ~2.18% (mid-July) → 2.44% (August 17) = +26bps, well above the 5bps flat threshold; status headwind (above the 2% absolute threshold; soft July PCE August 26 and dovish Warsh keynote August 28 are the catalysts needed to compress real yields below 2%)."
+      "note": "FRED DFII10 at 2.35% as of August 19-20, 2026 — compressed from 2.44% on August 17 as nominal 10Y eased slightly from the August 17 peak; 4-week trend up: ~2.18% (July 21) → 2.35% (August 19) = +17bps, above the 5bps flat threshold; status headwind (above the 2% absolute threshold; soft July PCE August 26 and dovish Warsh keynote August 28 are the catalysts needed to compress real yields meaningfully below 2%; compression from 2.44% to 2.35% is a positive directional signal but the structural headwind persists)."
     },
     {
       "tier": 1,
       "name": "2s10s Yield Curve",
-      "value": "+0.45%",
+      "value": "+0.52%",
       "trend": "up",
       "status": "supportive",
-      "note": "August 20, 2026: DGS10 at 4.64% (eased from 4.65% on August 19 and 4.70% on August 18 as risk-on sentiment drove a modest bid for longer duration); DGS2 at 4.19% (latest confirmed August 18); spread = +45bps (narrowed from +51bps due to 10Y easing more than 2Y on the day); 4-week trend up: ~+35bps (mid-July) → +45bps (August 20) = +10bps steepening, above the 5bps flat threshold; status supportive (positive spread AND 4-week steepening trend intact; PCE August 26 and Warsh keynote August 28 are the next directional catalysts; a hawkish Warsh tone could flatten the curve by pushing 2Y higher)."
+      "note": "August 21, 2026: DGS10 rose to 4.71% (rebounding from 4.64% on August 20, erasing prior-day drop as the Treasury's larger buyback announcement pushed long yields higher); DGS2 at 4.19% (latest confirmed August 19; August 21 FRED release pending); spread = +52bps; 4-week trend up: ~+35bps (July 21) → +52bps (August 21) = +17bps steepening, above the 5bps flat threshold; status supportive (positive spread AND sustained 4-week steepening trend intact; a hawkish Warsh tone August 28 could flatten the curve; PCE August 26 is the next key input)."
     },
     {
       "tier": 1,
@@ -155,60 +155,53 @@
       "value": "$6.76T",
       "trend": "flat",
       "status": "supportive",
-      "note": "WALCL: $6,759,955M ($6.760T) for week ending August 12, 2026 (H.4.1 released August 13); H.4.1 for week ending August 19 released today August 20 at 4:30 PM ET — specific value not yet available at time of run; 4-week trend flat: $6,738,190M (July 29) → $6,759,955M (August 12) = +$21,765M (+0.32%), within the 0.5% flat threshold; status supportive (balance sheet holding at post-2022 stabilization plateau with no aggressive QT signal; reduced September hike probability following NFP shock limits near-term QT acceleration risk)."
+      "note": "WALCL: $6,759,955M ($6.760T) for week ending August 12, 2026 (H.4.1 released August 13); H.4.1 for week ending August 19 released August 20 at 4:30 PM ET — specific figure not yet confirmed but balance sheet held near $6.76T based on available data (FRED series extends to August 19, 2026); 4-week trend flat: $6,738,190M (July 29) → $6,759,955M (August 12) = +$21,765M (+0.32%), within the 0.5% flat threshold; status supportive (balance sheet holding at post-2022 stabilization plateau with no aggressive QT signal)."
     },
     {
       "tier": 3,
       "name": "BTC Funding Rates (perps avg)",
-      "value": "+0.004%",
+      "value": "+0.0025%",
       "trend": "down",
       "status": "supportive",
-      "note": "CoinGlass blocked by network proxy — value carried forward at +0.004%/8h; BTC surged 8.1% to $69,581 on August 20 (from $64,273 August 19), total crypto market cap $2.45T (+7.5% in 24h), BTC open interest on CoinGlass at $51.9B; intraday funding rates likely moved higher during the 8% pump and may be approaching or exceeding the +0.01%/8h range — users should verify on CoinGlass directly; 30-day trend direction remains down on the carried-forward basis (~+0.006%/8h in late June → +0.004%); status carried as supportive (on the +0.004% basis, below the 0.04%/8h overheating threshold — verify real-time rate against the threshold given today's surge)."
+      "note": "BTC perpetual futures funding rate at +0.0025%/8h on August 21, 2026 — near-zero and well below the +0.04%/8h overheating headwind threshold; compressed from +0.004%/8h on August 20 despite BTC holding ~$69,581 post-August 20 surge; 30-day trend down: ~+0.006%/8h in late June/early July → +0.0025% on August 21; very low positive funding indicates balanced long/short sentiment, not overleveraged bullishness — supportive for continued BTC accumulation; CoinGlass egress blocked, direct verification advised."
     },
     {
       "tier": 3,
       "name": "Stablecoin Dominance",
-      "value": "12.6%",
+      "value": "12.5%",
       "trend": "down",
       "status": "supportive",
-      "note": "Stablecoin market cap ~$308B (Aug 13 data; USDT ~$183.4B + USDC + others; price-stable so approximately unchanged intraday) vs. total crypto market cap $2.45T on August 20 (surged from $2.21T on August 19 as BTC +8.1%, ETH +18%, altcoins rallied broadly); stablecoin dominance ~12.6% ($308B / $2,450B), down from 14.0% on August 19 and 14.3% in mid-July; 30-day trend down: ~14.3% (mid-July) → 12.6% (August 20) = -1.7pp compression as capital rotated from stablecoins into risk assets; BTC dominance fell from 58.94% to 56.8% as alts outperformed; status supportive (30-day falling trend confirmed; headwind condition — dominance RISING while TOTAL rises — is the opposite of what is occurring; capital rotation into risk assets accelerating)."
+      "note": "Stablecoin market cap ~$308B (August 13 data; USDT ~59% + USDC ~23% of supply) vs. total crypto market cap ~$2.46T on August 21 (BTC at ~$69,581 with BTC dominance at 56.2%, implying BTC market cap ~$1.39T); stablecoin dominance ~12.5% ($308B / $2,460B), down from 12.6% on August 20 and from 14.3% in mid-July; 30-day trend down: ~14.3% (mid-July) → 12.5% (August 21) = -1.8pp compression as capital rotated from stablecoins into risk assets; status supportive (30-day falling trend confirmed; headwind condition — dominance rising while TOTAL rises — is the opposite of current dynamics)."
     }
   ],
   "upcoming": [
-    {
-      "date": "2026-08-21",
-      "title": "S&P Global Flash PMI (August 2026)",
-      "category": "PMI",
-      "importance": "medium",
-      "note": "S&P Global Flash PMI preliminary estimates for August 2026 at 9:45 AM ET — first composite activity read for August; July 2026: Manufacturing 53.8, Services 53.6; the August read is the first broad activity gauge following the NFP shock (−23,000), hot core CPI (3.1%), FOMC Minutes (August 19), and Philly Fed (August 20); with BTC surging 8.1% on August 20 and TOTAL crypto at $2.45T, a stable-to-improving Flash PMI would underpin the BTC Accumulation thesis heading into the PCE/Jackson Hole cluster."
-    },
     {
       "date": "2026-08-25",
       "title": "Consumer Confidence (August 2026)",
       "category": "Growth",
       "importance": "medium",
-      "note": "Conference Board Consumer Confidence Index for August 2026 at 10:00 AM ET — released the day before the PCE/GDP cluster; incorporates July NFP shock (−23,000), hot core CPI (3.1%), FOMC Minutes tone (August 19), Flash PMI (August 21), and the broad crypto rally (BTC +8% to $69,581 on August 20); a sharp deterioration in confidence would raise Q3 recession risk and bolster the case for September rate cuts; DXY at 99.46 and 2s10s at +45bps already reflect markets tilting toward a hold."
+      "note": "Conference Board Consumer Confidence Index for August 2026 at 10:00 AM ET — released the day before the PCE/GDP cluster; incorporates July NFP shock (−23K), hot core CPI (3.1%), FOMC Minutes (August 19), Flash PMI (August 21), and the broad crypto rally (BTC +8% to ~$69,581 on August 20; DXY fell below 99 on August 21); a sharp deterioration in confidence would raise Q3 recession risk and bolster the case for September rate cuts."
     },
     {
       "date": "2026-08-26",
       "title": "PCE Price Index (July 2026)",
       "category": "Inflation",
       "importance": "high",
-      "note": "BEA Personal Income and Outlays at 8:30 AM ET — July PCE Price Index (Fed's preferred inflation gauge), Personal Income, Personal Spending, and Durable Goods Orders; arrives one day before Jackson Hole opens (August 27); hot core CPI (3.1% YoY, August 12) implies core PCE potentially 2.7–2.8% YoY; a reading above 2.8% strongly supports a September hike; a soft print (<2.5%) preserves the rate-cut path, reinforces BTC Accumulation, and would likely push DXY below 97.5 from its current 99.46 neutral level — this is the single most important data print ahead of Jackson Hole."
+      "note": "BEA Personal Income and Outlays at 8:30 AM ET — July PCE Price Index (Fed's preferred inflation gauge), Personal Income, and Personal Spending; arrives one day before Jackson Hole opens; hot core CPI (3.1% YoY, August 12) implies core PCE potentially 2.7–2.8% YoY; a reading above 2.8% strongly supports a September hike; a soft print (<2.5%) preserves the rate-cut path, reinforces BTC Accumulation, and could push DXY below 97.5 from current 98.86 — the single most important data print ahead of Jackson Hole."
     },
     {
       "date": "2026-08-26",
       "title": "GDP 2nd Estimate (Q2 2026)",
       "category": "Growth",
       "importance": "medium",
-      "note": "BEA releases the second estimate of Q2 2026 GDP at 8:30 AM ET alongside July PCE, one day before Jackson Hole opens; July NFP shock (−23,000) and hot core CPI (3.1%) have raised Q3 recession risk concerns; significant downward revisions alongside soft labor and hot inflation would shift the stagflation narrative from tail risk to baseline, directly setting the tone for Warsh's keynote the following morning."
+      "note": "BEA releases the second estimate of Q2 2026 GDP at 8:30 AM ET alongside July PCE, one day before Jackson Hole opens; July NFP shock (−23K) and hot core CPI (3.1%) have raised Q3 recession concerns; significant downward revisions alongside soft labor and hot inflation would reinforce the stagflation narrative and set the tone for Warsh's keynote the following morning."
     },
     {
       "date": "2026-08-27",
       "title": "Jackson Hole Economic Symposium Opens (August 27–29)",
       "category": "Fed",
       "importance": "high",
-      "note": "Kansas City Fed annual Jackson Hole Economic Policy Symposium begins at Jackson Lake Lodge, Wyoming — runs August 27–29; theme: 'Financial Innovation: Implications for Payments and Policy'; by the time proceedings open, markets will have processed PCE (August 26), GDP Q2 2nd estimate (August 26), Consumer Confidence (August 25), and Flash PMI (August 21); Warsh delivers his inaugural Jackson Hole keynote Friday morning August 28; FOMC September 15–16 decision is the next binding commitment after Jackson Hole."
+      "note": "Kansas City Fed annual Jackson Hole Economic Policy Symposium begins at Jackson Lake Lodge, Wyoming — runs August 27–29; theme: 'Financial Innovation: Implications for Payments and Policy'; by the time proceedings open, markets will have processed PCE (August 26), GDP Q2 2nd estimate (August 26), Consumer Confidence (August 25), and Flash PMI (August 21); Warsh delivers his inaugural Jackson Hole keynote Friday morning August 28; FOMC September 15–16 is the next binding commitment."
     },
     {
       "date": "2026-08-27",
@@ -216,14 +209,28 @@
       "category": "Labor",
       "importance": "low",
       "note": "DOL weekly initial jobless claims at 8:30 AM ET for week ending August 22, 2026 — released the opening morning of Jackson Hole; a sustained rise in claims arriving as Jackson Hole opens would immediately shape the tone for Fed Chair Warsh's inaugural keynote the next morning (August 28)."
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Fed Chair Warsh Inaugural Jackson Hole Keynote",
+      "category": "Fed",
+      "importance": "high",
+      "note": "Kevin Warsh delivers his inaugural Jackson Hole address Friday morning August 28 — the single most important macro event of this cycle for the crypto risk framework; by August 28 all macro inputs will be in hand (PCE August 26, GDP 2nd estimate August 26, Consumer Confidence August 25, Flash PMI August 21); a hawkish tone signaling September hike despite soft growth would sharply pressure risk assets; a neutral or dovish tone alongside soft PCE data would be the macro green light to extend the BTC rally (~$69,581) and could push DXY below 97.5; September 15–16 FOMC is the next binding commitment."
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Chicago PMI (August 2026)",
+      "category": "PMI",
+      "importance": "low",
+      "note": "Chicago Business Barometer for August 2026 at 9:45 AM ET — released on the same morning as Warsh's Jackson Hole keynote; additional regional manufacturing cross-check against July ISM surge (55.6%) and Flash PMI (August 21); a reading above 50 would add a constructive macro backdrop to any risk-positive tone from Warsh's address."
     }
   ],
   "sources": {
     "crypto": "CoinGecko",
     "tradfi": "FRED + Stooq",
     "marketsEndpoint": "markets",
-    "indicators": "2026-08-20",
-    "calendar": "2026-08-20"
+    "indicators": "2026-08-21",
+    "calendar": "2026-08-21"
   },
   "degraded": {
     "markets": false,
@@ -233,5 +240,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-08-20T20:02:44Z"
+  "cachedAtISO": "2026-08-21T07:28:48Z"
 }
