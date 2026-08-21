@@ -1,6 +1,6 @@
 {
-  "ts": "2026-08-21T07:13:23Z",
+  "ts": "2026-08-21T15:10:25Z",
   "title": "MacroPulse Alert",
-  "priority": "default",
-  "message": "ETH +5% (24h) — rally continues into Friday; 12h dedup lapsed after yesterday's squeeze\nBTC $75,740 in Asia session (+4.2% 24h) — up ~20% this week, biggest gain since Mar 2024\n$4B bearish crypto shorts liquidated over 2 sessions; another $1B wiped overnight\nNote: macropulse.uk API unreachable this run — thresholds estimated from web data"
+  "priority": "high",
+  "message": "Philly Fed Mfg (Aug): 47.4 vs 25.0 exp / 41.4 prior — 5-year high, major beat\nBTC +8.4% (24h) → ~$79,000, testing $80K; spot ETF $606M inflow Aug 20, biggest since May 1\nETH/BTC -4.7% (24h) → 0.0300 — BTC dominating, dominance rising\nBTC+ETH spot ETFs: combined ~$800M inflow today, 4-day streak continues"
 }
