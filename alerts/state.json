@@ -1,13 +1,14 @@
 {
-  "lastRunISO": "2026-08-21T15:10:25Z",
+  "lastRunISO": "2026-08-21T20:10:00Z",
   "priceAlerts": {
     "btc": { "pct": 8.4, "dir": "up", "ISO": "2026-08-21T15:10:25Z", "value": 79000 },
     "eth": { "pct": 5.0, "dir": "up", "ISO": "2026-08-21T07:13:23Z", "value": 2380 },
     "ethbtc": { "pct": 4.7, "dir": "down", "ISO": "2026-08-21T15:10:25Z", "value": 0.03001 },
+    "btcd": { "pct": 3.33, "dir": "up", "ISO": "2026-08-21T20:10:00Z", "value": 59.27 },
     "total": { "pct": 4.1, "dir": "up", "ISO": "2026-08-21T07:13:23Z", "value": 2560000000000 },
     "total2": { "pct": 4.31, "dir": "up", "ISO": "2026-08-20T07:15:03Z", "value": 1037660064386 },
     "dxy": { "pct": 0.856, "dir": "down", "ISO": "2026-08-20T07:15:03Z", "value": 98.793 },
-    "gold": { "pct": 4.06, "dir": "up", "ISO": "2026-08-20T07:15:03Z", "value": 4510.85 }
+    "gold": { "pct": 2.23, "dir": "up", "ISO": "2026-08-21T20:10:00Z", "value": 4619.38 }
   },
   "releases": {
     "UK-CPI-Jul-2026": "2026-08-19T20:10:17Z",
@@ -49,6 +50,9 @@
     "trump-clarity-act-bitcoin-70k-aug20": "2026-08-20T20:08:43Z",
     "btc-75k-weekly-20pct-asia-aug21": "2026-08-21T07:13:23Z",
     "btc-etf-606m-biggest-since-may1-aug20": "2026-08-21T15:10:25Z",
-    "btc-79k-80k-test-etf-surge-aug21": "2026-08-21T15:10:25Z"
+    "btc-79k-80k-test-etf-surge-aug21": "2026-08-21T15:10:25Z",
+    "walmart-q2-miss-comp-sales-aug20": "2026-08-21T20:10:00Z",
+    "us-10yr-4pt71pct-rising-aug21": "2026-08-21T20:10:00Z",
+    "nvidia-pce-jacksonhole-week-ahead-aug26-28": "2026-08-21T20:10:00Z"
   }
 }

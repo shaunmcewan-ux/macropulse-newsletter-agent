@@ -1,6 +1,6 @@
 {
-  "ts": "2026-08-21T15:10:25Z",
+  "ts": "2026-08-21T20:10:00Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "Philly Fed Mfg (Aug): 47.4 vs 25.0 exp / 41.4 prior — 5-year high, major beat\nBTC +8.4% (24h) → ~$79,000, testing $80K; spot ETF $606M inflow Aug 20, biggest since May 1\nETH/BTC -4.7% (24h) → 0.0300 — BTC dominating, dominance rising\nBTC+ETH spot ETFs: combined ~$800M inflow today, 4-day streak continues"
+  "priority": "default",
+  "message": "BTC Dominance +3.3% (24h) → 59.3% — alts underperforming as BTC holds $77,112; cycle reads BTC Accumulation.\nGold +2.2% (24h) → $4,619 — rising as US 10yr yield rebounds to 4.71% (Treasury long-end buyback doubled).\nWalmart −9% (Aug 20): US comp sales +2.6% vs +3.8% exp — consumer bellwether miss, $83B market cap lost.\nWeek-ahead watch: PCE Aug 26 + Warsh inaugural Jackson Hole keynote Aug 28 — highest-volatility window of August."
 }
