@@ -1,16 +1,15 @@
 {
-  "lastRunISO": "2026-08-20T20:08:43Z",
+  "lastRunISO": "2026-08-21T07:13:23Z",
   "priceAlerts": {
     "btc": { "pct": 7.0, "dir": "up", "ISO": "2026-08-20T20:08:43Z", "value": 72384 },
-    "eth": { "pct": 18.5, "dir": "up", "ISO": "2026-08-20T15:10:42Z", "value": 2266.79 },
+    "eth": { "pct": 5.0, "dir": "up", "ISO": "2026-08-21T07:13:23Z", "value": 2380 },
     "ethbtc": { "pct": 3.91, "dir": "up", "ISO": "2026-08-20T07:15:03Z", "value": 0.03073 },
-    "total": { "pct": 5.25, "dir": "up", "ISO": "2026-08-20T07:15:03Z", "value": 2411049551660 },
+    "total": { "pct": 4.1, "dir": "up", "ISO": "2026-08-21T07:13:23Z", "value": 2560000000000 },
     "total2": { "pct": 4.31, "dir": "up", "ISO": "2026-08-20T07:15:03Z", "value": 1037660064386 },
     "dxy": { "pct": 0.856, "dir": "down", "ISO": "2026-08-20T07:15:03Z", "value": 98.793 },
     "gold": { "pct": 4.06, "dir": "up", "ISO": "2026-08-20T07:15:03Z", "value": 4510.85 }
   },
   "releases": {
-    "Retail-Sales-Jul-2026": "2026-08-14T15:18:35Z",
     "UK-CPI-Jul-2026": "2026-08-19T20:10:17Z",
     "Claims-Aug15-2026": "2026-08-20T15:10:42Z"
   },
@@ -46,6 +45,7 @@
     "jackson-hole-aug2729-warsh-aug28": "2026-08-20T07:15:03Z",
     "eth-short-squeeze-1pt9b-aug20": "2026-08-20T15:10:42Z",
     "eth-spot-etf-189m-inflow-aug19": "2026-08-20T15:10:42Z",
-    "trump-clarity-act-bitcoin-70k-aug20": "2026-08-20T20:08:43Z"
+    "trump-clarity-act-bitcoin-70k-aug20": "2026-08-20T20:08:43Z",
+    "btc-75k-weekly-20pct-asia-aug21": "2026-08-21T07:13:23Z"
   }
 }

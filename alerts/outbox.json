@@ -1,6 +1,6 @@
 {
-  "ts": "2026-08-20T20:08:43Z",
+  "ts": "2026-08-21T07:13:23Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "BTC +7% (24h) → $72,384 — breaks $70K for 1st time since June\nTrump White House crypto summit: urged Congress to pass Clarity Act (House-passed, stalled in Senate)\nJackson Hole Aug 27-29: Chair Warsh keynote is next key macro event"
+  "priority": "default",
+  "message": "ETH +5% (24h) — rally continues into Friday; 12h dedup lapsed after yesterday's squeeze\nBTC $75,740 in Asia session (+4.2% 24h) — up ~20% this week, biggest gain since Mar 2024\n$4B bearish crypto shorts liquidated over 2 sessions; another $1B wiped overnight\nNote: macropulse.uk API unreachable this run — thresholds estimated from web data"
 }
