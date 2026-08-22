@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-21T20:10:00Z",
+  "lastRunISO": "2026-08-22T07:08:30Z",
   "priceAlerts": {
     "btc": { "pct": 8.4, "dir": "up", "ISO": "2026-08-21T15:10:25Z", "value": 79000 },
     "eth": { "pct": 5.0, "dir": "up", "ISO": "2026-08-21T07:13:23Z", "value": 2380 },
@@ -13,7 +13,8 @@
   "releases": {
     "UK-CPI-Jul-2026": "2026-08-19T20:10:17Z",
     "Claims-Aug15-2026": "2026-08-20T15:10:42Z",
-    "philly-fed-aug-2026": "2026-08-21T15:10:25Z"
+    "philly-fed-aug-2026": "2026-08-21T15:10:25Z",
+    "flash-pmi-aug-2026": "2026-08-22T07:08:30Z"
   },
   "news": {
     "sec-reg-crypto-cftc-shift-aug14": "2026-08-14T20:13:00Z",
@@ -53,6 +54,8 @@
     "btc-79k-80k-test-etf-surge-aug21": "2026-08-21T15:10:25Z",
     "walmart-q2-miss-comp-sales-aug20": "2026-08-21T20:10:00Z",
     "us-10yr-4pt71pct-rising-aug21": "2026-08-21T20:10:00Z",
-    "nvidia-pce-jacksonhole-week-ahead-aug26-28": "2026-08-21T20:10:00Z"
+    "nvidia-pce-jacksonhole-week-ahead-aug26-28": "2026-08-21T20:10:00Z",
+    "btc-80k-test-rejected-77k-aug22": "2026-08-22T07:08:30Z",
+    "btc-eth-etf-800m-aug21-day2": "2026-08-22T07:08:30Z"
   }
 }
