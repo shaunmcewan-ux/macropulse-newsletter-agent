@@ -1,14 +1,14 @@
 {
-  "lastRunISO": "2026-08-22T07:08:30Z",
+  "lastRunISO": "2026-08-22T15:09:37Z",
   "priceAlerts": {
-    "btc": { "pct": 8.4, "dir": "up", "ISO": "2026-08-21T15:10:25Z", "value": 79000 },
-    "eth": { "pct": 5.0, "dir": "up", "ISO": "2026-08-21T07:13:23Z", "value": 2380 },
+    "btc": { "pct": 6.52, "dir": "up", "ISO": "2026-08-22T15:09:37Z", "value": 77416 },
+    "eth": { "pct": 7.58, "dir": "up", "ISO": "2026-08-22T15:09:37Z", "value": 2527.24 },
     "ethbtc": { "pct": 4.7, "dir": "down", "ISO": "2026-08-21T15:10:25Z", "value": 0.03001 },
-    "btcd": { "pct": 3.33, "dir": "up", "ISO": "2026-08-21T20:10:00Z", "value": 59.27 },
-    "total": { "pct": 4.1, "dir": "up", "ISO": "2026-08-21T07:13:23Z", "value": 2560000000000 },
+    "btcd": { "pct": 3.64, "dir": "down", "ISO": "2026-08-22T15:09:37Z", "value": 57.11 },
+    "total": { "pct": 5.83, "dir": "up", "ISO": "2026-08-22T15:09:37Z", "value": 2760000000000 },
     "total2": { "pct": 4.31, "dir": "up", "ISO": "2026-08-20T07:15:03Z", "value": 1037660064386 },
     "dxy": { "pct": 0.856, "dir": "down", "ISO": "2026-08-20T07:15:03Z", "value": 98.793 },
-    "gold": { "pct": 2.23, "dir": "up", "ISO": "2026-08-21T20:10:00Z", "value": 4619.38 }
+    "gold": { "pct": 1.97, "dir": "up", "ISO": "2026-08-22T15:09:37Z", "value": 4661.60 }
   },
   "releases": {
     "UK-CPI-Jul-2026": "2026-08-19T20:10:17Z",
@@ -17,10 +17,6 @@
     "flash-pmi-aug-2026": "2026-08-22T07:08:30Z"
   },
   "news": {
-    "sec-reg-crypto-cftc-shift-aug14": "2026-08-14T20:13:00Z",
-    "boj-sep-hike-signal-aug14": "2026-08-14T20:13:00Z",
-    "btc-etf-131m-outflow-aug13": "2026-08-14T20:13:00Z",
-    "hormuz-uae-tanker-drones-aug14": "2026-08-14T20:13:00Z",
     "binance-htx-11-exchanges-aug23": "2026-08-15T15:11:29Z",
     "msci-strategy-metaplanet-index-review-aug14": "2026-08-15T20:09:14Z",
     "cboe-3x-leveraged-btceth-etf-sec-aug14": "2026-08-15T20:09:14Z",
@@ -56,6 +52,7 @@
     "us-10yr-4pt71pct-rising-aug21": "2026-08-21T20:10:00Z",
     "nvidia-pce-jacksonhole-week-ahead-aug26-28": "2026-08-21T20:10:00Z",
     "btc-80k-test-rejected-77k-aug22": "2026-08-22T07:08:30Z",
-    "btc-eth-etf-800m-aug21-day2": "2026-08-22T07:08:30Z"
+    "btc-eth-etf-800m-aug21-day2": "2026-08-22T07:08:30Z",
+    "btcD-xrp-altcoin-rotation-aug22": "2026-08-22T15:09:37Z"
   }
 }

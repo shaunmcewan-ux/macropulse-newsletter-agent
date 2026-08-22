@@ -1,6 +1,6 @@
 {
-  "ts": "2026-08-22T07:08:30Z",
+  "ts": "2026-08-22T15:09:37Z",
   "title": "MacroPulse Alert",
-  "priority": "default",
-  "message": "Flash PMI Aug: Composite 56.0 (4yr high); Services 56.8 vs 54.0 est (big beat); Mfg 53.2 vs 53.9 est\nBTC $80K test rejected overnight — slipped to $77,116 (+6.5% 24h); thin weekend liquidity ahead of Jackson Hole\nBTC+ETH ETFs: ~$800M inflows Aug 21 (BTC $307.5M, IBIT $239.3M) — 2nd consecutive strong inflow day"
+  "priority": "high",
+  "message": "BTC +6.52% (24h) → $77,416 | pulled back from $79,320 high; $80k test rejected\nETH +7.58% (24h) → $2,527 | ETH outpacing BTC as altcoin rotation gathers pace\nBTC.D -3.6% (24h) → 57.1% | dominance declining; XRP +14.6% signals broadening rally\nTOTAL +5.83% (24h) → $2.76T | broad market surge continues\nGold +1.97% (24h) → $4,662 | third consecutive weekly gain ahead of Jackson Hole"
 }
