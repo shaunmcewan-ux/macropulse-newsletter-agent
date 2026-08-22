@@ -1,6 +1,6 @@
 {
-  "ts": "2026-08-22T15:09:37Z",
+  "ts": "2026-08-22T20:07:38Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "BTC +6.52% (24h) → $77,416 | pulled back from $79,320 high; $80k test rejected\nETH +7.58% (24h) → $2,527 | ETH outpacing BTC as altcoin rotation gathers pace\nBTC.D -3.6% (24h) → 57.1% | dominance declining; XRP +14.6% signals broadening rally\nTOTAL +5.83% (24h) → $2.76T | broad market surge continues\nGold +1.97% (24h) → $4,662 | third consecutive weekly gain ahead of Jackson Hole"
+  "priority": "default",
+  "message": ""
 }
