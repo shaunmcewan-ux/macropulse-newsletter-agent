@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-23T07:07:41Z",
+  "lastRunISO": "2026-08-23T15:07:49Z",
   "priceAlerts": {
     "btc": { "pct": 6.52, "dir": "up", "ISO": "2026-08-22T15:09:37Z", "value": 77416 },
     "eth": { "pct": 7.58, "dir": "up", "ISO": "2026-08-22T15:09:37Z", "value": 2527.24 },
@@ -17,9 +17,6 @@
     "flash-pmi-aug-2026": "2026-08-22T07:08:30Z"
   },
   "news": {
-    "binance-htx-11-exchanges-aug23": "2026-08-15T15:11:29Z",
-    "msci-strategy-metaplanet-index-review-aug14": "2026-08-15T20:09:14Z",
-    "cboe-3x-leveraged-btceth-etf-sec-aug14": "2026-08-15T20:09:14Z",
     "ukraine-600drone-moscow-aug16": "2026-08-16T15:08:34Z",
     "ms-jpmorgan-q2-crypto-etf-buying-aug16": "2026-08-16T15:08:34Z",
     "hashdex-defi-btc-etf-closure-aug17": "2026-08-17T07:18:56Z",
