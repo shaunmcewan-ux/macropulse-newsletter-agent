@@ -1,7 +1,7 @@
 {
-  "lastRunISO": "2026-08-24T20:13:28Z",
+  "lastRunISO": "2026-08-25T07:11:48Z",
   "priceAlerts": {
-    "btc": { "pct": 6.52, "dir": "up", "ISO": "2026-08-22T15:09:37Z", "value": 77416 },
+    "btc": { "pct": 3.18, "dir": "up", "ISO": "2026-08-25T07:11:48Z", "value": 80227 },
     "eth": { "pct": 7.58, "dir": "up", "ISO": "2026-08-22T15:09:37Z", "value": 2527.24 },
     "ethbtc": { "pct": 4.7, "dir": "down", "ISO": "2026-08-21T15:10:25Z", "value": 0.03001 },
     "btcd": { "pct": 3.64, "dir": "down", "ISO": "2026-08-22T15:09:37Z", "value": 57.11 },
@@ -17,13 +17,6 @@
     "flash-pmi-aug-2026": "2026-08-22T07:08:30Z"
   },
   "news": {
-    "hashdex-defi-btc-etf-closure-aug17": "2026-08-17T07:18:56Z",
-    "btc-etf-389m-weekly-outflow-aug10-wk": "2026-08-17T07:18:56Z",
-    "tether-kpmg-full-audit-68b-surplus-aug13": "2026-08-17T15:07:37Z",
-    "whitehouse-crypto-summit-trump-coinbase-ripple-aug19": "2026-08-17T15:07:37Z",
-    "fomc-minutes-jul2829-due-aug19-2pm-et": "2026-08-17T15:07:37Z",
-    "mica-eu-1700-platforms-halted-aug16": "2026-08-17T20:09:48Z",
-    "wyoming-blockchain-symposium-aug17-20-kraken-salt": "2026-08-17T20:09:48Z",
     "eth-etf-285b-weekly-record-aug18": "2026-08-18T15:13:23Z",
     "iran-ceasefire-expired-trump-rejected-aug18": "2026-08-18T15:13:23Z",
     "genius-act-stablecoin-nprm-aug18": "2026-08-18T15:13:23Z",
@@ -48,6 +41,7 @@
     "nvidia-pce-jacksonhole-week-ahead-aug26-28": "2026-08-21T20:10:00Z",
     "btc-80k-test-rejected-77k-aug22": "2026-08-22T07:08:30Z",
     "btc-eth-etf-800m-aug21-day2": "2026-08-22T07:08:30Z",
-    "btcD-xrp-altcoin-rotation-aug22": "2026-08-22T15:09:37Z"
+    "btcD-xrp-altcoin-rotation-aug22": "2026-08-22T15:09:37Z",
+    "btc-80k-breakout-since-may15-aug25": "2026-08-25T07:11:48Z"
   }
 }
