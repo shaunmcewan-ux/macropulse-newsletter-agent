@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T07:30:35.643Z",
+  "generatedAt": "2026-08-25T15:27:04.906Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "Accumulation conditions intact as of August 25: BTC at ~$78,944, BTC.D at 58.8% (firm above 55%), funding rates near zero; Consumer Confidence released below consensus today; PCE and GDP 2nd estimate tomorrow (August 26) are the critical next macro gate ahead of Jackson Hole (August 27–29) and Warsh's inaugural keynote (August 28); 2s10s spread at +47bps with 4-week steepening trend intact; DXY at 98.96 (neutral band, 4-week down); real yields unchanged at 2.35% (headwind above 2%); global liquidity expanding — the PCE/Jackson Hole/NFP trifecta and FOMC September 15–16 are the structural decision points ahead.",
@@ -14,66 +14,66 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 80649,
+      "value": 79133,
       "format": "usd",
-      "change24h": 3.95968,
-      "change30d": 25
+      "change24h": -0.79844,
+      "change30d": 22.8
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 2504.29,
+      "value": 2470.45,
       "format": "usd",
-      "change24h": 1.74659,
-      "change30d": 32.6
+      "change24h": -2.0745,
+      "change30d": 31.3
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.03105933,
+      "value": 0.03119156,
       "format": "ratio",
-      "change24h": -2.0898653708798296,
-      "change30d": 6.259272516108975
+      "change24h": -1.5517188814755252,
+      "change30d": 4.899716207273062
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 59.34211913564371,
+      "value": 59.23780577435307,
       "format": "percent",
-      "change24h": 3.555714258974918,
-      "change30d": 1.7931589256989404
+      "change24h": 2.592065083299988,
+      "change30d": 1.598150143892471
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2721650773010.602,
+      "value": 2680446182551.056,
       "format": "usd-compact",
-      "change24h": 1.2795679605968722,
-      "change30d": 23.2048579733053
+      "change24h": -3.14084240402381,
+      "change30d": 21.10647256703606
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1106565528834.4827,
+      "value": 1092608679045.4001,
       "format": "usd-compact",
-      "change24h": -3.5806430226119774,
-      "change30d": 19.906671133493614
+      "change24h": -6.576547396617566,
+      "change30d": 18.27145471513953
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 805052637833.8016,
+      "value": 794400912596.969,
       "format": "usd-compact",
-      "change24h": -5.748214837877266,
-      "change30d": 15.33054563972197
+      "change24h": -8.455126440470934,
+      "change30d": 13.625100382065817
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 99.061,
+      "value": 98.96,
       "format": "index",
-      "change24h": 0.07880141034319323,
-      "change30d": -2.3490792949804775
+      "change24h": -0.02323631330633578,
+      "change30d": -2.4486416150782784
     },
     {
       "id": "us500",
@@ -86,10 +86,10 @@
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10876.15,
+      "value": 10880.86,
       "format": "index",
-      "change24h": 0.20102576575430922,
-      "change30d": 2.230408145233597
+      "change24h": 0.24441858686810383,
+      "change30d": 2.274679805919055
     },
     {
       "id": "oil",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 4636.47,
+      "value": 4639.455,
       "format": "usd",
-      "change24h": -0.3300426520957497,
-      "change30d": 14.500219913955734
+      "change24h": -0.26587426047810486,
+      "change30d": 14.573936158521777
     }
   ],
   "indicators": [
@@ -240,5 +240,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-08-25T07:30:35Z"
+  "cachedAtISO": "2026-08-25T15:27:04Z"
 }
