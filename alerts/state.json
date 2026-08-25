@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-25T07:11:48Z",
+  "lastRunISO": "2026-08-25T15:10:32Z",
   "priceAlerts": {
     "btc": { "pct": 3.18, "dir": "up", "ISO": "2026-08-25T07:11:48Z", "value": 80227 },
     "eth": { "pct": 7.58, "dir": "up", "ISO": "2026-08-22T15:09:37Z", "value": 2527.24 },
@@ -14,7 +14,8 @@
     "UK-CPI-Jul-2026": "2026-08-19T20:10:17Z",
     "Claims-Aug15-2026": "2026-08-20T15:10:42Z",
     "philly-fed-aug-2026": "2026-08-21T15:10:25Z",
-    "flash-pmi-aug-2026": "2026-08-22T07:08:30Z"
+    "flash-pmi-aug-2026": "2026-08-22T07:08:30Z",
+    "consumer-confidence-aug-2026": "2026-08-25T15:10:32Z"
   },
   "news": {
     "eth-etf-285b-weekly-record-aug18": "2026-08-18T15:13:23Z",
@@ -42,6 +43,9 @@
     "btc-80k-test-rejected-77k-aug22": "2026-08-22T07:08:30Z",
     "btc-eth-etf-800m-aug21-day2": "2026-08-22T07:08:30Z",
     "btcD-xrp-altcoin-rotation-aug22": "2026-08-22T15:09:37Z",
-    "btc-80k-breakout-since-may15-aug25": "2026-08-25T07:11:48Z"
+    "btc-80k-breakout-since-may15-aug25": "2026-08-25T07:11:48Z",
+    "canada-50pct-tariffs-collapsed-talks-aug23": "2026-08-25T15:10:32Z",
+    "iran-bessent-sweeping-sanctions-aug24": "2026-08-25T15:10:32Z",
+    "btc-81k-50wma-rejection-7th-etf-inflow-day-aug25": "2026-08-25T15:10:32Z"
   }
 }
