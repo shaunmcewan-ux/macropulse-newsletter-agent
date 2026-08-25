@@ -1,7 +1,7 @@
 {
-  "lastRunISO": "2026-08-25T15:10:32Z",
+  "lastRunISO": "2026-08-25T20:07:04Z",
   "priceAlerts": {
-    "btc": { "pct": 3.18, "dir": "up", "ISO": "2026-08-25T07:11:48Z", "value": 80227 },
+    "btc": { "pct": 4.97, "dir": "up", "ISO": "2026-08-25T20:07:04Z", "value": 79500 },
     "eth": { "pct": 7.58, "dir": "up", "ISO": "2026-08-22T15:09:37Z", "value": 2527.24 },
     "ethbtc": { "pct": 4.7, "dir": "down", "ISO": "2026-08-21T15:10:25Z", "value": 0.03001 },
     "btcd": { "pct": 3.64, "dir": "down", "ISO": "2026-08-22T15:09:37Z", "value": 57.11 },
@@ -18,10 +18,6 @@
     "consumer-confidence-aug-2026": "2026-08-25T15:10:32Z"
   },
   "news": {
-    "eth-etf-285b-weekly-record-aug18": "2026-08-18T15:13:23Z",
-    "iran-ceasefire-expired-trump-rejected-aug18": "2026-08-18T15:13:23Z",
-    "genius-act-stablecoin-nprm-aug18": "2026-08-18T15:13:23Z",
-    "sept-hike-odds-33pct-fomc-minutes-eve-aug18": "2026-08-18T15:13:23Z",
     "btc-etf-137m-inflow-aug17-reversal": "2026-08-18T20:08:58Z",
     "dxy-below-100-2month-low-weak-us-data-aug18": "2026-08-18T20:08:58Z",
     "brent-91-july-high-iran-kushner-no-deal-aug18": "2026-08-18T20:08:58Z",
