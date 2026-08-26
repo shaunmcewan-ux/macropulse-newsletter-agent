@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-26T15:12:21Z",
+  "lastRunISO": "2026-08-26T20:09:07Z",
   "priceAlerts": {
     "btc": { "pct": 4.97, "dir": "up", "ISO": "2026-08-25T20:07:04Z", "value": 79500 },
     "eth": { "pct": 7.58, "dir": "up", "ISO": "2026-08-22T15:09:37Z", "value": 2527.24 },
@@ -45,6 +45,7 @@
     "iran-bessent-sweeping-sanctions-aug24": "2026-08-25T15:10:32Z",
     "btc-81k-50wma-rejection-7th-etf-inflow-day-aug25": "2026-08-25T15:10:32Z",
     "pce-jul26-core-3pt3pct-headline-3pt7pct-spending-soft": "2026-08-26T15:12:21Z",
-    "nvidia-q2-earnings-aug26-2026-after-close": "2026-08-26T15:12:21Z"
+    "nvidia-q2-earnings-aug26-2026-after-close": "2026-08-26T15:12:21Z",
+    "nvidia-q2-fy27-beat-eps5pt7pct-rev3pct-nvda-plus4pct-ah": "2026-08-26T20:09:07Z"
   }
 }
