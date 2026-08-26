@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-26T07:14:47Z",
+  "lastRunISO": "2026-08-26T15:12:21Z",
   "priceAlerts": {
     "btc": { "pct": 4.97, "dir": "up", "ISO": "2026-08-25T20:07:04Z", "value": 79500 },
     "eth": { "pct": 7.58, "dir": "up", "ISO": "2026-08-22T15:09:37Z", "value": 2527.24 },
@@ -15,7 +15,8 @@
     "Claims-Aug15-2026": "2026-08-20T15:10:42Z",
     "philly-fed-aug-2026": "2026-08-21T15:10:25Z",
     "flash-pmi-aug-2026": "2026-08-22T07:08:30Z",
-    "consumer-confidence-aug-2026": "2026-08-25T15:10:32Z"
+    "consumer-confidence-aug-2026": "2026-08-25T15:10:32Z",
+    "PCE-Jul-2026": "2026-08-26T15:12:21Z"
   },
   "news": {
     "btc-etf-137m-inflow-aug17-reversal": "2026-08-18T20:08:58Z",
@@ -42,6 +43,8 @@
     "btc-80k-breakout-since-may15-aug25": "2026-08-25T07:11:48Z",
     "canada-50pct-tariffs-collapsed-talks-aug23": "2026-08-25T15:10:32Z",
     "iran-bessent-sweeping-sanctions-aug24": "2026-08-25T15:10:32Z",
-    "btc-81k-50wma-rejection-7th-etf-inflow-day-aug25": "2026-08-25T15:10:32Z"
+    "btc-81k-50wma-rejection-7th-etf-inflow-day-aug25": "2026-08-25T15:10:32Z",
+    "pce-jul26-core-3pt3pct-headline-3pt7pct-spending-soft": "2026-08-26T15:12:21Z",
+    "nvidia-q2-earnings-aug26-2026-after-close": "2026-08-26T15:12:21Z"
   }
 }
