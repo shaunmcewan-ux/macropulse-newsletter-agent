@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-27T07:10:26Z",
+  "lastRunISO": "2026-08-27T15:12:48Z",
   "priceAlerts": {
     "btc": { "pct": 4.97, "dir": "up", "ISO": "2026-08-25T20:07:04Z", "value": 79500 },
     "eth": { "pct": 7.58, "dir": "up", "ISO": "2026-08-22T15:09:37Z", "value": 2527.24 },
@@ -15,7 +15,8 @@
     "philly-fed-aug-2026": "2026-08-21T15:10:25Z",
     "flash-pmi-aug-2026": "2026-08-22T07:08:30Z",
     "consumer-confidence-aug-2026": "2026-08-25T15:10:32Z",
-    "PCE-Jul-2026": "2026-08-26T15:12:21Z"
+    "PCE-Jul-2026": "2026-08-26T15:12:21Z",
+    "Claims-Aug22-2026": "2026-08-27T15:12:48Z"
   },
   "news": {
     "us-treasury-buyback-longend-aug19": "2026-08-20T07:15:03Z",
@@ -38,6 +39,7 @@
     "btc-81k-50wma-rejection-7th-etf-inflow-day-aug25": "2026-08-25T15:10:32Z",
     "pce-jul26-core-3pt3pct-headline-3pt7pct-spending-soft": "2026-08-26T15:12:21Z",
     "nvidia-q2-earnings-aug26-2026-after-close": "2026-08-26T15:12:21Z",
-    "nvidia-q2-fy27-beat-eps5pt7pct-rev3pct-nvda-plus4pct-ah": "2026-08-26T20:09:07Z"
+    "nvidia-q2-fy27-beat-eps5pt7pct-rev3pct-nvda-plus4pct-ah": "2026-08-26T20:09:07Z",
+    "jackson-hole-day1-live-warsh-keynote-fri-aug28": "2026-08-27T15:12:48Z"
   }
 }
