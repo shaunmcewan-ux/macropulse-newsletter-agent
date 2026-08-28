@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T17:54:15.027Z",
+  "generatedAt": "2026-08-28T03:51:39.160Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "BTC Accumulation conditions intact on Jackson Hole Day 1 (Aug 27): BTC testing ~$80K with spot ETF inflows at a 10-month high ($1.92B weekly), BTC.D firm at ~59%, funding near zero—a textbook accumulation signature; macro backdrop broadly supportive with Global M2 expanding, ISM at a 4-year high (55.6%), curve steepening to +48bps, and DXY easing to 99.11 (neutral band); real yields at 2.35% remain the key headwind but are declining; Chair Warsh's inaugural Jackson Hole keynote tomorrow (Aug 28) is the decisive macro gate—a dovish-to-neutral tone alongside PCE softening toward 3% would be the green light for a sustained ATH assault, while a hawkish pivot would trigger rapid Risk Off repositioning.",
@@ -14,74 +14,74 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 80499,
+      "value": 79830,
       "format": "usd",
-      "change24h": 2.65995,
-      "change30d": 25.9
+      "change24h": 1.30448,
+      "change30d": 25.6
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 2520.44,
+      "value": 2491.5,
       "format": "usd",
-      "change24h": 2.49232,
-      "change30d": 31.6
+      "change24h": 0.08791,
+      "change30d": 30.9
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.03131328,
+      "value": 0.03120645,
       "format": "ratio",
-      "change24h": -0.14355014005519967,
-      "change30d": 5.986321594903698
+      "change24h": -1.1427161029876265,
+      "change30d": 3.9214723055196354
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 59.273324341962095,
+      "value": 59.26197250885995,
       "format": "percent",
-      "change24h": 2.0241141130816764,
-      "change30d": 1.8844038849398033
+      "change24h": 2.940996481428404,
+      "change30d": 1.8905855124937476
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2717255453800.743,
+      "value": 2697701035317.721,
       "format": "usd-compact",
-      "change24h": 0.617232398823241,
-      "change30d": 24.109319920012002
+      "change24h": -1.4724128707087647,
+      "change30d": 22.71421623429093
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1106647815469.7747,
+      "value": 1098990189396.503,
       "format": "usd-compact",
-      "change24h": -2.230097532091352,
-      "change30d": 20.72711050604187
+      "change24h": -5.426938064121164,
+      "change30d": 19.360930186308245
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 803789612785.0795,
+      "value": 799257102837.0125,
       "format": "usd-compact",
-      "change24h": -3.7629343011342757,
-      "change30d": 16.35275539118035
+      "change24h": -7.415386483482074,
+      "change30d": 15.690255181854482
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 99.157,
+      "value": 99.162,
       "format": "index",
-      "change24h": 0.024209899831540364,
-      "change30d": -2.3285822637680917
+      "change24h": 0.033289955512515255,
+      "change30d": -2.2302413629910083
     },
     {
       "id": "us500",
       "label": "S&P 500",
-      "value": 7675.7,
+      "value": 7730.99,
       "format": "index",
-      "change24h": -0.02058020548944323,
-      "change30d": 3.5412602958514365
+      "change24h": 0.7203251820680845,
+      "change30d": 4.068097318806049
     },
     {
       "id": "ftse",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 4608.24,
+      "value": 4579.61,
       "format": "usd",
-      "change24h": 0.302568008150897,
-      "change30d": 12.966329550335049
+      "change24h": -0.46885768290459917,
+      "change30d": 13.709068698044426
     }
   ],
   "indicators": [
@@ -176,13 +176,6 @@
   ],
   "upcoming": [
     {
-      "date": "2026-08-28",
-      "title": "Fed Chair Warsh Inaugural Jackson Hole Keynote",
-      "category": "Fed",
-      "importance": "high",
-      "note": "Kevin Warsh delivers his inaugural Jackson Hole address Friday morning August 28 at 10:00 AM ET—the single most important macro event of this cycle for the crypto risk framework; all key macro inputs now in hand (PCE Aug 26, GDP 2nd estimate Aug 26, Jobless Claims Aug 27); real yields at 2.35% with declining trend; DXY at 99.11 (neutral band); a hawkish tone would sharply pressure risk assets; a neutral-to-dovish tone alongside soft PCE would be the macro green light to extend BTC's rally toward ATH; September 15–16 FOMC is the next binding commitment."
-    },
-    {
       "date": "2026-08-31",
       "title": "Chicago PMI (August 2026)",
       "category": "PMI",
@@ -216,6 +209,13 @@
       "category": "Labor",
       "importance": "low",
       "note": "DOL weekly initial jobless claims at 8:30 AM ET for week ending August 29—first post-Jackson Hole labor read; sets early framing ahead of the August NFP report (September 4) and FOMC September 15–16; a spike above 220K reinforces the case for a cut; a stable-to-declining read keeps the policy debate open heading into NFP."
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Nonfarm Payrolls (August 2026)",
+      "category": "Labor",
+      "importance": "high",
+      "note": "BLS Employment Situation for August 2026 at 8:30 AM ET—the last major labor data point before FOMC September 15–16; July 2026 NFP shocked at −23K (vs +79K forecast) and ADP July showed only +44K; a further contraction would strongly argue for a rate cut and would likely push DXY toward or below 97.5; a rebound toward +100K+ would complicate the dovish narrative; along with Warsh's Jackson Hole keynote (August 28) and CPI (September 11), NFP forms the trifecta shaping the September FOMC decision."
     }
   ],
   "sources": {
@@ -233,5 +233,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-08-27T17:54:15Z"
+  "cachedAtISO": "2026-08-28T03:51:39Z"
 }
