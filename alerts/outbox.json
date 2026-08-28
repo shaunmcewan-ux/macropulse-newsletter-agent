@@ -1,6 +1,6 @@
 {
-  "ts": "2026-08-28T15:12:40Z",
+  "ts": "2026-08-28T20:13:20Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "Warsh Jackson Hole (1st speech as Fed Chair): \"inflation still too high\" — no forward guidance, \"committed to a discipline, not a decision.\"\nSep rate-hike odds: ~33% → ~50%. 2-yr yield +6.6bp to 4.29% (1-month high).\nGold ~-2.5% to ~$4,580 (retreating from near $4,700 on hawkish repricing).\nBTC $79,130, ~flat 24h — holding near 80k test level. S&P +0.5%, Nasdaq +0.6%.\nDXY +0.4% to 99.55 (just under 0.7% alert threshold)."
+  "priority": "default",
+  "message": "Sep-16 FOMC hike odds 57% post-Warsh — majority for first time (prior 50%)\nUMich final Aug: 51.7 vs 51.0 prelim; 1yr inflation exp 4.3%\nBTC holding ~$79K, 24h <1% — resilient vs hawkish signal"
 }
