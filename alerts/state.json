@@ -1,14 +1,12 @@
 {
-  "lastRunISO": "2026-08-28T07:12:54Z",
+  "lastRunISO": "2026-08-28T15:12:40Z",
   "priceAlerts": {
     "btc": { "pct": 4.97, "dir": "up", "ISO": "2026-08-25T20:07:04Z", "value": 79500 },
     "eth": { "pct": 7.58, "dir": "up", "ISO": "2026-08-22T15:09:37Z", "value": 2527.24 },
     "ethbtc": { "pct": 4.7, "dir": "down", "ISO": "2026-08-21T15:10:25Z", "value": 0.03001 },
     "btcd": { "pct": 3.64, "dir": "down", "ISO": "2026-08-22T15:09:37Z", "value": 57.11 },
     "total": { "pct": 5.83, "dir": "up", "ISO": "2026-08-22T15:09:37Z", "value": 2760000000000 },
-    "total2": { "pct": 4.31, "dir": "up", "ISO": "2026-08-20T07:15:03Z", "value": 1037660064386 },
-    "dxy": { "pct": 0.856, "dir": "down", "ISO": "2026-08-20T07:15:03Z", "value": 98.793 },
-    "gold": { "pct": 1.97, "dir": "up", "ISO": "2026-08-22T15:09:37Z", "value": 4661.60 }
+    "gold": { "pct": 2.5, "dir": "down", "ISO": "2026-08-28T15:12:40Z", "value": 4580.0 }
   },
   "releases": {
     "Claims-Aug15-2026": "2026-08-20T15:10:42Z",
@@ -19,11 +17,6 @@
     "Claims-Aug22-2026": "2026-08-27T15:12:48Z"
   },
   "news": {
-    "us-treasury-buyback-longend-aug19": "2026-08-20T07:15:03Z",
-    "jackson-hole-aug2729-warsh-aug28": "2026-08-20T07:15:03Z",
-    "eth-short-squeeze-1pt9b-aug20": "2026-08-20T15:10:42Z",
-    "eth-spot-etf-189m-inflow-aug19": "2026-08-20T15:10:42Z",
-    "trump-clarity-act-bitcoin-70k-aug20": "2026-08-20T20:08:43Z",
     "btc-75k-weekly-20pct-asia-aug21": "2026-08-21T07:13:23Z",
     "btc-etf-606m-biggest-since-may1-aug20": "2026-08-21T15:10:25Z",
     "btc-79k-80k-test-etf-surge-aug21": "2026-08-21T15:10:25Z",
@@ -40,6 +33,8 @@
     "pce-jul26-core-3pt3pct-headline-3pt7pct-spending-soft": "2026-08-26T15:12:21Z",
     "nvidia-q2-earnings-aug26-2026-after-close": "2026-08-26T15:12:21Z",
     "nvidia-q2-fy27-beat-eps5pt7pct-rev3pct-nvda-plus4pct-ah": "2026-08-26T20:09:07Z",
-    "jackson-hole-day1-live-warsh-keynote-fri-aug28": "2026-08-27T15:12:48Z"
+    "jackson-hole-day1-live-warsh-keynote-fri-aug28": "2026-08-27T15:12:48Z",
+    "warsh-jacksonhole-hawkish-inflation-rateHike50pct-aug28": "2026-08-28T15:12:40Z",
+    "gold-hawkish-fed-drop-2pct-aug28": "2026-08-28T15:12:40Z"
   }
 }
