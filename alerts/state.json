@@ -1,10 +1,12 @@
 {
-  "lastRunISO": "2026-08-28T20:13:20Z",
+  "lastRunISO": "2026-08-29T07:09:28Z",
   "priceAlerts": {
-    "btc": { "pct": 4.97, "dir": "up", "ISO": "2026-08-25T20:07:04Z", "value": 79500 },
+    "btc": { "pct": 3.1338, "dir": "down", "ISO": "2026-08-29T07:09:28Z", "value": 77600 },
     "eth": { "pct": 7.58, "dir": "up", "ISO": "2026-08-22T15:09:37Z", "value": 2527.24 },
-    "btcd": { "pct": 3.64, "dir": "down", "ISO": "2026-08-22T15:09:37Z", "value": 57.11 },
-    "total": { "pct": 5.83, "dir": "up", "ISO": "2026-08-22T15:09:37Z", "value": 2760000000000 },
+    "btcd": { "pct": 2.5345, "dir": "up", "ISO": "2026-08-29T07:09:28Z", "value": 58.99 },
+    "total": { "pct": 5.3884, "dir": "down", "ISO": "2026-08-29T07:09:28Z", "value": 2637345519020 },
+    "total2": { "pct": 8.6475, "dir": "down", "ISO": "2026-08-29T07:09:28Z", "value": 1081679422129 },
+    "total3": { "pct": 10.829, "dir": "down", "ISO": "2026-08-29T07:09:28Z", "value": 787953339966 },
     "gold": { "pct": 2.5, "dir": "down", "ISO": "2026-08-28T15:12:40Z", "value": 4580.0 }
   },
   "releases": {
@@ -29,6 +31,7 @@
     "jackson-hole-day1-live-warsh-keynote-fri-aug28": "2026-08-27T15:12:48Z",
     "warsh-jacksonhole-hawkish-inflation-rateHike50pct-aug28": "2026-08-28T15:12:40Z",
     "gold-hawkish-fed-drop-2pct-aug28": "2026-08-28T15:12:40Z",
-    "sep16-hike-57pct-post-warsh-aug28": "2026-08-28T20:13:20Z"
+    "sep16-hike-57pct-post-warsh-aug28": "2026-08-28T20:13:20Z",
+    "altcoin-rout-post-warsh-total3-minus11pct-aug29": "2026-08-29T07:09:28Z"
   }
 }
