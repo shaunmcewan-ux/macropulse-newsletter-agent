@@ -1,6 +1,6 @@
 {
-  "ts": "2026-08-29T07:09:28Z",
+  "ts": "2026-08-29T15:07:48Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "TOTAL3 -10.8% (24h) → $788B | TOTAL2 -8.6% → $1.08T — post-Warsh alt rout\nTOTAL market cap -5.4% (24h) → $2.64T\nBTC -3.1% (24h) → $77,600 — anchoring the selloff\nBTC.D +2.5% (24h) → 59.0% — capital rotating from alts to BTC"
+  "priority": "default",
+  "message": ""
 }
