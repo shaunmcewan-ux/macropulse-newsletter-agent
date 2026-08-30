@@ -1,6 +1,6 @@
 {
-  "ts": "2026-08-30T15:09:26Z",
+  "ts": "2026-08-30T20:09:57Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "Gold -3.18% (24h) -> $4,455 — post-Warsh hawkish overhang persists\nTOTAL3 -10.08% (24h) -> $775B — altcoin selling sustained, now 2 days post-Jackson Hole\nTOTAL2 -7.14% (24h) -> $1.07T — broad ex-BTC market under pressure\nBTC.D +3.67% (24h) -> 59.5 — dominance rising as alts bleed into BTC"
+  "priority": "default",
+  "message": ""
 }
