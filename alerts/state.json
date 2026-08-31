@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-08-31T07:14:55Z",
+  "lastRunISO": "2026-08-31T15:12:09Z",
   "priceAlerts": {
     "btc": { "pct": 3.8, "dir": "down", "ISO": "2026-08-29T20:08:57Z", "value": 77803 },
     "ethbtc": { "pct": 0.502, "dir": "up", "ISO": "2026-08-30T15:09:26Z", "value": 0.03154841 },
@@ -8,7 +8,8 @@
     "total2": { "pct": 7.138, "dir": "down", "ISO": "2026-08-30T15:09:26Z", "value": 1073556752587 },
     "total3": { "pct": 10.083, "dir": "down", "ISO": "2026-08-30T15:09:26Z", "value": 775303931794 },
     "dxy": { "pct": 0.553, "dir": "up", "ISO": "2026-08-30T15:09:26Z", "value": 99.677 },
-    "gold": { "pct": 3.182, "dir": "down", "ISO": "2026-08-30T15:09:26Z", "value": 4454.755 }
+    "gold": { "pct": 2.27, "dir": "up", "ISO": "2026-08-31T15:12:09Z", "value": 4521.10 },
+    "oil": { "pct": 5.6, "dir": "up", "ISO": "2026-08-31T15:12:09Z", "value": 93.03 }
   },
   "releases": {
     "consumer-confidence-aug-2026": "2026-08-25T15:10:32Z",
@@ -28,6 +29,7 @@
     "warsh-jacksonhole-hawkish-inflation-rateHike50pct-aug28": "2026-08-28T15:12:40Z",
     "gold-hawkish-fed-drop-2pct-aug28": "2026-08-28T15:12:40Z",
     "sep16-hike-57pct-post-warsh-aug28": "2026-08-28T20:13:20Z",
-    "altcoin-rout-post-warsh-total3-minus11pct-aug29": "2026-08-29T07:09:28Z"
+    "altcoin-rout-post-warsh-total3-minus11pct-aug29": "2026-08-29T07:09:28Z",
+    "us-iran-larak-island-strike-hormuz-closure-aug30": "2026-08-31T15:12:09Z"
   }
 }
