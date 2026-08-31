@@ -1,8 +1,7 @@
 {
-  "lastRunISO": "2026-08-30T20:09:57Z",
+  "lastRunISO": "2026-08-31T07:14:55Z",
   "priceAlerts": {
     "btc": { "pct": 3.8, "dir": "down", "ISO": "2026-08-29T20:08:57Z", "value": 77803 },
-    "eth": { "pct": 7.58, "dir": "up", "ISO": "2026-08-22T15:09:37Z", "value": 2527.24 },
     "ethbtc": { "pct": 0.502, "dir": "up", "ISO": "2026-08-30T15:09:26Z", "value": 0.03154841 },
     "btcd": { "pct": 3.669, "dir": "up", "ISO": "2026-08-30T15:09:26Z", "value": 59.52 },
     "total": { "pct": 5.3884, "dir": "down", "ISO": "2026-08-29T07:09:28Z", "value": 2637345519020 },
@@ -12,17 +11,12 @@
     "gold": { "pct": 3.182, "dir": "down", "ISO": "2026-08-30T15:09:26Z", "value": 4454.755 }
   },
   "releases": {
-    "philly-fed-aug-2026": "2026-08-21T15:10:25Z",
-    "flash-pmi-aug-2026": "2026-08-22T07:08:30Z",
     "consumer-confidence-aug-2026": "2026-08-25T15:10:32Z",
     "PCE-Jul-2026": "2026-08-26T15:12:21Z",
     "Claims-Aug22-2026": "2026-08-27T15:12:48Z",
     "umich-final-aug-2026": "2026-08-28T20:13:20Z"
   },
   "news": {
-    "btc-80k-test-rejected-77k-aug22": "2026-08-22T07:08:30Z",
-    "btc-eth-etf-800m-aug21-day2": "2026-08-22T07:08:30Z",
-    "btcD-xrp-altcoin-rotation-aug22": "2026-08-22T15:09:37Z",
     "btc-80k-breakout-since-may15-aug25": "2026-08-25T07:11:48Z",
     "canada-50pct-tariffs-collapsed-talks-aug23": "2026-08-25T15:10:32Z",
     "iran-bessent-sweeping-sanctions-aug24": "2026-08-25T15:10:32Z",
