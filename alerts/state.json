@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-09-01T07:11:07Z",
+  "lastRunISO": "2026-09-01T15:12:16Z",
   "priceAlerts": {
     "btc": { "pct": 3.8, "dir": "down", "ISO": "2026-08-29T20:08:57Z", "value": 77803 },
     "ethbtc": { "pct": 0.502, "dir": "up", "ISO": "2026-08-30T15:09:26Z", "value": 0.03154841 },
@@ -15,7 +15,8 @@
     "consumer-confidence-aug-2026": "2026-08-25T15:10:32Z",
     "PCE-Jul-2026": "2026-08-26T15:12:21Z",
     "Claims-Aug22-2026": "2026-08-27T15:12:48Z",
-    "umich-final-aug-2026": "2026-08-28T20:13:20Z"
+    "umich-final-aug-2026": "2026-08-28T20:13:20Z",
+    "ISM-Mfg-PMI-Aug-2026": "2026-09-01T15:12:16Z"
   },
   "news": {
     "btc-80k-breakout-since-may15-aug25": "2026-08-25T07:11:48Z",
