@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-09-01T20:06:56Z",
+  "lastRunISO": "2026-09-02T07:08:39Z",
   "priceAlerts": {
     "btc": { "pct": 3.8, "dir": "down", "ISO": "2026-08-29T20:08:57Z", "value": 77803 },
     "ethbtc": { "pct": 0.502, "dir": "up", "ISO": "2026-08-30T15:09:26Z", "value": 0.03154841 },
@@ -8,7 +8,7 @@
     "total2": { "pct": 7.138, "dir": "down", "ISO": "2026-08-30T15:09:26Z", "value": 1073556752587 },
     "total3": { "pct": 10.083, "dir": "down", "ISO": "2026-08-30T15:09:26Z", "value": 775303931794 },
     "dxy": { "pct": 0.553, "dir": "up", "ISO": "2026-08-30T15:09:26Z", "value": 99.677 },
-    "gold": { "pct": 2.27, "dir": "up", "ISO": "2026-08-31T15:12:09Z", "value": 4521.10 },
+    "gold": { "pct": 3.0, "dir": "down", "ISO": "2026-09-02T07:08:39Z", "value": 4315 },
     "oil": { "pct": 5.6, "dir": "up", "ISO": "2026-08-31T15:12:09Z", "value": 93.03 }
   },
   "releases": {
@@ -19,10 +19,6 @@
     "ISM-Mfg-PMI-Aug-2026": "2026-09-01T15:12:16Z"
   },
   "news": {
-    "btc-80k-breakout-since-may15-aug25": "2026-08-25T07:11:48Z",
-    "canada-50pct-tariffs-collapsed-talks-aug23": "2026-08-25T15:10:32Z",
-    "iran-bessent-sweeping-sanctions-aug24": "2026-08-25T15:10:32Z",
-    "btc-81k-50wma-rejection-7th-etf-inflow-day-aug25": "2026-08-25T15:10:32Z",
     "pce-jul26-core-3pt3pct-headline-3pt7pct-spending-soft": "2026-08-26T15:12:21Z",
     "nvidia-q2-earnings-aug26-2026-after-close": "2026-08-26T15:12:21Z",
     "nvidia-q2-fy27-beat-eps5pt7pct-rev3pct-nvda-plus4pct-ah": "2026-08-26T20:09:07Z",
@@ -33,6 +29,7 @@
     "altcoin-rout-post-warsh-total3-minus11pct-aug29": "2026-08-29T07:09:28Z",
     "us-iran-larak-island-strike-hormuz-closure-aug30": "2026-08-31T15:12:09Z",
     "sep16-hike-66pct-fedwatch-energy-shock-aug31": "2026-09-01T07:11:07Z",
-    "btc-etf-inflows-217m-sep1-assets-near-100b": "2026-09-01T20:06:56Z"
+    "btc-etf-inflows-217m-sep1-assets-near-100b": "2026-09-01T20:06:56Z",
+    "iran-retaliation-jordan-uae-strikes-sep2": "2026-09-02T07:08:39Z"
   }
 }
