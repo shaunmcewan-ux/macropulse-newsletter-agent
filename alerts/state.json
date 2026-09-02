@@ -1,7 +1,8 @@
 {
-  "lastRunISO": "2026-09-02T15:12:30Z",
+  "lastRunISO": "2026-09-02T20:10:53Z",
   "priceAlerts": {
     "btc": { "pct": 3.8, "dir": "down", "ISO": "2026-08-29T20:08:57Z", "value": 77803 },
+    "eth": { "pct": 4.0, "dir": "down", "ISO": "2026-09-02T20:10:53Z", "value": 2400 },
     "ethbtc": { "pct": 0.502, "dir": "up", "ISO": "2026-08-30T15:09:26Z", "value": 0.03154841 },
     "btcd": { "pct": 3.669, "dir": "up", "ISO": "2026-08-30T15:09:26Z", "value": 59.52 },
     "total": { "pct": 5.3884, "dir": "down", "ISO": "2026-08-29T07:09:28Z", "value": 2637345519020 },
@@ -30,6 +31,7 @@
     "us-iran-larak-island-strike-hormuz-closure-aug30": "2026-08-31T15:12:09Z",
     "sep16-hike-66pct-fedwatch-energy-shock-aug31": "2026-09-01T07:11:07Z",
     "btc-etf-inflows-217m-sep1-assets-near-100b": "2026-09-01T20:06:56Z",
-    "iran-retaliation-jordan-uae-strikes-sep2": "2026-09-02T07:08:39Z"
+    "iran-retaliation-jordan-uae-strikes-sep2": "2026-09-02T07:08:39Z",
+    "btc-etf-first-outflow-streak-break-sep2": "2026-09-02T20:10:53Z"
   }
 }
