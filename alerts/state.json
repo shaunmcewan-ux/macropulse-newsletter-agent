@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-09-03T07:10:45Z",
+  "lastRunISO": "2026-09-03T15:09:46Z",
   "priceAlerts": {
     "btc": { "pct": 3.8, "dir": "down", "ISO": "2026-08-29T20:08:57Z", "value": 77803 },
     "eth": { "pct": 4.0, "dir": "down", "ISO": "2026-09-02T20:10:53Z", "value": 2400 },
@@ -17,7 +17,8 @@
     "PCE-Jul-2026": "2026-08-26T15:12:21Z",
     "Claims-Aug22-2026": "2026-08-27T15:12:48Z",
     "umich-final-aug-2026": "2026-08-28T20:13:20Z",
-    "ISM-Mfg-PMI-Aug-2026": "2026-09-01T15:12:16Z"
+    "ISM-Mfg-PMI-Aug-2026": "2026-09-01T15:12:16Z",
+    "ISM-Services-PMI-Aug-2026": "2026-09-03T15:09:46Z"
   },
   "news": {
     "pce-jul26-core-3pt3pct-headline-3pt7pct-spending-soft": "2026-08-26T15:12:21Z",
@@ -32,6 +33,9 @@
     "sep16-hike-66pct-fedwatch-energy-shock-aug31": "2026-09-01T07:11:07Z",
     "btc-etf-inflows-217m-sep1-assets-near-100b": "2026-09-01T20:06:56Z",
     "iran-retaliation-jordan-uae-strikes-sep2": "2026-09-02T07:08:39Z",
-    "btc-etf-first-outflow-streak-break-sep2": "2026-09-02T20:10:53Z"
+    "btc-etf-first-outflow-streak-break-sep2": "2026-09-02T20:10:53Z",
+    "ism-services-aug-55pt4-beat-sep3": "2026-09-03T15:09:46Z",
+    "trump-iran-strikes-brief-oil-91-wti-sep3": "2026-09-03T15:09:46Z",
+    "btc-etf-aug-inflows-3pt52b-best-month-2026": "2026-09-03T15:09:46Z"
   }
 }
