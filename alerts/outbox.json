@@ -1,6 +1,6 @@
 {
-  "ts": "2026-09-04T07:09:19Z",
+  "ts": "2026-09-04T15:10:34Z",
   "title": "MacroPulse Alert",
-  "priority": "default",
-  "message": "ETH +4.68% (24h) → ~$2,504 — alts recovering after Sep 2 Iran-driven selloff\nAug NFP prints 13:30 UK; consensus +53K after July's -23K miss; Sep 16 hike prob 66%\nDXY -0.59% to 98.98; gold +0.92% to $4,428; S&P 500 +0.99% to 7,742"
+  "priority": "high",
+  "message": "NFP Aug: +162k vs 53k forecast — massive 3x beat (unemp 4.1%, wages +3.1% YoY)\nFed Gov Waller (Sep 3): \"Give disinflation a chance\" — hike odds fell to 48%; back to 52% post-NFP\nBTC +4.3% (24h) → $81,240 — largest ETF inflows in 9 months\nOil (WTI) +5.1% (24h) → $91.48 — Iran tensions sustaining energy bid\nBTC Dominance +2.7% (24h) → 59.77% — reinforcing Bitcoin-first setup ahead of Sep 16 FOMC"
 }
