@@ -1,6 +1,6 @@
 {
-  "ts": "2026-09-04T15:10:34Z",
+  "ts": "2026-09-04T20:10:07Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "NFP Aug: +162k vs 53k forecast — massive 3x beat (unemp 4.1%, wages +3.1% YoY)\nFed Gov Waller (Sep 3): \"Give disinflation a chance\" — hike odds fell to 48%; back to 52% post-NFP\nBTC +4.3% (24h) → $81,240 — largest ETF inflows in 9 months\nOil (WTI) +5.1% (24h) → $91.48 — Iran tensions sustaining energy bid\nBTC Dominance +2.7% (24h) → 59.77% — reinforcing Bitcoin-first setup ahead of Sep 16 FOMC"
+  "priority": "default",
+  "message": "ETH +4.5% (24h) → ~$2,499 [dedup window cleared after 13h]\nStandard Chartered (first G-SIB) launches institutional spot BTC/ETH trading in UAE — first global systemically important bank to offer deliverable spot crypto to institutions"
 }

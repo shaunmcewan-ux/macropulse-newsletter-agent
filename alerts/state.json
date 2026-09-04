@@ -1,8 +1,8 @@
 {
-  "lastRunISO": "2026-09-04T15:10:34Z",
+  "lastRunISO": "2026-09-04T20:10:07Z",
   "priceAlerts": {
     "btc": { "pct": 4.27, "dir": "up", "ISO": "2026-09-04T15:10:34Z", "value": 81240 },
-    "eth": { "pct": 4.68, "dir": "up", "ISO": "2026-09-04T07:09:19Z", "value": 2504 },
+    "eth": { "pct": 4.5, "dir": "up", "ISO": "2026-09-04T20:10:07Z", "value": 2499 },
     "ethbtc": { "pct": 0.502, "dir": "up", "ISO": "2026-08-30T15:09:26Z", "value": 0.03154841 },
     "btcd": { "pct": 2.72, "dir": "up", "ISO": "2026-09-04T15:10:34Z", "value": 59.77 },
     "total": { "pct": 5.3884, "dir": "down", "ISO": "2026-08-29T07:09:28Z", "value": 2637345519020 },
@@ -34,6 +34,7 @@
     "waller-hold-signal-sep16-give-disinflation-chance-sep3": "2026-09-04T15:10:34Z",
     "nfp-aug-162k-vs-53k-forecast-3x-beat-sep4": "2026-09-04T15:10:34Z",
     "sep16-hike-odds-52pct-post-nfp-beat-sep4": "2026-09-04T15:10:34Z",
-    "btc-81240-plus4pt3pct-24h-etf-inflows-sep4": "2026-09-04T15:10:34Z"
+    "btc-81240-plus4pt3pct-24h-etf-inflows-sep4": "2026-09-04T15:10:34Z",
+    "standard-chartered-institutional-spot-btc-eth-uae-sep3": "2026-09-04T20:10:07Z"
   }
 }
