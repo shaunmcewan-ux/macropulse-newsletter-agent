@@ -1,8 +1,8 @@
 {
-  "lastRunISO": "2026-09-03T20:09:22Z",
+  "lastRunISO": "2026-09-04T07:09:19Z",
   "priceAlerts": {
     "btc": { "pct": 3.8, "dir": "down", "ISO": "2026-08-29T20:08:57Z", "value": 77803 },
-    "eth": { "pct": 4.0, "dir": "down", "ISO": "2026-09-02T20:10:53Z", "value": 2400 },
+    "eth": { "pct": 4.68, "dir": "up", "ISO": "2026-09-04T07:09:19Z", "value": 2504 },
     "ethbtc": { "pct": 0.502, "dir": "up", "ISO": "2026-08-30T15:09:26Z", "value": 0.03154841 },
     "btcd": { "pct": 3.669, "dir": "up", "ISO": "2026-08-30T15:09:26Z", "value": 59.52 },
     "total": { "pct": 5.3884, "dir": "down", "ISO": "2026-08-29T07:09:28Z", "value": 2637345519020 },
@@ -13,18 +13,11 @@
     "oil": { "pct": 5.6, "dir": "up", "ISO": "2026-08-31T15:12:09Z", "value": 93.03 }
   },
   "releases": {
-    "consumer-confidence-aug-2026": "2026-08-25T15:10:32Z",
-    "PCE-Jul-2026": "2026-08-26T15:12:21Z",
-    "Claims-Aug22-2026": "2026-08-27T15:12:48Z",
     "umich-final-aug-2026": "2026-08-28T20:13:20Z",
     "ISM-Mfg-PMI-Aug-2026": "2026-09-01T15:12:16Z",
     "ISM-Services-PMI-Aug-2026": "2026-09-03T15:09:46Z"
   },
   "news": {
-    "pce-jul26-core-3pt3pct-headline-3pt7pct-spending-soft": "2026-08-26T15:12:21Z",
-    "nvidia-q2-earnings-aug26-2026-after-close": "2026-08-26T15:12:21Z",
-    "nvidia-q2-fy27-beat-eps5pt7pct-rev3pct-nvda-plus4pct-ah": "2026-08-26T20:09:07Z",
-    "jackson-hole-day1-live-warsh-keynote-fri-aug28": "2026-08-27T15:12:48Z",
     "warsh-jacksonhole-hawkish-inflation-rateHike50pct-aug28": "2026-08-28T15:12:40Z",
     "gold-hawkish-fed-drop-2pct-aug28": "2026-08-28T15:12:40Z",
     "sep16-hike-57pct-post-warsh-aug28": "2026-08-28T20:13:20Z",
