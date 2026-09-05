@@ -1,11 +1,10 @@
 {
-  "lastRunISO": "2026-09-04T20:10:07Z",
+  "lastRunISO": "2026-09-05T07:10:37Z",
   "priceAlerts": {
     "btc": { "pct": 4.27, "dir": "up", "ISO": "2026-09-04T15:10:34Z", "value": 81240 },
     "eth": { "pct": 4.5, "dir": "up", "ISO": "2026-09-04T20:10:07Z", "value": 2499 },
     "ethbtc": { "pct": 0.502, "dir": "up", "ISO": "2026-08-30T15:09:26Z", "value": 0.03154841 },
-    "btcd": { "pct": 2.72, "dir": "up", "ISO": "2026-09-04T15:10:34Z", "value": 59.77 },
-    "total": { "pct": 5.3884, "dir": "down", "ISO": "2026-08-29T07:09:28Z", "value": 2637345519020 },
+    "btcd": { "pct": 3.65, "dir": "down", "ISO": "2026-09-05T07:10:37Z", "value": 57.6 },
     "total2": { "pct": 7.138, "dir": "down", "ISO": "2026-08-30T15:09:26Z", "value": 1073556752587 },
     "total3": { "pct": 10.083, "dir": "down", "ISO": "2026-08-30T15:09:26Z", "value": 775303931794 },
     "dxy": { "pct": 0.553, "dir": "up", "ISO": "2026-08-30T15:09:26Z", "value": 99.677 },
@@ -13,16 +12,11 @@
     "oil": { "pct": 5.11, "dir": "up", "ISO": "2026-09-04T15:10:34Z", "value": 91.48 }
   },
   "releases": {
-    "umich-final-aug-2026": "2026-08-28T20:13:20Z",
     "ISM-Mfg-PMI-Aug-2026": "2026-09-01T15:12:16Z",
     "ISM-Services-PMI-Aug-2026": "2026-09-03T15:09:46Z",
     "NFP-Aug-2026": "2026-09-04T15:10:34Z"
   },
   "news": {
-    "warsh-jacksonhole-hawkish-inflation-rateHike50pct-aug28": "2026-08-28T15:12:40Z",
-    "gold-hawkish-fed-drop-2pct-aug28": "2026-08-28T15:12:40Z",
-    "sep16-hike-57pct-post-warsh-aug28": "2026-08-28T20:13:20Z",
-    "altcoin-rout-post-warsh-total3-minus11pct-aug29": "2026-08-29T07:09:28Z",
     "us-iran-larak-island-strike-hormuz-closure-aug30": "2026-08-31T15:12:09Z",
     "sep16-hike-66pct-fedwatch-energy-shock-aug31": "2026-09-01T07:11:07Z",
     "btc-etf-inflows-217m-sep1-assets-near-100b": "2026-09-01T20:06:56Z",
@@ -35,6 +29,7 @@
     "nfp-aug-162k-vs-53k-forecast-3x-beat-sep4": "2026-09-04T15:10:34Z",
     "sep16-hike-odds-52pct-post-nfp-beat-sep4": "2026-09-04T15:10:34Z",
     "btc-81240-plus4pt3pct-24h-etf-inflows-sep4": "2026-09-04T15:10:34Z",
-    "standard-chartered-institutional-spot-btc-eth-uae-sep3": "2026-09-04T20:10:07Z"
+    "standard-chartered-institutional-spot-btc-eth-uae-sep3": "2026-09-04T20:10:07Z",
+    "btc-76k-overnight-post-nfp-sep5": "2026-09-05T07:10:37Z"
   }
 }
