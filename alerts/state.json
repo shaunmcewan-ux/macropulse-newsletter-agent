@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-09-05T07:10:37Z",
+  "lastRunISO": "2026-09-05T15:09:21Z",
   "priceAlerts": {
     "btc": { "pct": 4.27, "dir": "up", "ISO": "2026-09-04T15:10:34Z", "value": 81240 },
     "eth": { "pct": 4.5, "dir": "up", "ISO": "2026-09-04T20:10:07Z", "value": 2499 },
@@ -30,6 +30,7 @@
     "sep16-hike-odds-52pct-post-nfp-beat-sep4": "2026-09-04T15:10:34Z",
     "btc-81240-plus4pt3pct-24h-etf-inflows-sep4": "2026-09-04T15:10:34Z",
     "standard-chartered-institutional-spot-btc-eth-uae-sep3": "2026-09-04T20:10:07Z",
-    "btc-76k-overnight-post-nfp-sep5": "2026-09-05T07:10:37Z"
+    "btc-76k-overnight-post-nfp-sep5": "2026-09-05T07:10:37Z",
+    "sep16-hike-odds-58pct-settled-end-fri-sep5": "2026-09-05T15:09:21Z"
   }
 }
