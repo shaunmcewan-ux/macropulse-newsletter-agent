@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-05T21:42:29.230Z",
+  "generatedAt": "2026-09-06T11:21:28.819Z",
   "dial": {
     "state": "BTC Accumulation",
-    "summary": "BTC Accumulation thesis intact on Sep 5 despite the surprise August NFP print (+162K vs +56K consensus, released Sep 4) which reversed rate-cut pricing to a 52% market-implied probability of a Sep 16 hike; 5 of 8 indicators remain supportive: Global M2 still expanding at $103.4T (4-week uptrend), 2s10s steepening to +40bps, Fed balance sheet stable at $6.73T, BTC funding near zero (+0.007%), and stablecoin dominance falling to 10.84% (from 11.31%) on a 30-day basis; DXY nudged up to 99.16 but holds in the neutral band; BTC.D at 56.58% (CMC methodology) remains above the 55% alt-rotation trigger, TOTAL stable at $2.82T; ECB decision (Sep 10) and FOMC (Sep 16) are the pivotal catalyst pair ahead.",
+    "summary": "BTC Accumulation remains intact on Sep 6: 5 of 8 indicators supportive — Global M2 still expanding, 2s10s steepened to +41bps, Fed balance sheet ticked up to $6.74T, BTC funding near zero, and stablecoin dominance continues its 30-day decline from 13–14% to 10.98%; BTC.D rose to 57.59% (firming, not rolling over) and TOTAL crypto market is $2.79T; the ECB (Sep 10), CPI (Sep 11), and FOMC (Sep 16) form the decisive catalyst cluster — a hike-hold-hike sequence would be the key headwind scenario to monitor.",
     "states": [
       "BTC Accumulation",
       "Alt Rotation",
@@ -14,58 +14,58 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 79852,
+      "value": 79963,
       "format": "usd",
-      "change24h": 0.03315,
-      "change30d": 23.9
+      "change24h": 0.42594,
+      "change30d": 23.5
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 2482.8,
+      "value": 2503.32,
       "format": "usd",
-      "change24h": 1.05747,
-      "change30d": 29.8
+      "change24h": 2.04612,
+      "change30d": 30.8
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.03109408,
+      "value": 0.03130328,
       "format": "ratio",
-      "change24h": 1.0288458121857116,
-      "change30d": 5.266820478533503
+      "change24h": 1.6107675965183317,
+      "change30d": 6.361553144593919
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 58.82957901962298,
+      "value": 59.1959189094976,
       "format": "percent",
-      "change24h": 1.8533456806082427,
-      "change30d": 0.766477440526917
+      "change24h": 3.0348832947092452,
+      "change30d": 0.5475461154867896
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2719342595145.149,
+      "value": 2703703043183.5337,
       "format": "usd-compact",
-      "change24h": -1.7789063957603515,
-      "change30d": 22.81650644325573
+      "change24h": -2.531010092232674,
+      "change30d": 23.803343307843388
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1119564794319.9673,
+      "value": 1103221182186.9902,
       "format": "usd-compact",
-      "change24h": -4.281961551979778,
-      "change30d": 21.443658856782577
+      "change24h": -6.5558081624666364,
+      "change30d": 22.81579845023342
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 817468832793.6661,
+      "value": 798901778459.9043,
       "format": "usd-compact",
-      "change24h": -6.133360370454613,
-      "change30d": 17.847681104812988
+      "change24h": -9.493282048408247,
+      "change30d": 19.25357162709214
     },
     {
       "id": "dxy",
@@ -115,7 +115,7 @@
       "value": "$103.4T",
       "trend": "up",
       "status": "supportive",
-      "note": "Global 4-bank M2 aggregate (Fed/ECB/BOJ/PBOC) estimated at ~$103.4T (July 2026 composite; ~6-8 week reporting lag means August aggregate unavailable until mid-October); June 2026 confirmed at $102,663.81B ≈ $102.7T (MacroMicro); global broad money supply reached a record $150T in June 2026 (broader M3 measure per Crypto Briefing); US M2 for July 2026 confirmed at $23.22T (29th consecutive monthly increase, +5.4% YoY, record high); 4-week uptrend confirmed (June $102.7T → July estimate $103.4T = +$0.7T, well above flat threshold); no YoY contraction from any major central bank; August global aggregate not yet published; status supportive (4-week rising trend met); NFP surprise (+162K Sep 4) raises rate hike probability at FOMC Sep 16, which could slow the pace of global M2 expansion if the Fed tightens; ECB Sep 10 decision (expected hike) and FOMC Sep 16 are the next key catalysts for global liquidity trajectory."
+      "note": "Global 4-bank M2 aggregate (Fed/ECB/BOJ/PBOC) estimated at ~$103.4T (July 2026 composite; 6–8 week reporting lag means August aggregate unavailable until mid-October); MacroMicro confirmed June at $102.7T and the July estimate at ~$103.4T; global broad money supply (wider M3-like measure) hit a record $150T in June 2026 YoY +$10.7T per Crypto Briefing; US M2 July 2026 confirmed at $23.22T (record high, +5.4% YoY); 4-week uptrend confirmed (June $102.7T → July estimate $103.4T = +$0.7T, above flat threshold); no YoY contraction from any major central bank; August global 4-bank aggregate not yet published; status supportive (4-week rising trend met); ECB Sep 10 (possible hike) and FOMC Sep 16 are the next catalysts for global liquidity trajectory."
     },
     {
       "tier": 1,
@@ -123,7 +123,7 @@
       "value": "54.6",
       "trend": "down",
       "status": "neutral",
-      "note": "August 2026 ISM Manufacturing PMI released Sep 1 at 10:00 AM ET: 54.6%, down 1.0 percentage point from July 55.6% (eighth consecutive month of expansion); below 55.2% consensus; Production 58.3%, New Orders 53.7% (−3.0pp vs July), Employment 51.2% (−1.6pp vs July); 4-week trend down: July 55.6% → August 54.6% = −1.0pp; status neutral (above 50 but falling; supportive requires above 50 AND rising, not met; headwind requires below 48 and falling or above 62, neither applies); strong August NFP (+162K, Sep 4) signals broad labor resilience despite the PMI softening; September ISM Manufacturing PMI (covering September activity) will be released October 1 — next reading; PMI at 54.6% corresponds to ~2.4% annualized real GDP growth."
+      "note": "August 2026 ISM Manufacturing PMI released Sep 1 at 54.6%, down 1.0pp from July 55.6% (eighth consecutive month of expansion); Production 58.3%, New Orders 53.7% (−3.0pp vs July), Employment 51.2% (−1.6pp vs July), New Export Orders 53.2% (+0.2pp); 4-week trend down: July 55.6% → August 54.6% = −1.0pp; status neutral (above 50 but falling; supportive requires above 50 AND rising; headwind requires below 48 and falling or above 62 — neither applies); next release October 1 (September ISM Manufacturing PMI covering September activity); reading of 54.6% corresponds to approximately 2.4% annualized real GDP growth."
     },
     {
       "tier": 1,
@@ -131,7 +131,7 @@
       "value": "99.16",
       "trend": "down",
       "status": "neutral",
-      "note": "ICE DXY at 99.16 on September 4, 2026 (September 5 is a Saturday; Sep 4 close used; TradingEconomics/CNBC aggregates); 4-week trend down: from approximately 101.0–101.4 in early August 2026 (late-July peak ~101.40) to 99.16 Sep 4 = −1.8% relative decline, well above the 0.5% flat threshold; August NFP surprise (+162K vs +56K) on Sep 4 pushed DXY intraday to ~99.3 (post-NFP bounce per Schwab/Barchart) before settling at 99.16; 4-week trend remains DOWN despite the NFP bounce; status neutral (ICE DXY at 99.16 within 97.5–100 neutral band); structural dollar weakness driven by Treasury buyback program offset by hawkish NFP repricing; markets now pricing ~52% chance of Sep 16 hike; a DXY break above 100 would shift status to headwind; a break below 97.5 would shift to supportive."
+      "note": "ICE DXY closed at 99.157 on September 5, 2026 (Friday close; Sep 6 is Saturday); September 5 the dollar climbed 0.25% on residual NFP-day positioning (Aug NFP +162K vs +56K consensus, Sep 4); 4-week trend down: from approximately 101.0–101.4 in early August 2026 to 99.16 Sep 5 = −1.8% relative decline, well above the 0.5% flat threshold; despite the post-NFP bounce, 4-week trend remains DOWN; status neutral (ICE DXY 99.16 within the 97.5–100 neutral band); a DXY break above 100 (e.g. hot CPI Sep 11 or FOMC hike Sep 16) would shift status to headwind; a break below 97.5 would shift to supportive."
     },
     {
       "tier": 1,
@@ -139,23 +139,23 @@
       "value": "2.45%",
       "trend": "flat",
       "status": "neutral",
-      "note": "DFII10 (10-year TIPS real yield): 2.45% as of September 2, 2026 (MacroMicro/CNBC US10YTIP confirmed; FRED API blocked this run); Sep 4 data expected to be slightly higher after strong NFP (+162K vs +56K), which pushed nominal 10Y yields from 4.754% to ~4.79% (+3.6bps); breakeven inflation likely flat, implying Sep 4 real yield ~2.47–2.49% — unconfirmed, held at 2.45% per last verified observation; 4-week trend flat: ~2.43% (Aug 4 estimate) → 2.45% (Sep 2) = +2bps, within the 5bps flat threshold; status neutral (flat 4-week trend means 'rising AND above 2%' headwind condition is not fully triggered; 'falling or below 1%' supportive condition not met); 10-year TIPS auction Jul 23 cleared at 2.438% real; CPI Sep 11 and FOMC Sep 16 are next catalysts for TIPS yield direction."
+      "note": "DFII10 (10-year TIPS real yield): 2.45% as of September 2, 2026 (last confirmed; Sep 4 range 2.42–2.45% per CNBC/WatchGold aggregates; Sep 3–4 nominal 10Y 4.78%, BEI 2.34% implies ~2.44% TIPS, within rounding of 2.45%); 4-week trend flat: ~2.43% (Aug 4 estimate) → 2.45% (Sep 2) = +2bps, within the 5bps flat threshold; status neutral (flat 4-week trend means 'rising AND above 2%' headwind condition not fully triggered; 'falling or below 1%' supportive condition not met); next catalysts: CPI Sep 11 (breakeven driver) and FOMC Sep 16 (nominal yield driver)."
     },
     {
       "tier": 1,
       "name": "2s10s Yield Curve",
-      "value": "+0.40%",
+      "value": "+0.41%",
       "trend": "up",
       "status": "supportive",
-      "note": "September 4, 2026: pre-NFP 10Y yield 4.7541%, 2Y yield 4.3390% (CNBC/Treasury); post-NFP 10Y rose ~3.6bps to 4.79%; 2Y rose more sharply on rate-hike repricing (markets pricing ~52% Sep 16 hike after +162K NFP vs +56K consensus); estimated post-NFP spread: 10Y 4.79% minus 2Y ~4.39% ≈ +40bps (+0.40%); 4-week steepening trend: ~+35bps (Aug 4 estimate per prior run) → +40bps (Sep 4) = +5bps steepening over 4 weeks; status supportive (positive spread AND 4-week steepening confirmed; spread above zero well outside the −50bps headwind threshold); FRED DGS10/DGS2 proxy-blocked this run — values sourced from secondary CNBC/web search aggregates; curve-shaping events: ECB Sep 10 (expected +25bps hike), CPI Sep 11, and FOMC Sep 16; a Sep 16 hike (vs expected cut) would likely flatten the curve as 2Y rises faster than 10Y."
+      "note": "September 4, 2026: 10Y yield 4.78%, 2Y yield 4.37% (Forbes/Treasury rates; centralbank.watch confirmed 40–41bps); 2s10s spread = +41bps (+0.41%); 4-week steepening trend: ~+35bps (Aug 4 estimate per prior run) → +41bps (Sep 4) = +6bps steepening over 4 weeks; status supportive (positive spread AND 4-week steepening confirmed; well outside the −50bps headwind threshold); Sep 6 is Saturday so Sep 4 Friday data is the latest available; a Fed hike Sep 16 (52% market-implied probability) would likely flatten the curve as 2Y re-prices faster than 10Y, potentially reversing trend to flat."
     },
     {
       "tier": 1,
       "name": "Fed Balance Sheet",
-      "value": "$6.73T",
+      "value": "$6.74T",
       "trend": "flat",
       "status": "supportive",
-      "note": "WALCL: $6.73T for week ending August 26, 2026 (H.4.1 released August 27; latest available); H.4.1 for week ending September 3, 2026 scheduled for release September 10, 2026 at 4:30 PM ET (source: Fed H.4.1 calendar); prior Aug 19 H.4.1 confirmed $6.7T (search aggregate); 4-week trend flat: $6.70T (Aug 19) → $6.73T (Aug 26) = +$30B, within flat threshold; routine measured QT continues (MBS runoff; Treasury reinvestment maintains stability); status supportive (holding at post-2022 stabilization plateau; no QT acceleration, no overnight rate spike); FRED WALCL API blocked this run; next confirmed WALCL read (Sep 3 week) arrives Sep 10 alongside ECB decision and PPI — watch for any balance sheet policy guidance in FOMC Sep 16 statement."
+      "note": "WALCL: $6.74T for week ending September 3, 2026 (H.4.1 released September 3 per federalreserve.gov; prior week Aug 26 was $6.73T, Aug 19 was $6.70T per govspending.org/convextrade.com); 4-week trend flat: Aug 5 estimate ~$6.70T → Sep 3 $6.74T = +$40B, within flat threshold; next H.4.1 (week ending Sep 10) releases Sep 10 at 4:30 PM ET alongside ECB and PPI; status supportive (holding at post-2022 stabilization plateau; routine measured QT continues with no acceleration and no overnight rate spike); FRED API blocked this run — H.4.1 value sourced from secondary web aggregates."
     },
     {
       "tier": 3,
@@ -163,15 +163,15 @@
       "value": "0.007%",
       "trend": "flat",
       "status": "supportive",
-      "note": "BTC perpetual funding rate at approximately +0.007% per 8h (Sep 4, 2026 observation carried forward; CoinGlass blocked Sep 5 — egress proxy denial); BTC price pulled back from $81,044 (Sep 4 NFP day) to $79,581 (Sep 5 Saturday crypto market; CoinMarketCap); a ~1.8% BTC pullback on strong NFP (rate hike fears) typically produces neutral-to-flat funding, consistent with +0.007% remaining near zero; 30-day trend flat: near zero or slightly negative throughout August 2026, slightly positive at +0.007% since Sep 4; well below the +0.04% per 8h overheating threshold; status supportive (near-zero funding confirms spot-driven price action, no leveraged long accumulation); BTC.D: 56.58% per CoinMarketCap (Sep 5); TOTAL crypto market cap $2.82T (Sep 5, stable); alt-rotation trigger not met (BTC.D > 55%)."
+      "note": "BTC perpetual funding rate at approximately +0.007% per 8h (Sep 5–6 observation; CoinGlass direct fetch blocked via egress proxy this run; value carried forward from Sep 5 run); BTC price approximately $79,581 (Sep 5; CMC) with BTC.D rising to 57.59% (Sep 6, CoinMarketCap) vs 56.58% prior run; rising BTC dominance and roughly flat BTC price consistent with near-zero funding rate (no leveraged long pressure); 30-day trend flat: near zero or slightly positive throughout August–September 2026; well below the +0.04% per 8h overheating threshold; status supportive (near-zero funding confirms spot-driven price action); alt-rotation trigger not met (BTC.D 57.59% > 55%)."
     },
     {
       "tier": 3,
       "name": "Stablecoin Dominance",
-      "value": "10.84%",
+      "value": "10.98%",
       "trend": "down",
       "status": "supportive",
-      "note": "Stablecoin market cap ~$306B (Sep 5, 2026; CoinGecko/CryptoRank.io aggregates); total crypto market cap $2.82T (CoinMarketCap Sep 5); stablecoin dominance 10.84% ($306B / $2.82T); down from 11.31% (Sep 4 run) and ~13–14% in early August 2026; 30-day trend down: sustained ~2–3pp decline over 30 days reflecting capital deployment from stablecoins into risk assets predominantly Bitcoin; status supportive (30-day falling trend confirmed; headwind condition — dominance rising while TOTAL also rising — does not apply as TOTAL is roughly flat at $2.82T); BTC.D at 56.58% (CoinMarketCap methodology, includes stablecoins in denominator; prior BeInCrypto/AMBCrypto 60%+ reading used a narrower denominator excluding stablecoins); alt-rotation trigger (BTC.D sub-55% sustained) not met on either methodology; USDT market share 60.82% of all stablecoins (USDT $186B + USDC $70B ≈ 82% combined)."
+      "note": "Stablecoin market cap $307B (Sep 6, 2026; CoinGecko/StablecoinBeat aggregates); total crypto market cap $2.79T (Sep 6, CoinMarketCap; BTC dominance 57.59%); stablecoin dominance 10.98% ($307B / $2.79T); 30-day trend down: from ~13–14% in early August 2026 to 10.98% = sustained ~2–3pp decline reflecting capital deployment into risk assets; week-over-week: 10.84% (Sep 5) → 10.98% (Sep 6) = +0.14pp noise within a clear 30-day downtrend; status supportive (30-day falling trend confirmed; headwind condition — dominance rising while TOTAL also rising — does not apply: TOTAL declined from $2.82T to $2.79T); USDT $183.4B + USDC $74.2B = $257.6B = 83.8% of stablecoin market."
     }
   ],
   "upcoming": [
@@ -180,43 +180,43 @@
       "title": "PPI (August 2026)",
       "category": "Inflation",
       "importance": "medium",
-      "note": "BLS Producer Price Index for August 2026 at 8:30 AM ET—pipeline inflation read one day before CPI (Sep 11) and six days before FOMC Sep 16; July 2026 PPI was unchanged (final demand goods −0.7%, services +0.2%; per BLS archive); August NFP surprise (+162K vs +56K, Sep 4) has reset rate expectations to ~52% probability of a Sep 16 hike; a hot PPI print would strengthen the case for a hike and could pressure risk assets; a cooling PPI would add to disinflationary narrative and reduce hike probability heading into CPI Sep 11; released same day as ECB rate decision (Sep 10) and weekly jobless claims."
+      "note": "BLS Producer Price Index for August 2026 at 8:30 AM ET — pipeline inflation read one day before CPI (Sep 11) and six days before FOMC (Sep 16); July 2026 PPI was unchanged (final demand goods −0.7%, services +0.2%); August NFP surprise (+162K vs +56K, Sep 4) reset rate expectations to ~52% market-implied probability of a Sep 16 hike; a hot PPI print would reinforce the hike case and could push DXY toward 100; a cooling PPI would add to disinflationary narrative and reduce hike probability heading into CPI Sep 11; released same day as ECB rate decision and weekly jobless claims."
     },
     {
       "date": "2026-09-10",
       "title": "Initial Jobless Claims (week ended September 6, 2026)",
       "category": "Labor",
       "importance": "low",
-      "note": "DOL weekly initial jobless claims at 8:30 AM ET for week ending September 6, 2026—labor read released the same day as PPI and ECB decision; week ending Aug 29 came in at 206,000; strong August NFP (+162K) confirmed labor market resilience on Sep 4; a spike in claims above 220K would temper the new rate-hike narrative heading into CPI Sep 11 and FOMC Sep 16; released alongside PPI August and ECB rate decision, making Sep 10 a triple-event day."
+      "note": "DOL weekly initial jobless claims at 8:30 AM ET for week ending September 6, 2026; week ending Aug 29 came in at 206,000; strong August NFP (+162K, Sep 4) confirmed labor market resilience; a spike in claims above 220K would temper the rate-hike narrative heading into CPI Sep 11 and FOMC Sep 16; released alongside PPI August and ECB rate decision on what is a triple-event day."
     },
     {
       "date": "2026-09-10",
       "title": "ECB Rate Decision (September 2026)",
       "category": "Central Bank",
       "importance": "high",
-      "note": "European Central Bank Governing Council rate decision at 2:15 PM CET (8:15 AM ET), press conference at 2:45 PM CET; Reuters poll (Sep 3, 2026) showed 65 economists expecting the ECB to HIKE the deposit rate by 25bps to 2.50%; an ECB hike released the same day as US PPI and US jobless claims would reinforce global rate-hike narrative and could push DXY back above 100 (headwind threshold) if combined with a hot PPI; strong US NFP (+162K, Sep 4) already shifted markets to 52% probability of a Sep 16 Fed hike—concurrent ECB and Fed tightening would be a significant headwind for risk assets near-term; ECB guidance on future pace of tightening and inflation forecasts will be closely watched."
+      "note": "European Central Bank Governing Council rate decision at 2:15 PM CET (8:15 AM ET), press conference at 2:45 PM CET; Reuters poll (Sep 3) showed 65 economists expecting a 25bps hike to the deposit rate; an ECB hike alongside a hot US PPI on Sep 10 would reinforce global tightening narrative and could push DXY above 100 (headwind threshold); ECB guidance on the pace of future tightening and updated inflation forecasts will also be closely watched for EUR/USD and global fixed income impact."
     },
     {
       "date": "2026-09-11",
       "title": "CPI (August 2026)",
       "category": "Inflation",
       "importance": "high",
-      "note": "BLS Consumer Price Index for August 2026 at 8:30 AM ET—the final major inflation read before FOMC September 16; the data trifecta is now: NFP Sep 4 (+162K, strong), CPI Sep 11, then FOMC Sep 16; markets pricing 52% probability of a hike after NFP beat; a hot CPI above 3.8% YoY would likely lock in a Sep 16 hike and trigger DXY above 100 (headwind for risk assets); a soft CPI below 3.3% would pull back hike expectations and support risk assets even after the strong NFP; PCE inflation for July 2026 was 3.7% YoY (released Aug 26); includes core CPI ex-food and energy; the Fed-ECB divergence risk is maximal if ECB hikes Sep 10 while US CPI cools Sep 11."
+      "note": "BLS Consumer Price Index for August 2026 at 8:30 AM ET — final major inflation read before FOMC September 16; the data trifecta is: NFP Sep 4 (+162K, strong), CPI Sep 11, then FOMC Sep 16; markets pricing 52% probability of a hike after NFP beat; a hot CPI above 3.8% YoY would likely lock in a Sep 16 hike and push DXY above 100 (headwind for risk assets); a soft CPI below 3.3% would pull back hike expectations and support risk assets; July 2026 PCE (released Aug 26) was 3.7% YoY; core CPI ex-food and energy is the primary Fed focus."
     },
     {
       "date": "2026-09-11",
       "title": "University of Michigan Consumer Sentiment (September 2026, Preliminary)",
       "category": "Growth",
       "importance": "medium",
-      "note": "University of Michigan Consumer Sentiment Survey preliminary read for September 2026 at 10:00 AM ET—released same day as CPI August; captures consumer inflation expectations (1-year and 5-year) alongside current conditions and expectations indexes; if the NFP surprise (+162K, Sep 4) boosts consumer confidence but also raises inflation expectations, the Fed faces a stagflation-adjacent optics problem; elevated 1-year inflation expectations alongside hot CPI would strengthen the case for a Sep 16 hike; a drop in confidence alongside cooling CPI would temper hike odds and create a risk-asset supportive setup heading into FOMC."
+      "note": "University of Michigan Consumer Sentiment Survey preliminary read for September 2026 at 10:00 AM ET — released same day as CPI August; captures 1-year and 5-year inflation expectations alongside current conditions and expectations indexes; elevated 1-year inflation expectations combined with hot CPI would strengthen the Fed's case for a Sep 16 hike; a drop in confidence alongside cooling CPI would temper hike odds and create a risk-asset supportive setup heading into FOMC."
     }
   ],
   "sources": {
     "crypto": "CoinGecko",
     "tradfi": "FRED + Stooq",
     "marketsEndpoint": "markets",
-    "indicators": "2026-09-05",
-    "calendar": "2026-09-05"
+    "indicators": "2026-09-06",
+    "calendar": "2026-09-06"
   },
   "degraded": {
     "markets": false,
@@ -226,5 +226,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-09-05T21:42:29Z"
+  "cachedAtISO": "2026-09-06T11:21:28Z"
 }
