@@ -1,6 +1,6 @@
 {
-  "ts": "2026-09-07T07:08:16Z",
+  "ts": "2026-09-07T15:10:15Z",
   "title": "MacroPulse Alert",
   "priority": "default",
-  "message": ""
+  "message": "Liquid Network halted: 3,998 BTC (~$320M) drained from Blockstream federation wallet via software exploit (Sep 6). White hat claim; sidechain frozen, L-BTC transfers suspended. BTC base layer unaffected.\nBTC -0.66% at $79,458; US Labor Day, thin volume. No price threshold breaches."
 }
