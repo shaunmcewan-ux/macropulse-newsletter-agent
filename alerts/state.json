@@ -1,13 +1,11 @@
 {
-  "lastRunISO": "2026-09-07T15:10:15Z",
+  "lastRunISO": "2026-09-07T20:10:16Z",
   "priceAlerts": {
     "btc": { "pct": 4.27, "dir": "up", "ISO": "2026-09-04T15:10:34Z", "value": 81240 },
     "eth": { "pct": 4.5, "dir": "up", "ISO": "2026-09-04T20:10:07Z", "value": 2499 },
-    "ethbtc": { "pct": 0.502, "dir": "up", "ISO": "2026-08-30T15:09:26Z", "value": 0.03154841 },
     "btcd": { "pct": 3.035, "dir": "up", "ISO": "2026-09-06T15:10:02Z", "value": 59.196 },
     "total2": { "pct": 6.556, "dir": "down", "ISO": "2026-09-06T15:10:02Z", "value": 1103221182187 },
     "total3": { "pct": 9.493, "dir": "down", "ISO": "2026-09-06T15:10:02Z", "value": 798901778460 },
-    "dxy": { "pct": 0.553, "dir": "up", "ISO": "2026-08-30T15:09:26Z", "value": 99.677 },
     "gold": { "pct": 3.0, "dir": "down", "ISO": "2026-09-02T07:08:39Z", "value": 4315 },
     "oil": { "pct": 5.11, "dir": "up", "ISO": "2026-09-04T15:10:34Z", "value": 91.48 }
   },
@@ -32,6 +30,7 @@
     "standard-chartered-institutional-spot-btc-eth-uae-sep3": "2026-09-04T20:10:07Z",
     "btc-76k-overnight-post-nfp-sep5": "2026-09-05T07:10:37Z",
     "sep16-hike-odds-58pct-settled-end-fri-sep5": "2026-09-05T15:09:21Z",
-    "liquid-network-exploit-3998-btc-320m-sep6": "2026-09-07T15:10:15Z"
+    "liquid-network-exploit-3998-btc-320m-sep6": "2026-09-07T15:10:15Z",
+    "liquid-network-patch-confirmed-hacker-return-offer-sep7": "2026-09-07T20:10:16Z"
   }
 }
