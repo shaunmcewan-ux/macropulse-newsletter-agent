@@ -1,6 +1,6 @@
 {
-  "ts": "2026-09-08T15:10:02Z",
+  "ts": "2026-09-08T20:07:50Z",
   "title": "MacroPulse Alert",
-  "priority": "default",
-  "message": "US-Iran: US struck 3 Iranian oil tankers Sat; Iran launched missiles at US Navy warships. Fresh attacks Tue.\nWTI $92.56 — 3rd consecutive daily gain heading toward $100. Goldman flags $120/bbl risk if Mideast attacks persist.\nGoldman raised Dec-2026 WTI forecast +$5 to $80/bbl; Brent to $85 on prolonged Mideast shipping risk.\nBTC $78,370 (-1.6% 24h); ETH $2,490 (-1%) — risk-off as geopolitical tensions + hike odds weigh.\nFOMC Sep 16 hike odds: ~58–60% (CME FedWatch)."
+  "priority": "high",
+  "message": "Oil WTI $94.60 / Brent $99.22 (est. +7% 24h): Houthis struck Saudi Aramco in Jizan, Abha, Najran — 400k bpd refinery halted, 73 wounded. Major new escalation.\nCrypto slides on Iran/rate fears: BTC $78,238 (-1.6% 24h), ETH $2,474 (-1.0% 24h) — below alert thresholds.\nECB meets tomorrow (Sep 9–10): 99% priced for +25bp to 2.50%, expected second and final hike.\nFOMC (Sep 16) hike odds ~66% on CME FedWatch. PPI Sep 10, CPI Sep 11 in focus."
 }

@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-09-08T15:10:02Z",
+  "lastRunISO": "2026-09-08T20:07:50Z",
   "priceAlerts": {
     "btc": { "pct": 4.27, "dir": "up", "ISO": "2026-09-04T15:10:34Z", "value": 81240 },
     "eth": { "pct": 4.5, "dir": "up", "ISO": "2026-09-04T20:10:07Z", "value": 2499 },
@@ -8,7 +8,7 @@
     "total2": { "pct": 7.478, "dir": "down", "ISO": "2026-09-08T07:09:31Z", "value": 1095389142625 },
     "total3": { "pct": 9.962, "dir": "down", "ISO": "2026-09-08T07:09:31Z", "value": 792762577560 },
     "gold": { "pct": 3.0, "dir": "down", "ISO": "2026-09-02T07:08:39Z", "value": 4315 },
-    "oil": { "pct": 5.113, "dir": "up", "ISO": "2026-09-08T07:09:31Z", "value": 91.48 }
+    "oil": { "pct": 7.0, "dir": "up", "ISO": "2026-09-08T20:07:50Z", "value": 94.60 }
   },
   "releases": {
     "ISM-Mfg-PMI-Aug-2026": "2026-09-01T15:12:16Z",
@@ -35,6 +35,9 @@
     "liquid-network-85pct-btc-returned-sep8": "2026-09-08T07:09:31Z",
     "fomc-sep16-hike-odds-60pct-sep8": "2026-09-08T07:09:31Z",
     "us-iran-tanker-strikes-navy-missiles-sep6-7": "2026-09-08T15:10:02Z",
-    "goldman-oil-120-flag-mideast-shipping-sep8": "2026-09-08T15:10:02Z"
+    "goldman-oil-120-flag-mideast-shipping-sep8": "2026-09-08T15:10:02Z",
+    "houthi-saudi-aramco-attack-jizan-400kbpd-halted-sep8": "2026-09-08T20:07:50Z",
+    "oil-brent-9922-wti-9460-sep8-afternoon": "2026-09-08T20:07:50Z",
+    "ecb-sep910-25bp-to-250pct-expected-final-hike": "2026-09-08T20:07:50Z"
   }
 }
