@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-09-08T07:09:31Z",
+  "lastRunISO": "2026-09-08T15:10:02Z",
   "priceAlerts": {
     "btc": { "pct": 4.27, "dir": "up", "ISO": "2026-09-04T15:10:34Z", "value": 81240 },
     "eth": { "pct": 4.5, "dir": "up", "ISO": "2026-09-04T20:10:07Z", "value": 2499 },
@@ -33,6 +33,8 @@
     "liquid-network-exploit-3998-btc-320m-sep6": "2026-09-07T15:10:15Z",
     "liquid-network-patch-confirmed-hacker-return-offer-sep7": "2026-09-07T20:10:16Z",
     "liquid-network-85pct-btc-returned-sep8": "2026-09-08T07:09:31Z",
-    "fomc-sep16-hike-odds-60pct-sep8": "2026-09-08T07:09:31Z"
+    "fomc-sep16-hike-odds-60pct-sep8": "2026-09-08T07:09:31Z",
+    "us-iran-tanker-strikes-navy-missiles-sep6-7": "2026-09-08T15:10:02Z",
+    "goldman-oil-120-flag-mideast-shipping-sep8": "2026-09-08T15:10:02Z"
   }
 }
