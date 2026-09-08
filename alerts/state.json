@@ -1,13 +1,14 @@
 {
-  "lastRunISO": "2026-09-07T20:10:16Z",
+  "lastRunISO": "2026-09-08T07:09:31Z",
   "priceAlerts": {
     "btc": { "pct": 4.27, "dir": "up", "ISO": "2026-09-04T15:10:34Z", "value": 81240 },
     "eth": { "pct": 4.5, "dir": "up", "ISO": "2026-09-04T20:10:07Z", "value": 2499 },
-    "btcd": { "pct": 3.035, "dir": "up", "ISO": "2026-09-06T15:10:02Z", "value": 59.196 },
-    "total2": { "pct": 6.556, "dir": "down", "ISO": "2026-09-06T15:10:02Z", "value": 1103221182187 },
-    "total3": { "pct": 9.493, "dir": "down", "ISO": "2026-09-06T15:10:02Z", "value": 798901778460 },
+    "btcd": { "pct": 2.958, "dir": "up", "ISO": "2026-09-08T07:09:31Z", "value": 59.13 },
+    "total": { "pct": 3.605, "dir": "down", "ISO": "2026-09-08T07:09:31Z", "value": 2680151134880 },
+    "total2": { "pct": 7.478, "dir": "down", "ISO": "2026-09-08T07:09:31Z", "value": 1095389142625 },
+    "total3": { "pct": 9.962, "dir": "down", "ISO": "2026-09-08T07:09:31Z", "value": 792762577560 },
     "gold": { "pct": 3.0, "dir": "down", "ISO": "2026-09-02T07:08:39Z", "value": 4315 },
-    "oil": { "pct": 5.11, "dir": "up", "ISO": "2026-09-04T15:10:34Z", "value": 91.48 }
+    "oil": { "pct": 5.113, "dir": "up", "ISO": "2026-09-08T07:09:31Z", "value": 91.48 }
   },
   "releases": {
     "ISM-Mfg-PMI-Aug-2026": "2026-09-01T15:12:16Z",
@@ -15,7 +16,6 @@
     "NFP-Aug-2026": "2026-09-04T15:10:34Z"
   },
   "news": {
-    "us-iran-larak-island-strike-hormuz-closure-aug30": "2026-08-31T15:12:09Z",
     "sep16-hike-66pct-fedwatch-energy-shock-aug31": "2026-09-01T07:11:07Z",
     "btc-etf-inflows-217m-sep1-assets-near-100b": "2026-09-01T20:06:56Z",
     "iran-retaliation-jordan-uae-strikes-sep2": "2026-09-02T07:08:39Z",
@@ -31,6 +31,8 @@
     "btc-76k-overnight-post-nfp-sep5": "2026-09-05T07:10:37Z",
     "sep16-hike-odds-58pct-settled-end-fri-sep5": "2026-09-05T15:09:21Z",
     "liquid-network-exploit-3998-btc-320m-sep6": "2026-09-07T15:10:15Z",
-    "liquid-network-patch-confirmed-hacker-return-offer-sep7": "2026-09-07T20:10:16Z"
+    "liquid-network-patch-confirmed-hacker-return-offer-sep7": "2026-09-07T20:10:16Z",
+    "liquid-network-85pct-btc-returned-sep8": "2026-09-08T07:09:31Z",
+    "fomc-sep16-hike-odds-60pct-sep8": "2026-09-08T07:09:31Z"
   }
 }
