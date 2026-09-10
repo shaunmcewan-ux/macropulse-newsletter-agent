@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T17:53:22.789Z",
+  "generatedAt": "2026-09-10T21:54:29.500Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "BTC Accumulation holds on Sep 10 with 5 of 8 indicators supportive — Global M2 expanding (~$103.4T July G4 composite), 2s10s steepening to +41bps on a 4-week basis, Fed balance sheet stable at $6.74T, BTC funding rates near zero (~0.008%), and stablecoin dominance in a sustained 30-day downtrend (11.04% confirmed Sep 10, $307B / $2.78T TOTAL); DXY has weakened further to 98.75 (4-month low, still neutral 97.5–100 band), BTC.D at 57.48% remains firm above the 55% alt-rotation threshold, with today's triple-event day (PPI 8:30 ET + ECB rate decision + Jobless Claims) and tomorrow's CPI (Sep 11) the last major data catalysts before FOMC Sep 16 (~60% hike probability).",
@@ -14,66 +14,66 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 77379,
+      "value": 77138,
       "format": "usd",
-      "change24h": -1.70007,
-      "change30d": 21.4
+      "change24h": -1.23041,
+      "change30d": 21.7
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 2468.96,
+      "value": 2459.82,
       "format": "usd",
-      "change24h": -0.9206,
-      "change30d": 31.5
+      "change24h": 0.0228,
+      "change30d": 30.9
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.0319025,
+      "value": 0.03188408,
       "format": "ratio",
-      "change24h": 0.7941504903784351,
-      "change30d": 6.6007270453373525
+      "change24h": 1.2471695722032738,
+      "change30d": 6.207998968060821
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 58.484325223513544,
+      "value": 58.466521087480174,
       "format": "percent",
-      "change24h": 2.999539984685029,
-      "change30d": 0.3593285745326949
+      "change24h": 3.0331531449383498,
+      "change30d": 0.3322281185242861
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2652382143405.778,
+      "value": 2644906487695.462,
       "format": "usd-compact",
-      "change24h": -4.567874754959676,
-      "change30d": 20.72389832078636
+      "change24h": -4.131925516197302,
+      "change30d": 20.34384360093301
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1101154344485.9434,
+      "value": 1098521678322.8635,
       "format": "usd-compact",
-      "change24h": -8.343323760520919,
-      "change30d": 20.093189649898687
+      "change24h": -7.9626624121277025,
+      "change30d": 19.76634356891794
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 800440315693.189,
+      "value": 798950415934.9059,
       "format": "usd-compact",
-      "change24h": -10.867209450516045,
-      "change30d": 15.510164691613205
+      "change24h": -10.649981829159199,
+      "change30d": 15.24270648402427
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 98.985,
+      "value": 99.077,
       "format": "index",
-      "change24h": 0.20550302686724603,
-      "change30d": -0.8196146408424575
+      "change24h": 0.2986374035755519,
+      "change30d": -0.7274330430948961
     },
     {
       "id": "us500",
@@ -94,18 +94,18 @@
     {
       "id": "oil",
       "label": "Oil (WTI)",
-      "value": 91.48,
+      "value": 97.26,
       "format": "usd",
-      "change24h": 5.113179363437898,
-      "change30d": 6.174558960074289
+      "change24h": 3.2374482539008724,
+      "change30d": 16.11747851002865
     },
     {
       "id": "gold",
       "label": "Gold",
-      "value": 4359.423,
+      "value": 4318.106,
       "format": "usd",
-      "change24h": -0.914097517069591,
-      "change30d": -0.6732103432012632
+      "change24h": -1.853197079761084,
+      "change30d": -1.614592945497474
     }
   ],
   "indicators": [
@@ -240,5 +240,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-09-10T17:53:22Z"
+  "cachedAtISO": "2026-09-10T21:54:29Z"
 }
