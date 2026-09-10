@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-09-09T20:10:38Z",
+  "lastRunISO": "2026-09-10T07:10:26Z",
   "priceAlerts": {
     "btc": { "pct": 4.27, "dir": "up", "ISO": "2026-09-04T15:10:34Z", "value": 81240 },
     "eth": { "pct": 4.5, "dir": "up", "ISO": "2026-09-04T20:10:07Z", "value": 2499 },
@@ -7,19 +7,14 @@
     "total": { "pct": 3.605, "dir": "down", "ISO": "2026-09-08T07:09:31Z", "value": 2680151134880 },
     "total2": { "pct": 7.478, "dir": "down", "ISO": "2026-09-08T07:09:31Z", "value": 1095389142625 },
     "total3": { "pct": 9.962, "dir": "down", "ISO": "2026-09-08T07:09:31Z", "value": 792762577560 },
-    "gold": { "pct": 3.0, "dir": "down", "ISO": "2026-09-02T07:08:39Z", "value": 4315 },
     "oil": { "pct": 7.0, "dir": "up", "ISO": "2026-09-08T20:07:50Z", "value": 94.60 }
   },
   "releases": {
-    "ISM-Mfg-PMI-Aug-2026": "2026-09-01T15:12:16Z",
     "ISM-Services-PMI-Aug-2026": "2026-09-03T15:09:46Z",
-    "NFP-Aug-2026": "2026-09-04T15:10:34Z"
+    "NFP-Aug-2026": "2026-09-04T15:10:34Z",
+    "PPI-Aug-2026": "2026-09-10T07:10:26Z"
   },
   "news": {
-    "sep16-hike-66pct-fedwatch-energy-shock-aug31": "2026-09-01T07:11:07Z",
-    "btc-etf-inflows-217m-sep1-assets-near-100b": "2026-09-01T20:06:56Z",
-    "iran-retaliation-jordan-uae-strikes-sep2": "2026-09-02T07:08:39Z",
-    "btc-etf-first-outflow-streak-break-sep2": "2026-09-02T20:10:53Z",
     "ism-services-aug-55pt4-beat-sep3": "2026-09-03T15:09:46Z",
     "trump-iran-strikes-brief-oil-91-wti-sep3": "2026-09-03T15:09:46Z",
     "btc-etf-aug-inflows-3pt52b-best-month-2026": "2026-09-03T15:09:46Z",
@@ -42,6 +37,8 @@
     "brent-100-crossed-10205-sep9": "2026-09-09T15:10:59Z",
     "btc-etf-outflows-87m-sep9-gbtc-fbtc-reversal": "2026-09-09T15:10:59Z",
     "fomc-hike-odds-63pct-sep9": "2026-09-09T20:10:38Z",
-    "us-cpi-aug-sep11-fomc-catalyst": "2026-09-09T20:10:38Z"
+    "us-cpi-aug-sep11-fomc-catalyst": "2026-09-09T20:10:38Z",
+    "ecb-hold-sep10-2026-surprise-rates-2pct": "2026-09-10T07:10:26Z",
+    "ppi-aug-2026-core-28pct-vs-35pct-exp": "2026-09-10T07:10:26Z"
   }
 }

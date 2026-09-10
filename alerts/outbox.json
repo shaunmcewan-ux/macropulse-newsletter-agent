@@ -1,6 +1,6 @@
 {
-  "ts": "2026-09-09T20:10:38Z",
+  "ts": "2026-09-10T07:10:26Z",
   "title": "MacroPulse Alert",
-  "priority": "default",
-  "message": "FOMC Sep 16 hike odds: 63% (up from 60%) — energy shock + jobs beat tightening Fed expectations\nUS CPI Aug prints Thu Sep 11 08:30 ET — last major data before the rate decision\nBrent crude holding above $100; ECB expected to hike 25bp tomorrow (Sep 10)"
+  "priority": "high",
+  "message": "ECB holds Sep 10 — rates at 2.00%, vs 99%-priced 25bp hike to 2.50%. EUR lower, DAX -1.74%, CAC -1.94%.\nPPI Aug: core +2.8% YoY vs 3.5% exp — large disinflation undershoot; FOMC Sep 16 hike odds drift to ~57% (was 63%).\nCPI Aug due tomorrow Sep 11 8:30am ET — next key FOMC catalyst ahead of Sep 16 decision."
 }
