@@ -1,6 +1,6 @@
 {
-  "ts": "2026-09-10T07:10:26Z",
+  "ts": "2026-09-10T15:10:48Z",
   "title": "MacroPulse Alert",
   "priority": "high",
-  "message": "ECB holds Sep 10 — rates at 2.00%, vs 99%-priced 25bp hike to 2.50%. EUR lower, DAX -1.74%, CAC -1.94%.\nPPI Aug: core +2.8% YoY vs 3.5% exp — large disinflation undershoot; FOMC Sep 16 hike odds drift to ~57% (was 63%).\nCPI Aug due tomorrow Sep 11 8:30am ET — next key FOMC catalyst ahead of Sep 16 decision."
+  "message": "ECB hiked +25bp to 2.50% deposit rate (12:15 GMT) — Eurozone CPI 3.3% Aug, energy +14.3% YoY.\nFOMC Sep 16 hike odds tick to ~66% (CME) post-ECB; US Aug CPI prints tomorrow 08:30 ET (cons. 3.4% YoY).\nBTC $77.9K / ETH $2.46K — pre-CPI drift; 24h moves within thresholds."
 }
