@@ -1,6 +1,6 @@
 {
-  "ts": "2026-09-11T15:08:09Z",
+  "ts": "2026-09-11T20:10:52Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "CPI Aug: +0.4% MoM, 3.4% YoY — core +0.3% MoM beat (0.2% exp), 2.4% YoY\nSep 16 FOMC hike odds surge to 90% post-CPI; bond market prices two hikes by year-end\n2yr yield +11bp intraday to 4.572%; DXY 99.05, Gold $4,348 (+0.71%)\nBTC $77,087 (-2.1% 24h) — below alert threshold"
+  "priority": "default",
+  "message": "ETH/BTC +3.6% (24h) -> 0.03308 — ETH showing relative strength vs BTC post-altcoin washout\nClarity Act cloture vote Sept 15: revised 630-pg crypto bill (DeFi/CFTC rules), needs 60 Senate votes — outcome uncertain"
 }

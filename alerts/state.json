@@ -1,8 +1,9 @@
 {
-  "lastRunISO": "2026-09-11T15:08:09Z",
+  "lastRunISO": "2026-09-11T20:10:52Z",
   "priceAlerts": {
     "btc": { "pct": 4.27, "dir": "up", "ISO": "2026-09-04T15:10:34Z", "value": 81240 },
     "eth": { "pct": 4.5, "dir": "up", "ISO": "2026-09-04T20:10:07Z", "value": 2499 },
+    "ethbtc": { "pct": 3.636, "dir": "up", "ISO": "2026-09-11T20:10:52Z", "value": 0.03308 },
     "btcd": { "pct": 2.999, "dir": "up", "ISO": "2026-09-10T20:09:52Z", "value": 58.48 },
     "total": { "pct": 4.568, "dir": "down", "ISO": "2026-09-10T20:09:52Z", "value": 2652382143405 },
     "total2": { "pct": 8.343, "dir": "down", "ISO": "2026-09-10T20:09:52Z", "value": 1101154344485 },
@@ -40,6 +41,7 @@
     "warsh-hawkish-70pct-cumulative-hike-sep10": "2026-09-10T20:09:52Z",
     "iran-irgc-us-navy-vessels-houthi-seize-port-sep10": "2026-09-11T07:11:57Z",
     "cpi-aug-0pt4pct-mom-3pt4pct-yoy-core-beat-sep11": "2026-09-11T15:08:09Z",
-    "fomc-hike-odds-90pct-post-cpi-two-hikes-year-end-sep11": "2026-09-11T15:08:09Z"
+    "fomc-hike-odds-90pct-post-cpi-two-hikes-year-end-sep11": "2026-09-11T15:08:09Z",
+    "clarity-act-cloture-vote-sept15-defi-cftc-rules-sep11": "2026-09-11T20:10:52Z"
   }
 }
