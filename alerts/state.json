@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-09-11T07:11:57Z",
+  "lastRunISO": "2026-09-11T15:08:09Z",
   "priceAlerts": {
     "btc": { "pct": 4.27, "dir": "up", "ISO": "2026-09-04T15:10:34Z", "value": 81240 },
     "eth": { "pct": 4.5, "dir": "up", "ISO": "2026-09-04T20:10:07Z", "value": 2499 },
@@ -11,7 +11,8 @@
   },
   "releases": {
     "NFP-Aug-2026": "2026-09-04T15:10:34Z",
-    "PPI-Aug-2026": "2026-09-10T07:10:26Z"
+    "PPI-Aug-2026": "2026-09-10T07:10:26Z",
+    "CPI-Aug-2026": "2026-09-11T15:08:09Z"
   },
   "news": {
     "nfp-aug-162k-vs-53k-forecast-3x-beat-sep4": "2026-09-04T15:10:34Z",
@@ -37,6 +38,8 @@
     "total3-10pct-24h-alt-selloff-sep10": "2026-09-10T20:09:52Z",
     "oil-wti-9148-plus5pct-24h-iran-sep10": "2026-09-10T20:09:52Z",
     "warsh-hawkish-70pct-cumulative-hike-sep10": "2026-09-10T20:09:52Z",
-    "iran-irgc-us-navy-vessels-houthi-seize-port-sep10": "2026-09-11T07:11:57Z"
+    "iran-irgc-us-navy-vessels-houthi-seize-port-sep10": "2026-09-11T07:11:57Z",
+    "cpi-aug-0pt4pct-mom-3pt4pct-yoy-core-beat-sep11": "2026-09-11T15:08:09Z",
+    "fomc-hike-odds-90pct-post-cpi-two-hikes-year-end-sep11": "2026-09-11T15:08:09Z"
   }
 }
