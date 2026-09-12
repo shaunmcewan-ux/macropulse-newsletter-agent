@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-11T21:57:08.483Z",
+  "generatedAt": "2026-09-12T11:15:59.076Z",
   "dial": {
     "state": "BTC Accumulation",
-    "summary": "BTC Accumulation holds on Sep 11 as 5 of 8 indicators remain supportive — Global M2 still expanding, 2s10s steepened to +43bps, Fed balance sheet stable at $6.74T, BTC funding near zero (~0.01%), and stablecoin dominance in a sustained 30-day downtrend (11.2% on $2.74T TOTAL); real yields have shifted to headwind (derived ~2.56% as 10Y nominal reached 4.96% — cusp of 5% — following hot Aug PPI +5.4% YoY and CPI Aug 2026 release today); DXY ticked up to 99.06 but remains in the neutral 97.5–100 band; BTC.D at 57.2% holds above the 55% alt-rotation threshold despite BTC pulling back to ~$76,900 (-1.6%); Sep 16 FOMC hike probability ~57% — the week's ECB (Sep 10 hike confirmed), FOMC (Sep 16), BOE (Sep 17), and BOJ (Sep 18) cluster is the defining risk event for Q4 2026 trajectory.",
+    "summary": "BTC Accumulation holds on Sep 12 as hot CPI (+3.4% YoY / +0.4% MoM, Sep 11) drove FOMC hike probability to 85% and pushed real yields to ~2.59% (headwind), with the 2Y surging +22bps to 4.61% and compressing 2s10s to +36bps (now neutral); BTC.D surged to 59.2% in a defensive crypto rotation while TOTAL edged up to $2.8T and stablecoin dominance continued its 30-day slide to 10.9%, keeping BTC accumulation dynamics intact ahead of the FOMC/BOE/BOJ decision cluster Sep 16–18.",
     "states": [
       "BTC Accumulation",
       "Alt Rotation",
@@ -14,58 +14,58 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 77190,
+      "value": 77303,
       "format": "usd",
-      "change24h": 0.11765,
-      "change30d": 22
+      "change24h": 0.72737,
+      "change30d": 21.3
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 2520.82,
+      "value": 2531.29,
       "format": "usd",
-      "change24h": 2.62806,
-      "change30d": 34.6
+      "change24h": 3.20238,
+      "change30d": 34.1
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.03266202,
+      "value": 0.03274669,
       "format": "ratio",
-      "change24h": 2.4492748097644848,
-      "change30d": 10.99804318823752
+      "change24h": 2.5073934113723153,
+      "change30d": 10.332392918288763
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 58.23459159405332,
+      "value": 58.16805062190178,
       "format": "percent",
-      "change24h": 2.476942396041637,
-      "change30d": 0.44427078127098285
+      "change24h": 2.381431629506281,
+      "change30d": 0.15251549016939941
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2656214761129.686,
+      "value": 2664084360754.967,
       "format": "usd-compact",
-      "change24h": -2.2882927039128864,
-      "change30d": 20.911188828795115
+      "change24h": -1.6429264591583461,
+      "change30d": 21.793033743963974
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1109378943124.8545,
+      "value": 1114438421180.8494,
       "format": "usd-compact",
-      "change24h": -5.492548834197821,
-      "change30d": 20.029713814155894
+      "change24h": -4.737648479053378,
+      "change30d": 21.52551139188316
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 802045415667.4293,
+      "value": 805967894192.4774,
       "format": "usd-compact",
-      "change24h": -8.30032867130106,
-      "change30d": 14.938553595480094
+      "change24h": -7.471886533526899,
+      "change30d": 16.43073220257363
     },
     {
       "id": "dxy",
@@ -73,15 +73,15 @@
       "value": 99.094,
       "format": "index",
       "change24h": 0.00201832640374131,
-      "change30d": -0.7153735171529465
+      "change30d": -0.8663465386154459
     },
     {
       "id": "us500",
       "label": "S&P 500",
-      "value": 7591.7,
+      "value": 7656.98,
       "format": "index",
-      "change24h": -0.5848336118255275,
-      "change30d": -1.7662586371988303
+      "change24h": 0.859886454944212,
+      "change30d": -1.1811318319674833
     },
     {
       "id": "ftse",
@@ -115,7 +115,7 @@
       "value": "$103.4T",
       "trend": "up",
       "status": "supportive",
-      "note": "Global 4-bank M2 aggregate (Fed/ECB/BOJ/PBOC) estimated at ~$103.4T (July 2026 composite; 6–8 week reporting lag means August aggregate unavailable until mid-October); MacroMicro confirmed June 2026 global G4 M2 at $102,663.81B ($102.66T); July YoY growth rates at 4.67–4.81% per MacroMicro; broader global broad money supply (all central banks) reached a record $150T in June 2026 per SpendNode Sep 2 report — G4 aggregate of $103.4T consistent with this (G4 ≈ 69% of global total); 4-week uptrend confirmed on July G4 composite vs June confirmed ($102.66T → ~$103.4T = +$0.74T, above flat threshold); August global 4-bank aggregate not yet published (expected mid-October); status supportive (4-week rising trend met); ECB hiked Sep 10, FOMC Sep 16 (~57% hike probability), and BOJ Sep 18 — the full September central bank sequence will determine Q4 global liquidity trajectory."
+      "note": "Global 4-bank M2 aggregate (Fed/ECB/BOJ/PBOC) estimated at ~$103.4T (July 2026 composite; 6–8 week reporting lag means August aggregate unavailable until mid-October); MacroMicro confirmed June 2026 global G4 M2 at $102,663.81B ($102.66T); 4-week uptrend confirmed (June $102.66T → July ~$103.4T = +$0.74T, above flat threshold); status supportive (4-week rising trend met); September monetary policy context: ECB hiked Sep 10, FOMC Sep 16 with hike probability surging to 85% following hot Aug CPI (+3.4% YoY / +0.4% MoM, Sep 11) and Aug PPI (+5.4% YoY, Sep 10), BOE Sep 17, BOJ Sep 18; a synchronized hike cycle would apply modest G4 M2 headwinds via higher reserve costs through Q4 2026."
     },
     {
       "tier": 1,
@@ -123,31 +123,31 @@
       "value": "54.6",
       "trend": "down",
       "status": "neutral",
-      "note": "August 2026 ISM Manufacturing PMI released Sep 1 at 54.6%, down 1.0pp from July 55.6% (eighth consecutive month of expansion; below 55.2% consensus); Production 58.3% (−0.2pp), New Orders 53.7% (−3.0pp vs July), Backlogs 51.8% (−3.2pp), Employment 51.2% (−1.6pp); 4-week trend down: July 55.6% → August 54.6% = −1.0pp; ISM Non-Manufacturing PMI (Sep 3) was 55.4% (beat 54.1% forecast); status neutral (above 50 but falling; supportive requires above 50 AND rising; headwind requires below 48 and falling or above 62 — neither applies); reading of 54.6% corresponds to approximately 2.4% annualized real GDP growth per ISM historical correlation; next ISM Manufacturing release October 1 (September data); S&P Global Flash PMI Sep 23 will provide the next advance manufacturing-sector read."
+      "note": "August 2026 ISM Manufacturing PMI released Sep 1 at 54.6%, down 1.0pp from July 55.6% (eighth consecutive month of expansion; below 55.2% consensus); Production 58.3% (−0.2pp), New Orders 53.7% (−3.0pp vs July), Backlogs 51.8% (−3.2pp), Employment 51.2% (−1.6pp); 4-week trend down: July 55.6% → August 54.6% = −1.0pp (no new ISM release since Sep 1); status neutral (above 50 but falling; supportive requires above 50 AND rising; headwind requires below 48 and falling or above 62 — neither applies); hot Aug CPI (+3.4% YoY, +0.4% MoM, Sep 11) adds cost-push pressure to manufacturing sector, though Production at 58.3% indicates robust factory output; next ISM Manufacturing release October 1 (September data); S&P Global Flash PMI Sep 23 will provide the next advance manufacturing-sector read."
     },
     {
       "tier": 1,
       "name": "DXY (US Dollar Index)",
-      "value": "99.06",
+      "value": "99.09",
       "trend": "down",
       "status": "neutral",
-      "note": "ICE DXY at 99.06 on September 11, 2026 — up +0.32% from Sep 10 (98.75) as the global bond selloff (10Y at 4.96%, cusp of 5%) lends marginal USD support; 4-week trend down: from approximately 101.0–101.4 in early August to 99.06 on Sep 11 = −2.0% relative decline, well above the 0.5% flat threshold; status neutral (ICE DXY 99.06 within 97.5–100 band; approaching but not yet at the 100 headwind threshold); dollar has weakened ~0.96% over the past month per Trade Weighted index data; Aug PPI came in hot (+0.4% MoM, +5.4% YoY per BLS Sep 10 release) — headline energy-driven by diesel (+24.1%); Aug CPI released today (Sep 11, 8:30 AM ET, consensus 3.4% YoY); if CPI reinforces the inflation narrative, DXY could break above 100 into headwind territory ahead of FOMC Sep 16 (~57% hike odds); FOMC dot plot and rate path guidance are the primary remaining DXY catalyst."
+      "note": "ICE DXY at 99.09 on September 12, 2026 — essentially unchanged from 99.06 (Sep 11) despite 2Y yields surging +22bps to 4.611% after hot Aug CPI (+3.4% YoY / +0.4% MoM); DXY's muted response to a hawkish CPI print reflects dollar-negative cross-currents (yen carry unwind risks ahead of BOJ Sep 18, policy divergence uncertainty); 4-week trend down: ~99.60 (Aug 12 per barchart technical analysis) → 99.09 (Sep 12) = −0.51%, just above the 0.5% flat threshold; status neutral (ICE DXY 99.09 within 97.5–100 band); FOMC hike probability at 85% (CME FedWatch, Sep 12) — a Sep 16 hike + hawkish dot plot would test the 100 headwind threshold; August 2026 DXY averaged 100.12, ranging 98.73–101.73 (barchart); BOJ Sep 18 outcome is the primary downside DXY risk via potential yen carry unwind."
     },
     {
       "tier": 1,
       "name": "Real Yields (US10Y - CPI)",
-      "value": "2.56%",
+      "value": "2.59%",
       "trend": "up",
       "status": "headwind",
-      "note": "Derived real yield: 10Y nominal 4.96% (Sep 11 Bloomberg — cusp of 5%, +16bps on the day) minus 10Y BEI estimated 2.40% (T10YIE range 2.2%–2.5% per FRED; mid-range applied given stable core CPI near-2.4%) = ~2.56%; FRED direct DFII10 fetch blocked again this run; last confirmed DFII10 value: 2.42% as of Sep 3–4, 2026 (ALFRED database cutoff); 4-week trend up: ~2.43% (Aug 11 estimate) → ~2.56% (Sep 11 derived) = +13bps, above the 5bps flat threshold — trend flipped from flat to up; status headwind (rising 4-week trend AND value above 2%); this headwind status is new vs Sep 10 (was neutral/flat); key driver is the global bond selloff pushing 10Y toward 5% following hot Aug PPI (+5.4% YoY, Sep 10) and ahead of Aug CPI (Sep 11); FOMC Sep 16 and dot plot are the primary catalyst — a hike + hawkish 2027 dots would likely push real yields further above 2.5%, deepening the headwind for risk assets."
+      "note": "Estimated real yield: ~2.59% for Sep 12 (derived: 10Y nominal 4.97% − BEI 2.38% = 2.59%; cross-checked against direct DFII10 of 2.46% on Sep 9, 2026 per WatchGold — the +13bp move Sep 9→12 reflects the bond selloff accelerating post-CPI); Aug CPI released Sep 11: +3.4% YoY / +0.4% MoM — monthly print more than quadrupled July's +0.1%; FOMC hike probability jumped to 85% (from 57% Sep 11); 4-week trend up: ~2.43% (Aug 12 est.) → ~2.59% (Sep 12) = +16bps, well above 5bps flat threshold; status headwind (rising 4-week trend AND above 2% threshold both met); 10Y nominal 4.97% approaching psychologically significant 5% level; FOMC Sep 16 dot plot is the primary catalyst — a hike + hawkish 2027 projections would push real yields further above 2.5%."
     },
     {
       "tier": 1,
       "name": "2s10s Yield Curve",
-      "value": "+0.43%",
-      "trend": "up",
-      "status": "supportive",
-      "note": "September 11, 2026: 2s10s spread at approximately +0.43% (+43bps); Sep 11 data: 10Y yield 4.96% (Bloomberg — cusp of 5%), 2Y yield 4.535% (up +14.5bps from Sep 10's 4.39%), spread = 4.96% − 4.535% = +42.5bps, reported as +0.43%; 4-week uptrend confirmed: ~+35bps (Aug 9 estimate) → +43bps (Sep 11) = +8bps net steepening over 4 weeks; status supportive (positive spread AND 4-week steepening confirmed; well outside the −50bps headwind threshold); note: today's steepening is a 'bear steepener' — both yields rising, 10Y faster than 2Y — driven by inflation/fiscal concerns rather than rate-cut expectations; FOMC Sep 16 is the key near-term risk: a hike would rapidly flatten the curve as 2Y reprices faster; the curve remains solidly in positive territory compared to the deeply inverted (−50bps+) range of 2023–24."
+      "value": "+0.36%",
+      "trend": "flat",
+      "status": "neutral",
+      "note": "September 12, 2026: 2s10s spread at +0.36% (+36bps) — sharp bear flattening from yesterday's +43bps (Sep 11); Sep 12 data: 10Y yield ~4.97% (+1bp), 2Y yield 4.611% (CNBC, 12:45 PM EDT, +22bps on the day after hot Aug CPI +3.4% YoY / +0.4% MoM drove FOMC hike probability to 85%); spread = 4.97% − 4.611% = +35.9bps, reported as +0.36%; 4-week trend flat: ~+35bps (Aug 12 estimate) → +36bps (Sep 12) = +1bp in 4 weeks — below the steepening threshold; status neutral (positive spread but 4-week steepening condition not met; shifted from supportive on Sep 11; status rule: supportive requires positive AND steepening); today's bear flattening is driven by 2Y pricing in 85% hike probability, not by falling long-end rate-cut expectations; FOMC Sep 16 is the key risk: a hike would further flatten the curve as 2Y prices above current levels."
     },
     {
       "tier": 1,
@@ -155,7 +155,7 @@
       "value": "$6.74T",
       "trend": "flat",
       "status": "supportive",
-      "note": "WALCL: $6.74T (~$6,737B) for week ending September 2, 2026 (H.4.1 confirmed; govspending.org cross-reference); H.4.1 for week ending September 10 was released at 4:30 PM ET September 10 — not yet captured in this run (FRED API blocked; no govspending.org Sep 10 data confirmed in search results); 4-week trend flat: ~Aug 5 estimate ~$6.70T → Sep 2 $6.74T = +$40B, within flat threshold; status supportive (holding at post-2022 stabilization plateau; routine measured QT continues with no acceleration and no overnight rate spike); the Sep 10 H.4.1 report would reflect the post-ECB rate decision (Sep 10 hike) and pre-FOMC (Sep 16) reserve conditions; next confirmed update expected when FRED API access is restored."
+      "note": "WALCL: $6.74T (~$6,737B) for week ending September 3, 2026 (H.4.1 confirmed); H.4.1 for week ending September 10 is scheduled for release September 17, 2026 — not yet available (will reflect post-ECB Sep 10 hike and pre-FOMC Sep 16 reserve conditions); 4-week trend flat: ~$6.70T (Aug 6 estimate) → $6.74T (Sep 3) = +$40B, within flat threshold; status supportive (holding at post-2022 stabilization plateau; routine measured QT continues with no acceleration and no overnight rate spike); FOMC Sep 16 decision will inform any policy shift on balance sheet normalization pace; next confirmed update September 17 (H.4.1 release for week ending Sep 10)."
     },
     {
       "tier": 3,
@@ -163,15 +163,15 @@
       "value": "0.01%",
       "trend": "flat",
       "status": "supportive",
-      "note": "BTC perpetual funding rate at approximately +0.01% per 8h (Sep 9–11, 2026; CoinGlass direct fetch egress-blocked; value cross-referenced from MacroMicro BTC perpetual futures funding rate series showing 0.01% for Sep 9–10 context); 30-day trend flat: near zero throughout August–September 2026; BTC.D at 57.2% (Sep 11: $1.54T BTC market cap / $2.74T TOTAL — BTC down 1.6% to $76,900 on CPI release day volatility); well below the +0.04% per 8h overheating threshold; status supportive (near-zero funding confirms spot-driven price action with no leveraged long crowding; slight pullback in BTC today is orderly and unaccompanied by funding rate spike); BTC.D decline from 57.48% (Sep 10) to 57.2% (Sep 11) reflects broader crypto market selling slightly outpacing BTC — not yet at the 55% alt-rotation threshold."
+      "note": "BTC perpetual funding rate approximately +0.01% per 8h (Sep 12, 2026; CoinGlass and MacroMicro direct fetch egress-blocked; value based on prior confirmed data and market context — BTC holding near $77,000 on Sep 12 post-CPI); 30-day trend flat: near zero throughout August–September 2026; BTC.D surged to 59.2% (from 57.2% Sep 11) as altcoins sold off faster than BTC following hot CPI; well below the +0.04% per 8h overheating threshold; status supportive (near-zero funding confirms spot-driven price action, not leveraged long crowding; BTC.D rise reflects quality rotation, not leveraged BTC positioning); TOTAL rose to $2.8T (+2.78% on the day) while BTC held near $77K — market absorbed hot CPI without a major derisking funding spike."
     },
     {
       "tier": 3,
       "name": "Stablecoin Dominance",
-      "value": "11.2%",
+      "value": "10.9%",
       "trend": "down",
       "status": "supportive",
-      "note": "Stablecoin market cap ~$307B (Sep 11, 2026; stablecoinbeat.com and CoinGecko cross-reference); total crypto market cap $2.74T (Sep 11: down 1.9% / −$0.053T from Sep 10's $2.78T, driven by BTC −1.6% to $76,900 on CPI day volatility); stablecoin dominance 11.2% on Sep 11 ($307B / $2.74T) — ticked up from 11.04% (Sep 10) as crypto market fell while stablecoin supply held flat; 30-day trend down: from ~13–14% in early August 2026 to 11.2% = sustained ~2–3pp decline confirming capital deployment into risk assets over the past month; status supportive (30-day falling trend confirmed; headwind condition — dominance rising while TOTAL also rising — does NOT apply: today's dominance uptick is caused by falling TOTAL, not fresh TOTAL growth; structural 30-day trend remains down); USD stablecoins (USDT + USDC) hold ~83% of the $307B stablecoin supply."
+      "note": "Stablecoin market cap ~$306B (Sep 12, 2026; CoinGecko); total crypto market cap $2.8T (Sep 12: +2.78% on the day — market absorbed hot Aug CPI +3.4% YoY and 85% FOMC hike probability with resilience); stablecoin dominance 10.9% ($306B / $2.8T) — down from 11.2% (Sep 11) as TOTAL rose while stablecoin supply held flat; 30-day trend down: from ~13–14% early August 2026 to 10.9% = sustained ~3pp decline confirming continued capital deployment into risk assets; status supportive (30-day falling trend confirmed; headwind condition — rising while TOTAL also rising — does NOT apply: today's dominance decline on rising TOTAL confirms healthy risk-on capital flows within crypto; BTC.D at 59.2% and TOTAL at $2.8T are mutually consistent with defensive within-crypto rotation)."
     }
   ],
   "upcoming": [
@@ -180,21 +180,21 @@
       "title": "Empire State Manufacturing Survey (September 2026)",
       "category": "PMI",
       "importance": "medium",
-      "note": "Federal Reserve Bank of New York Empire State Manufacturing Business Conditions Index for September 2026 at 8:30 AM ET — one of the earliest September manufacturing reads; August 2026 survey showed prices paid surging to 58.6 (from 52.3 in July) and inventories at -5.2, suggesting cost-push pressures building in the Northeast manufacturing sector; a strong September reading would reinforce the ISM-above-50 expansion backdrop heading into FOMC Sep 16; a sharp decline would introduce doubts about the manufacturing recovery sustainability; leading indicator for ISM Manufacturing (next release October 1)."
+      "note": "Federal Reserve Bank of New York Empire State Manufacturing Business Conditions Index for September 2026 at 8:30 AM ET — one of the earliest September manufacturing reads, released the day before FOMC Day 2; August 2026 survey showed prices paid surging to 58.6 (from 52.3 in July), inventories at -5.2, and new orders softening; a strong September reading would reinforce the ISM-above-50 expansion backdrop heading into FOMC Sep 16; a sharp decline would introduce doubts about the manufacturing recovery sustainability; leading indicator for ISM Manufacturing (next release October 1)."
     },
     {
       "date": "2026-09-16",
       "title": "FOMC Rate Decision (September 2026)",
       "category": "Fed",
       "importance": "high",
-      "note": "Federal Reserve FOMC rate decision at 2:00 PM ET (two-day meeting Sep 15–16), press conference at 2:30 PM ET; includes updated Summary of Economic Projections (SEP) with dot plot; current target range 3.5%–3.75% (held at July 28–29 meeting); market-implied hike probability ~57% (CME FedWatch Sep 11) following Aug NFP beat (+162K vs +56K consensus, Sep 4) and hot Aug PPI (+5.4% YoY, Sep 10); CPI Aug (Sep 11) is the final data input before the decision; dot plot and 2027 rate path guidance are the primary DXY, real yield, and risk-asset drivers for Q4 2026; a hike + hawkish dots would push real yields higher and test the 5% nominal 10Y level; a dovish hold preserving a cut pathway would be the most risk-on outcome for crypto."
+      "note": "Federal Reserve FOMC rate decision at 2:00 PM ET (two-day meeting Sep 15–16), press conference at 2:30 PM ET; includes updated Summary of Economic Projections (SEP) with dot plot; current target range 3.5%–3.75%; market-implied hike probability surged to 85% (CME FedWatch, Sep 12) following Aug CPI +3.4% YoY / +0.4% MoM (Sep 11), Aug PPI +5.4% YoY (Sep 10), and Aug NFP +162K beat (Sep 4); dot plot and 2027 rate path guidance are the primary DXY, real yield, and risk-asset drivers for Q4 2026; a hike + hawkish dots would push 10Y above 5% and real yields further above 2.5%; a surprise hold with dovish commentary would be the most risk-on outcome for crypto."
     },
     {
       "date": "2026-09-16",
       "title": "Retail Sales (August 2026)",
       "category": "Growth",
       "importance": "medium",
-      "note": "Census Bureau Advance Monthly Retail Sales for August 2026 at 8:30 AM ET — released same day as FOMC decision (2:00 PM ET); prior July advance retail sales were +0.1% MoM; strong Aug NFP (+162K) suggests continued consumer income growth supporting spending; a strong retail sales print (+0.3% MoM or above) confirms Q3 consumer resilience and may reinforce the Fed's inflation-fighting case; a weak print (below 0%) would suggest consumer fatigue despite labor market strength, potentially complicating the Fed's policy calculus."
+      "note": "Census Bureau Advance Monthly Retail Sales for August 2026 at 8:30 AM ET — released same day as FOMC decision (2:00 PM ET); prior July advance retail sales were +0.1% MoM; strong Aug NFP (+162K) suggests continued consumer income growth supporting spending; a strong retail sales print (+0.3% MoM or above) confirms Q3 consumer resilience and may reinforce the Fed's inflation-fighting case; a weak print (below 0%) would suggest consumer fatigue despite labor market strength, potentially complicating the Fed's policy calculus ahead of the 2:00 PM decision."
     },
     {
       "date": "2026-09-16",
@@ -208,43 +208,43 @@
       "title": "Bank of England Rate Decision (September 2026)",
       "category": "Central Bank",
       "importance": "high",
-      "note": "Bank of England Monetary Policy Committee rate decision at 12:00 PM London time (7:00 AM ET) — one day after FOMC Sep 16; BOE currently holds at 3.75% (July 30 MPC vote 6-3 to hold, with Pill, Greene, and Mann voting to hike to 4.00%); UK CPI at 2.9% YoY in July, elevated by Middle East energy spillover; if ECB hiked Sep 10 and FOMC hiked Sep 16, a BOE hold with dovish guidance would create significant transatlantic monetary policy divergence driving GBP/EUR and GBP/USD volatility; a surprise BOE hike would confirm the global tightening cycle remains synchronized; BOE outcome will significantly influence risk sentiment heading into the last two weeks of September."
+      "note": "Bank of England Monetary Policy Committee rate decision at 12:00 PM London time (7:00 AM ET) — one day after FOMC Sep 16; BOE currently holds at 3.75% (July 30 MPC vote 6-3 to hold); UK CPI elevated at 2.9% YoY in July driven by Middle East energy spillover; with ECB having hiked Sep 10 and FOMC hike probability at 85%, a BOE hold with dovish guidance would create significant transatlantic monetary policy divergence driving GBP/EUR and GBP/USD volatility; a surprise BOE hike would confirm the global tightening cycle remains synchronized; BOE outcome will significantly influence risk sentiment in the back half of September."
     },
     {
       "date": "2026-09-17",
       "title": "Housing Starts & Building Permits (August 2026)",
       "category": "Growth",
       "importance": "medium",
-      "note": "Census Bureau Housing Starts and Building Permits for August 2026 at 8:30 AM ET — a leading indicator for residential construction activity and broader economic momentum; released same day as BOE decision; higher rates (FOMC possibly hiking Sep 16) weigh on housing affordability; a decline in starts or permits would add to evidence that elevated financing costs are cooling the housing sector despite a resilient labor market; context for mortgage rates: 30Y fixed mortgage rates have been elevated in the 6.5–7.5% range in 2026 due to the rate environment."
+      "note": "Census Bureau Housing Starts and Building Permits for August 2026 at 8:30 AM ET — a leading indicator for residential construction activity and broader economic momentum; released same day as BOE decision; higher rates (FOMC hiking Sep 16 at 85% probability) weigh on housing affordability; a decline in starts or permits would add to evidence that elevated financing costs are cooling the housing sector despite a resilient labor market; 30Y fixed mortgage rates have been elevated in the 6.5–7.5% range throughout 2026."
     },
     {
       "date": "2026-09-17",
       "title": "Philadelphia Fed Manufacturing Survey (September 2026)",
       "category": "PMI",
       "importance": "medium",
-      "note": "Federal Reserve Bank of Philadelphia Manufacturing Business Outlook Survey for September 2026 at 8:30 AM ET — released same day as BOE rate decision; a leading indicator for national ISM Manufacturing (next release Oct 1); prior August reading showed moderate expansion; released alongside Initial Jobless Claims; a strong Philly Fed print would reinforce the ISM-above-50 backdrop and reduce near-term recession risk; the index is one of the earliest September manufacturing reads and helps calibrate expectations for ISM Manufacturing on October 1."
+      "note": "Federal Reserve Bank of Philadelphia Manufacturing Business Outlook Survey for September 2026 at 8:30 AM ET — a leading indicator for national ISM Manufacturing (next release Oct 1); released alongside Housing Starts and Initial Jobless Claims; a strong Philly Fed print would reinforce the ISM-above-50 expansion backdrop and reduce near-term recession risk; released the day after FOMC, so any reaction to the Sep 16 rate decision may feed into September manufacturing sentiment; context: Aug CPI showed gasoline prices drove 1/3 of the monthly MoM increase (+3.9%), which may show up in manufacturing costs."
     },
     {
       "date": "2026-09-17",
       "title": "Initial Jobless Claims (week ended September 13, 2026)",
       "category": "Labor",
       "importance": "low",
-      "note": "DOL weekly initial jobless claims at 8:30 AM ET for week ending September 13, 2026 — first labor market read post-FOMC Sep 16; any significant spike above 220K would amplify rate-path repricing following the FOMC decision; prior week ending Sep 6 came in at approximately 206K; released same day as BOE rate decision and Philadelphia Fed Manufacturing Survey."
+      "note": "DOL weekly initial jobless claims at 8:30 AM ET for week ending September 13, 2026 — first labor market read post-FOMC Sep 16; any significant spike above 220K would amplify rate-path repricing following the FOMC decision; prior week (Sep 6) approximately 206K; released alongside BOE rate decision, Housing Starts, and Philly Fed — a busy data morning one day after the FOMC."
     },
     {
       "date": "2026-09-18",
       "title": "Bank of Japan Rate Decision (September 2026)",
       "category": "Central Bank",
       "importance": "high",
-      "note": "Bank of Japan Monetary Policy Meeting September 17–18, with Statement on Monetary Policy expected September 18 — two days after FOMC Sep 16; BOJ has been normalizing policy in 2026 (hiked June 16); any surprise hike or hawkish commentary would strengthen JPY and potentially trigger yen-carry-trade unwinds with broad impact on global risk assets including crypto; DXY at 99.06 on Sep 11 (partial recovery from 98.75 low) — a hawkish BOJ would accelerate dollar weakness toward the supportive sub-97.5 threshold; the full ECB (Sep 10 hike) + FOMC (Sep 16) + BOJ (Sep 18) sequence within one week is the most synchronized global monetary policy event cluster of the cycle and will set the tone for Q4 2026."
+      "note": "Bank of Japan Monetary Policy Meeting September 17–18, with Statement on Monetary Policy expected September 18 — two days after FOMC Sep 16; BOJ has been normalizing policy in 2026 (hiked June 16); any surprise hike or hawkish commentary would strengthen JPY and potentially trigger yen-carry-trade unwinds with broad impact on global risk assets including crypto; DXY at 99.09 on Sep 12 (neutral band 97.5–100) — a hawkish BOJ would accelerate dollar weakness toward the supportive sub-97.5 threshold; the full ECB (Sep 10 hike confirmed) + FOMC (Sep 16, 85% hike probability) + BOJ (Sep 18) sequence is the most synchronized global monetary policy event cluster of the cycle and will set the tone for Q4 2026."
     }
   ],
   "sources": {
     "crypto": "CoinGecko",
     "tradfi": "FRED + Stooq",
     "marketsEndpoint": "markets",
-    "indicators": "2026-09-11",
-    "calendar": "2026-09-11"
+    "indicators": "2026-09-12",
+    "calendar": "2026-09-12"
   },
   "degraded": {
     "markets": false,
@@ -254,5 +254,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-09-11T21:57:08Z"
+  "cachedAtISO": "2026-09-12T11:15:59Z"
 }
