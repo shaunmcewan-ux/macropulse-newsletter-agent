@@ -1,7 +1,7 @@
 {
-  "lastRunISO": "2026-09-12T20:08:14Z",
+  "lastRunISO": "2026-09-13T07:08:56Z",
   "priceAlerts": {
-    "ethbtc": { "pct": 3.636, "dir": "up", "ISO": "2026-09-11T20:10:52Z", "value": 0.03308 },
+    "ethbtc": { "pct": 3.61, "dir": "up", "ISO": "2026-09-13T07:08:56Z", "value": 0.03265 },
     "btcd": { "pct": 2.381, "dir": "up", "ISO": "2026-09-12T15:08:24Z", "value": 58.168 },
     "total": { "pct": 4.568, "dir": "down", "ISO": "2026-09-10T20:09:52Z", "value": 2652382143405 },
     "total2": { "pct": 4.738, "dir": "down", "ISO": "2026-09-12T15:08:24Z", "value": 1114438421180 },
@@ -13,7 +13,6 @@
     "CPI-Aug-2026": "2026-09-11T15:08:09Z"
   },
   "news": {
-    "sep16-hike-odds-58pct-settled-end-fri-sep5": "2026-09-05T15:09:21Z",
     "liquid-network-exploit-3998-btc-320m-sep6": "2026-09-07T15:10:15Z",
     "liquid-network-patch-confirmed-hacker-return-offer-sep7": "2026-09-07T20:10:16Z",
     "liquid-network-85pct-btc-returned-sep8": "2026-09-08T07:09:31Z",
@@ -35,6 +34,7 @@
     "cpi-aug-0pt4pct-mom-3pt4pct-yoy-core-beat-sep11": "2026-09-11T15:08:09Z",
     "fomc-hike-odds-90pct-post-cpi-two-hikes-year-end-sep11": "2026-09-11T15:08:09Z",
     "clarity-act-cloture-vote-sept15-defi-cftc-rules-sep11": "2026-09-11T20:10:52Z",
-    "10y-yield-497-approaching-5pct-fomc-sep12": "2026-09-12T15:08:24Z"
+    "10y-yield-497-approaching-5pct-fomc-sep12": "2026-09-12T15:08:24Z",
+    "clarity-act-revised-630pg-polymarket-16pct-sep13": "2026-09-13T07:08:56Z"
   }
 }
