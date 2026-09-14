@@ -1,16 +1,17 @@
 {
-  "lastRunISO": "2026-09-14T07:10:00Z",
+  "lastRunISO": "2026-09-14T15:11:39Z",
   "priceAlerts": {
     "ethbtc": { "pct": 3.61, "dir": "up", "ISO": "2026-09-13T07:08:56Z", "value": 0.03265 },
     "btcd": { "pct": 2.381, "dir": "up", "ISO": "2026-09-12T15:08:24Z", "value": 58.168 },
     "total": { "pct": 4.568, "dir": "down", "ISO": "2026-09-10T20:09:52Z", "value": 2652382143405 },
     "total2": { "pct": 4.738, "dir": "down", "ISO": "2026-09-12T15:08:24Z", "value": 1114438421180 },
     "total3": { "pct": 7.472, "dir": "down", "ISO": "2026-09-12T15:08:24Z", "value": 805967894192 },
-    "oil": { "pct": 3.237, "dir": "up", "ISO": "2026-09-12T15:08:24Z", "value": 97.26 }
+    "oil": { "pct": 3.91, "dir": "up", "ISO": "2026-09-14T15:11:39Z", "value": 103.96 }
   },
   "releases": {
     "PPI-Aug-2026": "2026-09-10T07:10:26Z",
-    "CPI-Aug-2026": "2026-09-11T15:08:09Z"
+    "CPI-Aug-2026": "2026-09-11T15:08:09Z",
+    "Empire-State-Mfg-Sep-2026": "2026-09-14T15:11:39Z"
   },
   "news": {
     "liquid-network-exploit-3998-btc-320m-sep6": "2026-09-07T15:10:15Z",
@@ -37,6 +38,7 @@
     "10y-yield-497-approaching-5pct-fomc-sep12": "2026-09-12T15:08:24Z",
     "clarity-act-revised-630pg-polymarket-16pct-sep13": "2026-09-13T07:08:56Z",
     "gulf-iran-hormuz-talks-postponed-sep14-sep13": "2026-09-13T20:10:49Z",
-    "fomc-decision-2days-85pct-cme-dot-plot-sep14": "2026-09-14T07:10:00Z"
+    "fomc-decision-2days-85pct-cme-dot-plot-sep14": "2026-09-14T07:10:00Z",
+    "houthi-saudi-east-west-pipeline-oil-10396-sep14": "2026-09-14T15:11:39Z"
   }
 }

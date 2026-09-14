@@ -1,6 +1,6 @@
 {
-  "ts": "2026-09-14T07:10:00Z",
+  "ts": "2026-09-14T15:11:39Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "FOMC decision Tue 16 Sep 2pm ET: CME FedWatch 85.5% hike probability (up from 60% on 8 Sep), dot plot + SEP due — most market-relevant event of the week.\nNo price-alert thresholds breached (BTC -0.68%, Total -1.85%, Oil +2.47%, DXY -0.05%, SPX -0.50%)."
+  "priority": "default",
+  "message": "Oil (WTI) +3.91% → $103.96 — Saudi East-West pipeline shut; weekend Houthi strike on Sharurah escalates supply risk\nEmpire State Mfg (Sep) -8.7 — first negative since June, new orders -19.6; weak data print ahead of FOMC\nFOMC hike odds 86.5% at CME; decision Wed Sep 16 2pm ET — high-stakes week begins"
 }
