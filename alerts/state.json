@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-09-14T15:11:39Z",
+  "lastRunISO": "2026-09-14T20:06:53Z",
   "priceAlerts": {
     "ethbtc": { "pct": 3.61, "dir": "up", "ISO": "2026-09-13T07:08:56Z", "value": 0.03265 },
     "btcd": { "pct": 2.381, "dir": "up", "ISO": "2026-09-12T15:08:24Z", "value": 58.168 },
@@ -39,6 +39,7 @@
     "clarity-act-revised-630pg-polymarket-16pct-sep13": "2026-09-13T07:08:56Z",
     "gulf-iran-hormuz-talks-postponed-sep14-sep13": "2026-09-13T20:10:49Z",
     "fomc-decision-2days-85pct-cme-dot-plot-sep14": "2026-09-14T07:10:00Z",
-    "houthi-saudi-east-west-pipeline-oil-10396-sep14": "2026-09-14T15:11:39Z"
+    "houthi-saudi-east-west-pipeline-oil-10396-sep14": "2026-09-14T15:11:39Z",
+    "10y-yield-501-crossed-5pct-fomc-eve-sep14": "2026-09-14T20:06:53Z"
   }
 }
