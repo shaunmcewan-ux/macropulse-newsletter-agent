@@ -1,13 +1,14 @@
 {
-  "lastRunISO": "2026-09-15T20:07:50Z",
+  "lastRunISO": "2026-09-16T07:08:13Z",
   "priceAlerts": {
-    "btc": { "pct": 3.26, "dir": "down", "ISO": "2026-09-15T20:07:50Z", "value": 76874 },
+    "btc": { "pct": 3.26, "dir": "down", "ISO": "2026-09-15T20:07:50Z", "value": 75186 },
+    "eth": { "pct": 6.332, "dir": "down", "ISO": "2026-09-16T07:08:13Z", "value": 2382.98 },
     "ethbtc": { "pct": 3.61, "dir": "up", "ISO": "2026-09-13T07:08:56Z", "value": 0.03265 },
-    "btcd": { "pct": 2.381, "dir": "up", "ISO": "2026-09-12T15:08:24Z", "value": 58.168 },
-    "total": { "pct": 4.568, "dir": "down", "ISO": "2026-09-10T20:09:52Z", "value": 2652382143405 },
-    "total2": { "pct": 4.738, "dir": "down", "ISO": "2026-09-12T15:08:24Z", "value": 1114438421180 },
-    "total3": { "pct": 7.472, "dir": "down", "ISO": "2026-09-12T15:08:24Z", "value": 805967894192 },
-    "oil": { "pct": 3.91, "dir": "up", "ISO": "2026-09-14T15:11:39Z", "value": 103.96 }
+    "btcd": { "pct": 2.875, "dir": "up", "ISO": "2026-09-16T07:08:13Z", "value": 58.443 },
+    "total": { "pct": 7.0, "dir": "down", "ISO": "2026-09-16T07:08:13Z", "value": 2576752159951 },
+    "total2": { "pct": 10.539, "dir": "down", "ISO": "2026-09-16T07:08:13Z", "value": 1070824376036 },
+    "total3": { "pct": 12.021, "dir": "down", "ISO": "2026-09-16T07:08:13Z", "value": 780711341648 },
+    "oil": { "pct": 3.237, "dir": "up", "ISO": "2026-09-16T07:08:13Z", "value": 97.26 }
   },
   "releases": {
     "PPI-Aug-2026": "2026-09-10T07:10:26Z",
@@ -15,9 +16,6 @@
     "Empire-State-Mfg-Sep-2026": "2026-09-14T15:11:39Z"
   },
   "news": {
-    "houthi-saudi-aramco-attack-jizan-400kbpd-halted-sep8": "2026-09-08T20:07:50Z",
-    "oil-brent-9922-wti-9460-sep8-afternoon": "2026-09-08T20:07:50Z",
-    "ecb-sep910-25bp-to-250pct-expected-final-hike": "2026-09-08T20:07:50Z",
     "brent-100-crossed-10205-sep9": "2026-09-09T15:10:59Z",
     "btc-etf-outflows-87m-sep9-gbtc-fbtc-reversal": "2026-09-09T15:10:59Z",
     "fomc-hike-odds-63pct-sep9": "2026-09-09T20:10:38Z",
@@ -37,6 +35,7 @@
     "houthi-saudi-east-west-pipeline-oil-10396-sep14": "2026-09-14T15:11:39Z",
     "10y-yield-501-crossed-5pct-fomc-eve-sep14": "2026-09-14T20:06:53Z",
     "fomc-day1-91pct-hike-10y-5025-highest-2007-sep15": "2026-09-15T07:09:40Z",
-    "clarity-act-cloture-vote-day-sep15": "2026-09-15T07:09:40Z"
+    "clarity-act-cloture-vote-day-sep15": "2026-09-15T07:09:40Z",
+    "clarity-act-senate-failed-49-50-sep15": "2026-09-16T07:08:13Z"
   }
 }
