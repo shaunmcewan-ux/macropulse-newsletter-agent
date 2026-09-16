@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T12:05:17.209Z",
+  "generatedAt": "2026-09-16T18:26:49.241Z",
   "dial": {
     "state": "Risk Off",
     "summary": "Risk Off persists as the FOMC delivers its Sep 16 rate decision (2PM ET; 25bp hike to 3.75%–4.00% the base case at ~60% market probability), with 10Y TIPS real yields confirmed at 2.57% (+18bps 4-week, sustained headwind) and DXY at 99.72; the BOJ Sep 18 decision carries 88% hike probability with yen carry-trade unwind risk, and the BOE holds Sep 17 — a synchronized global tightening cluster keeps BTC.D elevated at 59.2% while TOTAL holds $2.75T and stablecoin dominance drifted to 11.1%, signaling defensive capital positioning rather than broad risk-on rotation.",
@@ -14,66 +14,66 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 76191,
+      "value": 75982,
       "format": "usd",
-      "change24h": -0.97081,
-      "change30d": 19.8
+      "change24h": -0.78932,
+      "change30d": 18.3
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 2420.27,
+      "value": 2408.31,
       "format": "usd",
-      "change24h": -2.35295,
-      "change30d": 27
+      "change24h": -0.7357,
+      "change30d": 25.4
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.03177853,
+      "value": 0.03171573,
       "format": "ratio",
-      "change24h": -1.3816297959940043,
-      "change30d": 7.891958316111943
+      "change24h": 0.08937714732424093,
+      "change30d": 7.426330036227628
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 59.010580392346135,
+      "value": 58.470765946141036,
       "format": "percent",
-      "change24h": 4.060001203376862,
-      "change30d": 0.9511863907244048
+      "change24h": 3.295433198508557,
+      "change30d": 0.8016790477983664
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2589766810960.6426,
+      "value": 2607454535615.497,
       "format": "usd-compact",
-      "change24h": -4.82208451407747,
-      "change30d": 20.27968286210491
+      "change24h": -4.000712394096665,
+      "change30d": 19.84269846683009
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1061530385004.4138,
+      "value": 1082855896943.7212,
       "format": "usd-compact",
-      "change24h": -9.8967155586533,
-      "change30d": 18.639465376166854
+      "change24h": -8.129301424700511,
+      "change30d": 18.465312519270242
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 766664522553.4156,
+      "value": 789294597571.6709,
       "format": "usd-compact",
-      "change24h": -12.509596576200458,
-      "change30d": 14.483752879976809
+      "change24h": -10.588726713818003,
+      "change30d": 14.57318570102314
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 99.676,
+      "value": 99.997,
       "format": "index",
-      "change24h": 0.06525383742759105,
-      "change30d": 0.016054585591014796
+      "change24h": 0.3875074038007807,
+      "change30d": 0.3381497090106395
     },
     {
       "id": "us500",
@@ -86,26 +86,26 @@
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10734.51,
+      "value": 10688.48,
       "format": "index",
-      "change24h": 0.7165415353898599,
-      "change30d": -0.1436285750166327
+      "change24h": 0.28466505412764465,
+      "change30d": -0.5718166131005369
     },
     {
       "id": "oil",
       "label": "Oil (WTI)",
-      "value": 97.26,
+      "value": 107.02,
       "format": "usd",
-      "change24h": 3.2374482539008724,
-      "change30d": 16.11747851002865
+      "change24h": 4.491310290958792,
+      "change30d": 27.419930944160022
     },
     {
       "id": "gold",
       "label": "Gold",
-      "value": 4342.93,
+      "value": 4316.29,
       "format": "usd",
-      "change24h": 1.1590503054852292,
-      "change30d": -0.7593415231618489
+      "change24h": 0.5385298043170872,
+      "change30d": -1.3680944023984474
     }
   ],
   "indicators": [
@@ -240,5 +240,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-09-16T12:05:17Z"
+  "cachedAtISO": "2026-09-16T18:26:49Z"
 }
