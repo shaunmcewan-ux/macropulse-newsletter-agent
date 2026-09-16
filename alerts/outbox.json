@@ -1,6 +1,6 @@
 {
-  "ts": "2026-09-16T15:08:47Z",
+  "ts": "2026-09-16T20:08:32Z",
   "title": "MacroPulse Alert",
-  "priority": "default",
-  "message": "FOMC decision 2pm ET today — first hike in 3 years; 3 members already voted yes, BTC $75,700 (-2.5%)\nRetail Sales Aug +1.2% MoM vs +0.8% est; control group +1.4% — hot consumer cements hike case\nBTC ETF outflows $450M (Tue) — largest since Jun 24; FBTC -$215M, IBIT -$162M post-CLARITY fail"
+  "priority": "high",
+  "message": "FOMC DELIVERED: +25bps → 3.75%–4.00%, unanimous (12-0), first Fed hike since 2023\nDot plot: 16/18 members see ≥1 more hike in 2026; Warsh withheld his own projections\nWarsh press conf hawkish on inflation — Dow -600pts, S&P500 lower, 10y yield ~5.01%\nBTC ~$75,400 — holding CLARITY/FOMC lows; no major new move post-decision"
 }

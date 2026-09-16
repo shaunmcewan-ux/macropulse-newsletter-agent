@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-09-16T15:08:47Z",
+  "lastRunISO": "2026-09-16T20:08:32Z",
   "priceAlerts": {
     "btc": { "pct": 3.26, "dir": "down", "ISO": "2026-09-15T20:07:50Z", "value": 75186 },
     "eth": { "pct": 6.332, "dir": "down", "ISO": "2026-09-16T07:08:13Z", "value": 2382.98 },
@@ -39,6 +39,9 @@
     "clarity-act-cloture-vote-day-sep15": "2026-09-15T07:09:40Z",
     "clarity-act-senate-failed-49-50-sep15": "2026-09-16T07:08:13Z",
     "btc-etf-outflows-450m-sep16-clarity-act": "2026-09-16T15:08:47Z",
-    "fomc-sep16-decision-2pm-et-pending": "2026-09-16T15:08:47Z"
+    "fomc-sep16-decision-2pm-et-pending": "2026-09-16T15:08:47Z",
+    "fomc-sep16-25bp-delivered-unanimous-3pt75-4pct": "2026-09-16T20:08:32Z",
+    "fomc-dot-plot-16of18-dec-hike-warsh-no-own-dot": "2026-09-16T20:08:32Z",
+    "dow-600pts-sp500-lower-warsh-hawkish-presser-sep16": "2026-09-16T20:08:32Z"
   }
 }
