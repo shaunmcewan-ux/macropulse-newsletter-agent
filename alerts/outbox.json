@@ -1,6 +1,6 @@
 {
-  "ts": "2026-09-16T07:08:13Z",
+  "ts": "2026-09-16T15:08:47Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "Clarity Act failed Senate 49-50, dead for 2026 — regulatory blow triggers broad crypto sell-off.\nTOTAL2 -10.5% (24h) → $1.07T · TOTAL3 -12.0% (24h) → $780.7B — altcoin flush.\nETH -6.3% (24h) → $2,383 · TOTAL -7.0% (24h) → $2.58T.\nBTC.D +2.9% (24h) → 58.4% — capital rotating into BTC; BTC -4.3% → $75,186.\nOil +3.2% (24h) → $97.26. FOMC today 19:00 UTC — 89% hike odds; Retail Sales at 13:30 UTC."
+  "priority": "default",
+  "message": "FOMC decision 2pm ET today — first hike in 3 years; 3 members already voted yes, BTC $75,700 (-2.5%)\nRetail Sales Aug +1.2% MoM vs +0.8% est; control group +1.4% — hot consumer cements hike case\nBTC ETF outflows $450M (Tue) — largest since Jun 24; FBTC -$215M, IBIT -$162M post-CLARITY fail"
 }
