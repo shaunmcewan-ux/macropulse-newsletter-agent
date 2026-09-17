@@ -1,6 +1,6 @@
 {
-  "ts": "2026-09-17T07:07:27Z",
+  "ts": "2026-09-17T15:09:29Z",
   "title": "MacroPulse Alert",
   "priority": "high",
-  "message": "DXY crossed 100 → 100.34 (+0.73% 24h) — post-FOMC dollar strength; neutral→headwind threshold approaching\nOil WTI +4.49% (24h) → $107.02 — Houthi/Iran geopolitical premium extends post-FOMC\nTOTAL3 -7.89% (24h) → $791B; TOTAL2 -5.74% → $1.08T — post-FOMC alt deleveraging continues\nBTC.D +2.90% (24h) → 58.4%; BTC $75,811 holding — alts bearing selloff weight\nBOE today 12:00 PM London: hold at 3.75% expected, hawkish split vote likely\nBOJ Sep 18: 88% hike probability → yen carry-trade unwind risk; watch vol across risk assets\n[Data: dashboard-cache.json 2026-09-16T22:20Z; live dashboard blocked this run]"
+  "message": "Gold +1.98% (24h) → $4,347 — post-FOMC safe-haven recovery; DXY retreating from 100.34 to 100.20\nBOE Sep 17: held 3.75%, 6-3 vote (Greene/Mann/Pill for hike) — same split as July; Nov hike 80% priced; GBP/USD ~1.3400\nHouse Ways & Means: Digital Asset Tax Certainty Act passed 38–5; first federal crypto tax framework advancing to full House\nBTC.D +3.18% → 58.8%; TOTAL3 -9.6% → $773B; TOTAL2 -6.9% → $1.07T — alt deleveraging deepens (deduped)"
 }
