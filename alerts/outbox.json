@@ -1,6 +1,6 @@
 {
-  "ts": "2026-09-17T15:09:29Z",
+  "ts": "2026-09-17T20:06:37Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "Gold +1.98% (24h) → $4,347 — post-FOMC safe-haven recovery; DXY retreating from 100.34 to 100.20\nBOE Sep 17: held 3.75%, 6-3 vote (Greene/Mann/Pill for hike) — same split as July; Nov hike 80% priced; GBP/USD ~1.3400\nHouse Ways & Means: Digital Asset Tax Certainty Act passed 38–5; first federal crypto tax framework advancing to full House\nBTC.D +3.18% → 58.8%; TOTAL3 -9.6% → $773B; TOTAL2 -6.9% → $1.07T — alt deleveraging deepens (deduped)"
+  "priority": "default",
+  "message": "Strategic Bitcoin Reserve bill passes House Financial Services Committee 28-21 — would codify Trump's BTC executive order into statute; 20-year lock on holdings; full House + Senate vote still needed."
 }

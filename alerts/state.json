@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-09-17T15:09:29Z",
+  "lastRunISO": "2026-09-17T20:06:37Z",
   "priceAlerts": {
     "btc": { "pct": 3.26, "dir": "down", "ISO": "2026-09-15T20:07:50Z", "value": 75186 },
     "eth": { "pct": 6.332, "dir": "down", "ISO": "2026-09-16T07:08:13Z", "value": 2382.98 },
@@ -45,6 +45,7 @@
     "boe-sep17-hold-expected-hawkish-split-vote": "2026-09-17T07:07:27Z",
     "boj-sep18-88pct-hike-probability-yen-carry-risk": "2026-09-17T07:07:27Z",
     "boe-sep17-6-3-hold-confirmed-nov-80pct-hike": "2026-09-17T15:09:29Z",
-    "house-digital-asset-tax-certainty-act-38-5-sep16": "2026-09-17T15:09:29Z"
+    "house-digital-asset-tax-certainty-act-38-5-sep16": "2026-09-17T15:09:29Z",
+    "btc-reserve-bill-28-21-house-committee-sep17": "2026-09-17T20:06:37Z"
   }
 }
