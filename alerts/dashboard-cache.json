@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T12:07:07.374Z",
+  "generatedAt": "2026-09-17T18:34:22.614Z",
   "dial": {
     "state": "Risk Off",
     "summary": "Risk Off persists following the FOMC's September 16 hike (+25bps to 3.75%–4.00%, first since 2023) and hawkish dot plot removing all 2027 cuts, which drove DXY above 100 into headwind territory for the first time since July, pushed the 10Y nominal to 5.016%, and sent TOTAL crypto down to $2.67T from $2.75T; with real yields at 2.57%+ and the 2s10s curve flattening sharply from +41bps to +28bps post-FOMC, BTC.D easing to 57.0% from 59.2% in a broad sell-off, no conditions for accumulation or rotation have materialized.",
@@ -14,66 +14,66 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 76424,
+      "value": 76679,
       "format": "usd",
-      "change24h": 0.3307,
-      "change30d": 19
+      "change24h": 1.48849,
+      "change30d": 18.2
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 2440.79,
+      "value": 2457.88,
       "format": "usd",
-      "change24h": 0.94118,
-      "change30d": 28.5
+      "change24h": 2.44445,
+      "change30d": 28.4
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.03202198,
+      "value": 0.03204537,
       "format": "ratio",
-      "change24h": 0.8922323270944441,
-      "change30d": 8.163576485362968
+      "change24h": 0.9948597087437635,
+      "change30d": 8.941441105396263
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 58.81541849282458,
+      "value": 58.2168442270522,
       "format": "percent",
-      "change24h": 3.176654119466682,
-      "change30d": -0.013829134382291846
+      "change24h": 2.318290313396032,
+      "change30d": -0.23748571445065803
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2595294058604.756,
+      "value": 2638625479935.7305,
       "format": "usd-compact",
-      "change24h": -2.7661917745093927,
-      "change30d": 18.662315972611054
+      "change24h": -0.8112237908331871,
+      "change30d": 19.25083402064118
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1068860996916.9568,
+      "value": 1102500994546.2378,
       "format": "usd-compact",
-      "change24h": -6.91420984833654,
-      "change30d": 18.780059712561727
+      "change24h": -3.8650504915021138,
+      "change30d": 19.663600776769737
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 772925362340.0521,
+      "value": 803096603159.7881,
       "format": "usd-compact",
-      "change24h": -9.643453927238944,
-      "change30d": 15.00118360886037
+      "change24h": -6.040117086287955,
+      "change30d": 16.05605852466936
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 100.202,
+      "value": 100.251,
       "format": "index",
-      "change24h": -0.13753238987443214,
-      "change30d": 0.6650592726542012
+      "change24h": -0.08869842535379573,
+      "change30d": 0.7142857142857127
     },
     {
       "id": "us500",
@@ -86,10 +86,10 @@
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10742.94,
+      "value": 10816.15,
       "format": "index",
-      "change24h": 0.5095205305151055,
-      "change30d": 0.206047095146375
+      "change24h": 1.1944635719952703,
+      "change30d": 0.8889220537550593
     },
     {
       "id": "oil",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 4347.495,
+      "value": 4352.31,
       "format": "usd",
-      "change24h": 1.976600829230804,
-      "change30d": -1.5871481609169231
+      "change24h": 2.0895434163971602,
+      "change30d": -1.4781525481318054
     }
   ],
   "indicators": [
@@ -219,5 +219,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-09-17T12:07:07Z"
+  "cachedAtISO": "2026-09-17T18:34:22Z"
 }
