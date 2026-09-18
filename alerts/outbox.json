@@ -1,6 +1,6 @@
 {
-  "ts": "2026-09-18T07:09:49Z",
+  "ts": "2026-09-18T15:10:44Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "BOJ hiked 25bp to 1.25% (31-year high), 7-2 vote — yen carry unwind risk elevated.\nTOTAL3 -7.57% (24h) to $802B — altcoin weakness persists post-FOMC.\nTOTAL2 -5.16% (24h) to $1.10T — ex-BTC cap under sustained pressure.\nBTC.D +2.61% (24h) to 58.15% — dominance rising as alts sell harder than BTC.\nBTC +0.75% at $76,215 — holding support; BOJ hike may soften DXY headwind."
+  "priority": "default",
+  "message": "BOJ 7-2 split — yen fell to 157 post-hike; feared carry unwind did not materialise. Nikkei +1.5%, BTC steady ~$77K.\nBTC spot ETFs: +$159.5M net inflows 17 Sep (IBIT-led) — reversal from $450M outflows on 16 Sep."
 }
