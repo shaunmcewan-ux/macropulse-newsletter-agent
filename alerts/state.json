@@ -1,8 +1,8 @@
 {
-  "lastRunISO": "2026-09-18T15:10:44Z",
+  "lastRunISO": "2026-09-18T20:06:31Z",
   "priceAlerts": {
-    "btc": { "pct": 3.26, "dir": "down", "ISO": "2026-09-15T20:07:50Z", "value": 75186 },
-    "eth": { "pct": 6.332, "dir": "down", "ISO": "2026-09-16T07:08:13Z", "value": 2382.98 },
+    "btc": { "pct": 5.07, "dir": "up", "ISO": "2026-09-18T20:06:31Z", "value": 81000 },
+    "eth": { "pct": 4.5, "dir": "up", "ISO": "2026-09-18T20:06:31Z", "value": 2580 },
     "ethbtc": { "pct": 3.61, "dir": "up", "ISO": "2026-09-13T07:08:56Z", "value": 0.03265 },
     "btcd": { "pct": 2.61, "dir": "up", "ISO": "2026-09-18T07:09:49Z", "value": 58.1549 },
     "total": { "pct": 7.0, "dir": "down", "ISO": "2026-09-16T07:08:13Z", "value": 2576752159951 },
@@ -46,6 +46,9 @@
     "btc-reserve-bill-28-21-house-committee-sep17": "2026-09-17T20:06:37Z",
     "boj-sep18-25bp-125pct-31yr-high-carry-unwind": "2026-09-18T07:09:49Z",
     "boj-split-bearish-yen-weakened-157-nikkei-up-counter-carry-sep18": "2026-09-18T15:10:44Z",
-    "btc-etf-inflows-159m-ibit-sep17-reversal-from-outflows": "2026-09-18T15:10:44Z"
+    "btc-etf-inflows-159m-ibit-sep17-reversal-from-outflows": "2026-09-18T15:10:44Z",
+    "sec-innovation-exemption-tokenized-equities-5yr-sep17": "2026-09-18T20:06:31Z",
+    "eth-etf-outflows-405m-3day-streak-sep15-17": "2026-09-18T20:06:31Z",
+    "btc-recovery-81k-eth-bounce-clarity-act-narrative-sep18": "2026-09-18T20:06:31Z"
   }
 }
