@@ -1,13 +1,13 @@
 {
-  "lastRunISO": "2026-09-17T20:06:37Z",
+  "lastRunISO": "2026-09-18T07:09:49Z",
   "priceAlerts": {
     "btc": { "pct": 3.26, "dir": "down", "ISO": "2026-09-15T20:07:50Z", "value": 75186 },
     "eth": { "pct": 6.332, "dir": "down", "ISO": "2026-09-16T07:08:13Z", "value": 2382.98 },
     "ethbtc": { "pct": 3.61, "dir": "up", "ISO": "2026-09-13T07:08:56Z", "value": 0.03265 },
-    "btcd": { "pct": 2.90, "dir": "up", "ISO": "2026-09-17T07:07:27Z", "value": 58.433 },
+    "btcd": { "pct": 2.61, "dir": "up", "ISO": "2026-09-18T07:09:49Z", "value": 58.1549 },
     "total": { "pct": 7.0, "dir": "down", "ISO": "2026-09-16T07:08:13Z", "value": 2576752159951 },
-    "total2": { "pct": 5.74, "dir": "down", "ISO": "2026-09-17T07:07:27Z", "value": 1083127784986 },
-    "total3": { "pct": 7.89, "dir": "down", "ISO": "2026-09-17T07:07:27Z", "value": 790669908028 },
+    "total2": { "pct": 5.16, "dir": "down", "ISO": "2026-09-18T07:09:49Z", "value": 1098641932836 },
+    "total3": { "pct": 7.57, "dir": "down", "ISO": "2026-09-18T07:09:49Z", "value": 801755934096 },
     "dxy": { "pct": 0.73, "dir": "up", "ISO": "2026-09-17T07:07:27Z", "value": 100.34 },
     "oil": { "pct": 4.49, "dir": "up", "ISO": "2026-09-17T07:07:27Z", "value": 107.02 },
     "gold": { "pct": 1.977, "dir": "up", "ISO": "2026-09-17T15:09:29Z", "value": 4347.495 }
@@ -15,14 +15,11 @@
   "releases": {
     "CPI-Aug-2026": "2026-09-11T15:08:09Z",
     "Empire-State-Mfg-Sep-2026": "2026-09-14T15:11:39Z",
-    "Retail-Sales-Aug-2026": "2026-09-16T15:08:47Z"
+    "Retail-Sales-Aug-2026": "2026-09-16T15:08:47Z",
+    "Jobless-Claims-Wk-Sep13-2026": "2026-09-18T07:09:49Z"
   },
   "news": {
-    "ecb-hike-25bp-250pct-sep10-confirmed": "2026-09-10T15:10:48Z",
-    "total3-10pct-24h-alt-selloff-sep10": "2026-09-10T20:09:52Z",
-    "oil-wti-9148-plus5pct-24h-iran-sep10": "2026-09-10T20:09:52Z",
-    "warsh-hawkish-70pct-cumulative-hike-sep10": "2026-09-10T20:09:52Z",
-    "iran-irgc-us-navy-vessels-houthi-seize-port-sep10": "2026-09-11T07:11:57Z",
+    "iran-irgc-us-navy-vessels-houthi-seize-port-sep11": "2026-09-11T07:11:57Z",
     "cpi-aug-0pt4pct-mom-3pt4pct-yoy-core-beat-sep11": "2026-09-11T15:08:09Z",
     "fomc-hike-odds-90pct-post-cpi-two-hikes-year-end-sep11": "2026-09-11T15:08:09Z",
     "clarity-act-cloture-vote-sept15-defi-cftc-rules-sep11": "2026-09-11T20:10:52Z",
@@ -46,6 +43,7 @@
     "boj-sep18-88pct-hike-probability-yen-carry-risk": "2026-09-17T07:07:27Z",
     "boe-sep17-6-3-hold-confirmed-nov-80pct-hike": "2026-09-17T15:09:29Z",
     "house-digital-asset-tax-certainty-act-38-5-sep16": "2026-09-17T15:09:29Z",
-    "btc-reserve-bill-28-21-house-committee-sep17": "2026-09-17T20:06:37Z"
+    "btc-reserve-bill-28-21-house-committee-sep17": "2026-09-17T20:06:37Z",
+    "boj-sep18-25bp-125pct-31yr-high-carry-unwind": "2026-09-18T07:09:49Z"
   }
 }
