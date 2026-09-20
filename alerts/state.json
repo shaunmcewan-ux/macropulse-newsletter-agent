@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-09-20T07:19:18Z",
+  "lastRunISO": "2026-09-20T15:19:35Z",
   "priceAlerts": {
     "btc": { "pct": 5.07, "dir": "up", "ISO": "2026-09-18T20:06:31Z", "value": 81000 },
     "eth": { "pct": 5.50, "dir": "up", "ISO": "2026-09-19T20:17:23Z", "value": 2642 },
@@ -43,6 +43,8 @@
     "eth-etf-outflows-405m-3day-streak-sep15-17": "2026-09-18T20:06:31Z",
     "btc-recovery-81k-eth-bounce-clarity-act-narrative-sep18": "2026-09-18T20:06:31Z",
     "eth-etf-inflows-143m-sep19-outflow-streak-reversed": "2026-09-19T20:17:23Z",
-    "fear-greed-73-greed-post-fomc-recovery-sep19": "2026-09-19T20:17:23Z"
+    "fear-greed-73-greed-post-fomc-recovery-sep19": "2026-09-19T20:17:23Z",
+    "btc-etf-inflows-433m-fbtc-311m-aum-102pt5b-sep19": "2026-09-20T15:19:35Z",
+    "bastion-occ-conditional-national-trust-charter-stablecoin-sep18": "2026-09-20T15:19:35Z"
   }
 }
