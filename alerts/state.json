@@ -1,9 +1,8 @@
 {
-  "lastRunISO": "2026-09-19T20:17:23Z",
+  "lastRunISO": "2026-09-20T07:19:18Z",
   "priceAlerts": {
     "btc": { "pct": 5.07, "dir": "up", "ISO": "2026-09-18T20:06:31Z", "value": 81000 },
     "eth": { "pct": 5.50, "dir": "up", "ISO": "2026-09-19T20:17:23Z", "value": 2642 },
-    "ethbtc": { "pct": 3.61, "dir": "up", "ISO": "2026-09-13T07:08:56Z", "value": 0.03265 },
     "btcd": { "pct": 2.61, "dir": "up", "ISO": "2026-09-18T07:09:49Z", "value": 58.1549 },
     "total": { "pct": 7.0, "dir": "down", "ISO": "2026-09-16T07:08:13Z", "value": 2576752159951 },
     "total2": { "pct": 5.16, "dir": "down", "ISO": "2026-09-18T07:09:49Z", "value": 1098641932836 },
@@ -18,8 +17,6 @@
     "Jobless-Claims-Wk-Sep13-2026": "2026-09-18T07:09:49Z"
   },
   "news": {
-    "10y-yield-497-approaching-5pct-fomc-sep12": "2026-09-12T15:08:24Z",
-    "clarity-act-revised-630pg-polymarket-16pct-sep13": "2026-09-13T07:08:56Z",
     "gulf-iran-hormuz-talks-postponed-sep14-sep13": "2026-09-13T20:10:49Z",
     "fomc-decision-2days-85pct-cme-dot-plot-sep14": "2026-09-14T07:10:00Z",
     "houthi-saudi-east-west-pipeline-oil-10396-sep14": "2026-09-14T15:11:39Z",
