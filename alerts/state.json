@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-09-20T15:19:35Z",
+  "lastRunISO": "2026-09-20T20:21:40Z",
   "priceAlerts": {
     "btc": { "pct": 5.07, "dir": "up", "ISO": "2026-09-18T20:06:31Z", "value": 81000 },
     "eth": { "pct": 5.50, "dir": "up", "ISO": "2026-09-19T20:17:23Z", "value": 2642 },
@@ -8,7 +8,7 @@
     "total2": { "pct": 5.16, "dir": "down", "ISO": "2026-09-18T07:09:49Z", "value": 1098641932836 },
     "total3": { "pct": 7.57, "dir": "down", "ISO": "2026-09-18T07:09:49Z", "value": 801755934096 },
     "dxy": { "pct": 0.73, "dir": "up", "ISO": "2026-09-17T07:07:27Z", "value": 100.34 },
-    "oil": { "pct": 4.49, "dir": "up", "ISO": "2026-09-17T07:07:27Z", "value": 107.02 },
+    "oil": { "pct": 10.99, "dir": "down", "ISO": "2026-09-20T20:21:40Z", "value": 95.26 },
     "gold": { "pct": 1.977, "dir": "up", "ISO": "2026-09-17T15:09:29Z", "value": 4347.495 }
   },
   "releases": {
@@ -45,6 +45,8 @@
     "eth-etf-inflows-143m-sep19-outflow-streak-reversed": "2026-09-19T20:17:23Z",
     "fear-greed-73-greed-post-fomc-recovery-sep19": "2026-09-19T20:17:23Z",
     "btc-etf-inflows-433m-fbtc-311m-aum-102pt5b-sep19": "2026-09-20T15:19:35Z",
-    "bastion-occ-conditional-national-trust-charter-stablecoin-sep18": "2026-09-20T15:19:35Z"
+    "bastion-occ-conditional-national-trust-charter-stablecoin-sep18": "2026-09-20T15:19:35Z",
+    "saylor-little-more-orange-strategy-btc-buy-signal-sep20": "2026-09-20T20:21:40Z",
+    "btc-tests-83k-resistance-weekly-close-sep20": "2026-09-20T20:21:40Z"
   }
 }

@@ -1,6 +1,6 @@
 {
-  "ts": "2026-09-20T15:19:35Z",
+  "ts": "2026-09-20T20:21:40Z",
   "title": "MacroPulse Alert",
-  "priority": "default",
-  "message": "BTC ETFs: $433M net inflow Fri Sep 19 (Fidelity FBTC $311M, 72%) — strongest day since Sep 3; total AUM $102.5B.\nBastion stablecoin co. wins conditional OCC national trust bank charter — federal stablecoin custody/issuance framework advancing.\nBTC $81,260 +0.46% | ETH $2,632 +0.79% — prices quiet on Saturday."
+  "priority": "high",
+  "message": "Oil WTI -11% → $95.26 (Fri close): 3-session drop as Middle East supply fears ease — reverses $107 Houthi spike.\nSaylor posts \"A little more orange\" Sep 20 — signals fresh Strategy BTC buy after 2-week pause (845K BTC held, avg $75.4K).\nBTC approaching $83K resistance on Sep 20 weekly close — ETF inflows supporting bid."
 }
