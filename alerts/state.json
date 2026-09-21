@@ -1,7 +1,7 @@
 {
-  "lastRunISO": "2026-09-21T07:18:03Z",
+  "lastRunISO": "2026-09-21T15:17:28Z",
   "priceAlerts": {
-    "btc": { "pct": 5.07, "dir": "up", "ISO": "2026-09-18T20:06:31Z", "value": 81000 },
+    "btc": { "pct": 3.18, "dir": "up", "ISO": "2026-09-21T15:17:28Z", "value": 83869 },
     "eth": { "pct": 5.50, "dir": "up", "ISO": "2026-09-19T20:17:23Z", "value": 2642 },
     "btcd": { "pct": 2.61, "dir": "up", "ISO": "2026-09-18T07:09:49Z", "value": 58.1549 },
     "total": { "pct": 7.0, "dir": "down", "ISO": "2026-09-16T07:08:13Z", "value": 2576752159951 },
@@ -47,6 +47,8 @@
     "bastion-occ-conditional-national-trust-charter-stablecoin-sep18": "2026-09-20T15:19:35Z",
     "saylor-little-more-orange-strategy-btc-buy-signal-sep20": "2026-09-20T20:21:40Z",
     "btc-tests-83k-resistance-weekly-close-sep20": "2026-09-20T20:21:40Z",
-    "bessent-verysuccessful-us-china-ai-trade-summit-sep21": "2026-09-21T07:18:03Z"
+    "bessent-verysuccessful-us-china-ai-trade-summit-sep21": "2026-09-21T07:18:03Z",
+    "btc-84k-cross-262m-shorts-liquidated-3pct18-sep21": "2026-09-21T15:17:28Z",
+    "goolsbee-path-2pct-painful-supply-shocks-services-ai-capex-sep21": "2026-09-21T15:17:28Z"
   }
 }
