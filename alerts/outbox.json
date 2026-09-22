@@ -1,6 +1,6 @@
 {
-  "ts": "2026-09-22T15:18:16Z",
+  "ts": "2026-09-22T20:18:17Z",
   "title": "MacroPulse Alert",
-  "priority": "default",
-  "message": ""
+  "priority": "high",
+  "message": "BTC spot ETF inflows $999M Sep 22 — 11-month record (IBIT $381M, ARKB $289M, FBTC $239M)\nETH spot ETF inflows $270M Sep 22 — largest single-day since Oct 7 2025\nBTC briefly above $87K; $648M shorts liquidated 24h, open interest +7.6% to $156B"
 }
