@@ -1,6 +1,6 @@
 {
-  "ts": "2026-09-22T07:17:36Z",
+  "ts": "2026-09-22T15:18:16Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "BTC +6.5% (24h) → $86,625 — 8-month high; 2.2x threshold; rally extends post-FOMC\nETH +4.5% (24h) → $2,768 — crosses 4% threshold; first significant alt outperformance since Sept 19\nNasdaq hits new ATH; Meta +11.3% on session — broad risk-on into Trump-Xi summit (Sept 23–25)\nSEC tokenization pilot window live today — select venues begin on-chain tokenized equity trading\nFlash PMIs tomorrow (Sept 23, 09:45 ET) — first key post-FOMC growth read; consensus ~53"
+  "priority": "default",
+  "message": ""
 }
