@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-22T22:24:54.333Z",
+  "generatedAt": "2026-09-23T12:13:55.616Z",
   "dial": {
     "state": "BTC Accumulation",
-    "summary": "DXY edged higher to 100.42 and real yields held at 2.66% (near 18-year high) as the two structural macro headwinds persist, while M2 expanding to $103.6T, the Fed balance sheet flat at $6.75T, and near-zero BTC funding at 0.008% sustain three supportive forces; with TOTAL at $2.87T, BTC.D firming above 57%, and stablecoin dominance steady at 10.66%, the BTC Accumulation posture is maintained ahead of the data-dense September 30 triple-release (PCE, GDP, ADP) and October 2 NFP.",
+    "summary": "DXY edged up to 100.60 (Sep 22 close) and real yields eased marginally to 2.63% (still near 18-year highs), keeping two structural macro headwinds in place; global M2 holding near $103.6T, the Fed balance sheet flat at $6.75T, BTC funding near-zero at 0.0095%, and stablecoin dominance declining to 10.25% sustain four supportive forces; with TOTAL rising toward ~$3.0T and BTC.D firm above 57%, the BTC Accumulation posture is maintained ahead of the data-dense September 30 triple-release (PCE, GDP, ADP) and October 2 NFP.",
     "states": [
       "BTC Accumulation",
       "Alt Rotation",
@@ -14,82 +14,82 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 86195,
+      "value": 85508,
       "format": "usd",
-      "change24h": -0.39822,
-      "change30d": 11.4016
+      "change24h": -0.54519,
+      "change30d": 10.3618
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 2746.21,
+      "value": 2724.13,
       "format": "usd",
-      "change24h": -1.08864,
-      "change30d": 12.1953
+      "change24h": -0.74098,
+      "change30d": 10.6845
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.0318851,
+      "value": 0.0318647,
       "format": "ratio",
-      "change24h": -0.45778313740362664,
-      "change30d": 0.10744226886742211
+      "change24h": -0.1968322680530967,
+      "change30d": 0.48825349886019054
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 58.81444252023211,
+      "value": 58.68570846086468,
       "format": "percent",
-      "change24h": 2.637672084882814,
-      "change30d": -0.2203354119017929
+      "change24h": 2.360637842461677,
+      "change30d": -0.14193600927406527
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2937176639871.659,
+      "value": 2922202297824.207,
       "format": "usd-compact",
-      "change24h": -2.9797851244653084,
-      "change30d": 12.128202980999191
+      "change24h": -2.801836626766269,
+      "change30d": 10.216160676868848
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1209692573296.6572,
+      "value": 1207287176686.4043,
       "format": "usd-compact",
-      "change24h": -6.431988863416148,
-      "change30d": 12.495120360917866
+      "change24h": -5.898275340550903,
+      "change30d": 10.447041136929297
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 875212647570.2524,
+      "value": 875228105873.2689,
       "format": "usd-compact",
-      "change24h": -8.332783656658329,
-      "change30d": 11.64240290148057
+      "change24h": -7.74948645967691,
+      "change30d": 9.918134498672217
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 100.541,
+      "value": 100.903,
       "format": "index",
-      "change24h": 0.11451217812119857,
-      "change30d": 1.7044994739823607
+      "change24h": 0.36005211804140497,
+      "change30d": 2.0706886784818437
     },
     {
       "id": "us500",
       "label": "S&P 500",
-      "value": 7764.7,
+      "value": 7764.64,
       "format": "index",
-      "change24h": 1.492712894582051,
-      "change30d": 1.1770347272805446
+      "change24h": -0.0007727278581206059,
+      "change30d": 1.1762529041471865
     },
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10708.33,
+      "value": 10688.5,
       "format": "index",
-      "change24h": -0.2857802667282537,
-      "change30d": -0.36974079997617976
+      "change24h": -0.18518293702192523,
+      "change30d": -1.1818241492262156
     },
     {
       "id": "oil",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 4363.195,
+      "value": 4316.56,
       "format": "usd",
-      "change24h": 0.1519542301004778,
-      "change30d": -5.2027523214836675
+      "change24h": -0.9184967549049292,
+      "change30d": -6.215970764731687
     }
   ],
   "indicators": [
@@ -115,7 +115,7 @@
       "value": "$103.6T",
       "trend": "up",
       "status": "supportive",
-      "note": "G4 M2 aggregate (Fed/ECB/BOJ/PBOC) confirmed at $103,616B (~$103.6T) as of September 18, 2026 per MacroMicro/StreetStats (6–8 week lag; July is the last fully reported month); US M2 alone reached $23.16T in June 2026 (+5.6% YoY, 28th consecutive monthly increase per GlobalMktObserv); 4-week trend up confirmed (expansion from ~$103.0T in late August to $103.6T in mid-September, +0.6% over 4 weeks); status supportive (4-week rising trend met); BOJ's September 18 hike (+25bps to 1.25%) will modestly affect yen-denominated G4 components going forward but has no near-term impact on the reported aggregate."
+      "note": "G4 M2 aggregate (Fed/ECB/BOJ/PBOC) confirmed at ~$103.6T as of mid-September 2026 per MacroMicro/StreetStats (6–8 week reporting lag); US M2 reached $23.218T in July 2026 (+5.4% YoY) per MacroRadar — consistent with the G4 aggregate holding near $103.6T; global broad money supply (wider aggregate including all central banks) hit a record $150T in June 2026 (+$10.7T YoY) per spendnode.io; 4-week trend up confirmed (expansion from ~$103.0T in late August to $103.6T in mid-September, +0.6% over 4 weeks); status supportive (4-week rising trend met); no new G4 aggregate print yet for late September given the reporting lag."
     },
     {
       "tier": 1,
@@ -123,31 +123,31 @@
       "value": "54.6",
       "trend": "down",
       "status": "neutral",
-      "note": "August 2026 ISM Manufacturing PMI at 54.6%, down 1.0pp from July 55.6% (eighth consecutive month of expansion; released Sep 1, below 55.2% consensus); Production 58.3% (−0.2pp), New Orders 53.7% (−3.0pp), Backlogs 51.8% (−3.2pp), Employment 51.2% (−1.6pp); 4-week trend down (Jul 55.6% → Aug 54.6% = −1.0pp); September ISM releases October 1 — no new data as of September 22; status neutral (above 50 but falling; supportive requires above 50 AND rising; headwind requires below 48 and falling or above 62 — neither applies); S&P Global Flash PMI September 23 is the next advance read."
+      "note": "August 2026 ISM Manufacturing PMI at 54.6%, down 1.0pp from July 55.6% (eighth consecutive month of expansion; released Sep 1, below 55.2% consensus); Production 58.3% (−0.2pp), New Orders 53.7% (−3.0pp), Backlogs 51.8% (−3.2pp), Employment 51.2% (−1.6pp); 4-week trend down (Jul 55.6% → Aug 54.6% = −1.0pp); September ISM releases October 1 — no new data as of September 23; status neutral (above 50 but falling; supportive requires above 50 AND rising; headwind requires below 48 and falling or above 62 — neither applies); S&P Global US Flash PMI for September released today September 23 — the first advance read for September activity."
     },
     {
       "tier": 1,
       "name": "DXY (US Dollar Index)",
-      "value": "100.42",
+      "value": "100.60",
       "trend": "up",
       "status": "headwind",
-      "note": "ICE DXY at 100.42 on September 22, 2026 (up from 100.27 on September 21; dollar index edging higher after the previous week's +1.1% gain on hawkish Fed stance); 4-week trend up: ~99.0 (Aug 22) → 100.42 (Sep 22) = +1.42%, well above the 0.5% flat threshold; status headwind — DXY remains above the 100 threshold for the second consecutive session, confirming the structural dollar headwind; DXY above 100 joins real yields at 2.66% as the second active macro headwind; a sustained official close below 100 is required to return to neutral status."
+      "note": "ICE DXY closed at 100.603 on September 22, 2026 (rose 0.17% on the session per ChainCatcher; Trading Economics confirms ~100.42–100.60 range); dollar index at highest level in ~3 months, extending the prior week's +1.1% gain on hawkish Fed stance (fed funds 3.75%–4.00% post Sep 16 hike); 4-week trend up: ~99.0 (Aug 22) → 100.60 (Sep 22) = +1.6%, well above the 0.5% flat threshold; status headwind — DXY holds above the 100 threshold; DXY above 100 joins real yields at 2.63% as the two active macro headwinds; a sustained official close below 100 is required to return to neutral status."
     },
     {
       "tier": 1,
       "name": "Real Yields (US10Y - CPI)",
-      "value": "2.66%",
+      "value": "2.63%",
       "trend": "up",
       "status": "headwind",
-      "note": "FRED DFII10 (10-year TIPS constant maturity) last confirmed at 2.66% for September 18, 2026 (per StreetStats/TipsWatch); September 17 10-year TIPS reopening auction cleared at 2.653% — the highest real yield at auction since October 2008; Sep 19-22 DFII10 not yet published on FRED (H.15 lags by 1 business day); the 10Y nominal eased 4bps to 4.97% on September 21, but with breakeven at ~2.27% the TIPS yield remains near 2.65–2.66%; 4-week trend up: ~2.45% (Aug 20) → 2.66% (Sep 18) = +21bps; status headwind (rising 4-week trend AND above 2% absolute threshold both met); sustainably falling below 2% required to shift status to supportive."
+      "note": "FRED DFII10 (10-year TIPS constant maturity) at 2.63% as of September 21, 2026 per WatchGold/TradingView; breakeven inflation rate at 2.26%; Sep 21 10Y nominal at 4.96% minus 2.26% breakeven confirms real yield near 2.63–2.70% range; eased marginally from the Sep 18 peak of 2.66% (the highest 10Y TIPS level since October 2008 per TipsWatch); 4-week trend up: ~2.45% (Aug 22) → 2.63% (Sep 21) = +18bps; status headwind (rising 4-week trend AND above 2% absolute threshold both met); sustainably falling below 2% required to shift status to supportive."
     },
     {
       "tier": 1,
       "name": "2s10s Yield Curve",
-      "value": "+0.22%",
+      "value": "+0.20%",
       "trend": "down",
       "status": "neutral",
-      "note": "September 21–22, 2026: 10Y eased 4bps to 4.97% on Monday (Sep 21); 2Y held at ~4.75% (last confirmed Sep 18, anchored to fed funds at 3.75%–4.00%); spread = 4.97% − 4.75% = +0.22% (+22bps); 4-week trend down (flattening): ~+38bps (Aug 21, pre-FOMC) → +22bps (Sep 22) = −16bps over 4 weeks, as the front end anchors to policy while the long end moves with economic data; status neutral (positive spread but not steepening; supportive requires BOTH positive AND steepening; deeply inverted < −50bps for headwind does not apply); curve narrowed 4bps today as nominal yields eased on softer risk tone while 2Y remains pinned; October 27–28 FOMC is the next key repricing catalyst."
+      "note": "September 21, 2026: 10Y at 4.96%, 2Y at 4.76%; spread = +0.20% (+20bps) per MacroMicro/YCharts; 4-week trend down (flattening): ~+38bps (Aug 21, pre-FOMC) → +20bps (Sep 21) = −18bps over 4 weeks, as the front end anchors to policy (fed funds 3.75%–4.00%) while the long end price-eases on growth moderation; status neutral (positive spread but not steepening; supportive requires BOTH positive AND steepening; deeply inverted < −50bps for headwind does not apply); curve narrowed 2bps from the Sep 22 level of +22bps as 10Y eased; October 27–28 FOMC is the next key repricing catalyst."
     },
     {
       "tier": 1,
@@ -155,46 +155,39 @@
       "value": "$6.75T",
       "trend": "flat",
       "status": "supportive",
-      "note": "WALCL: $6,747B ($6.747T) for week ending September 16, 2026 per Federal Reserve H.4.1 released September 17 (Treasuries $4,554B, MBS $1,914B, other $279B); next H.4.1 release scheduled September 24, 2026 (2 days from now); 4-week trend flat: ~$6.70T (Aug 13) → $6.747T (Sep 16) = +$47B over 4 weeks, marginal expansion within the flat range; status supportive (holding at post-2022 stabilisation plateau; no change to QT pace announced at Sep 16 FOMC; marginal expansion driven by FX swap line activity, not new asset purchases); total assets up ~$138B year-on-year."
+      "note": "WALCL: $6,747B ($6.747T) for week ending September 16, 2026 per Federal Reserve H.4.1 (Treasuries $4,554B, MBS $1,914B, other $279B); next H.4.1 release scheduled September 24, 2026 (tomorrow); 4-week trend flat: ~$6.70T (Aug 13) → $6.747T (Sep 16) = +$47B over 4 weeks, marginal expansion within the flat range; status supportive (holding at post-2022 stabilisation plateau; no change to QT pace announced at Sep 16 FOMC; marginal expansion driven by FX swap line activity, not new asset purchases); total assets up ~$138B year-on-year."
     },
     {
       "tier": 3,
       "name": "BTC Funding Rates (perps avg)",
-      "value": "0.008%",
+      "value": "0.0095%",
       "trend": "flat",
       "status": "supportive",
-      "note": "BTC perpetual funding rate at ~0.008% per 8h (CF Bitcoin Kraken Perpetual Funding Rate Index at 5.46% annualized as of September 18, 2026; spot-market range 0.0073%–0.0085% per 8h per MacroMicro/CryptoQuant); near-zero funding during BTC's move toward $84–86K on September 21–22 confirms the rally remains spot-driven, not leveraged; 30-day trend flat (funding has remained sub-0.01% throughout September as accumulation was orderly); status supportive (well below the 0.04% overheating threshold; near-zero is the ideal accumulation signal; Strategy/Saylor acquired 950 BTC for $75.7M in the Sep 14–20 week, adding institutional spot demand)."
+      "note": "BTC perpetual funding rate at ~0.0095% per 8h as of September 22, 2026 per MacroMicro/TheBlock (30-day range: consistently sub-0.01% throughout September); near-zero funding during BTC's consolidation in the $84–87K range confirms the move remains spot-driven, not leveraged; 30-day trend flat (funding has remained sub-0.01% throughout September, no regime change); status supportive (well below the 0.04% overheating threshold; near-zero funding is the ideal BTC Accumulation signal; slight uptick from 0.008% to 0.0095% is within normal noise, not a trend shift)."
     },
     {
       "tier": 3,
       "name": "Stablecoin Dominance",
-      "value": "10.66%",
+      "value": "10.25%",
       "trend": "down",
       "status": "supportive",
-      "note": "Stablecoin market cap ~$307B (September 21–22, 2026; CoinGecko/CoinMarketCap); total crypto market cap $2.87T (TOTAL stable at cycle range); stablecoin dominance 10.66% ($307B / $2.87T); 30-day trend down: stablecoin dominance peaked at ~13% in Q1 2026 and has declined to 10.66% by late September as capital has deployed into risk assets; status supportive (30-day falling trend confirmed; headwind condition — rising dominance while TOTAL also rising — does NOT apply as dominance is declining); BTC dominance firming above 57% ($1.64–1.69T of $2.87T total); USDT ~60.57%, USDC ~24.1%; sustained sub-11% dominance alongside BTC.D firmly above 55% is the primary BTC Accumulation signal this cycle."
+      "note": "Stablecoin market cap ~$307B (September 22–23, 2026; StablecoinBeat/CoinGecko); total crypto market cap ~$3.0T (TOTAL rising modestly from $2.87T over the past week); stablecoin dominance 10.25% ($307B / ~$3.0T); 30-day trend down: stablecoin dominance peaked at ~13% in Q1 2026 and has declined to 10.25% by late September as capital has deployed into risk assets; status supportive (30-day falling trend confirmed; fell further from 10.66% on Sep 22 to 10.25% as TOTAL expanded; headwind condition — rising dominance while TOTAL also rising — does NOT apply); BTC dominance firm above 57%; USDT ~60.57% ($183.4B), USDC ~24.1% ($74.2B); declining stablecoin dominance alongside firm BTC.D above 55% reinforces the BTC Accumulation thesis."
     }
   ],
   "upcoming": [
-    {
-      "date": "2026-09-23",
-      "title": "S&P Global Flash PMI (September 2026, Preliminary)",
-      "category": "PMI",
-      "importance": "medium",
-      "note": "S&P Global US Flash PMI Composite, Manufacturing, and Services preliminary data for September 2026 at 9:45 AM ET — first advance September activity read capturing the full post-FOMC (+25bps Sep 16), BOE hold (Sep 17), and BOJ hike (+25bps Sep 18) tightening cluster; DXY at 100.42 and real yields at 2.66% (near 18-year high) are the two active macro headwinds entering this read; leads ISM Manufacturing (Oct 1) and ISM Services (Oct 5); a sub-50 manufacturing reading would materially shift November FOMC rate-path narrative; consensus expects modest softening from prior reads."
-    },
     {
       "date": "2026-09-24",
       "title": "Initial Jobless Claims (week ended September 19, 2026)",
       "category": "Labor",
       "importance": "low",
-      "note": "DOL weekly initial jobless claims at 8:30 AM ET for week ending September 19, 2026 — labor market read in the first full week post-FOMC/BOE/BOJ tightening cluster; a sustained rise above 220K would signal early labor market cracks under fed funds rate of 3.75%–4.00%; prior weeks approximately 206K; labor resilience is key to the FOMC's case for sustained restrictive policy heading into October 27–28."
+      "note": "DOL weekly initial jobless claims at 8:30 AM ET for week ending September 19, 2026 — labor market read in the first full week post-FOMC/BOE/BOJ tightening cluster; a sustained rise above 220K would signal early labor market cracks under fed funds rate of 3.75%–4.00%; prior weeks approximately 206K; labor resilience is key to the FOMC's case for sustained restrictive policy heading into October 27–28; Fed balance sheet H.4.1 for week ending September 23 also releases tomorrow."
     },
     {
       "date": "2026-09-25",
       "title": "Advance Durable Goods Orders (August 2026)",
       "category": "Growth",
       "importance": "medium",
-      "note": "Census Bureau Advance Durable Goods Orders for August 2026 at 8:30 AM ET — watch non-defense capital goods ex-aircraft (key business investment proxy for Q3 GDP); elevated borrowing costs (10Y ~4.97%, real yields 2.66%) and DXY at 100.42 weigh on capex decisions; ISM Manufacturing new orders fell to 53.7 in August (−3.0pp); Q2 2026 GDP third estimate follows September 30."
+      "note": "Census Bureau Advance Durable Goods Orders for August 2026 at 8:30 AM ET — watch non-defense capital goods ex-aircraft (key business investment proxy for Q3 GDP); elevated borrowing costs (10Y ~4.96%, real yields 2.63%) and DXY at 100.60 weigh on capex decisions; ISM Manufacturing new orders fell to 53.7 in August (−3.0pp); Q2 2026 GDP third estimate follows September 30."
     },
     {
       "date": "2026-09-25",
@@ -208,7 +201,7 @@
       "title": "Conference Board Consumer Confidence (September 2026)",
       "category": "Growth",
       "importance": "medium",
-      "note": "Conference Board Consumer Confidence Index for September 2026 at 10:00 AM ET — forward-looking consumer sentiment after September's global central bank tightening cluster; a sharp decline from August would confirm elevated financing costs (real yields 2.66%, 10Y ~4.97%) are weighing on consumer psychology; August PCE was +3.7% YoY; August PCE print follows the next day on September 30."
+      "note": "Conference Board Consumer Confidence Index for September 2026 at 10:00 AM ET — forward-looking consumer sentiment after September's global central bank tightening cluster; a sharp decline from August would confirm elevated financing costs (real yields 2.63%, 10Y ~4.96%) are weighing on consumer psychology; August PCE was +3.7% YoY; August PCE print follows the next day on September 30."
     },
     {
       "date": "2026-09-29",
@@ -216,14 +209,35 @@
       "category": "Labor",
       "importance": "medium",
       "note": "Bureau of Labor Statistics Job Openings and Labor Turnover Survey for August 2026 at 10:00 AM ET — key Fed input for assessing labor market tightness; a significant decline toward 7M openings would signal elevated rates are cooling labor demand; October 27–28 FOMC will weigh this alongside September PCE (Sep 30) and September NFP (Oct 2)."
+    },
+    {
+      "date": "2026-09-30",
+      "title": "Q2 2026 GDP (Third Estimate)",
+      "category": "Growth",
+      "importance": "high",
+      "note": "Bureau of Economic Analysis Q2 2026 GDP third (final) estimate at 8:30 AM ET — released alongside August PCE and ADP; a downward revision would add to recession concerns given the FOMC's hawkish Sep 16 hike and real yields at 2.63% (near 18-year high); includes BEA annual updates of national, industry, and regional data; a strong final print confirms the economy can absorb the current rate cycle despite tightening headwinds."
+    },
+    {
+      "date": "2026-09-30",
+      "title": "PCE Price Index (August 2026)",
+      "category": "Inflation",
+      "importance": "high",
+      "note": "BEA Personal Income and Outlays report including August 2026 PCE Price Index at 8:30 AM ET — the Fed's preferred inflation gauge; July 2026 PCE was +3.7% YoY; a reading above +3.5% YoY reinforces the FOMC's case for continued tightening ahead of October 27–28; core PCE (ex food and energy) watched most closely; released alongside Q2 GDP third estimate and ADP; the last major inflation print before the October FOMC blackout period."
+    },
+    {
+      "date": "2026-09-30",
+      "title": "ADP National Employment Report (September 2026)",
+      "category": "Labor",
+      "importance": "medium",
+      "note": "ADP Research Institute private payrolls estimate for September 2026 at 8:15 AM ET — advance read on labor conditions ahead of official NFP (Oct 2); released alongside Q2 GDP and August PCE on a data-dense final day of September; a strong print (+150K or above) reinforces the NFP-resilient narrative and keeps rate-hike expectations elevated for the October 27–28 FOMC."
     }
   ],
   "sources": {
     "crypto": "CoinGecko",
     "tradfi": "FRED + Stooq",
     "marketsEndpoint": "markets",
-    "indicators": "2026-09-22",
-    "calendar": "2026-09-22"
+    "indicators": "2026-09-23",
+    "calendar": "2026-09-23"
   },
   "degraded": {
     "markets": false,
@@ -233,5 +247,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-09-22T22:24:54Z"
+  "cachedAtISO": "2026-09-23T12:13:55Z"
 }
