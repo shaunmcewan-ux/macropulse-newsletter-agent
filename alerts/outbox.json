@@ -1,6 +1,6 @@
 {
-  "ts": "2026-09-22T20:18:17Z",
+  "ts": "2026-09-23T07:19:23Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "BTC spot ETF inflows $999M Sep 22 — 11-month record (IBIT $381M, ARKB $289M, FBTC $239M)\nETH spot ETF inflows $270M Sep 22 — largest single-day since Oct 7 2025\nBTC briefly above $87K; $648M shorts liquidated 24h, open interest +7.6% to $156B"
+  "priority": "default",
+  "message": "Trump-Xi summit live in DC: tariff cuts confirmed, rare-earth truce deepened, soybean deal signed — risk-on macro tailwind\nUS Flash PMI (Sep): Composite 53.6 vs 54.6 prior — growth moderating but Q3 expanding at 2.2% annualized rate"
 }
