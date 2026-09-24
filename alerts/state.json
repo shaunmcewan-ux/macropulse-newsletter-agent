@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-09-24T15:20:13Z",
+  "lastRunISO": "2026-09-24T20:19:14Z",
   "priceAlerts": {
     "btc": { "pct": 1.96, "dir": "down", "ISO": "2026-09-22T07:17:36Z", "value": 84499 },
     "eth": { "pct": 4.53, "dir": "up", "ISO": "2026-09-22T07:17:36Z", "value": 2768 },
@@ -10,20 +10,13 @@
     "total3": { "pct": 10.07, "dir": "down", "ISO": "2026-09-24T07:19:58Z", "value": 858825879864.5573 },
     "dxy": { "pct": 0.57, "dir": "up", "ISO": "2026-09-17T07:07:27Z", "value": 101.114 },
     "oil": { "pct": 0.58, "dir": "down", "ISO": "2026-09-20T20:21:40Z", "value": 96.41 },
-    "gold": { "pct": 0.06, "dir": "up", "ISO": "2026-09-17T15:09:29Z", "value": 4289.32 }
+    "gold": { "pct": 0.06, "dir": "up", "ISO": "2026-09-17T15:09:27Z", "value": 4289.32 }
   },
   "releases": {
-    "Retail-Sales-Aug-2026": "2026-09-16T15:08:47Z",
     "Jobless-Claims-Wk-Sep13-2026": "2026-09-18T07:09:49Z",
     "US-FlashPMI-Sep-2026": "2026-09-23T07:19:23Z"
   },
   "news": {
-    "clarity-act-senate-failed-49-50-sep15": "2026-09-16T07:08:13Z",
-    "btc-etf-outflows-450m-sep16-clarity-act": "2026-09-16T15:08:47Z",
-    "fomc-sep16-decision-2pm-et-pending": "2026-09-16T15:08:47Z",
-    "fomc-sep16-25bp-delivered-unanimous-3pt75-4pct": "2026-09-16T20:08:32Z",
-    "fomc-dot-plot-16of18-dec-hike-warsh-no-own-dot": "2026-09-16T20:08:32Z",
-    "dow-600pts-sp500-lower-warsh-hawkish-presser-sep16": "2026-09-16T20:08:32Z",
     "dxy-crossed-100-post-fomc-sep17": "2026-09-17T07:07:27Z",
     "oil-107-geopolitical-houthi-iran-sep17": "2026-09-17T07:07:27Z",
     "boe-sep17-hold-expected-hawkish-split-vote": "2026-09-17T07:07:27Z",
@@ -58,6 +51,7 @@
     "trump-xi-summit-outcome-truce-extended-jan10-no-major-deal-sep24": "2026-09-24T07:19:58Z",
     "total3-10pct-total2-8pct-alt-selloff-btcd-59pct-sep24": "2026-09-24T07:19:58Z",
     "10y-yield-5pt11-19yr-high-oct-hike-65pct-goldman-bofa-flip-sep24": "2026-09-24T15:20:13Z",
-    "iran-pezeshkian-hormuz-no-navigation-sanctions-brent-104-sep24": "2026-09-24T15:20:13Z"
+    "iran-pezeshkian-hormuz-no-navigation-sanctions-brent-104-sep24": "2026-09-24T15:20:13Z",
+    "30y-treasury-2004-high-10y-5pt17-bond-rout-sep24-pm": "2026-09-24T20:19:14Z"
   }
 }
