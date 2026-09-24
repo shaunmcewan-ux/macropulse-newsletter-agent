@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-09-24T07:19:58Z",
+  "lastRunISO": "2026-09-24T15:20:13Z",
   "priceAlerts": {
     "btc": { "pct": 1.96, "dir": "down", "ISO": "2026-09-22T07:17:36Z", "value": 84499 },
     "eth": { "pct": 4.53, "dir": "up", "ISO": "2026-09-22T07:17:36Z", "value": 2768 },
@@ -56,6 +56,8 @@
     "cme-bch-uni-futures-oct19-sep23": "2026-09-23T20:18:42Z",
     "oil-wti-90-iran-talks-6th-session-sep23": "2026-09-23T20:18:42Z",
     "trump-xi-summit-outcome-truce-extended-jan10-no-major-deal-sep24": "2026-09-24T07:19:58Z",
-    "total3-10pct-total2-8pct-alt-selloff-btcd-59pct-sep24": "2026-09-24T07:19:58Z"
+    "total3-10pct-total2-8pct-alt-selloff-btcd-59pct-sep24": "2026-09-24T07:19:58Z",
+    "10y-yield-5pt11-19yr-high-oct-hike-65pct-goldman-bofa-flip-sep24": "2026-09-24T15:20:13Z",
+    "iran-pezeshkian-hormuz-no-navigation-sanctions-brent-104-sep24": "2026-09-24T15:20:13Z"
   }
 }
