@@ -1,15 +1,16 @@
 {
-  "lastRunISO": "2026-09-23T20:18:42Z",
+  "lastRunISO": "2026-09-24T07:19:58Z",
   "priceAlerts": {
-    "btc": { "pct": 6.47, "dir": "up", "ISO": "2026-09-22T07:17:36Z", "value": 86625 },
+    "btc": { "pct": 1.96, "dir": "down", "ISO": "2026-09-22T07:17:36Z", "value": 84499 },
     "eth": { "pct": 4.53, "dir": "up", "ISO": "2026-09-22T07:17:36Z", "value": 2768 },
-    "btcd": { "pct": 2.61, "dir": "up", "ISO": "2026-09-18T07:09:49Z", "value": 58.1549 },
-    "total": { "pct": 7.0, "dir": "down", "ISO": "2026-09-16T07:08:13Z", "value": 2576752159951 },
-    "total2": { "pct": 5.16, "dir": "down", "ISO": "2026-09-18T07:09:49Z", "value": 1098641932836 },
-    "total3": { "pct": 7.57, "dir": "down", "ISO": "2026-09-18T07:09:49Z", "value": 801755934096 },
-    "dxy": { "pct": 0.73, "dir": "up", "ISO": "2026-09-17T07:07:27Z", "value": 100.34 },
-    "oil": { "pct": 10.99, "dir": "down", "ISO": "2026-09-20T20:21:40Z", "value": 95.26 },
-    "gold": { "pct": 1.977, "dir": "up", "ISO": "2026-09-17T15:09:29Z", "value": 4347.495 }
+    "ethbtc": { "pct": 0.25, "dir": "down", "ISO": "2026-09-22T07:17:36Z", "value": 0.03179174 },
+    "btcd": { "pct": 2.71, "dir": "up", "ISO": "2026-09-24T07:19:58Z", "value": 58.831095597927394 },
+    "total": { "pct": 4.55, "dir": "down", "ISO": "2026-09-24T07:19:58Z", "value": 2882443738401.5786 },
+    "total2": { "pct": 8.02, "dir": "down", "ISO": "2026-09-24T07:19:58Z", "value": 1186670507106.0737 },
+    "total3": { "pct": 10.07, "dir": "down", "ISO": "2026-09-24T07:19:58Z", "value": 858825879864.5573 },
+    "dxy": { "pct": 0.57, "dir": "up", "ISO": "2026-09-17T07:07:27Z", "value": 101.114 },
+    "oil": { "pct": 0.58, "dir": "down", "ISO": "2026-09-20T20:21:40Z", "value": 96.41 },
+    "gold": { "pct": 0.06, "dir": "up", "ISO": "2026-09-17T15:09:29Z", "value": 4289.32 }
   },
   "releases": {
     "Retail-Sales-Aug-2026": "2026-09-16T15:08:47Z",
@@ -53,6 +54,8 @@
     "btc-87k-shortsqueeze-648m-liquidated-24h-sep22": "2026-09-22T20:18:17Z",
     "trump-xi-summit-live-tariff-cuts-sep23": "2026-09-23T07:19:23Z",
     "cme-bch-uni-futures-oct19-sep23": "2026-09-23T20:18:42Z",
-    "oil-wti-90-iran-talks-6th-session-sep23": "2026-09-23T20:18:42Z"
+    "oil-wti-90-iran-talks-6th-session-sep23": "2026-09-23T20:18:42Z",
+    "trump-xi-summit-outcome-truce-extended-jan10-no-major-deal-sep24": "2026-09-24T07:19:58Z",
+    "total3-10pct-total2-8pct-alt-selloff-btcd-59pct-sep24": "2026-09-24T07:19:58Z"
   }
 }
