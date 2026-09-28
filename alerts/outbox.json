@@ -1,6 +1,6 @@
 {
-  "ts": "2026-09-28T07:20:35Z",
+  "ts": "2026-09-28T15:20:01Z",
   "title": "MacroPulse Alert",
-  "priority": "default",
-  "message": "BTC ETF week (Sep 21-26): $2.39B net inflows — best week of 2026, highest since Jan-2024 launch.\nAltcoin season index at 3-month high; 93 of 100 CoinDesk 100 rising; NEAR +31% on Bitwise ETF approval.\nNo price threshold breaches (BTC +0.2%, ETH -0.1%, all others flat).\nPCE (Sep 30) + NFP due this week — key inputs for next Fed move."
+  "priority": "high",
+  "message": "Gold -3.17% (24h) → $4,149 | 7-week low; yields/oil weighing\nTrump rejects Iran Hormuz truce — WTI +2.3% $94, Brent +2.9% $107\n10Y yield 5.21% | S&P 500 futures -0.6%, Nasdaq futures -1%\nOct FOMC hike prob 65% | PCE Aug due Tue Sep 30"
 }
