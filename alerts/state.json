@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-09-28T15:20:01Z",
+  "lastRunISO": "2026-09-28T20:18:57Z",
   "priceAlerts": {
     "btc": { "pct": 1.96, "dir": "down", "ISO": "2026-09-22T07:17:36Z", "value": 84499 },
     "eth": { "pct": 4.53, "dir": "up", "ISO": "2026-09-22T07:17:36Z", "value": 2768 },
@@ -8,22 +8,13 @@
     "total": { "pct": 4.55, "dir": "down", "ISO": "2026-09-24T07:19:58Z", "value": 2882443738401.5786 },
     "total2": { "pct": 8.02, "dir": "down", "ISO": "2026-09-24T07:19:58Z", "value": 1186670507106.0737 },
     "total3": { "pct": 10.07, "dir": "down", "ISO": "2026-09-24T07:19:58Z", "value": 858825879864.5573 },
-    "oil": { "pct": 3.52, "dir": "up", "ISO": "2026-09-26T07:17:42Z", "value": 95.40 },
+    "oil": { "pct": 3.81, "dir": "up", "ISO": "2026-09-28T20:18:57Z", "value": 95.93 },
     "gold": { "pct": 3.17, "dir": "down", "ISO": "2026-09-28T15:20:01Z", "value": 4149 }
   },
   "releases": {
     "US-FlashPMI-Sep-2026": "2026-09-23T07:19:23Z"
   },
   "news": {
-    "eth-etf-inflows-143m-sep19-outflow-streak-reversed": "2026-09-19T20:17:23Z",
-    "fear-greed-73-greed-post-fomc-recovery-sep19": "2026-09-19T20:17:23Z",
-    "btc-etf-inflows-433m-fbtc-311m-aum-102pt5b-sep19": "2026-09-20T15:19:35Z",
-    "bastion-occ-conditional-national-trust-charter-stablecoin-sep18": "2026-09-20T15:19:35Z",
-    "saylor-little-more-orange-strategy-btc-buy-signal-sep20": "2026-09-20T20:21:40Z",
-    "btc-tests-83k-resistance-weekly-close-sep20": "2026-09-20T20:21:40Z",
-    "bessent-verysuccessful-us-china-ai-trade-summit-sep21": "2026-09-21T07:18:03Z",
-    "btc-84k-cross-262m-shorts-liquidated-3pct18-sep21": "2026-09-21T15:17:28Z",
-    "goolsbee-path-2pct-painful-supply-shocks-services-ai-capex-sep21": "2026-09-21T15:17:28Z",
     "xi-state-visit-confirmed-sep23-25-trump-xi-tariffs-ai-rareearths": "2026-09-21T20:17:40Z",
     "nasdaq-ath-meta-1134-sep22": "2026-09-22T07:17:36Z",
     "sec-tokenization-pilot-live-sep22": "2026-09-22T07:17:36Z",
@@ -50,6 +41,8 @@
     "btc-etf-239b-weekly-record-best-week-2026-sep26": "2026-09-28T07:20:35Z",
     "altcoin-season-3month-high-93of100-near-etf-bitwise-approval-sep28": "2026-09-28T07:20:35Z",
     "trump-rejects-iran-hormuz-truce-proposal-oil-risk-off-sep28": "2026-09-28T15:20:01Z",
-    "gold-7wk-low-4149-yields-oil-squeeze-sep28": "2026-09-28T15:20:01Z"
+    "gold-7wk-low-4149-yields-oil-squeeze-sep28": "2026-09-28T15:20:01Z",
+    "10y-5pt21-bond-selloff-resumes-iran-oil-sep28": "2026-09-28T20:18:57Z",
+    "nfp-sep-2026-due-oct2-jobs-week-ahead": "2026-09-28T20:18:57Z"
   }
 }

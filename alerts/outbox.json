@@ -1,6 +1,6 @@
 {
-  "ts": "2026-09-28T15:20:01Z",
+  "ts": "2026-09-28T20:18:57Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "Gold -3.17% (24h) → $4,149 | 7-week low; yields/oil weighing\nTrump rejects Iran Hormuz truce — WTI +2.3% $94, Brent +2.9% $107\n10Y yield 5.21% | S&P 500 futures -0.6%, Nasdaq futures -1%\nOct FOMC hike prob 65% | PCE Aug due Tue Sep 30"
+  "priority": "default",
+  "message": "Oil WTI +3.8% (24h) → ~$96 | Brent near $108 after Trump rejects Iran Hormuz deal\nUS 10y yield 5.21% — near 20-year high, bond selloff resumes post-Iran-rejection\nNFP (Sep) due Fri Oct 2 — key jobs print with Oct hike at ~75% probability"
 }
