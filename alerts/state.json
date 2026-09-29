@@ -1,13 +1,14 @@
 {
-  "lastRunISO": "2026-09-28T20:18:57Z",
+  "lastRunISO": "2026-09-29T07:21:49Z",
   "priceAlerts": {
     "btc": { "pct": 1.96, "dir": "down", "ISO": "2026-09-22T07:17:36Z", "value": 84499 },
     "eth": { "pct": 4.53, "dir": "up", "ISO": "2026-09-22T07:17:36Z", "value": 2768 },
     "ethbtc": { "pct": 0.25, "dir": "down", "ISO": "2026-09-22T07:17:36Z", "value": 0.03179174 },
-    "btcd": { "pct": 2.71, "dir": "up", "ISO": "2026-09-24T07:19:58Z", "value": 58.831095597927394 },
-    "total": { "pct": 4.55, "dir": "down", "ISO": "2026-09-24T07:19:58Z", "value": 2882443738401.5786 },
-    "total2": { "pct": 8.02, "dir": "down", "ISO": "2026-09-24T07:19:58Z", "value": 1186670507106.0737 },
-    "total3": { "pct": 10.07, "dir": "down", "ISO": "2026-09-24T07:19:58Z", "value": 858825879864.5573 },
+    "btcd": { "pct": 2.03, "dir": "up", "ISO": "2026-09-29T07:21:49Z", "value": 58.269052800514075 },
+    "total": { "pct": 3.25, "dir": "down", "ISO": "2026-09-29T07:21:49Z", "value": 2876479054866.6 },
+    "total2": { "pct": 5.87, "dir": "down", "ISO": "2026-09-29T07:21:49Z", "value": 1200381955590.6526 },
+    "total3": { "pct": 7.82, "dir": "down", "ISO": "2026-09-29T07:21:49Z", "value": 873322144983.643 },
+    "dxy": { "pct": 0.16, "dir": "up", "ISO": "2026-09-28T20:49:30Z", "value": 101.195 },
     "oil": { "pct": 3.81, "dir": "up", "ISO": "2026-09-28T20:18:57Z", "value": 95.93 },
     "gold": { "pct": 3.17, "dir": "down", "ISO": "2026-09-28T15:20:01Z", "value": 4149 }
   },
@@ -15,9 +16,6 @@
     "US-FlashPMI-Sep-2026": "2026-09-23T07:19:23Z"
   },
   "news": {
-    "xi-state-visit-confirmed-sep23-25-trump-xi-tariffs-ai-rareearths": "2026-09-21T20:17:40Z",
-    "nasdaq-ath-meta-1134-sep22": "2026-09-22T07:17:36Z",
-    "sec-tokenization-pilot-live-sep22": "2026-09-22T07:17:36Z",
     "btc-etf-inflows-999m-record-11mo-sep22": "2026-09-22T20:18:17Z",
     "eth-etf-inflows-270m-record-oct25-sep22": "2026-09-22T20:18:17Z",
     "btc-87k-shortsqueeze-648m-liquidated-24h-sep22": "2026-09-22T20:18:17Z",
@@ -43,6 +41,7 @@
     "trump-rejects-iran-hormuz-truce-proposal-oil-risk-off-sep28": "2026-09-28T15:20:01Z",
     "gold-7wk-low-4149-yields-oil-squeeze-sep28": "2026-09-28T15:20:01Z",
     "10y-5pt21-bond-selloff-resumes-iran-oil-sep28": "2026-09-28T20:18:57Z",
-    "nfp-sep-2026-due-oct2-jobs-week-ahead": "2026-09-28T20:18:57Z"
+    "nfp-sep-2026-due-oct2-jobs-week-ahead": "2026-09-28T20:18:57Z",
+    "rba-25bps-4pt60-sep29-4th-hike-2026-15yr-high": "2026-09-29T07:21:49Z"
   }
 }
