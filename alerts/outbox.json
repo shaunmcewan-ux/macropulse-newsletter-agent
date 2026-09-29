@@ -1,6 +1,6 @@
 {
-  "ts": "2026-09-29T07:21:49Z",
+  "ts": "2026-09-29T15:21:00Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "RBA +25bps to 4.60% (4th hike of 2026, 15-yr high). Energy inflation & capacity cited. AUD +1%.\nTOTAL2 -5.9% (24h) → $1.20T · TOTAL3 -7.8% → $873B — alt complex back under pressure.\nBTC.D +2.0% (24h) → 58.3% — dominance bid as alts sold.\nCrypto TOTAL -3.3% (24h) → $2.88T.\nPCE (Aug) due Sep 30 08:30 ET — key pre-FOMC print."
+  "priority": "default",
+  "message": "BTC ~$83,960 (-1.1% 24h) — Sep MTD +10.9%, best September since 2012 despite 10Y yield at 19-yr high.\nPCE inflation (Aug) due 08:30 ET tomorrow (Sep 30) — next macro catalyst; core PCE prior 3.34% YoY."
 }

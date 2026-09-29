@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-09-29T07:21:49Z",
+  "lastRunISO": "2026-09-29T15:21:00Z",
   "priceAlerts": {
     "btc": { "pct": 1.96, "dir": "down", "ISO": "2026-09-22T07:17:36Z", "value": 84499 },
     "eth": { "pct": 4.53, "dir": "up", "ISO": "2026-09-22T07:17:36Z", "value": 2768 },
@@ -9,7 +9,7 @@
     "total2": { "pct": 5.87, "dir": "down", "ISO": "2026-09-29T07:21:49Z", "value": 1200381955590.6526 },
     "total3": { "pct": 7.82, "dir": "down", "ISO": "2026-09-29T07:21:49Z", "value": 873322144983.643 },
     "dxy": { "pct": 0.16, "dir": "up", "ISO": "2026-09-28T20:49:30Z", "value": 101.195 },
-    "oil": { "pct": 3.81, "dir": "up", "ISO": "2026-09-28T20:18:57Z", "value": 95.93 },
+    "oil": { "pct": 3.81, "dir": "up", "ISO": "2026-09-29T07:21:49Z", "value": 95.93 },
     "gold": { "pct": 3.17, "dir": "down", "ISO": "2026-09-28T15:20:01Z", "value": 4149 }
   },
   "releases": {
@@ -42,6 +42,7 @@
     "gold-7wk-low-4149-yields-oil-squeeze-sep28": "2026-09-28T15:20:01Z",
     "10y-5pt21-bond-selloff-resumes-iran-oil-sep28": "2026-09-28T20:18:57Z",
     "nfp-sep-2026-due-oct2-jobs-week-ahead": "2026-09-28T20:18:57Z",
-    "rba-25bps-4pt60-sep29-4th-hike-2026-15yr-high": "2026-09-29T07:21:49Z"
+    "rba-25bps-4pt60-sep29-4th-hike-2026-15yr-high": "2026-09-29T07:21:49Z",
+    "btc-best-sep-since-2012-3month-streak-sep29": "2026-09-29T15:21:00Z"
   }
 }
