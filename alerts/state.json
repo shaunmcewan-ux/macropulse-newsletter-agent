@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-09-30T15:17:46Z",
+  "lastRunISO": "2026-09-30T20:20:15Z",
   "priceAlerts": {
     "btcd": { "pct": 2.03, "dir": "up", "ISO": "2026-09-29T07:21:49Z", "value": 58.269052800514075 },
     "total": { "pct": 3.25, "dir": "down", "ISO": "2026-09-29T07:21:49Z", "value": 2876479054866.6 },
@@ -10,7 +10,8 @@
     "gold": { "pct": 3.17, "dir": "down", "ISO": "2026-09-28T15:20:01Z", "value": 4149 }
   },
   "releases": {
-    "US-PCE-Aug-2026": "2026-09-30T15:17:46Z"
+    "US-PCE-Aug-2026": "2026-09-30T15:17:46Z",
+    "US-GDP-Q2-2026-3rd": "2026-09-30T20:20:15Z"
   },
   "news": {
     "cme-bch-uni-futures-oct19-sep23": "2026-09-23T20:18:42Z",
@@ -37,6 +38,7 @@
     "nfp-sep-2026-due-oct2-jobs-week-ahead": "2026-09-28T20:18:57Z",
     "rba-25bps-4pt60-sep29-4th-hike-2026-15yr-high": "2026-09-29T07:21:49Z",
     "btc-best-sep-since-2012-3month-streak-sep29": "2026-09-29T15:21:00Z",
-    "30y-5pt62-10y-5pt29-2002-high-bond-rout-sep30": "2026-09-30T07:18:00Z"
+    "30y-5pt62-10y-5pt29-2002-high-bond-rout-sep30": "2026-09-30T07:18:00Z",
+    "pce-soft-oct-pause-repriced-spx-erases-sep-loss-sep30": "2026-09-30T20:20:15Z"
   }
 }

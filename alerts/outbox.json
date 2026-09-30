@@ -1,6 +1,6 @@
 {
-  "ts": "2026-09-30T15:17:46Z",
+  "ts": "2026-09-30T20:20:15Z",
   "title": "MacroPulse Alert",
   "priority": "default",
-  "message": "Core PCE Aug: 3.0% YoY (vs 3.3% exp), headline 3.4% (vs 3.7%) — dovish surprise. 10Y yields ease to 5.22%, 30Y to 5.58% after print."
+  "message": "GDP Q2 (3rd est.): 2.2% annualised — revised up 0.7pp from 2nd estimate of 1.5%\nCore PCE Aug: 3.0% YoY (from 3.3%) — October rate hike largely priced out\nS&P 500 erases September loss (+0.3%); BTC holds ~$83,500\nNote: macropulse.uk API unavailable — live price thresholds not checked this run"
 }
