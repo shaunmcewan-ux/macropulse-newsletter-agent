@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-09-30T07:18:00Z",
+  "lastRunISO": "2026-09-30T15:17:46Z",
   "priceAlerts": {
     "btcd": { "pct": 2.03, "dir": "up", "ISO": "2026-09-29T07:21:49Z", "value": 58.269052800514075 },
     "total": { "pct": 3.25, "dir": "down", "ISO": "2026-09-29T07:21:49Z", "value": 2876479054866.6 },
@@ -10,10 +10,9 @@
     "gold": { "pct": 3.17, "dir": "down", "ISO": "2026-09-28T15:20:01Z", "value": 4149 }
   },
   "releases": {
-    "US-FlashPMI-Sep-2026": "2026-09-23T07:19:23Z"
+    "US-PCE-Aug-2026": "2026-09-30T15:17:46Z"
   },
   "news": {
-    "trump-xi-summit-live-tariff-cuts-sep23": "2026-09-23T07:19:23Z",
     "cme-bch-uni-futures-oct19-sep23": "2026-09-23T20:18:42Z",
     "oil-wti-90-iran-talks-6th-session-sep23": "2026-09-23T20:18:42Z",
     "trump-xi-summit-outcome-truce-extended-jan10-no-major-deal-sep24": "2026-09-24T07:19:58Z",
