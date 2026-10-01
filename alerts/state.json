@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-10-01T07:21:44Z",
+  "lastRunISO": "2026-10-01T15:19:34Z",
   "priceAlerts": {
     "btcd": { "pct": 2.03, "dir": "up", "ISO": "2026-09-29T07:21:49Z", "value": 58.269052800514075 },
     "total": { "pct": 3.25, "dir": "down", "ISO": "2026-09-29T07:21:49Z", "value": 2876479054866.6 },
@@ -7,11 +7,13 @@
     "total3": { "pct": 7.82, "dir": "down", "ISO": "2026-09-29T07:21:49Z", "value": 873322144983.643 },
     "dxy": { "pct": 0.16, "dir": "up", "ISO": "2026-09-28T20:49:30Z", "value": 101.195 },
     "oil": { "pct": 3.77, "dir": "down", "ISO": "2026-09-29T20:21:45Z", "value": 90.54 },
-    "gold": { "pct": 3.17, "dir": "down", "ISO": "2026-09-28T15:20:01Z", "value": 4149 }
+    "gold": { "pct": 3.17, "dir": "down", "ISO": "2026-09-28T15:20:01Z", "value": 4149 },
+    "us500": { "pct": 1.52, "dir": "down", "ISO": "2026-10-01T15:19:34Z", "value": 7316.16 }
   },
   "releases": {
     "US-PCE-Aug-2026": "2026-09-30T15:17:46Z",
-    "US-GDP-Q2-2026-3rd": "2026-09-30T20:20:15Z"
+    "US-GDP-Q2-2026-3rd": "2026-09-30T20:20:15Z",
+    "US-ISM-Mfg-Sep-2026": "2026-10-01T15:19:34Z"
   },
   "news": {
     "10y-yield-5pt11-19yr-high-oct-hike-65pct-goldman-bofa-flip-sep24": "2026-09-24T15:20:13Z",
