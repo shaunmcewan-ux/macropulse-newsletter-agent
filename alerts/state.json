@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-09-30T20:20:15Z",
+  "lastRunISO": "2026-10-01T07:21:44Z",
   "priceAlerts": {
     "btcd": { "pct": 2.03, "dir": "up", "ISO": "2026-09-29T07:21:49Z", "value": 58.269052800514075 },
     "total": { "pct": 3.25, "dir": "down", "ISO": "2026-09-29T07:21:49Z", "value": 2876479054866.6 },
@@ -14,10 +14,6 @@
     "US-GDP-Q2-2026-3rd": "2026-09-30T20:20:15Z"
   },
   "news": {
-    "cme-bch-uni-futures-oct19-sep23": "2026-09-23T20:18:42Z",
-    "oil-wti-90-iran-talks-6th-session-sep23": "2026-09-23T20:18:42Z",
-    "trump-xi-summit-outcome-truce-extended-jan10-no-major-deal-sep24": "2026-09-24T07:19:58Z",
-    "total3-10pct-total2-8pct-alt-selloff-btcd-59pct-sep24": "2026-09-24T07:19:58Z",
     "10y-yield-5pt11-19yr-high-oct-hike-65pct-goldman-bofa-flip-sep24": "2026-09-24T15:20:13Z",
     "iran-pezeshkian-hormuz-no-navigation-sanctions-brent-104-sep24": "2026-09-24T15:20:13Z",
     "30y-treasury-2004-high-10y-5pt17-bond-rout-sep24-pm": "2026-09-24T20:19:14Z",
