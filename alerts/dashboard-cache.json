@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T13:12:23.504Z",
+  "generatedAt": "2026-10-02T19:31:38.826Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "BTC rallied to $86,257 (+3.8% from Oct 1) on near-zero perpetual funding (0.0067%), sustaining an unlevered spot accumulation regime as BTC.D firmed to 58.5% — alts underperforming confirms no alt-rotation signal yet; macro headwinds persist with DXY breaking to a fresh yearly high of 102.09 and real yields holding at 2.88%, but yield curve steepening to +44bps and a weak September NFP consensus (90K, releasing today at 8:30 AM ET) set up a potential macro re-pricing catalyst into October 27–28 FOMC — BTC Accumulation posture intact until DXY sustains below 100 or BTC.D sustains below 55%.",
@@ -14,66 +14,66 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 86752,
+      "value": 84121,
       "format": "usd",
-      "change24h": 3.86449,
-      "change30d": 13.0811
+      "change24h": -0.61081,
+      "change30d": 8.9498
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 2753.58,
+      "value": 2665.63,
       "format": "usd",
-      "change24h": 2.42774,
-      "change30d": 15.7096
+      "change24h": -1.07743,
+      "change30d": 11.3966
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.03173074,
+      "value": 0.03170776,
       "format": "ratio",
-      "change24h": -1.4388343164001514,
-      "change30d": 4.955929449740813
+      "change24h": -0.4649871214414119,
+      "change30d": 1.6202879493097848
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 58.84726572228169,
+      "value": 58.732526801215144,
       "format": "percent",
-      "change24h": 3.76692574712838,
-      "change30d": -0.6184527846186836
+      "change24h": 3.2484812796490736,
+      "change30d": -0.7557796525462059
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2962420149968.546,
+      "value": 2871992929487.6255,
       "format": "usd-compact",
-      "change24h": 0.09889880820186982,
-      "change30d": 12.778610439843568
+      "change24h": -3.736036822857743,
+      "change30d": 9.61621558651428
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1219116892506.14,
+      "value": 1185198912447.3018,
       "format": "usd-compact",
-      "change24h": -4.838950645466635,
-      "change30d": 13.789987191754314
+      "change24h": -7.88117057113244,
+      "change30d": 10.860850201933243
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 882958259121.314,
+      "value": 860569105959.6276,
       "format": "usd-compact",
-      "change24h": -7.3405902390000835,
-      "change30d": 13.769474044158596
+      "change24h": -10.228631265487948,
+      "change30d": 11.054327268583334
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 101.851,
+      "value": 101.874,
       "format": "index",
-      "change24h": -0.1871778287371891,
-      "change30d": 2.1933477148447227
+      "change24h": -0.16463809019815995,
+      "change30d": 2.2164250238298187
     },
     {
       "id": "us500",
@@ -86,10 +86,10 @@
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10468.98,
+      "value": 10461.94,
       "format": "index",
-      "change24h": 0.3904774142570222,
-      "change30d": -2.9746226577719703
+      "change24h": 0.32296854892379256,
+      "change30d": -3.039868618361177
     },
     {
       "id": "oil",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 4203.46,
+      "value": 4149.147,
       "format": "usd",
-      "change24h": 0.6215206429880469,
-      "change30d": -2.9302033000581
+      "change24h": -0.6786122595928317,
+      "change30d": -4.184444298703014
     }
   ],
   "indicators": [
@@ -212,5 +212,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-10-02T13:12:23Z"
+  "cachedAtISO": "2026-10-02T19:31:38Z"
 }
