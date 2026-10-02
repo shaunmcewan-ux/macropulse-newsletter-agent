@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-10-02T07:20:53Z",
+  "lastRunISO": "2026-10-02T15:19:05Z",
   "priceAlerts": {
     "btcd": { "pct": 3.57, "dir": "up", "ISO": "2026-10-02T07:20:53Z", "value": 58.66789210690013 },
     "total": { "pct": 2.37, "dir": "down", "ISO": "2026-09-29T07:21:49Z", "value": 2876479054866.6 },
@@ -14,12 +14,10 @@
   "releases": {
     "US-PCE-Aug-2026": "2026-09-30T15:17:46Z",
     "US-GDP-Q2-2026-3rd": "2026-09-30T20:20:15Z",
-    "US-ISM-Mfg-Sep-2026": "2026-10-01T15:19:34Z"
+    "US-ISM-Mfg-Sep-2026": "2026-10-01T15:19:34Z",
+    "US-NFP-Sep-2026": "2026-10-02T15:19:05Z"
   },
   "news": {
-    "10y-yield-5pt11-19yr-high-oct-hike-65pct-goldman-bofa-flip-sep24": "2026-09-24T15:20:13Z",
-    "iran-pezeshkian-hormuz-no-navigation-sanctions-brent-104-sep24": "2026-09-24T15:20:13Z",
-    "30y-treasury-2004-high-10y-5pt17-bond-rout-sep24-pm": "2026-09-24T20:19:14Z",
     "10y-5pt22-30y-5pt50-oct-hike-75pct-jgb-1996high-sep25": "2026-09-25T07:18:59Z",
     "bitget-hack-352m-lazarus-sep24": "2026-09-25T20:20:16Z",
     "nyse-blockchain-tokenized-stocks-24-7-44m-crypto-accounts-sep23": "2026-09-26T07:17:42Z",
@@ -39,6 +37,7 @@
     "btc-best-sep-since-2012-3month-streak-sep29": "2026-09-29T15:21:00Z",
     "30y-5pt62-10y-5pt29-2002-high-bond-rout-sep30": "2026-09-30T07:18:00Z",
     "pce-soft-oct-pause-repriced-spx-erases-sep-loss-sep30": "2026-09-30T20:20:15Z",
-    "gbp-usd-below-132-uk-fiscal-budget-oct28-sterling-late-june-low-oct2": "2026-10-02T07:20:53Z"
+    "gbp-usd-below-132-uk-fiscal-budget-oct28-sterling-late-june-low-oct2": "2026-10-02T07:20:53Z",
+    "nfp-29k-miss-fed-oct-hike-18pct-gold-rally-dollar-down-oct2": "2026-10-02T15:19:05Z"
   }
 }
