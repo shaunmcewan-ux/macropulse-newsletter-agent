@@ -1,14 +1,15 @@
 {
-  "lastRunISO": "2026-10-01T20:18:22Z",
+  "lastRunISO": "2026-10-02T07:20:53Z",
   "priceAlerts": {
-    "btcd": { "pct": 2.03, "dir": "up", "ISO": "2026-09-29T07:21:49Z", "value": 58.269052800514075 },
-    "total": { "pct": 3.25, "dir": "down", "ISO": "2026-09-29T07:21:49Z", "value": 2876479054866.6 },
-    "total2": { "pct": 5.87, "dir": "down", "ISO": "2026-09-29T07:21:49Z", "value": 1200381955590.6526 },
-    "total3": { "pct": 7.82, "dir": "down", "ISO": "2026-09-29T07:21:49Z", "value": 873322144983.643 },
-    "dxy": { "pct": 0.16, "dir": "up", "ISO": "2026-09-28T20:49:30Z", "value": 101.195 },
-    "oil": { "pct": 3.77, "dir": "down", "ISO": "2026-09-29T20:21:45Z", "value": 90.54 },
+    "btcd": { "pct": 3.57, "dir": "up", "ISO": "2026-10-02T07:20:53Z", "value": 58.66789210690013 },
+    "total": { "pct": 2.37, "dir": "down", "ISO": "2026-09-29T07:21:49Z", "value": 2876479054866.6 },
+    "total2": { "pct": 6.95, "dir": "down", "ISO": "2026-10-02T07:20:53Z", "value": 1194375765225.023 },
+    "total3": { "pct": 9.66, "dir": "down", "ISO": "2026-10-02T07:20:53Z", "value": 866284587626.6661 },
+    "dxy": { "pct": 0.58, "dir": "up", "ISO": "2026-09-28T20:49:30Z", "value": 101.195 },
+    "oil": { "pct": 3.23, "dir": "down", "ISO": "2026-10-02T07:20:53Z", "value": 96.16 },
     "gold": { "pct": 3.17, "dir": "down", "ISO": "2026-09-28T15:20:01Z", "value": 4149 },
-    "us500": { "pct": 1.52, "dir": "down", "ISO": "2026-10-01T15:19:34Z", "value": 7316.16 }
+    "us500": { "pct": 1.52, "dir": "down", "ISO": "2026-10-01T15:19:34Z", "value": 7316.16 },
+    "ftse": { "pct": 1.68, "dir": "down", "ISO": "2026-10-02T07:20:53Z", "value": 10428.26 }
   },
   "releases": {
     "US-PCE-Aug-2026": "2026-09-30T15:17:46Z",
@@ -37,6 +38,7 @@
     "rba-25bps-4pt60-sep29-4th-hike-2026-15yr-high": "2026-09-29T07:21:49Z",
     "btc-best-sep-since-2012-3month-streak-sep29": "2026-09-29T15:21:00Z",
     "30y-5pt62-10y-5pt29-2002-high-bond-rout-sep30": "2026-09-30T07:18:00Z",
-    "pce-soft-oct-pause-repriced-spx-erases-sep-loss-sep30": "2026-09-30T20:20:15Z"
+    "pce-soft-oct-pause-repriced-spx-erases-sep-loss-sep30": "2026-09-30T20:20:15Z",
+    "gbp-usd-below-132-uk-fiscal-budget-oct28-sterling-late-june-low-oct2": "2026-10-02T07:20:53Z"
   }
 }
