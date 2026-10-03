@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T18:17:11.452Z",
+  "generatedAt": "2026-10-03T22:26:12.771Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "September NFP shocked at +29K (vs 90K consensus, August revised down to +133K), sharply reducing October FOMC hike odds and catalyzing a DXY reversal from pre-NFP highs of 102.20 to an Oct 2 close of 101.88 — still a headwind above 100 but the directional shift is constructive; BTC held above $85,900 with BTC.D firm at 58.5% and perpetual funding rates ticking only to ~0.0100% (well below the 0.04% overheating threshold), confirming unlevered spot accumulation continues; 2s10s curve steepened to +49bps on the dovish labor print while real yields held at 2.88% — BTC Accumulation posture intact, with October 14 CPI and October 27–28 FOMC as the next major catalysts for a macro regime shift.",
@@ -14,58 +14,58 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 84991,
+      "value": 84759,
       "format": "usd",
-      "change24h": 0.339,
-      "change30d": 4.9854
+      "change24h": 0.27494,
+      "change30d": 3.9778
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 2687.18,
+      "value": 2687.62,
       "format": "usd",
-      "change24h": 0.16963,
-      "change30d": 7.806
+      "change24h": 0.9129,
+      "change30d": 7.1767
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.03161404,
+      "value": 0.03171598,
       "format": "ratio",
-      "change24h": -0.0999806282978959,
-      "change30d": 3.063687774080526
+      "change24h": 0.6584365828429176,
+      "change30d": 3.0808469865763333
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 58.690748909299764,
+      "value": 58.61924308769482,
       "format": "percent",
-      "change24h": 3.030541626127725,
-      "change30d": -0.8638387684164128
+      "change24h": 2.4902983279328383,
+      "change30d": -0.9927380420059857
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2904672541760.2495,
+      "value": 2897372496064.7935,
       "format": "usd-compact",
-      "change24h": -2.62315579775847,
-      "change30d": 10.970742964541927
+      "change24h": -2.159607654619921,
+      "change30d": 10.81724189466557
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1199898473638.3662,
+      "value": 1198954669440.5613,
       "format": "usd-compact",
-      "change24h": -6.5437850891393605,
-      "change30d": 12.411179807946313
+      "change24h": -5.436025620604893,
+      "change30d": 12.49693621112789
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 872336034398.4968,
+      "value": 871592873901.2891,
       "format": "usd-compact",
-      "change24h": -8.846187208868534,
-      "change30d": 12.359963414767035
+      "change24h": -7.637830951403641,
+      "change30d": 12.500664494559416
     },
     {
       "id": "dxy",
@@ -212,5 +212,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-10-03T18:17:11Z"
+  "cachedAtISO": "2026-10-03T22:26:12Z"
 }
