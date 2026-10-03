@@ -1,10 +1,10 @@
 {
-  "lastRunISO": "2026-10-03T15:18:24Z",
+  "lastRunISO": "2026-10-03T20:19:07Z",
   "priceAlerts": {
-    "btcd": { "pct": 3.57, "dir": "up", "ISO": "2026-10-02T07:20:53Z", "value": 58.66789210690013 },
+    "btcd": { "pct": 3.030541626127725, "dir": "up", "ISO": "2026-10-03T20:19:07Z", "value": 58.690748909299764 },
     "total": { "pct": 3.74, "dir": "down", "ISO": "2026-10-02T20:18:57Z", "value": 2871992929487.6255 },
-    "total2": { "pct": 7.88, "dir": "down", "ISO": "2026-10-02T20:18:57Z", "value": 1185198912447.3018 },
-    "total3": { "pct": 10.23, "dir": "down", "ISO": "2026-10-02T20:18:57Z", "value": 860569105959.6276 },
+    "total2": { "pct": 6.5437850891393605, "dir": "down", "ISO": "2026-10-03T20:19:07Z", "value": 1199898473638.3662 },
+    "total3": { "pct": 8.846187208868534, "dir": "down", "ISO": "2026-10-03T20:19:07Z", "value": 872336034398.4968 },
     "dxy": { "pct": 0.58, "dir": "up", "ISO": "2026-09-28T20:49:30Z", "value": 101.195 },
     "oil": { "pct": 3.23, "dir": "down", "ISO": "2026-10-02T07:20:53Z", "value": 96.16 },
     "gold": { "pct": 3.17, "dir": "down", "ISO": "2026-09-28T15:20:01Z", "value": 4149 },
@@ -35,6 +35,7 @@
     "30y-5pt62-10y-5pt29-2002-high-bond-rout-sep30": "2026-09-30T07:18:00Z",
     "pce-soft-oct-pause-repriced-spx-erases-sep-loss-sep30": "2026-09-30T20:20:15Z",
     "gbp-usd-below-132-uk-fiscal-budget-oct28-sterling-late-june-low-oct2": "2026-10-02T07:20:53Z",
-    "nfp-29k-miss-fed-oct-hike-18pct-gold-rally-dollar-down-oct2": "2026-10-02T15:19:05Z"
+    "nfp-29k-miss-fed-oct-hike-18pct-gold-rally-dollar-down-oct2": "2026-10-02T15:19:05Z",
+    "btc-87k-rejection-433m-long-liq-oct3": "2026-10-03T20:19:07Z"
   }
 }
