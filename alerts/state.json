@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-10-03T20:19:07Z",
+  "lastRunISO": "2026-10-04T07:19:13Z",
   "priceAlerts": {
     "btcd": { "pct": 3.030541626127725, "dir": "up", "ISO": "2026-10-03T20:19:07Z", "value": 58.690748909299764 },
     "total": { "pct": 3.74, "dir": "down", "ISO": "2026-10-02T20:18:57Z", "value": 2871992929487.6255 },
@@ -18,10 +18,6 @@
     "US-NFP-Sep-2026": "2026-10-02T15:19:05Z"
   },
   "news": {
-    "rrp-exhausted-1b-srf-injection-29pt4b-funding-stress-sep26": "2026-09-26T20:19:19Z",
-    "iran-hormuz-phased-deal-talks-oil-bond-relief-10y-5pt17-sep26": "2026-09-26T20:19:19Z",
-    "btc-etf-7day-streak-2pt97b-total-sep25": "2026-09-26T20:19:19Z",
-    "sec-staking-clarity-eth-lifts-sep26": "2026-09-26T20:19:19Z",
     "btc-etf-2026-ytd-net-positive-800m-erased-5pt8b-deficit-sep27": "2026-09-27T07:20:05Z",
     "sec-peirce-exits-oct2-2-commissioner-agency-crypto-taskforce-vacant-sep25": "2026-09-27T15:18:50Z",
     "btc-etf-239b-weekly-record-best-week-2026-sep26": "2026-09-28T07:20:35Z",
