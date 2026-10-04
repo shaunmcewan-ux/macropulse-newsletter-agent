@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-03T22:26:12.771Z",
+  "generatedAt": "2026-10-04T12:51:56.938Z",
   "dial": {
     "state": "BTC Accumulation",
-    "summary": "September NFP shocked at +29K (vs 90K consensus, August revised down to +133K), sharply reducing October FOMC hike odds and catalyzing a DXY reversal from pre-NFP highs of 102.20 to an Oct 2 close of 101.88 — still a headwind above 100 but the directional shift is constructive; BTC held above $85,900 with BTC.D firm at 58.5% and perpetual funding rates ticking only to ~0.0100% (well below the 0.04% overheating threshold), confirming unlevered spot accumulation continues; 2s10s curve steepened to +49bps on the dovish labor print while real yields held at 2.88% — BTC Accumulation posture intact, with October 14 CPI and October 27–28 FOMC as the next major catalysts for a macro regime shift.",
+    "summary": "DXY at 101.93 and TIPS real yields at 2.89% remain structural headwinds, but the September NFP shock (+29K) has priced out near-term Fed hikes and the 2s10s curve steepened to +45bps — BTC.D holds firm at 58.5% with perpetual funding near neutral (0.0100% per 8h) confirming spot accumulation; stablecoin dominance edged down to ~10.1%, a constructive rotation signal; October 14 CPI is the single highest-impact catalyst for a macro regime shift.",
     "states": [
       "BTC Accumulation",
       "Alt Rotation",
@@ -14,58 +14,58 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 84759,
+      "value": 85147,
       "format": "usd",
-      "change24h": 0.27494,
-      "change30d": 3.9778
+      "change24h": 0.38436,
+      "change30d": 5.0748
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 2687.62,
+      "value": 2698.14,
       "format": "usd",
-      "change24h": 0.9129,
-      "change30d": 7.1767
+      "change24h": 0.62883,
+      "change30d": 6.8937
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.03171598,
+      "value": 0.0316868,
       "format": "ratio",
-      "change24h": 0.6584365828429176,
-      "change30d": 3.0808469865763333
+      "change24h": 0.2438586644411853,
+      "change30d": 3.2868638465703226
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 58.61924308769482,
+      "value": 59.121070483841386,
       "format": "percent",
-      "change24h": 2.4902983279328383,
-      "change30d": -0.9927380420059857
+      "change24h": 3.360860948083122,
+      "change30d": -1.3871697740943323
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2897372496064.7935,
+      "value": 2886077816706.3535,
       "format": "usd-compact",
-      "change24h": -2.159607654619921,
-      "change30d": 10.81724189466557
+      "change24h": -2.878363164542017,
+      "change30d": 6.363346906169736
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1198954669440.5613,
+      "value": 1179797716472.8796,
       "format": "usd-compact",
-      "change24h": -5.436025620604893,
-      "change30d": 12.49693621112789
+      "change24h": -7.268057166524479,
+      "change30d": 8.607884175302114
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 871592873901.2891,
+      "value": 851102374345.9126,
       "format": "usd-compact",
-      "change24h": -7.637830951403641,
-      "change30d": 12.500664494559416
+      "change24h": -10.019554303534926,
+      "change30d": 8.963231250109054
     },
     {
       "id": "dxy",
@@ -112,10 +112,10 @@
     {
       "tier": 1,
       "name": "Global Liquidity (Global M2)",
-      "value": "$103.7T",
+      "value": "$103.6T",
       "trend": "flat",
       "status": "neutral",
-      "note": "G4 M2 aggregate (Fed/ECB/BOJ/PBOC) remains at ~$103.7T based on August 2026 data — September G4 M2 not yet available (6–8 week reporting lag); US M2 confirmed at $23.3T for August 2026 per Fed H.6 (highest ever), contributing to the G4 aggregate; China M2 at ~$53.2T, Eurozone ~$18.7T; 4-week trend flat: no new confirmed September G4 data to establish direction; YoY still meaningfully positive (not contracting); status neutral — confirmed rising 4-week trend required for supportive; weak September NFP (+29K) and ISM manufacturing prices at 77.9% present a stagflation signal that complicates the liquidity expansion narrative; next G4 M2 update expected mid-November 2026."
+      "note": "G4 M2 aggregate (Fed/ECB/BOJ/PBOC) at ~$103.6T based on August 2026 data (latest available); US M2 $23.3T for August 2026 per Fed H.6; China M2 ~$53.2T, Eurozone ~$18.7T; September G4 M2 not yet available (6–8 week reporting lag); 4-week trend flat: no new confirmed September G4 data; YoY still meaningfully positive (not contracting); status neutral — confirmed rising 4-week trend required for supportive; ISM Prices at 77.9% and still-elevated CPI (~3.5% YoY) present a stagflation signal that complicates the liquidity expansion narrative; next G4 M2 update expected mid-November 2026."
     },
     {
       "tier": 1,
@@ -123,31 +123,31 @@
       "value": "54.5",
       "trend": "flat",
       "status": "neutral",
-      "note": "September 2026 ISM Manufacturing PMI = 54.5%, released October 1 — ninth consecutive month of manufacturing expansion; 4-week trend flat: August 54.6% → September 54.5% = −0.1pp, within the flat threshold (<0.5% relative change); New Orders Index rose 1.6pp to 55.3% (bullish forward signal); Production Index 56.7% (−1.6pp); Prices Index at 77.9% (highest since mid-2021, a leading inflation signal complicating Fed's response to September's soft NFP at +29K); status neutral (above 50 but flat; supportive requires above 50 AND rising; headwind requires below 48 or above 62); October ISM Manufacturing releases November 3."
+      "note": "September 2026 ISM Manufacturing PMI = 54.5%, released October 1 — ninth consecutive month of manufacturing expansion; 4-week trend flat: August 54.6% → September 54.5% = −0.1pp, within the flat threshold; New Orders Index 55.3% (bullish forward signal); Production Index 56.7%; Prices Index 77.9% (highest since mid-2021, a leading CPI upside signal); status neutral (above 50 but flat; supportive requires above 50 AND rising); next ISM Manufacturing release November 3, 2026."
     },
     {
       "tier": 1,
       "name": "DXY (US Dollar Index)",
-      "value": "101.88",
+      "value": "101.93",
       "trend": "up",
       "status": "headwind",
-      "note": "ICE DXY closed at ~101.88 on October 2, 2026 — rallied to intraday highs above 102.20 (fresh 2026 highs) before the September NFP release, then fell to the 101.80 area post-data as payrolls missed badly (+29K vs 90K) and October FOMC hike odds collapsed; prior October 1 close was ~102.09; 4-week trend up: ~99.8 (Sep 3) → 101.88 (Oct 2) = +2.1% over 30 days, well above the 0.5% flat threshold; status headwind — DXY still above 100 threshold despite post-NFP pullback; a sustained close below 100 required to return to neutral; October 14 CPI is the next major DXY repricing catalyst."
+      "note": "ICE DXY closed at ~101.93 on October 2, 2026 (last trading session; October 4 is Sunday); post-NFP pullback from intraday highs above 102.20 after September payrolls missed badly (+29K vs 90K consensus); 4-week trend up: ~99.8 (Sep 3) → 101.93 (Oct 2) = +2.1% over 30 days, well above the 0.5% flat threshold; status headwind — DXY still above 100 threshold; a sustained close below 100 required to return to neutral; October 14 CPI is the next major DXY repricing catalyst."
     },
     {
       "tier": 1,
       "name": "Real Yields (US10Y - CPI)",
-      "value": "2.88%",
+      "value": "2.89%",
       "trend": "up",
       "status": "headwind",
-      "note": "FRED DFII10 (10-year TIPS constant maturity) at 2.88% as of October 1, 2026 per Federal Reserve H.15 (Sep 30 reading was 2.93%); 10Y nominal yield ticked to ~5.27% on October 2 despite the weak NFP (+29K), reflecting stagflation concerns from ISM Prices Index at 77.9%; 4-week trend up: ~2.50% (Sep 3) → 2.88% (Oct 1) = +38bps over 30 days; status headwind (rising 4-week trend AND above 2% absolute threshold both met); breakeven inflation ~2.28–2.39% (stagflation premium building); a sustained fall below 2% required to shift status to neutral; October 14 CPI is the next key real yield repricing catalyst."
+      "note": "FRED DFII10 (10-year TIPS constant maturity) at 2.89% as of October 2, 2026; breakeven inflation rate 2.28% (stagflation premium building with ISM Prices at 77.9%); 4-week trend up: ~2.50% (Sep 3) → 2.89% (Oct 2) = +39bps over 30 days; status headwind (rising 4-week trend AND above 2% absolute threshold both met); 10Y nominal yield at 5.28% despite weak September NFP, reflecting fiscal and stagflation concerns; a sustained fall below 2% required to shift status to neutral; October 14 CPI is the next key real yield repricing catalyst."
     },
     {
       "tier": 1,
       "name": "2s10s Yield Curve",
-      "value": "+0.49%",
+      "value": "+0.45%",
       "trend": "up",
       "status": "supportive",
-      "note": "October 2, 2026 post-NFP: 10Y Treasury at 5.27% (ticked higher despite weak jobs — stagflation/fiscal concern), 2Y at 4.78% (fell as October FOMC hike odds collapsed after +29K NFP miss) → 2s10s spread = +0.49% (+49bps); prior October 1: +0.44% (+44bps); 4-week trend up (steepening): Sep 3 spread ~+42bps (10Y 4.762%, 2Y 4.342%) → Oct 2 +49bps = +7bps steepening over 30 days, above the 5bps flat threshold; status supportive (both positive AND steepening on 4-week basis); post-NFP curve steepening driven by 2Y falling faster than 10Y as Fed hold expectations rose sharply; October 14 CPI and October 27–28 FOMC are the next major yield curve catalysts."
+      "note": "October 2, 2026: 10Y Treasury 5.28%, 2Y Treasury 4.83% → 2s10s spread = +0.45% (+45bps); 4-week trend up (steepening): Sep 3 spread ~+42bps (10Y 4.762%, 2Y 4.342%) → Oct 2 +45bps = +3bps steepening over 30 days; status supportive (both positive AND steepening on 4-week basis); post-NFP curve steepening driven by 2Y falling faster than 10Y as Fed hold expectations rose sharply after +29K payroll miss; October 14 CPI and October 27–28 FOMC are the next major yield curve catalysts."
     },
     {
       "tier": 1,
@@ -155,7 +155,7 @@
       "value": "$6.74T",
       "trend": "flat",
       "status": "supportive",
-      "note": "WALCL: $6,743,031M ($6.74T) for week ending September 30, 2026 per Federal Reserve H.4.1 released October 1; weekly progression: Sep 2: $6,737,204M → Sep 9: $6,740,619M → Sep 16: $6,746,548M → Sep 23: $6,747,704M → Sep 30: $6,743,031M (slight week-over-week decrease of $4.7B); 4-week trend flat: Sep 2 $6,737,204M → Sep 30 $6,743,031M = +$5.8B over ~4 weeks, marginal expansion within flat threshold on a $6.74T balance sheet; status supportive (holding at post-2022 stabilization plateau; no QT acceleration announced at Sep 15–16 FOMC where FFR raised to 3.75%–4.00%); weak September NFP (+29K) raises probability of a Fed hold in October, supportive for balance sheet stability."
+      "note": "WALCL: $6,743,031M ($6.74T) for week ending September 30, 2026 per Federal Reserve H.4.1 released October 1 (most recent; next H.4.1 release October 8 for week ending October 7); 4-week trend flat: Sep 2 $6,737,204M → Sep 30 $6,743,031M = +$5.8B marginal expansion within flat threshold on a $6.74T balance sheet; status supportive (holding at post-2022 stabilization plateau; no QT acceleration at Sep 15–16 FOMC where FFR was raised to 3.75%–4.00%); weak September NFP (+29K) raises probability of a Fed hold in October, supportive for balance sheet stability."
     },
     {
       "tier": 3,
@@ -163,15 +163,15 @@
       "value": "0.0100%",
       "trend": "up",
       "status": "supportive",
-      "note": "BTC perpetual funding rate ticked up to approximately 0.0100% per 8h as of October 2–3, 2026 (up from 0.0067% on September 30 per CoinGlass); open interest rose ~$2.3B since September 30 as BTC crossed $86,500 per CoinDesk — funding rates rising alongside OI signals growing directional bias but rate remains well below the 0.04% overheating threshold; BTC price ~$85,900–86,500 as of October 2; BTC.D firm at 58.5% (alts underperforming); 30-day funding rate consistently sub-0.010% historically, current tick-up reflects spot rally rather than leveraged speculation; status supportive (significantly below 0.04% overheating threshold); October 14 CPI and October 27–28 FOMC are next potential funding regime catalysts."
+      "note": "BTC perpetual funding rate at approximately 0.0100% per 8h as of October 2–3, 2026 per CoinGlass (latest available; October 4 is Sunday, direct feeds not accessible); rate remains well below the 0.04% overheating threshold; BTC price ~$85,900–86,500; BTC.D firm at 58.5%; 4-week trend up: rose from lower September levels (~0.001–0.007% range) to 0.0100% as BTC rallied; status supportive (significantly below 0.04% overheating threshold, confirming spot-driven price action rather than leveraged speculation); October 14 CPI and October 27–28 FOMC are next potential funding regime catalysts."
     },
     {
       "tier": 3,
       "name": "Stablecoin Dominance",
-      "value": "10.45%",
-      "trend": "flat",
-      "status": "neutral",
-      "note": "Stablecoin market cap ~$308B as of early October 2026 (up from ~$292B on October 2); total crypto market cap ~$2.89T (BTC.D 58.5%); stablecoin dominance ~10.45%; 30-day trend flat: ~10.4% (Sep 3) → ~10.45% (Oct 3) = +0.05pp over 30 days, within the flat threshold; status neutral — dominance is not falling on a 30-day basis (not supportive) and total crypto market cap is roughly flat-to-down (not the rising-while-dominance-rises headwind condition); stablecoin supply expansion to $308B reflects continued institutional adoption and DeFi demand rather than pure risk-off flight; BTC.D rising from ~56.5% (Oct 1) to 58.5% (Oct 2–3) as alts underperformed the BTC spot rally; status downgraded from supportive as 30-day falling trend reversed to flat."
+      "value": "10.1%",
+      "trend": "down",
+      "status": "supportive",
+      "note": "Stablecoin market cap ~$291B as of early October 2026; total crypto market cap ~$2.89T (BTC.D 58.5%); stablecoin dominance ~10.1% (291/2890); 30-day trend down: ~10.4% (Sep 3) → ~10.1% (Oct 4) = −0.3pp over 30 days; status supportive (falling on 30-day basis, indicating capital rotation from stablecoin sidelines into crypto assets); USDT and USDC hold ~88.4% of stablecoin market share; declining dominance alongside stable total market cap reflects steady deployment into risk assets; October 14 CPI is the next major catalyst for stablecoin inflow/outflow dynamics."
     }
   ],
   "upcoming": [
@@ -180,29 +180,29 @@
       "title": "ISM Services PMI (September 2026)",
       "category": "PMI",
       "importance": "high",
-      "note": "ISM Services PMI for September 2026 at 10:00 AM ET — services sector is ~80% of US GDP; context: September NFP already shocked at +29K (vs 90K consensus), so a strong ISM Services print above 55 would confirm a late-cycle bifurcation between softening labor and resilient services — the most challenging stagflation scenario for the Fed; S&P Global Flash Services PMI surged to 58.7 in September (59-month high), a strong leading indicator; prior August ISM Services was 54.2%; a print above 56 would sharply complicate the dovish narrative triggered by the NFP miss and may revive October FOMC hike speculation; the combination of ISM Manufacturing at 54.5%, ISM Prices at 77.9%, and a +29K NFP frames this as a high-stakes release for the October 27–28 FOMC setup."
+      "note": "ISM Services PMI for September 2026 at 10:00 AM ET — services sector is ~80% of US GDP; critical read given the September NFP shock (+29K vs 90K consensus): a strong services print above 55 would confirm late-cycle bifurcation (softening labor, resilient services) — the most challenging stagflation scenario for the Fed; August ISM Services was 54.2%; S&P Global Flash Services PMI surged to 58.7 in September (59-month high), a bullish leading signal; a print above 56 could revive October 27–28 FOMC hike speculation despite the NFP miss; ISM Manufacturing already at 54.5% with Prices at 77.9% — this release frames the full October FOMC setup."
     },
     {
       "date": "2026-10-07",
       "title": "FOMC Minutes (September 15–16, 2026 Meeting)",
       "category": "Fed",
       "importance": "high",
-      "note": "Federal Reserve releases minutes of the September 15–16 FOMC meeting at 2:00 PM ET — the meeting at which the Fed raised the fed funds rate 25bps to 3.75%–4.00%; minutes will reveal debate around further tightening pace, any dissents, and how the committee framed the balance between inflation (ISM Prices 77.9%, CPI ~3.5% YoY) and employment risks; critical to parse for October hike signals given that September NFP came in at +29K post-release, which the committee could not have anticipated; market is now pricing a high probability of a Fed hold at October 27–28 FOMC; minutes will show whether the committee was already leaning toward a pause or if the NFP miss is a surprise to their baseline."
+      "note": "Federal Reserve releases minutes of the September 15–16 FOMC meeting at 2:00 PM ET — the meeting at which the Fed raised the fed funds rate 25bps to 3.75%–4.00%; minutes will reveal committee debate around further tightening pace, any dissents, and how members framed the balance between inflation (ISM Prices 77.9%, CPI ~3.5% YoY) and employment risks; critical to parse for October hold signals given the subsequent September NFP miss (+29K); market is pricing a high probability of a Fed hold at October 27–28 FOMC; minutes will clarify whether a pause was already being contemplated before the weak jobs data."
     },
     {
       "date": "2026-10-08",
       "title": "Initial Jobless Claims (week ended October 4, 2026)",
       "category": "Labor",
       "importance": "medium",
-      "note": "DOL weekly initial jobless claims at 8:30 AM ET for week ended October 4, 2026 — the first weekly claims reading fully incorporating October's early labor conditions in the wake of the shocking September NFP (+29K); prior weeks approximately 206K; closely watched for signs of labor market deterioration confirming the NFP miss is a trend rather than a one-off; consecutive claims above 225K would reinforce the dovish pivot narrative and cement Fed hold expectations for October 27–28; released the day after FOMC Minutes, providing a real-time confirmation or rebuttal of the September labor story."
+      "note": "DOL weekly initial jobless claims at 8:30 AM ET for the week ended October 4, 2026 — first claims reading fully capturing early-October labor conditions post the September NFP shock (+29K); prior weeks approximately 206K; closely watched for signs of labor market deterioration confirming the NFP miss is a trend rather than one-off; consecutive claims above 225K would reinforce Fed hold expectations for October 27–28; released the day after FOMC Minutes, providing a real-time follow-up to the September labor narrative."
     }
   ],
   "sources": {
     "crypto": "CoinGecko",
     "tradfi": "FRED + Stooq",
     "marketsEndpoint": "markets",
-    "indicators": "2026-10-03",
-    "calendar": "2026-10-03"
+    "indicators": "2026-10-04",
+    "calendar": "2026-10-04"
   },
   "degraded": {
     "markets": false,
@@ -212,5 +212,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-10-03T22:26:12Z"
+  "cachedAtISO": "2026-10-04T12:51:56Z"
 }
