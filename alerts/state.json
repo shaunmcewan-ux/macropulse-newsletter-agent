@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-10-04T07:19:13Z",
+  "lastRunISO": "2026-10-04T15:19:34Z",
   "priceAlerts": {
     "btcd": { "pct": 3.030541626127725, "dir": "up", "ISO": "2026-10-03T20:19:07Z", "value": 58.690748909299764 },
     "total": { "pct": 3.74, "dir": "down", "ISO": "2026-10-02T20:18:57Z", "value": 2871992929487.6255 },
@@ -32,6 +32,8 @@
     "pce-soft-oct-pause-repriced-spx-erases-sep-loss-sep30": "2026-09-30T20:20:15Z",
     "gbp-usd-below-132-uk-fiscal-budget-oct28-sterling-late-june-low-oct2": "2026-10-02T07:20:53Z",
     "nfp-29k-miss-fed-oct-hike-18pct-gold-rally-dollar-down-oct2": "2026-10-02T15:19:05Z",
-    "btc-87k-rejection-433m-long-liq-oct3": "2026-10-03T20:19:07Z"
+    "btc-87k-rejection-433m-long-liq-oct3": "2026-10-03T20:19:07Z",
+    "fomc-oct28-hike-odds-47pct-warsh-2yr-yield-spike-oct4": "2026-10-04T15:19:34Z",
+    "btc-etf-outflows-oct3-ibit-9pt5m-fbtc-125pt6m-9day-streak-ends": "2026-10-04T15:19:34Z"
   }
 }
