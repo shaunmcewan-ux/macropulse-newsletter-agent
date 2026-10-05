@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-10-05T07:20:16Z",
+  "lastRunISO": "2026-10-05T15:20:20Z",
   "priceAlerts": {
     "btcd": { "pct": 3.030541626127725, "dir": "up", "ISO": "2026-10-03T20:19:07Z", "value": 58.690748909299764 },
     "total": { "pct": 3.74, "dir": "down", "ISO": "2026-10-02T20:18:57Z", "value": 2871992929487.6255 },
@@ -15,7 +15,8 @@
     "US-PCE-Aug-2026": "2026-09-30T15:17:46Z",
     "US-GDP-Q2-2026-3rd": "2026-09-30T20:20:15Z",
     "US-ISM-Mfg-Sep-2026": "2026-10-01T15:19:34Z",
-    "US-NFP-Sep-2026": "2026-10-02T15:19:05Z"
+    "US-NFP-Sep-2026": "2026-10-02T15:19:05Z",
+    "US-ISM-Services-Sep-2026": "2026-10-05T15:20:20Z"
   },
   "news": {
     "btc-etf-239b-weekly-record-best-week-2026-sep26": "2026-09-28T07:20:35Z",
@@ -33,6 +34,7 @@
     "btc-87k-rejection-433m-long-liq-oct3": "2026-10-03T20:19:07Z",
     "fomc-oct28-hike-odds-47pct-warsh-2yr-yield-spike-oct4": "2026-10-04T15:19:34Z",
     "btc-etf-outflows-oct3-ibit-9pt5m-fbtc-125pt6m-9day-streak-ends": "2026-10-04T15:19:34Z",
-    "fomc-warsh-first-meeting-hold-hawkish-9officials-easing-bias-stripped-oct5": "2026-10-05T07:20:16Z"
+    "fomc-warsh-first-meeting-hold-hawkish-9officials-easing-bias-stripped-oct5": "2026-10-05T07:20:16Z",
+    "fomc-oct28-hike-odds-60pt7pct-post-warsh-dot-plot-oct5": "2026-10-05T15:20:20Z"
   }
 }

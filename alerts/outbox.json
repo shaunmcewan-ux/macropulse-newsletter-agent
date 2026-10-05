@@ -1,6 +1,6 @@
 {
-  "ts": "2026-10-05T07:20:16Z",
+  "ts": "2026-10-05T15:20:20Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "FOMC: rates held 3.5-3.75% but 9/18 officials see 2026 hike; easing bias stripped (Warsh's first meeting)\nOct 27-28 hike odds now 22% · Dec: 67% — repriced from 47% on Friday\nGold -2.2% to ~$4,344 on hawkish hold\nBTC -2.2% to ~$64K · ETH -3.6% (both sub-threshold, FOMC reaction)"
+  "priority": "default",
+  "message": "Oct-28 FOMC hike odds: 60.7% (up from 47%) — Warsh debut dot-plot repricing, hike now majority-priced\nISM Services PMI (Sep 2026): 56.7 — services hold solid, slight tick from prior ~56.9"
 }
