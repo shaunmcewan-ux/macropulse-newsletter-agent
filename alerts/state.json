@@ -1,11 +1,10 @@
 {
-  "lastRunISO": "2026-10-05T15:20:20Z",
+  "lastRunISO": "2026-10-05T20:19:41Z",
   "priceAlerts": {
     "btcd": { "pct": 3.030541626127725, "dir": "up", "ISO": "2026-10-03T20:19:07Z", "value": 58.690748909299764 },
     "total": { "pct": 3.74, "dir": "down", "ISO": "2026-10-02T20:18:57Z", "value": 2871992929487.6255 },
     "total2": { "pct": 6.5437850891393605, "dir": "down", "ISO": "2026-10-03T20:19:07Z", "value": 1199898473638.3662 },
     "total3": { "pct": 8.846187208868534, "dir": "down", "ISO": "2026-10-03T20:19:07Z", "value": 872336034398.4968 },
-    "dxy": { "pct": 0.58, "dir": "up", "ISO": "2026-09-28T20:49:30Z", "value": 101.195 },
     "oil": { "pct": 3.23, "dir": "down", "ISO": "2026-10-02T07:20:53Z", "value": 96.16 },
     "gold": { "pct": 2.2, "dir": "down", "ISO": "2026-10-05T07:20:16Z", "value": 4344 },
     "us500": { "pct": 1.52, "dir": "down", "ISO": "2026-10-01T15:19:34Z", "value": 7316.16 },
@@ -19,12 +18,6 @@
     "US-ISM-Services-Sep-2026": "2026-10-05T15:20:20Z"
   },
   "news": {
-    "btc-etf-239b-weekly-record-best-week-2026-sep26": "2026-09-28T07:20:35Z",
-    "altcoin-season-3month-high-93of100-near-etf-bitwise-approval-sep28": "2026-09-28T07:20:35Z",
-    "trump-rejects-iran-hormuz-truce-proposal-oil-risk-off-sep28": "2026-09-28T15:20:01Z",
-    "gold-7wk-low-4149-yields-oil-squeeze-sep28": "2026-09-28T15:20:01Z",
-    "10y-5pt21-bond-selloff-resumes-iran-oil-sep28": "2026-09-28T20:18:57Z",
-    "nfp-sep-2026-due-oct2-jobs-week-ahead": "2026-09-28T20:18:57Z",
     "rba-25bps-4pt60-sep29-4th-hike-2026-15yr-high": "2026-09-29T07:21:49Z",
     "btc-best-sep-since-2012-3month-streak-sep29": "2026-09-29T15:21:00Z",
     "30y-5pt62-10y-5pt29-2002-high-bond-rout-sep30": "2026-09-30T07:18:00Z",
@@ -35,6 +28,8 @@
     "fomc-oct28-hike-odds-47pct-warsh-2yr-yield-spike-oct4": "2026-10-04T15:19:34Z",
     "btc-etf-outflows-oct3-ibit-9pt5m-fbtc-125pt6m-9day-streak-ends": "2026-10-04T15:19:34Z",
     "fomc-warsh-first-meeting-hold-hawkish-9officials-easing-bias-stripped-oct5": "2026-10-05T07:20:16Z",
-    "fomc-oct28-hike-odds-60pt7pct-post-warsh-dot-plot-oct5": "2026-10-05T15:20:20Z"
+    "fomc-oct28-hike-odds-60pt7pct-post-warsh-dot-plot-oct5": "2026-10-05T15:20:20Z",
+    "fomc-oct28-hike-odds-collapsed-17pct-skip-flipped-oct5": "2026-10-05T20:19:41Z",
+    "fomc-minutes-sep-meeting-due-oct7-19bst": "2026-10-05T20:19:41Z"
   }
 }

@@ -1,6 +1,6 @@
 {
-  "ts": "2026-10-05T15:20:20Z",
+  "ts": "2026-10-05T20:19:41Z",
   "title": "MacroPulse Alert",
-  "priority": "default",
-  "message": "Oct-28 FOMC hike odds: 60.7% (up from 47%) — Warsh debut dot-plot repricing, hike now majority-priced\nISM Services PMI (Sep 2026): 56.7 — services hold solid, slight tick from prior ~56.9"
+  "priority": "high",
+  "message": "FOMC Oct 28 hike odds: 17% (was 60.7% at 15:20 UTC) — the skip just flipped; hold 83% base case\nPost dot-plot repricing: week's data (NFP +29k miss, PCE soft) outweighed hawkish Warsh debut\nDecember now the likelier hike meeting (65% probability)\nFOMC minutes due Wed Oct 7, 19:00 BST — Sep dot-plot detail on hike debate expected\nNo price threshold breaches: BTC ~$85.8k flat 24h; S&P 500 +0.69%; Gold -0.03%; Oil -0.32%"
 }
