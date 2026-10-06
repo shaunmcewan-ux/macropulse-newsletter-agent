@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T15:17:37.062Z",
+  "generatedAt": "2026-10-06T00:57:28.946Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "DXY strengthened to 102.22 on safe-haven flows and BTC.D rose to 59.3% as Bitcoin crossed $86,500 — structural macro headwinds (real yields at 2.89%, DXY above 102) persist, but TOTAL crypto cap reached $2.92T and BTC-specific accumulation continues with near-neutral funding; stablecoin dominance ticked up to ~11.0% signaling $321B+ in sidelined capital available to deploy; FOMC minutes (Oct 7) and September CPI (Oct 14) remain the dominant catalysts for a regime shift.",
@@ -14,82 +14,82 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 85525,
+      "value": 85833,
       "format": "usd",
-      "change24h": 0.22727,
-      "change30d": 7.5039
+      "change24h": -0.90046,
+      "change30d": 7.5754
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 2700.99,
+      "value": 2715.14,
       "format": "usd",
-      "change24h": 0.10338,
-      "change30d": 10.1693
+      "change24h": -0.48997,
+      "change30d": 9.3141
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.03157241,
+      "value": 0.03163122,
       "format": "ratio",
-      "change24h": -0.20232945456041584,
-      "change30d": 0.5544581981565719
+      "change24h": 0.4127151224276013,
+      "change30d": 1.1358223806551975
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 58.68942906480948,
+      "value": 58.678182800516254,
       "format": "percent",
-      "change24h": 1.9681379039311109,
-      "change30d": -0.942738382572636
+      "change24h": 1.554640643476568,
+      "change30d": -0.4777384065296056
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2920160516691.258,
+      "value": 2935538422193.873,
       "format": "usd-compact",
-      "change24h": -1.7101301835814688,
-      "change30d": 8.536166333157219
+      "change24h": -2.4152324580492843,
+      "change30d": 8.105435667589726
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1206334981669.168,
+      "value": 1213017820639.5615,
       "format": "usd-compact",
-      "change24h": -4.350069576822538,
-      "change30d": 10.078774295834961
+      "change24h": -4.497759393605129,
+      "change30d": 8.874290283780905
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 877317049367.9961,
+      "value": 882036284587.7762,
       "format": "usd-compact",
-      "change24h": -5.931050688007428,
-      "change30d": 10.04525543434024
+      "change24h": -5.9244447219922645,
+      "change30d": 8.61837045783732
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 102.197,
+      "value": 102.144,
       "format": "index",
-      "change24h": 0.26883039157010774,
-      "change30d": 3.1990629007664486
+      "change24h": 0.0421151604783561,
+      "change30d": 3.1455432247119623
     },
     {
       "id": "us500",
       "label": "S&P 500",
-      "value": 7722.72,
+      "value": 7773.95,
       "format": "index",
-      "change24h": 0.7339772645748741,
-      "change30d": 0.7320063652727401
+      "change24h": 0.6633673109992277,
+      "change30d": 0.7170989557691738
     },
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10487.35,
+      "value": 10497.95,
       "format": "index",
-      "change24h": 0.24288038356174718,
-      "change30d": -3.1768599771960386
+      "change24h": 0.3442000240873129,
+      "change30d": -3.0789968102146985
     },
     {
       "id": "oil",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 4136.34,
+      "value": 4145.486,
       "format": "usd",
-      "change24h": -0.15347486106880526,
-      "change30d": -7.527732693055766
+      "change24h": 0.1343019174738749,
+      "change30d": -7.323264163682143
     }
   ],
   "indicators": [
@@ -176,13 +176,6 @@
   ],
   "upcoming": [
     {
-      "date": "2026-10-06",
-      "title": "US Trade Balance (August 2026)",
-      "category": "Growth",
-      "importance": "medium",
-      "note": "Census Bureau Trade Balance for August 2026 at 8:30 AM ET; consensus deficit ~$95.2B; net exports are a direct Q3 GDP component — a wider-than-expected deficit would subtract from the Q3 advance estimate (October 29); provides context on whether the strong dollar (DXY 102.22) has materially weighed on US export competitiveness; released in the same week as FOMC minutes, adding to the Fed's growth-vs-inflation calculus."
-    },
-    {
       "date": "2026-10-07",
       "title": "FOMC Minutes (September 15–16, 2026 Meeting)",
       "category": "Fed",
@@ -219,5 +212,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-10-05T15:17:37Z"
+  "cachedAtISO": "2026-10-06T00:57:28Z"
 }
