@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-10-07T07:22:06Z",
+  "lastRunISO": "2026-10-07T15:21:40Z",
   "priceAlerts": {
     "btcd": { "pct": 2.9659709000571466, "dir": "up", "ISO": "2026-10-06T15:20:45Z", "value": 58.78092204578511 },
     "total": { "pct": 3.74, "dir": "down", "ISO": "2026-10-02T20:18:57Z", "value": 2871992929487.6255 },
@@ -11,14 +11,11 @@
     "ftse": { "pct": 1.68, "dir": "down", "ISO": "2026-10-02T07:20:53Z", "value": 10428.26 }
   },
   "releases": {
-    "US-PCE-Aug-2026": "2026-09-30T15:17:46Z",
-    "US-GDP-Q2-2026-3rd": "2026-09-30T20:20:15Z",
     "US-ISM-Mfg-Sep-2026": "2026-10-01T15:19:34Z",
     "US-NFP-Sep-2026": "2026-10-02T15:19:05Z",
     "US-ISM-Services-Sep-2026": "2026-10-05T15:20:20Z"
   },
   "news": {
-    "pce-soft-oct-pause-repriced-spx-erases-sep-loss-sep30": "2026-09-30T20:20:15Z",
     "gbp-usd-below-132-uk-fiscal-budget-oct28-sterling-late-june-low-oct2": "2026-10-02T07:20:53Z",
     "nfp-29k-miss-fed-oct-hike-18pct-gold-rally-dollar-down-oct2": "2026-10-02T15:19:05Z",
     "btc-87k-rejection-433m-long-liq-oct3": "2026-10-03T20:19:07Z",
