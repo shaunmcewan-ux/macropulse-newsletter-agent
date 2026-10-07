@@ -1,6 +1,8 @@
 {
-  "lastRunISO": "2026-10-07T15:21:40Z",
+  "lastRunISO": "2026-10-07T20:18:47Z",
   "priceAlerts": {
+    "btc": { "pct": 3.3, "dir": "down", "ISO": "2026-10-07T20:18:47Z", "value": 83285 },
+    "eth": { "pct": 4.33, "dir": "down", "ISO": "2026-10-07T20:18:47Z", "value": 2571 },
     "btcd": { "pct": 2.9659709000571466, "dir": "up", "ISO": "2026-10-06T15:20:45Z", "value": 58.78092204578511 },
     "total": { "pct": 3.74, "dir": "down", "ISO": "2026-10-02T20:18:57Z", "value": 2871992929487.6255 },
     "total2": { "pct": 6.3971113478580905, "dir": "down", "ISO": "2026-10-06T15:20:45Z", "value": 1213788118165.1863 },
@@ -27,6 +29,7 @@
     "fomc-minutes-sep-meeting-due-oct7-19bst": "2026-10-05T20:19:41Z",
     "spx-record-close-oct5-btc-flat-liq-172m-oct6": "2026-10-06T15:20:45Z",
     "iran-tanker-oil-above-100-brent-oct7": "2026-10-07T07:22:06Z",
-    "btc-400m-longs-flash-crash-oct7": "2026-10-07T07:22:06Z"
+    "btc-400m-longs-flash-crash-oct7": "2026-10-07T07:22:06Z",
+    "fomc-sep-minutes-released-hawkish-year-end-hike-10yr-5365-oct7": "2026-10-07T20:18:47Z"
   }
 }
