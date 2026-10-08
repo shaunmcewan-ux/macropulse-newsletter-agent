@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-10-07T20:18:47Z",
+  "lastRunISO": "2026-10-08T07:19:54Z",
   "priceAlerts": {
     "btc": { "pct": 3.3, "dir": "down", "ISO": "2026-10-07T20:18:47Z", "value": 83285 },
     "eth": { "pct": 4.33, "dir": "down", "ISO": "2026-10-07T20:18:47Z", "value": 2571 },
@@ -30,6 +30,9 @@
     "spx-record-close-oct5-btc-flat-liq-172m-oct6": "2026-10-06T15:20:45Z",
     "iran-tanker-oil-above-100-brent-oct7": "2026-10-07T07:22:06Z",
     "btc-400m-longs-flash-crash-oct7": "2026-10-07T07:22:06Z",
-    "fomc-sep-minutes-released-hawkish-year-end-hike-10yr-5365-oct7": "2026-10-07T20:18:47Z"
+    "fomc-sep-minutes-released-hawkish-year-end-hike-10yr-5365-oct7": "2026-10-07T20:18:47Z",
+    "btc-etf-outflow-487m-oct7-largest-weekly": "2026-10-08T07:19:54Z",
+    "bitcoin-de-mica-rejection-bafin-halt-oct8": "2026-10-08T07:19:54Z",
+    "robinhood-25m-btc-treasury-oct8": "2026-10-08T07:19:54Z"
   }
 }
