@@ -1,1 +1,6 @@
-{"ts":"2026-10-09T15:20:00Z","title":"MacroPulse Alert","priority":"default","message":"ETH -5.98% (24h) → ~$2,440 | yields + Hormuz risk driving broad crypto sell-off\nBTC/ETH ETF 2-day outflows ~$965M — escalating from $487M single-session (Oct 7)\nCPI Sep due Tue 14 Oct (exp. +3.6% YoY); FOMC Oct 27-28 — hike odds ~22%"}
+{
+  "ts": "2026-10-09T20:21:44Z",
+  "title": "MacroPulse Alert",
+  "priority": "default",
+  "message": "Trump rules out new Iran strikes before Nov 3 midterms — oil war-premium de-escalation signal. Brent $102.60 (-1.6%) vs $105+ on Oct 8. No price thresholds breached. Next catalyst: US CPI Sep print Wed 14 Oct 08:30 ET."
+}

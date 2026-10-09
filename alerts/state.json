@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-10-09T15:20:00Z",
+  "lastRunISO": "2026-10-09T20:21:44Z",
   "priceAlerts": {
     "btc": { "pct": 3.3, "dir": "down", "ISO": "2026-10-07T20:18:47Z", "value": 83285 },
     "eth": { "pct": 5.98, "dir": "down", "ISO": "2026-10-09T15:20:00Z", "value": 2440 },
@@ -8,18 +8,12 @@
     "total2": { "pct": 6.3971113478580905, "dir": "down", "ISO": "2026-10-06T15:20:45Z", "value": 1213788118165.1863 },
     "total3": { "pct": 8.606785047552732, "dir": "down", "ISO": "2026-10-06T15:20:45Z", "value": 882602752078.0834 },
     "oil": { "pct": 5.85, "dir": "up", "ISO": "2026-10-07T07:22:06Z", "value": 94.47 },
-    "gold": { "pct": 2.2, "dir": "down", "ISO": "2026-10-05T07:20:16Z", "value": 4344 },
-    "us500": { "pct": 1.52, "dir": "down", "ISO": "2026-10-01T15:19:34Z", "value": 7316.16 },
-    "ftse": { "pct": 1.68, "dir": "down", "ISO": "2026-10-02T07:20:53Z", "value": 10428.26 }
+    "gold": { "pct": 2.2, "dir": "down", "ISO": "2026-10-05T07:20:16Z", "value": 4344 }
   },
   "releases": {
-    "US-ISM-Mfg-Sep-2026": "2026-10-01T15:19:34Z",
-    "US-NFP-Sep-2026": "2026-10-02T15:19:05Z",
     "US-ISM-Services-Sep-2026": "2026-10-05T15:20:20Z"
   },
   "news": {
-    "gbp-usd-below-132-uk-fiscal-budget-oct28-sterling-late-june-low-oct2": "2026-10-02T07:20:53Z",
-    "nfp-29k-miss-fed-oct-hike-18pct-gold-rally-dollar-down-oct2": "2026-10-02T15:19:05Z",
     "btc-87k-rejection-433m-long-liq-oct3": "2026-10-03T20:19:07Z",
     "fomc-oct28-hike-odds-47pct-warsh-2yr-yield-spike-oct4": "2026-10-04T15:19:34Z",
     "btc-etf-outflows-oct3-ibit-9pt5m-fbtc-125pt6m-9day-streak-ends": "2026-10-04T15:19:34Z",
@@ -35,6 +29,7 @@
     "bitcoin-de-mica-rejection-bafin-halt-oct8": "2026-10-08T07:19:54Z",
     "robinhood-25m-btc-treasury-oct8": "2026-10-08T07:19:54Z",
     "hormuz-escalation-9-attacks-brent-105-oct8": "2026-10-09T07:21:30Z",
-    "btc-eth-etf-2day-outflows-965m-oct9": "2026-10-09T15:20:00Z"
+    "btc-eth-etf-2day-outflows-965m-oct9": "2026-10-09T15:20:00Z",
+    "trump-no-iran-strikes-before-midterms-oil-deescalation-oct9": "2026-10-09T20:21:44Z"
   }
 }
