@@ -1,11 +1,12 @@
 {
-  "lastRunISO": "2026-10-10T07:20:47Z",
+  "lastRunISO": "2026-10-10T15:18:29Z",
   "priceAlerts": {
     "btc": { "pct": 3.3, "dir": "down", "ISO": "2026-10-07T20:18:47Z", "value": 83285 },
     "eth": { "pct": 5.98, "dir": "down", "ISO": "2026-10-09T15:20:00Z", "value": 2440 },
-    "btcd": { "pct": 2.9659709000571466, "dir": "up", "ISO": "2026-10-06T15:20:45Z", "value": 58.78092204578511 },
-    "total2": { "pct": 6.3971113478580905, "dir": "down", "ISO": "2026-10-06T15:20:45Z", "value": 1213788118165.1863 },
-    "total3": { "pct": 8.606785047552732, "dir": "down", "ISO": "2026-10-06T15:20:45Z", "value": 882602752078.0834 },
+    "btcd": { "pct": 3.62, "dir": "up", "ISO": "2026-10-10T15:18:29Z", "value": 59.576329866023656 },
+    "total": { "pct": 3.78, "dir": "down", "ISO": "2026-10-10T15:18:29Z", "value": 2785923300735.0327 },
+    "total2": { "pct": 8.52, "dir": "down", "ISO": "2026-10-10T15:18:29Z", "value": 1126172445274.7153 },
+    "total3": { "pct": 11.30, "dir": "down", "ISO": "2026-10-10T15:18:29Z", "value": 822106506160.9019 },
     "oil": { "pct": 5.85, "dir": "up", "ISO": "2026-10-07T07:22:06Z", "value": 94.47 },
     "gold": { "pct": 2.2, "dir": "down", "ISO": "2026-10-05T07:20:16Z", "value": 4344 }
   },
@@ -29,6 +30,9 @@
     "robinhood-25m-btc-treasury-oct8": "2026-10-08T07:19:54Z",
     "hormuz-escalation-9-attacks-brent-105-oct8": "2026-10-09T07:21:30Z",
     "btc-eth-etf-2day-outflows-965m-oct9": "2026-10-09T15:20:00Z",
-    "trump-no-iran-strikes-before-midterms-oil-deescalation-oct9": "2026-10-09T20:21:44Z"
+    "trump-no-iran-strikes-before-midterms-oil-deescalation-oct9": "2026-10-09T20:21:44Z",
+    "alt-market-total3-11pct-total2-8pct-btcd-surge-oct10": "2026-10-10T15:18:29Z",
+    "eth-etf-9session-outflows-56m-oct10": "2026-10-10T15:18:29Z",
+    "btc-etf-inflow-reversal-21m-oct10": "2026-10-10T15:18:29Z"
   }
 }
