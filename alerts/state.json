@@ -1,12 +1,12 @@
 {
-  "lastRunISO": "2026-10-11T15:18:13Z",
+  "lastRunISO": "2026-10-11T20:18:55Z",
   "priceAlerts": {
     "btc": { "pct": 3.3, "dir": "down", "ISO": "2026-10-07T20:18:47Z", "value": 83285 },
     "eth": { "pct": 5.98, "dir": "down", "ISO": "2026-10-09T15:20:00Z", "value": 2440 },
-    "btcd": { "pct": 3.62, "dir": "up", "ISO": "2026-10-10T15:18:29Z", "value": 59.576329866023656 },
+    "btcd": { "pct": 3.79, "dir": "up", "ISO": "2026-10-11T20:18:55Z", "value": 59.605368713727756 },
     "total": { "pct": 3.78, "dir": "down", "ISO": "2026-10-10T15:18:29Z", "value": 2785923300735.0327 },
-    "total2": { "pct": 8.52, "dir": "down", "ISO": "2026-10-10T15:18:29Z", "value": 1126172445274.7153 },
-    "total3": { "pct": 11.30, "dir": "down", "ISO": "2026-10-10T15:18:29Z", "value": 822106506160.9019 },
+    "total2": { "pct": 7.91, "dir": "down", "ISO": "2026-10-11T20:18:55Z", "value": 1135752346718.7983 },
+    "total3": { "pct": 10.83, "dir": "down", "ISO": "2026-10-11T20:18:55Z", "value": 827241049744.4607 },
     "oil": { "pct": 5.85, "dir": "up", "ISO": "2026-10-07T07:22:06Z", "value": 94.47 },
     "gold": { "pct": 2.2, "dir": "down", "ISO": "2026-10-05T07:20:16Z", "value": 4344 }
   },
@@ -14,9 +14,6 @@
     "US-ISM-Services-Sep-2026": "2026-10-05T15:20:20Z"
   },
   "news": {
-    "btc-87k-rejection-433m-long-liq-oct3": "2026-10-03T20:19:07Z",
-    "fomc-oct28-hike-odds-47pct-warsh-2yr-yield-spike-oct4": "2026-10-04T15:19:34Z",
-    "btc-etf-outflows-oct3-ibit-9pt5m-fbtc-125pt6m-9day-streak-ends": "2026-10-04T15:19:34Z",
     "fomc-warsh-first-meeting-hold-hawkish-9officials-easing-bias-stripped-oct5": "2026-10-05T07:20:16Z",
     "fomc-oct28-hike-odds-60pt7pct-post-warsh-dot-plot-oct5": "2026-10-05T15:20:20Z",
     "fomc-oct28-hike-odds-collapsed-17pct-skip-flipped-oct5": "2026-10-05T20:19:41Z",
