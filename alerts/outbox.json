@@ -1,1 +1,6 @@
-{"ts":"2026-10-11T20:18:55Z","title":"MacroPulse Alert","priority":"high","message":"TOTAL3 -10.8% (24h) -> $827B | TOTAL2 -7.9% -> $1.14T | BTC.D +3.8% -> 59.61% — altcoin losses persist day 2, dominance holds highs. Oct 14 CPI is next catalyst (bonds closed Mon, Columbus Day)."}
+{
+  "ts": "2026-10-12T07:19:32Z",
+  "title": "MacroPulse Alert",
+  "priority": "default",
+  "message": "BTC back above $84K — 4-day rally, ETF selling eases, shorts unwind. Recovery from $80.5K Oct low.\nSep CPI due Wed Oct 14 08:30 ET: consensus 3.7% YoY headline, 2.4% core. Last print before Oct 28 FOMC.\nNo price thresholds breached (BTC ~+1.4% 24h). API unavailable this run — prices via web search only."
+}
