@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T16:08:50.071Z",
+  "generatedAt": "2026-10-13T01:37:35.644Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "Stablecoin dominance fell to ~10.1% as roughly $15B rotated out of stablecoins into crypto, lifting TOTAL market cap to $2.9T while BTC holds near $83,600–84,000 with funding rates at near-zero (0.002%) — confirming spot-driven accumulation over leveraged speculation; twin macro headwinds of DXY at 102.21 and real yields at 2.89% keep the bid contained, with the October 14 CPI print (consensus 3.6–3.7% YoY) as the binary catalyst — a sub-3.0% YoY miss could reprice DXY below 100 and unlock the next BTC leg higher.",
@@ -14,74 +14,74 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 82855,
+      "value": 82098,
       "format": "usd",
-      "change24h": -1.03845,
-      "change30d": 6.7154
+      "change24h": -1.88766,
+      "change30d": 5.2799
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 2531.74,
+      "value": 2455.24,
       "format": "usd",
-      "change24h": 0.02332,
-      "change30d": -0.4608
+      "change24h": -3.24492,
+      "change30d": -4.2025
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.0305859,
+      "value": 0.02991969,
       "format": "ratio",
-      "change24h": 1.2377112423059742,
-      "change30d": -7.428120891220115
+      "change24h": -1.3788016080526166,
+      "change30d": -6.921463754396568
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 59.01231216649244,
+      "value": 59.34464076949322,
       "format": "percent",
-      "change24h": 2.187429198538937,
-      "change30d": 1.3025692076482647
+      "change24h": 2.7465931256850373,
+      "change30d": 1.9153192905248462
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2809620244416.906,
+      "value": 2774785991115.3115,
       "format": "usd-compact",
-      "change24h": -3.140228914365152,
-      "change30d": 6.016454858916032
+      "change24h": -4.525836803169474,
+      "change30d": 4.347505871851812
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1151598375088.6333,
+      "value": 1128099212565.708,
       "format": "usd-compact",
-      "change24h": -6.065306087086148,
-      "change30d": 4.011949859364169
+      "change24h": -8.126570413145087,
+      "change30d": 1.4472424279647271
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 843413425056.1952,
+      "value": 829132844566.5054,
       "format": "usd-compact",
-      "change24h": -8.15256100409921,
-      "change30d": 5.359172572336268
+      "change24h": -9.778310882486437,
+      "change30d": 3.165591329090412
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 102.564,
+      "value": 102.484,
       "format": "index",
-      "change24h": 0.3247515455043368,
-      "change30d": 3.4996367159118322
+      "change24h": -0.08579339390867691,
+      "change30d": 3.4189069185436254
     },
     {
       "id": "us500",
       "label": "S&P 500",
-      "value": 7811.54,
+      "value": 7807.24,
       "format": "index",
-      "change24h": 0.5946923259192143,
-      "change30d": 2.294024901916624
+      "change24h": -0.055046764146380635,
+      "change30d": 1.9623924837207387
     },
     {
       "id": "ftse",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 4164.136,
+      "value": 4156.136,
       "format": "usd",
-      "change24h": -0.7082769013600834,
-      "change30d": -3.6278174172450557
+      "change24h": -0.36066532731744655,
+      "change30d": -3.81296445871105
     }
   ],
   "indicators": [
@@ -223,6 +223,13 @@
       "category": "Growth",
       "importance": "medium",
       "note": "Federal Reserve Board releases September 2026 Industrial Production and Capacity Utilization at 9:15 AM ET; completes the Q3 output picture ahead of the GDP advance estimate (October 29); September ISM Manufacturing at 54.5% and Production Index at 56.7% suggest solid output growth; a miss would reinforce stagflation risk narrative (hot prices, softening activity) into the October 27–28 FOMC."
+    },
+    {
+      "date": "2026-10-20",
+      "title": "Housing Starts & Building Permits (September 2026)",
+      "category": "Growth",
+      "importance": "medium",
+      "note": "Census Bureau releases September 2026 Housing Starts and Building Permits at 8:30 AM ET; with real yields at 2.89% and mortgage rates elevated, a continuation of the monthly decline in starts would underscore the drag from high financing costs on housing activity into year-end; provides incremental Q3 residential investment data ahead of the October 29 GDP advance estimate."
     }
   ],
   "sources": {
@@ -240,5 +247,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-10-12T16:08:50Z"
+  "cachedAtISO": "2026-10-13T01:37:35Z"
 }
