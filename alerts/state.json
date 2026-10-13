@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-10-12T20:17:58Z",
+  "lastRunISO": "2026-10-13T07:19:26Z",
   "priceAlerts": {
     "btc": { "pct": 3.3, "dir": "down", "ISO": "2026-10-07T20:18:47Z", "value": 83285 },
     "eth": { "pct": 5.98, "dir": "down", "ISO": "2026-10-09T15:20:00Z", "value": 2440 },
@@ -7,17 +7,12 @@
     "total": { "pct": 3.78, "dir": "down", "ISO": "2026-10-10T15:18:29Z", "value": 2785923300735.0327 },
     "total2": { "pct": 7.91, "dir": "down", "ISO": "2026-10-11T20:18:55Z", "value": 1135752346718.7983 },
     "total3": { "pct": 10.83, "dir": "down", "ISO": "2026-10-11T20:18:55Z", "value": 827241049744.4607 },
-    "oil": { "pct": 5.85, "dir": "up", "ISO": "2026-10-07T07:22:06Z", "value": 94.47 },
-    "gold": { "pct": 2.2, "dir": "down", "ISO": "2026-10-05T07:20:16Z", "value": 4344 }
+    "oil": { "pct": 5.85, "dir": "up", "ISO": "2026-10-07T07:22:06Z", "value": 94.47 }
   },
   "releases": {
     "US-ISM-Services-Sep-2026": "2026-10-05T15:20:20Z"
   },
   "news": {
-    "fomc-warsh-first-meeting-hold-hawkish-9officials-easing-bias-stripped-oct5": "2026-10-05T07:20:16Z",
-    "fomc-oct28-hike-odds-60pt7pct-post-warsh-dot-plot-oct5": "2026-10-05T15:20:20Z",
-    "fomc-oct28-hike-odds-collapsed-17pct-skip-flipped-oct5": "2026-10-05T20:19:41Z",
-    "fomc-minutes-sep-meeting-due-oct7-19bst": "2026-10-05T20:19:41Z",
     "spx-record-close-oct5-btc-flat-liq-172m-oct6": "2026-10-06T15:20:45Z",
     "iran-tanker-oil-above-100-brent-oct7": "2026-10-07T07:22:06Z",
     "btc-400m-longs-flash-crash-oct7": "2026-10-07T07:22:06Z",
