@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-10-13T07:19:26Z",
+  "lastRunISO": "2026-10-13T15:20:22Z",
   "priceAlerts": {
     "btc": { "pct": 3.3, "dir": "down", "ISO": "2026-10-07T20:18:47Z", "value": 83285 },
     "eth": { "pct": 5.98, "dir": "down", "ISO": "2026-10-09T15:20:00Z", "value": 2440 },
@@ -27,6 +27,9 @@
     "eth-etf-9session-outflows-56m-oct10": "2026-10-10T15:18:29Z",
     "btc-etf-inflow-reversal-21m-oct10": "2026-10-10T15:18:29Z",
     "btc-recovery-84k-etf-selling-eases-shorts-unwind-oct12": "2026-10-12T07:19:32Z",
-    "sep-cpi-due-oct14-consensus-37pct-headline-24pct-core-oct12": "2026-10-12T07:19:32Z"
+    "sep-cpi-due-oct14-consensus-37pct-headline-24pct-core-oct12": "2026-10-12T07:19:32Z",
+    "btc-etf-outflow-654m-ibit-resumes-oct13": "2026-10-13T15:20:22Z",
+    "blackrock-cuts-us-equities-neutral-tbills-ow-oct13": "2026-10-13T15:20:22Z",
+    "imf-bond-yields-biggest-risk-global-system-oct13": "2026-10-13T15:20:22Z"
   }
 }
