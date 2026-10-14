@@ -1,20 +1,18 @@
 {
-  "lastRunISO": "2026-10-14T07:20:37Z",
+  "lastRunISO": "2026-10-14T15:20:01Z",
   "priceAlerts": {
     "btc": { "pct": 3.3, "dir": "down", "ISO": "2026-10-07T20:18:47Z", "value": 83285 },
     "eth": { "pct": 5.98, "dir": "down", "ISO": "2026-10-09T15:20:00Z", "value": 2440 },
     "btcd": { "pct": 3.79, "dir": "up", "ISO": "2026-10-11T20:18:55Z", "value": 59.605368713727756 },
     "total": { "pct": 3.78, "dir": "down", "ISO": "2026-10-10T15:18:29Z", "value": 2785923300735.0327 },
     "total2": { "pct": 7.91, "dir": "down", "ISO": "2026-10-11T20:18:55Z", "value": 1135752346718.7983 },
-    "total3": { "pct": 10.83, "dir": "down", "ISO": "2026-10-11T20:18:55Z", "value": 827241049744.4607 },
-    "oil": { "pct": 5.85, "dir": "up", "ISO": "2026-10-07T07:22:06Z", "value": 94.47 }
+    "total3": { "pct": 10.83, "dir": "down", "ISO": "2026-10-11T20:18:55Z", "value": 827241049744.4607 }
   },
   "releases": {
-    "US-ISM-Services-Sep-2026": "2026-10-05T15:20:20Z"
+    "US-ISM-Services-Sep-2026": "2026-10-05T15:20:20Z",
+    "US-CPI-Sep-2026": "2026-10-14T15:20:01Z"
   },
   "news": {
-    "iran-tanker-oil-above-100-brent-oct7": "2026-10-07T07:22:06Z",
-    "btc-400m-longs-flash-crash-oct7": "2026-10-07T07:22:06Z",
     "fomc-sep-minutes-released-hawkish-year-end-hike-10yr-5365-oct7": "2026-10-07T20:18:47Z",
     "btc-etf-outflow-487m-oct7-largest-weekly": "2026-10-08T07:19:54Z",
     "bitcoin-de-mica-rejection-bafin-halt-oct8": "2026-10-08T07:19:54Z",
@@ -30,6 +28,8 @@
     "btc-etf-outflow-654m-ibit-resumes-oct13": "2026-10-13T15:20:22Z",
     "blackrock-cuts-us-equities-neutral-tbills-ow-oct13": "2026-10-13T15:20:22Z",
     "imf-bond-yields-biggest-risk-global-system-oct13": "2026-10-13T15:20:22Z",
-    "eth-etf-10session-outflows-542m-week-oct13": "2026-10-14T07:20:37Z"
+    "eth-etf-10session-outflows-542m-week-oct13": "2026-10-14T07:20:37Z",
+    "us-cpi-sep-hot-37pct-core-26pct-oct14": "2026-10-14T15:20:01Z",
+    "fomc-october-hike-odds-rise-cpi-beat-oct14": "2026-10-14T15:20:01Z"
   }
 }
