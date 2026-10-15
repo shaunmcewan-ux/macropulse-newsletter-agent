@@ -1,6 +1,6 @@
 {
-  "ts": "2026-10-15T15:20:00Z",
+  "ts": "2026-10-15T20:19:38Z",
   "title": "MacroPulse Alert",
   "priority": "default",
-  "message": "Kospi -8%, circuit breaker triggered — Asia equities rout on US CPI/Fed hike fears\nCrypto liquidations ~$1B (Oct 15); prior run logged $483M at 07:18 UTC\nBTC ETF: $150.5M outflows Oct 14, reversed prior day's $175.7M inflow\nOct FOMC hike odds 26–30% (peaked ~48% post-CPI); decision Oct 28\nBTC ~$80.9K (24h range $80.4K–$84.0K); prior -3.0% alert holds, not yet 4.5% re-alert"
+  "message": "US PPI Sep: +6.3% YoY (vs ~5.3% expected, Aug 5.4% prior) — MoM +1.3% vs +0.6% forecast. Another hot inflation print one day after CPI beat. FOMC Oct hike odds in play. Warsh Bangkok speech due 03:30 UTC Thu — pre-blackout window."
 }

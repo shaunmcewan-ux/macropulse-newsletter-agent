@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-10-15T15:20:00Z",
+  "lastRunISO": "2026-10-15T20:19:38Z",
   "priceAlerts": {
     "btc": { "pct": 3.0, "dir": "down", "ISO": "2026-10-15T07:18:30Z", "value": 81000 },
     "eth": { "pct": 5.98, "dir": "down", "ISO": "2026-10-09T15:20:00Z", "value": 2440 },
@@ -11,7 +11,8 @@
   },
   "releases": {
     "US-ISM-Services-Sep-2026": "2026-10-05T15:20:20Z",
-    "US-CPI-Sep-2026": "2026-10-14T15:20:01Z"
+    "US-CPI-Sep-2026": "2026-10-14T15:20:01Z",
+    "US-PPI-Sep-2026": "2026-10-15T20:19:38Z"
   },
   "news": {
     "fomc-sep-minutes-released-hawkish-year-end-hike-10yr-5365-oct7": "2026-10-07T20:18:47Z",
@@ -36,6 +37,7 @@
     "kospi-8pct-circuit-breaker-global-selloff-oct15": "2026-10-15T15:20:00Z",
     "crypto-liquidations-1b-total-oct15-update": "2026-10-15T15:20:00Z",
     "btc-etf-outflow-150m-oct14-reversal-from-175m-inflow": "2026-10-15T15:20:00Z",
-    "fomc-oct-hike-odds-26-30pct-eased-from-48pct-peak-oct15": "2026-10-15T15:20:00Z"
+    "fomc-oct-hike-odds-26-30pct-eased-from-48pct-peak-oct15": "2026-10-15T15:20:00Z",
+    "us-ppi-sep-hot-63pct-yoy-13pct-mom-oct15": "2026-10-15T20:19:38Z"
   }
 }
