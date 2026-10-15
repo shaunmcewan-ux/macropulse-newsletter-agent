@@ -1,6 +1,6 @@
 {
-  "ts": "2026-10-15T07:18:30Z",
+  "ts": "2026-10-15T15:20:00Z",
   "title": "MacroPulse Alert",
   "priority": "default",
-  "message": "BTC -3.0% (24h) → ~$81,000 — hot CPI + Fed hike pressure\nGold -1.7% (24h) → $4,086 — rate-fear sell-off, lowest since Oct 7\nCrypto liquidations $483M in 24h — ETH hit harder; BTC support ~$80K\nS&P 500 -1.11% → 7,719 (below threshold) — context: Nasdaq harder hit\nDXY +0.68% → 102.86, near 18-month highs (below threshold)"
+  "message": "Kospi -8%, circuit breaker triggered — Asia equities rout on US CPI/Fed hike fears\nCrypto liquidations ~$1B (Oct 15); prior run logged $483M at 07:18 UTC\nBTC ETF: $150.5M outflows Oct 14, reversed prior day's $175.7M inflow\nOct FOMC hike odds 26–30% (peaked ~48% post-CPI); decision Oct 28\nBTC ~$80.9K (24h range $80.4K–$84.0K); prior -3.0% alert holds, not yet 4.5% re-alert"
 }
