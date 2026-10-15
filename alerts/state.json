@@ -1,12 +1,13 @@
 {
-  "lastRunISO": "2026-10-14T20:18:28Z",
+  "lastRunISO": "2026-10-15T07:18:30Z",
   "priceAlerts": {
-    "btc": { "pct": 3.3, "dir": "down", "ISO": "2026-10-07T20:18:47Z", "value": 83285 },
+    "btc": { "pct": 3.0, "dir": "down", "ISO": "2026-10-15T07:18:30Z", "value": 81000 },
     "eth": { "pct": 5.98, "dir": "down", "ISO": "2026-10-09T15:20:00Z", "value": 2440 },
     "btcd": { "pct": 3.79, "dir": "up", "ISO": "2026-10-11T20:18:55Z", "value": 59.605368713727756 },
     "total": { "pct": 3.78, "dir": "down", "ISO": "2026-10-10T15:18:29Z", "value": 2785923300735.0327 },
     "total2": { "pct": 7.91, "dir": "down", "ISO": "2026-10-11T20:18:55Z", "value": 1135752346718.7983 },
-    "total3": { "pct": 10.83, "dir": "down", "ISO": "2026-10-11T20:18:55Z", "value": 827241049744.4607 }
+    "total3": { "pct": 10.83, "dir": "down", "ISO": "2026-10-11T20:18:55Z", "value": 827241049744.4607 },
+    "gold": { "pct": 1.7, "dir": "down", "ISO": "2026-10-15T07:18:30Z", "value": 4086 }
   },
   "releases": {
     "US-ISM-Services-Sep-2026": "2026-10-05T15:20:20Z",
@@ -30,6 +31,7 @@
     "imf-bond-yields-biggest-risk-global-system-oct13": "2026-10-13T15:20:22Z",
     "eth-etf-10session-outflows-542m-week-oct13": "2026-10-14T07:20:37Z",
     "us-cpi-sep-hot-37pct-core-26pct-oct14": "2026-10-14T15:20:01Z",
-    "fomc-october-hike-odds-rise-cpi-beat-oct14": "2026-10-14T15:20:01Z"
+    "fomc-october-hike-odds-rise-cpi-beat-oct14": "2026-10-14T15:20:01Z",
+    "crypto-liquidations-483m-btc-81k-oct15": "2026-10-15T07:18:30Z"
   }
 }
