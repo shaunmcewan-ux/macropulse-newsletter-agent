@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T11:11:28.490Z",
+  "generatedAt": "2026-10-17T17:32:35.818Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "BTC holds ~$82K with near-zero funding (0.0036% per 8h) confirming spot-driven accumulation; BTC.D stable in the 57–59% range (no sustained alt rotation); Global M2 still expanding at $103.7T (Aug); headwinds persist — DXY 101.79 (above 100 threshold), real yields 2.84% (well above 2%) — with FOMC Oct 28 the dominant near-term catalyst where a 25bp hike to 4.00–4.25% appears likely given back-to-back CPI/PPI shocks; dial stays BTC Accumulation until BTC.D breaks below 55% on a sustained basis.",
@@ -14,58 +14,58 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 81540,
+      "value": 81203,
       "format": "usd",
-      "change24h": -0.86232,
-      "change30d": 6.7364
+      "change24h": 0.29629,
+      "change30d": 5.7954
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 2436.47,
+      "value": 2404.73,
       "format": "usd",
-      "change24h": -1.23019,
-      "change30d": -0.0362
+      "change24h": -0.03028,
+      "change30d": -2.744
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02988391,
+      "value": 0.02962925,
       "format": "ratio",
-      "change24h": -0.4067730449965874,
-      "change30d": -6.628800700975962
+      "change24h": -0.3979645723740689,
+      "change30d": -7.840055841094938
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 59.295315570674575,
+      "value": 59.43726024811262,
       "format": "percent",
-      "change24h": 2.863640585317029,
-      "change30d": 1.8261966814499813
+      "change24h": 3.6551916004949225,
+      "change30d": 2.098626366918516
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2758927112877.33,
+      "value": 2742199780313.1885,
       "format": "usd-compact",
-      "change24h": -3.621202364724331,
-      "change30d": 5.22003128345276
+      "change24h": -3.1957700809257923,
+      "change30d": 4.484095775682619
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1123012574931.816,
+      "value": 1112311360365.266,
       "format": "usd-compact",
-      "change24h": -7.393541256245848,
-      "change30d": 2.4193947590162725
+      "change24h": -7.967110577209826,
+      "change30d": 1.2881744027945123
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 825958117134.3395,
+      "value": 819076144155.1171,
       "format": "usd-compact",
-      "change24h": -9.439713868169212,
-      "change30d": 3.0252562289968745
+      "change24h": -10.54461031728037,
+      "change30d": 1.9738815233243954
     },
     {
       "id": "dxy",
@@ -212,5 +212,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-10-17T11:11:28Z"
+  "cachedAtISO": "2026-10-17T17:32:35Z"
 }
