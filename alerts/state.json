@@ -1,28 +1,20 @@
 {
-  "lastRunISO": "2026-10-16T20:18:00Z",
+  "lastRunISO": "2026-10-17T07:19:23Z",
   "priceAlerts": {
     "btc": { "pct": 3.0, "dir": "down", "ISO": "2026-10-15T07:18:30Z", "value": 81000 },
-    "eth": { "pct": 5.98, "dir": "down", "ISO": "2026-10-09T15:20:00Z", "value": 2440 },
     "btcd": { "pct": 3.79, "dir": "up", "ISO": "2026-10-11T20:18:55Z", "value": 59.605368713727756 },
     "total": { "pct": 3.78, "dir": "down", "ISO": "2026-10-10T15:18:29Z", "value": 2785923300735.0327 },
     "total2": { "pct": 7.91, "dir": "down", "ISO": "2026-10-11T20:18:55Z", "value": 1135752346718.7983 },
     "total3": { "pct": 10.83, "dir": "down", "ISO": "2026-10-11T20:18:55Z", "value": 827241049744.4607 },
-    "gold": { "pct": 1.7, "dir": "down", "ISO": "2026-10-15T07:18:30Z", "value": 4086 }
+    "gold": { "pct": 1.7, "dir": "down", "ISO": "2026-10-15T07:18:30Z", "value": 4086 },
+    "dxy": { "pct": 0.75, "dir": "down", "ISO": "2026-10-17T07:19:23Z", "value": 101.78 }
   },
   "releases": {
-    "US-ISM-Services-Sep-2026": "2026-10-05T15:20:20Z",
     "US-CPI-Sep-2026": "2026-10-14T15:20:01Z",
     "US-PPI-Sep-2026": "2026-10-15T20:19:38Z",
     "US-RetailSales-Sep-2026": "2026-10-16T07:19:26Z"
   },
   "news": {
-    "fomc-sep-minutes-released-hawkish-year-end-hike-10yr-5365-oct7": "2026-10-07T20:18:47Z",
-    "btc-etf-outflow-487m-oct7-largest-weekly": "2026-10-08T07:19:54Z",
-    "bitcoin-de-mica-rejection-bafin-halt-oct8": "2026-10-08T07:19:54Z",
-    "robinhood-25m-btc-treasury-oct8": "2026-10-08T07:19:54Z",
-    "hormuz-escalation-9-attacks-brent-105-oct8": "2026-10-09T07:21:30Z",
-    "btc-eth-etf-2day-outflows-965m-oct9": "2026-10-09T15:20:00Z",
-    "trump-no-iran-strikes-before-midterms-oil-deescalation-oct9": "2026-10-09T20:21:44Z",
     "alt-market-total3-11pct-total2-8pct-btcd-surge-oct10": "2026-10-10T15:18:29Z",
     "eth-etf-9session-outflows-56m-oct10": "2026-10-10T15:18:29Z",
     "btc-etf-inflow-reversal-21m-oct10": "2026-10-10T15:18:29Z",
@@ -41,6 +33,8 @@
     "fomc-oct-hike-odds-26-30pct-eased-from-48pct-peak-oct15": "2026-10-15T15:20:00Z",
     "us-ppi-sep-hot-63pct-yoy-13pct-mom-oct15": "2026-10-15T20:19:38Z",
     "retail-sales-sep-08pct-beat-03pct-est-dow-550pts-oct15": "2026-10-16T07:19:26Z",
-    "warsh-oct16-no-hike-hints-oct-fomc-odds-ease-btc-82k": "2026-10-16T20:18:00Z"
+    "warsh-oct16-no-hike-hints-oct-fomc-odds-ease-btc-82k": "2026-10-16T20:18:00Z",
+    "nasdaq-ai-selloff-spx-1pct-oct16-ai-bubble-concerns": "2026-10-17T07:19:23Z",
+    "crypto-msci-btc-treasury-exclusion-strategy-metaplanet-oct16": "2026-10-17T07:19:23Z"
   }
 }
