@@ -1,11 +1,11 @@
 {
-  "lastRunISO": "2026-10-18T07:05:11Z",
+  "lastRunISO": "2026-10-18T15:05:59Z",
   "priceAlerts": {
     "btc": { "pct": 3.0, "dir": "down", "ISO": "2026-10-15T07:18:30Z", "value": 81000 },
-    "btcd": { "pct": 3.79, "dir": "up", "ISO": "2026-10-11T20:18:55Z", "value": 59.605368713727756 },
-    "total": { "pct": 3.78, "dir": "down", "ISO": "2026-10-10T15:18:29Z", "value": 2785923300735.0327 },
-    "total2": { "pct": 7.91, "dir": "down", "ISO": "2026-10-11T20:18:55Z", "value": 1135752346718.7983 },
-    "total3": { "pct": 10.83, "dir": "down", "ISO": "2026-10-11T20:18:55Z", "value": 827241049744.4607 },
+    "btcd": { "pct": 4.3, "dir": "up", "ISO": "2026-10-18T15:05:59Z", "value": 60.10 },
+    "total": { "pct": 3.54, "dir": "down", "ISO": "2026-10-18T15:05:59Z", "value": 2734056187742.27 },
+    "total2": { "pct": 9.21, "dir": "down", "ISO": "2026-10-18T15:05:59Z", "value": 1090752899241.24 },
+    "total3": { "pct": 12.01, "dir": "down", "ISO": "2026-10-18T15:05:59Z", "value": 796555803534.46 },
     "gold": { "pct": 1.7, "dir": "down", "ISO": "2026-10-15T07:18:30Z", "value": 4086 },
     "dxy": { "pct": 0.75, "dir": "down", "ISO": "2026-10-17T07:19:23Z", "value": 101.78 },
     "oil": { "pct": 3.72, "dir": "up", "ISO": "2026-10-17T20:05:05Z", "value": 109.86 }
@@ -16,9 +16,6 @@
     "US-RetailSales-Sep-2026": "2026-10-16T07:19:26Z"
   },
   "news": {
-    "alt-market-total3-11pct-total2-8pct-btcd-surge-oct10": "2026-10-10T15:18:29Z",
-    "eth-etf-9session-outflows-56m-oct10": "2026-10-10T15:18:29Z",
-    "btc-etf-inflow-reversal-21m-oct10": "2026-10-10T15:18:29Z",
     "btc-recovery-84k-etf-selling-eases-shorts-unwind-oct12": "2026-10-12T07:19:32Z",
     "sep-cpi-due-oct14-consensus-37pct-headline-24pct-core-oct12": "2026-10-12T07:19:32Z",
     "btc-etf-outflow-654m-ibit-resumes-oct13": "2026-10-13T15:20:22Z",
@@ -40,6 +37,8 @@
     "goldman-october-hike-call-moves-december-oct17": "2026-10-17T15:04:52Z",
     "fomc-oct-hike-odds-below-20pct-fed-officials-lean-against-oct17": "2026-10-17T15:04:52Z",
     "crypto-etf-weekly-outflows-610m-eth-exceeds-btc-oct17": "2026-10-17T15:04:52Z",
-    "brent-oil-110-5month-high-hormuz-9vessels-attacked-oct16": "2026-10-17T20:05:05Z"
+    "brent-oil-110-5month-high-hormuz-9vessels-attacked-oct16": "2026-10-17T20:05:05Z",
+    "hormuz-deescalation-iran-6days-reopen-if-us-terms-oct18": "2026-10-18T15:05:59Z",
+    "russia-crypto-selfcustody-ban-july2027-oct18": "2026-10-18T15:05:59Z"
   }
 }
