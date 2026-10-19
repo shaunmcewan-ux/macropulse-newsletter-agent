@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-10-19T07:07:17Z",
+  "lastRunISO": "2026-10-19T15:06:53Z",
   "priceAlerts": {
     "btc": { "pct": 3.0, "dir": "down", "ISO": "2026-10-15T07:18:30Z", "value": 81000 },
     "btcd": { "pct": 4.3, "dir": "up", "ISO": "2026-10-18T15:05:59Z", "value": 60.10 },
@@ -13,7 +13,8 @@
   "releases": {
     "US-CPI-Sep-2026": "2026-10-14T15:20:01Z",
     "US-PPI-Sep-2026": "2026-10-15T20:19:38Z",
-    "US-RetailSales-Sep-2026": "2026-10-16T07:19:26Z"
+    "US-RetailSales-Sep-2026": "2026-10-16T07:19:26Z",
+    "China-GDP-Q3-2026": "2026-10-19T15:06:53Z"
   },
   "news": {
     "btc-recovery-84k-etf-selling-eases-shorts-unwind-oct12": "2026-10-12T07:19:32Z",
@@ -42,6 +43,8 @@
     "russia-crypto-selfcustody-ban-july2027-oct18": "2026-10-18T15:05:59Z",
     "trump-rejects-iran-7day-hormuz-proposal-oct19": "2026-10-19T07:07:17Z",
     "russia-supply-brent-slipping-from-110-rally-at-risk-oct19": "2026-10-19T07:07:17Z",
-    "december-fomc-hike-odds-firming-oct-priced-out-oct19": "2026-10-19T07:07:17Z"
+    "december-fomc-hike-odds-firming-oct-priced-out-oct19": "2026-10-19T07:07:17Z",
+    "china-gdp-q3-45pct-beat-44pct-est-oct19": "2026-10-19T15:06:53Z",
+    "trump-russia-sanctions-waiver-brent-drop-2pct-107-oct19": "2026-10-19T15:06:53Z"
   }
 }
