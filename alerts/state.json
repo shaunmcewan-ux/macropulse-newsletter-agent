@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-10-18T20:04:29Z",
+  "lastRunISO": "2026-10-19T07:07:17Z",
   "priceAlerts": {
     "btc": { "pct": 3.0, "dir": "down", "ISO": "2026-10-15T07:18:30Z", "value": 81000 },
     "btcd": { "pct": 4.3, "dir": "up", "ISO": "2026-10-18T15:05:59Z", "value": 60.10 },
@@ -39,6 +39,9 @@
     "crypto-etf-weekly-outflows-610m-eth-exceeds-btc-oct17": "2026-10-17T15:04:52Z",
     "brent-oil-110-5month-high-hormuz-9vessels-attacked-oct16": "2026-10-17T20:05:05Z",
     "hormuz-deescalation-iran-6days-reopen-if-us-terms-oct18": "2026-10-18T15:05:59Z",
-    "russia-crypto-selfcustody-ban-july2027-oct18": "2026-10-18T15:05:59Z"
+    "russia-crypto-selfcustody-ban-july2027-oct18": "2026-10-18T15:05:59Z",
+    "trump-rejects-iran-7day-hormuz-proposal-oct19": "2026-10-19T07:07:17Z",
+    "russia-supply-brent-slipping-from-110-rally-at-risk-oct19": "2026-10-19T07:07:17Z",
+    "december-fomc-hike-odds-firming-oct-priced-out-oct19": "2026-10-19T07:07:17Z"
   }
 }
