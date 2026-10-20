@@ -1,11 +1,11 @@
 {
-  "lastRunISO": "2026-10-20T07:05:11Z",
+  "lastRunISO": "2026-10-20T15:07:21Z",
   "priceAlerts": {
     "btc": { "pct": 3.0, "dir": "down", "ISO": "2026-10-15T07:18:30Z", "value": 81000 },
-    "btcd": { "pct": 4.3, "dir": "up", "ISO": "2026-10-18T15:05:59Z", "value": 60.10 },
-    "total": { "pct": 3.54, "dir": "down", "ISO": "2026-10-18T15:05:59Z", "value": 2734056187742.27 },
-    "total2": { "pct": 9.21, "dir": "down", "ISO": "2026-10-18T15:05:59Z", "value": 1090752899241.24 },
-    "total3": { "pct": 12.01, "dir": "down", "ISO": "2026-10-18T15:05:59Z", "value": 796555803534.46 },
+    "btcd": { "pct": 2.38, "dir": "up", "ISO": "2026-10-20T15:07:21Z", "value": 59.54 },
+    "total": { "pct": 3.60, "dir": "down", "ISO": "2026-10-20T15:07:21Z", "value": 2735790462096.71 },
+    "total2": { "pct": 6.82, "dir": "down", "ISO": "2026-10-20T15:07:21Z", "value": 1106973539413.94 },
+    "total3": { "pct": 8.56, "dir": "down", "ISO": "2026-10-20T15:07:21Z", "value": 817018060792.02 },
     "gold": { "pct": 1.7, "dir": "down", "ISO": "2026-10-15T07:18:30Z", "value": 4086 },
     "dxy": { "pct": 0.75, "dir": "down", "ISO": "2026-10-17T07:19:23Z", "value": 101.78 },
     "oil": { "pct": 3.72, "dir": "up", "ISO": "2026-10-17T20:05:05Z", "value": 109.86 }
@@ -41,9 +41,12 @@
     "russia-crypto-selfcustody-ban-july2027-oct18": "2026-10-18T15:05:59Z",
     "trump-rejects-iran-7day-hormuz-proposal-oct19": "2026-10-19T07:07:17Z",
     "russia-supply-brent-slipping-from-110-rally-at-risk-oct19": "2026-10-19T07:07:17Z",
-    "december-fomc-hike-odds-firming-oct-priced-out-oct19": "2026-10-19T07:07:17Z",
+    "december-fomc-hike-odds-firming-oct-priced-out-oct19": "2026-10-19T15:06:53Z",
     "china-gdp-q3-45pct-beat-44pct-est-oct19": "2026-10-19T15:06:53Z",
     "trump-russia-sanctions-waiver-brent-drop-2pct-107-oct19": "2026-10-19T15:06:53Z",
-    "crude-oil-higher-unconfirmed-us-iran-strikes-oct19-1730": "2026-10-19T20:05:12Z"
+    "crude-oil-higher-unconfirmed-us-iran-strikes-oct19-1730": "2026-10-19T20:05:12Z",
+    "btc-etf-inflow-527m-oct19-reversal-oct20": "2026-10-20T15:07:21Z",
+    "dec-fomc-hike-odds-90pct-oct20": "2026-10-20T15:07:21Z",
+    "brent-111-5month-high-hormuz-saudi-oct20": "2026-10-20T15:07:21Z"
   }
 }
