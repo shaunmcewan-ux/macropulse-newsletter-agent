@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-10-21T07:06:26Z",
+  "lastRunISO": "2026-10-21T15:06:28Z",
   "priceAlerts": {
     "btc": { "pct": 3.0, "dir": "down", "ISO": "2026-10-15T07:18:30Z", "value": 81000 },
     "btcd": { "pct": 2.38, "dir": "up", "ISO": "2026-10-20T15:07:21Z", "value": 59.54 },
@@ -44,6 +44,8 @@
     "crude-oil-higher-unconfirmed-us-iran-strikes-oct19-1730": "2026-10-19T20:05:12Z",
     "btc-etf-inflow-527m-oct19-reversal-oct20": "2026-10-20T15:07:21Z",
     "dec-fomc-hike-odds-90pct-oct20": "2026-10-20T15:07:21Z",
-    "brent-111-5month-high-hormuz-saudi-oct20": "2026-10-20T15:07:21Z"
+    "brent-111-5month-high-hormuz-saudi-oct20": "2026-10-20T15:07:21Z",
+    "warsh-imf-bangkok-no-oct-rate-signal-dec-hike-75pct-oct21": "2026-10-21T15:06:28Z",
+    "blackrock-btc-etf-capped-upside-protection-filing-oct21": "2026-10-21T15:06:28Z"
   }
 }
