@@ -1,12 +1,11 @@
 {
-  "lastRunISO": "2026-10-22T07:07:16Z",
+  "lastRunISO": "2026-10-22T15:08:24Z",
   "priceAlerts": {
-    "btc": { "pct": 3.0, "dir": "down", "ISO": "2026-10-15T07:18:30Z", "value": 81000 },
+    "btc": { "pct": 3.4, "dir": "down", "ISO": "2026-10-22T15:08:24Z", "value": 81600 },
     "btcd": { "pct": 2.38, "dir": "up", "ISO": "2026-10-20T15:07:21Z", "value": 59.54 },
     "total": { "pct": 3.60, "dir": "down", "ISO": "2026-10-20T15:07:21Z", "value": 2735790462096.71 },
     "total2": { "pct": 6.82, "dir": "down", "ISO": "2026-10-20T15:07:21Z", "value": 1106973539413.94 },
     "total3": { "pct": 8.56, "dir": "down", "ISO": "2026-10-20T15:07:21Z", "value": 817018060792.02 },
-    "gold": { "pct": 1.7, "dir": "down", "ISO": "2026-10-15T07:18:30Z", "value": 4086 },
     "dxy": { "pct": 0.75, "dir": "down", "ISO": "2026-10-17T07:19:23Z", "value": 101.78 },
     "oil": { "pct": 3.72, "dir": "up", "ISO": "2026-10-17T20:05:05Z", "value": 109.86 }
   },
@@ -16,7 +15,6 @@
     "China-GDP-Q3-2026": "2026-10-19T15:06:53Z"
   },
   "news": {
-    "crypto-liquidations-483m-btc-81k-oct15": "2026-10-15T07:18:30Z",
     "kospi-8pct-circuit-breaker-global-selloff-oct15": "2026-10-15T15:20:00Z",
     "crypto-liquidations-1b-total-oct15-update": "2026-10-15T15:20:00Z",
     "btc-etf-outflow-150m-oct14-reversal-from-175m-inflow": "2026-10-15T15:20:00Z",
@@ -44,6 +42,8 @@
     "warsh-imf-bangkok-no-oct-rate-signal-dec-hike-75pct-oct21": "2026-10-21T15:06:28Z",
     "blackrock-btc-etf-capped-upside-protection-filing-oct21": "2026-10-21T15:06:28Z",
     "uk-cpi-sep-35pct-boe-nov-hike-firmly-priced-oct21": "2026-10-21T20:07:37Z",
-    "fomc-dec-hike-100pct-consensus-oct22": "2026-10-22T07:07:16Z"
+    "fomc-dec-hike-100pct-consensus-oct22": "2026-10-22T07:07:16Z",
+    "btc-drop-34pct-oil-111-crypto-gains-wiped-oct22-pm": "2026-10-22T15:08:24Z",
+    "btc-etf-inflows-528m-3day-total-108bn-oct22": "2026-10-22T15:08:24Z"
   }
 }

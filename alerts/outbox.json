@@ -1,6 +1,6 @@
 {
-  "ts": "2026-10-22T07:07:16Z",
+  "ts": "2026-10-22T15:08:24Z",
   "title": "MacroPulse Alert",
   "priority": "default",
-  "message": "Dec FOMC hike: All 100 surveyed economists now expect Dec 2026 hike; Oct 28 hold fully priced (hardened from 75-90% prior).\nBTC $82,761 (+0.2% 24h) · Brent ~$111 (Hormuz standoff) · Gold $4,110 — no 24h thresholds breached.\nNote: macropulse.uk API offline this run; prices from web sources."
+  "message": "BTC -3.4% (24h) → ~$81,600; overnight high $84,808 wiped out\nDriver: Brent $111+ (Hormuz tensions) weighing risk appetite\nBTC ETF inflows $528M today; 3-day cumulative $1.08B"
 }
