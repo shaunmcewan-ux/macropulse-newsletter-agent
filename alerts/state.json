@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-10-21T20:07:37Z",
+  "lastRunISO": "2026-10-22T07:07:16Z",
   "priceAlerts": {
     "btc": { "pct": 3.0, "dir": "down", "ISO": "2026-10-15T07:18:30Z", "value": 81000 },
     "btcd": { "pct": 2.38, "dir": "up", "ISO": "2026-10-20T15:07:21Z", "value": 59.54 },
@@ -43,6 +43,7 @@
     "brent-111-5month-high-hormuz-saudi-oct20": "2026-10-20T15:07:21Z",
     "warsh-imf-bangkok-no-oct-rate-signal-dec-hike-75pct-oct21": "2026-10-21T15:06:28Z",
     "blackrock-btc-etf-capped-upside-protection-filing-oct21": "2026-10-21T15:06:28Z",
-    "uk-cpi-sep-35pct-boe-nov-hike-firmly-priced-oct21": "2026-10-21T20:07:37Z"
+    "uk-cpi-sep-35pct-boe-nov-hike-firmly-priced-oct21": "2026-10-21T20:07:37Z",
+    "fomc-dec-hike-100pct-consensus-oct22": "2026-10-22T07:07:16Z"
   }
 }
