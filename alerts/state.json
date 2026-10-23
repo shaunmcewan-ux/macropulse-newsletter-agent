@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-10-22T20:04:06Z",
+  "lastRunISO": "2026-10-23T07:05:48Z",
   "priceAlerts": {
     "btc": { "pct": 3.4, "dir": "down", "ISO": "2026-10-22T15:08:24Z", "value": 81600 },
     "btcd": { "pct": 2.38, "dir": "up", "ISO": "2026-10-20T15:07:21Z", "value": 59.54 },
@@ -10,16 +10,10 @@
     "oil": { "pct": 3.72, "dir": "up", "ISO": "2026-10-17T20:05:05Z", "value": 109.86 }
   },
   "releases": {
-    "US-PPI-Sep-2026": "2026-10-15T20:19:38Z",
     "US-RetailSales-Sep-2026": "2026-10-16T07:19:26Z",
     "China-GDP-Q3-2026": "2026-10-19T15:06:53Z"
   },
   "news": {
-    "kospi-8pct-circuit-breaker-global-selloff-oct15": "2026-10-15T15:20:00Z",
-    "crypto-liquidations-1b-total-oct15-update": "2026-10-15T15:20:00Z",
-    "btc-etf-outflow-150m-oct14-reversal-from-175m-inflow": "2026-10-15T15:20:00Z",
-    "fomc-oct-hike-odds-26-30pct-eased-from-48pct-peak-oct15": "2026-10-15T15:20:00Z",
-    "us-ppi-sep-hot-63pct-yoy-13pct-mom-oct15": "2026-10-15T20:19:38Z",
     "retail-sales-sep-08pct-beat-03pct-est-dow-550pts-oct15": "2026-10-16T07:19:26Z",
     "warsh-oct16-no-hike-hints-oct-fomc-odds-ease-btc-82k": "2026-10-16T20:18:00Z",
     "nasdaq-ai-selloff-spx-1pct-oct16-ai-bubble-concerns": "2026-10-17T07:19:23Z",
@@ -44,6 +38,7 @@
     "uk-cpi-sep-35pct-boe-nov-hike-firmly-priced-oct21": "2026-10-21T20:07:37Z",
     "fomc-dec-hike-100pct-consensus-oct22": "2026-10-22T07:07:16Z",
     "btc-drop-34pct-oil-111-crypto-gains-wiped-oct22-pm": "2026-10-22T15:08:24Z",
-    "btc-etf-inflows-528m-3day-total-108bn-oct22": "2026-10-22T15:08:24Z"
+    "btc-etf-inflows-528m-3day-total-108bn-oct22": "2026-10-22T15:08:24Z",
+    "nasdaq-tesla-ai-spend-cuts-btc-liq-oct23": "2026-10-23T07:05:48Z"
   }
 }
