@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-10-23T15:05:43Z",
+  "lastRunISO": "2026-10-23T20:05:41Z",
   "priceAlerts": {
     "btc": { "pct": 3.4, "dir": "down", "ISO": "2026-10-22T15:08:24Z", "value": 81600 },
     "btcd": { "pct": 2.38, "dir": "up", "ISO": "2026-10-20T15:07:21Z", "value": 59.54 },
@@ -10,12 +10,10 @@
     "oil": { "pct": 3.72, "dir": "up", "ISO": "2026-10-17T20:05:05Z", "value": 109.86 }
   },
   "releases": {
-    "US-RetailSales-Sep-2026": "2026-10-16T07:19:26Z",
     "China-GDP-Q3-2026": "2026-10-19T15:06:53Z",
     "US-FlashPMI-Oct-2026": "2026-10-23T15:05:43Z"
   },
   "news": {
-    "retail-sales-sep-08pct-beat-03pct-est-dow-550pts-oct15": "2026-10-16T07:19:26Z",
     "warsh-oct16-no-hike-hints-oct-fomc-odds-ease-btc-82k": "2026-10-16T20:18:00Z",
     "nasdaq-ai-selloff-spx-1pct-oct16-ai-bubble-concerns": "2026-10-17T07:19:23Z",
     "crypto-msci-btc-treasury-exclusion-strategy-metaplanet-oct16": "2026-10-17T07:19:23Z",
@@ -42,6 +40,8 @@
     "btc-etf-inflows-528m-3day-total-108bn-oct22": "2026-10-22T15:08:24Z",
     "nasdaq-tesla-ai-spend-cuts-btc-liq-oct23": "2026-10-23T07:05:48Z",
     "us-flash-pmi-oct-composite-576-sellprices-4yr-high-oct23": "2026-10-23T15:05:43Z",
-    "btc-600m-longs-liquidated-fomc-consolidation-oct23-pm": "2026-10-23T15:05:43Z"
+    "btc-600m-longs-liquidated-fomc-consolidation-oct23-pm": "2026-10-23T15:05:43Z",
+    "btc-etf-outflows-635m-oct23-reversal-3day-inflow-streak": "2026-10-23T20:05:41Z",
+    "us-stocks-close-oct23-sp500-05pct-dow-12pct-fomc-week": "2026-10-23T20:05:41Z"
   }
 }
