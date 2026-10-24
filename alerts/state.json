@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-10-23T20:05:41Z",
+  "lastRunISO": "2026-10-24T07:05:33Z",
   "priceAlerts": {
     "btc": { "pct": 3.4, "dir": "down", "ISO": "2026-10-22T15:08:24Z", "value": 81600 },
     "btcd": { "pct": 2.38, "dir": "up", "ISO": "2026-10-20T15:07:21Z", "value": 59.54 },
@@ -14,7 +14,6 @@
     "US-FlashPMI-Oct-2026": "2026-10-23T15:05:43Z"
   },
   "news": {
-    "warsh-oct16-no-hike-hints-oct-fomc-odds-ease-btc-82k": "2026-10-16T20:18:00Z",
     "nasdaq-ai-selloff-spx-1pct-oct16-ai-bubble-concerns": "2026-10-17T07:19:23Z",
     "crypto-msci-btc-treasury-exclusion-strategy-metaplanet-oct16": "2026-10-17T07:19:23Z",
     "goldman-october-hike-call-moves-december-oct17": "2026-10-17T15:04:52Z",
@@ -42,6 +41,7 @@
     "us-flash-pmi-oct-composite-576-sellprices-4yr-high-oct23": "2026-10-23T15:05:43Z",
     "btc-600m-longs-liquidated-fomc-consolidation-oct23-pm": "2026-10-23T15:05:43Z",
     "btc-etf-outflows-635m-oct23-reversal-3day-inflow-streak": "2026-10-23T20:05:41Z",
-    "us-stocks-close-oct23-sp500-05pct-dow-12pct-fomc-week": "2026-10-23T20:05:41Z"
+    "us-stocks-close-oct23-sp500-05pct-dow-12pct-fomc-week": "2026-10-23T20:05:41Z",
+    "btc-below-50dma-first-time-66-days-oct24": "2026-10-24T07:05:33Z"
   }
 }
