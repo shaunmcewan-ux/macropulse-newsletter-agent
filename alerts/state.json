@@ -1,12 +1,11 @@
 {
-  "lastRunISO": "2026-10-24T15:04:45Z",
+  "lastRunISO": "2026-10-24T20:04:47Z",
   "priceAlerts": {
     "btc": { "pct": 3.4, "dir": "down", "ISO": "2026-10-22T15:08:24Z", "value": 81600 },
     "btcd": { "pct": 2.38, "dir": "up", "ISO": "2026-10-20T15:07:21Z", "value": 59.54 },
     "total": { "pct": 3.60, "dir": "down", "ISO": "2026-10-20T15:07:21Z", "value": 2735790462096.71 },
     "total2": { "pct": 6.82, "dir": "down", "ISO": "2026-10-20T15:07:21Z", "value": 1106973539413.94 },
     "total3": { "pct": 8.56, "dir": "down", "ISO": "2026-10-20T15:07:21Z", "value": 817018060792.02 },
-    "dxy": { "pct": 0.75, "dir": "down", "ISO": "2026-10-17T07:19:23Z", "value": 101.78 },
     "oil": { "pct": 3.72, "dir": "up", "ISO": "2026-10-17T20:05:05Z", "value": 109.86 }
   },
   "releases": {
@@ -14,11 +13,6 @@
     "US-FlashPMI-Oct-2026": "2026-10-23T15:05:43Z"
   },
   "news": {
-    "nasdaq-ai-selloff-spx-1pct-oct16-ai-bubble-concerns": "2026-10-17T07:19:23Z",
-    "crypto-msci-btc-treasury-exclusion-strategy-metaplanet-oct16": "2026-10-17T07:19:23Z",
-    "goldman-october-hike-call-moves-december-oct17": "2026-10-17T15:04:52Z",
-    "fomc-oct-hike-odds-below-20pct-fed-officials-lean-against-oct17": "2026-10-17T15:04:52Z",
-    "crypto-etf-weekly-outflows-610m-eth-exceeds-btc-oct17": "2026-10-17T15:04:52Z",
     "brent-oil-110-5month-high-hormuz-9vessels-attacked-oct16": "2026-10-17T20:05:05Z",
     "hormuz-deescalation-iran-6days-reopen-if-us-terms-oct18": "2026-10-18T15:05:59Z",
     "russia-crypto-selfcustody-ban-july2027-oct18": "2026-10-18T15:05:59Z",
