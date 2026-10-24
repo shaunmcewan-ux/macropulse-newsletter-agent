@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-23T22:38:44.632Z",
+  "generatedAt": "2026-10-24T11:38:38.658Z",
   "dial": {
     "state": "BTC Accumulation",
-    "summary": "Real yields ticked up to 2.77% (Oct 20) while DXY holds at ~101.80 — both remain headwinds — but a significant bond rally on Oct 22 (10Y: 5.13% → 4.96%) signals softening conviction in further Fed hikes; Global M2 holds at $103.7T with a supportive 4-week trend; BTC dominance at 59.7% (firmly above 55% alt-rotation threshold) and BTC perp funding at 0.0087% confirm continued low-leverage spot accumulation ahead of the October 28 FOMC decision and October 29 GDP/PCE releases.",
+    "summary": "Real yields pulled back to ~2.63% on Oct 23 after the nominal bond rally (10Y: 5.13% → 4.97%), reducing but not eliminating the headwind; DXY eased to 101.71 while remaining above the 100 headwind threshold; a sharp Oct 23 equity sell-off (Dow -600pts, AI concerns) dragged total crypto to $2.76T but BTC.D held firm at 59.4% and perp funding at 0.0090% reflects no speculative excess — BTC Accumulation posture intact ahead of the Oct 28 FOMC decision, Oct 29 GDP/PCE, and Oct 29 ECB releases.",
     "states": [
       "BTC Accumulation",
       "Alt Rotation",
@@ -14,58 +14,58 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 81062,
+      "value": 80533,
       "format": "usd",
-      "change24h": -0.28026,
-      "change30d": -3.4897
+      "change24h": -1.28244,
+      "change30d": -3.1941
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 2382.02,
+      "value": 2364.25,
       "format": "usd",
-      "change24h": -0.01813,
-      "change30d": -10.2825
+      "change24h": -1.34101,
+      "change30d": -10.4024
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.0293849,
+      "value": 0.02937336,
       "format": "ratio",
-      "change24h": 0.17423365937025967,
-      "change30d": -7.841487290771269
+      "change24h": 0.0069229118987357155,
+      "change30d": -8.40283970817454
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 59.48867668193726,
+      "value": 60.09324043400063,
       "format": "percent",
-      "change24h": 2.7051006144327205,
-      "change30d": 1.8507102174093528
+      "change24h": 3.834780620203615,
+      "change30d": 1.5934714393830371
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2730212353168.862,
+      "value": 2688949256570.3633,
       "format": "usd-compact",
-      "change24h": -2.9738061655756978,
-      "change30d": -7.642591558047738
+      "change24h": -4.925334834490449,
+      "change30d": -6.007768259735306
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1106045153661.9265,
+      "value": 1073072514671.2625,
       "format": "usd-compact",
-      "change24h": -6.6145302279429705,
-      "change30d": -10.15447423306617
+      "change24h": -9.95683926449787,
+      "change30d": -8.224281821347203
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 815939082206.843,
+      "value": 784803083402.3319,
       "format": "usd-compact",
-      "change24h": -8.746665153758572,
-      "change30d": -8.837355507655596
+      "change24h": -12.775133141536099,
+      "change30d": -6.751548960057228
     },
     {
       "id": "dxy",
@@ -73,7 +73,7 @@
       "value": 101.751,
       "format": "index",
       "change24h": 0.13285309400094977,
-      "change30d": 1.1843675417661121
+      "change30d": 0.6299820005142714
     },
     {
       "id": "us500",
@@ -115,7 +115,7 @@
       "value": "$103.7T",
       "trend": "up",
       "status": "supportive",
-      "note": "G4 M2 aggregate (Fed/ECB/BOJ/PBOC) at ~$103.7T for August 2026 (latest month with all four economies reporting; July $102.64T → August $103.66T, +$1.02T, +1.0% MoM per MacroMicro); US M2 at $23.34T for August (FRED H.6, up 5.7% YoY); September G4 aggregate unavailable (6–8 week reporting lag); 4-week trend UP (August above July); status supportive (4-week trend is up); next full G4 update expected mid-November 2026."
+      "note": "G4 M2 aggregate (Fed/ECB/BOJ/PBOC) at ~$103.7T for August 2026 (latest month with all four economies reporting; July $102.64T → August $103.66T, +$1.02T, +1.0% MoM per MacroMicro); US M2 next H.6 release scheduled October 27, 2026; September G4 aggregate unavailable (6–8 week reporting lag); 4-week trend UP (August above July); status supportive (4-week trend is up); next full G4 update expected mid-November 2026."
     },
     {
       "tier": 1,
@@ -123,31 +123,31 @@
       "value": "54.5",
       "trend": "flat",
       "status": "neutral",
-      "note": "September 2026 ISM Manufacturing PMI at 54.5% (released Oct 1, 2026; August was 54.6%, 4-week change −0.1pp within flat threshold); ninth consecutive month above 50; New Orders 55.3, Production 56.7, Prices Paid 77.9% (multi-year high); October 2026 PMI scheduled November 2, 2026 at 10:00 AM ET; status neutral (above 50 but not rising on 4-week basis)."
+      "note": "September 2026 ISM Manufacturing PMI at 54.5% (released Oct 1, 2026; August was 54.6%, 4-week change −0.1pp within flat threshold); ninth consecutive month above 50; New Orders 55.3, Production 56.7, Prices Paid 77.9% (multi-year high); October 2026 PMI due November 2, 2026 at 10:00 AM ET (Polymarket consensus ~52.0–52.9 range); status neutral (above 50 but not rising on 4-week basis)."
     },
     {
       "tier": 1,
       "name": "DXY (US Dollar Index)",
-      "value": "101.80",
+      "value": "101.71",
       "trend": "up",
       "status": "headwind",
-      "note": "ICE DXY spot at ~101.80 (Oct 22, 2026 close per Trading Economics 101.8031; day range 101.45–101.85); 4-week trend UP from ~100.29 on Sep 18 (+1.5%); pulled back from Oct 14 intraday high of ~102.94 (52-week high); October 22 bond rally (10Y: 5.13% → 4.96%) applied mild softening pressure; status headwind (above 100 threshold); FOMC Oct 28 decision is next major DXY catalyst."
+      "note": "ICE DXY spot at ~101.71 (Oct 23, 2026 per Trading Economics; down from Oct 22 close of ~101.80); 4-week trend UP from ~100.29–100.50 on Sep 24 (+1.2–1.4%); pulled back from Oct 14 intraday high of ~102.94 (52-week high); Oct 23 equity sell-off (AI concerns, Dow -600pts) provided mild DXY softening; status headwind (above 100 threshold); FOMC Oct 28 decision is next major DXY catalyst."
     },
     {
       "tier": 1,
       "name": "Real Yields (US10Y - CPI)",
-      "value": "2.77%",
-      "trend": "up",
+      "value": "2.63%",
+      "trend": "flat",
       "status": "headwind",
-      "note": "10-year TIPS real yield (DFII10) at 2.77% as of October 20, 2026 (FRED via search; sequence: Oct 14 = 2.84%, Oct 15 = 2.78%, Oct 16 = 2.74%, Oct 19 = 2.80%, Oct 20 = 2.77%); October 22 nominal bond rally (10Y fell 17bps to 4.96%) likely pulled real yields lower, but no confirmed DFII10 figure available for Oct 22; 4-week trend UP from ~2.52% on Sep 15 (+25bps); status headwind (rising on 4-week basis and above 2% threshold)."
+      "note": "10-year TIPS real yield (DFII10) at ~2.63% on Oct 23, 2026 (Trading Economics; consistent with nominal 10Y rally from 5.13% to 4.97%, implying ~14bp drop in real yields from Oct 21's 2.76%–2.77%); sequence: Oct 14 = 2.84%, Oct 19 = 2.80%, Oct 20 = 2.77%, Oct 21 = 2.76%, Oct 23 est. = 2.63%; 4-week trend FLAT vs ~Sep 24 (~2.60–2.65%), within the 5bp flat threshold after the nominal rally reversal; status headwind (above 2% threshold despite recent pullback)."
     },
     {
       "tier": 1,
       "name": "2s10s Yield Curve",
-      "value": "+0.32%",
+      "value": "+0.30%",
       "trend": "down",
       "status": "neutral",
-      "note": "October 21, 2026: FRED T10Y2Y at 0.32 percentage points; 10Y at 5.13%, 2Y at 4.81% (Treasury par curve, StockMarketWatch); October 22 saw a significant bull rally — 10Y fell from 5.13% to 4.96% (-17bps, TipsWatch) — likely steepening the curve; 4-week trend DOWN from ~+0.42% (+42bps) on Sep 19 to +0.32% (−10bps flattening); curve remains positively sloped; status neutral (positive but flattening into FOMC Oct 28 decision)."
+      "note": "October 23, 2026: 10Y at 4.99%, 2Y at 4.686% per CNBC (Trading Economics: 10Y 4.96%, 2Y 4.66%); spread ~+0.30% on both reads; 4-week trend DOWN from ~+0.42% on Sep 19–24 to +0.30% (−12bp flattening); curve remains positively sloped; Oct 23 bond rally (10Y fell 19bps on AI equity sell-off) partially steepened the curve intraday; status neutral (positive but flattening into FOMC Oct 28 decision)."
     },
     {
       "tier": 1,
@@ -155,23 +155,23 @@
       "value": "$6.75T",
       "trend": "flat",
       "status": "supportive",
-      "note": "WALCL at $6,753,604M ($6.754T) for week ending October 21, 2026 (H.4.1 released Oct 22; decline of ~$2,035M from Oct 14's $6,755,639M); 4-week trend flat: Sep 23 ~$6.748T → Oct 21 $6.754T = +$6B (+0.08%); weekly readings: Oct 21 $6.754T, Oct 14 $6.756T, Oct 7 $6.748T, Sep 30 $6.743T; status supportive (flat near post-QT-pause stabilization plateau); next H.4.1 scheduled October 29, 2026."
+      "note": "WALCL at $6,753,604M ($6.754T) for week ending October 21, 2026 (H.4.1 released Oct 22; Oct 14 = $6,755,639M, Oct 7 = $6,747,560M, Sep 30 = $6,743,031M); 4-week trend flat: Sep 24 est. ~$6.742T → Oct 21 $6.754T = +$12B (+0.18%); status supportive (flat near post-QT-pause stabilization plateau); next H.4.1 scheduled October 29, 2026."
     },
     {
       "tier": 3,
       "name": "BTC Funding Rates (perps avg)",
-      "value": "0.0087%",
+      "value": "0.0090%",
       "trend": "up",
       "status": "supportive",
-      "note": "BTC weighted 8h perp funding rate at ~0.0087% (DeFiRate open-interest-weighted average across 6 exchanges, Oct 23, 2026; Convex shows 0.0100% as of Oct 20); 30-day trend UP from ~0.0067% on Sep 23 to 0.0087% today; well below the 0.04% per 8h overheating threshold; status supportive (low-leverage accumulation, no speculative excess); Oct 30 Deribit options expiry (35% of open interest) is near-term catalyst."
+      "note": "BTC weighted 8h perp funding rate at ~0.0090% (DeFiRate open-interest-weighted average, Oct 22, 2026; ~9.8% annualized; Convex shows 0.0100% as of Oct 20); 30-day trend UP from ~0.0067% on Sep 23 to 0.0090% today; well below the 0.04% per 8h overheating threshold; status supportive (low-leverage accumulation, no speculative excess); Oct 23 equity sell-off did not spike funding, consistent with spot-led not derivatives-led action."
     },
     {
       "tier": 3,
       "name": "Stablecoin Dominance",
-      "value": "10.6%",
-      "trend": "flat",
+      "value": "10.9%",
+      "trend": "up",
       "status": "neutral",
-      "note": "Stablecoin market cap ~$301.3B (Stablecoin Beat Oct 21, 2026; USDT 60.69%) vs total crypto ~$2.85T; dominance ~10.6% ($301.3B / $2.85T); BTC.D at 59.7% (firm above 55%); 30-day trend flat (Sep ~10.5% → Oct ~10.6%); status neutral — headwind condition (rising dominance + rising TOTAL simultaneously) not triggered."
+      "note": "Stablecoin market cap ~$301.3B (Stablecoin Beat Oct 21, 2026; USDT 60.69%) vs total crypto ~$2.76T (Coincoverage Oct 23, down 3.6% on AI equity sell-off); dominance ~10.9% ($301.3B / $2.76T); BTC.D at 59.4% (firm above 55%); 30-day trend UP (Sep 23 ~10.5% → Oct 23 ~10.9%); status neutral — headwind condition (rising dominance + rising TOTAL simultaneously) NOT triggered because TOTAL is falling, not rising."
     }
   ],
   "upcoming": [
@@ -243,8 +243,8 @@
     "crypto": "CoinGecko",
     "tradfi": "FRED + Stooq",
     "marketsEndpoint": "markets",
-    "indicators": "2026-10-23",
-    "calendar": "2026-10-23"
+    "indicators": "2026-10-24",
+    "calendar": "2026-10-24"
   },
   "degraded": {
     "markets": false,
@@ -254,5 +254,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-10-23T22:38:44Z"
+  "cachedAtISO": "2026-10-24T11:38:38Z"
 }
