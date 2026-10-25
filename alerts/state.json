@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-10-24T20:04:47Z",
+  "lastRunISO": "2026-10-25T07:04:57Z",
   "priceAlerts": {
     "btc": { "pct": 3.4, "dir": "down", "ISO": "2026-10-22T15:08:24Z", "value": 81600 },
     "btcd": { "pct": 2.38, "dir": "up", "ISO": "2026-10-20T15:07:21Z", "value": 59.54 },
@@ -36,6 +36,8 @@
     "btc-600m-longs-liquidated-fomc-consolidation-oct23-pm": "2026-10-23T15:05:43Z",
     "btc-etf-outflows-635m-oct23-reversal-3day-inflow-streak": "2026-10-23T20:05:41Z",
     "us-stocks-close-oct23-sp500-05pct-dow-12pct-fomc-week": "2026-10-23T20:05:41Z",
-    "btc-below-50dma-first-time-66-days-oct24": "2026-10-24T07:05:33Z"
+    "btc-below-50dma-first-time-66-days-oct24": "2026-10-24T07:05:33Z",
+    "btc-79k-intraday-low-oct25-sub-80k-first-in-drawdown": "2026-10-25T07:04:57Z",
+    "fomc-oct28-gdp-pce-oct29-risk-week-oct25": "2026-10-25T07:04:57Z"
   }
 }
