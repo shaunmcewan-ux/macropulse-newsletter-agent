@@ -1,6 +1,1 @@
-{
-  "ts": "2026-10-25T07:04:57Z",
-  "title": "MacroPulse Alert",
-  "priority": "default",
-  "message": "BTC tagged $79,100 overnight (first sub-$80K print in current drawdown), recovered to ~$80,500 (-0.22% 24h).\nFOMC week: rate decision Wed Oct 28 (hold ~81% priced); Q3 GDP + Sep PCE Thu Oct 29 — two major risk events in 24h.\nDashboard API unreachable this run (DNS failure); price change thresholds unverifiable via live feed."
-}
+{"ts":"2026-10-25T15:05:09Z","title":"MacroPulse Alert","priority":"default","message":""}
