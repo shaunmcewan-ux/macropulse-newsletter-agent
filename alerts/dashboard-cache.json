@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-25T22:03:57.310Z",
+  "generatedAt": "2026-10-26T13:35:46.665Z",
   "dial": {
     "state": "BTC Accumulation",
-    "summary": "Real yields eased to 2.64% (Oct 22 official FRED), DXY held at 101.75 — above-100 headwind persists but macro backdrop remains mixed-positive; BTC.D firmed to 59.7% with funding rates at a modest 0.0087% reflecting spot-led accumulation, not speculative excess; dense event cluster Oct 28–30 (FOMC, GDP/PCE, ECB, BOJ) is the key near-term catalyst; BTC Accumulation posture intact.",
+    "summary": "Real yields stable at 2.64% (Oct 22 FRED, no update since), DXY slipped to ~101.67 on Friday close — above-100 headwind persists but pace of USD strength is pausing into FOMC week; Oct 28 FOMC decision + Oct 29 Q3 GDP advance/September PCE are the pivotal 2-day risk cluster that will reset December rate expectations; BTC.D firm at 59.7% with funding at 0.0087% reflecting spot-led accumulation not speculative excess, Global M2 trending up at $103.7T; BTC Accumulation posture intact heading into the catalyst window.",
     "states": [
       "BTC Accumulation",
       "Alt Rotation",
@@ -14,66 +14,66 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 80394,
+      "value": 79692,
       "format": "usd",
-      "change24h": -0.03199,
-      "change30d": -4.4351
+      "change24h": -0.66622,
+      "change30d": -4.6491
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 2337.73,
+      "value": 2306.65,
       "format": "usd",
-      "change24h": -0.12114,
-      "change30d": -13.2331
+      "change24h": -0.85718,
+      "change30d": -13.6434
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02917824,
+      "value": 0.02892774,
       "format": "ratio",
-      "change24h": 0.15297539734984408,
-      "change30d": -9.6329069278414
+      "change24h": -0.3138298592827632,
+      "change30d": -9.808482220416371
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 60.05924253876738,
+      "value": null,
       "format": "percent",
-      "change24h": 3.5429589155175023,
-      "change30d": 1.9539184989565168
+      "change24h": null,
+      "change30d": 2.308440769703977
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2693116289040.5244,
+      "value": null,
       "format": "usd-compact",
-      "change24h": -3.4538793878156717,
-      "change30d": -6.32988543372758
+      "change24h": null,
+      "change30d": -7.5794838180094795
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1075651045154.6244,
+      "value": null,
       "format": "usd-compact",
-      "change24h": -8.164509308872276,
-      "change30d": -9.009535582549466
+      "change24h": null,
+      "change30d": -10.655373839890112
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 789895483733.5481,
+      "value": null,
       "format": "usd-compact",
-      "change24h": -10.743257948464912,
-      "change30d": -7.532246793030875
+      "change24h": null,
+      "change30d": -9.480066965683974
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 101.751,
+      "value": 101.977,
       "format": "index",
-      "change24h": 0.13285309400094977,
-      "change30d": 0.6299820005142714
+      "change24h": 0.2221108392055106,
+      "change30d": 0.6991280648569635
     },
     {
       "id": "us500",
@@ -86,10 +86,10 @@
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10690.37,
+      "value": 10756.88,
       "format": "index",
-      "change24h": -0.323262197623506,
-      "change30d": -0.1720082287541363
+      "change24h": 0.6221487188937183,
+      "change30d": 0.720887574684756
     },
     {
       "id": "oil",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 3999.92,
+      "value": 4003.682,
       "format": "usd",
-      "change24h": 0.10962222878509811,
-      "change30d": -6.453876161164486
+      "change24h": 0.20377721159091952,
+      "change30d": -6.365894272056286
     }
   ],
   "indicators": [
@@ -128,10 +128,10 @@
     {
       "tier": 1,
       "name": "DXY (US Dollar Index)",
-      "value": "101.75",
+      "value": "101.67",
       "trend": "up",
       "status": "headwind",
-      "note": "ICE DXY spot at ~101.75 (Oct 24, 2026 close per Trading Economics/Dealplexus; day range 101.49–101.85, 52-week range 95.55–102.95); 4-week trend UP from ~100.29–100.50 on Sep 24 (+1.2–1.4%); Oct 24 close essentially unchanged vs Oct 23 close of ~101.71; pulled back from Oct 14 intraday high of ~102.94 (52-week high); status headwind (above 100 threshold); FOMC Oct 28 decision is next major DXY catalyst."
+      "note": "ICE DXY spot at ~101.67 (Oct 25, 2026 close per Investing.com; 52-week range 95.55–102.95); Trading Economics shows ~101.61 on Oct 26 (thin Sunday FX session, -0.20% from prior session); 4-week trend UP from ~100.29–100.50 on Sep 24 (+1.2–1.4%); DXY has pulled back ~1.3% from Oct 14 intraday high of ~102.94 (52-week high) as rate expectations soften ahead of FOMC; status headwind (above 100 threshold); FOMC Oct 28 decision and Oct 29 PCE are next major DXY catalysts."
     },
     {
       "tier": 1,
@@ -237,22 +237,29 @@
       "category": "Labor",
       "importance": "medium",
       "note": "BLS releases the Employment Cost Index for Q3 2026 at 8:30 AM ET — same day as BOJ decision; the ECI is a broad measure of wage and salary growth the Fed monitors alongside PCE; Q2 2026 ECI came in at +0.9% QoQ; a reading above 1.0% would reinforce the Fed's inflation concerns and validate continued hiking; a surprise miss would be the first sign of labor-cost deceleration."
+    },
+    {
+      "date": "2026-11-02",
+      "title": "ISM Manufacturing PMI (October 2026)",
+      "category": "PMI",
+      "importance": "high",
+      "note": "ISM releases October 2026 Manufacturing PMI at 10:00 AM ET — first read on Q4 manufacturing activity; September was 54.5% with Prices Paid at 77.9% (multi-year high); first post-FOMC PMI print and a key data point for the December 8–9 FOMC meeting; a print below 52 following the October 22 yield rally would suggest deceleration and reinforce a December hold."
     }
   ],
   "sources": {
     "crypto": "CoinGecko",
     "tradfi": "FRED + Stooq",
     "marketsEndpoint": "markets",
-    "indicators": "2026-10-25",
-    "calendar": "2026-10-25"
+    "indicators": "2026-10-26",
+    "calendar": "2026-10-26"
   },
   "degraded": {
     "markets": false,
-    "global": false,
+    "global": true,
     "ethbtc": false,
     "fred": true,
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-10-25T22:03:57Z"
+  "cachedAtISO": "2026-10-26T13:35:46Z"
 }
