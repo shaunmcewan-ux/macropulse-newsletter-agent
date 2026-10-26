@@ -1,23 +1,17 @@
 {
-  "lastRunISO": "2026-10-25T20:04:51Z",
+  "lastRunISO": "2026-10-26T07:12:09Z",
   "priceAlerts": {
     "btc": { "pct": 3.4, "dir": "down", "ISO": "2026-10-22T15:08:24Z", "value": 81600 },
     "btcd": { "pct": 2.38, "dir": "up", "ISO": "2026-10-20T15:07:21Z", "value": 59.54 },
     "total": { "pct": 3.60, "dir": "down", "ISO": "2026-10-20T15:07:21Z", "value": 2735790462096.71 },
     "total2": { "pct": 6.82, "dir": "down", "ISO": "2026-10-20T15:07:21Z", "value": 1106973539413.94 },
-    "total3": { "pct": 8.56, "dir": "down", "ISO": "2026-10-20T15:07:21Z", "value": 817018060792.02 },
-    "oil": { "pct": 3.72, "dir": "up", "ISO": "2026-10-17T20:05:05Z", "value": 109.86 }
+    "total3": { "pct": 8.56, "dir": "down", "ISO": "2026-10-20T15:07:21Z", "value": 817018060792.02 }
   },
   "releases": {
     "China-GDP-Q3-2026": "2026-10-19T15:06:53Z",
     "US-FlashPMI-Oct-2026": "2026-10-23T15:05:43Z"
   },
   "news": {
-    "brent-oil-110-5month-high-hormuz-9vessels-attacked-oct16": "2026-10-17T20:05:05Z",
-    "hormuz-deescalation-iran-6days-reopen-if-us-terms-oct18": "2026-10-18T15:05:59Z",
-    "russia-crypto-selfcustody-ban-july2027-oct18": "2026-10-18T15:05:59Z",
-    "trump-rejects-iran-7day-hormuz-proposal-oct19": "2026-10-19T07:07:17Z",
-    "russia-supply-brent-slipping-from-110-rally-at-risk-oct19": "2026-10-19T07:07:17Z",
     "december-fomc-hike-odds-firming-oct-priced-out-oct19": "2026-10-19T15:06:53Z",
     "china-gdp-q3-45pct-beat-44pct-est-oct19": "2026-10-19T15:06:53Z",
     "trump-russia-sanctions-waiver-brent-drop-2pct-107-oct19": "2026-10-19T15:06:53Z",
