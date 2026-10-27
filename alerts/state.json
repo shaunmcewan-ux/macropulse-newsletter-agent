@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-10-26T20:05:52Z",
+  "lastRunISO": "2026-10-27T07:08:00Z",
   "priceAlerts": {
     "btc": { "pct": 3.4, "dir": "down", "ISO": "2026-10-22T15:08:24Z", "value": 81600 },
     "btcd": { "pct": 2.38, "dir": "up", "ISO": "2026-10-20T15:07:21Z", "value": 59.54 },
@@ -8,14 +8,9 @@
     "total3": { "pct": 8.56, "dir": "down", "ISO": "2026-10-20T15:07:21Z", "value": 817018060792.02 }
   },
   "releases": {
-    "China-GDP-Q3-2026": "2026-10-19T15:06:53Z",
     "US-FlashPMI-Oct-2026": "2026-10-23T15:05:43Z"
   },
   "news": {
-    "december-fomc-hike-odds-firming-oct-priced-out-oct19": "2026-10-19T15:06:53Z",
-    "china-gdp-q3-45pct-beat-44pct-est-oct19": "2026-10-19T15:06:53Z",
-    "trump-russia-sanctions-waiver-brent-drop-2pct-107-oct19": "2026-10-19T15:06:53Z",
-    "crude-oil-higher-unconfirmed-us-iran-strikes-oct19-1730": "2026-10-19T20:05:12Z",
     "btc-etf-inflow-527m-oct19-reversal-oct20": "2026-10-20T15:07:21Z",
     "dec-fomc-hike-odds-90pct-oct20": "2026-10-20T15:07:21Z",
     "brent-111-5month-high-hormuz-saudi-oct20": "2026-10-20T15:07:21Z",
