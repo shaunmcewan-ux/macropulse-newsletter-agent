@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T12:40:57.990Z",
+  "generatedAt": "2026-10-27T19:39:56.884Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "DXY firmed to ~102.00 heading into the Oct 28 FOMC decision while real yields hold near 2.64% (Oct 22 FRED) — both above-threshold headwinds persist, though Global M2 continues its uptrend at $103.7T and the Fed balance sheet remains stable at $6.75T; BTC.D firm at 59.5% with funding at 0.0090% signals spot-led accumulation over speculative excess; BTC Accumulation stance maintained into the Oct 28 FOMC + Oct 29 GDP/PCE catalyst cluster.",
@@ -14,82 +14,82 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 80133,
+      "value": 80596,
       "format": "usd",
-      "change24h": -0.15372,
-      "change30d": -5.9467
+      "change24h": 0.84978,
+      "change30d": -4.7371
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 2326.57,
+      "value": 2342.8,
       "format": "usd",
-      "change24h": 0.16776,
-      "change30d": -14.6288
+      "change24h": 1.21011,
+      "change30d": -12.9482
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02906393,
+      "value": 0.02910738,
       "format": "ratio",
-      "change24h": 0.4977453894334798,
-      "change30d": -8.533082830519373
+      "change24h": 0.38144088898221495,
+      "change30d": -7.959213585247668
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 59.4407093212797,
+      "value": 59.43578002638239,
       "format": "percent",
-      "change24h": 2.6650965936165116,
-      "change30d": 2.3004229129395877
+      "change24h": 2.679331556893838,
+      "change30d": 2.306063508451645
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2705713041167.805,
+      "value": 2719008479439.992,
       "format": "usd-compact",
-      "change24h": -2.7453308740097864,
-      "change30d": -7.146163005694677
+      "change24h": -1.8070740515735957,
+      "change30d": -6.622193233636706
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1097418017299.2933,
+      "value": 1102944580701.3538,
       "format": "usd-compact",
-      "change24h": -6.324218367344601,
-      "change30d": -10.238329814637366
+      "change24h": -5.445188242338233,
+      "change30d": -9.739433714135837
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 813854929062.5432,
+      "value": 817695803891.4998,
       "format": "usd-compact",
-      "change24h": -8.382613431323055,
-      "change30d": -8.935670659978827
+      "change24h": -7.574128633766519,
+      "change30d": -8.454264680141916
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 102.17,
+      "value": 102.284,
       "format": "index",
-      "change24h": 0.1381960030971639,
-      "change30d": 0.8897095853617555
+      "change24h": 0.24992894177146663,
+      "change30d": 1.002281053431949
     },
     {
       "id": "us500",
       "label": "S&P 500",
-      "value": 7623.68,
+      "value": 7676.77,
       "format": "index",
-      "change24h": -0.5186972413136154,
-      "change30d": -1.0686436465988254
+      "change24h": 0.6963828492276715,
+      "change30d": -0.8606027576997657
     },
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10677.02,
+      "value": 10686.55,
       "format": "index",
-      "change24h": -0.8386488002585534,
-      "change30d": -0.026872935957196014
+      "change24h": -0.7501402391681536,
+      "change30d": 0.06236019284842686
     },
     {
       "id": "oil",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 4024.58,
+      "value": 4063.04,
       "format": "usd",
-      "change24h": 0.18799968533951306,
-      "change30d": -5.87715277323031
+      "change24h": 1.1454239303285956,
+      "change30d": -4.977688803240506
     }
   ],
   "indicators": [
@@ -254,5 +254,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-10-27T12:40:58Z"
+  "cachedAtISO": "2026-10-27T19:39:56Z"
 }
