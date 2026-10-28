@@ -1,19 +1,12 @@
 {
-  "lastRunISO": "2026-10-27T20:05:45Z",
+  "lastRunISO": "2026-10-28T07:05:17Z",
   "priceAlerts": {
-    "btc": { "pct": 3.4, "dir": "down", "ISO": "2026-10-22T15:08:24Z", "value": 81600 },
-    "btcd": { "pct": 2.38, "dir": "up", "ISO": "2026-10-20T15:07:21Z", "value": 59.54 },
-    "total": { "pct": 3.60, "dir": "down", "ISO": "2026-10-20T15:07:21Z", "value": 2735790462096.71 },
-    "total2": { "pct": 6.82, "dir": "down", "ISO": "2026-10-20T15:07:21Z", "value": 1106973539413.94 },
-    "total3": { "pct": 8.56, "dir": "down", "ISO": "2026-10-20T15:07:21Z", "value": 817018060792.02 }
+    "btc": { "pct": 3.4, "dir": "down", "ISO": "2026-10-22T15:08:24Z", "value": 81600 }
   },
   "releases": {
     "US-FlashPMI-Oct-2026": "2026-10-23T15:05:43Z"
   },
   "news": {
-    "btc-etf-inflow-527m-oct19-reversal-oct20": "2026-10-20T15:07:21Z",
-    "dec-fomc-hike-odds-90pct-oct20": "2026-10-20T15:07:21Z",
-    "brent-111-5month-high-hormuz-saudi-oct20": "2026-10-20T15:07:21Z",
     "warsh-imf-bangkok-no-oct-rate-signal-dec-hike-75pct-oct21": "2026-10-21T15:06:28Z",
     "blackrock-btc-etf-capped-upside-protection-filing-oct21": "2026-10-21T15:06:28Z",
     "uk-cpi-sep-35pct-boe-nov-hike-firmly-priced-oct21": "2026-10-21T20:07:37Z",
