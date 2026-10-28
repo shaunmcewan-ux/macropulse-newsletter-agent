@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-10-28T15:07:12Z",
+  "lastRunISO": "2026-10-28T20:05:21Z",
   "priceAlerts": {
     "btc": { "pct": 3.4, "dir": "down", "ISO": "2026-10-22T15:08:24Z", "value": 81600 },
     "btcd": { "pct": 2.96, "dir": "up", "ISO": "2026-10-28T15:07:12Z", "value": 59.45 },
@@ -26,6 +26,8 @@
     "fomc-oct28-gdp-pce-oct29-risk-week-oct25": "2026-10-25T07:04:57Z",
     "anthropic-ipo-s1-oct26-nasdaq-82pct-sp500-70pct-oct27": "2026-10-27T20:05:45Z",
     "btc-etf-inflows-176m-oct27-streak-resumes": "2026-10-28T15:07:12Z",
-    "chip-kospi-66pct-skhynix-btc-81k-recovery-oct28am": "2026-10-28T15:07:12Z"
+    "chip-kospi-66pct-skhynix-btc-81k-recovery-oct28am": "2026-10-28T15:07:12Z",
+    "fomc-oct28-held-375-4pct-10-2-vote-warsh-fewer-2027": "2026-10-28T20:05:21Z",
+    "btc-81k-post-fomc-167m-liquidations-oct28pm": "2026-10-28T20:05:21Z"
   }
 }

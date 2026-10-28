@@ -1,6 +1,6 @@
 {
-  "ts": "2026-10-28T15:07:12Z",
+  "ts": "2026-10-28T20:05:21Z",
   "title": "MacroPulse Alert",
-  "priority": "default",
-  "message": "BTC.D +2.96% (24h) → 59.45% — alts bleeding while BTC holds; TOTAL2 −6.17% ($1.10T), TOTAL3 −8.31% ($818B)\nBTC ETF inflows flip: $176M Tues after 2-day $635M outflow streak — accumulation signal returning\nFOMC decision due 18:00 UTC today — Warsh hold expected (~90% prob); GDP + PCE + ECB tomorrow 13:30 UTC"
+  "priority": "high",
+  "message": "FOMC Oct 28: Fed HOLDS at 3.75–4.00% (10-2 vote; Cook+Hammack dissented for +25bp). Dec hike still priced. Warsh signals fewer 2027 meetings.\nBTC ~$81K post-decision: briefly $81.7K, settled ~$80.6K. $167M crypto liquidations ($110M shorts).\nGDP + PCE prints tomorrow Oct 29 — next volatility trigger."
 }
