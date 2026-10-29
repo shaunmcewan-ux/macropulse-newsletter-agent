@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-10-29T07:09:01Z",
+  "lastRunISO": "2026-10-29T15:06:31Z",
   "priceAlerts": {
     "btc": { "pct": 3.4, "dir": "down", "ISO": "2026-10-22T15:08:24Z", "value": 81600 },
     "btcd": { "pct": 2.96, "dir": "up", "ISO": "2026-10-28T15:07:12Z", "value": 59.45 },
@@ -7,7 +7,9 @@
     "total3": { "pct": 8.31, "dir": "down", "ISO": "2026-10-28T15:07:12Z", "value": 818041728145 }
   },
   "releases": {
-    "US-FlashPMI-Oct-2026": "2026-10-23T15:05:43Z"
+    "US-FlashPMI-Oct-2026": "2026-10-23T15:05:43Z",
+    "US-Q3-GDP-adv-Oct29-2026": "2026-10-29T15:06:31Z",
+    "US-Sep-PCE-Oct29-2026": "2026-10-29T15:06:31Z"
   },
   "news": {
     "btc-drop-34pct-oil-111-crypto-gains-wiped-oct22-pm": "2026-10-22T15:08:24Z",
@@ -24,6 +26,7 @@
     "btc-etf-inflows-176m-oct27-streak-resumes": "2026-10-28T15:07:12Z",
     "chip-kospi-66pct-skhynix-btc-81k-recovery-oct28am": "2026-10-28T15:07:12Z",
     "fomc-oct28-held-375-4pct-10-2-vote-warsh-fewer-2027": "2026-10-28T20:05:21Z",
-    "btc-81k-post-fomc-167m-liquidations-oct28pm": "2026-10-28T20:05:21Z"
+    "btc-81k-post-fomc-167m-liquidations-oct28pm": "2026-10-28T20:05:21Z",
+    "us-gdp-q3-adv-34pct-pce-sep-36pct-core-31pct-oct29": "2026-10-29T15:06:31Z"
   }
 }
