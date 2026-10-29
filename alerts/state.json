@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-10-28T20:05:21Z",
+  "lastRunISO": "2026-10-29T07:09:01Z",
   "priceAlerts": {
     "btc": { "pct": 3.4, "dir": "down", "ISO": "2026-10-22T15:08:24Z", "value": 81600 },
     "btcd": { "pct": 2.96, "dir": "up", "ISO": "2026-10-28T15:07:12Z", "value": 59.45 },
@@ -10,10 +10,6 @@
     "US-FlashPMI-Oct-2026": "2026-10-23T15:05:43Z"
   },
   "news": {
-    "warsh-imf-bangkok-no-oct-rate-signal-dec-hike-75pct-oct21": "2026-10-21T15:06:28Z",
-    "blackrock-btc-etf-capped-upside-protection-filing-oct21": "2026-10-21T15:06:28Z",
-    "uk-cpi-sep-35pct-boe-nov-hike-firmly-priced-oct21": "2026-10-21T20:07:37Z",
-    "fomc-dec-hike-100pct-consensus-oct22": "2026-10-22T07:07:16Z",
     "btc-drop-34pct-oil-111-crypto-gains-wiped-oct22-pm": "2026-10-22T15:08:24Z",
     "btc-etf-inflows-528m-3day-total-108bn-oct22": "2026-10-22T15:08:24Z",
     "nasdaq-tesla-ai-spend-cuts-btc-liq-oct23": "2026-10-23T07:05:48Z",
