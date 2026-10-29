@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-10-29T15:06:31Z",
+  "lastRunISO": "2026-10-29T20:05:43Z",
   "priceAlerts": {
     "btc": { "pct": 3.4, "dir": "down", "ISO": "2026-10-22T15:08:24Z", "value": 81600 },
     "btcd": { "pct": 2.96, "dir": "up", "ISO": "2026-10-28T15:07:12Z", "value": 59.45 },
@@ -27,6 +27,10 @@
     "chip-kospi-66pct-skhynix-btc-81k-recovery-oct28am": "2026-10-28T15:07:12Z",
     "fomc-oct28-held-375-4pct-10-2-vote-warsh-fewer-2027": "2026-10-28T20:05:21Z",
     "btc-81k-post-fomc-167m-liquidations-oct28pm": "2026-10-28T20:05:21Z",
-    "us-gdp-q3-adv-34pct-pce-sep-36pct-core-31pct-oct29": "2026-10-29T15:06:31Z"
+    "us-gdp-q3-adv-34pct-pce-sep-36pct-core-31pct-oct29": "2026-10-29T15:06:31Z",
+    "btc-below-80k-alphabet-q3-miss-79586-low-oct29pm": "2026-10-29T20:05:43Z",
+    "btc-etf-inflows-137m-oct28-3day-streak": "2026-10-29T20:05:43Z",
+    "crypto-342m-liquidations-btc-xrp-longs-oct29": "2026-10-29T20:05:43Z",
+    "strategy-mstr-q3-results-due-oct29-btc-treasury": "2026-10-29T20:05:43Z"
   }
 }
