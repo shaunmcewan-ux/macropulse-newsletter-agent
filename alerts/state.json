@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-10-30T15:08:14Z",
+  "lastRunISO": "2026-10-30T20:05:44Z",
   "priceAlerts": {
     "btc": { "pct": 3.5, "dir": "down", "ISO": "2026-10-30T07:13:25Z", "value": 77800 },
     "btcd": { "pct": 2.96, "dir": "up", "ISO": "2026-10-28T15:07:12Z", "value": 59.45 },
@@ -7,17 +7,11 @@
     "total3": { "pct": 8.31, "dir": "down", "ISO": "2026-10-28T15:07:12Z", "value": 818041728145 }
   },
   "releases": {
-    "US-FlashPMI-Oct-2026": "2026-10-23T15:05:43Z",
     "US-Q3-GDP-adv-Oct29-2026": "2026-10-29T15:06:31Z",
     "US-Sep-PCE-Oct29-2026": "2026-10-29T15:06:31Z",
     "US-Q3-ECI-Oct30-2026": "2026-10-30T15:08:14Z"
   },
   "news": {
-    "nasdaq-tesla-ai-spend-cuts-btc-liq-oct23": "2026-10-23T07:05:48Z",
-    "us-flash-pmi-oct-composite-576-sellprices-4yr-high-oct23": "2026-10-23T15:05:43Z",
-    "btc-600m-longs-liquidated-fomc-consolidation-oct23-pm": "2026-10-23T15:05:43Z",
-    "btc-etf-outflows-635m-oct23-reversal-3day-inflow-streak": "2026-10-23T20:05:41Z",
-    "us-stocks-close-oct23-sp500-05pct-dow-12pct-fomc-week": "2026-10-23T20:05:41Z",
     "btc-below-50dma-first-time-66-days-oct24": "2026-10-24T07:05:33Z",
     "btc-79k-intraday-low-oct25-sub-80k-first-in-drawdown": "2026-10-25T07:04:57Z",
     "fomc-oct28-gdp-pce-oct29-risk-week-oct25": "2026-10-25T07:04:57Z",
