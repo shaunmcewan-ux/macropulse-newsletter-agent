@@ -1,6 +1,6 @@
 {
-  "ts": "2026-10-30T07:13:25Z",
+  "ts": "2026-10-30T15:08:14Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "Binance $6.3B hot-wallet breach confirmed (Oct 29) — largest crypto hack ever. Lazarus Group suspected; exchange pledges full coverage; Tether froze $1.56B.\nBTC ~$77,800 (-3.5% 24h est.) on hack fallout; Standard Chartered expects further losses.\n$11B BTC+ETH monthly options expire today (Deribit) — BTC pinned near/below $78K max pain.\nPolymarket also breached Oct 30 (~$3M lost); international trading suspended."
+  "priority": "default",
+  "message": "ECI Q3 +0.8% (in line, prior +0.9%) — wages 3.1% YoY 5-yr low; benefits 3.9% 3-yr high\nCrypto $1.57B liquidations Oct 30 — Binance hack fallout; BTC ~$76.9k (-5% 24h, session low $76,443)"
 }

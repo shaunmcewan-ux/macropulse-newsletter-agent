@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-10-30T07:13:25Z",
+  "lastRunISO": "2026-10-30T15:08:14Z",
   "priceAlerts": {
     "btc": { "pct": 3.5, "dir": "down", "ISO": "2026-10-30T07:13:25Z", "value": 77800 },
     "btcd": { "pct": 2.96, "dir": "up", "ISO": "2026-10-28T15:07:12Z", "value": 59.45 },
@@ -9,7 +9,8 @@
   "releases": {
     "US-FlashPMI-Oct-2026": "2026-10-23T15:05:43Z",
     "US-Q3-GDP-adv-Oct29-2026": "2026-10-29T15:06:31Z",
-    "US-Sep-PCE-Oct29-2026": "2026-10-29T15:06:31Z"
+    "US-Sep-PCE-Oct29-2026": "2026-10-29T15:06:31Z",
+    "US-Q3-ECI-Oct30-2026": "2026-10-30T15:08:14Z"
   },
   "news": {
     "nasdaq-tesla-ai-spend-cuts-btc-liq-oct23": "2026-10-23T07:05:48Z",
@@ -33,6 +34,7 @@
     "binance-63b-hot-wallet-breach-lazarus-oct29-30": "2026-10-30T07:13:25Z",
     "btc-77800-stanchart-more-downside-oct30": "2026-10-30T07:13:25Z",
     "btc-eth-11b-deribit-options-expiry-oct30-78k-maxpain": "2026-10-30T07:13:25Z",
-    "polymarket-breach-3m-suspended-oct30": "2026-10-30T07:13:25Z"
+    "polymarket-breach-3m-suspended-oct30": "2026-10-30T07:13:25Z",
+    "crypto-157b-liquidations-binance-hack-oct30": "2026-10-30T15:08:14Z"
   }
 }
