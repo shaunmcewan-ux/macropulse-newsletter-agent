@@ -1,7 +1,7 @@
 {
-  "lastRunISO": "2026-10-29T20:05:43Z",
+  "lastRunISO": "2026-10-30T07:13:25Z",
   "priceAlerts": {
-    "btc": { "pct": 3.4, "dir": "down", "ISO": "2026-10-22T15:08:24Z", "value": 81600 },
+    "btc": { "pct": 3.5, "dir": "down", "ISO": "2026-10-30T07:13:25Z", "value": 77800 },
     "btcd": { "pct": 2.96, "dir": "up", "ISO": "2026-10-28T15:07:12Z", "value": 59.45 },
     "total2": { "pct": 6.17, "dir": "down", "ISO": "2026-10-28T15:07:12Z", "value": 1102754255067 },
     "total3": { "pct": 8.31, "dir": "down", "ISO": "2026-10-28T15:07:12Z", "value": 818041728145 }
@@ -12,8 +12,6 @@
     "US-Sep-PCE-Oct29-2026": "2026-10-29T15:06:31Z"
   },
   "news": {
-    "btc-drop-34pct-oil-111-crypto-gains-wiped-oct22-pm": "2026-10-22T15:08:24Z",
-    "btc-etf-inflows-528m-3day-total-108bn-oct22": "2026-10-22T15:08:24Z",
     "nasdaq-tesla-ai-spend-cuts-btc-liq-oct23": "2026-10-23T07:05:48Z",
     "us-flash-pmi-oct-composite-576-sellprices-4yr-high-oct23": "2026-10-23T15:05:43Z",
     "btc-600m-longs-liquidated-fomc-consolidation-oct23-pm": "2026-10-23T15:05:43Z",
@@ -31,6 +29,10 @@
     "btc-below-80k-alphabet-q3-miss-79586-low-oct29pm": "2026-10-29T20:05:43Z",
     "btc-etf-inflows-137m-oct28-3day-streak": "2026-10-29T20:05:43Z",
     "crypto-342m-liquidations-btc-xrp-longs-oct29": "2026-10-29T20:05:43Z",
-    "strategy-mstr-q3-results-due-oct29-btc-treasury": "2026-10-29T20:05:43Z"
+    "strategy-mstr-q3-results-due-oct29-btc-treasury": "2026-10-29T20:05:43Z",
+    "binance-63b-hot-wallet-breach-lazarus-oct29-30": "2026-10-30T07:13:25Z",
+    "btc-77800-stanchart-more-downside-oct30": "2026-10-30T07:13:25Z",
+    "btc-eth-11b-deribit-options-expiry-oct30-78k-maxpain": "2026-10-30T07:13:25Z",
+    "polymarket-breach-3m-suspended-oct30": "2026-10-30T07:13:25Z"
   }
 }
