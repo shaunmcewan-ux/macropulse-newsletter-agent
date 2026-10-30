@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T19:43:13.876Z",
+  "generatedAt": "2026-10-30T23:16:47.874Z",
   "dial": {
     "state": "Risk Off",
     "summary": "Bitcoin crashed below $77K on October 30 amid an unconfirmed Binance hack scare that triggered $1.49B in liquidations (86.8% longs per CoinGlass), breaking TOTAL crypto market cap lower; September PCE ran hot at 3.6% YoY alongside strong Q3 GDP of 3.4%, reinforcing December hiking odds and sustaining DXY (101.74) and real yield (2.64%) headwinds; Global M2 rising to $104.3T and the Fed balance sheet stable at $6.75T provide a macro offset, but the crypto-specific structural breakdown and macro tightening backdrop shift the dial to Risk Off.",
@@ -14,66 +14,66 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 76542,
+      "value": 77022,
       "format": "usd",
-      "change24h": -5.26763,
-      "change30d": -9.0705
+      "change24h": -2.22996,
+      "change30d": -8.1621
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 2229.26,
+      "value": 2236.92,
       "format": "usd",
-      "change24h": -4.47594,
-      "change30d": -16.7876
+      "change24h": -1.30728,
+      "change30d": -16.743
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02915226,
+      "value": 0.0290619,
       "format": "ratio",
-      "change24h": 0.8926357880463339,
-      "change30d": -10.818895556830483
+      "change24h": 0.8526257981819538,
+      "change30d": -10.528926384880524
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 59.10394574391401,
+      "value": 59.11364344155423,
       "format": "percent",
-      "change24h": 1.9209820410457379,
-      "change30d": 1.4272477831467605
+      "change24h": 2.0814518163661866,
+      "change30d": 1.5144714429207127
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2597021682762.6025,
+      "value": 2615483256758.5894,
       "format": "usd-compact",
-      "change24h": -7.052936399446012,
-      "change30d": -9.777005415819698
+      "change24h": -4.1751089355910675,
+      "change30d": -9.376392903393615
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1062079396424.9113,
+      "value": 1069375810084.7665,
       "format": "usd-compact",
-      "change24h": -9.532797637906823,
-      "change30d": -11.687460130174344
+      "change24h": -6.929507593568919,
+      "change30d": -11.374991981342893
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 791258880972.6849,
+      "value": 796939556037.2286,
       "format": "usd-compact",
-      "change24h": -11.162326178485737,
-      "change30d": -9.715366028797796
+      "change24h": -8.734439019936248,
+      "change30d": -9.342938171829664
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 101.903,
+      "value": 101.963,
       "format": "index",
-      "change24h": 0.049090355708728634,
-      "change30d": 0.48812716945409096
+      "change24h": 0.10799878255917787,
+      "change30d": 0.5472940990848776
     },
     {
       "id": "us500",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 3876.059,
+      "value": 3874.998,
       "format": "usd",
-      "change24h": -3.616705686055343,
-      "change30d": -7.193073777988895
+      "change24h": -3.643088843604572,
+      "change30d": -7.218477970422902
     }
   ],
   "indicators": [
@@ -240,5 +240,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-10-30T19:43:13Z"
+  "cachedAtISO": "2026-10-30T23:16:47Z"
 }
