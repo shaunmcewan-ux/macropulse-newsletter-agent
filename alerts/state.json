@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-11-01T07:05:42Z",
+  "lastRunISO": "2026-11-01T15:04:00Z",
   "priceAlerts": {
     "btc": { "pct": 3.5, "dir": "down", "ISO": "2026-10-30T07:13:25Z", "value": 77800 },
     "btcd": { "pct": 2.96, "dir": "up", "ISO": "2026-10-28T15:07:12Z", "value": 59.45 },
@@ -32,6 +32,7 @@
     "btc-etf-643m-outflow-oct31": "2026-10-31T15:05:05Z",
     "crypto-427m-liquidations-oct31": "2026-10-31T15:05:05Z",
     "eth-etf-155m-outflow-oct30-binance-hack": "2026-10-31T20:05:00Z",
-    "binance-nov1-withdrawal-restart-oct31": "2026-10-31T20:05:00Z"
+    "binance-nov1-withdrawal-restart-oct31": "2026-10-31T20:05:00Z",
+    "binance-btc-withdrawals-live-fbi-tradertraitor-nov1": "2026-11-01T15:04:00Z"
   }
 }
