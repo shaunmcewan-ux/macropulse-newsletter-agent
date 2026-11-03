@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T16:33:50.867Z",
+  "generatedAt": "2026-11-03T01:48:15.753Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "Global M2 (G4) expanded to ~$104.3T in September 2026, flipping the 4-week trend to UP and upgrading the status to supportive; real yields fell ~30bps in October to 2.63%, reinforcing the improving macro backdrop; the October 30 liquidation cascade ($1.49B, 86.8% longs flushed) reset BTC perp funding toward zero — consistent with capitulation; BTC.D holds firmly at 59.2% with no alt-rotation signal; DXY headwind persists at 101.93 (above 100 threshold) but has flattened on a 4-week basis; on balance, improving global liquidity and falling real yields shift the posture from Risk Off to BTC Accumulation.",
@@ -14,82 +14,82 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 77321,
+      "value": 77081,
       "format": "usd",
-      "change24h": -0.90049,
-      "change30d": -8.7728
+      "change24h": -1.80877,
+      "change30d": -9.1946
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 2267.18,
+      "value": 2255.79,
       "format": "usd",
-      "change24h": -0.0078,
-      "change30d": -15.377
+      "change24h": -1.65755,
+      "change30d": -16.1053
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02934086,
+      "value": 0.02930567,
       "format": "ratio",
-      "change24h": 0.8656869366948307,
-      "change30d": -8.567831394497686
+      "change24h": 0.2758658540278558,
+      "change30d": -6.680568082016926
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 59.251514200670165,
+      "value": 59.33858615718971,
       "format": "percent",
-      "change24h": 1.4103755142069074,
-      "change30d": 1.2679752155816906
+      "change24h": 0.9594473660754943,
+      "change30d": 1.7246628288852903
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2614404389341.002,
+      "value": 2608645358870.703,
       "format": "usd-compact",
-      "change24h": -2.2810738077612562,
-      "change30d": -9.49235013381905
+      "change24h": -2.741910181063138,
+      "change30d": -10.526561336671975
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1065330201327.6741,
+      "value": 1060712085061.6803,
       "format": "usd-compact",
-      "change24h": -4.235356481445109,
-      "change30d": -11.185060673346335
+      "change24h": -4.076051485441428,
+      "change30d": -12.7878635384568
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 789111989069.4138,
+      "value": 785409007369.9872,
       "format": "usd-compact",
-      "change24h": -5.6378745771895655,
-      "change30d": -9.755611186841984
+      "change24h": -4.899802455221669,
+      "change30d": -11.51170807733346
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 101.709,
+      "value": 101.8,
       "format": "index",
-      "change24h": -0.24910997126407686,
-      "change30d": -0.3009331869510686
+      "change24h": 0,
+      "change30d": -0.21173149309912973
     },
     {
       "id": "us500",
       "label": "S&P 500",
-      "value": 7720.39,
+      "value": 7580.07,
       "format": "index",
-      "change24h": -0.3046237206191033,
-      "change30d": 0.6459527248645544
+      "change24h": -1.8175247623500965,
+      "change30d": -0.9340603329525854
     },
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10766.79,
+      "value": 10761.34,
       "format": "index",
-      "change24h": 0.3448343350615436,
-      "change30d": 3.2465720453039615
+      "change24h": 0.29404116949166076,
+      "change30d": 3.194310060288281
     },
     {
       "id": "oil",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 3968.898,
+      "value": 3947.097,
       "format": "usd",
-      "change24h": 2.423227057149451,
-      "change30d": -4.9330681898206405
+      "change24h": 0.004484509440275825,
+      "change30d": -5.45526709248675
     }
   ],
   "indicators": [
@@ -176,20 +176,6 @@
   ],
   "upcoming": [
     {
-      "date": "2026-11-03",
-      "title": "US Midterm Elections 2026",
-      "category": "Growth",
-      "importance": "high",
-      "note": "US Midterm Elections on the first Tuesday of November — Congressional control determines the fiscal policy and regulatory backdrop for the next two years; outcomes affecting House and Senate composition will drive near-term sentiment on fiscal stimulus, crypto regulation, and deficit trajectory; results typically flow overnight into early Wednesday; a surprise shift in Congressional control could reprice inflation expectations and December 9 FOMC positioning."
-    },
-    {
-      "date": "2026-11-03",
-      "title": "JOLTS Job Openings (September 2026)",
-      "category": "Labor",
-      "importance": "medium",
-      "note": "BLS releases September 2026 Job Openings and Labor Turnover Survey (JOLTS) at 10:00 AM ET — context: September NFP was +29K (weakest of the cycle); a sharp drop in openings below 7M would confirm broad labor softening and complicate the December 9 FOMC hiking narrative; released same day as Midterm Election results, amplifying market volatility potential."
-    },
-    {
       "date": "2026-11-04",
       "title": "ADP Employment Report (October 2026)",
       "category": "Labor",
@@ -223,6 +209,13 @@
       "category": "Labor",
       "importance": "high",
       "note": "BLS releases October 2026 nonfarm payrolls at 8:30 AM ET — the critical December 9 FOMC input; September NFP was +29K (weakest of the cycle, well below consensus); a rebound toward 100K+ would stabilize the labor narrative and support December hiking expectations, sustaining DXY headwind above 101; a second consecutive sub-50K print would shift FOMC pricing toward a hold and could provide macro relief for risk assets recovering from the October 30 crash."
+    },
+    {
+      "date": "2026-11-10",
+      "title": "CPI (October 2026)",
+      "category": "Inflation",
+      "importance": "high",
+      "note": "BLS releases October 2026 Consumer Price Index at 8:30 AM ET — key inflation input for December 9 FOMC; September CPI was 3.7% YoY; a print sustained above 3.5% reinforces the case for a December 25bp hike to 4.00%–4.25% and would maintain DXY headwind; real yields fell ~30bps in October despite elevated CPI — a deceleration toward 3.0% could accelerate that trend and ease headwinds on risk assets; final print before the December 8-9 FOMC meeting."
     }
   ],
   "sources": {
@@ -240,5 +233,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-11-02T16:33:50Z"
+  "cachedAtISO": "2026-11-03T01:48:15Z"
 }
