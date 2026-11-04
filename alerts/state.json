@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-11-04T07:06:50Z",
+  "lastRunISO": "2026-11-04T15:05:35Z",
   "priceAlerts": {
     "btc": { "pct": 3.5, "dir": "down", "ISO": "2026-10-30T07:13:25Z", "value": 77800 },
     "btcd": { "pct": 2.96, "dir": "up", "ISO": "2026-10-28T15:07:12Z", "value": 59.45 },
@@ -10,7 +10,8 @@
     "US-Q3-GDP-adv-Oct29-2026": "2026-10-29T15:06:31Z",
     "US-Sep-PCE-Oct29-2026": "2026-10-29T15:06:31Z",
     "US-Q3-ECI-Oct30-2026": "2026-10-30T15:08:14Z",
-    "US-Oct-ISM-Mfg-Nov2-2026": "2026-11-02T16:13:46Z"
+    "US-Oct-ISM-Mfg-Nov2-2026": "2026-11-02T16:13:46Z",
+    "US-Oct-ISM-Services-Nov4-2026": "2026-11-04T15:05:35Z"
   },
   "news": {
     "btc-etf-inflows-176m-oct27-streak-resumes": "2026-10-28T15:07:12Z",
@@ -36,6 +37,8 @@
     "us-midterms-btc-76500-100d-ma-test-nov3": "2026-11-03T07:04:48Z",
     "democrats-win-house-senate-clarity-dead-nov3-2026": "2026-11-04T07:06:50Z",
     "btc-75728-election-night-low-nov3-4-2026": "2026-11-04T07:06:50Z",
-    "crypto-366m-liquidations-election-night-nov3-4": "2026-11-04T07:06:50Z"
+    "crypto-366m-liquidations-election-night-nov3-4": "2026-11-04T07:06:50Z",
+    "btc-78k-v-shape-recovery-election-low-nov4": "2026-11-04T15:05:35Z",
+    "ism-services-oct-2026-54pct5-vs-54pct9-prior-nov4": "2026-11-04T15:05:35Z"
   }
 }
