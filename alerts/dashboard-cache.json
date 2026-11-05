@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T14:52:51.463Z",
+  "generatedAt": "2026-11-05T00:32:30.801Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "Democrats swept both Congressional chambers in US midterm elections (Nov 3), pushing DXY to ~101.32 and Treasury yields lower (10Y ~4.90%), though risk assets sold off on fiscal uncertainty; macro backdrop remains constructive with 5/8 indicators supportive — Global M2 rising, ISM Manufacturing at 55.5 (10th expansion month), real yields falling, Fed balance sheet flat, and BTC funding rates near zero post-Oct 30 liquidation reset — while BTC.D holds firm at ~60% with TOTAL at $2.60T and no alt-rotation catalyst in sight; BTC Accumulation posture intact.",
@@ -14,66 +14,66 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 79414,
+      "value": 80671,
       "format": "usd",
-      "change24h": 2.69153,
-      "change30d": -8.8642
+      "change24h": 4.65813,
+      "change30d": -6.3843
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 2377.49,
+      "value": 2426.98,
       "format": "usd",
-      "change24h": 3.92692,
-      "change30d": -14.5308
+      "change24h": 7.13745,
+      "change30d": -10.7772
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02994569,
+      "value": 0.03011181,
       "format": "ratio",
-      "change24h": 1.0160276648105602,
-      "change30d": -2.8617054325805107
+      "change24h": 2.5483655239290237,
+      "change30d": -4.202647924150531
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 59.48296884324732,
+      "value": 59.59123731664574,
       "format": "percent",
-      "change24h": 3.6427792505402845,
-      "change30d": 1.3101944091885986
+      "change24h": 3.6058802700724035,
+      "change30d": 1.9814714156137971
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2680330795101.35,
+      "value": 2718652947426.955,
       "format": "usd-compact",
-      "change24h": -0.8529096353190291,
-      "change30d": -9.462976123617794
+      "change24h": 1.0156274211315774,
+      "change30d": -7.683029907083898
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1085990463355.2509,
+      "value": 1098574017709.7742,
       "format": "usd-compact",
-      "change24h": -5.73437936970997,
-      "change30d": -11.218433575502642
+      "change24h": -3.9291683349399436,
+      "change30d": -10.369582487238906
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 800146748718.2668,
+      "value": 802177829271.6312,
       "format": "usd-compact",
-      "change24h": -8.855103038284875,
-      "change30d": -10.579242053736648
+      "change24h": -7.471984091128775,
+      "change30d": -10.401676362626468
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 101.418,
+      "value": 101.491,
       "format": "index",
-      "change24h": -0.4632446756305763,
-      "change30d": -0.48961409774620057
+      "change24h": -0.39159878300127676,
+      "change30d": -0.6373480057175268
     },
     {
       "id": "us500",
@@ -86,26 +86,26 @@
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10830.92,
+      "value": 10829.2,
       "format": "index",
-      "change24h": 1.8093835274565868,
-      "change30d": 3.52367243399687
+      "change24h": 1.7932157282606591,
+      "change30d": 3.5060856134072895
     },
     {
       "id": "oil",
       "label": "Oil (WTI)",
-      "value": 103.37,
+      "value": 99.64,
       "format": "usd",
-      "change24h": -1.7862232779097345,
-      "change30d": 21.283585591927725
+      "change24h": -0.41974815110933605,
+      "change30d": 1.7877209112268873
     },
     {
       "id": "gold",
       "label": "Gold",
-      "value": 4039.96,
+      "value": 4092.891,
       "format": "usd",
-      "change24h": 2.7980166911026414,
-      "change30d": -2.3338571255892653
+      "change24h": 0.787036467016182,
+      "change30d": -1.170674556481619
     }
   ],
   "indicators": [
@@ -176,20 +176,6 @@
   ],
   "upcoming": [
     {
-      "date": "2026-11-05",
-      "title": "Bank of England Rate Decision (November 2026)",
-      "category": "Central Bank",
-      "importance": "high",
-      "note": "Bank of England MPC announces Bank Rate at 12:00 PM UK time with Monetary Policy Report — current Bank Rate at 3.75% (held September 17, 6-3 vote); a hold is the base case; a surprise cut would ease global tightening pressure; context: BOJ held at 1.25% on October 30 with a hawkish December signal; ECB held at October 29 meeting; three major central banks (Fed, BOJ, BOE) all navigating restrictive postures into year-end; BOE Monetary Policy Report accompanies this meeting; GBP/USD gained on Democrat midterm wins (DXY pressure) going into the decision."
-    },
-    {
-      "date": "2026-11-05",
-      "title": "Initial Jobless Claims (week ended November 1, 2026)",
-      "category": "Labor",
-      "importance": "medium",
-      "note": "DOL weekly initial jobless claims at 8:30 AM ET for the week ended November 1 — released same morning as BOE decision; a spike above 230K would temper December 8-9 FOMC hike expectations and could amplify risk-off pressure; sets the tone one day before the October NFP print on November 6; also released the same day as the Fed H.4.1 balance sheet (November 5 Thursday publication covering week ending Nov 5)."
-    },
-    {
       "date": "2026-11-06",
       "title": "US Employment Situation — NFP (October 2026)",
       "category": "Labor",
@@ -202,6 +188,13 @@
       "category": "Inflation",
       "importance": "high",
       "note": "BLS releases October 2026 Consumer Price Index at 8:30 AM ET — key inflation input for December 8-9 FOMC; September CPI was 3.7% YoY; October ISM Manufacturing Prices Index at 75.2 (9th consecutive reading above 70) signals ongoing cost pressure; a deceleration toward 3.0% could accelerate the real yield decline and ease headwinds on risk assets; a sustained print above 3.5% reinforces the case for a December 25bp hike and keeps DXY above 100; this is the dominant data print of the week."
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Initial Jobless Claims (week ended November 8, 2026)",
+      "category": "Labor",
+      "importance": "medium",
+      "note": "DOL weekly initial jobless claims at 8:30 AM ET for the week ended November 8 — released Thursday November 12 (Veterans Day November 11 is a federal holiday; bond markets close, equity and crypto remain open); the final weekly labor read before the December FOMC blackout period (Nov 28–Dec 10); context shaped by October NFP (Nov 6) and CPI (Nov 10) results; will be parsed closely as the last read before the Fed enters radio silence."
     }
   ],
   "sources": {
@@ -219,5 +212,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-11-04T14:52:51Z"
+  "cachedAtISO": "2026-11-05T00:32:30Z"
 }
