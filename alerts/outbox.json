@@ -1,6 +1,6 @@
 {
-  "ts": "2026-11-04T20:04:54Z",
+  "ts": "2026-11-05T07:05:57Z",
   "title": "MacroPulse Alert",
   "priority": "default",
-  "message": "BTC +4.0% (24h) → ~$80,500. Recovery extends from $75,728 election-night low.\nETH ETF outflows: 7 consecutive sessions, $656.68M cumulative through Nov 3.\nNFP (Oct) due Fri 6 Nov, 13:30 UTC — consensus pending; Sep: +29K vs 90K est."
+  "message": "BTC spot ETFs $74.6M net inflows Nov 4 — first positive session after 7-day/$1.16B outflow streak. BTC holds ~$80.5K (+5.4% 24h, deduped). NFP (Oct jobs) due Fri Nov 6."
 }
