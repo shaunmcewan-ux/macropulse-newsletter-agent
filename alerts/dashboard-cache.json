@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T14:57:51.580Z",
+  "generatedAt": "2026-11-06T00:33:00.834Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "Macro backdrop holds constructive into mid-November — 5/8 indicators supportive (Global M2 $104.3T, ISM Mfg 55.5 on 10th expansion month, real yields declining to 2.63%, Fed balance sheet flat at $6.75T, BTC funding near zero) with DXY the lone headwind at 101.36 above the 100 threshold; BTC.D firms at ~59.3% and TOTAL recovers to ~$2.60T from the October 30 crash with no alt-rotation catalyst in sight; BOE deciding rates today and October NFP printing tomorrow as near-term macro catalysts; BTC Accumulation posture intact.",
@@ -14,82 +14,82 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 78460,
+      "value": 76137,
       "format": "usd",
-      "change24h": -0.91961,
-      "change30d": -7.6935
+      "change24h": -5.69843,
+      "change30d": -11.1624
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 2345.69,
+      "value": 2240.65,
       "format": "usd",
-      "change24h": -1.09827,
-      "change30d": -12.1466
+      "change24h": -7.82945,
+      "change30d": -17.0944
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02992235,
+      "value": 0.02944168,
       "format": "ratio",
-      "change24h": 0.16401385118793882,
-      "change30d": -7.5586545144341555
+      "change24h": -2.308611988323885,
+      "change30d": -4.5466849791695
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 59.40669481931336,
+      "value": 59.260492517735116,
       "format": "percent",
-      "change24h": 1.7327839124093858,
-      "change30d": 1.6904473668934228
+      "change24h": 1.722419749323345,
+      "change30d": 1.4044023015176457
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2641612672910.94,
+      "value": 2581130190132.8022,
       "format": "usd-compact",
-      "change24h": -2.4912558321332368,
-      "change30d": -10.278232839203907
+      "change24h": -7.259490845303511,
+      "change30d": -12.128785023833341
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1072317894006.4315,
+      "value": 1051539726936.1508,
       "format": "usd-compact",
-      "change24h": -4.892595897759788,
-      "change30d": -12.505772591532786
+      "change24h": -9.492888811665061,
+      "change30d": -13.948451399531004
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 787235747203.4243,
+      "value": 777961080178.6217,
       "format": "usd-compact",
-      "change24h": -6.281554182766214,
-      "change30d": -12.042697651793844
+      "change24h": -10.090502386767348,
+      "change30d": -12.805639352125029
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 101.564,
+      "value": 101.565,
       "format": "index",
-      "change24h": 0.07192756007921224,
-      "change30d": -0.5658788745080408
+      "change24h": 0.07291286912139802,
+      "change30d": -0.31407959954851783
     },
     {
       "id": "us500",
       "label": "S&P 500",
-      "value": 7568.92,
+      "value": 7688.62,
       "format": "index",
-      "change24h": 0.3649189805606444,
-      "change30d": -1.9915263016139415
+      "change24h": 1.5814673691887327,
+      "change30d": -1.097640195782066
     },
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10869.11,
+      "value": 10782.65,
       "format": "index",
-      "change24h": 0.3685406124182751,
-      "change30d": 3.5344625578440314
+      "change24h": -0.4298563144092,
+      "change30d": 2.7108818200696145
     },
     {
       "id": "oil",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 4106.98,
+      "value": 4106.777,
       "format": "usd",
-      "change24h": 1.1238168308079597,
-      "change30d": -0.8304733719952304
+      "change24h": 0.4418753103056956,
+      "change30d": -1.446182422054982
     }
   ],
   "indicators": [
@@ -176,13 +176,6 @@
   ],
   "upcoming": [
     {
-      "date": "2026-11-06",
-      "title": "US Employment Situation — NFP (October 2026)",
-      "category": "Labor",
-      "importance": "high",
-      "note": "BLS releases October 2026 nonfarm payrolls at 8:30 AM ET — the critical December 8-9 FOMC input; September NFP was +29K (weakest of the cycle); a rebound toward 100K+ would stabilize the labor narrative and reinforce December hiking expectations, sustaining DXY headwind; a second consecutive sub-50K print would shift FOMC pricing toward a hold and provide macro relief for risk assets recovering from the October 30 crash."
-    },
-    {
       "date": "2026-11-10",
       "title": "CPI (October 2026)",
       "category": "Inflation",
@@ -195,6 +188,13 @@
       "category": "Labor",
       "importance": "medium",
       "note": "DOL weekly initial jobless claims at 8:30 AM ET for the week ended November 8 — released Thursday November 12 (Veterans Day November 11 is a federal holiday; bond markets closed, equity and crypto open); first labor read after October NFP (Nov 6) and before PPI (Nov 13); context shaped by the Oct NFP result heading into the December FOMC blackout period (Nov 28)."
+    },
+    {
+      "date": "2026-11-13",
+      "title": "PPI (October 2026)",
+      "category": "Inflation",
+      "importance": "medium",
+      "note": "BLS releases October 2026 Producer Price Index at 8:30 AM ET — pipeline inflation signal; September PPI was 6.3% YoY; a sustained elevated print would confirm cost-push inflation feeding through to consumers and maintain the Fed's hawkish posture into December 8-9 meeting; completes the November inflation picture alongside CPI (Nov 10), providing a full input set for the December FOMC dot plot."
     }
   ],
   "sources": {
@@ -212,5 +212,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-11-05T14:57:51Z"
+  "cachedAtISO": "2026-11-06T00:33:00Z"
 }
