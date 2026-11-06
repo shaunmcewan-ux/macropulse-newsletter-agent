@@ -1,20 +1,16 @@
 {
-  "lastRunISO": "2026-11-06T15:04:52Z",
+  "lastRunISO": "2026-11-06T20:04:54Z",
   "priceAlerts": {
     "btc": { "pct": -6.0, "dir": "down", "ISO": "2026-11-06T07:04:41Z", "value": 75650 },
     "eth": { "pct": -7.7, "dir": "down", "ISO": "2026-11-06T07:04:41Z", "value": 2240 }
   },
   "releases": {
-    "US-Q3-GDP-adv-Oct29-2026": "2026-10-29T15:06:31Z",
-    "US-Sep-PCE-Oct29-2026": "2026-10-29T15:06:31Z",
     "US-Q3-ECI-Oct30-2026": "2026-10-30T15:08:14Z",
     "US-Oct-ISM-Mfg-Nov2-2026": "2026-11-02T16:13:46Z",
     "US-Oct-ISM-Services-Nov4-2026": "2026-11-04T15:05:35Z",
     "US-Oct-NFP-Nov6-2026": "2026-11-06T15:04:52Z"
   },
   "news": {
-    "us-gdp-q3-adv-34pct-pce-sep-36pct-core-31pct-oct29": "2026-10-29T15:06:31Z",
-    "btc-below-80k-alphabet-q3-miss-79586-low-oct29pm": "2026-10-29T20:05:43Z",
     "btc-etf-643m-outflow-oct31": "2026-10-31T15:05:05Z",
     "crypto-427m-liquidations-oct31": "2026-10-31T15:05:05Z",
     "eth-etf-155m-outflow-oct30-binance-hack": "2026-10-31T20:05:00Z",
