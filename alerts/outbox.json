@@ -1,6 +1,6 @@
 {
-  "ts": "2026-11-05T20:05:31Z",
+  "ts": "2026-11-06T07:04:41Z",
   "title": "MacroPulse Alert",
-  "priority": "default",
-  "message": ""
+  "priority": "high",
+  "message": "BTC -6.0% (24h) → $75,650 — Nasdaq rout triggers $1.25B crypto liquidations (89% longs)\nETH -7.7% (24h) → ~$2,240 — multi-week low\nBTC spot ETF outflows $430M; fear index 28 (Fear)\nNFP (Oct) due 13:30 UTC — consensus 59-65k; Sep was +29k"
 }

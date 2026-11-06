@@ -1,7 +1,8 @@
 {
-  "lastRunISO": "2026-11-05T20:05:31Z",
+  "lastRunISO": "2026-11-06T07:04:41Z",
   "priceAlerts": {
-    "btc": { "pct": 4.0, "dir": "up", "ISO": "2026-11-04T20:04:54Z", "value": 80500 }
+    "btc": { "pct": -6.0, "dir": "down", "ISO": "2026-11-06T07:04:41Z", "value": 75650 },
+    "eth": { "pct": -7.7, "dir": "down", "ISO": "2026-11-06T07:04:41Z", "value": 2240 }
   },
   "releases": {
     "US-Q3-GDP-adv-Oct29-2026": "2026-10-29T15:06:31Z",
@@ -26,6 +27,7 @@
     "btc-78k-v-shape-recovery-election-low-nov4": "2026-11-04T15:05:35Z",
     "ism-services-oct-2026-54pct5-vs-54pct9-prior-nov4": "2026-11-04T15:05:35Z",
     "eth-etf-7day-outflow-streak-656m-nov4": "2026-11-04T20:04:54Z",
-    "btc-etf-inflows-746m-nov4-outflow-streak-end": "2026-11-05T07:05:57Z"
+    "btc-etf-inflows-746m-nov4-outflow-streak-end": "2026-11-05T07:05:57Z",
+    "nasdaq-rout-btc-6pct-eth-7pct-1b25-liq-430m-etf-out-nov6": "2026-11-06T07:04:41Z"
   }
 }
