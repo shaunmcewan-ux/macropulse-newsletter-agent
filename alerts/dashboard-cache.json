@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T19:03:10.483Z",
+  "generatedAt": "2026-11-07T23:03:05.790Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "October NFP beat (+165K vs ~65K consensus) pushed DXY to 102.33 and reinforces December FOMC hiking odds, but macro remains constructive — 5/8 indicators supportive as real yields extended their 4-week decline (-30bps to 2.63%), Global M2 holds $104.3T, ISM Manufacturing sits at a 10th-expansion-month 55.5, and Fed balance sheet flat at $6.75T; BTC perpetual funding collapsed to near-zero (0.0019%) and Fear & Greed sits at 25 (Extreme Fear) while BTC.D holds firm at ~59.3% — a classic accumulation setup with no alt-rotation catalyst in view; November 10 CPI is the decisive input for the December 9 FOMC decision.",
@@ -14,58 +14,58 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 75738,
+      "value": 75662,
       "format": "usd",
-      "change24h": 0.04705,
-      "change30d": -6.0587
+      "change24h": -0.22727,
+      "change30d": -7.2905
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 2234.59,
+      "value": 2230.75,
       "format": "usd",
-      "change24h": 0.28894,
-      "change30d": -7.4385
+      "change24h": -0.16339,
+      "change30d": -9.9265
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02951139,
+      "value": 0.02949859,
       "format": "ratio",
-      "change24h": 0.31269932586093524,
-      "change30d": -2.6822101750157934
+      "change24h": 0.13819056322959045,
+      "change30d": -2.81727098642161
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 59.28645627923726,
+      "value": 59.32589782955691,
       "format": "percent",
-      "change24h": 2.8205161810028745,
-      "change30d": 1.2842968438352818
+      "change24h": 2.8567712620196417,
+      "change30d": 1.3597971243694866
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2564190275960.6377,
+      "value": 2559855293485.6357,
       "format": "usd-compact",
-      "change24h": -2.699272756146364,
-      "change30d": -10.216524272718956
+      "change24h": -2.9668647232235874,
+      "change30d": -10.361770028406326
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1043972729086.7811,
+      "value": 1041198157487.8434,
       "format": "usd-compact",
-      "change24h": -6.4534352874030185,
-      "change30d": -11.920266126145707
+      "change24h": -6.762759168261693,
+      "change30d": -12.162751951206893
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 771416182019.2772,
+      "value": 769057940830.4155,
       "format": "usd-compact",
-      "change24h": -8.635548358748792,
-      "change30d": -11.441320563017685
+      "change24h": -8.90598469527989,
+      "change30d": -11.737939115289679
     },
     {
       "id": "dxy",
@@ -212,5 +212,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-11-07T19:03:10Z"
+  "cachedAtISO": "2026-11-07T23:03:05Z"
 }
