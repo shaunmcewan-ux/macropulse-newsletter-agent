@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-11-08T07:05:06Z",
+  "lastRunISO": "2026-11-08T15:04:43Z",
   "priceAlerts": {
     "btc": { "pct": -6.0, "dir": "down", "ISO": "2026-11-06T07:04:41Z", "value": 75650 },
     "eth": { "pct": -7.7, "dir": "down", "ISO": "2026-11-06T07:04:41Z", "value": 2240 }
@@ -22,6 +22,8 @@
     "btc-etf-inflows-746m-nov4-outflow-streak-end": "2026-11-05T07:05:57Z",
     "nasdaq-rout-btc-6pct-eth-7pct-1b25-liq-430m-etf-out-nov6": "2026-11-06T07:04:41Z",
     "us-oct-nfp-165k-beat-59k-est-sep-revised-60k-nov6": "2026-11-06T15:04:52Z",
-    "btc-etf-412m-ibit-5session-weekly-1b28-nov6": "2026-11-07T15:03:23Z"
+    "btc-etf-412m-ibit-5session-weekly-1b28-nov6": "2026-11-07T15:03:23Z",
+    "altcoin-rout-sui-10pct-total-5pct-70pct-below-200d-ma-nov8": "2026-11-08T15:04:43Z",
+    "web3auth-exploit-emergency-suspension-nov7-2026": "2026-11-08T15:04:43Z"
   }
 }
