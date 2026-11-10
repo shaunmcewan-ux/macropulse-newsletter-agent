@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-10T02:23:43.531Z",
+  "generatedAt": "2026-11-10T15:15:05.194Z",
   "dial": {
     "state": "BTC Accumulation",
-    "summary": "5/8 indicators supportive entering November 9 — real yields at 2.60% (DFII10 Nov 5) continue their 4-week descent and the Fed balance sheet holds flat near $6.75T, while DXY at 102.30 (Friday Nov 6 close, trading subdued at ~102.20 in Asian session Nov 9 per FXStreet) remains the lone Tier 1 headwind; October CPI releases tomorrow (Nov 10) as the decisive catalyst for the December FOMC decision; BTC.D at ~59.3% and TOTAL at ~$2.60T are consistent with an accumulation phase with no alt-rotation signal yet.",
+    "summary": "5/8 indicators supportive entering November 10 — October CPI releases at 8:30 AM ET today (consensus +0.3% MoM / 3.9% YoY, Cleveland Fed nowcast 3.74%) as the decisive pre-FOMC catalyst; DXY slipped to 101.99 as oil tumbled ~6% to $85 on easing Iran-war fears, reducing inflation pressure; real yields ticked up to 2.63% (Nov 6) but remain on a 4-week downtrend; BTC's $1B+ liquidation flush to $74K on November 8–9 with neutral funding (0.0087%) represents a healthy reset consistent with ongoing accumulation ahead of the macro resolution.",
     "states": [
       "BTC Accumulation",
       "Alt Rotation",
@@ -14,66 +14,66 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 74871,
+      "value": 74419,
       "format": "usd",
-      "change24h": -0.51807,
-      "change30d": -9.4875
+      "change24h": -0.60487,
+      "change30d": -10.5212
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 2120.23,
+      "value": 2077.23,
       "format": "usd",
-      "change24h": -1.32216,
-      "change30d": -15.0974
+      "change24h": -2.31687,
+      "change30d": -16.8456
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02833269,
+      "value": 0.02788459,
       "format": "ratio",
-      "change24h": -0.7749539109086825,
-      "change30d": -6.976578570018467
+      "change24h": -2.1815047123869147,
+      "change30d": -8.857552236787553
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 59.65729840243278,
+      "value": 59.731342577350624,
       "format": "percent",
-      "change24h": 1.381638472288893,
-      "change30d": 1.3863276370929778
+      "change24h": 2.740133998611727,
+      "change30d": 1.4539060675518471
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2517872435269.1616,
+      "value": 2498723480503.729,
       "format": "usd-compact",
-      "change24h": -1.8719844154103376,
-      "change30d": -10.963797320999548
+      "change24h": -3.2930986820179164,
+      "change30d": -11.55337436838482
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1015777763168.0367,
+      "value": 1006202398303.3478,
       "format": "usd-compact",
-      "change24h": -3.82166334260172,
-      "change30d": -12.814581968873497
+      "change24h": -6.99736421871734,
+      "change30d": -13.464708058129835
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 757164028742.2911,
+      "value": 752605364989.7042,
       "format": "usd-compact",
-      "change24h": -4.653328223654698,
-      "change30d": -11.86125939526049
+      "change24h": -8.470824109648964,
+      "change30d": -12.09005439917661
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 101.684,
+      "value": 102.11,
       "format": "index",
-      "change24h": 0.006884546160872952,
-      "change30d": -0.43474855083816644
+      "change24h": 0.4258583553802656,
+      "change30d": -0.0176249412501965
     },
     {
       "id": "us500",
@@ -86,10 +86,10 @@
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10782.88,
+      "value": 10794.88,
       "format": "index",
-      "change24h": 1.0207112094607975,
-      "change30d": 3.2694536225638
+      "change24h": 0.1112875224429837,
+      "change30d": 3.3843796389407577
     },
     {
       "id": "oil",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 4124.68,
+      "value": 4050.34,
       "format": "usd",
-      "change24h": -0.38292153067175044,
-      "change30d": -0.2360658275364816
+      "change24h": -2.1783416877287527,
+      "change30d": -2.034132796702805
     }
   ],
   "indicators": [
@@ -115,7 +115,7 @@
       "value": "$104.3T",
       "trend": "up",
       "status": "supportive",
-      "note": "MacroMicro G4 aggregate (US/Euro Zone/China/Japan) holds at ~$104.3T as of September 2026 (104,317B); October G4 data not yet published — MacroMicro typically updates mid-month following the reference month, so October G4 update expected mid-November 2026; US M2 at $23.41T in Sep 2026 (+5.7% YoY, next US M2 release November 24) confirms no YoY contraction; 4-week Aug→Sep change +$0.64T (+0.6%) exceeds flat threshold — trend UP; Bitrue broader global estimate ~$103.66T; status supportive (4-week trend up); held unchanged from Nov 8 run — October G4 data publication pending mid-November 2026."
+      "note": "MacroMicro G4 aggregate (US/Euro Zone/China/Japan) holds at ~$104.3T as of September 2026 (104,317B); October G4 data not yet published — MacroMicro typically updates mid-month following the reference month, so October G4 update expected mid-November 2026; US M2 at $23.4T in Sep 2026 (+5.7% YoY per Macrotrends/FRED, Mises Institute confirms money-supply growth rising to multi-year high as Fed resumed QE); 4-week Aug→Sep change +$0.64T (+0.6%) exceeds flat threshold — trend UP; status supportive (4-week trend up, no YoY contraction); held unchanged from Nov 9 run — October G4 data publication pending mid-November 2026."
     },
     {
       "tier": 1,
@@ -123,23 +123,23 @@
       "value": "55.5",
       "trend": "up",
       "status": "supportive",
-      "note": "October 2026 ISM Manufacturing PMI at 55.5% (released November 2, 2026), beating consensus 54.6%, up 1.0pp from September's 54.5%; 10th consecutive expansion month; Production sub-index 59.0 (highest since Nov 2021), New Orders 55.5, Prices 75.2 (9th consecutive above 70); 4-week trend UP (Sep 54.5 → Oct 55.5, +1.0pp); status supportive (above 50 and rising); next ISM Manufacturing release December 1, 2026 (November data); value confirmed November 9 — monthly series, October 55.5 is the current reading."
+      "note": "October 2026 ISM Manufacturing PMI at 55.5% (released November 2, 2026), beating consensus 54.6%, up 1.0pp from September's 54.5%; 10th consecutive expansion month; Production sub-index 59.0 (highest since Nov 2021), New Orders 55.5, Prices 75.2 (9th consecutive above 70); 4-week trend UP (Sep 54.5 → Oct 55.5, +1.0pp); status supportive (above 50 and rising); next ISM Manufacturing release December 1, 2026 (November data); value confirmed November 10 — monthly series, October 55.5 is the current reading."
     },
     {
       "tier": 1,
       "name": "DXY (US Dollar Index)",
-      "value": "102.30",
-      "trend": "up",
+      "value": "101.99",
+      "trend": "flat",
       "status": "headwind",
-      "note": "ICE DXY spot 102.298 as of Friday November 6, 2026 close (Trading Economics); FXStreet reports DXY 'remains subdued' at ~102.20 during Asian session November 9, as lower oil prices ease inflation pressure ahead of October CPI release November 10; 4-week trend UP — from ~101.5–101.8 range (Oct 5–7) to 102.30 (Nov 6), net change approximately +0.5–0.8% exceeds the 0.5% flat threshold; status headwind (DXY above 100 — must fall below 97.5 for supportive); FRED DTWEXBGS unavailable via direct API in this environment (network restriction); prior 52-week high 102.95 (Oct 14, 2026)."
+      "note": "ICE DXY spot 101.992 as of November 9, 2026 close (Trading Economics, -0.30% on the day); FXStreet reports DXY fell to ~101.85–101.91 intraday Nov 9 as WTI oil tumbled ~6% to $85 (easing inflation pressure ahead of October CPI release November 10 at 8:30 AM ET); 4-week trend FLAT — from ~101.5–101.8 range on October 10 to 101.99 on November 9, net change approximately +0.2–0.5%, within or near the 0.5% flat threshold; prior 52-week high 102.95 (Oct 14, 2026), DXY has been declining since Nov 6 close of 102.30; status headwind (DXY above 100 — must fall below 97.5 for supportive); FRED DTWEXBGS network-restricted in this environment."
     },
     {
       "tier": 1,
       "name": "Real Yields (US10Y - CPI)",
-      "value": "2.60%",
+      "value": "2.63%",
       "trend": "down",
       "status": "supportive",
-      "note": "10-year TIPS real yield (DFII10) at 2.60% on November 5, 2026 (dollarliquidity.com sourced from FRED DFII10; Nov 4 was 2.64%, Nov 3 was 2.65%, Nov 2 was 2.62%); Nov 7 close unavailable due to FRED API network restriction in this environment; 4-week trend DOWN — from ~2.92% on October 2 (macroradar.io) to 2.60% on November 5, approximately -32bps; status supportive (falling trend — the headwind rule requires rising AND above 2% simultaneously, only one condition met); next DFII10 update will reflect Nov 7 Friday close."
+      "note": "10-year TIPS real yield (DFII10) at 2.63% on November 6, 2026 (FRED series page, updated Nov 9; Nov 5 was 2.60%, Nov 4 was 2.64%, Nov 3 was 2.65%); slight uptick from Nov 5 to Nov 6 (+3bps) but 4-week trend remains DOWN — from ~2.85–2.90% around October 10 to 2.63% on November 6, approximately -22 to -27bps; status supportive (falling trend — the headwind rule requires BOTH rising AND above 2% simultaneously; value is above 2% but trend is falling, so only one condition met); next DFII10 update will reflect Nov 7 Friday close; FRED API network-restricted in this environment."
     },
     {
       "tier": 1,
@@ -147,7 +147,7 @@
       "value": "+0.35%",
       "trend": "flat",
       "status": "neutral",
-      "note": "2s10s spread confirmed at +35bps as of November 6, 2026 close (10Y: 4.86%, 2Y: 4.51% per ETF Trends; FRED T10Y2Y: 0.35%, yieldcurve.pro: +35bps); down 3bps on the day from +38bps on Nov 5 as NFP beat bear-flattened the front end; 4-week trend FLAT — from approximately +30–32bps around October 7 (recovering off Sep low of ~20bps) to +35bps on November 6, approximately +3–5bps within the flat threshold; 52-week range 20–74bps; status neutral (positive and recovering but not sustainably steepening on a 4-week basis)."
+      "note": "2s10s spread confirmed at +35bps as of November 6, 2026 close (multiple sources: yieldcurve.pro, 247wallst, sofrrate.com; 10Y: ~4.86–4.95%, 2Y: ~4.46–4.61% per various sources; meaterm.com cites +0.38pp on Nov 5); down 3bps on the day Nov 6 as the front end repriced post-NFP; 4-week trend FLAT — from approximately +30–32bps around October 7 to +35bps on November 6, approximately +3–5bps within the flat threshold; 52-week range 20–74bps; status neutral (positive and recovering but not sustainably steepening on a 4-week basis)."
     },
     {
       "tier": 1,
@@ -155,7 +155,7 @@
       "value": "$6.75T",
       "trend": "flat",
       "status": "supportive",
-      "note": "WALCL: $6,748,145M ($6.748T) for week ended November 4, 2026 (FRED updated November 5; next H.4.1 release November 12 for week ended November 11); prior readings: Oct 28 $6,745,635M, Oct 21 $6,753,604M, Oct 14 $6,755,639M; 4-week change Oct 7 → Nov 4: balance sheet oscillating in a narrow ~$10B band, essentially flat; balance sheet stabilized post-QT-pause (QT ended December 2025); YoY +2.4% from ~$6.59T; status supportive (flat, no aggressive QT, overnight rates stable); FRED API network-restricted — latest WALCL value sourced from prior confirmed FRED data and websearch corroboration."
+      "note": "WALCL: $6,748,145M ($6.748T) for week ended November 4, 2026 (FRED updated November 5; confirmed by 247wallst Nov 8: 'Fed's $6.75 Trillion Balance Sheet Is Growing Again'; next H.4.1 release November 12 for week ended November 11); prior readings: Oct 28 $6,745,635M, Oct 21 $6,753,604M, Oct 14 $6,755,639M; 4-week change Oct 7 → Nov 4: balance sheet oscillating in a narrow ~$10B band, essentially flat; balance sheet stabilized post-QT-pause (QT ended December 2025); YoY +2.4% from ~$6.59T; 247wallst notes the Fed has rolled over maturing bonds and bought Treasury bills to keep reserves ample; status supportive (flat, no aggressive QT); FRED API network-restricted — WALCL confirmed via web search corroboration."
     },
     {
       "tier": 3,
@@ -163,7 +163,7 @@
       "value": "0.0087%",
       "trend": "flat",
       "status": "supportive",
-      "note": "CoinGlass unavailable (network restriction); latest available DeFi Rate snapshots from October 20–22, 2026 show OI-weighted BTC perp funding ~+8.8% annualized (≈0.0080% per 8h), consistent with the 0.0087% from the November 8 CoinGlass read; 30-day average through Oct 20 was ~+5.2% annualized (≈0.0048% per 8h); range oscillating 0.005–0.010% per 8h over 30 days — trend FLAT; late-September rates were near zero/negative (OKX -2.0% annualized Sep 26); status supportive (well below 0.04% headwind threshold); value held from Nov 8 — coinglass.com needs to be allowed in network settings for live refresh."
+      "note": "CoinGlass OI-weighted BTC perp funding rate 0.0087% (position-weighted), volume-weighted 0.0081%, per ChainCatcher citing CoinGlass (Nov 8–9, 2026); exchange-level snapshots: Bybit 0.0112%, Binance 0.0095% (CoinGlass live pages); BTC experienced a sharp drop to $73,761–$74K on November 8–9 with $1.04B+ in leveraged-long liquidations (CoinDesk/CryptoCatcher citing CoinGlass); 'drop and pop' pattern observed as price recovered; 30-day trend FLAT — oscillating 0.005–0.010% per 8h; late-September rates were near zero/negative; status supportive (well below 0.04% headwind threshold); the post-liquidation flush returning to near-neutral funding confirms no speculative excess, consistent with accumulation; coinglass.com network-restricted for direct API access."
     },
     {
       "tier": 3,
@@ -171,7 +171,7 @@
       "value": "11.2%",
       "trend": "up",
       "status": "neutral",
-      "note": "Stablecoin market cap confirmed ~$286–295B as of November 5, 2026 (stablecoin.com: $286.3B; The Central Bulletin via DefiLlama: $295.21B); total crypto market cap ~$2.60T (BTC dominance ~59.3% per TV-Hub); implied stablecoin dominance ~$290B/$2.60T ≈ 11.2% (unchanged from Nov 8); 30-day trend UP — October 1 dominance ~10.2% ($291B/$2.86T), now 11.2% as TOTAL fell while stablecoins held; status neutral — headwind requires rising dominance AND rising TOTAL simultaneously; TOTAL is well below Oct 1 level ($2.60T vs $2.86T) so headwind condition not met, but dominance is not falling so supportive condition not met either."
+      "note": "Stablecoin market cap $290.8B as of November 10, 2026 (DefiLlama; USDT ~60.79% share); stablecoin.com (Nov 5): $286.3B; The Central Bulletin/DefiLlama (Nov 5): $295.21B; total crypto market cap unclear — Coinbird appears to show 10.90% stablecoin dominance but date unconfirmed; TOTAL estimated ~$2.60–2.67T; value held at 11.2% (Nov 9) due to conflicting total market cap sources post-BTC liquidation event; 30-day trend UP — October 1 dominance ~10.2% ($291B/$2.86T), rising as TOTAL declined while stablecoins held; status neutral — headwind requires rising dominance AND rising TOTAL simultaneously; TOTAL declined from Oct 1 level ($2.60T vs $2.86T) so headwind condition not met, but dominance is not falling so supportive condition not met; value unchanged pending confirmation."
     }
   ],
   "upcoming": [
@@ -180,36 +180,36 @@
       "title": "Initial Jobless Claims (week ended November 8, 2026)",
       "category": "Labor",
       "importance": "medium",
-      "note": "DOL weekly initial jobless claims released Wednesday November 12 (shifted one day earlier from normal Thursday due to Veterans Day federal holiday November 11); first labor pulse following the strong October NFP (+165K, unemployment 4.1%); a print below 215K would reinforce December hike odds; a spike above 230K would re-open debate about labor-market cooling ahead of the FOMC blackout period (November 28); Fed H.4.1 balance sheet release (WALCL, week ended Nov 11) also expected this day."
+      "note": "DOL weekly initial jobless claims released Wednesday November 12 (shifted one day earlier from normal Thursday due to Veterans Day federal holiday November 11); first labor pulse following the strong October NFP (+165K, unemployment 4.1%) and the November 8–9 BTC/crypto liquidation event; Fed H.4.1 balance sheet release (WALCL, week ended Nov 11) also expected this day — the first WALCL update since Nov 4's $6.748T reading; a claims print below 215K would reinforce December hike odds, while a spike above 230K would re-open debate about labor-market cooling ahead of the FOMC blackout period (November 28)."
     },
     {
       "date": "2026-11-13",
       "title": "PPI (October 2026)",
       "category": "Inflation",
       "importance": "medium",
-      "note": "BLS releases October 2026 Producer Price Index at 8:30 AM ET — consensus: +0.3% MoM headline and core; September PPI was 6.3% YoY and ISM Manufacturing Prices remains at 75.2 (9th consecutive above 70), signaling persistent upstream cost pressure; completes the November inflation picture alongside CPI (Nov 10) and provides the final inflation input set for the December FOMC dot plot revision."
+      "note": "BLS releases October 2026 Producer Price Index at 8:30 AM ET — consensus: +0.3% MoM headline and core; September PPI was 6.3% YoY and ISM Manufacturing Prices remains at 75.2 (9th consecutive above 70), signaling persistent upstream cost pressure; completes the November inflation picture alongside CPI (released Nov 10) and provides the final inflation input set for the December FOMC dot plot revision; oil's ~6% drop to $85 on November 9 (easing Iran war fears) may help moderate the headline PPI print."
     },
     {
       "date": "2026-11-17",
       "title": "US Retail Sales (October 2026)",
       "category": "Growth",
       "importance": "medium",
-      "note": "Census Bureau releases October 2026 Advance Monthly Retail Trade Survey at 8:30 AM ET; September retail sales were +0.8% MoM (well above the +0.3% forecast); consumer spending pulse following the October 30 crypto crash (~$1.49B liquidations), elevated energy prices, Iran war uncertainty, and post-midterm fiscal recalibration; a print above +0.5% MoM would support December hiking odds; a miss near 0% would add soft-landing ambiguity."
+      "note": "Census Bureau releases October 2026 Advance Monthly Retail Trade Survey at 8:30 AM ET; September retail sales were +0.8% MoM (well above the +0.3% forecast); consumer spending pulse following the October 30 crypto crash (~$1.49B liquidations), elevated energy prices through mid-October, Iran war uncertainty, and the November 8–9 crypto liquidation event ($1.04B); a print above +0.5% MoM would support December hiking odds; a miss near 0% would add soft-landing ambiguity heading into the FOMC blackout period (November 28)."
     },
     {
       "date": "2026-11-17",
       "title": "Industrial Production (October 2026)",
       "category": "Growth",
       "importance": "medium",
-      "note": "Federal Reserve releases October 2026 Industrial Production and Capacity Utilization (G.17) at 9:15 AM ET; September industrial production rose +0.4% MoM driven by manufacturing and utilities; a continued expansion would corroborate the ISM Manufacturing PMI at 55.5 (October) and support the view that the goods sector is broadening the recovery; note: the Fed is also planning an annual G.17 revision release on November 24."
+      "note": "Federal Reserve releases October 2026 Industrial Production and Capacity Utilization (G.17) at 9:15 AM ET; September industrial production rose +0.4% MoM driven by manufacturing and utilities; a continued expansion would corroborate the ISM Manufacturing PMI at 55.5 (October, 10th consecutive expansion month) and support the view that the goods sector is broadening the recovery; note: the Fed is also planning an annual G.17 revision release on November 24, so this reading may be revised."
     }
   ],
   "sources": {
     "crypto": "CoinGecko",
     "tradfi": "FRED + Stooq",
     "marketsEndpoint": "markets",
-    "indicators": "2026-11-09",
-    "calendar": "2026-11-09"
+    "indicators": "2026-11-10",
+    "calendar": "2026-11-10"
   },
   "degraded": {
     "markets": false,
@@ -219,5 +219,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-11-10T02:23:43Z"
+  "cachedAtISO": "2026-11-10T15:15:05Z"
 }
