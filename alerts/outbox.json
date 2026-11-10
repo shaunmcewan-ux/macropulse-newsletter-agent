@@ -1,6 +1,6 @@
 {
-  "ts": "2026-11-09T20:04:58Z",
+  "ts": "2026-11-10T07:06:06Z",
   "title": "MacroPulse Alert",
-  "priority": "default",
-  "message": ""
+  "priority": "high",
+  "message": "S&P 500 -4.36% (24h) → 7,353 (tech selloff). BTC ETF -$201M outflows today (Nov cum: -$1.48B). ETH ETF -$184.5M, sixth straight week of outflows. BTC $74,871 (-0.5%). Oct CPI due 13:30 UK, +0.3% m/m exp (no YoY — shutdown)."
 }

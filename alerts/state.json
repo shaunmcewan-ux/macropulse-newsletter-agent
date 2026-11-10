@@ -1,8 +1,9 @@
 {
-  "lastRunISO": "2026-11-09T20:04:58Z",
+  "lastRunISO": "2026-11-10T07:06:06Z",
   "priceAlerts": {
     "btc": { "pct": -6.0, "dir": "down", "ISO": "2026-11-06T07:04:41Z", "value": 75650 },
-    "eth": { "pct": -7.7, "dir": "down", "ISO": "2026-11-06T07:04:41Z", "value": 2240 }
+    "eth": { "pct": -7.7, "dir": "down", "ISO": "2026-11-06T07:04:41Z", "value": 2240 },
+    "us500": { "pct": -4.36, "dir": "down", "ISO": "2026-11-10T07:06:06Z", "value": 7353.73 }
   },
   "releases": {
     "US-Oct-ISM-Mfg-Nov2-2026": "2026-11-02T16:13:46Z",
@@ -27,6 +28,8 @@
     "dec-fomc-25bp-hike-odds-77-85pct-nov8": "2026-11-08T20:04:14Z",
     "btc-overnight-73510-low-1b04-liq-nov9": "2026-11-09T07:04:32Z",
     "eth-etf-365m-outflows-nov9": "2026-11-09T07:04:32Z",
-    "oct-cpi-due-nov10-et-fomc-preview": "2026-11-09T07:04:32Z"
+    "oct-cpi-due-nov10-et-fomc-preview": "2026-11-09T07:04:32Z",
+    "btc-etf-201m-outflows-nov10-cumNov-1b48": "2026-11-10T07:06:06Z",
+    "eth-etf-184m-sixth-straight-week-nov10": "2026-11-10T07:06:06Z"
   }
 }
