@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T16:52:11.596Z",
+  "generatedAt": "2026-11-10T02:23:43.531Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "5/8 indicators supportive entering November 9 — real yields at 2.60% (DFII10 Nov 5) continue their 4-week descent and the Fed balance sheet holds flat near $6.75T, while DXY at 102.30 (Friday Nov 6 close, trading subdued at ~102.20 in Asian session Nov 9 per FXStreet) remains the lone Tier 1 headwind; October CPI releases tomorrow (Nov 10) as the decisive catalyst for the December FOMC decision; BTC.D at ~59.3% and TOTAL at ~$2.60T are consistent with an accumulation phase with no alt-rotation signal yet.",
@@ -14,66 +14,66 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 74889,
+      "value": 74871,
       "format": "usd",
-      "change24h": -1.19674,
-      "change30d": -8.9767
+      "change24h": -0.51807,
+      "change30d": -9.4875
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 2130.1,
+      "value": 2120.23,
       "format": "usd",
-      "change24h": -4.56991,
-      "change30d": -14.3864
+      "change24h": -1.32216,
+      "change30d": -15.0974
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02846221,
+      "value": 0.02833269,
       "format": "ratio",
-      "change24h": -3.2225131117564114,
-      "change30d": -5.613168420278306
+      "change24h": -0.7749539109086825,
+      "change30d": -6.976578570018467
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 59.58081876763267,
+      "value": 59.65729840243278,
       "format": "percent",
-      "change24h": 2.2680943775438944,
-      "change30d": 1.137749865535974
+      "change24h": 1.381638472288893,
+      "change30d": 1.3863276370929778
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2516835449382.548,
+      "value": 2517872435269.1616,
       "format": "usd-compact",
-      "change24h": -3.321421405393626,
-      "change30d": -10.250906994505183
+      "change24h": -1.8719844154103376,
+      "change30d": -10.963797320999548
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1017284281606.3987,
+      "value": 1015777763168.0367,
       "format": "usd-compact",
-      "change24h": -6.412658916154424,
-      "change30d": -11.78624932972004
+      "change24h": -3.82166334260172,
+      "change30d": -12.814581968873497
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 758226885576.0337,
+      "value": 757164028742.2911,
       "format": "usd-compact",
-      "change24h": -7.070816461051269,
-      "change30d": -10.853792070425929
+      "change24h": -4.653328223654698,
+      "change30d": -11.86125939526049
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 101.843,
+      "value": 101.684,
       "format": "index",
-      "change24h": -0.42628496563321194,
-      "change30d": -0.279061569794764
+      "change24h": 0.006884546160872952,
+      "change30d": -0.43474855083816644
     },
     {
       "id": "us500",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 4106.461,
+      "value": 4124.68,
       "format": "usd",
-      "change24h": 0.9050208495612656,
-      "change30d": -0.6767301012954442
+      "change24h": -0.38292153067175044,
+      "change30d": -0.2360658275364816
     }
   ],
   "indicators": [
@@ -176,13 +176,6 @@
   ],
   "upcoming": [
     {
-      "date": "2026-11-10",
-      "title": "CPI (October 2026)",
-      "category": "Inflation",
-      "importance": "high",
-      "note": "BLS releases October 2026 Consumer Price Index at 8:30 AM ET — the last inflation report the Fed receives before the December 9 FOMC vote (November CPI publishes Dec 10, the day after the decision); consensus: +0.3% MoM headline, 3.7% YoY, core +0.2% MoM / 2.6% YoY; October NFP beat (+165K, unemployment 4.1%) and elevated ISM Prices (75.2) raised the bar for a soft print; a hot print above 3.7% would seal a December hike, while a print near 3.0% could keep December in play as a pause; DXY subdued at ~102.20 in Asian session Nov 9 as markets await the report."
-    },
-    {
       "date": "2026-11-12",
       "title": "Initial Jobless Claims (week ended November 8, 2026)",
       "category": "Labor",
@@ -195,6 +188,20 @@
       "category": "Inflation",
       "importance": "medium",
       "note": "BLS releases October 2026 Producer Price Index at 8:30 AM ET — consensus: +0.3% MoM headline and core; September PPI was 6.3% YoY and ISM Manufacturing Prices remains at 75.2 (9th consecutive above 70), signaling persistent upstream cost pressure; completes the November inflation picture alongside CPI (Nov 10) and provides the final inflation input set for the December FOMC dot plot revision."
+    },
+    {
+      "date": "2026-11-17",
+      "title": "US Retail Sales (October 2026)",
+      "category": "Growth",
+      "importance": "medium",
+      "note": "Census Bureau releases October 2026 Advance Monthly Retail Trade Survey at 8:30 AM ET; September retail sales were +0.8% MoM (well above the +0.3% forecast); consumer spending pulse following the October 30 crypto crash (~$1.49B liquidations), elevated energy prices, Iran war uncertainty, and post-midterm fiscal recalibration; a print above +0.5% MoM would support December hiking odds; a miss near 0% would add soft-landing ambiguity."
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Industrial Production (October 2026)",
+      "category": "Growth",
+      "importance": "medium",
+      "note": "Federal Reserve releases October 2026 Industrial Production and Capacity Utilization (G.17) at 9:15 AM ET; September industrial production rose +0.4% MoM driven by manufacturing and utilities; a continued expansion would corroborate the ISM Manufacturing PMI at 55.5 (October) and support the view that the goods sector is broadening the recovery; note: the Fed is also planning an annual G.17 revision release on November 24."
     }
   ],
   "sources": {
@@ -212,5 +219,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-11-09T16:52:11Z"
+  "cachedAtISO": "2026-11-10T02:23:43Z"
 }
