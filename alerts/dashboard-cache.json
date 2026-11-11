@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T15:15:05.194Z",
+  "generatedAt": "2026-11-11T00:14:43.173Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "5/8 indicators supportive entering November 10 — October CPI releases at 8:30 AM ET today (consensus +0.3% MoM / 3.9% YoY, Cleveland Fed nowcast 3.74%) as the decisive pre-FOMC catalyst; DXY slipped to 101.99 as oil tumbled ~6% to $85 on easing Iran-war fears, reducing inflation pressure; real yields ticked up to 2.63% (Nov 6) but remain on a 4-week downtrend; BTC's $1B+ liquidation flush to $74K on November 8–9 with neutral funding (0.0087%) represents a healthy reset consistent with ongoing accumulation ahead of the macro resolution.",
@@ -14,82 +14,82 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 74419,
+      "value": 73603,
       "format": "usd",
-      "change24h": -0.60487,
-      "change30d": -10.5212
+      "change24h": -2.19308,
+      "change30d": -11.7752
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 2077.23,
+      "value": 2049.52,
       "format": "usd",
-      "change24h": -2.31687,
-      "change30d": -16.8456
+      "change24h": -3.83914,
+      "change30d": -19.0023
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02788459,
+      "value": 0.02782586,
       "format": "ratio",
-      "change24h": -2.1815047123869147,
-      "change30d": -8.857552236787553
+      "change24h": -1.6709378764184781,
+      "change30d": -7.019751302004362
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 59.731342577350624,
+      "value": 59.74701651618057,
       "format": "percent",
-      "change24h": 2.740133998611727,
-      "change30d": 1.4539060675518471
+      "change24h": 2.5848724740302753,
+      "change30d": 1.4480843755141923
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2498723480503.729,
+      "value": 2474842153499.019,
       "format": "usd-compact",
-      "change24h": -3.2930986820179164,
-      "change30d": -11.55337436838482
+      "change24h": -4.645346198813732,
+      "change30d": -13.263511360671256
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 1006202398303.3478,
+      "value": 996197803298.5612,
       "format": "usd-compact",
-      "change24h": -6.99736421871734,
-      "change30d": -13.464708058129835
+      "change24h": -8.091655139233016,
+      "change30d": -15.147926423530803
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 752605364989.7042,
+      "value": 746174596131.2499,
       "format": "usd-compact",
-      "change24h": -8.470824109648964,
-      "change30d": -12.09005439917661
+      "change24h": -9.437699858468784,
+      "change30d": -13.6539456966504
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 102.11,
+      "value": 102.217,
       "format": "index",
-      "change24h": 0.4258583553802656,
-      "change30d": -0.0176249412501965
+      "change24h": 0.5310935609823185,
+      "change30d": -0.08406400594312828
     },
     {
       "id": "us500",
       "label": "S&P 500",
-      "value": 7353.73,
+      "value": 7549.94,
       "format": "index",
-      "change24h": -4.35565810249434,
-      "change30d": -5.949663189208763
+      "change24h": 2.346255723980121,
+      "change30d": -3.3488915117889735
     },
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10794.88,
+      "value": 10751.59,
       "format": "index",
-      "change24h": 0.1112875224429837,
-      "change30d": 3.3843796389407577
+      "change24h": -0.2901822147700712,
+      "change30d": 2.969784034860893
     },
     {
       "id": "oil",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 4050.34,
+      "value": 4041.348,
       "format": "usd",
-      "change24h": -2.1783416877287527,
-      "change30d": -2.034132796702805
+      "change24h": 0.2189201789451751,
+      "change30d": -3.658148183465248
     }
   ],
   "indicators": [
@@ -202,6 +202,20 @@
       "category": "Growth",
       "importance": "medium",
       "note": "Federal Reserve releases October 2026 Industrial Production and Capacity Utilization (G.17) at 9:15 AM ET; September industrial production rose +0.4% MoM driven by manufacturing and utilities; a continued expansion would corroborate the ISM Manufacturing PMI at 55.5 (October, 10th consecutive expansion month) and support the view that the goods sector is broadening the recovery; note: the Fed is also planning an annual G.17 revision release on November 24, so this reading may be revised."
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Housing Starts (October 2026)",
+      "category": "Growth",
+      "importance": "medium",
+      "note": "Census Bureau releases October 2026 New Residential Construction at 8:30 AM ET; September housing starts came in at a seasonally adjusted annual rate amid elevated mortgage rates (10Y at ~4.86% as of Nov 6, 30Y mortgage near 7.1%); higher-for-longer rate expectations after the October NFP beat continue to pressure affordability; real yields remain elevated at 2.63% despite their 4-week downtrend; a sharp drop in permits would signal further tightening of residential investment entering Q4 2026."
+    },
+    {
+      "date": "2026-11-18",
+      "title": "FOMC Minutes — October 27–28 Meeting",
+      "category": "Fed",
+      "importance": "medium",
+      "note": "Federal Reserve releases minutes of the October 27–28 FOMC meeting at 2:00 PM ET; Fed funds target range 3.75%–4.00% at that meeting; minutes will reveal member views on threshold conditions for a December 9 pause or additional 25bp hike, balance sheet policy (WALCL flat at $6.75T post-QT-pause), and reaction-function given elevated ISM Prices (75.2) and Iran-war supply shocks; combined with October CPI (Nov 10), PPI (Nov 13), NFP (Nov 6, +165K), and Retail Sales (Nov 17), the minutes set the final market narrative before the FOMC pre-meeting blackout period begins November 28; markets pricing ~80% chance of December hike (per FXStreet Nov 9)."
     }
   ],
   "sources": {
@@ -219,5 +233,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-11-10T15:15:05Z"
+  "cachedAtISO": "2026-11-11T00:14:43Z"
 }
