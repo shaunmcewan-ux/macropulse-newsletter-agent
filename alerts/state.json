@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-11-11T15:06:48Z",
+  "lastRunISO": "2026-11-11T20:04:56Z",
   "priceAlerts": {
     "btc": { "pct": -6.0, "dir": "down", "ISO": "2026-11-06T07:04:41Z", "value": 75650 },
     "eth": { "pct": -7.7, "dir": "down", "ISO": "2026-11-06T07:04:41Z", "value": 2240 },
@@ -32,6 +32,9 @@
     "oct-cpi-hot-04pct-core-03pct-beats-both-nov10": "2026-11-10T15:05:47Z",
     "crypto-178m-longs-liquidated-post-cpi-nov10": "2026-11-10T15:05:47Z",
     "dec-fomc-50bp-waller-threshold-hot-cpi-nov10": "2026-11-10T15:05:47Z",
-    "crypto-724m-liquidations-cpi-escalation-nov11": "2026-11-11T07:06:33Z"
+    "crypto-724m-liquidations-cpi-escalation-nov11": "2026-11-11T07:06:33Z",
+    "mara-sells-13597-btc-11b-ai-pivot-plans-more-sales-nov9": "2026-11-11T20:04:56Z",
+    "dec-fomc-hike-odds-90pct-cme-fedwatch-nov11": "2026-11-11T20:04:56Z",
+    "btc-73700-equities-rebound-4th-etf-outflow-day-nov11": "2026-11-11T20:04:56Z"
   }
 }
