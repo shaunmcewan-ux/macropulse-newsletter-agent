@@ -1,21 +1,15 @@
 {
-  "lastRunISO": "2026-11-12T15:05:42Z",
+  "lastRunISO": "2026-11-12T20:03:38Z",
   "priceAlerts": {
-    "btc": { "pct": -6.0, "dir": "down", "ISO": "2026-11-06T07:04:41Z", "value": 75650 },
+    "btc": { "pct": -3.3, "dir": "down", "ISO": "2026-11-12T20:03:38Z", "value": 71800 },
     "eth": { "pct": -7.7, "dir": "down", "ISO": "2026-11-06T07:04:41Z", "value": 2240 },
     "us500": { "pct": -4.36, "dir": "down", "ISO": "2026-11-10T07:06:06Z", "value": 7353.73 }
   },
   "releases": {
-    "US-Oct-ISM-Services-Nov4-2026": "2026-11-04T15:05:35Z",
     "US-Oct-NFP-Nov6-2026": "2026-11-06T15:04:52Z",
     "US-Oct-CPI-Nov10-2026": "2026-11-10T15:05:47Z"
   },
   "news": {
-    "democrats-win-house-senate-clarity-dead-nov3-4-2026": "2026-11-04T07:06:50Z",
-    "btc-75728-election-night-low-nov3-4-2026": "2026-11-04T07:06:50Z",
-    "crypto-366m-liquidations-election-night-nov3-4": "2026-11-04T07:06:50Z",
-    "btc-78k-v-shape-recovery-election-low-nov4": "2026-11-04T15:05:35Z",
-    "ism-services-oct-2026-54pct5-vs-54pct9-prior-nov4": "2026-11-04T15:05:35Z",
     "eth-etf-7day-outflow-streak-656m-nov4": "2026-11-04T20:04:54Z",
     "btc-etf-inflows-746m-nov4-outflow-streak-end": "2026-11-05T07:05:57Z",
     "nasdaq-rout-btc-6pct-eth-7pct-1b25-liq-430m-etf-out-nov6": "2026-11-06T07:04:41Z",
@@ -36,6 +30,9 @@
     "mara-sells-13597-btc-11b-ai-pivot-plans-more-sales-nov9": "2026-11-11T20:04:56Z",
     "dec-fomc-hike-odds-90pct-cme-fedwatch-nov11": "2026-11-11T20:04:56Z",
     "btc-73700-equities-rebound-4th-etf-outflow-day-nov11": "2026-11-11T20:04:56Z",
-    "msci-removes-strategy-acwi-imi-nov30-effective-nov12": "2026-11-12T07:06:16Z"
+    "msci-removes-strategy-acwi-imi-nov30-effective-nov12": "2026-11-12T07:06:16Z",
+    "btc-below-72k-5th-etf-outflow-day-nov12": "2026-11-12T20:03:38Z",
+    "goolsbee-oct-cpi-borderline-disturbing-50bp-risk-nov12": "2026-11-12T20:03:38Z",
+    "btc-etf-5th-outflow-299m-ibit-94pct-nov-outflows-nov12": "2026-11-12T20:03:38Z"
   }
 }
