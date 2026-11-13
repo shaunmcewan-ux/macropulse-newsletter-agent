@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T15:36:38.036Z",
+  "generatedAt": "2026-11-13T00:41:42.632Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "5/8 indicators supportive entering November 12 — DXY piercing 103.02 (highest since April 2025) on continued post-CPI repricing is the key headwind, but ISM Manufacturing at 55.5 (10th consecutive expansion month), Global M2 trending up, real yields on a 4-week downtrend to 2.66%, and BTC funding drifting to a neutral 0.0045% post-liquidation flush all sustain the accumulation backdrop; BTC.D firm at 59.3% with TOTAL at ~$2.60T shows no alt-rotation signal yet.",
@@ -14,66 +14,66 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 71304,
+      "value": 70901,
       "format": "usd",
-      "change24h": -3.91716,
-      "change30d": -14.0427
+      "change24h": -4.1722,
+      "change30d": -14.5002
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 1995.43,
+      "value": 2005.3,
       "format": "usd",
-      "change24h": -4.01479,
-      "change30d": -19.9423
+      "change24h": -2.65674,
+      "change30d": -19.6031
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02796481,
+      "value": 0.02832883,
       "format": "ratio",
-      "change24h": -0.7292035194262204,
-      "change30d": -10.216097639031881
+      "change24h": 1.6833865544801017,
+      "change30d": -5.310768471450284
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 59.53507890519245,
+      "value": 59.31636963786578,
       "format": "percent",
-      "change24h": 1.2617984847755226,
-      "change30d": 0.8029482845645333
+      "change24h": 1.6149887361303072,
+      "change30d": 0.2518753389739454
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2408522006893.155,
+      "value": 2391142450300.943,
       "format": "usd-compact",
-      "change24h": -5.112499049238069,
-      "change30d": -13.46345340667435
+      "change24h": -5.686896006194822,
+      "change30d": -14.9046864442666
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 974606529640.3903,
+      "value": 972803555912.5144,
       "format": "usd-compact",
-      "change24h": -6.820993503538814,
-      "change30d": -14.517103365374561
+      "change24h": -7.85079149604271,
+      "change30d": -15.167418610447584
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 730133259384.912,
+      "value": 728857686446.5587,
       "format": "usd-compact",
-      "change24h": -7.722144311662365,
-      "change30d": -13.031203351449362
+      "change24h": -9.49633868011098,
+      "change30d": -13.433510186741527
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 103.165,
+      "value": 103.23,
       "format": "index",
-      "change24h": 0.31212321574424584,
-      "change30d": 0.5810722537998846
+      "change24h": 0.058156440825823656,
+      "change30d": 0.9959691621336053
     },
     {
       "id": "us500",
@@ -86,10 +86,10 @@
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10846.26,
+      "value": 10863.1,
       "format": "index",
-      "change24h": 0.09948797838213587,
-      "change30d": 1.783753652809918
+      "change24h": 0.2549033360774124,
+      "change30d": 1.9417840164111348
     },
     {
       "id": "oil",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 3864.629,
+      "value": 3886.05,
       "format": "usd",
-      "change24h": -3.086265265692001,
-      "change30d": -7.331712381815619
+      "change24h": 0.2294725021168984,
+      "change30d": -6.610704303878992
     }
   ],
   "indicators": [
@@ -176,13 +176,6 @@
   ],
   "upcoming": [
     {
-      "date": "2026-11-13",
-      "title": "PPI (October 2026)",
-      "category": "Inflation",
-      "importance": "medium",
-      "note": "BLS releases October 2026 Producer Price Index at 8:30 AM ET; completes the November inflation picture alongside October CPI (+0.4% MoM, released Nov 10 — hot vs +0.3% consensus); September PPI was +6.3% YoY and ISM Manufacturing Prices remains elevated at 77.9; a hot PPI print would amplify the December FOMC hike case; oil's ~6% drop to $85 on Nov 9 may moderate the energy component of headline PPI."
-    },
-    {
       "date": "2026-11-17",
       "title": "US Retail Sales (October 2026)",
       "category": "Growth",
@@ -223,6 +216,13 @@
       "category": "PMI",
       "importance": "low",
       "note": "Federal Reserve Bank of Philadelphia releases November 2026 Manufacturing Business Outlook Survey at 8:30 AM ET; provides a first-look at November manufacturing activity ahead of the December 1 ISM Manufacturing PMI; a positive print above 0 would reinforce the October ISM signal at 55.5 (10th consecutive expansion month); released on the third Thursday of the month."
+    },
+    {
+      "date": "2026-11-20",
+      "title": "Existing Home Sales (October 2026)",
+      "category": "Growth",
+      "importance": "low",
+      "note": "National Association of Realtors releases October 2026 Existing Home Sales at 10:00 AM ET; mortgage rates near 7.1% continue to suppress turnover via the low-rate lock-in effect; provides a full-month housing transaction count for October; watch for any inventory normalization trends given elevated rate environment."
     }
   ],
   "sources": {
@@ -240,5 +240,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-11-12T15:36:38Z"
+  "cachedAtISO": "2026-11-13T00:41:42Z"
 }
