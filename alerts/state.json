@@ -1,16 +1,14 @@
 {
-  "lastRunISO": "2026-11-13T15:47:08Z",
+  "lastRunISO": "2026-11-13T20:04:46Z",
   "priceAlerts": {
     "btc": { "pct": -7.3, "dir": "down", "ISO": "2026-11-13T07:05:38Z", "value": 68200 },
     "us500": { "pct": -4.36, "dir": "down", "ISO": "2026-11-10T07:06:06Z", "value": 7353.73 }
   },
   "releases": {
-    "US-Oct-NFP-Nov6-2026": "2026-11-06T15:04:52Z",
     "US-Oct-CPI-Nov10-2026": "2026-11-10T15:05:47Z",
     "US-Oct-PPI-Nov13-2026": "2026-11-13T15:47:08Z"
   },
   "news": {
-    "us-oct-nfp-165k-beat-59k-est-sep-revised-60k-nov6": "2026-11-06T15:04:52Z",
     "btc-etf-412m-ibit-5session-weekly-1b28-nov6": "2026-11-07T15:03:23Z",
     "altcoin-rout-sui-10pct-total-5pct-70pct-below-200d-ma-nov8": "2026-11-08T15:04:43Z",
     "web3auth-exploit-emergency-suspension-nov7-2026": "2026-11-08T15:04:43Z",
