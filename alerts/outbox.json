@@ -1,6 +1,6 @@
 {
-  "ts": "2026-11-12T20:03:38Z",
+  "ts": "2026-11-13T07:05:38Z",
   "title": "MacroPulse Alert",
-  "priority": "default",
-  "message": "BTC -3.3% (24h) → ~$71,800; 5th straight spot ETF outflow day ($299.8M Wed)\nGoolsbee: Oct CPI \"borderline disturbing\" — Dec 50bp risk now ~15% on futures\nBTC spot ETF Nov outflows: $1.77B total, IBIT driving 94% of November redemptions\nPPI due Thu 08:30 ET — consensus 6.6% YoY vs 6.3% prior; hot print = escalating Dec hike risk"
+  "priority": "high",
+  "message": "BTC -7.3% (24h) → ~$68,200 — broke below $69K support\n$1.41B crypto liquidations in 24h; altcoins (XRP, DOGE) -8%+\nOct PPI due 08:30 ET today — consensus 6.6% YoY vs 6.3% prior (hot CPI context)"
 }

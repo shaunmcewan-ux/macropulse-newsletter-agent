@@ -1,8 +1,7 @@
 {
-  "lastRunISO": "2026-11-12T20:03:38Z",
+  "lastRunISO": "2026-11-13T07:05:38Z",
   "priceAlerts": {
-    "btc": { "pct": -3.3, "dir": "down", "ISO": "2026-11-12T20:03:38Z", "value": 71800 },
-    "eth": { "pct": -7.7, "dir": "down", "ISO": "2026-11-06T07:04:41Z", "value": 2240 },
+    "btc": { "pct": -7.3, "dir": "down", "ISO": "2026-11-13T07:05:38Z", "value": 68200 },
     "us500": { "pct": -4.36, "dir": "down", "ISO": "2026-11-10T07:06:06Z", "value": 7353.73 }
   },
   "releases": {
@@ -10,9 +9,6 @@
     "US-Oct-CPI-Nov10-2026": "2026-11-10T15:05:47Z"
   },
   "news": {
-    "eth-etf-7day-outflow-streak-656m-nov4": "2026-11-04T20:04:54Z",
-    "btc-etf-inflows-746m-nov4-outflow-streak-end": "2026-11-05T07:05:57Z",
-    "nasdaq-rout-btc-6pct-eth-7pct-1b25-liq-430m-etf-out-nov6": "2026-11-06T07:04:41Z",
     "us-oct-nfp-165k-beat-59k-est-sep-revised-60k-nov6": "2026-11-06T15:04:52Z",
     "btc-etf-412m-ibit-5session-weekly-1b28-nov6": "2026-11-07T15:03:23Z",
     "altcoin-rout-sui-10pct-total-5pct-70pct-below-200d-ma-nov8": "2026-11-08T15:04:43Z",
@@ -33,6 +29,7 @@
     "msci-removes-strategy-acwi-imi-nov30-effective-nov12": "2026-11-12T07:06:16Z",
     "btc-below-72k-5th-etf-outflow-day-nov12": "2026-11-12T20:03:38Z",
     "goolsbee-oct-cpi-borderline-disturbing-50bp-risk-nov12": "2026-11-12T20:03:38Z",
-    "btc-etf-5th-outflow-299m-ibit-94pct-nov-outflows-nov12": "2026-11-12T20:03:38Z"
+    "btc-etf-5th-outflow-299m-ibit-94pct-nov-outflows-nov12": "2026-11-12T20:03:38Z",
+    "btc-crash-below-69k-141b-liquidations-nov13": "2026-11-13T07:05:38Z"
   }
 }
