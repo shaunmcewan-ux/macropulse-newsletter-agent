@@ -1,12 +1,13 @@
 {
-  "lastRunISO": "2026-11-13T07:05:38Z",
+  "lastRunISO": "2026-11-13T15:47:08Z",
   "priceAlerts": {
     "btc": { "pct": -7.3, "dir": "down", "ISO": "2026-11-13T07:05:38Z", "value": 68200 },
     "us500": { "pct": -4.36, "dir": "down", "ISO": "2026-11-10T07:06:06Z", "value": 7353.73 }
   },
   "releases": {
     "US-Oct-NFP-Nov6-2026": "2026-11-06T15:04:52Z",
-    "US-Oct-CPI-Nov10-2026": "2026-11-10T15:05:47Z"
+    "US-Oct-CPI-Nov10-2026": "2026-11-10T15:05:47Z",
+    "US-Oct-PPI-Nov13-2026": "2026-11-13T15:47:08Z"
   },
   "news": {
     "us-oct-nfp-165k-beat-59k-est-sep-revised-60k-nov6": "2026-11-06T15:04:52Z",
@@ -30,6 +31,9 @@
     "btc-below-72k-5th-etf-outflow-day-nov12": "2026-11-12T20:03:38Z",
     "goolsbee-oct-cpi-borderline-disturbing-50bp-risk-nov12": "2026-11-12T20:03:38Z",
     "btc-etf-5th-outflow-299m-ibit-94pct-nov-outflows-nov12": "2026-11-12T20:03:38Z",
-    "btc-crash-below-69k-141b-liquidations-nov13": "2026-11-13T07:05:38Z"
+    "btc-crash-below-69k-141b-liquidations-nov13": "2026-11-13T07:05:38Z",
+    "btc-etf-817m-6th-outflow-day-nine-month-low-nov13": "2026-11-13T15:47:08Z",
+    "btc-eth-etf-ytd-flows-turn-negative-2026-17b-shed-nov13": "2026-11-13T15:47:08Z",
+    "oct-ppi-03pct-mom-65pct-yoy-4yr-high-nov13": "2026-11-13T15:47:08Z"
   }
 }

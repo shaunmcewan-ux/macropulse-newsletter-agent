@@ -1,6 +1,6 @@
 {
-  "ts": "2026-11-13T07:05:38Z",
+  "ts": "2026-11-13T15:47:08Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "BTC -7.3% (24h) → ~$68,200 — broke below $69K support\n$1.41B crypto liquidations in 24h; altcoins (XRP, DOGE) -8%+\nOct PPI due 08:30 ET today — consensus 6.6% YoY vs 6.3% prior (hot CPI context)"
+  "priority": "default",
+  "message": "Oct PPI +0.3% MoM (est +0.4%), +6.5% YoY — 4-yr high; Dec FOMC hike odds ~83%\nBTC ETF -$817M (6th straight outflow day) — 9-month low; crypto ETF YTD flows turn negative for 2026"
 }
