@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T13:48:03.506Z",
+  "generatedAt": "2026-11-14T19:29:25.708Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "4/8 indicators supportive on November 14 — BTC.D holding firm at ~59% and near-zero/negative perp funding rates (0.0052%, reports of negative on major exchanges) signal healthy deleveraging rather than panic, keeping accumulation conditions intact despite BTC falling to ~$67–69K; ISM Manufacturing at 55.5 and Global M2 expanding at $104.3T sustain the macro bid, but DXY elevated at 103.28 and real yields shifting to flat/elevated (2.86%, now neutral) represent the primary headwinds; stablecoin dominance jump to 12.5% (from 11.0%) reflects risk-off repositioning within crypto rather than macro breakdown.",
@@ -14,58 +14,58 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 66876,
+      "value": 65540,
       "format": "usd",
-      "change24h": -4.07037,
-      "change30d": -17.2964
+      "change24h": -4.98291,
+      "change30d": -20.4418
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 1894.13,
+      "value": 1831.21,
       "format": "usd",
-      "change24h": -4.07489,
-      "change30d": -19.6209
+      "change24h": -5.9841,
+      "change30d": -25.0778
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02840318,
+      "value": 0.02801897,
       "format": "ratio",
-      "change24h": 0.4382779023142457,
-      "change30d": -6.543940851981596
+      "change24h": -0.8332885475043073,
+      "change30d": -9.717240260540889
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 58.73630926945983,
+      "value": 58.851310435180814,
       "format": "percent",
-      "change24h": 1.8350465577745778,
-      "change30d": -0.6297342603512602
+      "change24h": 2.7487565453749196,
+      "change30d": -0.31680399411147603
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2282737380031.6885,
+      "value": 2224510016237.899,
       "format": "usd-compact",
-      "change24h": -5.7567279202338835,
-      "change30d": -17.503603122374457
+      "change24h": -7.522734878024012,
+      "change30d": -19.376461452444914
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 941941692686.7114,
+      "value": 915356720920.0419,
       "format": "usd-compact",
-      "change24h": -8.13268366251224,
-      "change30d": -16.71252650051599
+      "change24h": -10.985858607574247,
+      "change30d": -18.98752490761161
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 711112022061.0125,
+      "value": 693224479163.3478,
       "format": "usd-compact",
-      "change24h": -9.404088172274223,
-      "change30d": -14.830499510216228
+      "change24h": -12.5126583358791,
+      "change30d": -16.795600103897513
     },
     {
       "id": "dxy",
@@ -240,5 +240,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-11-14T13:48:03Z"
+  "cachedAtISO": "2026-11-14T19:29:25Z"
 }
