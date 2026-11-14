@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-14T00:27:58.399Z",
+  "generatedAt": "2026-11-14T13:48:03.506Z",
   "dial": {
     "state": "BTC Accumulation",
-    "summary": "5/8 indicators supportive entering November 13 — DXY surging to a 52-week high at 103.19 on sustained hot-CPI repricing is the primary headwind, but ISM Manufacturing at 55.5 (10th consecutive expansion), Global M2 trending up at $104.3T, real yields easing on a 4-week basis to 2.78%, and BTC funding neutral at 0.0098% sustain the accumulation backdrop; BTC's 4.3% intraday drop reflects DXY pressure rather than a macro breakdown, with BTC.D firm at ~59% and no alt-rotation signal.",
+    "summary": "4/8 indicators supportive on November 14 — BTC.D holding firm at ~59% and near-zero/negative perp funding rates (0.0052%, reports of negative on major exchanges) signal healthy deleveraging rather than panic, keeping accumulation conditions intact despite BTC falling to ~$67–69K; ISM Manufacturing at 55.5 and Global M2 expanding at $104.3T sustain the macro bid, but DXY elevated at 103.28 and real yields shifting to flat/elevated (2.86%, now neutral) represent the primary headwinds; stablecoin dominance jump to 12.5% (from 11.0%) reflects risk-off repositioning within crypto rather than macro breakdown.",
     "states": [
       "BTC Accumulation",
       "Alt Rotation",
@@ -14,58 +14,58 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 68303,
+      "value": 66876,
       "format": "usd",
-      "change24h": -3.99132,
-      "change30d": -16.3309
+      "change24h": -4.07037,
+      "change30d": -17.2964
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 1933.2,
+      "value": 1894.13,
       "format": "usd",
-      "change24h": -3.89362,
-      "change30d": -20.2418
+      "change24h": -4.07489,
+      "change30d": -19.6209
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02830561,
+      "value": 0.02840318,
       "format": "ratio",
-      "change24h": 0.32889936428863065,
-      "change30d": -4.711463871077958
+      "change24h": 0.4382779023142457,
+      "change30d": -6.543940851981596
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 58.88587496136984,
+      "value": 58.73630926945983,
       "format": "percent",
-      "change24h": 2.063483077849537,
-      "change30d": -0.4862684819501619
+      "change24h": 1.8350465577745778,
+      "change30d": -0.6297342603512602
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2328548962563.972,
+      "value": 2282737380031.6885,
       "format": "usd-compact",
-      "change24h": -5.987217850667035,
-      "change30d": -15.887878400012797
+      "change24h": -5.7567279202338835,
+      "change30d": -17.503603122374457
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 957362532054.2771,
+      "value": 941941692686.7114,
       "format": "usd-compact",
-      "change24h": -8.644316365293129,
-      "change30d": -15.265060685015344
+      "change24h": -8.13268366251224,
+      "change30d": -16.71252650051599
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 721478377742.6443,
+      "value": 711112022061.0125,
       "format": "usd-compact",
-      "change24h": -10.1004123942777,
-      "change30d": -13.437863294216534
+      "change24h": -9.404088172274223,
+      "change30d": -14.830499510216228
     },
     {
       "id": "dxy",
@@ -73,15 +73,15 @@
       "value": 103.41,
       "format": "index",
       "change24h": 0.23262576330328089,
-      "change30d": 1.1720737291120351
+      "change30d": 0.995204656659268
     },
     {
       "id": "us500",
       "label": "S&P 500",
-      "value": 7592.4,
+      "value": 7561.67,
       "format": "index",
-      "change24h": -0.3540970525160902,
-      "change30d": -2.729503103600692
+      "change24h": -0.4047468521152674,
+      "change30d": -2.0374559201133775
     },
     {
       "id": "ftse",
@@ -115,7 +115,7 @@
       "value": "$104.3T",
       "trend": "up",
       "status": "supportive",
-      "note": "MacroMicro G4 aggregate (US/Euro Zone/China/Japan) holds at ~$104.3T as of September 2026 (104,317B); October G4 data not yet published — MacroMicro typically updates mid-month following the reference month, so October G4 update expected mid-November 2026; US M2 at $23.4T in Sep 2026 (+5.7% YoY per Macrotrends/FRED); 4-week Aug→Sep change +$0.64T (+0.6%) exceeds flat threshold — trend UP; status supportive (4-week trend up, no YoY contraction); held unchanged from Nov 11 run — October G4 data publication pending mid-November 2026."
+      "note": "MacroMicro G4 aggregate (US/Euro Zone/China/Japan) holds at ~$104.3T as of September 2026 (104,317.08B per MacroMicro series); October G4 data not yet published as of November 14, 2026 — MacroMicro typically updates mid-month following the reference month, so October G4 update expected mid-to-late November 2026; US M2 at $23.41T in Sep 2026 (+5.7% YoY per Macrotrends/FRED H.6); August G4 aggregate was $103.66T, confirming Sep ($104.3T) as an increase; 4-week Aug→Sep change +$0.64T (+0.6%) exceeds flat threshold — trend UP; status supportive (4-week trend up, no YoY contraction); held unchanged from Nov 13 run — October G4 data publication pending."
     },
     {
       "tier": 1,
@@ -123,55 +123,55 @@
       "value": "55.5",
       "trend": "up",
       "status": "supportive",
-      "note": "October 2026 ISM Manufacturing PMI at 55.5% (released November 2, 2026), beating consensus 54.6%, up 1.0pp from September's 54.5%; 10th consecutive expansion month; Production sub-index 59.0, New Orders 55.5, Prices Paid 75.2 (down from September's 77.9; still elevated but easing), Employment 52.4; ISM survey chair cited Iran war and price volatility as headwinds despite sustained expansion; 4-week trend UP (Sep 54.5 → Oct 55.5, +1.0pp); status supportive (above 50 and rising); next ISM Manufacturing release December 1, 2026 (November data); value unchanged — October 55.5 is the current monthly reading."
+      "note": "October 2026 ISM Manufacturing PMI at 55.5% (released November 2, 2026), beating consensus 54.6%, up 1.0pp from September's 54.5%; 10th consecutive expansion month; Production sub-index 59.0, New Orders 55.5, Backlog of Orders 56.4, Prices Paid 77.9 (up from 71.1 in August — persistent inflationary pressure in manufacturing); August was 55.6, September 54.5, October 55.5; 4-week trend UP (Sep 54.5 → Oct 55.5, +1.0pp); status supportive (above 50 and rising); next ISM Manufacturing release December 1, 2026 (November data); value unchanged — October 55.5 is the current monthly reading."
     },
     {
       "tier": 1,
       "name": "DXY (US Dollar Index)",
-      "value": "103.19",
+      "value": "103.28",
       "trend": "up",
       "status": "headwind",
-      "note": "ICE DXY spot 103.19 as of November 13, 2026 (DealPlexus: 103.18 up 0.26%; CNBC: 103.189; 52-week high set November 12 at 103.24); DXY extended gains from the November 10 hot-CPI surge (prior: 103.02 Nov 12), cementing December FOMC hike expectations; 4-week trend UP — from ~101.5–101.8 on October 10 to 103.19 on November 13, net +~1.4–1.7%, well above the 0.5% flat threshold; status headwind (DXY above 100 — must fall below 97.5 for supportive); FRED DTWEXBGS network-restricted — ICE spot corroborated via DealPlexus and CNBC."
+      "note": "ICE DXY spot 103.28 as of November 13, 2026 close (GuruFocus: 103.278; Trading Economics: 103.147); intraday Nov 14 pre-open ranged 103.06–103.44 (Dealplexus 03:29 IST); Nov 12 close was 102.85 (+0.63% on hot CPI/hawkish Fed repricing per Vantage Markets); 4-week trend UP — from ~101.5–101.8 on October 14 to 103.28 on November 13, net +~1.5–1.8%, well above the 0.5% flat threshold; status headwind (DXY above 100 — must fall below 97.5 for supportive); FRED DTWEXBGS network-restricted — ICE spot corroborated via GuruFocus and Trading Economics."
     },
     {
       "tier": 1,
       "name": "Real Yields (US10Y - CPI)",
-      "value": "2.78%",
-      "trend": "down",
-      "status": "supportive",
-      "note": "10-year TIPS real yield (DFII10) at 2.78% on November 10, 2026 (Goodman Macro daily note; Nov 9: 2.66% per Macrotrends H.15 data, Nov 6: 2.63%, Nov 5: 2.60%); Nov 10 saw a hot-CPI-driven jump of +12bps from 2.66% → 2.78%; 4-week trend remains DOWN — from ~2.85–2.90% around October 10 (2026 high: 2.95% on Oct 5) to 2.78% on November 10, approximately -7 to -12bps net; status supportive (4-week trend down — headwind requires BOTH rising trend AND above 2% simultaneously; value is above 2% but 4-week trend still net down, only one condition met); FRED API network-restricted — confirmed via Goodman Macro and Macrotrends corroboration."
+      "value": "2.86%",
+      "trend": "flat",
+      "status": "neutral",
+      "note": "10-year TIPS real yield (DFII10) at 2.86% on November 12, 2026 (FRED series last updated Nov 13 at 3:16 PM CST; Nov 13 observation scheduled for release Nov 16); prior readings: Nov 10: 2.78% (hot-CPI-driven +12bps from Nov 9's 2.66%), Nov 9: 2.66%, Nov 6: 2.63%; real yields rose 8bps from 2.78% (Nov 10) to 2.86% (Nov 12) as Treasury market repriced December FOMC hike odds further; 4-week trend FLAT — from approximately 2.85–2.90% on October 14 (Oct 5 high: 2.95%) to 2.86% on November 12, net change approximately 0 to -4bps, within the 5bps flat threshold; status neutral (above 2% but flat trend — headwind requires BOTH rising trend AND above 2%; supportive requires falling or below 1%; neither condition fully met); 10Y nominal 5.10–5.15%, breakeven ~2.24–2.29%."
     },
     {
       "tier": 1,
       "name": "2s10s Yield Curve",
-      "value": "+0.25%",
+      "value": "+0.27%",
       "trend": "flat",
       "status": "neutral",
-      "note": "2s10s spread at +25bps as of November 10, 2026 (yieldcurve.pro: +25bps Nov 10, down 7bps on day; stockmarketwatch: 25bp; note: sofrrate.com shows 32bps, recessionpulse shows 35bps — diverging trackers); Nov 13 data not yet published; 4-week trend FLAT — from approximately +28–32bps around October 10 to +25bps on November 10, net change -3 to -7bps within or just at the flat threshold; 52-week range 20–74bps; hot October CPI on Nov 10 drove the 2Y yield up ~17bps, flattening the curve from ~32bps to 25bps intraday; status neutral (positive spread, no steepening trend, not deeply inverted)."
+      "note": "2s10s spread at approximately +27bps as of November 13, 2026 close (CappNotes closing note: 10Y at 5.15%, 2Y at 4.88%; Le Private Banker Nov 12: +24bps with 10Y 5.10%, 2Y 4.86%; yieldcurve.pro Nov 10: +25bps); 4-week trend FLAT — from approximately +28–32bps on October 14 to +27bps on November 13, net change approximately -1 to -5bps within flat threshold; long-end yields rose faster than short-end on Nov 13 as term premium widened slightly; 52-week range 20–74bps; status neutral (positive spread, no sustained steepening, not deeply inverted — headwind requires < -50bps which is far away); next major inflection to watch: December 9 FOMC decision impact on 2Y repricing."
     },
     {
       "tier": 1,
       "name": "Fed Balance Sheet",
-      "value": "$6.75T",
+      "value": "$6.76T",
       "trend": "flat",
       "status": "supportive",
-      "note": "WALCL: $6,748,145M ($6.748T) for week ended November 4, 2026 (FRED via govspending.org; weekly change +$2.51B WoW, +$175.41B YoY); H.4.1 for week ended November 11, 2026 was released November 12 but exact November 11 figure not retrievable in this run (federalreserve.gov and FRED API both network-restricted); prior readings: Nov 4 $6,748,145M, Oct 28 $6,745,635M, Oct 21 $6,753,604M, Oct 14 $6,755,639M; 4-week oscillation range ~$10B band, essentially flat; balance sheet stabilized post-QT-pause (QT ended December 2025); YoY +2.4%; status supportive (flat, no aggressive QT); value held at $6.75T pending confirmation of November 11 H.4.1 figure."
+      "note": "WALCL: $6,758,867M ($6.759T) for week ended November 11, 2026 (H.4.1 released November 12, 2026 per Federal Reserve; +$10,722M WoW from Nov 4's $6,748,145M, +$178,405M YoY); prior weekly readings: Nov 4 $6,748,145M, Oct 28 $6,745,635M, Oct 21 $6,753,604M, Oct 14 $6,755,639M; 4-week change Oct 14 → Nov 11: +$3,228M (~+$3.2B, essentially flat); balance sheet stabilized post-QT-pause (QT ended December 2025); YoY +$178.4B (+2.7%); status supportive (flat with slight growth, no aggressive QT — zero eliminations per H.4.1 header confirms figure matches WALCL); value updated to $6.76T reflecting Nov 11 H.4.1 release."
     },
     {
       "tier": 3,
       "name": "BTC Funding Rates (perps avg)",
-      "value": "0.0098%",
+      "value": "0.0052%",
       "trend": "flat",
       "status": "supportive",
-      "note": "CoinGlass BTC perp funding rate 0.0098% (~10.8% annualized) as of November 13, 2026 05:36 UTC (CoinGlass price page); CoinGlass futures page (Nov 12 updated) showed OI-weighted rate at 0.0069% (~7.59% annualized, BTC OI $50.91B down 3.15% in 24h); prior readings: 0.0045% (Nov 12 01:51 UTC+8), 0.0063% (Nov 11), 0.0087% (Nov 8); BTC down 4.26% in 24h at $71,469 on Nov 13 with $283.43M in liquidations (96% longs); Fear & Greed at 29 (Fear); US spot ETF net outflows $299.80M on Nov 11; 30-day trend FLAT — mid-October rates were near zero/slightly negative, now 0.0098%, modest uplift but well within neutral range; status supportive (well below 0.04% headwind threshold); despite intraday selloff, low funding confirms absence of speculative excess — consistent with accumulation."
+      "note": "CoinGlass BTC perp funding rate 0.0052% (~5.7% annualized) as of November 13–14, 2026 snapshot vs 0.0100% base; Brave New Coin reports negative funding on Binance, OKX, and Bybit on November 13 (short traders paying longs), consistent with deleveraging; The Block 7DMA APY: 8.04% as of Nov 12 (down 0.34pp in 24h); prior readings: 0.0098% (Nov 13 morning), 0.0069% (Nov 12 OI-weighted), 0.0087% (Nov 8); BTC at ~$67–69K (down ~6% over 2 days) with liquidations $700M+ in 24h (92% longs per CoinGlass Nov 13–14); 30-day trend FLAT — mid-October rates were near zero/slightly negative, now 0.0052%, within flat noise range; status supportive (well below 0.04% headwind threshold); near-zero/negative funding on major exchanges is a classic accumulation signal — no overleveraged long exposure despite recent BTC pullback."
     },
     {
       "tier": 3,
       "name": "Stablecoin Dominance",
-      "value": "11.0%",
+      "value": "12.5%",
       "trend": "up",
       "status": "neutral",
-      "note": "Stablecoin market cap $288.1B as of November 11, 2026 (Token Terminal); CoinGecko Nov 8 stablecoin dominance 10.90%; with BTC falling 4.26% on Nov 13 and TOTAL declining to ~$2.41T (BTC at $71,469, BTC.D ~59%), implied stablecoin dominance has ticked up to ~11.9%; 30-day trend UP — October 13 dominance ~10.5–10.8%, rising as TOTAL declined while stablecoins held near $288–295B; status neutral — headwind requires rising dominance AND rising TOTAL simultaneously; TOTAL declined from ~$2.60T (Nov 12) to ~$2.41T (Nov 13), so headwind condition not met; supportive condition (falling dominance) not met either; stablecoin supply has contracted ~$21B from May 2026 peak (~$310B); Tether $179.9B, USDC $71.2B dominate supply."
+      "note": "Stablecoin market cap $285.585B as of November 13, 2026 (DefiLlama: USDT $175.516B, USDC $69.447B); total crypto market cap ~$2.29–2.33T as of November 14, 2026 05:02 UTC (TokenPost: $2.29T; CMC via CryptoPotato: $2.33T); implied stablecoin dominance ~12.3–12.5% (using $285.585B / $2.31T midpoint); prior: 11.0% on Nov 13 (when TOTAL was ~$2.41–2.60T); 30-day trend UP — October 13 dominance ~10.5–10.8%, November 10 at 11.40–11.51% (Au79 Macro), now ~12.5%; BTC.D at ~58.8–59.3% (TokenPost/CryptoPotato), BTC at $66,957–69,031; status neutral — headwind requires rising dominance AND rising TOTAL simultaneously; TOTAL has DECLINED from $2.60T to $2.29T (not rising), so headwind condition not met; supportive condition (falling dominance) also not met; rise in dominance reflects risk-off repositioning as BTC falls, but TOTAL contraction prevents headwind classification."
     }
   ],
   "upcoming": [
@@ -180,57 +180,57 @@
       "title": "US Retail Sales (October 2026)",
       "category": "Growth",
       "importance": "medium",
-      "note": "Census Bureau releases October 2026 Advance Monthly Retail Trade Survey at 8:30 AM ET; September retail sales were +0.8% MoM (well above the +0.3% forecast); a print above +0.5% MoM would add to the already-strong December 9 hike case after the hot October CPI (+0.4% MoM); a miss near 0% would add soft-landing ambiguity but is unlikely to outweigh the inflation surprise given DXY at 52-week highs; this is the last major growth read before the December 9 FOMC decision (FOMC blackout period begins ~November 28)."
+      "note": "Census Bureau releases October 2026 Advance Monthly Retail Trade Survey at 8:30 AM ET; September retail sales were +0.8% MoM (well above the +0.3% forecast); a print above +0.5% MoM would add to the already-strong December 9 FOMC hike case after the hot October CPI (+0.4% MoM, released Nov 10) and October PPI (released Nov 13); DXY at 103.28 (52-week range top) reflects persistent inflation pressure; a miss near 0% would add soft-landing ambiguity but is unlikely to outweigh the inflation surprise given DXY elevated; this is among the last major growth reads before the ~November 29 FOMC blackout period ahead of the December 9 decision."
     },
     {
       "date": "2026-11-17",
       "title": "Industrial Production (October 2026)",
       "category": "Growth",
       "importance": "medium",
-      "note": "Federal Reserve releases October 2026 Industrial Production and Capacity Utilization (G.17) at 9:15 AM ET; September industrial production rose +0.4% MoM; a continued expansion would corroborate the October ISM Manufacturing PMI at 55.5 (10th consecutive expansion month); Fed plans an annual G.17 revision release on November 24, so this reading may be subject to revision."
+      "note": "Federal Reserve releases October 2026 Industrial Production and Capacity Utilization (G.17) at 9:15 AM ET; September industrial production rose +0.4% MoM; a continued expansion would corroborate the October ISM Manufacturing PMI at 55.5 (10th consecutive expansion month); Fed plans an annual G.17 revision release on November 24, so this reading may be subject to revision; released same day as October Retail Sales."
     },
     {
       "date": "2026-11-18",
       "title": "Housing Starts (October 2026)",
       "category": "Growth",
       "importance": "medium",
-      "note": "Census Bureau releases October 2026 New Residential Construction at 8:30 AM ET; elevated mortgage rates (30Y near 7.1%) and real yields at 2.66% (down from 2.90% but historically high) continue to pressure housing affordability; after the hot CPI print sealing higher-for-longer expectations, a sharp drop in permits would underscore the housing drag on Q4 2026 growth."
+      "note": "Census Bureau releases October 2026 New Residential Construction at 8:30 AM ET; elevated mortgage rates (30Y near 7.1%) and real yields at 2.86% (flat on 4-week basis but historically high) continue to pressure housing affordability; after the hot CPI print sealing higher-for-longer expectations, a sharp drop in permits would underscore the housing drag on Q4 2026 growth."
     },
     {
       "date": "2026-11-18",
       "title": "FOMC Minutes — October 27–28 Meeting",
       "category": "Fed",
       "importance": "medium",
-      "note": "Federal Reserve releases minutes of the October 27–28 FOMC meeting at 2:00 PM ET; the Fed held at 3.75%–4.00% (vote 10–2) at that meeting; minutes will reveal member views on the threshold for a December 9 hike given elevated ISM Prices Paid (75.2 in October, 77.9 in September) and Iran-war supply shocks; the November 10 hot CPI print (+0.4% MoM) and today's October PPI both arrived after the October meeting, so markets will read the minutes against the new inflation reality; PPI data released this morning (Nov 13) adds immediate context; FOMC blackout period begins ~November 28."
+      "note": "Federal Reserve releases minutes of the October 27–28 FOMC meeting at 2:00 PM ET; the Fed held at 3.75%–4.00% (vote 10–2) at that meeting; minutes will reveal member views on the threshold for a December 9 hike given elevated ISM Prices Paid (77.9 in October per November 2 release) and Iran-war supply shocks; both October CPI (+0.4% MoM, Nov 10) and October PPI (released Nov 13) arrived after the October meeting — markets will read the minutes against the new inflation reality; FOMC blackout period begins ~November 29 ahead of the December 9 decision."
     },
     {
       "date": "2026-11-19",
       "title": "Initial Jobless Claims (week ended November 15, 2026)",
       "category": "Labor",
       "importance": "medium",
-      "note": "DOL releases weekly initial jobless claims at 8:30 AM ET on Thursday November 19; final weekly labor read before Thanksgiving and the ~November 28 FOMC blackout period; a sustained trend above 220K would pressure December 9 hike odds given the already-hot CPI (+0.4% MoM Oct) and elevated DXY; next NFP release is December 4 (November data), arriving just 5 days before the December 9 FOMC decision."
+      "note": "DOL releases weekly initial jobless claims at 8:30 AM ET on Thursday November 19; final weekly labor read before Thanksgiving and the ~November 29 FOMC blackout period; a sustained trend above 220K would pressure December 9 hike odds given the already-hot CPI (+0.4% MoM Oct) and elevated DXY (103.28); next NFP release is December 4 (November data), arriving just 5 days before the December 9 FOMC decision."
     },
     {
       "date": "2026-11-19",
       "title": "Philadelphia Fed Manufacturing Index (November 2026)",
       "category": "PMI",
       "importance": "low",
-      "note": "Federal Reserve Bank of Philadelphia releases November 2026 Manufacturing Business Outlook Survey at 8:30 AM ET; provides a first-look at November manufacturing activity ahead of the December 1 ISM Manufacturing PMI; a positive print above 0 would reinforce the October ISM signal at 55.5 (10th consecutive expansion month); released on the third Thursday of the month."
+      "note": "Federal Reserve Bank of Philadelphia releases November 2026 Manufacturing Business Outlook Survey at 8:30 AM ET; provides a first-look at November manufacturing activity ahead of the December 1 ISM Manufacturing PMI; a positive print above 0 would reinforce the October ISM signal at 55.5 (10th consecutive expansion month); released on the third Thursday of the month, same day as jobless claims."
     },
     {
       "date": "2026-11-20",
       "title": "Existing Home Sales (October 2026)",
       "category": "Growth",
       "importance": "low",
-      "note": "National Association of Realtors releases October 2026 Existing Home Sales at 10:00 AM ET; mortgage rates near 7.1% continue to suppress turnover via the low-rate lock-in effect; provides a full-month housing transaction count for October; watch for any inventory normalization trends given elevated rate environment."
+      "note": "National Association of Realtors releases October 2026 Existing Home Sales at 10:00 AM ET; mortgage rates near 7.1% continue to suppress turnover via the low-rate lock-in effect; provides a full-month housing transaction count for October; real yields holding at 2.86% (flat on 4-week basis) keep affordability severely constrained; watch for any inventory normalization trends."
     }
   ],
   "sources": {
     "crypto": "CoinGecko",
     "tradfi": "FRED + Stooq",
     "marketsEndpoint": "markets",
-    "indicators": "2026-11-13",
-    "calendar": "2026-11-13"
+    "indicators": "2026-11-14",
+    "calendar": "2026-11-14"
   },
   "degraded": {
     "markets": false,
@@ -240,5 +240,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-11-14T00:27:58Z"
+  "cachedAtISO": "2026-11-14T13:48:03Z"
 }
