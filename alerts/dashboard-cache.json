@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T16:27:14.661Z",
+  "generatedAt": "2026-11-17T02:37:08.648Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "4/8 indicators supportive on November 16 — perp funding rates flipped slightly negative (-0.0004%) with Fear & Greed at 11 (Extreme Fear), signaling deleveraged capitulation and a classic accumulation zone; ISM Manufacturing at 55.5 (10th consecutive expansion) and Global M2 at $104.3T sustain the macro bid; DXY at 103.42 (above 100 threshold, headwind) is the primary drag; next key catalysts are the Nov 25 Oct PCE print, the Dec 1 ISM Manufacturing release, and the December 9 FOMC decision.",
@@ -14,82 +14,82 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 64713,
+      "value": 64376,
       "format": "usd",
-      "change24h": 0.49482,
-      "change30d": -20.8925
+      "change24h": -1.27356,
+      "change30d": -20.615
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 1827.6,
+      "value": 1810.69,
       "format": "usd",
-      "change24h": 1.2043,
-      "change30d": -24.9551
+      "change24h": -0.99727,
+      "change30d": -24.3827
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02830884,
+      "value": 0.02811897,
       "format": "ratio",
-      "change24h": 1.1265614565377646,
-      "change30d": -5.030230165162048
+      "change24h": 0.20853131197384206,
+      "change30d": -4.949745614213264
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 58.52377240764744,
+      "value": 58.4731278168642,
       "format": "percent",
-      "change24h": 2.0647112582666827,
-      "change30d": -0.9299345126976264
+      "change24h": 0.28918224985670093,
+      "change30d": -1.3764457838966984
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2214133335592.8247,
+      "value": 2208126336475.281,
       "format": "usd-compact",
-      "change24h": -1.5353898903424918,
-      "change30d": -19.725554277267406
+      "change24h": -1.5024274962206743,
+      "change30d": -19.68669987644642
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 918338981468.6272,
+      "value": 916965801390.2489,
       "format": "usd-compact",
-      "change24h": -4.296709992071046,
-      "change30d": -18.586101307312433
+      "change24h": -1.903428650871488,
+      "change30d": -17.94434144593144
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 696063258041.9734,
+      "value": 696093439670.863,
       "format": "usd-compact",
-      "change24h": -5.954264084316595,
-      "change30d": -16.377843561890064
+      "change24h": -2.207430237850558,
+      "change30d": -15.489202757675232
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 103.542,
+      "value": 103.601,
       "format": "index",
-      "change24h": 0.12764722947491056,
-      "change30d": 1.467994198581009
+      "change24h": 0.014480721332999217,
+      "change30d": 1.5258123946532889
     },
     {
       "id": "us500",
       "label": "S&P 500",
-      "value": 7561.67,
+      "value": 7416.59,
       "format": "index",
-      "change24h": -0.4047468521152674,
-      "change30d": -2.0374559201133775
+      "change24h": -1.9186237960662118,
+      "change30d": -3.1705973282642006
     },
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10895.79,
+      "value": 10881.55,
       "format": "index",
-      "change24h": -0.06200384313759992,
-      "change30d": 0.5219010223983048
+      "change24h": -0.19261548903696843,
+      "change30d": 0.39052625557927534
     },
     {
       "id": "oil",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 3858.16,
+      "value": 3865.61,
       "format": "usd",
-      "change24h": -0.6637589664104028,
-      "change30d": -7.496811193908188
+      "change24h": 0.23887575919290457,
+      "change30d": -7.318190100795044
     }
   ],
   "indicators": [
@@ -176,20 +176,6 @@
   ],
   "upcoming": [
     {
-      "date": "2026-11-17",
-      "title": "US Retail Sales (October 2026)",
-      "category": "Growth",
-      "importance": "medium",
-      "note": "Census Bureau releases October 2026 Advance Monthly Retail Trade Survey at 8:30 AM ET; September retail sales were +0.8% MoM; a strong print above +0.5% MoM adds to the December 9 FOMC hike case after the hot October CPI (+0.4% MoM, Nov 10); DXY at 103.42 reflects persistent inflation pressure; this is among the last major growth reads before the ~November 29 FOMC blackout period ahead of the December 9 decision."
-    },
-    {
-      "date": "2026-11-17",
-      "title": "Industrial Production (October 2026)",
-      "category": "Growth",
-      "importance": "medium",
-      "note": "Federal Reserve releases October 2026 Industrial Production and Capacity Utilization (G.17) at 9:15 AM ET; September industrial production rose +0.4% MoM; a continued expansion would corroborate the October ISM Manufacturing PMI at 55.5 (10th consecutive expansion month); Fed plans an annual G.17 revision release on November 24, so this reading may be subject to revision; released same day as October Retail Sales."
-    },
-    {
       "date": "2026-11-18",
       "title": "Housing Starts (October 2026)",
       "category": "Growth",
@@ -247,5 +233,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-11-16T16:27:14Z"
+  "cachedAtISO": "2026-11-17T02:37:08Z"
 }
