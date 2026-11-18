@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T16:29:28.251Z",
+  "generatedAt": "2026-11-18T01:51:53.401Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "4/8 indicators supportive on November 17 — Global M2 at $104.3T (Sep 2026, Oct data pending), ISM Manufacturing at 55.5 (10th straight expansion month), Fed Balance Sheet flat at $6.76T, and BTC perp funding near zero/slightly negative signal a deleveraged market in classic accumulation conditions; DXY at 103.50 (above 100 threshold) remains the primary macro headwind ahead of the Nov 18 FOMC minutes, Nov 25 Oct PCE, Dec 1 ISM, and Dec 9 FOMC decision.",
@@ -14,66 +14,66 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 63918,
+      "value": 64397,
       "format": "usd",
-      "change24h": -1.27159,
-      "change30d": -21.1507
+      "change24h": -0.58685,
+      "change30d": -21.0523
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 1780.81,
+      "value": 1806.11,
       "format": "usd",
-      "change24h": -2.5231,
-      "change30d": -25.3403
+      "change24h": -0.73373,
+      "change30d": -24.4374
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02774942,
+      "value": 0.02805977,
       "format": "ratio",
-      "change24h": -1.9391165235686247,
-      "change30d": -6.399243564690411
+      "change24h": -0.20196320866453255,
+      "change30d": -5.285497325451821
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 58.413396504144025,
+      "value": 58.39025805288017,
       "format": "percent",
-      "change24h": 1.9483094401699264,
-      "change30d": -1.5873977621597115
+      "change24h": 2.10050600543481,
+      "change30d": -1.7891772548604046
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2195765273486.4583,
+      "value": 2216040846580.9434,
       "format": "usd-compact",
-      "change24h": -3.1562460013702416,
-      "change30d": -20.152833762376833
+      "change24h": -2.615761772319379,
+      "change30d": -20.029006320868774
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 913144197984.511,
+      "value": 922088877705.1001,
       "format": "usd-compact",
-      "change24h": -5.701722807215739,
-      "change30d": -18.177026834904215
+      "change24h": -5.354706435734461,
+      "change30d": -17.817671218256862
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 696052560558.7933,
+      "value": 701485771069.7667,
       "format": "usd-compact",
-      "change24h": -6.659112143176414,
-      "change30d": -15.32899085093592
+      "change24h": -6.723374362445946,
+      "change30d": -15.118499371549234
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 103.437,
+      "value": 103.626,
       "format": "index",
-      "change24h": -0.14384183190778765,
-      "change30d": 1.3650974089608412
+      "change24h": 0.02509652509653519,
+      "change30d": 1.5801752700609808
     },
     {
       "id": "us500",
@@ -86,10 +86,10 @@
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10698.05,
+      "value": 10689.86,
       "format": "index",
-      "change24h": -1.6863406408094437,
-      "change30d": -1.3023999881910329
+      "change24h": -1.7616056536063216,
+      "change30d": -1.377958930624148
     },
     {
       "id": "oil",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 3870.5,
+      "value": 3807.75,
       "format": "usd",
-      "change24h": 0.36567802389690746,
-      "change30d": -7.200947530953001
+      "change24h": -1.079622623079265,
+      "change30d": -8.586319531174954
     }
   ],
   "indicators": [
@@ -176,27 +176,6 @@
   ],
   "upcoming": [
     {
-      "date": "2026-11-18",
-      "title": "Housing Starts (October 2026)",
-      "category": "Growth",
-      "importance": "medium",
-      "note": "Census Bureau releases October 2026 New Residential Construction at 8:30 AM ET; elevated mortgage rates (30Y near 7.1%) and real yields at 2.86% continue to pressure housing affordability; a sharp drop in permits would underscore the housing drag on Q4 2026 growth ahead of the Nov 25 PCE print and Dec 9 FOMC decision."
-    },
-    {
-      "date": "2026-11-18",
-      "title": "FOMC Minutes — October 27–28 Meeting",
-      "category": "Fed",
-      "importance": "medium",
-      "note": "Federal Reserve releases minutes of the October 27–28 FOMC meeting at 2:00 PM ET; the Fed held at 3.75%–4.00% at that meeting; minutes will reveal member views on the December 9 hike threshold, particularly given both October CPI (+0.4% MoM, Nov 10) and October PPI (Nov 13) arrived after the October meeting; markets will read the minutes against the new inflation reality; FOMC blackout period begins ~November 29 ahead of the December 9 decision."
-    },
-    {
-      "date": "2026-11-18",
-      "title": "Pending Home Sales (October 2026)",
-      "category": "Growth",
-      "importance": "low",
-      "note": "NAR releases October 2026 Pending Home Sales Index; leading indicator of existing home sales with a 1–2 month lag; elevated mortgage rates near 7.1% and real yields at 2.86% are suppressing contract signings; a persistent decline below prior-year levels would confirm housing as a sustained drag on Q4 2026 economic activity."
-    },
-    {
       "date": "2026-11-19",
       "title": "Initial Jobless Claims (week ended November 15, 2026)",
       "category": "Labor",
@@ -223,6 +202,20 @@
       "category": "Growth",
       "importance": "medium",
       "note": "Conference Board releases November 2026 Consumer Confidence Index at 10:00 AM ET; released last Tuesday of each month; tracks consumer sentiment on current conditions and 6-month expectations; a deterioration from October's level would signal cracks in the consumer spending backdrop ahead of the November 25 PCE release; expectations sub-index is a leading indicator for future consumption and GDP."
+    },
+    {
+      "date": "2026-11-25",
+      "title": "GDP Q3 2026 — Second Estimate",
+      "category": "Growth",
+      "importance": "medium",
+      "note": "BEA releases Q3 2026 GDP second estimate at 8:30 AM ET (Thanksgiving-week compressed schedule, Wednesday before Thursday Nov 26 Thanksgiving); revises the advance estimate released in late October; watch consumer spending and PCE deflator revisions for any upside that would further seal the December 9 hike case; released same day as October PCE — double inflation-and-growth print on thin pre-holiday liquidity."
+    },
+    {
+      "date": "2026-11-25",
+      "title": "PCE Inflation / Personal Income (October 2026)",
+      "category": "Inflation",
+      "importance": "high",
+      "note": "BEA releases October 2026 Personal Income and Outlays (including PCE Price Index) at 8:30 AM ET; PCE is the Fed's preferred inflation gauge — a hot reading above +0.3% MoM core PCE would seal the December 9 FOMC hike after October CPI surprised at +0.4% MoM; this is the last major inflation print before the ~November 29 FOMC blackout and the December 9 decision; Thanksgiving-week release means thin liquidity; released same day as Q3 GDP second estimate."
     }
   ],
   "sources": {
@@ -240,5 +233,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-11-17T16:29:28Z"
+  "cachedAtISO": "2026-11-18T01:51:53Z"
 }
