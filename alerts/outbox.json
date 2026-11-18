@@ -1,6 +1,6 @@
 {
-  "ts": "2026-11-17T20:05:22Z",
+  "ts": "2026-11-18T07:05:21Z",
   "title": "MacroPulse Alert",
-  "priority": "default",
-  "message": "Oct retail sales +0.2% MoM vs +0.8% prior — consumer demand cooling under sticky prices.\nOct industrial production +0.9% MoM — manufacturing & utilities beat; above prior +0.7%.\nNvidia Q3 FY2027 results after-close tonight: $109B rev / $2.47 EPS consensus (prior $96B).\nFOMC minutes (Oct 27-28 mtg) due tomorrow 14:00 ET — market watching for Dec 9 hike debate."
+  "priority": "high",
+  "message": "FOMC Oct minutes (released today): \"almost all\" supported holding at 3.50-3.75%; a couple preferred a cut — weakens Dec hike narrative vs 100% CME pricing\nNVDA Q3 FY27: $115.8B revenue +103% YoY vs $109B expected; EPS $2.70; Q4 guide $130B vs $125B exp — beat + raise\nBTC ~$64,500, -0.08% 24h: no new threshold breach (macropulse.uk dashboard unreachable this run)"
 }

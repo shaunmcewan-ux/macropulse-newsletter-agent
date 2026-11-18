@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-11-17T20:05:22Z",
+  "lastRunISO": "2026-11-18T07:05:21Z",
   "priceAlerts": {
     "btc": { "pct": -6.0, "dir": "down", "ISO": "2026-11-15T07:04:35Z", "value": 64119 },
     "btcd": { "pct": 3.08, "dir": "up", "ISO": "2026-11-15T15:06:24Z", "value": 58.72 },
@@ -33,6 +33,8 @@
     "dec-fomc-hike-100pct-cme-fedwatch-nov16": "2026-11-16T15:04:23Z",
     "warsh-speech-nov16-hawkish-dec-hike-watch": "2026-11-16T15:04:23Z",
     "nvda-q3-fy2027-results-after-close-nov17": "2026-11-17T20:05:22Z",
-    "fomc-minutes-oct-mtg-due-nov18": "2026-11-17T20:05:22Z"
+    "fomc-minutes-oct-mtg-due-nov18": "2026-11-17T20:05:22Z",
+    "fomc-oct-minutes-dovish-hold-nov18": "2026-11-18T07:05:21Z",
+    "nvda-q3-fy2027-beat-115b-rev-nov17": "2026-11-18T07:05:21Z"
   }
 }
