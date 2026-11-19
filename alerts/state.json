@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-11-19T07:04:49Z",
+  "lastRunISO": "2026-11-19T15:05:42Z",
   "priceAlerts": {
     "btc": { "pct": -6.0, "dir": "down", "ISO": "2026-11-15T07:04:35Z", "value": 64119 },
     "btcd": { "pct": 3.08, "dir": "up", "ISO": "2026-11-15T15:06:24Z", "value": 58.72 },
@@ -11,7 +11,8 @@
   "releases": {
     "US-Oct-PPI-Nov13-2026": "2026-11-13T15:47:08Z",
     "US-Oct-RetailSales-Nov17-2026": "2026-11-17T20:05:22Z",
-    "US-Oct-IndProd-Nov17-2026": "2026-11-17T20:05:22Z"
+    "US-Oct-IndProd-Nov17-2026": "2026-11-17T20:05:22Z",
+    "US-WeekNov14-JoblessClaims-Nov19-2026": "2026-11-19T15:05:42Z"
   },
   "news": {
     "mara-sells-13597-btc-11b-ai-pivot-plans-more-sales-nov9": "2026-11-11T20:04:56Z",
