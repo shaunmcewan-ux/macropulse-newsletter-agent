@@ -1,7 +1,7 @@
 {
-  "lastRunISO": "2026-11-20T07:05:22Z",
+  "lastRunISO": "2026-11-20T15:05:21Z",
   "priceAlerts": {
-    "btc": { "pct": -6.0, "dir": "down", "ISO": "2026-11-15T07:04:35Z", "value": 64119 },
+    "btc": { "pct": -3.1, "dir": "down", "ISO": "2026-11-20T15:05:21Z", "value": 61702 },
     "btcd": { "pct": 3.08, "dir": "up", "ISO": "2026-11-15T15:06:24Z", "value": 58.72 },
     "total": { "pct": -4.78, "dir": "down", "ISO": "2026-11-15T15:06:24Z", "value": 2231113358337 },
     "total2": { "pct": -8.68, "dir": "down", "ISO": "2026-11-15T15:06:24Z", "value": 921099463703 },
@@ -15,13 +15,6 @@
     "US-WeekNov14-JoblessClaims-Nov19-2026": "2026-11-19T15:05:42Z"
   },
   "news": {
-    "mara-sells-13597-btc-11b-ai-pivot-plans-more-sales-nov9": "2026-11-11T20:04:56Z",
-    "dec-fomc-hike-odds-90pct-cme-fedwatch-nov11": "2026-11-11T20:04:56Z",
-    "btc-73700-equities-rebound-4th-etf-outflow-day-nov11": "2026-11-11T20:04:56Z",
-    "msci-removes-strategy-acwi-imi-nov30-effective-nov12": "2026-11-12T07:06:16Z",
-    "btc-below-72k-5th-etf-outflow-day-nov12": "2026-11-12T20:03:38Z",
-    "goolsbee-oct-cpi-borderline-disturbing-50pb-risk-nov12": "2026-11-12T20:03:38Z",
-    "btc-etf-5th-outflow-299m-ibit-94pct-nov-outflows-nov12": "2026-11-12T20:03:38Z",
     "btc-crash-below-69k-141b-liquidations-nov13": "2026-11-13T07:05:38Z",
     "btc-etf-817m-6th-outflow-day-nine-month-low-nov13": "2026-11-13T15:47:08Z",
     "btc-eth-etf-ytd-flows-turn-negative-2026-17b-shed-nov13": "2026-11-13T15:47:08Z",
@@ -41,6 +34,7 @@
     "gold-ytd-low-below-3800-nov18": "2026-11-18T15:06:26Z",
     "btc-death-cross-confirmed-nov20": "2026-11-20T07:05:22Z",
     "btc-61500-july-low-japan-risk-dec-fomc-50bps-fears-nov20": "2026-11-20T07:05:22Z",
-    "btc-etf-29b-cumulative-nov-outflows-nov20": "2026-11-20T07:05:22Z"
+    "btc-etf-29b-cumulative-nov-outflows-nov20": "2026-11-20T07:05:22Z",
+    "btc-etf-582m-daily-outflow-ibit-541m-nov20": "2026-11-20T15:05:21Z"
   }
 }
