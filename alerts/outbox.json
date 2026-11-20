@@ -1,1 +1,6 @@
-{"ts":"2026-11-19T20:04:10Z","title":"MacroPulse Alert","priority":"default","message":""}
+{
+  "ts": "2026-11-20T07:05:22Z",
+  "title": "MacroPulse Alert",
+  "priority": "default",
+  "message": "BTC death cross confirmed (50d crosses below 200d) — bearish technical signal.\nBTC ~$61,500, lowest since July, down 2.7% 24h on Japan risk + Dec FOMC 50bps hike fears.\nNov BTC ETF cumulative outflows ~$2.9B — on track for one of heaviest months on record."
+}
