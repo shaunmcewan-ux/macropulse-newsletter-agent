@@ -1,7 +1,8 @@
 {
-  "lastRunISO": "2026-11-20T20:03:57Z",
+  "lastRunISO": "2026-11-21T07:04:34Z",
   "priceAlerts": {
-    "btc": { "pct": -3.1, "dir": "down", "ISO": "2026-11-20T15:05:21Z", "value": 61702 },
+    "btc": { "pct": -9.9, "dir": "down", "ISO": "2026-11-21T07:04:34Z", "value": 55796 },
+    "eth": { "pct": -9.9, "dir": "down", "ISO": "2026-11-21T07:04:34Z", "value": 1560 },
     "btcd": { "pct": 3.08, "dir": "up", "ISO": "2026-11-15T15:06:24Z", "value": 58.72 },
     "total": { "pct": -4.78, "dir": "down", "ISO": "2026-11-15T15:06:24Z", "value": 2231113358337 },
     "total2": { "pct": -8.68, "dir": "down", "ISO": "2026-11-15T15:06:24Z", "value": 921099463703 },
@@ -9,16 +10,11 @@
     "gold": { "pct": -3.0, "dir": "down", "ISO": "2026-11-18T15:06:26Z", "value": 3760 }
   },
   "releases": {
-    "US-Oct-PPI-Nov13-2026": "2026-11-13T15:47:08Z",
     "US-Oct-RetailSales-Nov17-2026": "2026-11-17T20:05:22Z",
     "US-Oct-IndProd-Nov17-2026": "2026-11-17T20:05:22Z",
     "US-WeekNov14-JoblessClaims-Nov19-2026": "2026-11-19T15:05:42Z"
   },
   "news": {
-    "btc-crash-below-69k-141b-liquidations-nov13": "2026-11-13T07:05:38Z",
-    "btc-etf-817m-6th-outflow-day-nine-month-low-nov13": "2026-11-13T15:47:08Z",
-    "btc-eth-etf-ytd-flows-turn-negative-2026-17b-shed-nov13": "2026-11-13T15:47:08Z",
-    "oct-ppi-03pct-mom-65pct-yoy-4yr-high-nov13": "2026-11-13T15:47:08Z",
     "btc-etf-1b-second-consecutive-week-nov14": "2026-11-15T07:04:35Z",
     "altcoin-etfs-6-markets-outflow-xrp-8mo-high-nov14": "2026-11-15T07:04:35Z",
     "eth-1715-63pct-below-ath-nov15": "2026-11-15T07:04:35Z",
@@ -35,6 +31,9 @@
     "btc-death-cross-confirmed-nov20": "2026-11-20T07:05:22Z",
     "btc-61500-july-low-japan-risk-dec-fomc-50bps-fears-nov20": "2026-11-20T07:05:22Z",
     "btc-etf-29b-cumulative-nov-outflows-nov20": "2026-11-20T07:05:22Z",
-    "btc-etf-582m-daily-outflow-ibit-541m-nov20": "2026-11-20T15:05:21Z"
+    "btc-etf-582m-daily-outflow-ibit-541m-nov20": "2026-11-20T15:05:21Z",
+    "btc-below-60k-crash-9pct-2b-liq-extreme-fear-nov21": "2026-11-21T07:04:34Z",
+    "btc-wipes-trump-gains-lowest-sep2024-nov21": "2026-11-21T07:04:34Z",
+    "btc-whale-9000btc-exchange-inflow-nov21": "2026-11-21T07:04:34Z"
   }
 }
