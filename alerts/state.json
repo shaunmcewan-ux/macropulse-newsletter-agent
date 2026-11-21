@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-11-21T07:04:34Z",
+  "lastRunISO": "2026-11-21T15:04:50Z",
   "priceAlerts": {
     "btc": { "pct": -9.9, "dir": "down", "ISO": "2026-11-21T07:04:34Z", "value": 55796 },
     "eth": { "pct": -9.9, "dir": "down", "ISO": "2026-11-21T07:04:34Z", "value": 1560 },
@@ -34,6 +34,8 @@
     "btc-etf-582m-daily-outflow-ibit-541m-nov20": "2026-11-20T15:05:21Z",
     "btc-below-60k-crash-9pct-2b-liq-extreme-fear-nov21": "2026-11-21T07:04:34Z",
     "btc-wipes-trump-gains-lowest-sep2024-nov21": "2026-11-21T07:04:34Z",
-    "btc-whale-9000btc-exchange-inflow-nov21": "2026-11-21T07:04:34Z"
+    "btc-whale-9000btc-exchange-inflow-nov21": "2026-11-21T07:04:34Z",
+    "btc-below-55k-intraday-low-25b-liq-nov21": "2026-11-21T15:04:50Z",
+    "crypto-2t-weekend-crash-fear-panic-nov21": "2026-11-21T15:04:50Z"
   }
 }

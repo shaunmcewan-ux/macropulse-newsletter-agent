@@ -1,6 +1,6 @@
 {
-  "ts": "2026-11-21T07:04:34Z",
+  "ts": "2026-11-21T15:04:50Z",
   "title": "MacroPulse Alert",
   "priority": "high",
-  "message": "BTC −9.9% (24h) → ~$55,796 | below $60K, lowest since Sep 2024; wipes Trump election gains\nETH −10% (24h) → ~$1,560 | broad crypto selloff, total market −7%\n~$2.4B derivatives liquidated; Extreme Fear sentiment 12/100\nBTC whale exchange inflows surge to 9,000 BTC Nov 21 (bearish signal)"
+  "message": "BTC broke below $55,000 intraday — new session low since Sep 2024; $2.5B liquidated in 24h\nCrash drivers: ETF outflows, leveraged long unwinds, AI-stock contagion, Dec FOMC rate-hike fears\nForbes: \"Panic suddenly sweeps bitcoin\" — weekend crypto market bracing for $2T market-cap loss\nETH ~$1,560 (-10% 24h), XRP testing $0.87; BTC/ETH price alerts deduped (flagged this morning)"
 }
