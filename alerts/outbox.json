@@ -1,6 +1,6 @@
 {
-  "ts": "2026-11-21T15:04:50Z",
+  "ts": "2026-11-21T20:04:46Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "BTC broke below $55,000 intraday — new session low since Sep 2024; $2.5B liquidated in 24h\nCrash drivers: ETF outflows, leveraged long unwinds, AI-stock contagion, Dec FOMC rate-hike fears\nForbes: \"Panic suddenly sweeps bitcoin\" — weekend crypto market bracing for $2T market-cap loss\nETH ~$1,560 (-10% 24h), XRP testing $0.87; BTC/ETH price alerts deduped (flagged this morning)"
+  "priority": "default",
+  "message": "BTC rebounded +9% to ~$60,064 from intraday 2-yr low of $55,130. Recovery fragile — short-covering driven, $1.8B total liquidations on the day. ETF outflows ~$1.1B this week remain headwind. Analysts say lasting recovery needs fresh institutional buying."
 }
