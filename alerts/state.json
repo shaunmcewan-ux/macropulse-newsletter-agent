@@ -1,13 +1,14 @@
 {
-  "lastRunISO": "2026-11-22T07:05:25Z",
+  "lastRunISO": "2026-11-22T15:05:10Z",
   "priceAlerts": {
     "btc": { "pct": 5.68, "dir": "up", "ISO": "2026-11-22T07:05:25Z", "value": 58900 },
     "eth": { "pct": -9.9, "dir": "down", "ISO": "2026-11-21T07:04:34Z", "value": 1560 },
-    "btcd": { "pct": 3.08, "dir": "up", "ISO": "2026-11-15T15:06:24Z", "value": 58.72 },
+    "btcd": { "pct": 3.232, "dir": "up", "ISO": "2026-11-22T15:05:10Z", "value": 58.03 },
     "total": { "pct": -4.78, "dir": "down", "ISO": "2026-11-15T15:06:24Z", "value": 2231113358337 },
-    "total2": { "pct": -8.68, "dir": "down", "ISO": "2026-11-15T15:06:24Z", "value": 921099463703 },
-    "total3": { "pct": -10.4, "dir": "down", "ISO": "2026-11-15T15:06:24Z", "value": 698952854495 },
-    "gold": { "pct": -3.0, "dir": "down", "ISO": "2026-11-18T15:06:26Z", "value": 3760 }
+    "total2": { "pct": -6.353, "dir": "down", "ISO": "2026-11-22T15:05:10Z", "value": 883626857097 },
+    "total3": { "pct": -8.49, "dir": "down", "ISO": "2026-11-22T15:05:10Z", "value": 675268378586 },
+    "gold": { "pct": -2.419, "dir": "down", "ISO": "2026-11-22T15:05:10Z", "value": 3538 },
+    "us500": { "pct": -2.018, "dir": "down", "ISO": "2026-11-22T15:05:10Z", "value": 7175.83 }
   },
   "releases": {
     "US-Oct-RetailSales-Nov17-2026": "2026-11-17T20:05:22Z",
@@ -15,9 +16,6 @@
     "US-WeekNov14-JoblessClaims-Nov19-2026": "2026-11-19T15:05:42Z"
   },
   "news": {
-    "btc-etf-1b-second-consecutive-week-nov14": "2026-11-15T07:04:35Z",
-    "altcoin-etfs-6-markets-outflow-xrp-8mo-high-nov14": "2026-11-15T07:04:35Z",
-    "eth-1715-63pct-below-ath-nov15": "2026-11-15T07:04:35Z",
     "btc-etf-7th-outflow-streak-tied-record-nov14": "2026-11-15T15:06:24Z",
     "btc-61946-overnight-low-bounce-684m-liq-nov15": "2026-11-15T15:06:24Z",
     "dec-fomc-hike-100pct-cme-fedwatch-nov16": "2026-11-16T15:04:23Z",
