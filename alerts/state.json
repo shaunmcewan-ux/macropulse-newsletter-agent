@@ -1,7 +1,7 @@
 {
-  "lastRunISO": "2026-11-21T20:04:46Z",
+  "lastRunISO": "2026-11-22T07:05:25Z",
   "priceAlerts": {
-    "btc": { "pct": -9.9, "dir": "down", "ISO": "2026-11-21T07:04:34Z", "value": 55796 },
+    "btc": { "pct": 5.68, "dir": "up", "ISO": "2026-11-22T07:05:25Z", "value": 58900 },
     "eth": { "pct": -9.9, "dir": "down", "ISO": "2026-11-21T07:04:34Z", "value": 1560 },
     "btcd": { "pct": 3.08, "dir": "up", "ISO": "2026-11-15T15:06:24Z", "value": 58.72 },
     "total": { "pct": -4.78, "dir": "down", "ISO": "2026-11-15T15:06:24Z", "value": 2231113358337 },
@@ -37,6 +37,7 @@
     "btc-whale-9000btc-exchange-inflow-nov21": "2026-11-21T07:04:34Z",
     "btc-below-55k-intraday-low-25b-liq-nov21": "2026-11-21T15:04:50Z",
     "crypto-2t-weekend-crash-fear-panic-nov21": "2026-11-21T15:04:50Z",
-    "btc-9pct-rebound-55k-low-60k-nov21": "2026-11-21T20:04:46Z"
+    "btc-9pct-rebound-55k-low-60k-nov21": "2026-11-21T20:04:46Z",
+    "btc-direction-reversal-up57pct-59k-nov22": "2026-11-22T07:05:25Z"
   }
 }
