@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-21T23:56:11.780Z",
+  "generatedAt": "2026-11-22T14:54:41.443Z",
   "dial": {
     "state": "BTC Accumulation",
-    "summary": "BTC pulled back sharply to the high-$50Ks as DXY held near its 19-month high of 103.97 and stablecoin dominance climbed to 14.1%, but near-zero funding rates (0.0023%), expanding Global M2 (+1.55% 3-month), and the 10th consecutive ISM expansion month (55.5) keep the macro backdrop supportive; the fully deleveraged futures market and stable $6.74T Fed balance sheet argue for a buy-the-dip posture ahead of the December 1 ISM and December 9 FOMC decision.",
+    "summary": "BTC recovered above $60K from last week's flush as funding rates remain near-zero (0.0025%), confirming the deleveraged market structure; Global M2 holds at $103.9T with an expanding 4-week trend and ISM Manufacturing at 55.5% (10th consecutive expansion) underpin the macro bid — DXY headwind at 103.84 and real yields at 2.90% are risks to watch, but the fully deleveraged futures market and stable $6.74T Fed balance sheet continue to argue for accumulation ahead of the December 1 ISM print and December 9 FOMC decision.",
     "states": [
       "BTC Accumulation",
       "Alt Rotation",
@@ -14,58 +14,58 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 60177,
+      "value": 60778,
       "format": "usd",
-      "change24h": 2.39935,
-      "change30d": -26.2391
+      "change24h": 0.86408,
+      "change30d": -25.7185
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 1683.55,
+      "value": 1708.26,
       "format": "usd",
-      "change24h": 4.05937,
-      "change30d": -29.8382
+      "change24h": 1.27679,
+      "change30d": -29.1343
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.0279913,
+      "value": 0.02811664,
       "format": "ratio",
-      "change24h": 1.7295895442960452,
-      "change30d": -2.395873166985609
+      "change24h": 0.3590527106625032,
+      "change30d": -3.291459162130189
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 57.914867480870505,
+      "value": 58.02766500407789,
       "format": "percent",
-      "change24h": 3.4670681644950907,
-      "change30d": -2.4976176977279922
+      "change24h": 3.2323351389283106,
+      "change30d": -2.124878948757319
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2085225450398.4531,
+      "value": 2105260184318.2642,
       "format": "usd-compact",
-      "change24h": -1.0166888684066044,
-      "change30d": -26.525156995753296
+      "change24h": -2.2915350464025765,
+      "change30d": -23.568797766356916
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 877569894122.804,
+      "value": 883626857097.8291,
       "format": "usd-compact",
-      "change24h": -5.402978693611685,
-      "change30d": -23.688730212901966
+      "change24h": -6.352937153037802,
+      "change30d": -21.07122667260918
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 672312531540.8141,
+      "value": 675268378586.4653,
       "format": "usd-compact",
-      "change24h": -7.980732469147213,
-      "change30d": -20.571266340918257
+      "change24h": -8.489947610479119,
+      "change30d": -18.315270552337417
     },
     {
       "id": "dxy",
@@ -144,10 +144,10 @@
     {
       "tier": 1,
       "name": "2s10s Yield Curve",
-      "value": "+0.29%",
-      "trend": "flat",
+      "value": "+0.30%",
+      "trend": "down",
       "status": "neutral",
-      "note": "2s10s spread at +29bps as of November 20, 2026 per CappNotes (2Y 4.63%, 10Y 4.92%); Bondstats Nov 19 shows 28bps (2Y 4.76%, 10Y 5.04%); recessionpulse.com shows 0.30 on Nov 19; 4-week comparison: Nov 5 was +38bps, now +29bps = flattened ~9bps but within neutral range; status neutral (positive spread, curve not inverted — headwind requires < -50bps)."
+      "note": "2s10s spread at +30bps as of November 19–21, 2026 (recessionpulse.com Nov 19: 0.30; Nov 10: +25bps; Nov 6: +35bps); 4-week comparison: Nov 5 was +38bps, now +30bps = flattened ~8bps over 4 weeks, exceeds the 5bps flat threshold → trend DOWN (flattening); curve is steepening off the inversion low but losing some recent momentum; status neutral (positive spread, not inverted — headwind requires < -50bps)."
     },
     {
       "tier": 1,
@@ -160,10 +160,10 @@
     {
       "tier": 3,
       "name": "BTC Funding Rates (perps avg)",
-      "value": "0.0023%",
+      "value": "0.0025%",
       "trend": "flat",
       "status": "supportive",
-      "note": "CoinGlass OI-weighted BTC funding rate at 0.0023% per 8h as of November 20, 2026 (down from 0.0065% on Nov 19; multiple exchanges went negative on Nov 16, recovered); 30-day trend FLAT — near zero or briefly negative throughout October–November; status supportive (well below 0.04% headwind threshold, fully deleveraged market; long liquidations $201.6M on Nov 20 confirm a sharp flush without sustained negative funding)."
+      "note": "CoinGlass OI-weighted BTC funding rate at ~0.0025% per 8h as of November 21–22, 2026 (Coinglass BTC page: 0.0025%; futures page shows brief dip to -0.0020% during sell-off; Binance funding briefly negative Nov 22; CryptoNews: 0.0032%); 30-day trend FLAT — oscillating near zero or slightly negative throughout October–November after the deleveraging flush; status supportive (well below 0.04% headwind threshold; BTC recovering above $60K on no sustained negative funding confirms organic demand)."
     },
     {
       "tier": 3,
@@ -208,8 +208,8 @@
     "crypto": "CoinGecko",
     "tradfi": "FRED + Stooq",
     "marketsEndpoint": "markets",
-    "indicators": "2026-11-21",
-    "calendar": "2026-11-21"
+    "indicators": "2026-11-22",
+    "calendar": "2026-11-22"
   },
   "degraded": {
     "markets": false,
@@ -219,5 +219,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-11-21T23:56:11Z"
+  "cachedAtISO": "2026-11-22T14:54:41Z"
 }
