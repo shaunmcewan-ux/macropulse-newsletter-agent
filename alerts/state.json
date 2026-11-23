@@ -1,13 +1,12 @@
 {
-  "lastRunISO": "2026-11-22T20:04:50Z",
+  "lastRunISO": "2026-11-23T07:05:42Z",
   "priceAlerts": {
-    "btc": { "pct": 5.68, "dir": "up", "ISO": "2026-11-22T07:05:25Z", "value": 58900 },
+    "btc": { "pct": 4.72, "dir": "up", "ISO": "2026-11-23T07:05:42Z", "value": 61708 },
     "eth": { "pct": -9.9, "dir": "down", "ISO": "2026-11-21T07:04:34Z", "value": 1560 },
     "btcd": { "pct": 3.232, "dir": "up", "ISO": "2026-11-22T15:05:10Z", "value": 58.03 },
-    "total": { "pct": -4.78, "dir": "down", "ISO": "2026-11-15T15:06:24Z", "value": 2231113358337 },
     "total2": { "pct": -6.353, "dir": "down", "ISO": "2026-11-22T15:05:10Z", "value": 883626857097 },
     "total3": { "pct": -8.49, "dir": "down", "ISO": "2026-11-22T15:05:10Z", "value": 675268378586 },
-    "gold": { "pct": -2.419, "dir": "down", "ISO": "2026-11-22T15:05:10Z", "value": 3538 },
+    "gold": { "pct": 3.0, "dir": "up", "ISO": "2026-11-23T07:05:42Z", "value": 3625 },
     "us500": { "pct": -2.018, "dir": "down", "ISO": "2026-11-22T15:05:10Z", "value": 7175.83 }
   },
   "releases": {
@@ -16,8 +15,6 @@
     "US-WeekNov14-JoblessClaims-Nov19-2026": "2026-11-19T15:05:42Z"
   },
   "news": {
-    "btc-etf-7th-outflow-streak-tied-record-nov14": "2026-11-15T15:06:24Z",
-    "btc-61946-overnight-low-bounce-684m-liq-nov15": "2026-11-15T15:06:24Z",
     "dec-fomc-hike-100pct-cme-fedwatch-nov16": "2026-11-16T15:04:23Z",
     "warsh-speech-nov16-hawkish-dec-hike-watch": "2026-11-16T15:04:23Z",
     "nvda-q3-fy2027-results-after-close-nov17": "2026-11-17T20:05:22Z",
@@ -36,6 +33,7 @@
     "btc-below-55k-intraday-low-25b-liq-nov21": "2026-11-21T15:04:50Z",
     "crypto-2t-weekend-crash-fear-panic-nov21": "2026-11-21T15:04:50Z",
     "btc-9pct-rebound-55k-low-60k-nov21": "2026-11-21T20:04:46Z",
-    "btc-direction-reversal-up57pct-59k-nov22": "2026-11-22T07:05:25Z"
+    "btc-direction-reversal-up57pct-59k-nov22": "2026-11-22T07:05:25Z",
+    "saylor-dots-btc-buy-signal-nov23": "2026-11-23T07:05:42Z"
   }
 }
