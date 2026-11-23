@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-23T00:29:12.352Z",
+  "generatedAt": "2026-11-23T18:45:45.876Z",
   "dial": {
     "state": "BTC Accumulation",
-    "summary": "BTC recovered above $60K from last week's flush as funding rates remain near-zero (0.0025%), confirming the deleveraged market structure; Global M2 holds at $103.9T with an expanding 4-week trend and ISM Manufacturing at 55.5% (10th consecutive expansion) underpin the macro bid — DXY headwind at 103.84 and real yields at 2.90% are risks to watch, but the fully deleveraged futures market and stable $6.74T Fed balance sheet continue to argue for accumulation ahead of the December 1 ISM print and December 9 FOMC decision.",
+    "summary": "BTC rebounded from $55K weekend lows to $61K on Nov 23 against Extreme Fear sentiment (Fear Index 11), confirming deleveraged market structure; Global M2 holds at $103.9T with an expanding 4-week trend and ISM Manufacturing at 55.5% (10th consecutive expansion) underpin the macro bid — DXY headwind at 103.80 and real yields at 2.88% remain risks, but neutral-to-zero funding rates (0.0024%), BTC.D firm at 57.6%, and improving TOTAL market cap ($2.14T) continue to argue for accumulation ahead of the December 1 ISM print and December 9 FOMC decision.",
     "states": [
       "BTC Accumulation",
       "Alt Rotation",
@@ -14,82 +14,82 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 61109,
+      "value": 61338,
       "format": "usd",
-      "change24h": 1.49907,
-      "change30d": -24.3124
+      "change24h": 1.17102,
+      "change30d": -23.1379
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 1718.91,
+      "value": 1738.2,
       "format": "usd",
-      "change24h": 2.21223,
-      "change30d": -27.1812
+      "change24h": 1.49503,
+      "change30d": -24.8229
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02808738,
+      "value": 0.02830632,
       "format": "ratio",
-      "change24h": 0.5223679510492409,
-      "change30d": -3.4803756823894783
+      "change24h": 0.178724856826139,
+      "change30d": -2.5232456586253345
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 58.888737818977056,
+      "value": 57.8846391701248,
       "format": "percent",
-      "change24h": 4.315075002981228,
-      "change30d": -2.0284345370738164
+      "change24h": 1.2530614022919107,
+      "change30d": -2.415952781411085
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2081257309355.6545,
+      "value": 2128297611237.2808,
       "format": "usd-compact",
-      "change24h": -2.668938312992309,
-      "change30d": -23.06817782074363
+      "change24h": -0.09682808690828143,
+      "change30d": -22.5414213840127
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 855631149110.907,
+      "value": 896340218506.1954,
       "format": "usd-compact",
-      "change24h": -8.154413344157337,
-      "change30d": -20.668047369553076
+      "change24h": -1.7731456607817653,
+      "change30d": -19.60518544016885
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 646142298194.0865,
+      "value": 684051553923.6497,
       "format": "usd-compact",
-      "change24h": -11.12485969635376,
-      "change30d": -17.91996980053258
+      "change24h": -2.742911054597521,
+      "change30d": -16.824395869294566
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 103.785,
+      "value": 104.449,
       "format": "index",
-      "change24h": -0.05296610169492182,
-      "change30d": 2.182774102079394
+      "change24h": 0.5864791987673292,
+      "change30d": 2.836523314429742
     },
     {
       "id": "us500",
       "label": "S&P 500",
-      "value": 7175.83,
+      "value": 6910.39,
       "format": "index",
-      "change24h": -2.018124891617957,
-      "change30d": -6.959288538061889
+      "change24h": -3.69908428711382,
+      "change30d": -10.91609440040633
     },
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10346.33,
+      "value": 10480.83,
       "format": "index",
-      "change24h": -1.0174424166816582,
-      "change30d": -3.604872708639043
+      "change24h": 1.2999778665478483,
+      "change30d": -2.2740920042667727
     },
     {
       "id": "oil",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 3574.29,
+      "value": 3649.256,
       "format": "usd",
-      "change24h": 1.016869635503956,
-      "change30d": -11.211198106919971
+      "change24h": 3.1355647187499094,
+      "change30d": -9.348970553275294
     }
   ],
   "indicators": [
@@ -115,7 +115,7 @@
       "value": "$103.9T",
       "trend": "up",
       "status": "supportive",
-      "note": "StreetStats 4-economy basket at $103,884B ($103.9T) as of November 20, 2026; 3-month change +1.55% per StreetStats; MacroMicro Sep 2026 G4 snapshot was $104.3T; October G4 aggregate not yet published; 4-week trend UP (3-month basket growing); status supportive (4-week trend up, no YoY contraction signal)."
+      "note": "StreetStats 4-economy basket at $103,884B ($103.9T) as of November 20, 2026; September 2026 G4 confirmed data forms the base; US M2 component at $23.41T in September (Macrotrends, +5.7% YoY); 4-week trend UP (3-month basket growing +0.82% at constant exchange rates per StreetStats); status supportive (4-week trend up, no YoY contraction signal); next confirmation when October G4 aggregates publish."
     },
     {
       "tier": 1,
@@ -123,31 +123,31 @@
       "value": "55.5",
       "trend": "up",
       "status": "supportive",
-      "note": "October 2026 ISM Manufacturing PMI at 55.5% (released November 2), above consensus 54.7%, up from September's 54.5%; 4-week trend UP (Sep 54.5 → Oct 55.5, +1.0pp); status supportive (above 50 and rising, 10th consecutive expansion month); next release December 1, 2026 (November data)."
+      "note": "October 2026 ISM Manufacturing PMI at 55.5% (released November 2), above consensus 54.6%, up from September's 54.5%; 4-week trend UP (Sep 54.5 → Oct 55.5, +1.0pp); Production sub-index at 59, highest since Nov 2021; Prices Paid 75.2 (from 77.9); status supportive (above 50 and rising, 10th consecutive expansion month); November 2026 data not yet released — next release December 1, 2026."
     },
     {
       "tier": 1,
       "name": "DXY (US Dollar Index)",
-      "value": "103.84",
+      "value": "103.80",
       "trend": "up",
       "status": "headwind",
-      "note": "ICE DXY at 103.84 on November 20, 2026 per CNBC (prior close 103.895; 52-week high 103.97 set November 19); 4-week trend UP — from ~101.7 on October 20 to 103.84, net +2.1 points (+2.1%), well above the 0.5% flat threshold; hawkish Fed tone and strong ISM driving DXY; status headwind (above 100 threshold — must fall below 97.5 for supportive)."
+      "note": "ICE DXY at 103.80 on November 23, 2026 per DealPlexus (103.76 at 7:40am IST, day range 103.73–103.85); Crypto Briefing reports dollar opened lower at 103.80 after recent 19-month peak near 103.97 on Nov 19; Trading Economics showed 103.807 on Nov 22; 4-week trend UP — from ~101.7 on October 23 to 103.80, net +2.1 points (+2.1%), well above the 0.5% flat threshold (DTWEXBGS broad index FRED correlation confirms direction); status headwind (ICE DXY 103.80 is above 100 threshold)."
     },
     {
       "tier": 1,
       "name": "Real Yields (US10Y - CPI)",
-      "value": "2.90%",
+      "value": "2.88%",
       "trend": "flat",
       "status": "neutral",
-      "note": "10-year TIPS real yield at ~2.90% as of November 20–21, 2026; Treasury 10-year TIPS reopening auction on November 19 cleared at 2.903% (highest since 2002); tracker shows 2.92% on Nov 16; 4-week change Oct 20 (~2.85–2.90%) to Nov 20 (~2.90%) = ~0–5bps, within flat threshold; status neutral (above 2% but flat trend — headwind requires both rising trend AND above 2%)."
+      "note": "10-year TIPS real yield (DFII10) at ~2.88% as of November 19, 2026 per Watchgold/FRED; StreetStats shows 2.81% Nov 20 close; Macrotrends 2.92% for Nov 16; Nov 19 reopening TIPS auction cleared at 2.903% (highest since 2002); 4-week comparison: Oct 23 estimate ~2.90% (near Oct 5 peak of 2.95%) → Nov 23 ~2.88% = ~-2bps, within flat threshold (<5bps); status neutral (above 2% but flat trend — headwind requires both rising trend AND above 2%)."
     },
     {
       "tier": 1,
       "name": "2s10s Yield Curve",
-      "value": "+0.30%",
+      "value": "+0.29%",
       "trend": "down",
       "status": "neutral",
-      "note": "2s10s spread at +30bps as of November 19–21, 2026 (recessionpulse.com Nov 19: 0.30; Nov 10: +25bps; Nov 6: +35bps); 4-week comparison: Nov 5 was +38bps, now +30bps = flattened ~8bps over 4 weeks, exceeds the 5bps flat threshold → trend DOWN (flattening); curve is steepening off the inversion low but losing some recent momentum; status neutral (positive spread, not inverted — headwind requires < -50bps)."
+      "note": "2s10s spread at +29bps as of November 20, 2026 (Treasury par-curve tracker Nov 20: 29bp; weekly recap Nov 20: 0.30%; low of 0.24 on Nov 14 then uptick to 0.30 by Nov 19; Nov 10: +25bp; Nov 5: +38bp); 4-week comparison: Oct 23 estimate ~+40bps → Nov 23 ~+29bps = flattened ~11bps over 4 weeks, exceeds the 5bps flat threshold → trend DOWN (flattening); curve remains in steepening territory off the inversion low but losing recent momentum; status neutral (positive spread, not inverted — headwind requires < -50bps)."
     },
     {
       "tier": 1,
@@ -155,23 +155,23 @@
       "value": "$6.74T",
       "trend": "flat",
       "status": "supportive",
-      "note": "WALCL at $6,741,452M ($6.74T) as of November 18, 2026 per Federal Reserve H.4.1 (Nov 11: $6,758,867M; Nov 4: $6,748,145M); 4-week change Oct 22 (~$6.755T) → Nov 18 ($6.741T) = -$14B = -0.2%, within flat threshold; next H.4.1 release November 27; status supportive (QT effectively ended, balance sheet stable YoY)."
+      "note": "WALCL at $6,741,452M ($6.74T) as of November 18, 2026 per Federal Reserve H.4.1 (Nov 11: $6,758,867M; Nov 4: $6,748,145M; Oct 28: $6,745,635M); 4-week comparison: Oct 28 $6,745,635M → Nov 18 $6,741,452M = -$4.2B = -0.06%, well within flat threshold (<0.5%); next H.4.1 release November 25 or December 2; status supportive (QT effectively paused, balance sheet stable YoY — no aggressive tightening signal)."
     },
     {
       "tier": 3,
       "name": "BTC Funding Rates (perps avg)",
-      "value": "0.0025%",
+      "value": "0.0024%",
       "trend": "flat",
       "status": "supportive",
-      "note": "CoinGlass OI-weighted BTC funding rate at ~0.0025% per 8h as of November 21–22, 2026 (Coinglass BTC page: 0.0025%; futures page shows brief dip to -0.0020% during sell-off; Binance funding briefly negative Nov 22; CryptoNews: 0.0032%); 30-day trend FLAT — oscillating near zero or slightly negative throughout October–November after the deleveraging flush; status supportive (well below 0.04% headwind threshold; BTC recovering above $60K on no sustained negative funding confirms organic demand)."
+      "note": "CoinGlass OI-weighted BTC funding rate at ~0.0024% per 8h as of November 22, 2026 (CoinGlass BTC page: 0.0024% annualized ~2.63%; futures page: 0.0050%; CryptoNRO average across Binance/Bybit/OKX: +0.0035%); rates were briefly negative on Nov 16 on Binance, OKX, Bybit, Gate, and Bitget; 30-day trend FLAT — oscillating near zero or slightly negative throughout October–November; status supportive (well below 0.04% headwind threshold; BTC recovering from $55K lows to $61K on no sustained negative funding confirms deleveraged organic demand)."
     },
     {
       "tier": 3,
       "name": "Stablecoin Dominance",
-      "value": "14.1%",
+      "value": "13.1%",
       "trend": "up",
       "status": "neutral",
-      "note": "Stablecoin market cap $281.5B (DefiLlama Nov 20, down from $283.1B Nov 19 as supply contracts from May 2026 peak of $311.4B); total crypto ~$2.0T estimated (BTC $1.18T market cap per CoinDesk Nov 20 at $58,683 / ~59% dominance); derived stablecoin dominance ~14.1%, up from 12.8% on Nov 19 as BTC dropped ~9.6% in 24h; 30-day trend UP — from ~10.7% on October 21 to ~14.1%; BTC.D ~59%; status neutral (dominance rising but TOTAL market falling — headwind requires rising stables AND rising TOTAL simultaneously)."
+      "note": "Stablecoin market cap $280.4B (DefiLlama Nov 22, down from $281.5B Nov 20 and $309.7B May 2026 peak; USDT $174.6B, USDC $68.7B); total crypto market cap ~$2.14T (KuCoin Nov 23, BTC at ~$61K / 57.6% dominance); derived stablecoin dominance ~13.1%, down from 14.1% peak on Nov 20 as BTC recovered +4% from weekend lows; 30-day trend UP — from ~10.7% on October 21 (total market ~$2.6T) to ~13.1%; status neutral (dominance rising on 30-day basis but total market cap falling over same period — headwind requires BOTH rising, not met)."
     }
   ],
   "upcoming": [
@@ -194,15 +194,15 @@
       "title": "PCE Inflation / Personal Income (October 2026)",
       "category": "Inflation",
       "importance": "high",
-      "note": "BEA releases October 2026 Personal Income and Outlays at 8:30 AM ET; PCE is the Fed's preferred inflation gauge — a hot core reading above +0.3% MoM would seal the December 9 FOMC hike after October CPI surprised at +0.4% MoM; this is the last major inflation print before the November 29 FOMC blackout period starts."
+      "note": "BEA releases October 2026 Personal Income and Outlays at 8:30 AM ET; PCE is the Fed's preferred inflation gauge — a hot core reading above +0.3% MoM would reinforce the December 9 FOMC hike case after October CPI surprised at +0.4% MoM; this is the last major inflation print before the November 29 FOMC blackout period starts."
     }
   ],
   "sources": {
     "crypto": "CoinGecko",
     "tradfi": "FRED + Stooq",
     "marketsEndpoint": "markets",
-    "indicators": "2026-11-22",
-    "calendar": "2026-11-22"
+    "indicators": "2026-11-23",
+    "calendar": "2026-11-23"
   },
   "degraded": {
     "markets": false,
@@ -212,5 +212,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-11-23T00:29:12Z"
+  "cachedAtISO": "2026-11-23T18:45:45Z"
 }
