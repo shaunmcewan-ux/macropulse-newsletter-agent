@@ -1,6 +1,6 @@
 {
-  "ts": "2026-11-23T15:06:12Z",
+  "ts": "2026-11-23T20:03:33Z",
   "title": "MacroPulse Alert",
-  "priority": "high",
-  "message": "S&P 500 +4.7% (24h) ~7,181 | Nasdaq +6% — Nvidia reinstates Jensen Huang as CEO; NVDA +35%\nUS Flash PMI (Nov): Services 54.7 vs 55.7 exp (prior 56.1) — 4-month low; Composite 54.6 vs 55.9\nBTC ~$63K, +4% 24h — dedup suppressed (prior +4.72% alerted 07:05 UTC)"
+  "priority": "default",
+  "message": ""
 }
