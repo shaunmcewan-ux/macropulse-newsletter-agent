@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-11-23T20:03:33Z",
+  "lastRunISO": "2026-11-24T07:05:06Z",
   "priceAlerts": {
     "btc": { "pct": 4.72, "dir": "up", "ISO": "2026-11-23T07:05:42Z", "value": 61708 },
     "eth": { "pct": -9.9, "dir": "down", "ISO": "2026-11-21T07:04:34Z", "value": 1560 },
@@ -16,8 +16,6 @@
     "US-Nov-FlashPMI-Nov23-2026": "2026-11-23T15:06:12Z"
   },
   "news": {
-    "dec-fomc-hike-100pct-cme-fedwatch-nov16": "2026-11-16T15:04:23Z",
-    "warsh-speech-nov16-hawkish-dec-hike-watch": "2026-11-16T15:04:23Z",
     "nvda-q3-fy2027-results-after-close-nov17": "2026-11-17T20:05:22Z",
     "fomc-minutes-oct-mtg-due-nov18": "2026-11-17T20:05:22Z",
     "fomc-oct-minutes-dovish-hold-nov18": "2026-11-18T07:05:21Z",
@@ -36,6 +34,8 @@
     "btc-9pct-rebound-55k-low-60k-nov21": "2026-11-21T20:04:46Z",
     "btc-direction-reversal-up57pct-59k-nov22": "2026-11-22T07:05:25Z",
     "saylor-dots-btc-buy-signal-nov23": "2026-11-23T07:05:42Z",
-    "nvidia-huang-ceo-reinstatement-sp500-surge-nov23": "2026-11-23T15:06:12Z"
+    "nvidia-huang-ceo-reinstatement-sp500-surge-nov23": "2026-11-23T15:06:12Z",
+    "50bps-dec-hike-bets-abandoned-coindesk-nov23": "2026-11-24T07:05:06Z",
+    "btc-etf-570m-daily-outflow-nov24": "2026-11-24T07:05:06Z"
   }
 }
