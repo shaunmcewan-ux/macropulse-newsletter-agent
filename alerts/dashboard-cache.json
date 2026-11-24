@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T18:45:45.876Z",
+  "generatedAt": "2026-11-24T04:26:49.194Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "BTC rebounded from $55K weekend lows to $61K on Nov 23 against Extreme Fear sentiment (Fear Index 11), confirming deleveraged market structure; Global M2 holds at $103.9T with an expanding 4-week trend and ISM Manufacturing at 55.5% (10th consecutive expansion) underpin the macro bid — DXY headwind at 103.80 and real yields at 2.88% remain risks, but neutral-to-zero funding rates (0.0024%), BTC.D firm at 57.6%, and improving TOTAL market cap ($2.14T) continue to argue for accumulation ahead of the December 1 ISM print and December 9 FOMC decision.",
@@ -14,66 +14,66 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 61338,
+      "value": 60439,
       "format": "usd",
-      "change24h": 1.17102,
-      "change30d": -23.1379
+      "change24h": -1.449,
+      "change30d": -25.4609
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 1738.2,
+      "value": 1697.84,
       "format": "usd",
-      "change24h": 1.49503,
-      "change30d": -24.8229
+      "change24h": -1.96888,
+      "change30d": -28.3338
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02830632,
+      "value": 0.02811108,
       "format": "ratio",
-      "change24h": 0.178724856826139,
-      "change30d": -2.5232456586253345
+      "change24h": -0.3716006626820211,
+      "change30d": -4.5084384694081745
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 57.8846391701248,
+      "value": 57.78027202301761,
       "format": "percent",
-      "change24h": 1.2530614022919107,
-      "change30d": -2.415952781411085
+      "change24h": 0.7403139309478002,
+      "change30d": -2.6334041042641845
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2128297611237.2808,
+      "value": 2099494666397.6885,
       "format": "usd-compact",
-      "change24h": -0.09682808690828143,
-      "change30d": -22.5414213840127
+      "change24h": -2.1766399620819232,
+      "change30d": -23.122711343358283
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 896340218506.1954,
+      "value": 886400937044.358,
       "format": "usd-compact",
-      "change24h": -1.7731456607817653,
-      "change30d": -19.60518544016885
+      "change24h": -3.156297470477839,
+      "change30d": -20.003049687585328
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 684051553923.6497,
+      "value": 679178433568.9835,
       "format": "usd-compact",
-      "change24h": -2.742911054597521,
-      "change30d": -16.824395869294566
+      "change24h": -3.517046246733929,
+      "change30d": -17.03727248352668
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 104.449,
+      "value": 104.289,
       "format": "index",
-      "change24h": 0.5864791987673292,
-      "change30d": 2.836523314429742
+      "change24h": -0.02779961272263307,
+      "change30d": 2.678993383742915
     },
     {
       "id": "us500",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 3649.256,
+      "value": 3628.14,
       "format": "usd",
-      "change24h": 3.1355647187499094,
-      "change30d": -9.348970553275294
+      "change24h": -0.16685909761808376,
+      "change30d": -9.873512305839938
     }
   ],
   "indicators": [
@@ -176,13 +176,6 @@
   ],
   "upcoming": [
     {
-      "date": "2026-11-24",
-      "title": "Conference Board Consumer Confidence (November 2026)",
-      "category": "Growth",
-      "importance": "medium",
-      "note": "Conference Board releases November 2026 Consumer Confidence Index at 10:00 AM ET (last Tuesday of month); tracks current conditions and 6-month expectations; a deterioration from October's level would signal cracks in the consumer spending backdrop ahead of the November 25 PCE release."
-    },
-    {
       "date": "2026-11-25",
       "title": "GDP Q3 2026 — Second Estimate",
       "category": "Growth",
@@ -195,6 +188,20 @@
       "category": "Inflation",
       "importance": "high",
       "note": "BEA releases October 2026 Personal Income and Outlays at 8:30 AM ET; PCE is the Fed's preferred inflation gauge — a hot core reading above +0.3% MoM would reinforce the December 9 FOMC hike case after October CPI surprised at +0.4% MoM; this is the last major inflation print before the November 29 FOMC blackout period starts."
+    },
+    {
+      "date": "2026-12-01",
+      "title": "ISM Manufacturing PMI (November 2026)",
+      "category": "PMI",
+      "importance": "high",
+      "note": "ISM releases November 2026 Manufacturing PMI at 10:00 AM ET (first business day of December); October reading was 55.5 (10th consecutive expansion month); a continuation above 55 would reinforce the late-cycle expansion narrative heading into the December 9 FOMC meeting; Prices Paid sub-index closely watched given elevated input cost pressures in October."
+    },
+    {
+      "date": "2026-12-01",
+      "title": "JOLTS Job Openings (October 2026)",
+      "category": "Labor",
+      "importance": "medium",
+      "note": "BLS releases October 2026 JOLTS at 10:00 AM ET; a print above 8M openings would reinforce the tight labor market narrative supporting the December 9 hike case; the quits rate is a leading indicator of wage growth; released 3 days before the November NFP (December 4)."
     }
   ],
   "sources": {
@@ -212,5 +219,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-11-23T18:45:45Z"
+  "cachedAtISO": "2026-11-24T04:26:49Z"
 }
