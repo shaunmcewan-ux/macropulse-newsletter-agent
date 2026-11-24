@@ -1,7 +1,7 @@
 {
-  "lastRunISO": "2026-11-24T07:05:06Z",
+  "lastRunISO": "2026-11-24T15:04:02Z",
   "priceAlerts": {
-    "btc": { "pct": 4.72, "dir": "up", "ISO": "2026-11-23T07:05:42Z", "value": 61708 },
+    "btc": { "pct": 5.03, "dir": "down", "ISO": "2026-11-24T15:04:02Z", "value": 60277 },
     "eth": { "pct": -9.9, "dir": "down", "ISO": "2026-11-21T07:04:34Z", "value": 1560 },
     "btcd": { "pct": 3.232, "dir": "up", "ISO": "2026-11-22T15:05:10Z", "value": 58.03 },
     "total2": { "pct": -6.353, "dir": "down", "ISO": "2026-11-22T15:05:10Z", "value": 883626857097 },
