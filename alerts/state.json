@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-11-25T15:04:52Z",
+  "lastRunISO": "2026-11-25T20:05:02Z",
   "priceAlerts": {
     "btc": { "pct": 5.03, "dir": "down", "ISO": "2026-11-24T15:04:02Z", "value": 60277 },
     "eth": { "pct": -9.9, "dir": "down", "ISO": "2026-11-21T07:04:34Z", "value": 1560 },
@@ -15,10 +15,6 @@
     "pce-oct-print-nov25-2026": "2026-11-25T15:04:52Z"
   },
   "news": {
-    "fomc-oct-minutes-dovish-hold-nov18": "2026-11-18T07:05:21Z",
-    "nvda-q3-fy2027-beat-115b-rev-nov17": "2026-11-18T07:05:21Z",
-    "waller-50bps-possible-dec-hike-nov18": "2026-11-18T15:06:26Z",
-    "gold-ytd-low-below-3800-nov18": "2026-11-18T15:06:26Z",
     "btc-death-cross-confirmed-nov20": "2026-11-20T07:05:22Z",
     "btc-61500-july-low-japan-risk-dec-fomc-50bps-fears-nov20": "2026-11-20T07:05:22Z",
     "btc-etf-29b-cumulative-nov-outflows-nov20": "2026-11-20T07:05:22Z",
