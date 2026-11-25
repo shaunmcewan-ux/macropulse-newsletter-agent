@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T18:20:32.944Z",
+  "generatedAt": "2026-11-25T03:10:03.717Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "BTC extended its recovery to ~$63.4K on Nov 24 as short liquidations ($74M of $93M total) dominate and perp funding holds low at 0.0038%; real yields declined 9bps on a 4-week basis to ~2.81% (flipping from neutral to supportive), while Global M2 holds at $103.9T and ISM at 55.5% (10th expansion month) reinforce the macro bid — DXY headwind extended to 104.29 (new 19-month high) but BTC.D remains firm near 57% and TOTAL at $2.18T supports continued accumulation ahead of the Dec 1 ISM print and Dec 9 FOMC decision.",
@@ -14,66 +14,66 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 60032,
+      "value": 59202,
       "format": "usd",
-      "change24h": -2.36853,
-      "change30d": -25.6203
+      "change24h": -0.87768,
+      "change30d": -25.7436
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 1683.44,
+      "value": 1655.74,
       "format": "usd",
-      "change24h": -3.47271,
-      "change30d": -28.4738
+      "change24h": -1.18704,
+      "change30d": -28.4743
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02803604,
+      "value": 0.02806549,
       "format": "ratio",
-      "change24h": -1.239037116024501,
-      "change30d": -5.304286279981408
+      "change24h": 0.6134657835707208,
+      "change30d": -4.4497092357643275
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 57.893308533115075,
+      "value": null,
       "format": "percent",
-      "change24h": 2.809029830072207,
-      "change30d": -2.4272982965315677
+      "change24h": null,
+      "change30d": -2.453904768979037
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2083515227751.4326,
+      "value": null,
       "format": "usd-compact",
-      "change24h": -5.039362630534962,
-      "change30d": -23.850029911623817
+      "change24h": null,
+      "change30d": -24.083525009105966
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 877299328614.8605,
+      "value": null,
       "format": "usd-compact",
-      "change24h": -8.486501246982153,
-      "change30d": -21.001735898355914
+      "change24h": null,
+      "change30d": -21.225629682621296
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 671976925585.2955,
+      "value": null,
       "format": "usd-compact",
-      "change24h": -9.92121100856398,
-      "change30d": -18.165544703032484
+      "change24h": null,
+      "change30d": -18.43855016248154
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 103.81,
+      "value": 103.902,
       "format": "index",
-      "change24h": -0.48697252631376714,
-      "change30d": 2.207388153749217
+      "change24h": 0.0519990755719918,
+      "change30d": 2.0878980516226653
     },
     {
       "id": "us500",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 3562.4,
+      "value": 3559.066,
       "format": "usd",
-      "change24h": -1.9757834177718168,
-      "change30d": -11.506557144521482
+      "change24h": 0.07974737292019317,
+      "change30d": -10.858438110504435
     }
   ],
   "indicators": [
@@ -176,27 +176,6 @@
   ],
   "upcoming": [
     {
-      "date": "2026-11-25",
-      "title": "GDP Q3 2026 — Second Estimate",
-      "category": "Growth",
-      "importance": "medium",
-      "note": "BEA releases Q3 2026 GDP second estimate at 8:30 AM ET on the compressed Wednesday pre-Thanksgiving schedule (Nov 26 Thanksgiving); watch consumer spending and PCE deflator revisions for any upside that would reinforce the December 9 FOMC hike case; released same day as October PCE on thin pre-holiday liquidity."
-    },
-    {
-      "date": "2026-11-25",
-      "title": "Durable Goods Orders (October 2026)",
-      "category": "Growth",
-      "importance": "medium",
-      "note": "Census Bureau releases October 2026 Advance Durable Goods Orders at 8:30 AM ET on the compressed pre-Thanksgiving Wednesday schedule; orders ex-transportation and ex-defense capital goods (core capex proxy) are the key print; a soft reading would add to the picture of a slowing investment cycle while the Fed weighs December 9 rate action; released same morning as GDP second estimate and PCE."
-    },
-    {
-      "date": "2026-11-25",
-      "title": "PCE Inflation / Personal Income (October 2026)",
-      "category": "Inflation",
-      "importance": "high",
-      "note": "BEA releases October 2026 Personal Income and Outlays at 8:30 AM ET; PCE is the Fed's preferred inflation gauge — a hot core reading above +0.3% MoM would reinforce the December 9 FOMC hike case after October CPI surprised at +0.4% MoM; this is the last major inflation print before the November 29 FOMC blackout period starts."
-    },
-    {
       "date": "2026-12-01",
       "title": "ISM Manufacturing PMI (November 2026)",
       "category": "PMI",
@@ -209,6 +188,13 @@
       "category": "Labor",
       "importance": "medium",
       "note": "BLS releases October 2026 JOLTS at 10:00 AM ET; a print above 8M openings would reinforce the tight labor market narrative supporting the December 9 hike case; the quits rate is a leading indicator of wage growth; released 3 days before the November NFP (December 4)."
+    },
+    {
+      "date": "2026-12-02",
+      "title": "ADP Private Employment (November 2026)",
+      "category": "Labor",
+      "importance": "medium",
+      "note": "ADP releases November 2026 National Employment Report at 8:15 AM ET; private sector payroll estimate published 2 days before the official BLS NFP (December 4); a print above 200K would align with the strong labor market narrative supporting further Fed tightening ahead of the December 9 FOMC decision."
     }
   ],
   "sources": {
@@ -220,11 +206,11 @@
   },
   "degraded": {
     "markets": false,
-    "global": false,
+    "global": true,
     "ethbtc": false,
     "fred": true,
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-11-24T18:20:33Z"
+  "cachedAtISO": "2026-11-25T03:10:03Z"
 }
