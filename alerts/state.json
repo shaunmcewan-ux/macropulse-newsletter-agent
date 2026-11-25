@@ -1,12 +1,12 @@
 {
-  "lastRunISO": "2026-11-24T20:03:42Z",
+  "lastRunISO": "2026-11-25T07:04:59Z",
   "priceAlerts": {
     "btc": { "pct": 5.03, "dir": "down", "ISO": "2026-11-24T15:04:02Z", "value": 60277 },
     "eth": { "pct": -9.9, "dir": "down", "ISO": "2026-11-21T07:04:34Z", "value": 1560 },
     "btcd": { "pct": 3.232, "dir": "up", "ISO": "2026-11-22T15:05:10Z", "value": 58.03 },
     "total2": { "pct": -6.353, "dir": "down", "ISO": "2026-11-22T15:05:10Z", "value": 883626857097 },
     "total3": { "pct": -8.49, "dir": "down", "ISO": "2026-11-22T15:05:10Z", "value": 675268378586 },
-    "gold": { "pct": 3.0, "dir": "up", "ISO": "2026-11-23T07:05:42Z", "value": 3625 },
+    "gold": { "pct": -2.2, "dir": "down", "ISO": "2026-11-25T07:04:59Z", "value": 3556 },
     "us500": { "pct": 4.7, "dir": "up", "ISO": "2026-11-23T15:06:12Z", "value": 7181 }
   },
   "releases": {
@@ -32,6 +32,11 @@
     "saylor-dots-btc-buy-signal-nov23": "2026-11-23T07:05:42Z",
     "nvidia-huang-ceo-reinstatement-sp500-surge-nov23": "2026-11-23T15:06:12Z",
     "50bps-dec-hike-bets-abandoned-coindesk-nov23": "2026-11-24T07:05:06Z",
-    "btc-etf-570m-daily-outflow-nov24": "2026-11-24T07:05:06Z"
+    "btc-etf-570m-daily-outflow-nov24": "2026-11-24T07:05:06Z",
+    "gold-pce-fears-reversal-nov25": "2026-11-25T07:04:59Z",
+    "btc-7th-weekly-loss-etf-outflows-5b-nov25": "2026-11-25T07:04:59Z",
+    "blackrock-markets-overprice-fed-hikes-nov25": "2026-11-25T07:04:59Z",
+    "fincen-cybersecurity-incident-nov25": "2026-11-25T07:04:59Z",
+    "pce-oct-gdp-q3-due-1330utc-nov25": "2026-11-25T07:04:59Z"
   }
 }
