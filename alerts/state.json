@@ -1,7 +1,7 @@
 {
-  "lastRunISO": "2026-11-26T07:05:34Z",
+  "lastRunISO": "2026-11-26T15:05:22Z",
   "priceAlerts": {
-    "btc": { "pct": 5.03, "dir": "down", "ISO": "2026-11-24T15:04:02Z", "value": 60277 },
+    "btc": { "pct": 4.7, "dir": "up", "ISO": "2026-11-26T15:05:22Z", "value": 60734 },
     "eth": { "pct": -9.9, "dir": "down", "ISO": "2026-11-21T07:04:34Z", "value": 1560 },
     "btcd": { "pct": 3.232, "dir": "up", "ISO": "2026-11-22T15:05:10Z", "value": 58.03 },
     "total2": { "pct": -6.353, "dir": "down", "ISO": "2026-11-22T15:05:10Z", "value": 883626857097 },
@@ -12,7 +12,10 @@
   "releases": {
     "US-WeekNov14-JoblessClaims-Nov19-2026": "2026-11-19T15:05:42Z",
     "US-Nov-FlashPMI-Nov23-2026": "2026-11-23T15:06:12Z",
-    "pce-oct-print-nov25-2026": "2026-11-25T15:04:52Z"
+    "pce-oct-print-nov25-2026": "2026-11-25T15:04:52Z",
+    "us-gdp-q3-rev2-4.3pct-nov25-2026": "2026-11-26T15:05:22Z",
+    "us-jobless-wkNov21-189k-nov25-2026": "2026-11-26T15:05:22Z",
+    "us-durables-oct-0.2pct-nov25-2026": "2026-11-26T15:05:22Z"
   },
   "news": {
     "btc-death-cross-confirmed-nov20": "2026-11-20T07:05:22Z",
@@ -34,6 +37,8 @@
     "btc-7th-weekly-loss-etf-outflows-5b-nov25": "2026-11-25T07:04:59Z",
     "blackrock-markets-overprice-fed-hikes-nov25": "2026-11-25T07:04:59Z",
     "fincen-cybersecurity-incident-nov25": "2026-11-25T07:04:59Z",
-    "pce-oct-gdp-q3-due-1330utc-nov25": "2026-11-25T07:04:59Z"
+    "pce-oct-gdp-q3-due-1330utc-nov25": "2026-11-25T07:04:59Z",
+    "swiss-btc-etf-six-exchange-nov26-2026": "2026-11-26T15:05:22Z",
+    "dec-fomc-hike-94-98pct-priced-nov26-2026": "2026-11-26T15:05:22Z"
   }
 }
