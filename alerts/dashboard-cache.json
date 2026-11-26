@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T17:38:10.714Z",
+  "generatedAt": "2026-11-26T02:28:22.762Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "Oct PCE inflation and Q3 GDP second estimate release today (Nov 25) on thin pre-Thanksgiving liquidity — DXY eased to 103.99 (from 104.29) but BTC pulled back to ~$59.5K and TOTAL market cap slipped to ~$2.04T, while BTC.D firmed to ~58.5%; macro fundamentals remain intact (M2 at $103.9T, real yields at 2.79% and declining, Fed balance sheet flat at $6.74T) and perp funding at 0.0024% near zero — the low-funding, high-dominance structure is consistent with accumulation ahead of the Dec 9 FOMC decision, though TOTAL's 30-day decline from $2.6T warrants monitoring.",
@@ -14,66 +14,66 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 59465,
+      "value": 60930,
       "format": "usd",
-      "change24h": -0.82554,
-      "change30d": -27.1924
+      "change24h": 3.09434,
+      "change30d": -24.1212
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 1667.4,
+      "value": 1702.77,
       "format": "usd",
-      "change24h": -0.90342,
-      "change30d": -29.3444
+      "change24h": 2.80395,
+      "change30d": -26.848
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02811457,
+      "value": 0.02792572,
       "format": "ratio",
-      "change24h": 0.036193837001249236,
-      "change30d": -3.7393314411088294
+      "change24h": -0.5668876980228315,
+      "change30d": -3.0085105906369765
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 57.772301946225966,
+      "value": 57.92055824577028,
       "format": "percent",
-      "change24h": 1.7409054543885416,
-      "change30d": -2.3816480433620644
+      "change24h": 3.2947270219422453,
+      "change30d": -2.1597801432506802
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2070221721676.9575,
+      "value": 2108047134919.6565,
       "format": "usd-compact",
-      "change24h": -2.578535587698942,
-      "change30d": -23.857128195334703
+      "change24h": -0.19137184214666447,
+      "change30d": -22.262765900727192
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 874206977673.3878,
+      "value": 887054466290.2252,
       "format": "usd-compact",
-      "change24h": -4.805016552125484,
-      "change30d": -21.075113534819558
+      "change24h": -4.426485579189051,
+      "change30d": -19.640036743240216
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 670441589474.4575,
+      "value": 679691099405.6444,
       "format": "usd-compact",
-      "change24h": -5.914368262895302,
-      "change30d": -18.365087823734868
+      "change24h": -6.4586464833329,
+      "change30d": -17.012403188828173
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 103.63,
+      "value": 103.739,
       "format": "index",
-      "change24h": -0.20992219397581421,
-      "change30d": 1.8206471010149585
+      "change24h": 0.04146736614720564,
+      "change30d": 1.6749975497402756
     },
     {
       "id": "us500",
@@ -94,18 +94,18 @@
     {
       "id": "oil",
       "label": "Oil (WTI)",
-      "value": 89.53,
+      "value": 82.24,
       "format": "usd",
-      "change24h": 0.32496638278799445,
-      "change30d": -17.262729877090834
+      "change24h": 1.0071235568656265,
+      "change30d": -25.045570543200878
     },
     {
       "id": "gold",
       "label": "Gold",
-      "value": 3501.852,
+      "value": 3580.891,
       "format": "usd",
-      "change24h": -1.5290912005129071,
-      "change30d": -12.291439162450535
+      "change24h": -0.23872671655346375,
+      "change30d": -10.872670478940192
     }
   ],
   "indicators": [
@@ -195,6 +195,13 @@
       "category": "Labor",
       "importance": "medium",
       "note": "ADP releases November 2026 National Employment Report at 8:15 AM ET; private sector payroll estimate published 2 days before the official BLS NFP (December 4); a print above 200K would align with the strong labor market narrative supporting further Fed tightening ahead of the December 9 FOMC decision."
+    },
+    {
+      "date": "2026-12-03",
+      "title": "ISM Services PMI (November 2026)",
+      "category": "PMI",
+      "importance": "medium",
+      "note": "ISM releases November 2026 Non-Manufacturing (Services) PMI at 10:00 AM ET (3rd business day of December); services sector activity closely watched given the Fed's focus on services inflation; a reading above 55 would reinforce the tight labor/services backdrop heading into the December 9 FOMC meeting; released one day before November NFP."
     }
   ],
   "sources": {
@@ -212,5 +219,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-11-25T17:38:10Z"
+  "cachedAtISO": "2026-11-26T02:28:22Z"
 }
