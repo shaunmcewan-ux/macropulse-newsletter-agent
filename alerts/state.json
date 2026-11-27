@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-11-27T07:05:17Z",
+  "lastRunISO": "2026-11-27T15:05:45Z",
   "priceAlerts": {
     "btc": { "pct": 4.7, "dir": "up", "ISO": "2026-11-26T15:05:22Z", "value": 60734 },
     "eth": { "pct": -9.9, "dir": "down", "ISO": "2026-11-21T07:04:34Z", "value": 1560 },
@@ -10,7 +10,6 @@
     "us500": { "pct": 4.7, "dir": "up", "ISO": "2026-11-23T15:06:12Z", "value": 7181 }
   },
   "releases": {
-    "US-WeekNov14-JoblessClaims-Nov19-2026": "2026-11-19T15:05:42Z",
     "US-Nov-FlashPMI-Nov23-2026": "2026-11-23T15:06:12Z",
     "pce-oct-print-nov25-2026": "2026-11-25T15:04:52Z",
     "us-gdp-q3-rev2-4.3pct-nov25-2026": "2026-11-26T15:05:22Z",
@@ -18,10 +17,6 @@
     "us-durables-oct-0.2pct-nov25-2026": "2026-11-26T15:05:22Z"
   },
   "news": {
-    "btc-death-cross-confirmed-nov20": "2026-11-20T07:05:22Z",
-    "btc-61500-july-low-japan-risk-dec-fomc-50bps-fears-nov20": "2026-11-20T07:05:22Z",
-    "btc-etf-29b-cumulative-nov-outflows-nov20": "2026-11-20T07:05:22Z",
-    "btc-etf-582m-daily-outflow-ibit-541m-nov20": "2026-11-20T15:05:21Z",
     "btc-below-60k-crash-9pct-2b-liq-extreme-fear-nov21": "2026-11-21T07:04:34Z",
     "btc-wipes-trump-gains-lowest-sep2024-nov21": "2026-11-21T07:04:34Z",
     "btc-whale-9000btc-exchange-inflow-nov21": "2026-11-21T07:04:34Z",
@@ -37,10 +32,11 @@
     "btc-7th-weekly-loss-etf-outflows-5b-nov25": "2026-11-25T07:04:59Z",
     "blackrock-markets-overprice-fed-hikes-nov25": "2026-11-25T07:04:59Z",
     "fincen-cybersecurity-incident-nov25": "2026-11-25T07:04:59Z",
-    "pce-oct-gdp-q3-due-1330utc-nov25": "2026-11-25T07:04:59Z",
     "swiss-btc-etf-six-exchange-nov26-2026": "2026-11-26T15:05:22Z",
     "dec-fomc-hike-94-98pct-priced-nov26-2026": "2026-11-26T15:05:22Z",
     "btc-7b-options-expiry-nov27-2026": "2026-11-26T20:05:51Z",
-    "btc-264m-short-liq-thanksgiving-nov26-2026": "2026-11-26T20:05:51Z"
+    "btc-264m-short-liq-thanksgiving-nov26-2026": "2026-11-26T20:05:51Z",
+    "btc-6.8b-options-settled-61.6k-no-swing-nov27-2026": "2026-11-27T15:05:45Z",
+    "btc-etf-5.39b-nov-outflows-confirmed-nov27-2026": "2026-11-27T15:05:45Z"
   }
 }
