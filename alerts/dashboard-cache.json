@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T17:20:07.711Z",
+  "generatedAt": "2026-11-27T02:24:23.623Z",
   "dial": {
     "state": "BTC Accumulation",
     "summary": "Real yields fell to 2.72% after Oct PCE came in softer, narrowing the headwind from restrictive monetary conditions while DXY eased to 103.83 on the first post-Thanksgiving trading day — BTC stabilizes near $59–60K with TOTAL at ~$2.09T after the holiday-week pullback, and perp funding at 0.0014% signals minimal leverage; the low-funding, elevated BTC.D structure (~57–59%) with macro on a softening trajectory supports continued BTC Accumulation ahead of the Dec 1 ISM print and the Dec 9 FOMC decision.",
@@ -14,66 +14,66 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 60503,
+      "value": 61221,
       "format": "usd",
-      "change24h": 1.65,
-      "change30d": -24.8659
+      "change24h": 0.39671,
+      "change30d": -24.8326
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 1693.45,
+      "value": 1714.62,
       "format": "usd",
-      "change24h": 1.65531,
-      "change30d": -27.8884
+      "change24h": 0.58874,
+      "change30d": -27.518
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02799543,
+      "value": 0.02802814,
       "format": "ratio",
-      "change24h": 0.3108934206178302,
-      "change30d": -3.47270729770772
+      "change24h": 0.017349867752746457,
+      "change30d": -2.295837134367651
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 57.954220802313664,
+      "value": 57.980503526157754,
       "format": "percent",
-      "change24h": 1.531610632574787,
-      "change30d": -2.118536097939028
+      "change24h": 2.6266218741178404,
+      "change30d": -2.0276304636851648
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2097536941665.4265,
+      "value": 2116260569605.6633,
       "format": "usd-compact",
-      "change24h": 0.18161769155079038,
-      "change30d": -22.751514884366504
+      "change24h": -2.1709979666394372,
+      "change30d": -22.494850398066177
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 881925751082.5481,
+      "value": 889242035422.7655,
       "format": "usd-compact",
-      "change24h": -1.8651430362845778,
-      "change30d": -20.245081532391385
+      "change24h": -5.537029741478846,
+      "change30d": -20.08426873108146
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 675361151134.8309,
+      "value": 680347109561.1454,
       "format": "usd-compact",
-      "change24h": -2.9206092716329186,
-      "change30d": -17.73117425347007
+      "change24h": -7.29095895094096,
+      "change30d": -17.614228586657703
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 103.779,
+      "value": 103.713,
       "format": "index",
-      "change24h": 0.08004166023761612,
-      "change30d": 1.7142017053807657
+      "change24h": -0.061670697746135615,
+      "change30d": 1.3148768646145628
     },
     {
       "id": "us500",
@@ -102,10 +102,10 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 3569.875,
+      "value": 3615.85,
       "format": "usd",
-      "change24h": -0.5456252472516768,
-      "change30d": -11.146855496580775
+      "change24h": 0.7352080814384301,
+      "change30d": -10.947003141366418
     }
   ],
   "indicators": [
@@ -202,6 +202,13 @@
       "category": "PMI",
       "importance": "medium",
       "note": "ISM releases November 2026 Non-Manufacturing (Services) PMI at 10:00 AM ET; services sector activity closely watched given the Fed's focus on services inflation; a reading above 55 would reinforce the tight labor/services backdrop heading into the December 9 FOMC meeting; released one day before November NFP."
+    },
+    {
+      "date": "2026-12-04",
+      "title": "NFP (November 2026 Jobs Report)",
+      "category": "Labor",
+      "importance": "high",
+      "note": "BLS releases November 2026 Non-Farm Payrolls at 8:30 AM ET (first Friday of December); last major labor market print before the December 9 FOMC decision; a print above 200K alongside low unemployment would reinforce the rate action case; average hourly earnings closely watched for second-round inflation signals."
     }
   ],
   "sources": {
@@ -219,5 +226,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-11-26T17:20:07Z"
+  "cachedAtISO": "2026-11-27T02:24:23Z"
 }
