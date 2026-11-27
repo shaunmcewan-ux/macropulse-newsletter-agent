@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-27T02:24:23.623Z",
+  "generatedAt": "2026-11-27T16:59:15.484Z",
   "dial": {
     "state": "BTC Accumulation",
-    "summary": "Real yields fell to 2.72% after Oct PCE came in softer, narrowing the headwind from restrictive monetary conditions while DXY eased to 103.83 on the first post-Thanksgiving trading day — BTC stabilizes near $59–60K with TOTAL at ~$2.09T after the holiday-week pullback, and perp funding at 0.0014% signals minimal leverage; the low-funding, elevated BTC.D structure (~57–59%) with macro on a softening trajectory supports continued BTC Accumulation ahead of the Dec 1 ISM print and the Dec 9 FOMC decision.",
+    "summary": "BTC recovered above $60K in post-Thanksgiving Black Friday trading with perp funding at just 0.0038%, confirming the low-leverage accumulation structure as TOTAL market cap rebounded to $2.13T; DXY at 103.68 and TIPS real yields at 2.79% remain macro headwinds, but rising Global M2 at $104.2T with BTC.D firm at 57–59% sustains the BTC Accumulation case ahead of the Dec 1 ISM print and the Dec 9 FOMC decision.",
     "states": [
       "BTC Accumulation",
       "Alt Rotation",
@@ -14,82 +14,82 @@
     {
       "id": "btc",
       "label": "BTC / USD",
-      "value": 61221,
+      "value": 59978,
       "format": "usd",
-      "change24h": 0.39671,
-      "change30d": -24.8326
+      "change24h": -0.81138,
+      "change30d": -25.3572
     },
     {
       "id": "eth",
       "label": "ETH / USD",
-      "value": 1714.62,
+      "value": 1671.47,
       "format": "usd",
-      "change24h": 0.58874,
-      "change30d": -27.518
+      "change24h": -1.10452,
+      "change30d": -28.2504
     },
     {
       "id": "ethbtc",
       "label": "ETH / BTC",
-      "value": 0.02802814,
+      "value": 0.0278088,
       "format": "ratio",
-      "change24h": 0.017349867752746457,
-      "change30d": -2.295837134367651
+      "change24h": -0.5591066052999795,
+      "change30d": -4.723633220494971
     },
     {
       "id": "btcd",
       "label": "BTC Dominance",
-      "value": 57.980503526157754,
+      "value": 57.77630772864584,
       "format": "percent",
-      "change24h": 2.6266218741178404,
-      "change30d": -2.0276304636851648
+      "change24h": 2.2416605404974588,
+      "change30d": -2.4835764575484487
     },
     {
       "id": "total",
       "label": "TOTAL Market Cap",
-      "value": 2116260569605.6633,
+      "value": 2092316107968.244,
       "format": "usd-compact",
-      "change24h": -2.1709979666394372,
-      "change30d": -22.494850398066177
+      "change24h": -2.986151168082952,
+      "change30d": -23.805532599643918
     },
     {
       "id": "total2",
       "label": "TOTAL2 (ex-BTC)",
-      "value": 889242035422.7655,
+      "value": 883453114772.4856,
       "format": "usd-compact",
-      "change24h": -5.537029741478846,
-      "change30d": -20.08426873108146
+      "change24h": -5.799906807123785,
+      "change30d": -20.902823897131
     },
     {
       "id": "total3",
       "label": "TOTAL3 (ex-BTC, ex-ETH)",
-      "value": 680347109561.1454,
+      "value": 678778691402.4427,
       "format": "usd-compact",
-      "change24h": -7.29095895094096,
-      "change30d": -17.614228586657703
+      "change24h": -7.116770751668222,
+      "change30d": -17.994856243633084
     },
     {
       "id": "dxy",
       "label": "DXY (US Dollar Index)",
-      "value": 103.713,
+      "value": 103.994,
       "format": "index",
-      "change24h": -0.061670697746135615,
-      "change30d": 1.3148768646145628
+      "change24h": 0.20910220954546646,
+      "change30d": 1.589379389842425
     },
     {
       "id": "us500",
       "label": "S&P 500",
-      "value": 7201.09,
+      "value": 7182.78,
       "format": "index",
-      "change24h": -0.4985374117230897,
-      "change30d": -5.543123530893219
+      "change24h": -0.2542670623475113,
+      "change30d": -6.434867789447915
     },
     {
       "id": "ftse",
       "label": "FTSE 100",
-      "value": 10609.29,
+      "value": 10698.8,
       "format": "index",
-      "change24h": 1.748737646195677,
-      "change30d": -1.4721656492824318
+      "change24h": 0.8436945356380907,
+      "change30d": 0.110227172775936
     },
     {
       "id": "oil",
@@ -102,20 +102,20 @@
     {
       "id": "gold",
       "label": "Gold",
-      "value": 3615.85,
+      "value": 3634.94,
       "format": "usd",
-      "change24h": 0.7352080814384301,
-      "change30d": -10.947003141366418
+      "change24h": 1.267042953536187,
+      "change30d": -10.476844890877231
     }
   ],
   "indicators": [
     {
       "tier": 1,
       "name": "Global Liquidity (Global M2)",
-      "value": "$103.9T",
+      "value": "$104.2T",
       "trend": "up",
       "status": "supportive",
-      "note": "StreetStats 4-economy basket at $103.88T as of November 23, 2026 (most recent dated figure available); September 2026 G4 confirmed data is the base; US M2 component $23.41T in Sep (+5.7% YoY); 4-week trend UP; no YoY contraction signal; status supportive (4-week trend up); next G4 confirmation when October aggregates publish (US M2 next release December 22, 2026)."
+      "note": "StreetStats 4-economy basket at $104,174B ($104.2T) as of November 25, 2026 (metricsmonster.com tracker); 4-week trend UP — from ~$103.9T on Oct 27 to $104.2T on Nov 25 (+$0.3T); US M2 component ~$23.5T (+6.5% YoY); no YoY contraction signal; status supportive (4-week trend up); next US M2 release December 22, 2026."
     },
     {
       "tier": 1,
@@ -123,31 +123,31 @@
       "value": "55.5",
       "trend": "up",
       "status": "supportive",
-      "note": "October 2026 ISM Manufacturing PMI at 55.5% (released November 2, above consensus 54.6%), up from September's 54.5%; 4-week trend UP (Sep 54.5 → Oct 55.5, +1.0pp); Production sub-index 59.0 (highest since Nov 2021), New Orders 55.5; status supportive (above 50 and rising, 10th consecutive expansion month); November 2026 data not yet released — scheduled December 1, 2026 at 10:00 AM ET; MetaTrader consensus ~55.1."
+      "note": "October 2026 ISM Manufacturing PMI at 55.5% (released November 2, above consensus 54.6%), up from September's 54.5%; 4-week trend UP (Sep 54.5 → Oct 55.5, +1.0pp); Production sub-index 59.0 (highest since Nov 2021), New Orders 55.5, Employment 52.4; status supportive (above 50 and rising, 10th consecutive expansion month); November 2026 data scheduled December 1, 2026 at 10:00 AM ET; consensus ~55.0 (Trading Economics, Economy.com)."
     },
     {
       "tier": 1,
       "name": "DXY (US Dollar Index)",
-      "value": "103.83",
+      "value": "103.68",
       "trend": "up",
       "status": "headwind",
-      "note": "ICE DXY at 103.83 on November 26, 2026 (Trading Economics: 103.826, up 0.12% on the day; TMGM: near 103.85); DXY recovering from holiday-week low near 103.50 as dollar rebounds with AI trade; 4-week trend UP — from ~101.7 on October 23 to 103.83 on November 26, net +2.1 points (+2.1%), well above 0.5% flat threshold; status headwind (ICE DXY 103.83 is above 100 threshold)."
+      "note": "ICE DXY at 103.68 on November 27, 2026 (DealPlexus 103.68, Trading Economics 103.651, WellsTrack 103.68; day range 103.64–103.86); DXY eased slightly from 103.83 (Nov 26 settlement) in Black Friday shortened session; 4-week trend UP — Oct 27 close 102.32 (Investing.com, Yahoo Finance) vs Nov 27 103.68 = +1.36pts (+1.33%), above 0.5% flat threshold; status headwind (ICE DXY 103.68 above 100 threshold); 52-week range 95.55–104.53."
     },
     {
       "tier": 1,
       "name": "Real Yields (US10Y - CPI)",
-      "value": "2.72%",
-      "trend": "down",
-      "status": "supportive",
-      "note": "10-year TIPS real yield fell 7.74bps to 2.7226% at the November 25, 2026 New York close (Longbridge) after Oct PCE inflation data released — softer PCE drove a nominal Treasury rally; 4-week comparison: Oct 23 ~2.90% → Nov 25 ~2.72% = -18bps, exceeds 5bps flat threshold → trend DOWN; status supportive (falling trend, per scoring rules); prior run on Nov 25 cited 2.79% based on Nov 24 close before the PCE-driven move."
+      "value": "2.79%",
+      "trend": "up",
+      "status": "headwind",
+      "note": "10-year TIPS real yield (DFII10) at 2.79% as of November 24, 2026 (macrotrends, StreetStats, multiple independent sources confirmed); Nov 25 PCE release (core 3.3% YoY) may have caused a brief intraday dip; 4-week trend UP — Oct 27 close 2.64% (portfolio-terminal.com, treasuryratewatch.com) vs Nov 24 2.79% = +15bps, above 5bps flat threshold; status headwind (rising trend and above 2%); FRED API not accessible this session — values cross-verified from macrotrends and StreetStats."
     },
     {
       "tier": 1,
       "name": "2s10s Yield Curve",
-      "value": "+0.24%",
+      "value": "+0.21%",
       "trend": "down",
       "status": "neutral",
-      "note": "2s10s spread ~24bps as of November 25, 2026 close (2yr 4.61%, 10yr 4.85% per daily wrap; Stockmarketwatch Nov 24: 28bps; Nov 20 official Treasury par curve: 29bps); post-PCE front-end rally compressed the spread from prior +25bps; 4-week comparison: Oct 23 ~+40bps → Nov 26 ~+24bps = flattened ~16bps → trend DOWN (flattening); curve remains positive, well above -50bps headwind threshold; status neutral."
+      "note": "2s10s spread ~21bps as of November 25–27, 2026 (DWK Alpha Nov 27 morning note: 2yr 4.650%, 10yr 4.864% = +21.4bps; market recap: 4.61%/4.85% = +24bps; U.S. cash markets closed Nov 26 Thanksgiving); 4-week comparison: Oct 27 close 10yr 4.993%, 2yr 4.70% = +29.3bps (247wallst, portfolio-terminal) vs current +21bps = DOWN (flattened ~8bps); curve remains positive, well above -50bps headwind threshold; status neutral (positive but not steepening)."
     },
     {
       "tier": 1,
@@ -155,23 +155,23 @@
       "value": "$6.74T",
       "trend": "flat",
       "status": "supportive",
-      "note": "WALCL at $6,741,452M ($6.74T) as of November 18, 2026 per Federal Reserve H.4.1 (Nov 11: $6,758,867M; Oct 21: $6,753,604M); 4-week comparison: Oct 21 $6,753,604M → Nov 18 $6,741,452M = -$12.2B = -0.18%, within flat threshold; next H.4.1 release November 27, 2026 (covering Nov 25 Wednesday balance); status supportive (QT effectively paused, balance sheet stable); composition: Treasuries ~$4,587B, MBS ~$1,884B (Nov 11)."
+      "note": "WALCL at $6,741,452M ($6.74T) as of November 18, 2026 per Federal Reserve H.4.1 (Nov 11: $6,758,867M; Nov 4: $6,748,145M; Oct 21: $6,753,604M); Nov 27 H.4.1 release (covering Nov 25 balance) published today but federalreserve.gov not accessible from this cloud session — Nov 18 figure used as latest confirmed; 4-week comparison: Oct 27 est. ~$6.76T → Nov 18 $6.741T = -$19B = -0.28%, within flat threshold; status supportive (QT effectively paused, balance sheet stable)."
     },
     {
       "tier": 3,
       "name": "BTC Funding Rates (perps avg)",
-      "value": "0.0014%",
+      "value": "0.0038%",
       "trend": "flat",
       "status": "supportive",
-      "note": "BTC perpetual funding rate at ~0.0014% per 8h as of November 26, 2026 (Coinbase perp: 0.0014% with BTC ~$60,840; CoinPerps OI-weighted: +0.0029% as of Nov 17 close); rates stepped down from prior run's 0.0024% as BTC price consolidated in the $59–60K range; 30-day trend FLAT (consistently below 0.01%, near-zero throughout); status supportive (0.0014% far below 0.04% headwind threshold)."
+      "note": "BTC perpetual OI-weighted funding rate at 0.0038% per 8h as of November 27, 2026 (CoinGlass main BTC page: 0.0038%, ~4.2% annualized; CoinGlass futures page: 0.0054%); 30-day trend FLAT — consistently in the 0.001–0.005% range throughout November, confirming low-leverage positioning at $60K recovery; Au79 Macro (Nov 25): +0.0048% OI-weighted; status supportive (0.0038% far below 0.04% headwind threshold)."
     },
     {
       "tier": 3,
       "name": "Stablecoin Dominance",
-      "value": "13.8%",
+      "value": "13.6%",
       "trend": "up",
       "status": "neutral",
-      "note": "Total crypto market cap ~$2.09T on November 26, 2026 (CoinMarketCap: $2.08T, CoinGecko: $2.09T; BTC dominance 56–59% across sources; BTC ~$58,651–$60,609); stablecoin market cap ~$289B (CoinGecko); derived dominance ~13.8% ($289B/$2.09T); 30-day trend UP — from ~10.7% on October 23 (total market ~$2.6T) to ~13.8% now; status neutral (stablecoin dominance rising on 30-day basis but total market cap declined from ~$2.6T → ~$2.09T — headwind requires BOTH rising simultaneously, not met); TOTAL stabilizing after post-Thanksgiving dip."
+      "note": "Stablecoin market cap ~$289B in November 2026 (down from May peak $309.7B per CryptoBriefing); total crypto market cap ~$2.13T (Analytics Insight Nov 25: $2.13T, BTC dominance 55.9%; CryptoNews Nov 26: $2.15T, BTC above $60K; Gate.com BTC dominance 58.91%); derived dominance $289B/$2.13T ≈ 13.6%; 30-day trend UP — Oct 27 TOTAL ~$2.6T with stablecoin cap ~$295-300B ≈ 11.5% vs current 13.6%; status neutral (stablecoin dominance rising but total market cap declining — headwind requires BOTH rising simultaneously, not met); TOTAL recovering with BTC reclaiming $60K."
     }
   ],
   "upcoming": [
@@ -215,8 +215,8 @@
     "crypto": "CoinGecko",
     "tradfi": "FRED + Stooq",
     "marketsEndpoint": "markets",
-    "indicators": "2026-11-26",
-    "calendar": "2026-11-26"
+    "indicators": "2026-11-27",
+    "calendar": "2026-11-27"
   },
   "degraded": {
     "markets": false,
@@ -226,5 +226,5 @@
     "tv": false,
     "thirtyDay": false
   },
-  "cachedAtISO": "2026-11-27T02:24:23Z"
+  "cachedAtISO": "2026-11-27T16:59:15Z"
 }
