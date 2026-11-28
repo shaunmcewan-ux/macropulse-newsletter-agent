@@ -1,1 +1,6 @@
-{"ts":"2026-11-28T07:04:29Z","title":"MacroPulse Alert","priority":"default","message":""}
+{
+  "ts": "2026-11-28T15:04:45Z",
+  "title": "MacroPulse Alert",
+  "priority": "default",
+  "message": "BTC -3.7% (24h) → $59,170 | Black Friday bounce fully erased\nETH -4.5% (24h) → $1,650 | 8th consecutive ETF outflow session\nBTC ETF Nov outflows: $5.78B record monthly total (updated from $5.39B)\nUSD1 stablecoin briefly de-pegged to $0.94 on Binance"
+}

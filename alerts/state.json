@@ -1,8 +1,8 @@
 {
-  "lastRunISO": "2026-11-28T07:04:29Z",
+  "lastRunISO": "2026-11-28T15:04:45Z",
   "priceAlerts": {
-    "btc": { "pct": 4.7, "dir": "up", "ISO": "2026-11-26T15:05:22Z", "value": 60734 },
-    "eth": { "pct": -9.9, "dir": "down", "ISO": "2026-11-21T07:04:34Z", "value": 1560 },
+    "btc": { "pct": 3.7, "dir": "down", "ISO": "2026-11-28T15:04:45Z", "value": 59170 },
+    "eth": { "pct": 4.5, "dir": "down", "ISO": "2026-11-28T15:04:45Z", "value": 1650 },
     "btcd": { "pct": 3.232, "dir": "up", "ISO": "2026-11-22T15:05:10Z", "value": 58.03 },
     "total2": { "pct": -6.353, "dir": "down", "ISO": "2026-11-22T15:05:10Z", "value": 883626857097 },
     "total3": { "pct": -8.49, "dir": "down", "ISO": "2026-11-22T15:05:10Z", "value": 675268378586 },
@@ -37,6 +37,8 @@
     "btc-7b-options-expiry-nov27-2026": "2026-11-26T20:05:51Z",
     "btc-264m-short-liq-thanksgiving-nov26-2026": "2026-11-26T20:05:51Z",
     "btc-6.8b-options-settled-61.6k-no-swing-nov27-2026": "2026-11-27T15:05:45Z",
-    "btc-etf-5.39b-nov-outflows-confirmed-nov27-2026": "2026-11-27T15:05:45Z"
+    "btc-etf-5.39b-nov-outflows-confirmed-nov27-2026": "2026-11-27T15:05:45Z",
+    "usd1-binance-depeg-0.94-nov28-2026": "2026-11-28T15:04:45Z",
+    "btc-etf-578b-nov-monthly-outflows-record-nov28-2026": "2026-11-28T15:04:45Z"
   }
 }
