@@ -1,5 +1,5 @@
 {
-  "lastRunISO": "2026-11-28T15:04:45Z",
+  "lastRunISO": "2026-11-28T20:04:57Z",
   "priceAlerts": {
     "btc": { "pct": 3.7, "dir": "down", "ISO": "2026-11-28T15:04:45Z", "value": 59170 },
     "eth": { "pct": 4.5, "dir": "down", "ISO": "2026-11-28T15:04:45Z", "value": 1650 },
@@ -39,6 +39,9 @@
     "btc-6.8b-options-settled-61.6k-no-swing-nov27-2026": "2026-11-27T15:05:45Z",
     "btc-etf-5.39b-nov-outflows-confirmed-nov27-2026": "2026-11-27T15:05:45Z",
     "usd1-binance-depeg-0.94-nov28-2026": "2026-11-28T15:04:45Z",
-    "btc-etf-578b-nov-monthly-outflows-record-nov28-2026": "2026-11-28T15:04:45Z"
+    "btc-etf-578b-nov-monthly-outflows-record-nov28-2026": "2026-11-28T15:04:45Z",
+    "fed-dec9-fomc-blackout-starts-nov28-2026": "2026-11-28T20:04:57Z",
+    "btc-etf-389m-fresh-daily-outflow-nov28-eve-2026": "2026-11-28T20:04:57Z",
+    "btc-nov-20pct-monthly-loss-worst-jun2026": "2026-11-28T20:04:57Z"
   }
 }
